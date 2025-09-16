@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppModuleSiteMap xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SiteMapUniqueName>msfed_Core</SiteMapUniqueName>
+  <EnableCollapsibleGroups>False</EnableCollapsibleGroups>
+  <ShowHome>True</ShowHome>
+  <ShowPinned>True</ShowPinned>
+  <ShowRecents>True</ShowRecents>
+  <SiteMap IntroducedVersion="7.0.0.0">
+    <Area Id="area_adeda389" ResourceId="SitemapDesigner.NewTitle" DescriptionResourceId="SitemapDesigner.NewTitle" ShowGroups="true" IntroducedVersion="7.0.0.0">
+      <Titles>
+        <Title LCID="1033" Title="Core" />
+      </Titles>
+      <Group Id="group_e929eb95" ResourceId="SitemapDesigner.NewGroup" DescriptionResourceId="SitemapDesigner.NewGroup" IntroducedVersion="7.0.0.0" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+        <Titles>
+          <Title LCID="1033" Title="People" />
+        </Titles>
+        <SubArea Id="subarea_c30dac45" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="contact" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="NewSubArea_584ec27c" VectorIcon="/WebResources/govcdm_personaltypeicon" Icon="/WebResources/govcdm_personaltypeicon" Entity="govcdm_personneltype" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="subarea_0819dde1" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="govcdm_personalinformation" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="subarea_391036d8" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="govcdm_personalinformationtype" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="NewSubArea_d5dd589b" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="systemuser" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="NewSubArea_6f014fd3" VectorIcon="/WebResources/govcdm_organizationaluniticon" Icon="/WebResources/govcdm_organizationaluniticon" Entity="govcdm_organizationunit" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="NewSubArea_f0be3e6b" VectorIcon="/WebResources/govcdm_organizationalunittypeicon" Icon="/WebResources/govcdm_organizationalunittypeicon" Entity="govcdm_organizationunittype" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="NewSubArea_c03e2e21" VectorIcon="/WebResources/govcdm_organizationinitiativeicon" Icon="/WebResources/govcdm_organizationinitiativeicon" Entity="govcdm_organizationinitiative" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="NewSubArea_89575c8b" VectorIcon="/WebResources/govcdm_clearancelevelicon" Icon="/WebResources/govcdm_clearancelevelicon" Entity="govcdm_clearancelevel" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="NewSubArea_32424004" VectorIcon="/WebResources/govcdm_graderankicon" Icon="/WebResources/govcdm_graderankicon" Entity="govcdm_graderank" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="NewSubArea_7c26368d" VectorIcon="/WebResources/govcdm_paygradeicon" Entity="govcdm_paygrade" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="NewSubArea_6408e3f7" VectorIcon="/WebResources/govcdm_jobseriesicon" Icon="/WebResources/govcdm_jobseriesicon" Entity="govcdm_jobseries" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+      </Group>
+      <Group Id="NewGroup_abc7644d" ResourceId="SitemapDesigner.NewGroup" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+        <Titles>
+          <Title LCID="1033" Title="Places" />
+        </Titles>
+        <SubArea Id="subarea_329f7370" VectorIcon="/WebResources/govcdm_countryicon" Entity="govcdm_country" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="subarea_f1fd010a" VectorIcon="/WebResources/govcdm_stateorprovinceicon" Entity="govcdm_stateorprovince" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="subarea_6767c797" VectorIcon="/WebResources/govcdm_locationicon" Entity="govcdm_location" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+      </Group>
+      <Group Id="NewGroup_0902f13a" ResourceId="SitemapDesigner.NewGroup" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+        <Titles>
+          <Title LCID="1033" Title="Things" />
+        </Titles>
+        <SubArea Id="NewSubArea_04193c08" VectorIcon="/WebResources/govcdm_fiscalperiodicon" Entity="govcdm_fiscalperiod" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="subarea_1c042316" VectorIcon="/WebResources/govcdm_producticon" Entity="govcdm_product" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="NewSubArea_e7a79d78" VectorIcon="/WebResources/govcdm_privacyconsenticon" Entity="govcdm_privacyconsent" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="NewSubArea_32a629cf" VectorIcon="/WebResources/govcdm_signatureapprovalicon" Entity="govcdm_signatureapproval" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="NewSubArea_9bac6f5e" VectorIcon="/WebResources/govcdm_reviewapprovaldecisionicon" Entity="govcdm_reviewapprovaldecision" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+      </Group>
+      <Group Id="group_2fddc205" ResourceId="SitemapDesigner.NewGroup" DescriptionResourceId="SitemapDesigner.NewGroup" IntroducedVersion="7.0.0.0" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+        <Titles>
+          <Title LCID="1033" Title="Legal and Compliance" />
+        </Titles>
+        <SubArea Id="subarea_26b24fce" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="govcdm_legalauthority" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="subarea_486f6251" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="govcdm_analysis" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="subarea_2c806981" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="govcdm_impact" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="subarea_75209fc9" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="govcdm_riskitem" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="subarea_252935e2" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="govcdm_complianceframework" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="subarea_0a92d10f" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="govcdm_complianceframeworkcategory" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="subarea_0248cfbf" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="govcdm_compliancerequirement" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+      </Group>
+    </Area>
+  </SiteMap>
+  <LocalizedNames>
+    <LocalizedName description="Core" languagecode="1033" />
+  </LocalizedNames>
+</AppModuleSiteMap>

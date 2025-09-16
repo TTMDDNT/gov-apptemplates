@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{537687db-4982-48b1-8d1c-3f2bb3c9dff9}</savedqueryid>
+    <layoutxml>
+      <grid name="govcdm_organizationunits" jump="govcdm_name" select="1" icon="1" preview="1">
+        <row name="govcdm_organizationunit" id="govcdm_organizationunitid">
+          <cell name="govcdm_name" width="300" />
+          <cell name="govcdm_abbreviation" width="100" />
+          <cell name="govcdm_orgcode" width="100" />
+          <cell name="govcdm_organizationunittype" width="100" />
+          <cell name="govcdm_managedby" width="100" />
+          <cell name="govcdm_parentorganizationunit" width="100" />
+          <cell name="govcdm_description" width="100" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>2</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="govcdm_organizationunit">
+          <attribute name="govcdm_name" />
+          <attribute name="createdon" />
+          <order attribute="govcdm_name" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="govcdm_organizationunittype" />
+          <attribute name="govcdm_orgcode" />
+          <attribute name="govcdm_managedby" />
+          <attribute name="govcdm_description" />
+          <attribute name="govcdm_abbreviation" />
+          <attribute name="govcdm_parentorganizationunit" />
+          <attribute name="govcdm_organizationunitid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Organization Unit Associated View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{31c92231-c2c9-4103-a808-238dfa020808}</savedqueryid>
+    <layoutxml>
+      <grid name="govcdm_products" jump="govcdm_name" select="1" icon="1" preview="0">
+        <row name="govcdm_product" id="govcdm_productid">
+          <cell name="govcdm_name" width="300" />
+          <cell name="govcdm_productnumber" width="100" />
+          <cell name="govcdm_manufacturer" width="100" />
+          <cell name="govcdm_url" width="100" />
+          <cell name="govcdm_description" width="100" disableSorting="1" />
+          <cell name="govcdm_unitofissue" width="100" />
+          <cell name="govcdm_unitprice" width="100" />
+          <cell name="govcdm_parentproduct" width="100" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>64</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="govcdm_product">
+          <attribute name="govcdm_productid" />
+          <attribute name="govcdm_name" />
+          <attribute name="createdon" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <order attribute="govcdm_name" descending="false" />
+          <attribute name="govcdm_url" />
+          <attribute name="govcdm_unitprice" />
+          <attribute name="govcdm_unitofissue" />
+          <attribute name="govcdm_productnumber" />
+          <attribute name="govcdm_parentproduct" />
+          <attribute name="govcdm_manufacturer" />
+          <attribute name="govcdm_description" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Product Lookup View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

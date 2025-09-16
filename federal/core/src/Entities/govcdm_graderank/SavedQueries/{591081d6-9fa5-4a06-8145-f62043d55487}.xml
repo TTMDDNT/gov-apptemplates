@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{591081d6-9fa5-4a06-8145-f62043d55487}</savedqueryid>
+    <layoutxml>
+      <grid name="govcdm_graderanks" jump="govcdm_name" select="1" icon="1" preview="1">
+        <row name="govcdm_graderank" id="govcdm_graderankid">
+          <cell name="govcdm_name" width="300" />
+          <cell name="govcdm_abbreviation" width="100" />
+          <cell name="govcdm_paygrade" width="100" />
+          <cell name="govcdm_description" width="100" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>2</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="govcdm_graderank">
+          <attribute name="govcdm_name" />
+          <attribute name="createdon" />
+          <order attribute="govcdm_name" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="govcdm_paygrade" />
+          <attribute name="govcdm_description" />
+          <attribute name="govcdm_abbreviation" />
+          <attribute name="govcdm_graderankid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Grade-Rank Associated View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

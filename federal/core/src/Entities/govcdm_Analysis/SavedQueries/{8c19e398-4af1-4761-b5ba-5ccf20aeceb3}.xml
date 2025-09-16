@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{8c19e398-4af1-4761-b5ba-5ccf20aeceb3}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="govcdm_name" select="1" icon="1" preview="1">
+        <row name="result" id="govcdm_analysisid">
+          <cell name="govcdm_name" width="300" />
+          <cell name="govcdm_organizationunit" width="259" />
+          <cell name="govcdm_actionstatus" width="116" />
+          <cell name="govcdm_assessmentpoc" width="137" />
+          <cell name="govcdm_analysisfromdate" width="153" />
+          <cell name="govcdm_analysistodate" width="138" />
+          <cell name="govcdm_details" width="100" />
+          <cell name="govcdm_summary" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="govcdm_analysis">
+          <attribute name="govcdm_analysisid" />
+          <attribute name="govcdm_name" />
+          <order attribute="govcdm_name" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="govcdm_organizationunit" />
+          <attribute name="govcdm_actionstatus" />
+          <attribute name="govcdm_assessmentpoc" />
+          <attribute name="govcdm_analysisfromdate" />
+          <attribute name="govcdm_analysistodate" />
+          <attribute name="govcdm_details" />
+          <attribute name="govcdm_summary" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.1.1</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Analyses" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

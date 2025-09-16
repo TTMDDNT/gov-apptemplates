@@ -1,0 +1,93 @@
+
+function replacePrefixFromLookup(executionContext, sourceLookupField, targetTextField, newPrefix) {
+    var formContext = executionContext.getFormContext();
+
+    var lookupAttr = formContext.getAttribute(sourceLookupField);
+    var targetAttr = formContext.getAttribute(targetTextField);
+
+    if (!lookupAttr || !targetAttr) {
+        console.warn("One or both fields not found: ", sourceLookupField, targetTextField);
+        return;
+    }
+
+    var lookupValue = lookupAttr.getValue();
+
+    if (lookupValue !== null && lookupValue.length > 0) {
+        var sourceName = lookupValue[0].name;
+
+        var dashIndex = sourceName.indexOf("-");
+        if (dashIndex !== -1) {
+            var suffix = sourceName.substring(dashIndex + 1);
+            var newValue = newPrefix + "-" + suffix;
+
+            targetAttr.setValue(newValue);
+        } else {
+            console.warn("No dash found in source name: " + sourceName);
+        }
+    } else {
+        console.warn("Lookup field is empty.");
+    }
+}
+
+function generateFieldFromPattern(executionContext, targetField, pattern) {
+    var formContext = executionContext.getFormContext();
+    var targetAttr = formContext.getAttribute(targetField);
+
+    if (!targetAttr) {
+        console.warn("Target field not found: " + targetField);
+        return;
+    }
+
+    var regex = /\$\{([a-zA-Z0-9_.]+)\}/g;
+
+    var newValue = pattern.replace(regex, function (match, fieldPath) {
+        var parts = fieldPath.split(".");
+        var attr = formContext.getAttribute(parts[0]);
+
+        if (!attr) return "";
+
+        var value = attr.getValue();
+
+        if (value === null || value === undefined) return "";
+
+        // Handle lookup.name
+        if (parts.length === 2 && parts[1] === "name") {
+            return value[0]?.name || "";
+        }
+
+        // Handle option set label
+        if (attr.getAttributeType() === "optionset") {
+            var option = attr.getSelectedOption();
+            return option ? option.text : "";
+        }
+
+        // Handle date
+        if (attr.getAttributeType() === "datetime") {
+            return value.toISOString().split("T")[0]; // YYYY-MM-DD
+        }
+
+        return value.toString();
+    });
+
+    targetAttr.setValue(newValue);
+}
+
+function setupPatternWatcher(executionContext, targetField, pattern, watchedFields) {
+    var formContext = executionContext.getFormContext();
+
+    // Initial generation (e.g., onLoad)
+    generateFieldFromPattern(executionContext, targetField, pattern);
+
+    // Dynamically bind all watched field changes to regenerate
+    watchedFields.forEach(function(fieldName) {
+        var attr = formContext.getAttribute(fieldName);
+        if (attr) {
+            attr.removeOnChange(rebuild); // avoid double-binding
+            attr.addOnChange(rebuild);
+        }
+    });
+
+    function rebuild() {
+        generateFieldFromPattern({ getFormContext: () => formContext }, targetField, pattern);
+    }
+}

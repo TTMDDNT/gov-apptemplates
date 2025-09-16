@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{e749f78b-2b7f-43c8-ab1f-d8e9f9896c2f}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="govcdm_name" select="1" icon="1" preview="1">
+        <row name="result" id="govcdm_compliancerequirementid">
+          <cell name="govcdm_name" width="133" />
+          <cell name="govcdm_title" width="211" />
+          <cell name="govcdm_parentcompliancerequirement" width="223" />
+          <cell name="govcdm_complianceframework" width="248" />
+          <cell name="govcdm_description" width="262" />
+          <cell name="govcdm_url" width="300" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="govcdm_compliancerequirement">
+          <attribute name="govcdm_compliancerequirementid" />
+          <attribute name="govcdm_name" />
+          <order attribute="govcdm_name" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="govcdm_complianceframework" />
+          <attribute name="govcdm_title" />
+          <attribute name="govcdm_description" />
+          <attribute name="govcdm_url" />
+          <attribute name="govcdm_parentcompliancerequirement" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.7</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Compliance Requirements" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

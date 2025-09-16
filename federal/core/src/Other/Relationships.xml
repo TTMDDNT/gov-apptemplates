@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EntityRelationships xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <EntityRelationship Name="govcdm_govcdm_location_ParentLocation_govcdm_loc" />
+  <EntityRelationship Name="govcdm_govcdm_product_Manufacturer_account" />
+  <EntityRelationship Name="govcdm_govcdm_product_ParentProduct_govcdm_produ" />
+  <EntityRelationship Name="govcdm_govcdm_signatureapproval_SignedApprovedBy" />
+  <EntityRelationship Name="govcdm_graderank_govcdm_paygrade_govcdm_paygrade" />
+  <EntityRelationship Name="govcdm_location_Country_govcdm_country" />
+  <EntityRelationship Name="govcdm_location_StateorProvince_govcdm_stateorpr" />
+  <EntityRelationship Name="govcdm_organizationinitiative_govcdm_organizationinitiative_govcdm_parentinitiative" />
+  <EntityRelationship Name="govcdm_organizationinitiative_govcdm_organizationunit_govcdm_organizationunit" />
+  <EntityRelationship Name="govcdm_organizationunit_contact_govcdm_managedby" />
+  <EntityRelationship Name="govcdm_organizationunit_govcdm_organizationunittype_govcdm_organizationunittype" />
+  <EntityRelationship Name="govcdm_organizationunit_ParentOrganizationUnit_g" />
+  <EntityRelationship Name="govcdm_reviewapprovaldecision_contact_govcdm_reviewer" />
+  <EntityRelationship Name="govcdm_stateorprovince_govcdm_country_govcdm_country" />
+</EntityRelationships>

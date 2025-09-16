@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{3316c22d-d57b-4280-a1ff-c7de475c8555}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form maxWidth="400" solutionaction="Modified">
+      <tabs>
+        <tab name="general" verticallayout="true" id="{5501db2e-8170-417d-98e8-0cf8a007c82a}" IsUserDefined="0" ordinalvalue="0">
+          <columns>
+            <column width="25%" id="0">
+              <sections>
+                <section name="ColorStrip" showlabel="false" showbar="false" columns="1" IsUserDefined="0" id="{6db1f806-75af-4f6d-bf6b-52ae8a0af097}" ordinalvalue="0">
+                  <rows solutionaction="Added">
+                    <row>
+                      <cell id="{e2e9617f-870f-464c-aef4-11062fec643b}" showlabel="true" locklevel="0" ordinalvalue="10000">
+                        <labels>
+                          <label description="Status Reason" languagecode="1033" />
+                        </labels>
+                        <control id="statuscode" classid="{5D68B988-0661-4db2-BC3E-17598AD3BE6C}" datafieldname="statuscode" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="75%" id="1">
+              <sections>
+                <section name="CardHeader" showlabel="false" showbar="false" columns="111" id="{b5028e89-7e67-4dec-b7b5-374ff92a9b53}" IsUserDefined="0" ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell id="{e2e9617f-870f-464c-aef4-11062fec643b}" showlabel="true" locklevel="0" ordinalvalue="10000" solutionaction="Removed" />
+                      <cell id="{a1e2da7d-32e8-4b5d-ab0a-41694c3c0a1f}" showlabel="true" locklevel="0" ordinalvalue="20001" solutionaction="Removed" />
+                      <cell id="{a38667c9-45af-4061-ad86-db7c9fe453a4}" showlabel="true" locklevel="0" ordinalvalue="30002" solutionaction="Removed" />
+                    </row>
+                    <row>
+                      <cell id="{44ab6a9e-33cc-cdc8-bc6e-c897d699b81e}" showlabel="true" locklevel="0" ordinalvalue="10000" solutionaction="Added">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_unitofissue" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="govcdm_unitofissue" disabled="false" />
+                      </cell>
+                      <cell id="{3aae0033-7bd1-b59a-9e68-559ae145744c}" showlabel="true" locklevel="0" ordinalvalue="20001" solutionaction="Added">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_unitprice" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="govcdm_unitprice" disabled="false" />
+                      </cell>
+                      <cell id="{4662052d-e2e1-4775-51e2-ee6e68172dcd}" showlabel="true" locklevel="0" ordinalvalue="30002" solutionaction="Added">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_parentproduct" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="govcdm_parentproduct" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="CardDetails" showlabel="false" showbar="false" columns="1" id="{36baebeb-763f-48e1-b969-ca953afd102d}" IsUserDefined="0" ordinalvalue="1">
+                  <rows>
+                    <row>
+                      <cell id="{55f5dfa1-0410-4b86-809f-5091cb366216}" showlabel="true" locklevel="0" ordinalvalue="10001" solutionaction="Modified" />
+                    </row>
+                    <row>
+                      <cell id="{9ae4ec01-6ea3-cec5-7a19-49a977aa5e74}" showlabel="true" locklevel="0" ordinalvalue="10000" solutionaction="Added">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_productnumber" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="govcdm_productnumber" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{5dea406d-3d91-ea21-8bc8-75b7d2999857}" showlabel="true" locklevel="0" ordinalvalue="10002" solutionaction="Added">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_manufacturer" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="govcdm_manufacturer" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{bcdea0d9-8405-5a3d-6519-c40965a07882}" showlabel="true" locklevel="0" ordinalvalue="10003" solutionaction="Added">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_description" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="govcdm_description" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="CardFooter" showlabel="false" columns="1111" showbar="false" id="{4967e0d9-69a9-44c2-ac80-82b329f4d07e}" IsUserDefined="0" ordinalvalue="2">
+                  <rows>
+                    <row>
+                      <cell id="{789eda69-ecf5-446f-9caf-d22cfb67a264}" showlabel="true" locklevel="0" ordinalvalue="30002" solutionaction="Modified" />
+                      <cell id="{0e72f6ab-69e5-42a1-8ad9-9590e108d705}" showlabel="true" locklevel="0" ordinalvalue="40003" solutionaction="Modified" />
+                      <cell id="{a1b9fd02-07d7-4155-8240-786745739282}" showlabel="true" locklevel="0" ordinalvalue="30002" solutionaction="Removed" />
+                      <cell id="{d0dccb11-02ce-4f32-988b-11f413cd4406}" showlabel="true" locklevel="0" ordinalvalue="40003" solutionaction="Removed" />
+                    </row>
+                    <row>
+                      <cell id="{5c419ea7-b473-9167-e845-0b1e1d04d481}" showlabel="true" locklevel="0" ordinalvalue="10000" solutionaction="Added">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_url" classid="{71716B6C-711E-476c-8AB8-5D11542BFB47}" datafieldname="govcdm_url" disabled="false" />
+                      </cell>
+                      <cell id="{48da5160-1432-ab8e-18d9-3219be8991c7}" showlabel="false" ordinalvalue="20001" solutionaction="Added">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="Card" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A card form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>
