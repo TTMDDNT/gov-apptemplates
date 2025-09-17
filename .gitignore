@@ -6,6 +6,9 @@
 .venv
 docs 
 .github/
+.test/
+.scripts/convert/
+cross-module/
 
 # User-specific files
 *.rsuser
