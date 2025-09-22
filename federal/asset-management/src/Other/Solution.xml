@@ -1,0 +1,722 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImportExportXml version="9.2.23083.184" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SolutionManifest>
+    <UniqueName>msfed_assetmanagement</UniqueName>
+    <LocalizedNames>
+      <LocalizedName description="Microsoft Federal - Asset Management" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions />
+    <Version>1.0.0.1</Version>
+    <Managed>2</Managed>
+    <Publisher>
+      <UniqueName>microsoftfederal</UniqueName>
+      <LocalizedNames>
+        <LocalizedName description="Microsoft Federal" languagecode="1033" />
+      </LocalizedNames>
+      <Descriptions>
+        <Description description="microsoftfederal" languagecode="1033" />
+      </Descriptions>
+      <EMailAddress xsi:nil="true"></EMailAddress>
+      <SupportingWebsiteUrl xsi:nil="true"></SupportingWebsiteUrl>
+      <CustomizationPrefix>msfed</CustomizationPrefix>
+      <CustomizationOptionValuePrefix>18844</CustomizationOptionValuePrefix>
+      <Addresses>
+        <Address>
+          <AddressNumber>1</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+        <Address>
+          <AddressNumber>2</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+      </Addresses>
+    </Publisher>
+    <RootComponents>
+      <RootComponent type="1" schemaName="govcdm_asset" behavior="2" />
+      <RootComponent type="1" schemaName="govcdm_assetcategory" behavior="2" />
+      <RootComponent type="1" schemaName="govcdm_assetowner" behavior="2" />
+      <RootComponent type="1" schemaName="govcdm_assetservicerecord" behavior="2" />
+      <RootComponent type="1" schemaName="govcdm_product" behavior="2" />
+      <RootComponent type="62" schemaName="msfed_AssetManagement" behavior="0" />
+      <RootComponent type="80" schemaName="msfed_AssetManagement" behavior="0" />
+    </RootComponents>
+    <MissingDependencies>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_asset" displayName="Asset" solution="govcdm_assetmanagement (1.0.0.1)" />
+        <Dependent type="1" schemaName="govcdm_asset" displayName="Asset" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_asset" displayName="Asset" solution="govcdm_assetmanagement (1.0.0.1)" />
+        <Dependent type="62" schemaName="msfed_AssetManagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_asset" displayName="Asset" solution="govcdm_assetmanagement (1.0.0.1)" />
+        <Dependent type="80" schemaName="msfed_AssetManagement" displayName="Asset Management" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_assetcategory" displayName="Asset Category" solution="govcdm_assetmanagement (1.0.0.1)" />
+        <Dependent type="1" schemaName="govcdm_assetcategory" displayName="Asset Category" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_assetcategory" displayName="Asset Category" solution="govcdm_assetmanagement (1.0.0.1)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Asset Category" id="{98f918b0-f95e-ee11-be6f-6045bda7eb80}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_assetcategory" displayName="Asset Category" solution="govcdm_assetmanagement (1.0.0.1)" />
+        <Dependent type="62" schemaName="msfed_AssetManagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_assetcategory" displayName="Asset Category" solution="govcdm_assetmanagement (1.0.0.1)" />
+        <Dependent type="80" schemaName="msfed_AssetManagement" displayName="Asset Management" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_assetowner" displayName="Asset Owner" solution="govcdm_assetmanagement (1.0.0.1)" />
+        <Dependent type="1" schemaName="govcdm_assetowner" displayName="Asset Owner" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_assetowner" displayName="Asset Owner" solution="govcdm_assetmanagement (1.0.0.1)" />
+        <Dependent type="26" schemaName="Related Asset Owners" displayName="Related Asset Owners" parentSchemaName="govcdm_assetowner" parentDisplayName="Asset Owner" id="{82d654ef-fb5e-ee11-be6f-6045bda7eb80}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_assetowner" displayName="Asset Owner" solution="govcdm_assetmanagement (1.0.0.1)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Asset Owner" id="{8cb61d93-f65e-ee11-be6f-6045bda7eb80}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_assetowner" displayName="Asset Owner" solution="govcdm_assetmanagement (1.0.0.1)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Asset" id="{dbbe5988-ed95-4a66-ab55-b6e253268852}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_assetowner" displayName="Asset Owner" solution="govcdm_assetmanagement (1.0.0.1)" />
+        <Dependent type="80" schemaName="msfed_AssetManagement" displayName="Asset Management" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_assetservicerecord" displayName="Asset Service Record" solution="govcdm_assetmanagement (1.0.0.1)" />
+        <Dependent type="1" schemaName="govcdm_assetservicerecord" displayName="Asset Service Record" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_assetservicerecord" displayName="Asset Service Record" solution="govcdm_assetmanagement (1.0.0.1)" />
+        <Dependent type="26" schemaName="Related Asset Service Records" displayName="Related Asset Service Records" parentSchemaName="govcdm_assetservicerecord" parentDisplayName="Asset Service Record" id="{70b74706-fc5e-ee11-be6f-6045bda7eb80}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_assetservicerecord" displayName="Asset Service Record" solution="govcdm_assetmanagement (1.0.0.1)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Asset Service Record" id="{3a22750a-f75e-ee11-be6f-6045bda7eb80}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_assetservicerecord" displayName="Asset Service Record" solution="govcdm_assetmanagement (1.0.0.1)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Asset" id="{dbbe5988-ed95-4a66-ab55-b6e253268852}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_assetservicerecord" displayName="Asset Service Record" solution="govcdm_assetmanagement (1.0.0.1)" />
+        <Dependent type="80" schemaName="msfed_AssetManagement" displayName="Asset Management" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_product" displayName="Product" solution="govcdm_assetmanagement (1.0.0.1)" />
+        <Dependent type="1" schemaName="govcdm_product" displayName="Product" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_product" displayName="Product" solution="govcdm_assetmanagement (1.0.0.1)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Product" id="{43e23454-f95e-ee11-be6f-6045bda7eb80}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_product" displayName="Product" solution="govcdm_assetmanagement (1.0.0.1)" />
+        <Dependent type="62" schemaName="msfed_AssetManagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_product" displayName="Product" solution="govcdm_assetmanagement (1.0.0.1)" />
+        <Dependent type="80" schemaName="msfed_AssetManagement" displayName="Asset Management" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_govcdm_asset_AssetCategory_govcdm_assetca" displayName="govcdm_govcdm_asset_AssetCategory_govcdm_assetca" parentSchemaName="govcdm_assetcategory" parentDisplayName="Asset Category" solution="govcdm_assetmanagement (1.0.0.1)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Asset" id="{dbbe5988-ed95-4a66-ab55-b6e253268852}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_govcdm_asset_CurrentOwner_govcdm_assetown" displayName="govcdm_govcdm_asset_CurrentOwner_govcdm_assetown" parentSchemaName="govcdm_assetowner" parentDisplayName="Asset Owner" solution="govcdm_assetmanagement (1.0.0.1)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Asset" id="{dbbe5988-ed95-4a66-ab55-b6e253268852}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_govcdm_asset_ParentAsset_govcdm_asset" displayName="govcdm_govcdm_asset_ParentAsset_govcdm_asset" parentSchemaName="govcdm_asset" parentDisplayName="Asset" solution="govcdm_assetmanagement (1.0.0.1)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Asset" id="{dbbe5988-ed95-4a66-ab55-b6e253268852}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_govcdm_asset_RelatedProduct_govcdm_produc" displayName="govcdm_govcdm_asset_RelatedProduct_govcdm_produc" parentSchemaName="govcdm_product" parentDisplayName="Product" solution="govcdm_assetmanagement (1.0.0.1)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Asset" id="{dbbe5988-ed95-4a66-ab55-b6e253268852}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_govcdm_assetcategory_ParentAssetCategory_" displayName="govcdm_govcdm_assetcategory_ParentAssetCategory_" parentSchemaName="govcdm_assetcategory" parentDisplayName="Asset Category" solution="govcdm_assetmanagement (1.0.0.1)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Asset Category" id="{98f918b0-f95e-ee11-be6f-6045bda7eb80}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_govcdm_assetcategory_ParentAssetCategory_" displayName="govcdm_govcdm_assetcategory_ParentAssetCategory_" parentSchemaName="govcdm_assetcategory" parentDisplayName="Asset Category" solution="govcdm_assetmanagement (1.0.0.1)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Asset Category" id="{ef600ec6-0168-4a4e-b504-d3731ff94ff5}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_govcdm_assetowner_Asset_govcdm_asset" displayName="govcdm_govcdm_assetowner_Asset_govcdm_asset" parentSchemaName="govcdm_asset" parentDisplayName="Asset" solution="govcdm_assetmanagement (1.0.0.1)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Asset Owner" id="{8cb61d93-f65e-ee11-be6f-6045bda7eb80}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_govcdm_assetowner_Asset_govcdm_asset" displayName="govcdm_govcdm_assetowner_Asset_govcdm_asset" parentSchemaName="govcdm_asset" parentDisplayName="Asset" solution="govcdm_assetmanagement (1.0.0.1)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Asset Owner" id="{b9cff540-43b2-4df0-9b05-e154d6a99909}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_govcdm_assetowner_Asset_govcdm_asset" displayName="govcdm_govcdm_assetowner_Asset_govcdm_asset" parentSchemaName="govcdm_asset" parentDisplayName="Asset" solution="govcdm_assetmanagement (1.0.0.1)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Asset" id="{dbbe5988-ed95-4a66-ab55-b6e253268852}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_govcdm_assetowner_Person_contact" displayName="govcdm_govcdm_assetowner_Person_contact" parentSchemaName="contact" parentDisplayName="Person" solution="govcdm_assetmanagement (1.0.0.1)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Asset Owner" id="{8cb61d93-f65e-ee11-be6f-6045bda7eb80}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_govcdm_assetowner_Person_contact" displayName="govcdm_govcdm_assetowner_Person_contact" parentSchemaName="contact" parentDisplayName="Person" solution="govcdm_assetmanagement (1.0.0.1)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Asset Owner" id="{b9cff540-43b2-4df0-9b05-e154d6a99909}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_govcdm_assetservicerecord_Asset_govcdm_as" displayName="govcdm_govcdm_assetservicerecord_Asset_govcdm_as" parentSchemaName="govcdm_asset" parentDisplayName="Asset" solution="govcdm_assetmanagement (1.0.0.1)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Asset Service Record" id="{20bec5c9-e74f-4258-aaa8-8dec78f5815e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_govcdm_assetservicerecord_Asset_govcdm_as" displayName="govcdm_govcdm_assetservicerecord_Asset_govcdm_as" parentSchemaName="govcdm_asset" parentDisplayName="Asset" solution="govcdm_assetmanagement (1.0.0.1)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Asset Service Record" id="{3a22750a-f75e-ee11-be6f-6045bda7eb80}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_govcdm_assetservicerecord_Asset_govcdm_as" displayName="govcdm_govcdm_assetservicerecord_Asset_govcdm_as" parentSchemaName="govcdm_asset" parentDisplayName="Asset" solution="govcdm_assetmanagement (1.0.0.1)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Asset" id="{dbbe5988-ed95-4a66-ab55-b6e253268852}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_govcdm_assetservicerecord_ServiceLocation" displayName="govcdm_govcdm_assetservicerecord_ServiceLocation" parentSchemaName="govcdm_location" parentDisplayName="Location" solution="govcdm_assetmanagement (1.0.0.1)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Asset Service Record" id="{20bec5c9-e74f-4258-aaa8-8dec78f5815e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_govcdm_assetservicerecord_ServiceLocation" displayName="govcdm_govcdm_assetservicerecord_ServiceLocation" parentSchemaName="govcdm_location" parentDisplayName="Location" solution="govcdm_assetmanagement (1.0.0.1)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Asset Service Record" id="{3a22750a-f75e-ee11-be6f-6045bda7eb80}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_govcdm_product_Manufacturer_account" displayName="govcdm_govcdm_product_Manufacturer_account" parentSchemaName="account" parentDisplayName="Account" solution="govcdm_assetmanagement (1.0.0.1)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Product" id="{43e23454-f95e-ee11-be6f-6045bda7eb80}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_govcdm_product_Manufacturer_account" displayName="govcdm_govcdm_product_Manufacturer_account" parentSchemaName="account" parentDisplayName="Account" solution="govcdm_assetmanagement (1.0.0.1)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Product" id="{9c58aaa5-256e-46d4-966d-ffb9f286fc63}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_govcdm_product_ParentProduct_govcdm_produ" displayName="govcdm_govcdm_product_ParentProduct_govcdm_produ" parentSchemaName="govcdm_product" parentDisplayName="Product" solution="govcdm_assetmanagement (1.0.0.1)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Product" id="{9c58aaa5-256e-46d4-966d-ffb9f286fc63}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="createdon" displayName="Created On" parentSchemaName="govcdm_assetcategory" parentDisplayName="Asset Category" solution="govcdm_assetmanagement (1.0.0.1)" />
+        <Dependent type="26" schemaName="Active Asset Categories" displayName="Active Asset Categories" parentSchemaName="govcdm_assetcategory" parentDisplayName="Asset Category" id="{da1a288d-4cbd-42d9-9b04-a4534f930d2b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="createdon" displayName="Created On" parentSchemaName="govcdm_assetowner" parentDisplayName="Asset Owner" solution="govcdm_assetmanagement (1.0.0.1)" />
+        <Dependent type="26" schemaName="Active Asset Owners" displayName="Active Asset Owners" parentSchemaName="govcdm_assetowner" parentDisplayName="Asset Owner" id="{188e0ad1-b5d2-4542-9b02-cb4c2176fead}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="createdon" displayName="Created On" parentSchemaName="govcdm_assetowner" parentDisplayName="Asset Owner" solution="govcdm_assetmanagement (1.0.0.1)" />
+        <Dependent type="26" schemaName="Related Asset Owners" displayName="Related Asset Owners" parentSchemaName="govcdm_assetowner" parentDisplayName="Asset Owner" id="{82d654ef-fb5e-ee11-be6f-6045bda7eb80}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="createdon" displayName="Created On" parentSchemaName="govcdm_product" parentDisplayName="Product" solution="govcdm_assetmanagement (1.0.0.1)" />
+        <Dependent type="26" schemaName="Active Products" displayName="Active Products" parentSchemaName="govcdm_product" parentDisplayName="Product" id="{ba625fea-c61d-41dd-80d2-4cadf4e4f600}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_acquireddatetime" displayName="Acquired Date Time" parentSchemaName="govcdm_asset" parentDisplayName="Asset" solution="govcdm_assetmanagement (1.0.0.1)" />
+        <Dependent type="26" schemaName="Active Assets" displayName="Active Assets" parentSchemaName="govcdm_asset" parentDisplayName="Asset" id="{bab44290-fe08-4172-a208-c3d7b359ee4c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_acquireddatetime" displayName="Acquired Date Time" parentSchemaName="govcdm_asset" parentDisplayName="Asset" solution="govcdm_assetmanagement (1.0.0.1)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Asset" id="{dbbe5988-ed95-4a66-ab55-b6e253268852}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_actualreturndatetime" displayName="Actual Return Date Time" parentSchemaName="govcdm_assetservicerecord" parentDisplayName="Asset Service Record" solution="govcdm_assetmanagement (1.0.0.1)" />
+        <Dependent type="26" schemaName="Active Asset Service Records" displayName="Active Asset Service Records" parentSchemaName="govcdm_assetservicerecord" parentDisplayName="Asset Service Record" id="{5508db89-bb19-410e-9871-798948825a94}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_actualreturndatetime" displayName="Actual Return Date Time" parentSchemaName="govcdm_assetservicerecord" parentDisplayName="Asset Service Record" solution="govcdm_assetmanagement (1.0.0.1)" />
+        <Dependent type="26" schemaName="Related Asset Service Records" displayName="Related Asset Service Records" parentSchemaName="govcdm_assetservicerecord" parentDisplayName="Asset Service Record" id="{70b74706-fc5e-ee11-be6f-6045bda7eb80}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_actualreturndatetime" displayName="Actual Return Date Time" parentSchemaName="govcdm_assetservicerecord" parentDisplayName="Asset Service Record" solution="govcdm_assetmanagement (1.0.0.1)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Asset Service Record" id="{20bec5c9-e74f-4258-aaa8-8dec78f5815e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_actualreturndatetime" displayName="Actual Return Date Time" parentSchemaName="govcdm_assetservicerecord" parentDisplayName="Asset Service Record" solution="govcdm_assetmanagement (1.0.0.1)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Asset Service Record" id="{3a22750a-f75e-ee11-be6f-6045bda7eb80}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_asset" displayName="Asset" parentSchemaName="govcdm_assetowner" parentDisplayName="Asset Owner" solution="govcdm_assetmanagement (1.0.0.1)" />
+        <Dependent type="26" schemaName="Active Asset Owners" displayName="Active Asset Owners" parentSchemaName="govcdm_assetowner" parentDisplayName="Asset Owner" id="{188e0ad1-b5d2-4542-9b02-cb4c2176fead}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_asset" displayName="Asset" parentSchemaName="govcdm_assetowner" parentDisplayName="Asset Owner" solution="govcdm_assetmanagement (1.0.0.1)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Asset Owner" id="{8cb61d93-f65e-ee11-be6f-6045bda7eb80}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_asset" displayName="Asset" parentSchemaName="govcdm_assetowner" parentDisplayName="Asset Owner" solution="govcdm_assetmanagement (1.0.0.1)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Asset Owner" id="{b9cff540-43b2-4df0-9b05-e154d6a99909}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_asset" displayName="Asset" parentSchemaName="govcdm_assetservicerecord" parentDisplayName="Asset Service Record" solution="govcdm_assetmanagement (1.0.0.1)" />
+        <Dependent type="26" schemaName="Active Asset Service Records" displayName="Active Asset Service Records" parentSchemaName="govcdm_assetservicerecord" parentDisplayName="Asset Service Record" id="{5508db89-bb19-410e-9871-798948825a94}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_asset" displayName="Asset" parentSchemaName="govcdm_assetservicerecord" parentDisplayName="Asset Service Record" solution="govcdm_assetmanagement (1.0.0.1)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Asset Service Record" id="{20bec5c9-e74f-4258-aaa8-8dec78f5815e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_asset" displayName="Asset" parentSchemaName="govcdm_assetservicerecord" parentDisplayName="Asset Service Record" solution="govcdm_assetmanagement (1.0.0.1)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Asset Service Record" id="{3a22750a-f75e-ee11-be6f-6045bda7eb80}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_assetcategory" displayName="Asset Category" parentSchemaName="govcdm_asset" parentDisplayName="Asset" solution="govcdm_assetmanagement (1.0.0.1)" />
+        <Dependent type="26" schemaName="Active Assets" displayName="Active Assets" parentSchemaName="govcdm_asset" parentDisplayName="Asset" id="{bab44290-fe08-4172-a208-c3d7b359ee4c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_assetcategory" displayName="Asset Category" parentSchemaName="govcdm_asset" parentDisplayName="Asset" solution="govcdm_assetmanagement (1.0.0.1)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Asset" id="{dbbe5988-ed95-4a66-ab55-b6e253268852}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_assetcategoryid" displayName="Asset Category" parentSchemaName="govcdm_assetcategory" parentDisplayName="Asset Category" solution="govcdm_assetmanagement (1.0.0.1)" />
+        <Dependent type="26" schemaName="Active Asset Categories" displayName="Active Asset Categories" parentSchemaName="govcdm_assetcategory" parentDisplayName="Asset Category" id="{da1a288d-4cbd-42d9-9b04-a4534f930d2b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_assetid" displayName="Asset" parentSchemaName="govcdm_asset" parentDisplayName="Asset" solution="govcdm_assetmanagement (1.0.0.1)" />
+        <Dependent type="26" schemaName="Active Assets" displayName="Active Assets" parentSchemaName="govcdm_asset" parentDisplayName="Asset" id="{bab44290-fe08-4172-a208-c3d7b359ee4c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_assetnumber" displayName="Asset Number" parentSchemaName="govcdm_asset" parentDisplayName="Asset" solution="govcdm_assetmanagement (1.0.0.1)" />
+        <Dependent type="26" schemaName="Active Assets" displayName="Active Assets" parentSchemaName="govcdm_asset" parentDisplayName="Asset" id="{bab44290-fe08-4172-a208-c3d7b359ee4c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_assetnumber" displayName="Asset Number" parentSchemaName="govcdm_asset" parentDisplayName="Asset" solution="govcdm_assetmanagement (1.0.0.1)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Asset" id="{dbbe5988-ed95-4a66-ab55-b6e253268852}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_assetownerid" displayName="Asset Owner" parentSchemaName="govcdm_assetowner" parentDisplayName="Asset Owner" solution="govcdm_assetmanagement (1.0.0.1)" />
+        <Dependent type="26" schemaName="Active Asset Owners" displayName="Active Asset Owners" parentSchemaName="govcdm_assetowner" parentDisplayName="Asset Owner" id="{188e0ad1-b5d2-4542-9b02-cb4c2176fead}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_assetownerid" displayName="Asset Owner" parentSchemaName="govcdm_assetowner" parentDisplayName="Asset Owner" solution="govcdm_assetmanagement (1.0.0.1)" />
+        <Dependent type="26" schemaName="Related Asset Owners" displayName="Related Asset Owners" parentSchemaName="govcdm_assetowner" parentDisplayName="Asset Owner" id="{82d654ef-fb5e-ee11-be6f-6045bda7eb80}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_assetservicerecordid" displayName="Asset Service Record" parentSchemaName="govcdm_assetservicerecord" parentDisplayName="Asset Service Record" solution="govcdm_assetmanagement (1.0.0.1)" />
+        <Dependent type="26" schemaName="Active Asset Service Records" displayName="Active Asset Service Records" parentSchemaName="govcdm_assetservicerecord" parentDisplayName="Asset Service Record" id="{5508db89-bb19-410e-9871-798948825a94}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_assetservicerecordid" displayName="Asset Service Record" parentSchemaName="govcdm_assetservicerecord" parentDisplayName="Asset Service Record" solution="govcdm_assetmanagement (1.0.0.1)" />
+        <Dependent type="26" schemaName="Related Asset Service Records" displayName="Related Asset Service Records" parentSchemaName="govcdm_assetservicerecord" parentDisplayName="Asset Service Record" id="{70b74706-fc5e-ee11-be6f-6045bda7eb80}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_currentowner" displayName="Current Owner" parentSchemaName="govcdm_asset" parentDisplayName="Asset" solution="govcdm_assetmanagement (1.0.0.1)" />
+        <Dependent type="26" schemaName="Active Assets" displayName="Active Assets" parentSchemaName="govcdm_asset" parentDisplayName="Asset" id="{bab44290-fe08-4172-a208-c3d7b359ee4c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_currentowner" displayName="Current Owner" parentSchemaName="govcdm_asset" parentDisplayName="Asset" solution="govcdm_assetmanagement (1.0.0.1)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Asset" id="{dbbe5988-ed95-4a66-ab55-b6e253268852}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_description" displayName="Description" parentSchemaName="govcdm_asset" parentDisplayName="Asset" solution="govcdm_assetmanagement (1.0.0.1)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Asset" id="{dbbe5988-ed95-4a66-ab55-b6e253268852}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_description" displayName="Description" parentSchemaName="govcdm_product" parentDisplayName="Product" solution="govcdm_assetmanagement (1.0.0.1)" />
+        <Dependent type="26" schemaName="Active Products" displayName="Active Products" parentSchemaName="govcdm_product" parentDisplayName="Product" id="{ba625fea-c61d-41dd-80d2-4cadf4e4f600}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_description" displayName="Description" parentSchemaName="govcdm_product" parentDisplayName="Product" solution="govcdm_assetmanagement (1.0.0.1)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Product" id="{43e23454-f95e-ee11-be6f-6045bda7eb80}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_description" displayName="Description" parentSchemaName="govcdm_product" parentDisplayName="Product" solution="govcdm_assetmanagement (1.0.0.1)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Product" id="{9c58aaa5-256e-46d4-966d-ffb9f286fc63}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_expectedreturndatetime" displayName="Expected Return Date Time" parentSchemaName="govcdm_assetservicerecord" parentDisplayName="Asset Service Record" solution="govcdm_assetmanagement (1.0.0.1)" />
+        <Dependent type="26" schemaName="Active Asset Service Records" displayName="Active Asset Service Records" parentSchemaName="govcdm_assetservicerecord" parentDisplayName="Asset Service Record" id="{5508db89-bb19-410e-9871-798948825a94}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_expectedreturndatetime" displayName="Expected Return Date Time" parentSchemaName="govcdm_assetservicerecord" parentDisplayName="Asset Service Record" solution="govcdm_assetmanagement (1.0.0.1)" />
+        <Dependent type="26" schemaName="Related Asset Service Records" displayName="Related Asset Service Records" parentSchemaName="govcdm_assetservicerecord" parentDisplayName="Asset Service Record" id="{70b74706-fc5e-ee11-be6f-6045bda7eb80}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_expectedreturndatetime" displayName="Expected Return Date Time" parentSchemaName="govcdm_assetservicerecord" parentDisplayName="Asset Service Record" solution="govcdm_assetmanagement (1.0.0.1)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Asset Service Record" id="{20bec5c9-e74f-4258-aaa8-8dec78f5815e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_expectedreturndatetime" displayName="Expected Return Date Time" parentSchemaName="govcdm_assetservicerecord" parentDisplayName="Asset Service Record" solution="govcdm_assetmanagement (1.0.0.1)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Asset Service Record" id="{3a22750a-f75e-ee11-be6f-6045bda7eb80}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_manufacturer" displayName="Manufacturer" parentSchemaName="govcdm_product" parentDisplayName="Product" solution="govcdm_assetmanagement (1.0.0.1)" />
+        <Dependent type="26" schemaName="Active Products" displayName="Active Products" parentSchemaName="govcdm_product" parentDisplayName="Product" id="{ba625fea-c61d-41dd-80d2-4cadf4e4f600}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_manufacturer" displayName="Manufacturer" parentSchemaName="govcdm_product" parentDisplayName="Product" solution="govcdm_assetmanagement (1.0.0.1)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Product" id="{43e23454-f95e-ee11-be6f-6045bda7eb80}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_manufacturer" displayName="Manufacturer" parentSchemaName="govcdm_product" parentDisplayName="Product" solution="govcdm_assetmanagement (1.0.0.1)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Product" id="{9c58aaa5-256e-46d4-966d-ffb9f286fc63}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_asset" parentDisplayName="Asset" solution="govcdm_assetmanagement (1.0.0.1)" />
+        <Dependent type="26" schemaName="Active Assets" displayName="Active Assets" parentSchemaName="govcdm_asset" parentDisplayName="Asset" id="{bab44290-fe08-4172-a208-c3d7b359ee4c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_asset" parentDisplayName="Asset" solution="govcdm_assetmanagement (1.0.0.1)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Asset" id="{dbbe5988-ed95-4a66-ab55-b6e253268852}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_assetcategory" parentDisplayName="Asset Category" solution="govcdm_assetmanagement (1.0.0.1)" />
+        <Dependent type="26" schemaName="Active Asset Categories" displayName="Active Asset Categories" parentSchemaName="govcdm_assetcategory" parentDisplayName="Asset Category" id="{da1a288d-4cbd-42d9-9b04-a4534f930d2b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_assetcategory" parentDisplayName="Asset Category" solution="govcdm_assetmanagement (1.0.0.1)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Asset Category" id="{98f918b0-f95e-ee11-be6f-6045bda7eb80}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_assetcategory" parentDisplayName="Asset Category" solution="govcdm_assetmanagement (1.0.0.1)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Asset Category" id="{ef600ec6-0168-4a4e-b504-d3731ff94ff5}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_assetowner" parentDisplayName="Asset Owner" solution="govcdm_assetmanagement (1.0.0.1)" />
+        <Dependent type="26" schemaName="Active Asset Owners" displayName="Active Asset Owners" parentSchemaName="govcdm_assetowner" parentDisplayName="Asset Owner" id="{188e0ad1-b5d2-4542-9b02-cb4c2176fead}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_assetowner" parentDisplayName="Asset Owner" solution="govcdm_assetmanagement (1.0.0.1)" />
+        <Dependent type="26" schemaName="Related Asset Owners" displayName="Related Asset Owners" parentSchemaName="govcdm_assetowner" parentDisplayName="Asset Owner" id="{82d654ef-fb5e-ee11-be6f-6045bda7eb80}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_assetowner" parentDisplayName="Asset Owner" solution="govcdm_assetmanagement (1.0.0.1)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Asset Owner" id="{b9cff540-43b2-4df0-9b05-e154d6a99909}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_assetservicerecord" parentDisplayName="Asset Service Record" solution="govcdm_assetmanagement (1.0.0.1)" />
+        <Dependent type="26" schemaName="Active Asset Service Records" displayName="Active Asset Service Records" parentSchemaName="govcdm_assetservicerecord" parentDisplayName="Asset Service Record" id="{5508db89-bb19-410e-9871-798948825a94}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_assetservicerecord" parentDisplayName="Asset Service Record" solution="govcdm_assetmanagement (1.0.0.1)" />
+        <Dependent type="26" schemaName="Related Asset Service Records" displayName="Related Asset Service Records" parentSchemaName="govcdm_assetservicerecord" parentDisplayName="Asset Service Record" id="{70b74706-fc5e-ee11-be6f-6045bda7eb80}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_assetservicerecord" parentDisplayName="Asset Service Record" solution="govcdm_assetmanagement (1.0.0.1)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Asset Service Record" id="{20bec5c9-e74f-4258-aaa8-8dec78f5815e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_product" parentDisplayName="Product" solution="govcdm_assetmanagement (1.0.0.1)" />
+        <Dependent type="26" schemaName="Active Products" displayName="Active Products" parentSchemaName="govcdm_product" parentDisplayName="Product" id="{ba625fea-c61d-41dd-80d2-4cadf4e4f600}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_product" parentDisplayName="Product" solution="govcdm_assetmanagement (1.0.0.1)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Product" id="{43e23454-f95e-ee11-be6f-6045bda7eb80}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_product" parentDisplayName="Product" solution="govcdm_assetmanagement (1.0.0.1)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Product" id="{9c58aaa5-256e-46d4-966d-ffb9f286fc63}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_ownedfromdatetime" displayName="Owned From Date Time" parentSchemaName="govcdm_assetowner" parentDisplayName="Asset Owner" solution="govcdm_assetmanagement (1.0.0.1)" />
+        <Dependent type="26" schemaName="Active Asset Owners" displayName="Active Asset Owners" parentSchemaName="govcdm_assetowner" parentDisplayName="Asset Owner" id="{188e0ad1-b5d2-4542-9b02-cb4c2176fead}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_ownedfromdatetime" displayName="Owned From Date Time" parentSchemaName="govcdm_assetowner" parentDisplayName="Asset Owner" solution="govcdm_assetmanagement (1.0.0.1)" />
+        <Dependent type="26" schemaName="Related Asset Owners" displayName="Related Asset Owners" parentSchemaName="govcdm_assetowner" parentDisplayName="Asset Owner" id="{82d654ef-fb5e-ee11-be6f-6045bda7eb80}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_ownedfromdatetime" displayName="Owned From Date Time" parentSchemaName="govcdm_assetowner" parentDisplayName="Asset Owner" solution="govcdm_assetmanagement (1.0.0.1)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Asset Owner" id="{8cb61d93-f65e-ee11-be6f-6045bda7eb80}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_ownedfromdatetime" displayName="Owned From Date Time" parentSchemaName="govcdm_assetowner" parentDisplayName="Asset Owner" solution="govcdm_assetmanagement (1.0.0.1)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Asset Owner" id="{b9cff540-43b2-4df0-9b05-e154d6a99909}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_ownedtodatetime" displayName="Owned To Date Time" parentSchemaName="govcdm_assetowner" parentDisplayName="Asset Owner" solution="govcdm_assetmanagement (1.0.0.1)" />
+        <Dependent type="26" schemaName="Active Asset Owners" displayName="Active Asset Owners" parentSchemaName="govcdm_assetowner" parentDisplayName="Asset Owner" id="{188e0ad1-b5d2-4542-9b02-cb4c2176fead}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_ownedtodatetime" displayName="Owned To Date Time" parentSchemaName="govcdm_assetowner" parentDisplayName="Asset Owner" solution="govcdm_assetmanagement (1.0.0.1)" />
+        <Dependent type="26" schemaName="Related Asset Owners" displayName="Related Asset Owners" parentSchemaName="govcdm_assetowner" parentDisplayName="Asset Owner" id="{82d654ef-fb5e-ee11-be6f-6045bda7eb80}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_ownedtodatetime" displayName="Owned To Date Time" parentSchemaName="govcdm_assetowner" parentDisplayName="Asset Owner" solution="govcdm_assetmanagement (1.0.0.1)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Asset Owner" id="{8cb61d93-f65e-ee11-be6f-6045bda7eb80}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_ownedtodatetime" displayName="Owned To Date Time" parentSchemaName="govcdm_assetowner" parentDisplayName="Asset Owner" solution="govcdm_assetmanagement (1.0.0.1)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Asset Owner" id="{b9cff540-43b2-4df0-9b05-e154d6a99909}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_parentasset" displayName="Parent Asset" parentSchemaName="govcdm_asset" parentDisplayName="Asset" solution="govcdm_assetmanagement (1.0.0.1)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Asset" id="{dbbe5988-ed95-4a66-ab55-b6e253268852}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_parentassetcategory" displayName="Parent Asset Category" parentSchemaName="govcdm_assetcategory" parentDisplayName="Asset Category" solution="govcdm_assetmanagement (1.0.0.1)" />
+        <Dependent type="26" schemaName="Active Asset Categories" displayName="Active Asset Categories" parentSchemaName="govcdm_assetcategory" parentDisplayName="Asset Category" id="{da1a288d-4cbd-42d9-9b04-a4534f930d2b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_parentassetcategory" displayName="Parent Asset Category" parentSchemaName="govcdm_assetcategory" parentDisplayName="Asset Category" solution="govcdm_assetmanagement (1.0.0.1)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Asset Category" id="{98f918b0-f95e-ee11-be6f-6045bda7eb80}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_parentassetcategory" displayName="Parent Asset Category" parentSchemaName="govcdm_assetcategory" parentDisplayName="Asset Category" solution="govcdm_assetmanagement (1.0.0.1)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Asset Category" id="{ef600ec6-0168-4a4e-b504-d3731ff94ff5}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_parentproduct" displayName="Parent Product" parentSchemaName="govcdm_product" parentDisplayName="Product" solution="govcdm_assetmanagement (1.0.0.1)" />
+        <Dependent type="26" schemaName="Active Products" displayName="Active Products" parentSchemaName="govcdm_product" parentDisplayName="Product" id="{ba625fea-c61d-41dd-80d2-4cadf4e4f600}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_person" displayName="Person" parentSchemaName="govcdm_assetowner" parentDisplayName="Asset Owner" solution="govcdm_assetmanagement (1.0.0.1)" />
+        <Dependent type="26" schemaName="Active Asset Owners" displayName="Active Asset Owners" parentSchemaName="govcdm_assetowner" parentDisplayName="Asset Owner" id="{188e0ad1-b5d2-4542-9b02-cb4c2176fead}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_person" displayName="Person" parentSchemaName="govcdm_assetowner" parentDisplayName="Asset Owner" solution="govcdm_assetmanagement (1.0.0.1)" />
+        <Dependent type="26" schemaName="Related Asset Owners" displayName="Related Asset Owners" parentSchemaName="govcdm_assetowner" parentDisplayName="Asset Owner" id="{82d654ef-fb5e-ee11-be6f-6045bda7eb80}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_person" displayName="Person" parentSchemaName="govcdm_assetowner" parentDisplayName="Asset Owner" solution="govcdm_assetmanagement (1.0.0.1)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Asset Owner" id="{8cb61d93-f65e-ee11-be6f-6045bda7eb80}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_person" displayName="Person" parentSchemaName="govcdm_assetowner" parentDisplayName="Asset Owner" solution="govcdm_assetmanagement (1.0.0.1)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Asset Owner" id="{b9cff540-43b2-4df0-9b05-e154d6a99909}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_productid" displayName="Product" parentSchemaName="govcdm_product" parentDisplayName="Product" solution="govcdm_assetmanagement (1.0.0.1)" />
+        <Dependent type="26" schemaName="Active Products" displayName="Active Products" parentSchemaName="govcdm_product" parentDisplayName="Product" id="{ba625fea-c61d-41dd-80d2-4cadf4e4f600}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_relatedproduct" displayName="Related Product" parentSchemaName="govcdm_asset" parentDisplayName="Asset" solution="govcdm_assetmanagement (1.0.0.1)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Asset" id="{dbbe5988-ed95-4a66-ab55-b6e253268852}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_serviceenddatetime" displayName="Service End Date Time" parentSchemaName="govcdm_assetservicerecord" parentDisplayName="Asset Service Record" solution="govcdm_assetmanagement (1.0.0.1)" />
+        <Dependent type="26" schemaName="Active Asset Service Records" displayName="Active Asset Service Records" parentSchemaName="govcdm_assetservicerecord" parentDisplayName="Asset Service Record" id="{5508db89-bb19-410e-9871-798948825a94}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_serviceenddatetime" displayName="Service End Date Time" parentSchemaName="govcdm_assetservicerecord" parentDisplayName="Asset Service Record" solution="govcdm_assetmanagement (1.0.0.1)" />
+        <Dependent type="26" schemaName="Related Asset Service Records" displayName="Related Asset Service Records" parentSchemaName="govcdm_assetservicerecord" parentDisplayName="Asset Service Record" id="{70b74706-fc5e-ee11-be6f-6045bda7eb80}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_serviceenddatetime" displayName="Service End Date Time" parentSchemaName="govcdm_assetservicerecord" parentDisplayName="Asset Service Record" solution="govcdm_assetmanagement (1.0.0.1)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Asset Service Record" id="{20bec5c9-e74f-4258-aaa8-8dec78f5815e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_serviceenddatetime" displayName="Service End Date Time" parentSchemaName="govcdm_assetservicerecord" parentDisplayName="Asset Service Record" solution="govcdm_assetmanagement (1.0.0.1)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Asset Service Record" id="{3a22750a-f75e-ee11-be6f-6045bda7eb80}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_servicelocation" displayName="Service Location" parentSchemaName="govcdm_assetservicerecord" parentDisplayName="Asset Service Record" solution="govcdm_assetmanagement (1.0.0.1)" />
+        <Dependent type="26" schemaName="Active Asset Service Records" displayName="Active Asset Service Records" parentSchemaName="govcdm_assetservicerecord" parentDisplayName="Asset Service Record" id="{5508db89-bb19-410e-9871-798948825a94}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_servicelocation" displayName="Service Location" parentSchemaName="govcdm_assetservicerecord" parentDisplayName="Asset Service Record" solution="govcdm_assetmanagement (1.0.0.1)" />
+        <Dependent type="26" schemaName="Related Asset Service Records" displayName="Related Asset Service Records" parentSchemaName="govcdm_assetservicerecord" parentDisplayName="Asset Service Record" id="{70b74706-fc5e-ee11-be6f-6045bda7eb80}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_servicelocation" displayName="Service Location" parentSchemaName="govcdm_assetservicerecord" parentDisplayName="Asset Service Record" solution="govcdm_assetmanagement (1.0.0.1)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Asset Service Record" id="{20bec5c9-e74f-4258-aaa8-8dec78f5815e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_servicelocation" displayName="Service Location" parentSchemaName="govcdm_assetservicerecord" parentDisplayName="Asset Service Record" solution="govcdm_assetmanagement (1.0.0.1)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Asset Service Record" id="{3a22750a-f75e-ee11-be6f-6045bda7eb80}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_servicenotes" displayName="Service Notes" parentSchemaName="govcdm_assetservicerecord" parentDisplayName="Asset Service Record" solution="govcdm_assetmanagement (1.0.0.1)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Asset Service Record" id="{20bec5c9-e74f-4258-aaa8-8dec78f5815e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_servicenotes" displayName="Service Notes" parentSchemaName="govcdm_assetservicerecord" parentDisplayName="Asset Service Record" solution="govcdm_assetmanagement (1.0.0.1)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Asset Service Record" id="{3a22750a-f75e-ee11-be6f-6045bda7eb80}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_servicerequestdatetime" displayName="Service Request Date Time" parentSchemaName="govcdm_assetservicerecord" parentDisplayName="Asset Service Record" solution="govcdm_assetmanagement (1.0.0.1)" />
+        <Dependent type="26" schemaName="Active Asset Service Records" displayName="Active Asset Service Records" parentSchemaName="govcdm_assetservicerecord" parentDisplayName="Asset Service Record" id="{5508db89-bb19-410e-9871-798948825a94}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_servicerequestdatetime" displayName="Service Request Date Time" parentSchemaName="govcdm_assetservicerecord" parentDisplayName="Asset Service Record" solution="govcdm_assetmanagement (1.0.0.1)" />
+        <Dependent type="26" schemaName="Related Asset Service Records" displayName="Related Asset Service Records" parentSchemaName="govcdm_assetservicerecord" parentDisplayName="Asset Service Record" id="{70b74706-fc5e-ee11-be6f-6045bda7eb80}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_servicerequestdatetime" displayName="Service Request Date Time" parentSchemaName="govcdm_assetservicerecord" parentDisplayName="Asset Service Record" solution="govcdm_assetmanagement (1.0.0.1)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Asset Service Record" id="{20bec5c9-e74f-4258-aaa8-8dec78f5815e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_servicerequestdatetime" displayName="Service Request Date Time" parentSchemaName="govcdm_assetservicerecord" parentDisplayName="Asset Service Record" solution="govcdm_assetmanagement (1.0.0.1)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Asset Service Record" id="{3a22750a-f75e-ee11-be6f-6045bda7eb80}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_servicerequestdescription" displayName="Service Request Description" parentSchemaName="govcdm_assetservicerecord" parentDisplayName="Asset Service Record" solution="govcdm_assetmanagement (1.0.0.1)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Asset Service Record" id="{20bec5c9-e74f-4258-aaa8-8dec78f5815e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_servicerequestdescription" displayName="Service Request Description" parentSchemaName="govcdm_assetservicerecord" parentDisplayName="Asset Service Record" solution="govcdm_assetmanagement (1.0.0.1)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Asset Service Record" id="{3a22750a-f75e-ee11-be6f-6045bda7eb80}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_servicestartdatetime" displayName="Service Start Date Time" parentSchemaName="govcdm_assetservicerecord" parentDisplayName="Asset Service Record" solution="govcdm_assetmanagement (1.0.0.1)" />
+        <Dependent type="26" schemaName="Active Asset Service Records" displayName="Active Asset Service Records" parentSchemaName="govcdm_assetservicerecord" parentDisplayName="Asset Service Record" id="{5508db89-bb19-410e-9871-798948825a94}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_servicestartdatetime" displayName="Service Start Date Time" parentSchemaName="govcdm_assetservicerecord" parentDisplayName="Asset Service Record" solution="govcdm_assetmanagement (1.0.0.1)" />
+        <Dependent type="26" schemaName="Related Asset Service Records" displayName="Related Asset Service Records" parentSchemaName="govcdm_assetservicerecord" parentDisplayName="Asset Service Record" id="{70b74706-fc5e-ee11-be6f-6045bda7eb80}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_servicestartdatetime" displayName="Service Start Date Time" parentSchemaName="govcdm_assetservicerecord" parentDisplayName="Asset Service Record" solution="govcdm_assetmanagement (1.0.0.1)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Asset Service Record" id="{20bec5c9-e74f-4258-aaa8-8dec78f5815e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_servicestartdatetime" displayName="Service Start Date Time" parentSchemaName="govcdm_assetservicerecord" parentDisplayName="Asset Service Record" solution="govcdm_assetmanagement (1.0.0.1)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Asset Service Record" id="{3a22750a-f75e-ee11-be6f-6045bda7eb80}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_url" displayName="URL" parentSchemaName="govcdm_product" parentDisplayName="Product" solution="govcdm_assetmanagement (1.0.0.1)" />
+        <Dependent type="26" schemaName="Active Products" displayName="Active Products" parentSchemaName="govcdm_product" parentDisplayName="Product" id="{ba625fea-c61d-41dd-80d2-4cadf4e4f600}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_url" displayName="URL" parentSchemaName="govcdm_product" parentDisplayName="Product" solution="govcdm_assetmanagement (1.0.0.1)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Product" id="{43e23454-f95e-ee11-be6f-6045bda7eb80}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_url" displayName="URL" parentSchemaName="govcdm_product" parentDisplayName="Product" solution="govcdm_assetmanagement (1.0.0.1)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Product" id="{9c58aaa5-256e-46d4-966d-ffb9f286fc63}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="govcdm_assetcategory" parentDisplayName="Asset Category" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Asset Category" id="{ef600ec6-0168-4a4e-b504-d3731ff94ff5}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="govcdm_assetowner" parentDisplayName="Asset Owner" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Asset Owner" id="{b9cff540-43b2-4df0-9b05-e154d6a99909}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="govcdm_assetservicerecord" parentDisplayName="Asset Service Record" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Asset Service Record" id="{20bec5c9-e74f-4258-aaa8-8dec78f5815e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="govcdm_product" parentDisplayName="Product" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Product" id="{9c58aaa5-256e-46d4-966d-ffb9f286fc63}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="statecode" displayName="Status" parentSchemaName="govcdm_asset" parentDisplayName="Asset" solution="govcdm_assetmanagement (1.0.0.1)" />
+        <Dependent type="26" schemaName="Active Assets" displayName="Active Assets" parentSchemaName="govcdm_asset" parentDisplayName="Asset" id="{bab44290-fe08-4172-a208-c3d7b359ee4c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="statecode" displayName="Status" parentSchemaName="govcdm_assetcategory" parentDisplayName="Asset Category" solution="govcdm_assetmanagement (1.0.0.1)" />
+        <Dependent type="26" schemaName="Active Asset Categories" displayName="Active Asset Categories" parentSchemaName="govcdm_assetcategory" parentDisplayName="Asset Category" id="{da1a288d-4cbd-42d9-9b04-a4534f930d2b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="statecode" displayName="Status" parentSchemaName="govcdm_assetowner" parentDisplayName="Asset Owner" solution="govcdm_assetmanagement (1.0.0.1)" />
+        <Dependent type="26" schemaName="Active Asset Owners" displayName="Active Asset Owners" parentSchemaName="govcdm_assetowner" parentDisplayName="Asset Owner" id="{188e0ad1-b5d2-4542-9b02-cb4c2176fead}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="statecode" displayName="Status" parentSchemaName="govcdm_assetowner" parentDisplayName="Asset Owner" solution="govcdm_assetmanagement (1.0.0.1)" />
+        <Dependent type="26" schemaName="Related Asset Owners" displayName="Related Asset Owners" parentSchemaName="govcdm_assetowner" parentDisplayName="Asset Owner" id="{82d654ef-fb5e-ee11-be6f-6045bda7eb80}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="statecode" displayName="Status" parentSchemaName="govcdm_assetservicerecord" parentDisplayName="Asset Service Record" solution="govcdm_assetmanagement (1.0.0.1)" />
+        <Dependent type="26" schemaName="Active Asset Service Records" displayName="Active Asset Service Records" parentSchemaName="govcdm_assetservicerecord" parentDisplayName="Asset Service Record" id="{5508db89-bb19-410e-9871-798948825a94}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="statecode" displayName="Status" parentSchemaName="govcdm_assetservicerecord" parentDisplayName="Asset Service Record" solution="govcdm_assetmanagement (1.0.0.1)" />
+        <Dependent type="26" schemaName="Related Asset Service Records" displayName="Related Asset Service Records" parentSchemaName="govcdm_assetservicerecord" parentDisplayName="Asset Service Record" id="{70b74706-fc5e-ee11-be6f-6045bda7eb80}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="statecode" displayName="Status" parentSchemaName="govcdm_product" parentDisplayName="Product" solution="govcdm_assetmanagement (1.0.0.1)" />
+        <Dependent type="26" schemaName="Active Products" displayName="Active Products" parentSchemaName="govcdm_product" parentDisplayName="Product" id="{ba625fea-c61d-41dd-80d2-4cadf4e4f600}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Active Asset Categories" displayName="Active Asset Categories" parentSchemaName="govcdm_assetcategory" parentDisplayName="Asset Category" solution="govcdm_assetmanagement (1.0.0.1)" id="{da1a288d-4cbd-42d9-9b04-a4534f930d2b}" />
+        <Dependent type="26" schemaName="Active Asset Categories" displayName="Active Asset Categories" parentSchemaName="govcdm_assetcategory" parentDisplayName="Asset Category" id="{da1a288d-4cbd-42d9-9b04-a4534f930d2b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Active Asset Owners" displayName="Active Asset Owners" parentSchemaName="govcdm_assetowner" parentDisplayName="Asset Owner" solution="govcdm_assetmanagement (1.0.0.1)" id="{188e0ad1-b5d2-4542-9b02-cb4c2176fead}" />
+        <Dependent type="26" schemaName="Active Asset Owners" displayName="Active Asset Owners" parentSchemaName="govcdm_assetowner" parentDisplayName="Asset Owner" id="{188e0ad1-b5d2-4542-9b02-cb4c2176fead}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Active Asset Service Records" displayName="Active Asset Service Records" parentSchemaName="govcdm_assetservicerecord" parentDisplayName="Asset Service Record" solution="govcdm_assetmanagement (1.0.0.1)" id="{5508db89-bb19-410e-9871-798948825a94}" />
+        <Dependent type="26" schemaName="Active Asset Service Records" displayName="Active Asset Service Records" parentSchemaName="govcdm_assetservicerecord" parentDisplayName="Asset Service Record" id="{5508db89-bb19-410e-9871-798948825a94}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Active Assets" displayName="Active Assets" parentSchemaName="govcdm_asset" parentDisplayName="Asset" solution="govcdm_assetmanagement (1.0.0.1)" id="{bab44290-fe08-4172-a208-c3d7b359ee4c}" />
+        <Dependent type="26" schemaName="Active Assets" displayName="Active Assets" parentSchemaName="govcdm_asset" parentDisplayName="Asset" id="{bab44290-fe08-4172-a208-c3d7b359ee4c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Active Products" displayName="Active Products" parentSchemaName="govcdm_product" parentDisplayName="Product" solution="govcdm_assetmanagement (1.0.0.1)" id="{ba625fea-c61d-41dd-80d2-4cadf4e4f600}" />
+        <Dependent type="26" schemaName="Active Products" displayName="Active Products" parentSchemaName="govcdm_product" parentDisplayName="Product" id="{ba625fea-c61d-41dd-80d2-4cadf4e4f600}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Information" parentDisplayName="Asset Service Record" solution="govcdm_assetmanagement (1.0.0.1)" id="{20bec5c9-e74f-4258-aaa8-8dec78f5815e}" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Asset Service Record" id="{20bec5c9-e74f-4258-aaa8-8dec78f5815e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Information" parentDisplayName="Product" solution="govcdm_assetmanagement (1.0.0.1)" id="{9c58aaa5-256e-46d4-966d-ffb9f286fc63}" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Product" id="{9c58aaa5-256e-46d4-966d-ffb9f286fc63}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Information" parentDisplayName="Asset Owner" solution="govcdm_assetmanagement (1.0.0.1)" id="{b9cff540-43b2-4df0-9b05-e154d6a99909}" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Asset Owner" id="{b9cff540-43b2-4df0-9b05-e154d6a99909}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Information" parentDisplayName="Asset" solution="govcdm_assetmanagement (1.0.0.1)" id="{dbbe5988-ed95-4a66-ab55-b6e253268852}" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Asset" id="{dbbe5988-ed95-4a66-ab55-b6e253268852}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Information" parentDisplayName="Asset Category" solution="govcdm_assetmanagement (1.0.0.1)" id="{ef600ec6-0168-4a4e-b504-d3731ff94ff5}" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Asset Category" id="{ef600ec6-0168-4a4e-b504-d3731ff94ff5}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="msdyn_/Images/AppModule_Default_Icon.png" displayName="msdyn_/Images/AppModule_Default_Icon.png" solution="AppModuleWebResources (2.5)" />
+        <Dependent type="80" schemaName="msfed_AssetManagement" displayName="Asset Management" />
+      </MissingDependency>
+    </MissingDependencies>
+  </SolutionManifest>
+</ImportExportXml>

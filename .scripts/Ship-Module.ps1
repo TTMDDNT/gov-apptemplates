@@ -28,7 +28,7 @@ do {
         # deploy the solution
         # in future versions, this could be made smart enough to deploy the correct data models and other
         # dependencies, based on the app module you choose - for now, keeping this simple and manual
-        Deploy-Solution "$baseFolder\$module" -Managed -AutoConfirm -Settings "$envName"
+        Deploy-Solution "$baseFolder\$module" -Managed -AutoConfirm 
         
     }
 } while ($module -ne "") # Continue looping until the input is an empty string

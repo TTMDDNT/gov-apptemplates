@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{5508db89-bb19-410e-9871-798948825a94}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="govcdm_name" select="1" icon="1" preview="1">
+        <row name="result" id="govcdm_assetservicerecordid">
+          <cell name="govcdm_name" width="100" />
+          <cell name="govcdm_asset" width="100" />
+          <cell name="govcdm_servicerequestdatetime" width="194" />
+          <cell name="govcdm_expectedreturndatetime" width="197" />
+          <cell name="govcdm_servicelocation" width="136" />
+          <cell name="govcdm_servicestartdatetime" width="175" />
+          <cell name="govcdm_serviceenddatetime" width="171" />
+          <cell name="govcdm_actualreturndatetime" width="182" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="govcdm_assetservicerecord">
+          <attribute name="govcdm_assetservicerecordid" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="govcdm_name" />
+          <attribute name="govcdm_asset" />
+          <attribute name="govcdm_servicerequestdatetime" />
+          <attribute name="govcdm_servicestartdatetime" />
+          <attribute name="govcdm_serviceenddatetime" />
+          <attribute name="govcdm_expectedreturndatetime" />
+          <attribute name="govcdm_actualreturndatetime" />
+          <attribute name="govcdm_servicelocation" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Asset Service Records" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>
