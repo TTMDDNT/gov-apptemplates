@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppModule>
+  <UniqueName>msfed_IncidentsandInspections</UniqueName>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <WebResourceId>953b9fac-1e5e-e611-80d6-00155ded156f</WebResourceId>
+  <OptimizedFor></OptimizedFor>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+  <FormFactor>1</FormFactor>
+  <ClientType>4</ClientType>
+  <NavigationType>0</NavigationType>
+  <AppModuleComponents>
+    <AppModuleComponent type="1" schemaName="govcdm_inspectableitem" />
+    <AppModuleComponent type="1" schemaName="govcdm_inspectableitemtype" />
+    <AppModuleComponent type="1" schemaName="govcdm_inspection" />
+    <AppModuleComponent type="1" schemaName="govcdm_interactiveprompt" />
+    <AppModuleComponent type="1" schemaName="govcdm_interactiveresponse" />
+    <AppModuleComponent type="26" id="{718aa655-1474-ee11-9ae7-000d3a4f73e8}" />
+    <AppModuleComponent type="26" id="{62b25529-23e8-4725-b39e-19c74babd318}" />
+    <AppModuleComponent type="26" id="{cfedcc10-7b1b-4730-81d0-327d8aed168d}" />
+    <AppModuleComponent type="26" id="{172db314-b1b3-400e-9b56-adecd6afa710}" />
+    <AppModuleComponent type="62" schemaName="msfed_IncidentsandInspections" />
+  </AppModuleComponents>
+  <AppModuleRoleMaps>
+    <Role id="{627090ff-40a3-4053-8790-584edc5be201}" />
+    <Role id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+  </AppModuleRoleMaps>
+  <LocalizedNames>
+    <LocalizedName description="Incidents and Inspections" languagecode="1033" />
+  </LocalizedNames>
+</AppModule>
