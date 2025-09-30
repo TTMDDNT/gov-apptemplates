@@ -1,0 +1,272 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImportExportXml version="9.2.24032.208" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SolutionManifest>
+    <UniqueName>msfed_courtcasemanagement</UniqueName>
+    <LocalizedNames>
+      <LocalizedName description="Microsoft Federal - Court Case Management" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions />
+    <Version>1.0.0.0</Version>
+    <Managed>2</Managed>
+    <Publisher>
+      <UniqueName>microsoftfederal</UniqueName>
+      <LocalizedNames>
+        <LocalizedName description="Microsoft Federal" languagecode="1033" />
+      </LocalizedNames>
+      <Descriptions>
+        <Description description="microsoftfederal" languagecode="1033" />
+      </Descriptions>
+      <EMailAddress xsi:nil="true"></EMailAddress>
+      <SupportingWebsiteUrl xsi:nil="true"></SupportingWebsiteUrl>
+      <CustomizationPrefix>msfed</CustomizationPrefix>
+      <CustomizationOptionValuePrefix>18844</CustomizationOptionValuePrefix>
+      <Addresses>
+        <Address>
+          <AddressNumber>1</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+        <Address>
+          <AddressNumber>2</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+      </Addresses>
+    </Publisher>
+    <RootComponents>
+      <RootComponent type="1" schemaName="govcdm_courtcase" behavior="2" />
+      <RootComponent type="1" schemaName="govcdm_courtcaseparty" behavior="2" />
+      <RootComponent type="1" schemaName="govcdm_courtdocument" behavior="2" />
+      <RootComponent type="1" schemaName="govcdm_courthearing" behavior="2" />
+      <RootComponent type="1" schemaName="govcdm_courtmotion" behavior="2" />
+      <RootComponent type="1" schemaName="govcdm_courtorder" behavior="2" />
+      <RootComponent type="1" schemaName="govcdm_courtsession" behavior="2" />
+      <RootComponent type="62" schemaName="msfed_CourtCaseManagement" behavior="0" />
+      <RootComponent type="80" schemaName="msfed_CourtCaseManagement" behavior="0" />
+    </RootComponents>
+    <MissingDependencies>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_courtcase" displayName="Court Case" solution="govcdm_courtcasemanagement (1.0.0.0)" />
+        <Dependent type="1" schemaName="govcdm_courtcase" displayName="Court Case" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_courtcase" displayName="Court Case" solution="govcdm_courtcasemanagement (1.0.0.0)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Court Case" id="{a82702ff-cef1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_courtcase" displayName="Court Case" solution="govcdm_courtcasemanagement (1.0.0.0)" />
+        <Dependent type="62" schemaName="msfed_CourtCaseManagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_courtcase" displayName="Court Case" solution="govcdm_courtcasemanagement (1.0.0.0)" />
+        <Dependent type="80" schemaName="msfed_CourtCaseManagement" displayName="Court Case Management" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_courtcaseparty" displayName="Court Case Party" solution="govcdm_courtcasemanagement (1.0.0.0)" />
+        <Dependent type="1" schemaName="govcdm_courtcaseparty" displayName="Court Case Party" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_courtcaseparty" displayName="Court Case Party" solution="govcdm_courtcasemanagement (1.0.0.0)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Court Case Party" id="{2e63d70e-cff1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_courtcaseparty" displayName="Court Case Party" solution="govcdm_courtcasemanagement (1.0.0.0)" />
+        <Dependent type="62" schemaName="msfed_CourtCaseManagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_courtcaseparty" displayName="Court Case Party" solution="govcdm_courtcasemanagement (1.0.0.0)" />
+        <Dependent type="80" schemaName="msfed_CourtCaseManagement" displayName="Court Case Management" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_courtdocument" displayName="Court Document" solution="govcdm_courtcasemanagement (1.0.0.0)" />
+        <Dependent type="1" schemaName="govcdm_courtdocument" displayName="Court Document" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_courtdocument" displayName="Court Document" solution="govcdm_courtcasemanagement (1.0.0.0)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Court Document" id="{b1d9c920-cff1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_courtdocument" displayName="Court Document" solution="govcdm_courtcasemanagement (1.0.0.0)" />
+        <Dependent type="62" schemaName="msfed_CourtCaseManagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_courtdocument" displayName="Court Document" solution="govcdm_courtcasemanagement (1.0.0.0)" />
+        <Dependent type="80" schemaName="msfed_CourtCaseManagement" displayName="Court Case Management" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_courthearing" displayName="Court Hearing" solution="govcdm_courtcasemanagement (1.0.0.0)" />
+        <Dependent type="1" schemaName="govcdm_courthearing" displayName="Court Hearing" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_courthearing" displayName="Court Hearing" solution="govcdm_courtcasemanagement (1.0.0.0)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Court Hearing" id="{dad24737-cff1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_courthearing" displayName="Court Hearing" solution="govcdm_courtcasemanagement (1.0.0.0)" />
+        <Dependent type="62" schemaName="msfed_CourtCaseManagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_courthearing" displayName="Court Hearing" solution="govcdm_courtcasemanagement (1.0.0.0)" />
+        <Dependent type="80" schemaName="msfed_CourtCaseManagement" displayName="Court Case Management" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_courtmotion" displayName="Court Motion" solution="govcdm_courtcasemanagement (1.0.0.0)" />
+        <Dependent type="1" schemaName="govcdm_courtmotion" displayName="Court Motion" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_courtmotion" displayName="Court Motion" solution="govcdm_courtcasemanagement (1.0.0.0)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Court Motion" id="{21db6a48-cff1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_courtmotion" displayName="Court Motion" solution="govcdm_courtcasemanagement (1.0.0.0)" />
+        <Dependent type="62" schemaName="msfed_CourtCaseManagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_courtmotion" displayName="Court Motion" solution="govcdm_courtcasemanagement (1.0.0.0)" />
+        <Dependent type="80" schemaName="msfed_CourtCaseManagement" displayName="Court Case Management" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_courtorder" displayName="Court Order" solution="govcdm_courtcasemanagement (1.0.0.0)" />
+        <Dependent type="1" schemaName="govcdm_courtorder" displayName="Court Order" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_courtorder" displayName="Court Order" solution="govcdm_courtcasemanagement (1.0.0.0)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Court Order" id="{e4278b54-cff1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_courtorder" displayName="Court Order" solution="govcdm_courtcasemanagement (1.0.0.0)" />
+        <Dependent type="62" schemaName="msfed_CourtCaseManagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_courtorder" displayName="Court Order" solution="govcdm_courtcasemanagement (1.0.0.0)" />
+        <Dependent type="80" schemaName="msfed_CourtCaseManagement" displayName="Court Case Management" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_courtsession" displayName="Court Session" solution="govcdm_courtcasemanagement (1.0.0.0)" />
+        <Dependent type="1" schemaName="govcdm_courtsession" displayName="Court Session" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_courtsession" displayName="Court Session" solution="govcdm_courtcasemanagement (1.0.0.0)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Court Session" id="{c54e8e66-cff1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_courtsession" displayName="Court Session" solution="govcdm_courtcasemanagement (1.0.0.0)" />
+        <Dependent type="62" schemaName="msfed_CourtCaseManagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_courtsession" displayName="Court Session" solution="govcdm_courtcasemanagement (1.0.0.0)" />
+        <Dependent type="80" schemaName="msfed_CourtCaseManagement" displayName="Court Case Management" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_courtcase" parentDisplayName="Court Case" solution="govcdm_courtcasemanagement (1.0.0.0)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Court Case" id="{a82702ff-cef1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_courtcaseparty" parentDisplayName="Court Case Party" solution="govcdm_courtcasemanagement (1.0.0.0)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Court Case Party" id="{2e63d70e-cff1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_courtdocument" parentDisplayName="Court Document" solution="govcdm_courtcasemanagement (1.0.0.0)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Court Document" id="{b1d9c920-cff1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_courthearing" parentDisplayName="Court Hearing" solution="govcdm_courtcasemanagement (1.0.0.0)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Court Hearing" id="{dad24737-cff1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_courtmotion" parentDisplayName="Court Motion" solution="govcdm_courtcasemanagement (1.0.0.0)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Court Motion" id="{21db6a48-cff1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_courtorder" parentDisplayName="Court Order" solution="govcdm_courtcasemanagement (1.0.0.0)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Court Order" id="{e4278b54-cff1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_courtsession" parentDisplayName="Court Session" solution="govcdm_courtcasemanagement (1.0.0.0)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Court Session" id="{c54e8e66-cff1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="govcdm_courtcase" parentDisplayName="Court Case" solution="Active" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Court Case" id="{a82702ff-cef1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="govcdm_courtcaseparty" parentDisplayName="Court Case Party" solution="Active" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Court Case Party" id="{2e63d70e-cff1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="govcdm_courtdocument" parentDisplayName="Court Document" solution="Active" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Court Document" id="{b1d9c920-cff1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="govcdm_courthearing" parentDisplayName="Court Hearing" solution="Active" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Court Hearing" id="{dad24737-cff1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="govcdm_courtmotion" parentDisplayName="Court Motion" solution="Active" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Court Motion" id="{21db6a48-cff1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="govcdm_courtorder" parentDisplayName="Court Order" solution="Active" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Court Order" id="{e4278b54-cff1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="govcdm_courtsession" parentDisplayName="Court Session" solution="Active" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Court Session" id="{c54e8e66-cff1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="msdyn_/Images/AppModule_Default_Icon.png" displayName="msdyn_/Images/AppModule_Default_Icon.png" solution="AppModuleWebResources (2.5)" />
+        <Dependent type="80" schemaName="msfed_CourtCaseManagement" displayName="Court Case Management" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="SettingDefinition" displayName="AppChannel" solution="msdyn_AppFrameworkInfraExtensions (1.0.0.7)" id.uniquename="AppChannel" />
+        <Dependent type="AppSetting" displayName="parentappmoduleid.uniquename=msfed_CourtCaseManagement,settingdefinitionid.uniquename=AppChannel" id.parentappmoduleid.uniquename="msfed_CourtCaseManagement" id.settingdefinitionid.uniquename="AppChannel" />
+      </MissingDependency>
+    </MissingDependencies>
+  </SolutionManifest>
+</ImportExportXml>
