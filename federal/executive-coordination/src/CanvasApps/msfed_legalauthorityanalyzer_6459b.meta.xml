@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CanvasApp xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>msfed_legalauthorityanalyzer_6459b</Name>
+  <AppVersion>2025-05-14T21:03:16Z</AppVersion>
+  <Status>Ready</Status>
+  <CreatedByClientVersion>3.25044.10.0</CreatedByClientVersion>
+  <MinClientVersion>3.25044.10.0</MinClientVersion>
+  <Tags>{"primaryDeviceWidth":"1591","primaryDeviceHeight":"808","supportsPortrait":"true","supportsLandscape":"true","primaryFormFactor":"Tablet","showStatusBar":"false","publisherVersion":"3.25044.10","minimumRequiredApiVersion":"2.2.0","hasComponent":"false","hasUnlockedComponent":"false","isUnifiedRootApp":"false"}</Tags>
+  <IsCdsUpgraded>0</IsCdsUpgraded>
+  <GalleryItemId xsi:nil="true"></GalleryItemId>
+  <BackgroundColor>RGBA(0,176,240,1)</BackgroundColor>
+  <DisplayName>Legal Authority Analyzer</DisplayName>
+  <Description xsi:nil="true"></Description>
+  <CommitMessage xsi:nil="true"></CommitMessage>
+  <Publisher xsi:nil="true"></Publisher>
+  <AuthorizationReferences>[]</AuthorizationReferences>
+  <ConnectionReferences>{}</ConnectionReferences>
+  <DatabaseReferences>{"default.cds":{"databaseDetails":{"referenceType":"Environmental","environmentName":"default.cds","overrideValues":{"status":"NotSpecified","environmentVariableName":""}},"dataSources":{"43b0dc67-68af-47ae-9a9c-9e69d396ba3e":{"entitySetName":"msdyn_aimodels","logicalName":"msdyn_aimodel"},"Organization Units":{"entitySetName":"govcdm_organizationunits","logicalName":"govcdm_organizationunit"}},"components":[{"componentName":"msdyn_AIModel","identifier":"c076eac8-f218-4feb-8ad1-7ee4fb039419","identifierType":"UniqueId"},{"componentName":"msdyn_AIModel","identifier":"a485e029-4ac2-48bd-97a5-456ea260cd0f","identifierType":"UniqueId"}]}}</DatabaseReferences>
+  <AppComponents>[]</AppComponents>
+  <AppComponentDependencies>[]</AppComponentDependencies>
+  <CanConsumeAppPass>1</CanConsumeAppPass>
+  <CanvasAppType>2</CanvasAppType>
+  <BypassConsent>0</BypassConsent>
+  <AdminControlBypassConsent>0</AdminControlBypassConsent>
+  <EmbeddedApp xsi:nil="true"></EmbeddedApp>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <CdsDependencies>{"cdsdependencies":[{"logicalname":"msdyn_aimodel","componenttype":1},{"logicalname":"govcdm_organizationunit","componenttype":1},{"dependencyid":"c076eac8-f218-4feb-8ad1-7ee4fb039419","logicalname":"","componenttype":401,"componenttypeplatformname":"msdyn_AIModel"},{"dependencyid":"a485e029-4ac2-48bd-97a5-456ea260cd0f","logicalname":"","componenttype":401,"componenttypeplatformname":"msdyn_AIModel"}]}</CdsDependencies>
+  <IsCustomizable>1</IsCustomizable>
+  <BackgroundImageUri>/CanvasApps/msfed_legalauthorityanalyzer_6459b_BackgroundImageUri</BackgroundImageUri>
+  <DocumentUri>/CanvasApps/msfed_legalauthorityanalyzer_6459b_DocumentUri.msapp</DocumentUri>
+  <AdditionalUris>
+    <AdditionalUri>/CanvasApps/msfed_legalauthorityanalyzer_6459b_AdditionalUris0_identity.json</AdditionalUri>
+  </AdditionalUris>
+</CanvasApp>

@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImportExportXml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" OrganizationVersion="9.2.25043.226" OrganizationSchemaType="Standard" CRMServerServiceabilityVersion="9.2.25043.00226">
+  <Entities />
+  <Roles />
+  <Workflows />
+  <FieldSecurityProfiles />
+  <Templates />
+  <EntityMaps />
+  <EntityRelationships />
+  <OrganizationSettings />
+  <optionsets />
+  <CustomControls />
+  <AppModuleSiteMaps />
+  <AppModules />
+  <EntityDataProviders />
+  <CanvasApps />
+  <AIModels>
+    <AIModel>
+      <msdyn_aimodelid>{a485e029-4ac2-48bd-97a5-456ea260cd0f}</msdyn_aimodelid>
+      <msdyn_name>Legal Authority - Identify Risks and Impacts</msdyn_name>
+      <msdyn_templateid>{edfdb190-3791-45d8-9a6c-8f90a37c278a}</msdyn_templateid>
+      <statecode>1</statecode>
+      <statuscode>1</statuscode>
+      <IsCustomizable>1</IsCustomizable>
+      <msdyn_activerunconfigurationid>{bb3c256a-0631-f011-8c4d-001dd8069dd5}</msdyn_activerunconfigurationid>
+      <AIConfigurations>
+        <AIConfiguration>
+          <msdyn_aiconfigurationid>{bb3c256a-0631-f011-8c4d-001dd8069dd5}</msdyn_aiconfigurationid>
+          <msdyn_customconfiguration>{"version":"GptDynamicPrompt-2","prompt":[{"type":"literal","text":"Identify the key risks and impacts on the "},{"type":"inputVariable","id":"Organization_20Unit"},{"type":"literal","text":"  in the following federal mandate"},{"type":"inputVariable","id":"text"},{"type":"literal","text":"."}],"definitions":{"inputs":[{"id":"text","text":"text","type":"text","quickTestValue":"The receiving party agrees to treat all provided information as confidential, while the disclosing party commits to sharing only information necessary for the agreement's intent. Unauthorized disclosure by the receiving party incurs liability, and the disclosing party is similarly accountable for any misrepresented information shared under the agreement."},{"id":"Organization_20Unit","text":"Organization Unit","type":"text","quickTestValue":"Office of Information Technology"}],"formulas":[],"data":[],"output":{"formats":["text"]}},"modelParameters":{"modelType":"default","gptParameters":{"temperature":0}},"settings":{"recordRetrievalLimit":30,"shouldPreserveRecordLinks":null,"runtime":null,"enableReasoning":null}}</msdyn_customconfiguration>
+          <msdyn_majoriterationnumber>2</msdyn_majoriterationnumber>
+          <msdyn_minoriterationnumber>0</msdyn_minoriterationnumber>
+          <msdyn_name>a485e029-4ac2-48bd-97a5-456ea260cd0f_2025-05-14T21:00:13.081Z</msdyn_name>
+          <msdyn_modelrundataspecification>H4sIAAAAAAAACq2RPQ+CMBCG/wq5mUGNcWDDr8RFE0FXc2rBS7Bt2iMRCf9dihqJMDi49n3u6XttCZEWp6UyV+S9MJaUhGDow0rqnLdK8UIycQFBCXOyOsNijVcBAYAPIbOhY87CupjFjbtYc+rDRnNtxgyCBDMrfIgL7eKoNsgUqpowKUq6o+MOo8FOUo+tDXkN8osaz2d6MjMl+2uGHaQtZpN/vFO0YjJ+2ytXPef/PFb8vLizQEKS7GUr0Lrf+Z5aNqn3ijvjdcUHDrr0F+UBAAA=</msdyn_modelrundataspecification>
+          <msdyn_type>190690001</msdyn_type>
+          <msdyn_aimodelid>{a485e029-4ac2-48bd-97a5-456ea260cd0f}</msdyn_aimodelid>
+          <msdyn_trainedmodelaiconfigurationpareid>{7d650a58-0631-f011-8c4d-001dd8069dd5}</msdyn_trainedmodelaiconfigurationpareid>
+          <statecode>2</statecode>
+          <statuscode>7</statuscode>
+          <IsCustomizable>1</IsCustomizable>
+          <msdyn_templateversion>1</msdyn_templateversion>
+        </AIConfiguration>
+        <AIConfiguration>
+          <msdyn_aiconfigurationid>{7d650a58-0631-f011-8c4d-001dd8069dd5}</msdyn_aiconfigurationid>
+          <msdyn_databinding>{"schemaVersion":2}</msdyn_databinding>
+          <msdyn_majoriterationnumber>1</msdyn_majoriterationnumber>
+          <msdyn_minoriterationnumber>0</msdyn_minoriterationnumber>
+          <msdyn_modeldata>7f009421-b25a-4f41-a9a9-c597f38bacd6</msdyn_modeldata>
+          <msdyn_name>a485e029-4ac2-48bd-97a5-456ea260cd0f_2025-05-14T20:59:40.627Z</msdyn_name>
+          <msdyn_modelrundataspecification>
+        {
+          "schemaVersion": 2,
+          "input": {},
+          "output": {}
+        }
+      </msdyn_modelrundataspecification>
+          <msdyn_type>190690000</msdyn_type>
+          <msdyn_aimodelid>{a485e029-4ac2-48bd-97a5-456ea260cd0f}</msdyn_aimodelid>
+          <statecode>2</statecode>
+          <statuscode>6</statuscode>
+          <IsCustomizable>1</IsCustomizable>
+          <msdyn_templateversion>1</msdyn_templateversion>
+        </AIConfiguration>
+      </AIConfigurations>
+    </AIModel>
+  </AIModels>
+  <Languages>
+    <Language>1033</Language>
+  </Languages>
+</ImportExportXml>

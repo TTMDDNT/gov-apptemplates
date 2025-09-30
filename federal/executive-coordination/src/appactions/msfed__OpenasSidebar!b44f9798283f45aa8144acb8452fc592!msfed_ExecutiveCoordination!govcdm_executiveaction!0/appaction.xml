@@ -1,0 +1,35 @@
+<appaction uniquename="msfed__OpenasSidebar!b44f9798283f45aa8144acb8452fc592!msfed_ExecutiveCoordination!govcdm_executiveaction!0">
+  <appmoduleid>
+    <uniquename>msfed_ExecutiveCoordination</uniquename>
+  </appmoduleid>
+  <buttonlabeltext default="Open as Sidebar">
+    <label description="Open as Sidebar" languagecode="1033" />
+  </buttonlabeltext>
+  <context>1</context>
+  <contextentity>
+    <logicalname>govcdm_executiveaction</logicalname>
+  </contextentity>
+  <contextvalue>govcdm_executiveaction</contextvalue>
+  <fonticon>GlobalFilterCollapsedRow</fonticon>
+  <hidden>0</hidden>
+  <iscustomizable>1</iscustomizable>
+  <isdisabled>0</isdisabled>
+  <isgrouptitlehidden>0</isgrouptitlehidden>
+  <location>0</location>
+  <name>OpenasSidebar!b44f9798283f45aa8144acb8452fc592</name>
+  <onclickeventjavascriptfunctionname>openActionItemsPane</onclickeventjavascriptfunctionname>
+  <onclickeventjavascriptparameters>[{"type":5}]</onclickeventjavascriptparameters>
+  <onclickeventjavascriptwebresourceid>
+    <webresourceid>4911da10-1fe6-ee11-904d-0022481c9844</webresourceid>
+  </onclickeventjavascriptwebresourceid>
+  <onclickeventtype>2</onclickeventtype>
+  <origin>0</origin>
+  <parentappactionid>
+    <uniquename>msfed__OpenActionItems!b84c8479887c4122807296874fc6c2e4!msfed_ExecutiveCoordination!govcdm_executiveaction!0</uniquename>
+  </parentappactionid>
+  <sequence>10000.0000000000</sequence>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+  <type>0</type>
+  <visibilitytype>0</visibilitytype>
+</appaction>

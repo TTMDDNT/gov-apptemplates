@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EntityRelationships xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <EntityRelationship Name="govcdm_executiveaction_ActivityPointers" />
+  <EntityRelationship Name="govcdm_executiveaction_adx_inviteredemptions" />
+  <EntityRelationship Name="govcdm_executiveaction_adx_portalcomments" />
+  <EntityRelationship Name="govcdm_executiveaction_Appointments" />
+  <EntityRelationship Name="govcdm_executiveaction_chats" />
+  <EntityRelationship Name="govcdm_executiveaction_Emails" />
+  <EntityRelationship Name="govcdm_executiveaction_Faxes" />
+  <EntityRelationship Name="govcdm_executiveaction_govcdm_ActionAssignments" />
+  <EntityRelationship Name="govcdm_executiveaction_Letters" />
+  <EntityRelationship Name="govcdm_executiveaction_PhoneCalls" />
+  <EntityRelationship Name="govcdm_executiveaction_ProcessSession" />
+  <EntityRelationship Name="govcdm_executiveaction_RecurringAppointmentMasters" />
+  <EntityRelationship Name="govcdm_executiveaction_Tasks" />
+  <EntityRelationship Name="msfed_govcdm_executiveaction_CollaborationSpace_govcdm_collaborationspace" />
+</EntityRelationships>

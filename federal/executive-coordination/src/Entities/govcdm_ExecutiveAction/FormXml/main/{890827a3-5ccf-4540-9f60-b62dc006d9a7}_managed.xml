@@ -1,0 +1,467 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{890827a3-5ccf-4540-9f60-b62dc006d9a7}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls" shownavigationbar="false" solutionaction="Modified">
+      <tabs>
+        <tab verticallayout="true" id="{55edb62e-c2ab-448d-80c1-dbe3a569c468}" IsUserDefined="1" ordinalvalue="0">
+          <columns>
+            <column width="50%" id="0" solutionaction="Modified">
+              <sections>
+                <section showlabel="true" showbar="false" IsUserDefined="0" id="{5bb359d9-0bea-45c6-8b6d-58493f67837d}" name="secSummary" ordinalvalue="0" solutionaction="Modified">
+                  <labels>
+                    <label description="Summary" languagecode="1033" solutionaction="Modified" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{46afe2b6-f6e7-4c5c-85b5-ab65dd08cb3a}" ordinalvalue="10005" solutionaction="Modified" />
+                    </row>
+                    <row>
+                      <cell id="{c254bec1-31da-4f5d-acb1-b51178cd3c75}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10001" solutionaction="Added">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_actionnumber" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="govcdm_actionnumber" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ff79d23e-3956-4028-a508-3c0b530589af}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10002" solutionaction="Added">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_description" classid="{E0DECE4B-6FC8-4A8F-A065-082708572369}" datafieldname="govcdm_description" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{bbe32890-f6ea-4c2d-b776-19d3f8e066ac}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10003" solutionaction="Added">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_priority" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="govcdm_priority" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b09d85a7-9702-4985-89a6-53b8f8e91d39}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10004" solutionaction="Added">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_duedatetime" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="govcdm_duedatetime" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="50%" id="1" solutionaction="Added">
+              <sections>
+                <section name="_section_651" id="e11997ea-d846-4ab1-8d8e-41c0b2264d89" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115" ordinalvalue="0">
+                  <labels>
+                    <label description="Classification" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row />
+                    <row>
+                      <cell id="{a2af1ffa-0f8f-4101-b22e-13210d9c379b}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10000">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_executiveactioncategory" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="govcdm_executiveactioncategory" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{8e271e5f-e79f-4c0a-84fd-e9e5ee8854db}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10001">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_executiveactiontype" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="govcdm_executiveactiontype" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{1da5c988-537e-4499-8235-8f3e8192af6f}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10002">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_securityclassification" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="govcdm_securityclassification" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="null_section_4" id="5b9f2b41-78fb-477a-a3e9-f2ea8b1a5879" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115" ordinalvalue="1">
+                  <labels>
+                    <label description="Receipt" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row />
+                    <row>
+                      <cell id="{e22db893-5c49-4afc-ac68-9928e21fb4d4}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10000">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_receiveddatetime" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="govcdm_receiveddatetime" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d58d6985-94f4-48b8-b483-ee9326589b18}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10001">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_methodofreceipt" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="govcdm_methodofreceipt" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{bba42165-4090-4f43-9d17-fcafe5ea7a04}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10002">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_receivedfromorganization" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="govcdm_receivedfromorganization" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{3b549d79-efba-474c-ad3b-42d8c6ff88b6}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10003">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_receivedfromou" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="govcdm_receivedfromou" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{f6ef189a-fb4b-4961-ab92-1cc927383248}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10004">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_receivedfromperson" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="govcdm_receivedfromperson" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="null_section_5" id="360a73ae-b543-44b2-b41f-080fea29fa64" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115" ordinalvalue="2">
+                  <labels>
+                    <label description="Source Authority" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row />
+                    <row>
+                      <cell id="{15126a88-543c-4cf2-90c3-ee0753226834}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10000">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_sourcelegalauthority" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="govcdm_sourcelegalauthority" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{814947b1-e1d3-4e62-9e1a-e378c7a13464}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10001">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_sourceanalysis" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="govcdm_sourceanalysis" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{068f586a-9171-4c71-9cc2-74782e4264f9}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10002">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_sourceimpact" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="govcdm_sourceimpact" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ca58ad1c-42cb-4350-8100-4ddb38ed3de1}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10003">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_sourceriskitem" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="govcdm_sourceriskitem" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_2" id="aae8a6be-422d-460f-bfc8-2294c17d3e9e" IsUserDefined="0" locklevel="0" showlabel="true" ordinalvalue="1" solutionaction="Added">
+          <labels>
+            <label description="Sub Actions" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%" id="0">
+              <sections>
+                <section name="tab_2_section_1" id="31a3efb9-eb8e-40f3-8fe0-dfae36a33d08" IsUserDefined="0" locklevel="0" showlabel="false" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115" ordinalvalue="0">
+                  <labels>
+                    <label description="New Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row />
+                    <row>
+                      <cell locklevel="0" id="{75675f87-ab2b-46a1-ab0e-043fd417bc0e}" rowspan="4" colspan="1" auto="true" showlabel="false" ordinalvalue="10000">
+                        <labels>
+                          <label description="New SG control 1743615311522" languagecode="1033" />
+                        </labels>
+                        <control indicationOfSubgrid="true" id="Subgrid_new_1" classid="{E7A81278-8635-4D9E-8D4D-59480B391C5B}">
+                          <parameters>
+                            <RecordsPerPage>12</RecordsPerPage>
+                            <AutoExpand>Auto</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <ChartGridMode>All</ChartGridMode>
+                            <RelationshipName>govcdm_executiveaction_ParentAction_govcdm_execu</RelationshipName>
+                            <TargetEntityType>govcdm_executiveaction</TargetEntityType>
+                            <ViewId>{AF69DEC9-0EDF-EE11-904C-000D3A3AB141}</ViewId>
+                            <ViewIds>{AF69DEC9-0EDF-EE11-904C-000D3A3AB141}</ViewIds>
+                            <VisualizationId>{F62D8298-11DF-EE11-904C-000D3A3AB141}</VisualizationId>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_3" id="6407d1f9-ac23-4b06-8e2e-d4c3f473924c" IsUserDefined="0" locklevel="0" showlabel="true" ordinalvalue="2" solutionaction="Added">
+          <labels>
+            <label description="Action Items" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%" id="0">
+              <sections>
+                <section name="tab_3_section_1" id="6a2e71c8-4f91-456b-9b64-a741fb699b6b" IsUserDefined="0" locklevel="0" showlabel="false" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115" ordinalvalue="0">
+                  <labels>
+                    <label description="New Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row />
+                    <row>
+                      <cell locklevel="0" id="{30f414d6-8b36-420a-82c1-108e246e94a9}" rowspan="4" colspan="1" auto="true" showlabel="false" ordinalvalue="10000">
+                        <labels>
+                          <label description="New SG control 1743615344524" languagecode="1033" />
+                        </labels>
+                        <control indicationOfSubgrid="true" id="Subgrid_new_2" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" uniqueid="{ed8a4121-bfa0-4b6a-968d-9242ef6a1f84}">
+                          <parameters>
+                            <RecordsPerPage>12</RecordsPerPage>
+                            <AutoExpand>Auto</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <ChartGridMode>All</ChartGridMode>
+                            <RelationshipName>govcdm_executiveaction_govcdm_ActionItems</RelationshipName>
+                            <TargetEntityType>govcdm_actionitem</TargetEntityType>
+                            <ViewId>{DF137B50-3C6A-4542-B13D-5AFA0F823CE4}</ViewId>
+                            <ViewIds>{FA4F04C2-9248-47A8-820F-43426F2C8CCD},{DF137B50-3C6A-4542-B13D-5AFA0F823CE4}</ViewIds>
+                            <VisualizationId>{06E392CD-19D9-EF11-8EEA-001DD808E57D}</VisualizationId>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_4" id="8cb40448-14a6-45ec-b809-910ee9b16cc5" IsUserDefined="0" locklevel="0" showlabel="true" ordinalvalue="3" solutionaction="Added">
+          <labels>
+            <label description="Closure" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%" id="0">
+              <sections>
+                <section name="tab_4_section_1" id="8f5332b1-edd9-4532-b950-effc970a4a05" IsUserDefined="0" locklevel="0" showlabel="false" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115" ordinalvalue="0">
+                  <labels>
+                    <label description="New Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row />
+                    <row>
+                      <cell id="{91401539-9abf-4437-93d4-b9eead344259}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10000">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_outcomesummary" classid="{E0DECE4B-6FC8-4A8F-A065-082708572369}" datafieldname="govcdm_outcomesummary" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_5" id="6066599e-7a4a-49e2-a5f2-1dff0ca9761b" IsUserDefined="0" locklevel="0" showlabel="true" visible="false" ordinalvalue="4" solutionaction="Added">
+          <labels>
+            <label description="Process and Tasking" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%" id="0">
+              <sections>
+                <section name="tab_5_section_1" id="1d678583-ea85-4765-8289-5640c865b3d0" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115" ordinalvalue="0">
+                  <labels>
+                    <label description="Process and Tasking" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row />
+                    <row>
+                      <cell id="{7a214e15-765e-4aa3-ad2d-056764df741b}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10000">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="msfed_processandtaskingstate" classid="{E0DECE4B-6FC8-4A8F-A065-082708572369}" datafieldname="msfed_processandtaskingstate" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{8f902712-6717-4e57-b25c-d438c1dc1e68}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10001">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="msfed_collaborationspace" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msfed_collaborationspace" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{c918bc68-d78b-441f-8822-386a1f2c57bb}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left" solutionaction="Added">
+        <rows>
+          <row>
+            <cell id="{12a36c14-9678-401d-aaef-766e3d2489c6}" showlabel="false" ordinalvalue="10000">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{af345dbf-f8a3-40d1-bdfa-365673da3ced}" showlabel="false" ordinalvalue="20001">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{848b4f52-6e64-4816-86ec-cb3ce7dd5d3e}" showlabel="false" ordinalvalue="30002">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{75d4cb33-82e1-4a9b-a97e-21a14d22de53}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="40003">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+              <control id="header_govcdm_parentaction" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="govcdm_parentaction" disabled="false" />
+            </cell>
+            <cell id="{3bccf48f-e5cd-4066-ac29-2e6ae9948164}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="50004">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+              <control id="header_govcdm_actionstatus" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="govcdm_actionstatus" disabled="false" />
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{19419e64-fbeb-469c-8062-4a954c6b9c62}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left" solutionaction="Added">
+        <rows>
+          <row>
+            <cell id="{e2540c9f-4c7e-4fb3-94ad-709deb0e8ddb}" showlabel="false" ordinalvalue="10000">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{734aa49b-c116-4aef-aec9-c548bd467558}" showlabel="false" ordinalvalue="20001">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{d11b0736-496c-4a4a-94ea-57f678fd1565}" showlabel="false" ordinalvalue="30002">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions Order="0" FallbackForm="true" solutionaction="Added">
+        <Everyone />
+      </DisplayConditions>
+      <formLibraries solutionaction="Added">
+        <Library name="msfed_processandtasking" libraryUniqueId="{6e2e3153-4261-4279-85a4-8ae7ec00dff1}" />
+      </formLibraries>
+      <events solutionaction="Added">
+        <event name="onload" application="false" active="false">
+          <Handlers>
+            <Handler functionName="openActionItemPane" libraryName="msfed_processandtasking" handlerUniqueId="{ab4bea1a-46e0-4255-9f0c-125054e13dc6}" enabled="false" parameters="" passExecutionContext="true" ordinalvalue="0" />
+            <Handler functionName="openActionItemsPane" libraryName="msfed_processandtasking" handlerUniqueId="{ebf5af6b-84e3-4369-88c4-7892019235aa}" enabled="true" parameters="" passExecutionContext="true" ordinalvalue="1" />
+            <Handler functionName="registerClosePanes" libraryName="msfed_processandtasking" handlerUniqueId="{af9aa088-01be-426d-b391-66625a6c7c34}" enabled="true" parameters="" passExecutionContext="true" ordinalvalue="2" />
+          </Handlers>
+        </event>
+      </events>
+      <controlDescriptions solutionaction="Added">
+        <controlDescription forControl="{ed8a4121-bfa0-4b6a-968d-9242ef6a1f84}">
+          <customControl id="{E7A81278-8635-4D9E-8D4D-59480B391C5B}" formFactor="0">
+            <parameters />
+          </customControl>
+          <customControl id="{E7A81278-8635-4D9E-8D4D-59480B391C5B}" formFactor="2">
+            <parameters />
+          </customControl>
+          <customControl id="{E7A81278-8635-4D9E-8D4D-59480B391C5B}" formFactor="1">
+            <parameters />
+          </customControl>
+          <customControl formFactor="-1" name="Microsoft.PowerApps.PowerAppsOneGrid">
+            <parameters>
+              <data-set name="Items">
+                <ViewId>{df137b50-3c6a-4542-b13d-5afa0f823ce4}</ViewId>
+                <TargetEntityType>govcdm_actionitem</TargetEntityType>
+                <IsUserView>false</IsUserView>
+                <EnableViewPicker>false</EnableViewPicker>
+                <RelationshipName>govcdm_executiveaction_govcdm_ActionItems</RelationshipName>
+                <FilteredViewIds>{FA4F04C2-9248-47A8-820F-43426F2C8CCD},{DF137B50-3C6A-4542-B13D-5AFA0F823CE4}</FilteredViewIds>
+              </data-set>
+              <data-set name="ChildItems">
+                <ViewId>{df137b50-3c6a-4542-b13d-5afa0f823ce4}</ViewId>
+                <TargetEntityType>govcdm_actionitem</TargetEntityType>
+                <IsUserView>false</IsUserView>
+                <ParentId>govcdm_parentactionitem</ParentId>
+              </data-set>
+              <EnableEditing type="Enum" static="true">no</EnableEditing>
+              <DisableChildItemsEditing type="Enum" static="true">no</DisableChildItemsEditing>
+              <EnableFiltering type="Enum" static="true">yes</EnableFiltering>
+              <EnableSorting type="Enum" static="true">yes</EnableSorting>
+              <EnableGrouping type="Enum" static="true">yes</EnableGrouping>
+              <EnableAggregation type="Enum" static="true">no</EnableAggregation>
+              <EnableColumnMoving type="Enum" static="true">no</EnableColumnMoving>
+              <EnableMultipleSelection type="Enum" static="true">yes</EnableMultipleSelection>
+              <EnableRangeSelection type="Enum" static="true">yes</EnableRangeSelection>
+              <EnableJumpBar type="Enum" static="true">no</EnableJumpBar>
+              <EnablePagination type="Enum" static="true">no</EnablePagination>
+              <EnableDropdownColor type="Enum" static="true">no</EnableDropdownColor>
+              <EnableStatusIcons type="Enum" static="true">yes</EnableStatusIcons>
+              <EnableTypeIcons type="Enum" static="true">no</EnableTypeIcons>
+              <NavigationTypesAllowed type="Enum" static="true">all</NavigationTypesAllowed>
+              <ReflowBehavior type="Enum" static="true">Reflow</ReflowBehavior>
+              <ShowAvatar type="Enum" static="true">yes</ShowAvatar>
+              <ShowFooter type="Enum" static="true">yes</ShowFooter>
+              <ShowColumnHeaders type="Enum" static="true">yes</ShowColumnHeaders>
+              <ContextualLookupColumnFilters type="Enum" static="true">yes</ContextualLookupColumnFilters>
+              <LookupFilterBeginsWith type="Enum" static="true">no</LookupFilterBeginsWith>
+              <DateTimeFormat type="Enum" static="true">none</DateTimeFormat>
+              <DateOnlyFormat type="Enum" static="true">none</DateOnlyFormat>
+              <EnableStatusColumn type="Enum" static="true">yes</EnableStatusColumn>
+            </parameters>
+          </customControl>
+        </controlDescription>
+      </controlDescriptions>
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>
