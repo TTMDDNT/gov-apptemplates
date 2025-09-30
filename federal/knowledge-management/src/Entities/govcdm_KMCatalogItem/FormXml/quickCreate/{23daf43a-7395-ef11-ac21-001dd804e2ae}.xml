@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{23daf43a-7395-ef11-ac21-001dd804e2ae}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab id="F931FFE2-B873-473F-8F95-9502F0AA3F5E" name="tab_1" showlabel="false" labelid="{173ae030-1793-4bd1-8d23-86165a6418bf}" ordinalvalue="0">
+          <columns>
+            <column width="34%" id="0">
+              <sections>
+                <section id="0C655D4E-C6E3-424E-9AF5-71E72D30D12E" name="tab_1_column_1_section_1" columns="1" showlabel="true" showbar="false" IsUserDefined="0" labelwidth="130" labelid="{16ab6bbe-8f32-486c-a047-a328a5bf6dce}" ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell id="{a787a9a5-3e4f-4740-8e31-8dfb12260d36}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10001" solutionaction="Added">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_name" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="govcdm_name" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{2fd3b1a3-fe3c-40be-bcaf-54a217a1da83}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10002" solutionaction="Added">
+                        <labels>
+                          <label description="KM Catalog Item Type" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_kmcatalogitemtype" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="govcdm_kmcatalogitemtype" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ed22a160-b20c-4460-9183-e533f887e2da}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10003" solutionaction="Added">
+                        <labels>
+                          <label description="Parent KM Catalog Item" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_parentkmcatalogitem" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="govcdm_parentkmcatalogitem" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{f4f3b2fd-afec-4e12-a4b6-d2d1e087c995}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10004" solutionaction="Added">
+                        <labels>
+                          <label description="Description" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_description" classid="{E0DECE4B-6FC8-4A8F-A065-082708572369}" datafieldname="govcdm_description" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{caed7527-bc17-4cb4-a11e-5dd138310258}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10005" solutionaction="Added">
+                        <labels>
+                          <label description="URL" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_url" classid="{71716B6C-711E-476C-8AB8-5D11542BFB47}" datafieldname="govcdm_url" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{6ba91a74-0b18-42ce-9098-5ee736a8954d}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10006" solutionaction="Added">
+                        <labels>
+                          <label description="Publication Status" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_publicationstatus" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="govcdm_publicationstatus" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{09803858-1aeb-4523-aeb1-1233d6c27163}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10007" solutionaction="Added">
+                        <labels>
+                          <label description="Thumbnail" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_thumbnail" classid="{7E548B0D-209C-477B-9DCD-F0F44472381D}" datafieldname="govcdm_thumbnail" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{275c640f-75c8-43e4-a933-a3e9e095b9f2}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10008" solutionaction="Added">
+                        <labels>
+                          <label description="KM Catalog Item Subtype" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_kmcatalogitemsubtype" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="govcdm_kmcatalogitemsubtype" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{418a1f25-07d0-4c0c-8925-60849b54f95a}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10009" solutionaction="Added">
+                        <labels>
+                          <label description="KM Category" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_kmcategory" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="govcdm_kmcategory" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d887843e-b9ac-4f45-b850-c001a9bf402a}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10010" solutionaction="Added">
+                        <labels>
+                          <label description="Primary POC" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_primarypoc" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="govcdm_primarypoc" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{dd771645-c033-4f32-a30e-39d788821c28}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10011" solutionaction="Added">
+                        <labels>
+                          <label description="Content Date" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_contentdate" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="govcdm_contentdate" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="Quick Create" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>

@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppModule>
+  <UniqueName>msfed_KnowledgeManagement</UniqueName>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <WebResourceId>953b9fac-1e5e-e611-80d6-00155ded156f</WebResourceId>
+  <OptimizedFor></OptimizedFor>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+  <FormFactor>1</FormFactor>
+  <ClientType>4</ClientType>
+  <NavigationType>0</NavigationType>
+  <AppModuleComponents>
+    <AppModuleComponent type="1" schemaName="govcdm_kbarticle" />
+    <AppModuleComponent type="1" schemaName="govcdm_kmcatalogitem" />
+    <AppModuleComponent type="1" schemaName="govcdm_kmcatalogitempoc" />
+    <AppModuleComponent type="1" schemaName="govcdm_kmcatalogitemrelation" />
+    <AppModuleComponent type="1" schemaName="govcdm_kmcatalogitemtype" />
+    <AppModuleComponent type="1" schemaName="govcdm_kmcategory" />
+    <AppModuleComponent type="1" schemaName="team" />
+    <AppModuleComponent type="26" id="{972d61ab-4a37-402c-833f-9b49719207c0}" />
+    <AppModuleComponent type="26" id="{8dc4a940-7b9e-4a6a-9ec5-d2ce94a1a634}" />
+    <AppModuleComponent type="60" id="{23daf43a-7395-ef11-ac21-001dd804e2ae}" />
+    <AppModuleComponent type="60" id="{a78a4bd4-7395-ef11-ac21-001dd804e2ae}" />
+    <AppModuleComponent type="60" id="{1879b81b-1b5d-f011-bec1-001dd8069e6c}" />
+    <AppModuleComponent type="60" id="{67ed4f2e-7495-ef11-ac21-001dd809427e}" />
+    <AppModuleComponent type="60" id="{076dfb61-7395-ef11-ac21-001dd830706f}" />
+    <AppModuleComponent type="60" id="{7d80444d-7495-ef11-ac21-001dd830706f}" />
+    <AppModuleComponent type="60" id="{76c87cce-73aa-4cb8-9fb4-03e556d02e42}" />
+    <AppModuleComponent type="60" id="{f9a80ce1-b2f9-429a-a5ef-06e70b5e69d2}" />
+    <AppModuleComponent type="60" id="{ed6ccf9d-d4b8-4547-ab25-8913b56ec624}" />
+    <AppModuleComponent type="60" id="{c6839428-8936-438e-b58f-8fe3c4e066e0}" />
+    <AppModuleComponent type="60" id="{9a994aef-ade0-4fbc-8332-aea50c2412d2}" />
+    <AppModuleComponent type="62" schemaName="msfed_KnowledgeManagement" />
+  </AppModuleComponents>
+  <AppModuleRoleMaps>
+    <Role id="{627090ff-40a3-4053-8790-584edc5be201}" />
+    <Role id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+  </AppModuleRoleMaps>
+  <LocalizedNames>
+    <LocalizedName description="Knowledge Management" languagecode="1033" />
+  </LocalizedNames>
+  <appsettings>
+    <appsetting settingdefinitionid.uniquename="AppChannel">
+      <iscustomizable>1</iscustomizable>
+      <value>1</value>
+    </appsetting>
+    <appsetting settingdefinitionid.uniquename="appcopilotenabled">
+      <iscustomizable>1</iscustomizable>
+      <value>0</value>
+    </appsetting>
+  </appsettings>
+</AppModule>

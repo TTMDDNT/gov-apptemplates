@@ -1,0 +1,14 @@
+<environmentvariabledefinition schemaname="msfed_KMBrowserBaseURL">
+  <defaultvalue>https://aka.ms/</defaultvalue>
+  <description default="Base URL for Knowledge Browser Shortcuts">
+    <label description="Base URL for Knowledge Browser Shortcuts" languagecode="1033" />
+  </description>
+  <displayname default="KM Browser Base URL">
+    <label description="KM Browser Base URL" languagecode="1033" />
+  </displayname>
+  <introducedversion>1.0.0.2</introducedversion>
+  <iscustomizable>1</iscustomizable>
+  <isrequired>0</isrequired>
+  <secretstore>0</secretstore>
+  <type>100000000</type>
+</environmentvariabledefinition>

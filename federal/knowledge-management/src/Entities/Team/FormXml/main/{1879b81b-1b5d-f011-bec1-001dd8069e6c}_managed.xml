@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{1879b81b-1b5d-f011-bec1-001dd8069e6c}</formid>
+    <IntroducedVersion>1.0.1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <hiddencontrols>
+        <data id="isdefault" datafieldname="isdefault" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" />
+      </hiddencontrols>
+      <tabs>
+        <tab name="general" verticallayout="true" id="{c6821abf-090a-41ed-9026-6601693b4349}" IsUserDefined="0" labelid="{a750c7ac-f4ab-41c9-9550-564f2556f4fc}">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="section 1" showlabel="false" showbar="false" id="{ec388a62-2959-4d89-a994-3b7d93ab98e2}" IsUserDefined="0" labelwidth="190" labelid="{c00a5e42-f98c-44aa-ab0f-712a8a272c5b}">
+                  <labels>
+                    <label description="Section 1" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{ed6dd19b-6fec-4607-b09d-5481961de0af}" labelid="{404cbde1-7d50-4bca-aca9-725c3455e6dd}">
+                        <labels>
+                          <label description="Team Name" languagecode="1033" />
+                        </labels>
+                        <control id="name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="name" />
+                      </cell>
+                      <cell id="{88b2b5f7-2e70-4262-bf57-75427b684719}" labelid="{a28fbd36-e11f-4ddf-a24d-4bf814220d66}">
+                        <labels>
+                          <label description="Business Unit" languagecode="1033" />
+                        </labels>
+                        <control id="businessunitid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="businessunitid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{10D44F8A-E7D3-4f75-9A8F-0BA5344EAE99}" labelid="{6f5bf015-802b-4e58-bb1f-0d06a6006a7a}">
+                        <labels>
+                          <label description="Administrator" languagecode="1033" />
+                        </labels>
+                        <control id="administratorid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="administratorid" />
+                      </cell>
+                      <cell id="{04B1F337-5751-4f9c-8340-A734EC03DA6B}" labelid="{64d305de-2e29-46be-8662-542059b9b5e2}">
+                        <labels>
+                          <label description="Default Queue" languagecode="1033" />
+                        </labels>
+                        <control id="queueid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="queueid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{96c2e086-9cbe-48ed-a469-7d1511d8c74e}" labelid="{05fee0e8-68a3-440c-a4e3-898d32b7abd3}">
+                        <labels>
+                          <label description="Team Type" languagecode="1033" />
+                        </labels>
+                        <control id="teamtype" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="teamtype" disabled="false" />
+                      </cell>
+                      <cell id="{9b8cc159-a36b-4c61-879d-34288991f672}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="msfed_iskmteam" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="msfed_iskmteam" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="desc" showlabel="false" showbar="false" id="{6049e787-8970-4876-b3b7-900e6f08f70b}" IsUserDefined="0" height="auto" labelwidth="190" labelid="{858160c5-80e6-4f6a-a25d-63fad964c9e5}">
+                  <labels>
+                    <label description="Description" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell colspan="2" showlabel="true" rowspan="5" auto="true" id="{c9ffa507-c088-47e8-bcaa-2def8ba19a83}" labelid="{cd737041-3a7e-4888-ad6b-805554f36067}">
+                        <labels>
+                          <label description="Description" languagecode="1033" />
+                        </labels>
+                        <control id="description" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="description" />
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row height="auto" />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <clientresources>
+        <internalresources>
+          <clientincludes>
+            <internaljscriptfile src="/_static/Biz/Teams/TeamRecord.js" />
+            <internaljscriptfile src="$webresource:Team_main_system_library.js" />
+          </clientincludes>
+          <clientvariables>
+            <internaljscriptvariable name="LOCID_ERROR_MISSING_CUSTOMER" resourceid="Web.cs.cases.edit.MissingCustomer" />
+            <internaljscriptvariable name="LOCID_ERROR_MISSING_CONTRACT" resourceid="Web.cs.cases.edit.MissingContract" />
+            <internaljscriptvariable name="LOCID_TREE_PLUS" resourceid="Tree.Alt.Expand" />
+            <internaljscriptvariable name="LOCID_TREE_MINUS" resourceid="Tree.Alt.Collapse" />
+            <internaljscriptvariable name="LOCID_REASSIGNINGRECORDS" resourceid="Message_Reassigning_Records" />
+          </clientvariables>
+        </internalresources>
+      </clientresources>
+      <events>
+        <event name="onload" application="true" active="true">
+          <InternalHandlers>
+            <Handler functionName="Mscrm.Form_onload" libraryName="Team_main_system_library.js" handlerUniqueId="06131746-007C-4094-9C39-683554194748" enabled="true" />
+          </InternalHandlers>
+        </event>
+        <event name="onchange" application="true" active="true" attribute="teamtype">
+          <InternalHandlers>
+            <Handler functionName="Mscrm.teamtype_onchange" libraryName="Team_main_system_library.js" handlerUniqueId="3BAEE412-4718-4EC5-992E-0769C108749B" enabled="true" passExecutionContext="true" />
+          </InternalHandlers>
+        </event>
+      </events>
+      <header id="{aab1a22c-1420-4546-b707-c387898e81f4}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{20a30bd8-28df-445b-9701-e01597e02052}" showlabel="false" labelid="{21a924cc-78d9-47e2-a1e8-a3d004e61d51}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{60ca21b6-b200-492b-8839-678be83c4904}" showlabel="false" labelid="{7e8a6fe4-1cc6-4ef8-b55c-737d49ed2a28}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{703696c3-f8d9-4b1a-97ab-26596647c778}" showlabel="false" labelid="{15d9c8cf-023b-4d85-ad3e-b37d2929e957}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{1043ae38-ec71-49a5-ba9f-4696c9865b19}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{9b11ed63-2596-456a-a0dc-b1cccb92ef16}" showlabel="false" labelid="{dc48991d-9a69-4d50-8e55-1f6d0acd5b16}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{214d3264-c899-4b73-a7b1-c603c97d062d}" showlabel="false" labelid="{a59d8ea1-a1fa-4a4d-9bd9-e9b086c3543a}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{599216c4-4413-4fd0-90c0-5b5676172591}" showlabel="false" labelid="{d0409240-eba7-4f09-8ede-bc9d66a0c0bd}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions Order="4" FallbackForm="true">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information - KM" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{f9a80ce1-b2f9-429a-a5ef-06e70b5e69d2}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls" solutionaction="Modified">
+      <tabs>
+        <tab verticallayout="true" id="{7ef70d5d-7399-4075-9efc-1f01b5a5bc06}" IsUserDefined="1" ordinalvalue="0">
+          <columns>
+            <column width="100%" id="0">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{9c458161-b291-4eb5-a653-0ac387acf22c}" ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell id="{8111c72c-f375-4190-b8e2-ebe02451ee76}" ordinalvalue="10004" solutionaction="Modified" />
+                    </row>
+                    <row>
+                      <cell id="{cadf5c78-266b-4ce1-87a9-09b76b281e2d}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10001" solutionaction="Added">
+                        <labels>
+                          <label description="From Item" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_fromitem" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="govcdm_fromitem" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{59460700-67a3-43c0-9153-a6bc6c805912}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10002" solutionaction="Added">
+                        <labels>
+                          <label description="To Item" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_toitem" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="govcdm_toitem" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{4624f2a3-27b2-464d-ab06-9c0ebe462208}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10003" solutionaction="Added">
+                        <labels>
+                          <label description="Publication Status" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_publicationstatus" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="govcdm_publicationstatus" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{9c2bbfb5-4fb0-4231-87bf-d62ae9ab640d}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left" solutionaction="Added">
+        <rows>
+          <row>
+            <cell id="{82cb56e1-a793-4a7f-9cbf-d1aa2c2f8847}" showlabel="false" ordinalvalue="10000">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{c57e1e99-2a74-4b8e-a2b8-a3836e50e756}" showlabel="false" ordinalvalue="20001">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{ba2ce298-399e-4c30-b719-441c8d43b284}" showlabel="false" ordinalvalue="30002">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{58b436de-bac8-4d1f-8a1e-765b6c45bc3d}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left" solutionaction="Added">
+        <rows>
+          <row>
+            <cell id="{4232ce4a-b566-4821-9724-52f5218b3c4b}" showlabel="false" ordinalvalue="10000">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{c186d356-de83-4d1a-8192-40288de69846}" showlabel="false" ordinalvalue="20001">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{ff6b07da-b28e-43ad-b57d-143fe877d6bf}" showlabel="false" ordinalvalue="30002">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions Order="0" FallbackForm="true" solutionaction="Added">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

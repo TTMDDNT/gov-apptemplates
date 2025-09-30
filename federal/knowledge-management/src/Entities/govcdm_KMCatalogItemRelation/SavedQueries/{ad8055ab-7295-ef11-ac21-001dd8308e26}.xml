@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{ad8055ab-7295-ef11-ac21-001dd8308e26}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="govcdm_name" select="1" icon="1" preview="1">
+        <row name="result" id="govcdm_kmcatalogitemrelationid">
+          <cell name="govcdm_name" width="258" />
+          <cell name="govcdm_fromitem" width="281" />
+          <cell name="a_530ecdd8d55c493d940a74cbccd06eb9.govcdm_kmcatalogitemtype" width="243" />
+          <cell name="govcdm_publicationstatus" width="290" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="govcdm_kmcatalogitemrelation">
+          <attribute name="govcdm_kmcatalogitemrelationid" />
+          <attribute name="govcdm_name" />
+          <order attribute="govcdm_name" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="govcdm_publicationstatus" />
+          <attribute name="govcdm_fromitem" />
+          <link-entity alias="a_530ecdd8d55c493d940a74cbccd06eb9" name="govcdm_kmcatalogitem" to="govcdm_fromitem" from="govcdm_kmcatalogitemid" link-type="outer" visible="false">
+            <attribute name="govcdm_kmcatalogitemtype" />
+          </link-entity>
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.2</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="From Items" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>
