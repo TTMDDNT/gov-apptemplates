@@ -1,0 +1,264 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImportExportXml version="9.2.24032.208" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SolutionManifest>
+    <UniqueName>msfed_programsandservices</UniqueName>
+    <LocalizedNames>
+      <LocalizedName description="Microsoft Federal - Programs and Services" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions />
+    <Version>1.0.0.0</Version>
+    <Managed>2</Managed>
+    <Publisher>
+      <UniqueName>microsoftfederal</UniqueName>
+      <LocalizedNames>
+        <LocalizedName description="Microsoft Federal" languagecode="1033" />
+      </LocalizedNames>
+      <Descriptions>
+        <Description description="microsoftfederal" languagecode="1033" />
+      </Descriptions>
+      <EMailAddress xsi:nil="true"></EMailAddress>
+      <SupportingWebsiteUrl xsi:nil="true"></SupportingWebsiteUrl>
+      <CustomizationPrefix>msfed</CustomizationPrefix>
+      <CustomizationOptionValuePrefix>18844</CustomizationOptionValuePrefix>
+      <Addresses>
+        <Address>
+          <AddressNumber>1</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+        <Address>
+          <AddressNumber>2</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+      </Addresses>
+    </Publisher>
+    <RootComponents>
+      <RootComponent type="1" schemaName="govcdm_program" behavior="2" />
+      <RootComponent type="1" schemaName="govcdm_programclaim" behavior="2" />
+      <RootComponent type="1" schemaName="govcdm_programenrollee" behavior="2" />
+      <RootComponent type="1" schemaName="govcdm_programenrolleeentitlement" behavior="2" />
+      <RootComponent type="1" schemaName="govcdm_programentitlement" behavior="2" />
+      <RootComponent type="1" schemaName="govcdm_programservice" behavior="2" />
+      <RootComponent type="1" schemaName="govcdm_programserviceactivity" behavior="2" />
+      <RootComponent type="62" schemaName="msfed_ProgramsandServices" behavior="0" />
+      <RootComponent type="80" schemaName="msfed_ProgramsandServices" behavior="0" />
+    </RootComponents>
+    <MissingDependencies>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_program" displayName="Program" solution="govcdm_programsandservices (1.0.0.0)" />
+        <Dependent type="1" schemaName="govcdm_program" displayName="Program" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_program" displayName="Program" solution="govcdm_programsandservices (1.0.0.0)" />
+        <Dependent type="62" schemaName="msfed_ProgramsandServices" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_program" displayName="Program" solution="govcdm_programsandservices (1.0.0.0)" />
+        <Dependent type="80" schemaName="msfed_ProgramsandServices" displayName="Programs and Services" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_programclaim" displayName="Program Claim" solution="govcdm_programsandservices (1.0.0.0)" />
+        <Dependent type="1" schemaName="govcdm_programclaim" displayName="Program Claim" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_programclaim" displayName="Program Claim" solution="govcdm_programsandservices (1.0.0.0)" />
+        <Dependent type="62" schemaName="msfed_ProgramsandServices" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_programclaim" displayName="Program Claim" solution="govcdm_programsandservices (1.0.0.0)" />
+        <Dependent type="80" schemaName="msfed_ProgramsandServices" displayName="Programs and Services" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_programenrollee" displayName="Program Enrollee" solution="govcdm_programsandservices (1.0.0.0)" />
+        <Dependent type="1" schemaName="govcdm_programenrollee" displayName="Program Enrollee" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_programenrollee" displayName="Program Enrollee" solution="govcdm_programsandservices (1.0.0.0)" />
+        <Dependent type="60" displayName="Program Enrollee quick create form" parentDisplayName="Program Enrollee" id="{350c72be-655d-ee11-be6f-6045bda7eb80}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_programenrollee" displayName="Program Enrollee" solution="govcdm_programsandservices (1.0.0.0)" />
+        <Dependent type="62" schemaName="msfed_ProgramsandServices" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_programenrollee" displayName="Program Enrollee" solution="govcdm_programsandservices (1.0.0.0)" />
+        <Dependent type="80" schemaName="msfed_ProgramsandServices" displayName="Programs and Services" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_programenrolleeentitlement" displayName="Program Enrollee Entitlement" solution="govcdm_programsandservices (1.0.0.0)" />
+        <Dependent type="1" schemaName="govcdm_programenrolleeentitlement" displayName="Program Enrollee Entitlement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_programenrolleeentitlement" displayName="Program Enrollee Entitlement" solution="govcdm_programsandservices (1.0.0.0)" />
+        <Dependent type="62" schemaName="msfed_ProgramsandServices" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_programenrolleeentitlement" displayName="Program Enrollee Entitlement" solution="govcdm_programsandservices (1.0.0.0)" />
+        <Dependent type="80" schemaName="msfed_ProgramsandServices" displayName="Programs and Services" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_programentitlement" displayName="Program Entitlement" solution="govcdm_programsandservices (1.0.0.0)" />
+        <Dependent type="1" schemaName="govcdm_programentitlement" displayName="Program Entitlement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_programentitlement" displayName="Program Entitlement" solution="govcdm_programsandservices (1.0.0.0)" />
+        <Dependent type="60" displayName="Program Entitlement quick create form" parentDisplayName="Program Entitlement" id="{6f3b04d7-655d-ee11-be6f-6045bda7eb80}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_programentitlement" displayName="Program Entitlement" solution="govcdm_programsandservices (1.0.0.0)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Program" id="{84ea756c-a691-4217-b1da-7a620c238c99}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_programentitlement" displayName="Program Entitlement" solution="govcdm_programsandservices (1.0.0.0)" />
+        <Dependent type="80" schemaName="msfed_ProgramsandServices" displayName="Programs and Services" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_programservice" displayName="Program Service" solution="govcdm_programsandservices (1.0.0.0)" />
+        <Dependent type="1" schemaName="govcdm_programservice" displayName="Program Service" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_programservice" displayName="Program Service" solution="govcdm_programsandservices (1.0.0.0)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Program" id="{84ea756c-a691-4217-b1da-7a620c238c99}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_programservice" displayName="Program Service" solution="govcdm_programsandservices (1.0.0.0)" />
+        <Dependent type="60" displayName="Program Service quick create form" parentDisplayName="Program Service" id="{b3f22fe9-655d-ee11-be6f-6045bda7eb80}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_programservice" displayName="Program Service" solution="govcdm_programsandservices (1.0.0.0)" />
+        <Dependent type="80" schemaName="msfed_ProgramsandServices" displayName="Programs and Services" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_programserviceactivity" displayName="Program Service Activity" solution="govcdm_programsandservices (1.0.0.0)" />
+        <Dependent type="1" schemaName="govcdm_programserviceactivity" displayName="Program Service Activity" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_programserviceactivity" displayName="Program Service Activity" solution="govcdm_programsandservices (1.0.0.0)" />
+        <Dependent type="62" schemaName="msfed_ProgramsandServices" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_programserviceactivity" displayName="Program Service Activity" solution="govcdm_programsandservices (1.0.0.0)" />
+        <Dependent type="80" schemaName="msfed_ProgramsandServices" displayName="Programs and Services" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_govcdm_programenrollee_Person_contact" displayName="govcdm_govcdm_programenrollee_Person_contact" parentSchemaName="contact" parentDisplayName="Person" solution="govcdm_programsandservices (1.0.0.0)" />
+        <Dependent type="60" displayName="Program Enrollee quick create form" parentDisplayName="Program Enrollee" id="{350c72be-655d-ee11-be6f-6045bda7eb80}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_govcdm_programenrollee_Program_govcdm_pro" displayName="govcdm_govcdm_programenrollee_Program_govcdm_pro" parentSchemaName="govcdm_program" parentDisplayName="Program" solution="govcdm_programsandservices (1.0.0.0)" />
+        <Dependent type="60" displayName="Program Enrollee quick create form" parentDisplayName="Program Enrollee" id="{350c72be-655d-ee11-be6f-6045bda7eb80}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_govcdm_programentitlement_Program_govcdm_" displayName="govcdm_govcdm_programentitlement_Program_govcdm_" parentSchemaName="govcdm_program" parentDisplayName="Program" solution="govcdm_programsandservices (1.0.0.0)" />
+        <Dependent type="60" displayName="Program Entitlement quick create form" parentDisplayName="Program Entitlement" id="{6f3b04d7-655d-ee11-be6f-6045bda7eb80}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_govcdm_programentitlement_Program_govcdm_" displayName="govcdm_govcdm_programentitlement_Program_govcdm_" parentSchemaName="govcdm_program" parentDisplayName="Program" solution="govcdm_programsandservices (1.0.0.0)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Program" id="{84ea756c-a691-4217-b1da-7a620c238c99}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_govcdm_programservice_Program_govcdm_prog" displayName="govcdm_govcdm_programservice_Program_govcdm_prog" parentSchemaName="govcdm_program" parentDisplayName="Program" solution="govcdm_programsandservices (1.0.0.0)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Program" id="{84ea756c-a691-4217-b1da-7a620c238c99}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_govcdm_programservice_Program_govcdm_prog" displayName="govcdm_govcdm_programservice_Program_govcdm_prog" parentSchemaName="govcdm_program" parentDisplayName="Program" solution="govcdm_programsandservices (1.0.0.0)" />
+        <Dependent type="60" displayName="Program Service quick create form" parentDisplayName="Program Service" id="{b3f22fe9-655d-ee11-be6f-6045bda7eb80}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_program" parentDisplayName="Program" solution="govcdm_programsandservices (1.0.0.0)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Program" id="{84ea756c-a691-4217-b1da-7a620c238c99}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_programentitlement" parentDisplayName="Program Entitlement" solution="govcdm_programsandservices (1.0.0.0)" />
+        <Dependent type="60" displayName="Program Entitlement quick create form" parentDisplayName="Program Entitlement" id="{6f3b04d7-655d-ee11-be6f-6045bda7eb80}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_programservice" parentDisplayName="Program Service" solution="govcdm_programsandservices (1.0.0.0)" />
+        <Dependent type="60" displayName="Program Service quick create form" parentDisplayName="Program Service" id="{b3f22fe9-655d-ee11-be6f-6045bda7eb80}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_person" displayName="Person" parentSchemaName="govcdm_programenrollee" parentDisplayName="Program Enrollee" solution="govcdm_programsandservices (1.0.0.0)" />
+        <Dependent type="60" displayName="Program Enrollee quick create form" parentDisplayName="Program Enrollee" id="{350c72be-655d-ee11-be6f-6045bda7eb80}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_program" displayName="Program" parentSchemaName="govcdm_programenrollee" parentDisplayName="Program Enrollee" solution="govcdm_programsandservices (1.0.0.0)" />
+        <Dependent type="60" displayName="Program Enrollee quick create form" parentDisplayName="Program Enrollee" id="{350c72be-655d-ee11-be6f-6045bda7eb80}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_program" displayName="Program" parentSchemaName="govcdm_programentitlement" parentDisplayName="Program Entitlement" solution="govcdm_programsandservices (1.0.0.0)" />
+        <Dependent type="60" displayName="Program Entitlement quick create form" parentDisplayName="Program Entitlement" id="{6f3b04d7-655d-ee11-be6f-6045bda7eb80}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_program" displayName="Program" parentSchemaName="govcdm_programservice" parentDisplayName="Program Service" solution="govcdm_programsandservices (1.0.0.0)" />
+        <Dependent type="60" displayName="Program Service quick create form" parentDisplayName="Program Service" id="{b3f22fe9-655d-ee11-be6f-6045bda7eb80}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="govcdm_program" parentDisplayName="Program" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Program" id="{84ea756c-a691-4217-b1da-7a620c238c99}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Active Program Entitlements" displayName="Active Program Entitlements" parentSchemaName="govcdm_programentitlement" parentDisplayName="Program Entitlement" solution="govcdm_programsandservices (1.0.0.0)" id="{7ac7ef8f-8c4a-4315-94b8-57711e8184af}" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Program" id="{84ea756c-a691-4217-b1da-7a620c238c99}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Active Program Services" displayName="Active Program Services" parentSchemaName="govcdm_programservice" parentDisplayName="Program Service" solution="govcdm_programsandservices (1.0.0.0)" id="{03dc268f-ac87-4b40-990b-a422515e56cf}" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Program" id="{84ea756c-a691-4217-b1da-7a620c238c99}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Information" parentDisplayName="Program" solution="govcdm_programsandservices (1.0.0.0)" id="{84ea756c-a691-4217-b1da-7a620c238c99}" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Program" id="{84ea756c-a691-4217-b1da-7a620c238c99}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="msdyn_/Images/AppModule_Default_Icon.png" displayName="msdyn_/Images/AppModule_Default_Icon.png" solution="AppModuleWebResources (2.5)" />
+        <Dependent type="80" schemaName="msfed_ProgramsandServices" displayName="Programs and Services" />
+      </MissingDependency>
+    </MissingDependencies>
+  </SolutionManifest>
+</ImportExportXml>
