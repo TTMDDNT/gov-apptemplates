@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<optionset Name="msfed_icmcasecontacttype" localizedName="ICM Case Contact Type" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <OptionSetType>picklist</OptionSetType>
+  <IsGlobal>1</IsGlobal>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <ExternalTypeName></ExternalTypeName>
+  <displaynames>
+    <displayname description="ICM Case Contact Type" languagecode="1033" />
+  </displaynames>
+  <options>
+    <option value="791770000" ExternalValue="" IsHidden="0">
+      <labels>
+        <label description="Witness" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="791770001" ExternalValue="" IsHidden="0">
+      <labels>
+        <label description="Subject" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="791770002" ExternalValue="" IsHidden="0">
+      <labels>
+        <label description="Complainant" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="791770003" ExternalValue="" IsHidden="0">
+      <labels>
+        <label description="Attorney" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+  </options>
+</optionset>

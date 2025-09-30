@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{8b50a525-a936-4c6b-bd60-32011d224d75}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{18f8887a-8bd2-496f-b65d-3b07989f49c0}" name="StageStep4" locklevel="0" expanded="true" visible="false" labelid="{0d079a3e-0b42-4d21-a1ea-e253480a3314}">
+          <labels>
+            <label description="Intake" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{f4c32e26-4976-5c7b-f95d-670de8bec28f}" name="StageStep4_section1" labelid="{41f571bc-fde2-43e5-a10b-b4a215259b09}">
+                  <labels>
+                    <label description="Intake" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{95126770-a951-44d5-abdf-f6226d9715ad}" showlabel="true" visible="true" labelid="{fc111f60-199b-4f01-967f-8363c63224f0}">
+                        <labels>
+                          <label description="Topic" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_lead_msfed_leadtocaseicm:subject" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="subject" disabled="false" relationship="bpf_lead_msfed_leadtocaseicm" isrequired="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{8d5a2aae-9e14-4980-9a43-335e000c7d80}" name="StageStep8" locklevel="0" expanded="true" visible="false" labelid="{c4567a8d-8306-40af-a328-fac76c612254}">
+          <labels>
+            <label description="Informal Complaint" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{96eb1918-6d44-5959-5da3-bbeda56d989d}" name="StageStep8_section1" labelid="{6cd72f93-f997-435d-b218-df43283ccec8}">
+                  <labels>
+                    <label description="Informal Complaint" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{f77a3da1-6b9c-467a-b963-490af5607d65}" showlabel="true" visible="true" labelid="{22c81dd8-5cc4-468d-9584-6a0f27bb795c}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_incident_msfed_leadtocaseicm:msfed_complaintrecommendation" classid="{e0dece4b-6fc8-4a8f-a065-082708572369}" datafieldname="msfed_complaintrecommendation" disabled="false" relationship="bpf_incident_msfed_leadtocaseicm" isrequired="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{90998902-ea18-4ac9-ba30-35d27ea81897}" name="StageStep12" locklevel="0" expanded="true" visible="false" labelid="{1d41fa62-813c-45b5-9a64-9da0ac8c9c07}">
+          <labels>
+            <label description="Formal Investigation" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{439c9aa8-edad-8a55-43b5-7ae5944943a4}" name="StageStep12_section1" labelid="{c0480f06-947d-4c47-8a1b-8fe9d7ff5082}">
+                  <labels>
+                    <label description="Formal Investigation" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{545247fa-9de4-40a9-9bfc-2e09488de506}" showlabel="true" visible="true" labelid="{29e0a817-aae1-4e6b-ac80-c7a5ea1be4f9}">
+                        <labels>
+                          <label description="Complaint Recommendation" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_incident_msfed_leadtocaseicm:msfed_complaintrecommendation" classid="{e0dece4b-6fc8-4a8f-a065-082708572369}" datafieldname="msfed_complaintrecommendation" disabled="false" relationship="bpf_incident_msfed_leadtocaseicm" isrequired="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{fc4d9a9b-c123-4196-9635-c5edb5a0f60e}" name="StageStep16" locklevel="0" expanded="true" visible="false" labelid="{2e757ee4-b12d-42b7-b7ac-5568af87833d}">
+          <labels>
+            <label description="Referral" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{f7fd1dba-cd31-7a34-b97a-41749038cf10}" name="StageStep16_section1" labelid="{4abdca96-5365-47ec-b3a4-2cdb89e45e8c}">
+                  <labels>
+                    <label description="Referral" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{f9d419f8-9b0b-429e-a52a-2ac1b8afc5c1}" showlabel="true" visible="true" labelid="{6016d21c-1d2e-4a54-b57b-866b35d8a4f4}">
+                        <labels>
+                          <label description="Complaint Recommendation" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_incident_msfed_leadtocaseicm:msfed_complaintrecommendation" classid="{e0dece4b-6fc8-4a8f-a065-082708572369}" datafieldname="msfed_complaintrecommendation" disabled="false" relationship="bpf_incident_msfed_leadtocaseicm" isrequired="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{46e3db32-e8b1-4dec-a60b-ebac8fa668e5}" name="StageStep20" locklevel="0" expanded="true" visible="false" labelid="{8932aa95-96ea-4b15-b37a-29f219cc9a1f}">
+          <labels>
+            <label description="Closure" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{db7d2d70-6d29-d0b9-7036-4957a2f3724a}" name="StageStep20_section1" labelid="{d8e5fe96-aa08-4941-99cb-d00455f5b1a1}">
+                  <labels>
+                    <label description="Closure" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{4ea8584b-3db3-42c9-acb8-049bb5b62dab}" showlabel="true" visible="true" labelid="{d56111ee-8c2a-4872-8e8c-b8615f4ecaa3}">
+                        <labels>
+                          <label description="Complaint Recommendation" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_incident_msfed_leadtocaseicm:msfed_complaintrecommendation" classid="{e0dece4b-6fc8-4a8f-a065-082708572369}" datafieldname="msfed_complaintrecommendation" disabled="false" relationship="bpf_incident_msfed_leadtocaseicm" isrequired="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

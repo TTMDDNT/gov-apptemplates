@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EntityMaps xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <EntityMap>
+    <EntitySource>lead</EntitySource>
+    <EntityTarget>incident</EntityTarget>
+    <AttributeMaps>
+      <AttributeMap>
+        <AttributeSource>description</AttributeSource>
+        <AttributeTarget>description</AttributeTarget>
+      </AttributeMap>
+      <AttributeMap>
+        <AttributeSource>parentcontactid</AttributeSource>
+        <AttributeTarget>customerid</AttributeTarget>
+      </AttributeMap>
+      <AttributeMap>
+        <AttributeSource>subject</AttributeSource>
+        <AttributeTarget>title</AttributeTarget>
+      </AttributeMap>
+    </AttributeMaps>
+  </EntityMap>
+</EntityMaps>

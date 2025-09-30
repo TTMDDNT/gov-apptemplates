@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{1898d587-4b84-ec11-8d21-0022481c0d29}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>0</FormActivationState>
+    <form enablerelatedinformation="false" shownavigationbar="true" hasmargin="false" headerdensity="HighWithControls" relatedInformationCollapsed="false" showImage="false" maxWidth="1920">
+      <tabs showlabels="true">
+        <tab name="general" verticallayout="true" id="{564b9a08-4626-46f5-8bd8-3d31e17a8873}" IsUserDefined="0" labelid="{a0214e8b-b590-43ac-8152-b0c63c95ceee}" expanded="true" locklevel="0" showlabel="true" ordinalvalue="0">
+          <columns>
+            <column width="50%" id="1">
+              <sections>
+                <section name="general_section_3" showlabel="false" showbar="false" locklevel="0" id="{6cb0a253-2296-7c07-1c5a-0b8988e19916}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell id="{89822280-aa6b-0e52-9a31-714da639a166}" showlabel="false" ordinalvalue="10000" solutionaction="Removed" />
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <DisplayConditions FallbackForm="true" Order="11" solutionaction="Added">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="Case form for swarming" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Case form for swarming. " languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

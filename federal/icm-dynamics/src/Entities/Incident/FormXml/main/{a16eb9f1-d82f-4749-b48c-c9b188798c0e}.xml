@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{a16eb9f1-d82f-4749-b48c-c9b188798c0e}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>0</FormActivationState>
+    <form enablerelatedinformation="false" shownavigationbar="true" hasmargin="false" headerdensity="HighWithControls" relatedInformationCollapsed="false" showImage="false" maxWidth="1920">
+      <tabs showlabels="true">
+        <tab name="Summary" verticallayout="true" id="{564b9a08-4626-46f5-8bd8-3d31e17a8873}" IsUserDefined="0" labelid="{06748048-f178-4e28-b976-3274da4cb80a}" expanded="true" locklevel="0" showlabel="true" ordinalvalue="0">
+          <columns>
+            <column width="30%" id="0">
+              <sections>
+                <section name="Summary_notes" id="789893e6-8de3-42c9-81ce-b87eb20c0fd2" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115" labelid="{1b90fe55-0bd4-4443-9d53-7929c81a5c6e}" ordinalvalue="1">
+                  <rows>
+                    <row>
+                      <cell id="{c9c48425-94ba-ad8b-6927-43502aa3ce31}" showlabel="false" labelid="{bcce06f8-9827-487d-9aa5-b67921ad33f8}" ordinalvalue="10000" solutionaction="Removed" />
+                    </row>
+                  </rows>
+                </section>
+                <section name="Summary_tasks" showlabel="true" showbar="false" locklevel="0" id="{4b1cda7b-4b7a-7531-5977-e61b76de664d}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left" labelid="{ccee29f7-be8e-490c-9fb2-903761464fd6}" ordinalvalue="2">
+                  <rows>
+                    <row>
+                      <cell id="{38a70c04-5565-c5da-1cc9-c0574aa4c409}" showlabel="false" labelid="{3797de2d-586e-45b6-98e1-c345cdd35e2d}" ordinalvalue="10000" solutionaction="Removed" />
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="40%" id="1">
+              <sections>
+                <section id="{0b8f8bb7-5dba-4e2a-8a02-53aa19b78ec1}" name="Summary_column_2_section_1" columns="11" showlabel="false" showbar="false" IsUserDefined="0" ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell id="{230bbccd-ea60-444a-af58-808eae65a966}" showlabel="false" ordinalvalue="10000" solutionaction="Removed" />
+                      <cell id="{4d530c5d-e058-4fe1-bbee-3b29c5514f3b}" showlabel="false" ordinalvalue="20001" solutionaction="Removed" />
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="30%" id="2">
+              <sections>
+                <section id="{ac7c1f47-4ddb-481b-bebe-72943858980f}" name="Summary_column_3_section_1" columns="11" showlabel="false" showbar="false" IsUserDefined="0" ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell id="{eca14a7a-217b-4e0e-9537-dfd56159531c}" showlabel="false" ordinalvalue="10000" solutionaction="Removed" />
+                      <cell id="{b5bb4423-a638-47e3-bcc0-deacf3c4e9c1}" showlabel="false" ordinalvalue="20001" solutionaction="Removed" />
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="CASERELATIONSHIP_TAB" id="{820e1ad0-5b40-4d15-9746-32f10735edde}" IsUserDefined="0" showlabel="true" expanded="true" labelid="{35ee8f09-c380-4a77-a3a7-cc8c8f313f21}" locklevel="0" visible="false" availableforphone="false" ordinalvalue="1">
+          <columns>
+            <column width="33%" id="1">
+              <sections>
+                <section id="{123ea1d5-62d4-4e2e-a1d2-ab47bce9f228}" name="CASERELATIONSHIP_TAB_column_5_section_1" columns="11" showlabel="false" showbar="false" IsUserDefined="0" ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell id="{0ec36d6b-3f8d-4946-a7d2-1b8126edea75}" showlabel="false" ordinalvalue="10000" solutionaction="Removed" />
+                      <cell id="{64fad7f8-2948-43a5-8aee-4c67a4303daa}" showlabel="false" ordinalvalue="20001" solutionaction="Removed" />
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%" id="2">
+              <sections>
+                <section id="{120fc3f2-b1a7-4d55-9535-e8f61601081e}" name="CASERELATIONSHIP_TAB_column_6_section_1" columns="11" showlabel="false" showbar="false" IsUserDefined="0" ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell id="{8498c287-1add-49d2-ba01-422418cac933}" showlabel="false" ordinalvalue="10000" solutionaction="Removed" />
+                      <cell id="{faf3ac63-6b06-402f-a19a-ea7675ad9e73}" showlabel="false" ordinalvalue="20001" solutionaction="Removed" />
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="KBARTICLE_TAB" id="{6539ac26-1798-4e6a-af34-c98a254b2b5f}" IsUserDefined="0" showlabel="true" expanded="true" labelid="{7bd334d1-7c5d-4ca0-ac9e-fb2188bea622}" locklevel="0" visible="false" availableforphone="false" ordinalvalue="2">
+          <columns>
+            <column width="50%" id="0">
+              <sections>
+                <section id="{74754b0a-5424-4579-a340-371414dca0f7}" name="KBARTICLE_TAB_column_7_section_1" columns="11" showlabel="false" showbar="false" IsUserDefined="0" ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell id="{f4b0797f-a7e3-424f-9c14-5304898d282b}" showlabel="false" ordinalvalue="10000" solutionaction="Removed" />
+                      <cell id="{cca51e86-a8f5-44b1-87ce-5b5b23242d65}" showlabel="false" ordinalvalue="20001" solutionaction="Removed" />
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <footer id="{135c24c7-63d3-4e8f-8fdc-e010abe3513f}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{436fbdce-7a44-4d8f-9f90-5af24b048df4}" showlabel="false" labelid="{eef4100d-47f3-4d64-8118-fcc1cd99ff0b}" ordinalvalue="10000" solutionaction="Removed" />
+            <cell id="{630d6583-71d9-4fcf-b305-a90ca3c2efb7}" showlabel="false" labelid="{7c4ed110-d97a-49b8-b34f-226f2c8b271d}" ordinalvalue="20001" solutionaction="Removed" />
+            <cell id="{7abd80b9-1018-4707-b21d-b9c98bdfabcc}" showlabel="false" labelid="{a063bc76-20c4-499b-bdac-c1aedb48b0ea}" ordinalvalue="30002" solutionaction="Removed" />
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions FallbackForm="true" Order="7" solutionaction="Modified" />
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="Case for meeting side panel" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>

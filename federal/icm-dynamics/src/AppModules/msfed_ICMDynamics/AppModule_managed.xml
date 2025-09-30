@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppModule>
+  <UniqueName>msfed_ICMDynamics</UniqueName>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <WebResourceId>953b9fac-1e5e-e611-80d6-00155ded156f</WebResourceId>
+  <OptimizedFor></OptimizedFor>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+  <FormFactor>1</FormFactor>
+  <ClientType>4</ClientType>
+  <NavigationType>0</NavigationType>
+  <AppModuleComponents>
+    <AppModuleComponent type="1" schemaName="contact" />
+    <AppModuleComponent type="1" schemaName="govcdm_icmcasecontact" />
+    <AppModuleComponent type="1" schemaName="govcdm_icmcasecontactviolation" />
+    <AppModuleComponent type="1" schemaName="govcdm_icmcaseevidence" />
+    <AppModuleComponent type="1" schemaName="govcdm_icmcaseviolation" />
+    <AppModuleComponent type="1" schemaName="govcdm_icmevidence" />
+    <AppModuleComponent type="1" schemaName="govcdm_icmreferral" />
+    <AppModuleComponent type="1" schemaName="govcdm_icmviolation" />
+    <AppModuleComponent type="1" schemaName="govcdm_location" />
+    <AppModuleComponent type="1" schemaName="incident" />
+    <AppModuleComponent type="1" schemaName="knowledgearticle" />
+    <AppModuleComponent type="1" schemaName="lead" />
+    <AppModuleComponent type="1" schemaName="msfed_leadtocaseicm" />
+    <AppModuleComponent type="1" schemaName="routingrule" />
+    <AppModuleComponent type="1" schemaName="task" />
+    <AppModuleComponent type="29" id="{1d11f087-1051-f011-8779-001dd8052272}" />
+    <AppModuleComponent type="60" id="{28b0ceb0-b5ed-ed11-8849-000d3a56571a}" />
+    <AppModuleComponent type="60" id="{0366335e-81ee-ed11-8849-000d3a56571a}" />
+    <AppModuleComponent type="60" id="{5abb154d-61ef-ed11-8849-000d3a56571a}" />
+    <AppModuleComponent type="60" id="{8300c511-fbf0-ee11-904b-0022481df7e6}" />
+    <AppModuleComponent type="62" schemaName="msfed_ICMDynamics" />
+  </AppModuleComponents>
+  <AppModuleRoleMaps>
+    <Role id="{627090ff-40a3-4053-8790-584edc5be201}" />
+    <Role id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+  </AppModuleRoleMaps>
+  <LocalizedNames>
+    <LocalizedName description="ICM Dynamics" languagecode="1033" />
+  </LocalizedNames>
+  <appelements>
+    <appelement uniquename="msfed_msfed_ICMDynamics_canvasappid_msfed_icmdynamicsdefaultcommandlibrary_7399d">
+      <canvasappid>
+        <name>msfed_icmdynamicsdefaultcommandlibrary_7399d</name>
+      </canvasappid>
+      <iscustomizable>1</iscustomizable>
+      <name>msfed_msfed_ICMDynamics_canvasappid_msfed_icmdynamicsdefaultcommandlibrary_7399d</name>
+    </appelement>
+  </appelements>
+</AppModule>

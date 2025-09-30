@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{cd0d48a0-10c6-ec11-a7b5-000d3a58b83a}</formid>
+    <IntroducedVersion>9.1.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form enablerelatedinformation="false" shownavigationbar="true" hasmargin="false" headerdensity="HighWithControls" showinformselector="true">
+      <DisplayConditions FallbackForm="false" Order="9" solutionaction="Modified" />
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="Enhanced full case form" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Enhanced full case form" languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>
