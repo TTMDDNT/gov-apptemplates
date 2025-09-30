@@ -1,0 +1,312 @@
+{
+  "properties": {
+    "connectionReferences": {
+      "shared_excelonlinebusiness": {
+        "runtimeSource": "embedded",
+        "connection": {
+          "connectionReferenceLogicalName": "new_sharedexcelonlinebusiness_23cac"
+        },
+        "api": {
+          "name": "shared_excelonlinebusiness"
+        }
+      },
+      "shared_commondataserviceforapps": {
+        "runtimeSource": "embedded",
+        "connection": {
+          "connectionReferenceLogicalName": "msfed_sharedcommondataserviceforapps_5d35d"
+        },
+        "api": {
+          "name": "shared_commondataserviceforapps"
+        }
+      },
+      "shared_sharepointonline": {
+        "runtimeSource": "embedded",
+        "connection": {
+          "connectionReferenceLogicalName": "msfed_sharedsharepointonline_be820"
+        },
+        "api": {
+          "name": "shared_sharepointonline"
+        }
+      }
+    },
+    "definition": {
+      "$schema": "https://schema.management.azure.com/providers/Microsoft.Logic/schemas/2016-06-01/workflowdefinition.json#",
+      "contentVersion": "1.0.0.0",
+      "parameters": {
+        "$connections": {
+          "defaultValue": {},
+          "type": "Object"
+        },
+        "$authentication": {
+          "defaultValue": {},
+          "type": "SecureObject"
+        }
+      },
+      "triggers": {
+        "When_Enrollment_Report_Uploaded": {
+          "recurrence": {
+            "interval": 1,
+            "frequency": "Minute"
+          },
+          "splitOn": "@triggerOutputs()?['body/value']",
+          "metadata": {
+            "operationMetadataId": "203cc277-89e8-4478-9878-3374d0f994d9"
+          },
+          "type": "OpenApiConnection",
+          "inputs": {
+            "host": {
+              "connectionName": "shared_sharepointonline",
+              "operationId": "GetOnNewFileItems",
+              "apiId": "/providers/Microsoft.PowerApps/apis/shared_sharepointonline"
+            },
+            "parameters": {
+              "dataset": "https://crm569769.sharepoint.com/sites/Registrar",
+              "table": "3194dfb9-a235-44dc-9a2d-efc080b9f075",
+              "folderPath": "/Shared Documents/Enrollment Reports"
+            },
+            "authentication": "@parameters('$authentication')"
+          }
+        }
+      },
+      "actions": {
+        "Get_Excel_Rows": {
+          "runAfter": {},
+          "metadata": {
+            "operationMetadataId": "27118e5b-9fa5-46f9-be05-5bb8cf4f4be1",
+            "tableId": "Table1",
+            "01LGKAFNJHSUUXT2POY5A25LRRLQCOHSWQ": "/Enrollment Reports/Enrollment Report.xlsx"
+          },
+          "type": "OpenApiConnection",
+          "inputs": {
+            "host": {
+              "connectionName": "shared_excelonlinebusiness",
+              "operationId": "GetItems",
+              "apiId": "/providers/Microsoft.PowerApps/apis/shared_excelonlinebusiness"
+            },
+            "parameters": {
+              "source": "sites/crm569769.sharepoint.com,1a36af60-bf0f-48ba-9eca-37b259d20b83,c3698e8d-f8fa-4784-8647-98c4b5775028",
+              "drive": "b!YK82Gg-_ukieyjeyWdILg42OacP6-IRHhkeYxLV3UCi535QxNaLcRJot78CAufB1",
+              "file": "/Enrollment Reports/@{triggerBody()?['{FilenameWithExtension}']}",
+              "table": "Table1"
+            },
+            "authentication": "@parameters('$authentication')"
+          }
+        },
+        "For_Every_Enrollment": {
+          "foreach": "@outputs('Get_Excel_Rows')?['body/value']",
+          "actions": {
+            "Find_Enrollee": {
+              "runAfter": {
+                "Set_Enrollment": [
+                  "Succeeded"
+                ]
+              },
+              "metadata": {
+                "operationMetadataId": "39c8a891-a84b-4294-827f-f6fd0a30cdd9"
+              },
+              "type": "OpenApiConnection",
+              "inputs": {
+                "host": {
+                  "connectionName": "shared_commondataserviceforapps",
+                  "operationId": "ListRecords",
+                  "apiId": "/providers/Microsoft.PowerApps/apis/shared_commondataserviceforapps"
+                },
+                "parameters": {
+                  "entityName": "govcdm_trainingcourseenrollees",
+                  "$filter": "govcdm_emailaddress eq '@{body('Set_Enrollment')?['Enrollee Email']}' and govcdm_TrainingCourse/govcdm_name eq '@{body('Set_Enrollment')?['Course']}'"
+                },
+                "authentication": "@parameters('$authentication')"
+              }
+            },
+            "If_Enrollee_Exists": {
+              "actions": {
+                "Update_Enrollee": {
+                  "runAfter": {
+                    "Set_Enrollee": [
+                      "Succeeded"
+                    ]
+                  },
+                  "metadata": {
+                    "operationMetadataId": "53823449-0b37-47c0-affd-8ddbadf03e3f"
+                  },
+                  "type": "OpenApiConnection",
+                  "inputs": {
+                    "host": {
+                      "connectionName": "shared_commondataserviceforapps",
+                      "operationId": "UpdateRecord",
+                      "apiId": "/providers/Microsoft.PowerApps/apis/shared_commondataserviceforapps"
+                    },
+                    "parameters": {
+                      "entityName": "govcdm_trainingcourseenrollees",
+                      "recordId": "@body('Set_Enrollee')?['govcdm_trainingcourseenrolleeid']",
+                      "item/govcdm_name": "Updated!!"
+                    },
+                    "authentication": "@parameters('$authentication')"
+                  }
+                },
+                "Set_Enrollee": {
+                  "runAfter": {},
+                  "metadata": {
+                    "operationMetadataId": "e42c90b1-eeb9-47ae-81e2-8d7b531a4bec"
+                  },
+                  "type": "ParseJson",
+                  "inputs": {
+                    "content": "@first(outputs('Find_Enrollee')?['body/value'])",
+                    "schema": {
+                      "type": "object",
+                      "properties": {
+                        "govcdm_emailaddress": {
+                          "type": "string"
+                        },
+                        "govcdm_name": {
+                          "type": "string"
+                        },
+                        "govcdm_lastname": {
+                          "type": "string"
+                        },
+                        "govcdm_firstname": {
+                          "type": "string"
+                        },
+                        "govcdm_trainingcourseenrolleeid": {
+                          "type": "string"
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "runAfter": {
+                "Find_Enrollee": [
+                  "Succeeded"
+                ]
+              },
+              "else": {
+                "actions": {
+                  "Add_Enrollee": {
+                    "runAfter": {
+                      "Find_Training_Course": [
+                        "Succeeded"
+                      ]
+                    },
+                    "metadata": {
+                      "operationMetadataId": "e25ad6b9-a754-4e43-aaa5-71affb36e5b1"
+                    },
+                    "type": "OpenApiConnection",
+                    "inputs": {
+                      "host": {
+                        "connectionName": "shared_commondataserviceforapps",
+                        "operationId": "CreateRecord",
+                        "apiId": "/providers/Microsoft.PowerApps/apis/shared_commondataserviceforapps"
+                      },
+                      "parameters": {
+                        "entityName": "govcdm_trainingcourseenrollees",
+                        "item/govcdm_name": "@body('Set_Enrollment')?['Course Title']",
+                        "item/govcdm_TrainingCourse@odata.bind": "govcdm_trainingcourses(@{first(outputs('Find_Training_Course')?['body/value'])?['govcdm_trainingcourseid']})",
+                        "item/govcdm_emailaddress": "@body('Set_Enrollment')?['Enrollee Email']"
+                      },
+                      "authentication": "@parameters('$authentication')"
+                    }
+                  },
+                  "Find_Training_Course": {
+                    "runAfter": {},
+                    "metadata": {
+                      "operationMetadataId": "2a375180-ae18-4ec6-be2a-a6f97e2f711f"
+                    },
+                    "type": "OpenApiConnection",
+                    "inputs": {
+                      "host": {
+                        "connectionName": "shared_commondataserviceforapps",
+                        "operationId": "ListRecords",
+                        "apiId": "/providers/Microsoft.PowerApps/apis/shared_commondataserviceforapps"
+                      },
+                      "parameters": {
+                        "entityName": "govcdm_trainingcourses",
+                        "$select": "govcdm_trainingcourseid, govcdm_name",
+                        "$filter": "govcdm_coursenumber eq '@{body('Set_Enrollment')?['Course']}'"
+                      },
+                      "authentication": "@parameters('$authentication')"
+                    }
+                  }
+                }
+              },
+              "expression": {
+                "and": [
+                  {
+                    "greater": [
+                      "@length(outputs('Find_Enrollee')?['body/value'])",
+                      0
+                    ]
+                  }
+                ]
+              },
+              "metadata": {
+                "operationMetadataId": "23b97165-c8e0-4298-bf1e-45ff9c0c16d8"
+              },
+              "type": "If"
+            },
+            "Set_Enrollment": {
+              "runAfter": {},
+              "metadata": {
+                "operationMetadataId": "beaa263b-f69c-4fc8-8d39-b498720d3693"
+              },
+              "type": "ParseJson",
+              "inputs": {
+                "content": "@items('For_Every_Enrollment')",
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "ItemInternalId": {
+                      "type": "string"
+                    },
+                    "Course": {
+                      "type": "string"
+                    },
+                    "Course Title": {
+                      "type": "string"
+                    },
+                    "Class": {
+                      "type": "string"
+                    },
+                    "Enrollee Email": {
+                      "type": "string"
+                    },
+                    "Enrollment Status": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "runAfter": {
+            "Get_Excel_Rows": [
+              "Succeeded"
+            ]
+          },
+          "metadata": {
+            "operationMetadataId": "d2d2aea1-1233-4277-bdae-7bd2009331da"
+          },
+          "type": "Foreach"
+        },
+        "Calculate_Enrollment_Metrics": {
+          "runAfter": {
+            "For_Every_Enrollment": [
+              "Succeeded"
+            ]
+          },
+          "metadata": {
+            "operationMetadataId": "fb93486f-634d-4b98-bf65-3a2b277ab82d"
+          },
+          "type": "Workflow",
+          "inputs": {
+            "host": {
+              "workflowReferenceName": "e144b438-f1e6-ee11-904c-6045bd00794a"
+            }
+          }
+        }
+      }
+    },
+    "templateName": ""
+  },
+  "schemaVersion": "1.0.0.0"
+}

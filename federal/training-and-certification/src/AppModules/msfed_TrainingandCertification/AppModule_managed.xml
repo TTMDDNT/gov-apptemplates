@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppModule>
+  <UniqueName>msfed_TrainingandCertification</UniqueName>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <WebResourceId>953b9fac-1e5e-e611-80d6-00155ded156f</WebResourceId>
+  <OptimizedFor></OptimizedFor>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+  <FormFactor>1</FormFactor>
+  <ClientType>4</ClientType>
+  <NavigationType>0</NavigationType>
+  <AppModuleComponents>
+    <AppModuleComponent type="1" schemaName="contact" />
+    <AppModuleComponent type="1" schemaName="govcdm_location" />
+    <AppModuleComponent type="1" schemaName="govcdm_trainingachievement" />
+    <AppModuleComponent type="1" schemaName="govcdm_trainingcertificate" />
+    <AppModuleComponent type="1" schemaName="govcdm_trainingclass" />
+    <AppModuleComponent type="1" schemaName="govcdm_trainingclassattendance" />
+    <AppModuleComponent type="1" schemaName="govcdm_trainingcourse" />
+    <AppModuleComponent type="1" schemaName="govcdm_trainingcoursecertificate" />
+    <AppModuleComponent type="1" schemaName="govcdm_trainingcourseenrollee" />
+    <AppModuleComponent type="1" schemaName="govcdm_trainingcourserequirement" />
+    <AppModuleComponent type="1" schemaName="govcdm_traininginstructor" />
+    <AppModuleComponent type="1" schemaName="govcdm_trainingobjective" />
+    <AppModuleComponent type="26" id="{02fe03d5-badb-4867-81d6-1615dba0313c}" />
+    <AppModuleComponent type="26" id="{a5a411c3-f20d-437f-a2be-2989b22792ea}" />
+    <AppModuleComponent type="26" id="{823a3863-09c2-4598-9cd0-2cabf409e5f0}" />
+    <AppModuleComponent type="26" id="{9d14ae10-5a86-44aa-9c59-4345b720e3f4}" />
+    <AppModuleComponent type="26" id="{a120a94e-c6bc-411a-8a5e-498ee0e4c87c}" />
+    <AppModuleComponent type="26" id="{fdac965a-4699-413f-91cf-4ae50a3e2e7f}" />
+    <AppModuleComponent type="26" id="{2c583809-4dd2-4cab-9076-4e7f7657cd49}" />
+    <AppModuleComponent type="26" id="{cde7da67-20e1-4fe5-bc02-57a34b51e332}" />
+    <AppModuleComponent type="26" id="{ca5b9ce2-df3e-467a-8882-592dc9daefff}" />
+    <AppModuleComponent type="26" id="{fd6108fc-767e-ee11-8179-6045bd0062b9}" />
+    <AppModuleComponent type="26" id="{68f50065-777e-ee11-8179-6045bd0062b9}" />
+    <AppModuleComponent type="26" id="{2798227e-777e-ee11-8179-6045bd0062b9}" />
+    <AppModuleComponent type="26" id="{072975a1-777e-ee11-8179-6045bd0062b9}" />
+    <AppModuleComponent type="26" id="{fbfa2bba-777e-ee11-8179-6045bd0062b9}" />
+    <AppModuleComponent type="26" id="{c2f50dd8-777e-ee11-8179-6045bd0062b9}" />
+    <AppModuleComponent type="26" id="{3837e78d-7a7e-ee11-8179-6045bd0062b9}" />
+    <AppModuleComponent type="26" id="{b2752572-7b7e-ee11-8179-6045bd0062b9}" />
+    <AppModuleComponent type="26" id="{1bdb96d1-206a-431c-a8a1-618c579b130b}" />
+    <AppModuleComponent type="26" id="{8980ffaf-7e18-4961-9997-6f1f586e0eeb}" />
+    <AppModuleComponent type="26" id="{bc7811aa-7569-4e04-9d3c-791952511a05}" />
+    <AppModuleComponent type="26" id="{7a606461-e8fc-4452-9067-84902bfde7dc}" />
+    <AppModuleComponent type="26" id="{8c90c83b-1919-4591-94d0-8560c1a5e713}" />
+    <AppModuleComponent type="26" id="{1e8d41a8-60ee-4949-ba02-8a9e2934f8d5}" />
+    <AppModuleComponent type="26" id="{5e5868c1-35a0-4b60-a232-8f7e6bc7c9b5}" />
+    <AppModuleComponent type="26" id="{150395ed-27e4-4868-a710-90574c605361}" />
+    <AppModuleComponent type="26" id="{81f59ac9-16bd-44a1-a8ea-a53a79ac0e5e}" />
+    <AppModuleComponent type="26" id="{5664dc68-8005-4c51-9b69-a54751363c87}" />
+    <AppModuleComponent type="26" id="{bf73ac8b-f014-418f-823e-b8bd68303ad1}" />
+    <AppModuleComponent type="26" id="{c89ad26d-ac4a-49a7-b164-b9b7e523b5f9}" />
+    <AppModuleComponent type="26" id="{2002629a-9afb-4899-93a9-bac4418001a0}" />
+    <AppModuleComponent type="26" id="{3fa64f1c-9e88-4086-b064-be0c6b2f6bc6}" />
+    <AppModuleComponent type="26" id="{2225d76c-a041-4e3a-bccd-c2aac2d5bbf1}" />
+    <AppModuleComponent type="26" id="{2b781b21-4090-405a-a6c5-c68e7bc6275b}" />
+    <AppModuleComponent type="26" id="{5e33141f-6fda-4310-b0a6-d26a1582c290}" />
+    <AppModuleComponent type="26" id="{693639c8-373f-4c4f-9e52-d50059c12ad8}" />
+    <AppModuleComponent type="26" id="{2d540559-2330-4267-a279-d934f40af02e}" />
+    <AppModuleComponent type="26" id="{3905c7be-4418-4973-8f41-e4019cd0f19e}" />
+    <AppModuleComponent type="26" id="{913e98ac-e63e-4790-9875-f53b395defeb}" />
+    <AppModuleComponent type="26" id="{4c92671c-c360-4783-946a-fa5fd89d4cad}" />
+    <AppModuleComponent type="26" id="{f41a55a1-14fe-48e1-90f0-facca5e477f0}" />
+    <AppModuleComponent type="60" id="{3b31be54-3adb-ee11-904d-000d3a3b9c87}" />
+    <AppModuleComponent type="60" id="{fe637af8-3edb-ee11-904d-000d3a3b9c87}" />
+    <AppModuleComponent type="62" schemaName="msfed_TrainingandCertification" />
+  </AppModuleComponents>
+  <AppModuleRoleMaps>
+    <Role id="{627090ff-40a3-4053-8790-584edc5be201}" />
+    <Role id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+  </AppModuleRoleMaps>
+  <LocalizedNames>
+    <LocalizedName description="Training and Certification" languagecode="1033" />
+  </LocalizedNames>
+  <appelements>
+    <appelement uniquename="msfed_msfed_TrainingandCertification_canvasappid_msfed_trainingimportdata_7fc4b">
+      <canvasappid>
+        <name>msfed_trainingimportdata_7fc4b</name>
+      </canvasappid>
+      <iscustomizable>1</iscustomizable>
+      <name>msfed_msfed_TrainingandCertification_canvasappid_msfed_trainingimportdata_7fc4b</name>
+    </appelement>
+  </appelements>
+</AppModule>

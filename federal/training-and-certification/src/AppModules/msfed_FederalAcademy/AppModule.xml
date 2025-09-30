@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppModule>
+  <UniqueName>msfed_FederalAcademy</UniqueName>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <WebResourceId>953b9fac-1e5e-e611-80d6-00155ded156f</WebResourceId>
+  <OptimizedFor></OptimizedFor>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+  <FormFactor>1</FormFactor>
+  <ClientType>4</ClientType>
+  <NavigationType>0</NavigationType>
+  <AppModuleComponents>
+    <AppModuleComponent type="1" schemaName="govcdm_location" />
+    <AppModuleComponent type="1" schemaName="govcdm_trainingclass" />
+    <AppModuleComponent type="1" schemaName="govcdm_trainingcourse" />
+    <AppModuleComponent type="1" schemaName="govcdm_trainingcourseenrollee" />
+    <AppModuleComponent type="26" id="{cffa842f-932b-4f68-ad29-0ecf1f06e693}" />
+    <AppModuleComponent type="26" id="{675addf0-6b35-43cf-83a0-34ef8ecc59e5}" />
+    <AppModuleComponent type="26" id="{76e9c293-9eb7-4dc9-b212-5ef5484eb072}" />
+    <AppModuleComponent type="26" id="{68f50065-777e-ee11-8179-6045bd0062b9}" />
+    <AppModuleComponent type="26" id="{072975a1-777e-ee11-8179-6045bd0062b9}" />
+    <AppModuleComponent type="26" id="{fbfa2bba-777e-ee11-8179-6045bd0062b9}" />
+    <AppModuleComponent type="26" id="{e5b98b81-eb67-4f16-a68f-7f91f86713b7}" />
+    <AppModuleComponent type="26" id="{e261c7ad-500c-4b5b-a96b-838698bfb2ba}" />
+    <AppModuleComponent type="60" id="{e68def82-99f2-ee11-904b-000d3a8cbc95}" />
+    <AppModuleComponent type="60" id="{64d93958-6e1f-ef11-9f89-001dd80bbe43}" />
+    <AppModuleComponent type="60" id="{182deb6a-18f5-4fec-8dae-6a112fc38e9f}" />
+    <AppModuleComponent type="60" id="{78867901-05b2-4c92-b7b1-8e63b5f06939}" />
+    <AppModuleComponent type="60" id="{25cd3a75-9a31-4908-a22d-a7fd399ea02b}" />
+    <AppModuleComponent type="62" schemaName="msfed_FederalAcademy" />
+  </AppModuleComponents>
+  <AppModuleRoleMaps>
+    <Role id="{627090ff-40a3-4053-8790-584edc5be201}" />
+    <Role id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+  </AppModuleRoleMaps>
+  <LocalizedNames>
+    <LocalizedName description="Federal Academy" languagecode="1033" />
+  </LocalizedNames>
+  <appelements>
+    <appelement uniquename="msfed_msfed_FederalAcademy_canvasappid_msfed_federalacademydefaultcommandlibrary_eec7e">
+      <canvasappid>
+        <name>msfed_federalacademydefaultcommandlibrary_eec7e</name>
+      </canvasappid>
+      <iscustomizable>1</iscustomizable>
+      <name>msfed_msfed_FederalAcademy_canvasappid_msfed_federalacademydefaultcommandlibrary_eec7e</name>
+    </appelement>
+    <appelement uniquename="msfed_msfed_FederalAcademy_canvasappid_msfed_studentcommunications_b6fdb">
+      <canvasappid>
+        <name>msfed_studentcommunications_b6fdb</name>
+      </canvasappid>
+      <iscustomizable>1</iscustomizable>
+      <name>msfed_msfed_FederalAcademy_canvasappid_msfed_studentcommunications_b6fdb</name>
+    </appelement>
+    <appelement uniquename="msfed_msfed_FederalAcademy_canvasappid_msfed_trainingimportdata_7fc4b">
+      <canvasappid>
+        <name>msfed_trainingimportdata_7fc4b</name>
+      </canvasappid>
+      <iscustomizable>1</iscustomizable>
+      <name>msfed_msfed_FederalAcademy_canvasappid_msfed_trainingimportdata_7fc4b</name>
+    </appelement>
+  </appelements>
+  <appsettings>
+    <appsetting settingdefinitionid.uniquename="AppChannel">
+      <iscustomizable>1</iscustomizable>
+      <value>1</value>
+    </appsetting>
+  </appsettings>
+</AppModule>

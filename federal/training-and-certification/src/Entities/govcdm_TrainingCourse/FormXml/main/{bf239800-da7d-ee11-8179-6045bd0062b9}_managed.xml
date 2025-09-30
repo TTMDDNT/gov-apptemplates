@@ -1,0 +1,438 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{bf239800-da7d-ee11-8179-6045bd0062b9}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{efadbd46-a8b0-4acd-a858-dda49deec648}" IsUserDefined="1" labelid="{15330e69-6b81-4201-8c15-6653c0900709}">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{942e402f-3007-4684-8836-33c778fd85dd}" labelid="{b2369574-2a27-4ddd-8791-ea34c8152214}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{812b744c-e3b9-4352-b05a-4b67c31dad7b}" labelid="{4a54b00b-b12e-4db5-99cf-0218d76ec408}">
+                        <labels>
+                          <label description="Course Number" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="govcdm_name" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{24be6c82-5b45-42f4-a4de-3fb3773a3342}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Title" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_title" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="govcdm_title" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{82ab70f7-1b80-466a-9744-67bb38876398}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Knowlege Level" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_knowlegelevel" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="govcdm_knowlegelevel" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{532b7470-e769-4033-bda4-12bff44a9807}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Description" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_description" classid="{E0DECE4B-6FC8-4A8F-A065-082708572369}" datafieldname="govcdm_description" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b8bc2573-fcf8-4c3b-a97e-b41544ea1ebf}" labelid="{21eb5317-0f20-4dcc-af30-45d836a2e101}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="null_section_3" id="ebaa1dbe-43d3-48c6-a706-417243c458dd" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Course Purpose" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row />
+                    <row>
+                      <cell id="{07186986-6311-419d-8632-0e8b702e39f3}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Primary Training Objective" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_primarytrainingobjective" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="govcdm_primarytrainingobjective" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{181f72aa-f13d-4e0b-9dcf-51a0e33391c4}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Learning Objectives" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_learningobjectives" classid="{E0DECE4B-6FC8-4A8F-A065-082708572369}" datafieldname="govcdm_learningobjectives" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{3a25e451-301e-4716-b9d0-f5a172c5a9b1}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Syllabus" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_syllabus" classid="{E0DECE4B-6FC8-4A8F-A065-082708572369}" datafieldname="govcdm_syllabus" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_5" id="166320ee-1a05-435e-8c0e-6ea13e2a2621" IsUserDefined="0" locklevel="0" showlabel="true">
+          <labels>
+            <label description="Accreditation " languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_5_section_1" id="eec6cd60-f66d-450c-9649-f38dd584c34a" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Accreditation and Assesment" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row />
+                    <row>
+                      <cell id="{a16d214e-823c-4c5b-b512-3f8a1ab0c7bf}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Accreditation " languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_accreditation" classid="{E0DECE4B-6FC8-4A8F-A065-082708572369}" datafieldname="govcdm_accreditation" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{2b846d1a-ae42-470b-891c-605409bc046d}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Assessment Method" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_assessmentmethod" classid="{E0DECE4B-6FC8-4A8F-A065-082708572369}" datafieldname="govcdm_assessmentmethod" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_6" id="00ba9172-4df2-4c19-ac34-1ccb5b3099f6" IsUserDefined="0" locklevel="0" showlabel="true">
+          <labels>
+            <label description="Prereqs and Logistics" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_3_section_4" id="ab276786-b9b9-48ec-b5c1-2942c3668bd0" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Prerequisites " languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row />
+                    <row>
+                      <cell id="{10bbbc34-c889-4631-ba65-c5378ea34e37}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Prerequisites " languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_prerequisites" classid="{E0DECE4B-6FC8-4A8F-A065-082708572369}" datafieldname="govcdm_prerequisites" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="tab_6_section_4" id="e3499093-d5a9-45c9-9f9f-98814399bd53" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Course Requirements" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row />
+                    <row>
+                      <cell locklevel="0" id="{ee67665a-a09d-4c30-a5e2-f1b0d1a25c5c}" rowspan="4" colspan="1" auto="false" showlabel="false">
+                        <labels>
+                          <label description="New SG control 1709675258542" languagecode="1033" />
+                        </labels>
+                        <control indicationOfSubgrid="true" id="Subgrid_new_5" classid="{E7A81278-8635-4D9E-8D4D-59480B391C5B}">
+                          <parameters>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <ChartGridMode>All</ChartGridMode>
+                            <TargetEntityType>govcdm_trainingcourserequirement</TargetEntityType>
+                            <ViewId>{414B39F6-3ADB-EE11-904D-000D3A3B9C87}</ViewId>
+                            <ViewIds>{ADAD1003-7505-4D3B-8D8A-4C470A4FA4A6},{0C75DFD8-3ADB-EE11-904D-000D3A3B9C87},{414B39F6-3ADB-EE11-904D-000D3A3B9C87}</ViewIds>
+                            <RelationshipName>govcdm_trainingcourserequirement_TrainingCourse_</RelationshipName>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+                <section name="tab_3_section_3" id="54bc94a4-33b8-455d-ab88-829e0f30040b" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Logistics" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row />
+                    <row>
+                      <cell id="{c55b76ff-2064-4795-972e-d3b8e67c2ec0}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Materials Needed" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_materialsneeded" classid="{E0DECE4B-6FC8-4A8F-A065-082708572369}" datafieldname="govcdm_materialsneeded" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_2" id="46472984-29d1-4e4c-80f2-5a3bc43d4718" IsUserDefined="0" locklevel="0" showlabel="true">
+          <labels>
+            <label description="Certifications" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_2_section_1" id="53de4fe5-f140-4694-aecd-27ae06c4f558" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Course Certifications" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row />
+                    <row>
+                      <cell locklevel="0" id="{99a66eff-0b42-4aef-89fe-9a60742851c6}" rowspan="4" colspan="1" auto="false" showlabel="false">
+                        <labels>
+                          <label description="New SG control 1699465807111" languagecode="1033" />
+                        </labels>
+                        <control indicationOfSubgrid="true" id="Subgrid_new_1" classid="{E7A81278-8635-4D9E-8D4D-59480B391C5B}">
+                          <parameters>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <ChartGridMode>All</ChartGridMode>
+                            <TargetEntityType>govcdm_trainingcertificate</TargetEntityType>
+                            <ViewId>{FD6108FC-767E-EE11-8179-6045BD0062B9}</ViewId>
+                            <ViewIds>{FF16F0E8-2C77-4DF0-A38C-5FB2E3D8F355},{FD6108FC-767E-EE11-8179-6045BD0062B9}</ViewIds>
+                            <RelationshipName>govcdm_govcdm_trainingcertificate_TrainingCourse</RelationshipName>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+                <section name="tab_2_section_3" id="0ddc8770-6cf1-4f1a-a5ef-d15572ec6894" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Counts Towards" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row />
+                    <row>
+                      <cell locklevel="0" id="{514c2d29-61db-437e-9614-55b26f5f6876}" rowspan="4" colspan="1" auto="false" showlabel="false">
+                        <labels>
+                          <label description="New SG control 1707778496973" languagecode="1033" />
+                        </labels>
+                        <control indicationOfSubgrid="true" id="Subgrid_new_4" classid="{E7A81278-8635-4D9E-8D4D-59480B391C5B}">
+                          <parameters>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <ChartGridMode>All</ChartGridMode>
+                            <TargetEntityType>govcdm_trainingcoursecertificate</TargetEntityType>
+                            <ViewId>{51A666A2-F9C9-EE11-9079-000D3A3B9C87}</ViewId>
+                            <ViewIds>{21CA6D7D-05DC-456C-8315-34E42292CB2A},{51A666A2-F9C9-EE11-9079-000D3A3B9C87}</ViewIds>
+                            <RelationshipName>govcdm_trainingcoursecertificate_TrainingCourse_</RelationshipName>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_4" id="ace453de-ffcc-43d8-931d-a55bdb7c7ac6" IsUserDefined="0" locklevel="0" showlabel="true">
+          <labels>
+            <label description="Classes" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_4_section_1" id="4df4385f-8524-4903-bfd6-25e9c5536b76" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Training Classes" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row />
+                    <row>
+                      <cell locklevel="0" id="{42426dfe-71fb-4d14-ad17-e8e7edd97524}" rowspan="4" colspan="1" auto="false" showlabel="false">
+                        <labels>
+                          <label description="New SG control 1699465843808" languagecode="1033" />
+                        </labels>
+                        <control indicationOfSubgrid="true" id="Subgrid_new_3" classid="{E7A81278-8635-4D9E-8D4D-59480B391C5B}">
+                          <parameters>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <ChartGridMode>All</ChartGridMode>
+                            <TargetEntityType>govcdm_trainingclass</TargetEntityType>
+                            <ViewId>{68F50065-777E-EE11-8179-6045BD0062B9}</ViewId>
+                            <ViewIds>{20EBD04E-5514-4404-BB13-E06A5CC57F03},{68F50065-777E-EE11-8179-6045BD0062B9}</ViewIds>
+                            <RelationshipName>govcdm_govcdm_trainingclass_TrainingCourse_govcd</RelationshipName>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_3" id="dbe7eeb8-f381-4607-bbc8-4c154d5bafb3" IsUserDefined="0" locklevel="0" showlabel="true">
+          <labels>
+            <label description="Enrollments" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_3_section_1" id="7f1fa805-e6cc-4b76-b1dd-f06c3a0b2cac" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Enrollments " languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row />
+                    <row>
+                      <cell locklevel="0" id="{18cc152f-2aea-4183-b77a-f2660d8e53bf}" rowspan="4" colspan="1" auto="false" showlabel="false">
+                        <labels>
+                          <label description="New SG control 1699465832089" languagecode="1033" />
+                        </labels>
+                        <control indicationOfSubgrid="true" id="Subgrid_new_2" classid="{E7A81278-8635-4D9E-8D4D-59480B391C5B}">
+                          <parameters>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <ChartGridMode>All</ChartGridMode>
+                            <TargetEntityType>govcdm_trainingcourseenrollee</TargetEntityType>
+                            <ViewId>{FBFA2BBA-777E-EE11-8179-6045BD0062B9}</ViewId>
+                            <ViewIds>{F5D44D55-6FBC-4E93-88A0-2EAE07B7D463},{FBFA2BBA-777E-EE11-8179-6045BD0062B9}</ViewIds>
+                            <RelationshipName>govcdm_govcdm_trainingcourseenrollee_TrainingCou</RelationshipName>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{3a666719-626b-4d6e-b257-93048e329279}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{506b9876-08d9-4e83-8830-9784b8e7863e}" showlabel="false" labelid="{5967345b-0316-43bc-bfd0-1a8c2e5612de}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{b1eb9dfb-d217-42ba-9cb6-1d1c0e31e7eb}" showlabel="false" labelid="{b03562f8-5fa6-4ff3-8fdc-fe3810b888af}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{dd26b1a9-7d9f-486e-b31a-a3b74dd872fa}" showlabel="false" labelid="{367e6389-218b-439b-9541-f559f5c8ca55}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell locklevel="0" id="{584ac957-1fbe-4299-8a91-0d5a4b100dd0}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell locklevel="0" id="{e4203881-ec2f-409d-996b-7ee6941cfbd0}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{823998c8-7843-436d-8253-0a05f0748e57}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{ea772eac-9067-4ea9-953d-6379e8ee2b83}" showlabel="false" labelid="{9ac5d2d1-d96a-47e6-bbe5-96328f4f9413}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{65267519-54c0-461c-b4f9-b59e7521785f}" showlabel="false" labelid="{7fb3632d-63d0-4b50-bf79-463b52e42889}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{fd8efc4b-2e75-498c-b688-04598ec765fd}" showlabel="false" labelid="{4ca59e36-9d7e-40ee-b4be-2289c6a3d55c}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions Order="1" FallbackForm="true">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Main" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

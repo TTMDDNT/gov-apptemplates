@@ -1,0 +1,32 @@
+<appaction uniquename="msfed__ImportEnrollmentR!4730ae60742f4b5aa53d7608d4a5fada!msfed_FederalAcademy!govcdm_trainingcourseenrollee!1">
+  <appmoduleid>
+    <uniquename>msfed_FederalAcademy</uniquename>
+  </appmoduleid>
+  <buttonlabeltext default="Import Enrollment Report">
+    <label description="Import Enrollment Report" languagecode="1033" />
+  </buttonlabeltext>
+  <context>1</context>
+  <contextentity>
+    <logicalname>govcdm_trainingcourseenrollee</logicalname>
+  </contextentity>
+  <contextvalue>govcdm_trainingcourseenrollee</contextvalue>
+  <fonticon>$clientsvg:ImportToExcel</fonticon>
+  <hidden>0</hidden>
+  <iscustomizable>1</iscustomizable>
+  <isdisabled>0</isdisabled>
+  <isgrouptitlehidden>0</isgrouptitlehidden>
+  <location>1</location>
+  <name>ImportEnrollmentR!4730ae60742f4b5aa53d7608d4a5fada</name>
+  <onclickeventjavascriptfunctionname>openCustomPageAsDialog</onclickeventjavascriptfunctionname>
+  <onclickeventjavascriptparameters>[{"type":21,"value":"Import Enrollment Report"},{"type":21,"value":"msfed_trainingimportdata_7fc4b"},{"type":21,"value":"Enrollment Reports"},{"type":4},{"type":19,"value":88}]</onclickeventjavascriptparameters>
+  <onclickeventjavascriptwebresourceid>
+    <webresourceid>350a1fc3-deeb-ee11-904c-0022481df7e6</webresourceid>
+  </onclickeventjavascriptwebresourceid>
+  <onclickeventtype>2</onclickeventtype>
+  <origin>0</origin>
+  <sequence>1000100015.0000000000</sequence>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+  <type>0</type>
+  <visibilitytype>0</visibilitytype>
+</appaction>

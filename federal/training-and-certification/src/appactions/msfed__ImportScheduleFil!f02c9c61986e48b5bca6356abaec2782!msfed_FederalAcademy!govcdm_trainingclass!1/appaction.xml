@@ -1,0 +1,32 @@
+<appaction uniquename="msfed__ImportScheduleFil!f02c9c61986e48b5bca6356abaec2782!msfed_FederalAcademy!govcdm_trainingclass!1">
+  <appmoduleid>
+    <uniquename>msfed_FederalAcademy</uniquename>
+  </appmoduleid>
+  <buttonlabeltext default="Import Schedule File">
+    <label description="Import Schedule File" languagecode="1033" />
+  </buttonlabeltext>
+  <context>1</context>
+  <contextentity>
+    <logicalname>govcdm_trainingclass</logicalname>
+  </contextentity>
+  <contextvalue>govcdm_trainingclass</contextvalue>
+  <fonticon>$clientsvg:ImportToExcel</fonticon>
+  <hidden>0</hidden>
+  <iscustomizable>1</iscustomizable>
+  <isdisabled>0</isdisabled>
+  <isgrouptitlehidden>0</isgrouptitlehidden>
+  <location>1</location>
+  <name>ImportScheduleFil!f02c9c61986e48b5bca6356abaec2782</name>
+  <onclickeventjavascriptfunctionname>openCustomPageAsDialog</onclickeventjavascriptfunctionname>
+  <onclickeventjavascriptparameters>[{"type":21,"value":"Import Schedule File"},{"type":21,"value":"msfed_trainingimportdata_7fc4b"},{"type":21,"value":"Course Schedules"},{"type":4},{"type":19,"value":88}]</onclickeventjavascriptparameters>
+  <onclickeventjavascriptwebresourceid>
+    <webresourceid>350a1fc3-deeb-ee11-904c-0022481df7e6</webresourceid>
+  </onclickeventjavascriptwebresourceid>
+  <onclickeventtype>2</onclickeventtype>
+  <origin>0</origin>
+  <sequence>1000100010.0000000000</sequence>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+  <type>0</type>
+  <visibilitytype>0</visibilitytype>
+</appaction>

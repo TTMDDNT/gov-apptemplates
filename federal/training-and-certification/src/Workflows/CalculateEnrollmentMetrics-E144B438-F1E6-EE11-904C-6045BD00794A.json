@@ -1,0 +1,155 @@
+{
+  "properties": {
+    "connectionReferences": {
+      "shared_commondataserviceforapps-1": {
+        "api": {
+          "name": "shared_commondataserviceforapps"
+        },
+        "connection": {
+          "connectionReferenceLogicalName": "msfed_sharedcommondataserviceforapps_5d35d"
+        },
+        "runtimeSource": "embedded"
+      },
+      "shared_commondataserviceforapps": {
+        "api": {
+          "name": "shared_commondataserviceforapps"
+        },
+        "connection": {
+          "connectionReferenceLogicalName": "msfed_sharedcommondataserviceforapps_5d35d"
+        },
+        "runtimeSource": "embedded"
+      }
+    },
+    "definition": {
+      "$schema": "https://schema.management.azure.com/providers/Microsoft.Logic/schemas/2016-06-01/workflowdefinition.json#",
+      "contentVersion": "1.0.0.0",
+      "parameters": {
+        "$authentication": {
+          "defaultValue": {},
+          "type": "SecureObject"
+        },
+        "$connections": {
+          "defaultValue": {},
+          "type": "Object"
+        }
+      },
+      "triggers": {
+        "manual": {
+          "type": "Request",
+          "kind": "Button",
+          "inputs": {
+            "schema": {
+              "type": "object",
+              "properties": {},
+              "required": []
+            }
+          },
+          "metadata": {
+            "operationMetadataId": "bb886bd0-bbb3-483f-8a86-7834bda8a888"
+          }
+        }
+      },
+      "actions": {
+        "List_Training_Classes": {
+          "type": "OpenApiConnection",
+          "inputs": {
+            "parameters": {
+              "entityName": "govcdm_trainingclasses",
+              "$select": "govcdm_trainingclassid, govcdm_name"
+            },
+            "host": {
+              "apiId": "/providers/Microsoft.PowerApps/apis/shared_commondataserviceforapps",
+              "operationId": "ListRecords",
+              "connectionName": "shared_commondataserviceforapps-1"
+            }
+          },
+          "runAfter": {},
+          "metadata": {
+            "operationMetadataId": "df1c58e0-fc49-4d8e-a6f4-07c27b4cb478"
+          }
+        },
+        "Apply_to_each": {
+          "type": "Foreach",
+          "foreach": "@outputs('List_Training_Classes')?['body/value']",
+          "actions": {
+            "Set_Training_Class": {
+              "type": "ParseJson",
+              "inputs": {
+                "content": "@items('Apply_to_each')",
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "govcdm_name": {
+                      "type": "string"
+                    },
+                    "govcdm_trainingclassid": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            },
+            "List_Enrollees": {
+              "type": "OpenApiConnection",
+              "inputs": {
+                "parameters": {
+                  "entityName": "govcdm_trainingcourseenrollees",
+                  "$filter": "_govcdm_trainingclass_value eq '@{body('Set_Training_Class')?['govcdm_trainingclassid']}'  and govcdm_enrollmentstatus eq 166840006"
+                },
+                "host": {
+                  "apiId": "/providers/Microsoft.PowerApps/apis/shared_commondataserviceforapps",
+                  "operationId": "ListRecords",
+                  "connectionName": "shared_commondataserviceforapps"
+                }
+              },
+              "runAfter": {
+                "Set_Training_Class": [
+                  "Succeeded"
+                ]
+              }
+            },
+            "Update_Total_Enrollment": {
+              "type": "OpenApiConnection",
+              "inputs": {
+                "parameters": {
+                  "entityName": "govcdm_trainingclasses",
+                  "recordId": "@body('Set_Training_Class')?['govcdm_trainingclassid']",
+                  "item/govcdm_totalenrolled": "@length(outputs('List_Enrollees')?['body/value'])"
+                },
+                "host": {
+                  "apiId": "/providers/Microsoft.PowerApps/apis/shared_commondataserviceforapps",
+                  "operationId": "UpdateRecord",
+                  "connectionName": "shared_commondataserviceforapps"
+                }
+              },
+              "runAfter": {
+                "List_Enrollees": [
+                  "Succeeded"
+                ]
+              }
+            }
+          },
+          "runAfter": {
+            "List_Training_Classes": [
+              "Succeeded"
+            ]
+          }
+        },
+        "Response": {
+          "type": "Response",
+          "kind": "Http",
+          "inputs": {
+            "statusCode": 200
+          },
+          "runAfter": {
+            "Apply_to_each": [
+              "Succeeded"
+            ]
+          }
+        }
+      }
+    },
+    "templateName": null
+  },
+  "schemaVersion": "1.0.0.0"
+}

@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{23556c8e-667e-ee11-8179-6045bd0062b9}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab id="F931FFE2-B873-473F-8F95-9502F0AA3F5E" name="tab_1" showlabel="false" labelid="{18faa9f9-ba91-43af-9a61-e067411d9bb4}">
+          <labels>
+            <label description="New Tab" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="34%">
+              <sections>
+                <section id="0C655D4E-C6E3-424E-9AF5-71E72D30D12E" name="tab_1_column_1_section_1" columns="1" showlabel="true" showbar="false" IsUserDefined="0" labelwidth="130" labelid="{0c79f25f-92fb-4894-9abf-a3d1745cc2ae}">
+                  <labels>
+                    <label description="New Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{fa5b3144-d06a-4d5a-baa3-7974fc4ab4c2}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Training Course" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_trainingcourse" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="govcdm_trainingcourse" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{33d8206b-0065-43f2-8dba-fcb56f64a8e6}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Person" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_person" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="govcdm_person" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{da04b91f-37e7-41e5-bae4-79038bd6c8b1}" locklevel="0" colspan="1" rowspan="1" labelid="{997b5fc8-7058-4b4b-9f3f-042edfcc428e}">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_name" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="govcdm_name" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section id="02DECBA0-3AE2-484D-A19F-C5353AF4F4F2" name="tab_1_column_2_section_1" columns="1" showlabel="true" showbar="false" IsUserDefined="0" labelwidth="130" labelid="{bb107856-046c-4b27-8285-1e4999e6f621}">
+                  <labels>
+                    <label description="New Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="266FE48D-4D04-4E9A-8C5A-7DEF9A2F059B" labelid="{710fd5bf-42e3-4025-99a9-f75d5df78555}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section id="46FD66EA-B686-41D9-AAE0-C565BD78EC1F" name="tab_1_column_3_section_1" columns="1" showlabel="true" showbar="false" IsUserDefined="0" labelwidth="130" labelid="{705cb799-004c-4c8f-8383-c80d3859c2b9}">
+                  <labels>
+                    <label description="New Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="07C04A4E-A482-45CC-BAB7-7FCA3CD02938" labelid="{91d07758-708e-4660-b08b-f00c0bc187c6}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Training Course Enrollee Quick Create" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>

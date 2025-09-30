@@ -1,0 +1,37 @@
+<appaction uniquename="msfed__NewCommand!e360864c5dcf4fcc923467d6552e966b!msfed_FederalAcademy!govcdm_trainingcourseenrollee!1">
+  <appmoduleid>
+    <uniquename>msfed_FederalAcademy</uniquename>
+  </appmoduleid>
+  <buttonlabeltext default="Send KB Article">
+    <label description="Send KB Article" languagecode="1033" />
+  </buttonlabeltext>
+  <context>1</context>
+  <contextentity>
+    <logicalname>govcdm_trainingcourseenrollee</logicalname>
+  </contextentity>
+  <contextvalue>govcdm_trainingcourseenrollee</contextvalue>
+  <fonticon>Article</fonticon>
+  <hidden>0</hidden>
+  <iscustomizable>1</iscustomizable>
+  <isdisabled>0</isdisabled>
+  <isgrouptitlehidden>0</isgrouptitlehidden>
+  <location>1</location>
+  <name>NewCommand!e360864c5dcf4fcc923467d6552e966b</name>
+  <onclickeventjavascriptfunctionname>openCustomPageAsPanel</onclickeventjavascriptfunctionname>
+  <onclickeventjavascriptparameters>[{"type":21,"value":"Send KB Article"},{"type":21,"value":"msfed_studentcommunications_b6fdb"},{"type":2},{"type":10},{"type":19,"value":400}]</onclickeventjavascriptparameters>
+  <onclickeventjavascriptwebresourceid>
+    <webresourceid>350a1fc3-deeb-ee11-904c-0022481df7e6</webresourceid>
+  </onclickeventjavascriptwebresourceid>
+  <onclickeventtype>2</onclickeventtype>
+  <origin>0</origin>
+  <sequence>1000100017.5000000000</sequence>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+  <type>0</type>
+  <visibilityformulacomponentlibraryid>
+    <name>msfed_federalacademydefaultcommandlibrary_eec7e</name>
+  </visibilityformulacomponentlibraryid>
+  <visibilityformulacomponentname>b542241ac0334b2f8e4d57531c37a330</visibilityformulacomponentname>
+  <visibilityformulafunctionname>Visible</visibilityformulafunctionname>
+  <visibilitytype>1</visibilitytype>
+</appaction>
