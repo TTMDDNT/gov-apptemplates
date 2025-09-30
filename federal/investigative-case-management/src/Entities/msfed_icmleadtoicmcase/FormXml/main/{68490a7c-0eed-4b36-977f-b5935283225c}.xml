@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{68490a7c-0eed-4b36-977f-b5935283225c}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{3452239a-59a0-412d-8509-d71e3e09083c}" name="StageStep3" locklevel="0" expanded="true" visible="false" labelid="{7d3bb2c8-f50b-4015-aa56-c5bddfcbe843}">
+          <labels>
+            <label description="Lead (Intake)" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{5580263a-04a3-838a-69f3-e001d1cbf0f4}" name="StageStep3_section1" labelid="{06076001-d4a3-4037-9f06-ed1d77b66e4c}">
+                  <labels>
+                    <label description="Lead (Intake)" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{9fc8b2d7-3134-42a9-b133-5b515b68b331}" showlabel="true" visible="true" labelid="{d3619c67-711d-4917-a162-14ed6b7e2314}">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_govcdm_icmlead_msfed_icmleadtoicmcase:govcdm_name" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="govcdm_name" relationship="bpf_govcdm_icmlead_msfed_icmleadtoicmcase" isrequired="false" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{43337fbd-440d-4349-979e-f83f11cd73ff}" name="StageStep7" locklevel="0" expanded="true" visible="false" labelid="{f1142c46-e975-4b16-88d5-bf6d607a362c}">
+          <labels>
+            <label description="Triage And Assign" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{9eac3882-2b1d-13c0-c41a-bb99f3558a48}" name="StageStep7_section1" labelid="{936f7177-39c1-4581-a39e-4f03663000dc}">
+                  <labels>
+                    <label description="Triage And Assign" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{4e087590-d09f-4e6d-a6af-e8ffb0e0b045}" showlabel="true" visible="true" labelid="{afac5fb1-230c-4a5b-bfc6-9dba3b2f9ea3}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_govcdm_icmcase_msfed_icmleadtoicmcase:ownerid" classid="{270bd3db-d9af-4782-9025-509e298dec0a}" datafieldname="ownerid" relationship="bpf_govcdm_icmcase_msfed_icmleadtoicmcase" isrequired="false" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{89e731d8-6a43-4a05-9dc0-500a351c15c6}" name="StageStep11" locklevel="0" expanded="true" visible="false" labelid="{da7c81d7-08bb-48d1-84f6-bea6b0845e83}">
+          <labels>
+            <label description="Informal Complaint" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{3bf5d3e4-ccb0-d9f1-de28-4d35fdc0cbf4}" name="StageStep11_section1" labelid="{f5a5583d-b586-4556-899e-182490c68d48}">
+                  <labels>
+                    <label description="Informal Complaint" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{c73c880d-c81d-4120-b95a-c08f42c558e7}" showlabel="true" visible="true" labelid="{c9311ec6-403c-4a71-949e-0bfe51f4289b}">
+                        <labels>
+                          <label description="Informal Recommendations" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_govcdm_icmcase_msfed_icmleadtoicmcase:govcdm_informalrecommendations" classid="{e0dece4b-6fc8-4a8f-a065-082708572369}" datafieldname="govcdm_informalrecommendations" relationship="bpf_govcdm_icmcase_msfed_icmleadtoicmcase" isrequired="false" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{1b185e9f-76e2-461f-8cd8-6b9547d2fe7e}" name="StageStep15" locklevel="0" expanded="true" visible="false" labelid="{2df94a58-13ce-4928-828c-695b7f929333}">
+          <labels>
+            <label description="Formal Complaint" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{63291bf6-cb3e-1732-3a3e-0a985c0a7371}" name="StageStep15_section1" labelid="{d71debc3-307e-4de7-9559-967ff51eb051}">
+                  <labels>
+                    <label description="Formal Complaint" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{3de4c6ac-de4e-4565-9033-9267654674b4}" showlabel="true" visible="true" labelid="{ef25625e-99c9-4368-bc67-b72edccc3222}">
+                        <labels>
+                          <label description="Formal Recommendations" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_govcdm_icmcase_msfed_icmleadtoicmcase:govcdm_formalrecommendations" classid="{e0dece4b-6fc8-4a8f-a065-082708572369}" datafieldname="govcdm_formalrecommendations" relationship="bpf_govcdm_icmcase_msfed_icmleadtoicmcase" isrequired="false" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{b7bceb09-ad8e-4389-9672-0224b8843587}" name="StageStep19" locklevel="0" expanded="true" visible="false" labelid="{ee8af249-39ec-412d-ae77-26b0e9d139c7}">
+          <labels>
+            <label description="Closure" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{4ffc6502-696b-e345-b2ad-dcb59a2c040c}" name="StageStep19_section1" labelid="{5f9ad84e-44ed-4d21-a00f-3173b65d38a9}">
+                  <labels>
+                    <label description="Closure" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{db7d450c-876e-4732-a69f-6ff4a14b6a6c}" showlabel="true" visible="true" labelid="{08bbed61-9302-44a6-9b7c-221763ebe768}">
+                        <labels>
+                          <label description="Case Closure Date" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_govcdm_icmcase_msfed_icmleadtoicmcase:govcdm_caseclosuredate" classid="{5b773807-9fb2-42db-97c3-7a91eff8adff}" datafieldname="govcdm_caseclosuredate" relationship="bpf_govcdm_icmcase_msfed_icmleadtoicmcase" isrequired="false" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

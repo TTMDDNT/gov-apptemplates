@@ -1,0 +1,942 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImportExportXml version="9.2.25074.262" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" OrganizationVersion="9.2.25074.262" OrganizationSchemaType="Standard" CRMServerServiceabilityVersion="9.2.25081.00260">
+  <SolutionManifest>
+    <UniqueName>msfed_investigativecasemanagement</UniqueName>
+    <LocalizedNames>
+      <LocalizedName description="Microsoft Federal - Investigative Case Management" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions />
+    <Version>1.0.1.0</Version>
+    <Managed>2</Managed>
+    <Publisher>
+      <UniqueName>microsoftfederal</UniqueName>
+      <LocalizedNames>
+        <LocalizedName description="microsoftfederal" languagecode="1033" />
+      </LocalizedNames>
+      <Descriptions>
+        <Description description="microsoftfederal" languagecode="1033" />
+      </Descriptions>
+      <EMailAddress xsi:nil="true"></EMailAddress>
+      <SupportingWebsiteUrl xsi:nil="true"></SupportingWebsiteUrl>
+      <CustomizationPrefix>msfed</CustomizationPrefix>
+      <CustomizationOptionValuePrefix>18844</CustomizationOptionValuePrefix>
+      <Addresses>
+        <Address>
+          <AddressNumber>1</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+        <Address>
+          <AddressNumber>2</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+      </Addresses>
+    </Publisher>
+    <RootComponents>
+      <RootComponent type="1" schemaName="govcdm_icmcase" behavior="2" />
+      <RootComponent type="1" schemaName="govcdm_icmcasecontact" behavior="2" />
+      <RootComponent type="1" schemaName="govcdm_icmcasecontactviolation" behavior="2" />
+      <RootComponent type="1" schemaName="govcdm_icmcaseevidence" behavior="2" />
+      <RootComponent type="1" schemaName="govcdm_icmcaseviolation" behavior="2" />
+      <RootComponent type="1" schemaName="govcdm_icmevidence" behavior="2" />
+      <RootComponent type="1" schemaName="govcdm_icmlead" behavior="2" />
+      <RootComponent type="1" schemaName="govcdm_icmreferral" behavior="2" />
+      <RootComponent type="1" schemaName="govcdm_icmviolation" behavior="2" />
+      <RootComponent type="1" schemaName="msfed_icmleadtoicmcase" behavior="0" />
+      <RootComponent type="29" id="{8ab9e6bb-5fab-ef11-b8e9-001dd804c7ab}" behavior="0" />
+      <RootComponent type="300" schemaName="msfed_icmcopilot_7b369" behavior="0" />
+      <RootComponent type="62" schemaName="msfed_InvestigativeCaseManagement" behavior="0" />
+      <RootComponent type="80" schemaName="msfed_InvestigativeCaseManagement" behavior="0" />
+    </RootComponents>
+    <MissingDependencies>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_icmcase" displayName="ICM Case" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="1" schemaName="govcdm_icmcase" displayName="ICM Case" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_icmcasecontact" displayName="ICM Case Contact" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="1" schemaName="govcdm_icmcasecontact" displayName="ICM Case Contact" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_icmcasecontactviolation" displayName="ICM Case Contact Violation" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="1" schemaName="govcdm_icmcasecontactviolation" displayName="ICM Case Contact Violation" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_icmcaseevidence" displayName="ICM Case Evidence" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="1" schemaName="govcdm_icmcaseevidence" displayName="ICM Case Evidence" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_icmcaseviolation" displayName="ICM Case Violation" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="1" schemaName="govcdm_icmcaseviolation" displayName="ICM Case Violation" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_icmevidence" displayName="ICM Evidence" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="1" schemaName="govcdm_icmevidence" displayName="ICM Evidence" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_icmevidence" displayName="ICM Evidence" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="ICM Evidence" id="{b3f54626-7df7-ee11-a1fd-6045bddc9197}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_icmlead" displayName="ICM Lead" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="1" schemaName="govcdm_icmlead" displayName="ICM Lead" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_icmreferral" displayName="ICM Referral" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="1" schemaName="govcdm_icmreferral" displayName="ICM Referral" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_icmviolation" displayName="ICM Violation" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="1" schemaName="govcdm_icmviolation" displayName="ICM Violation" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aimodel" displayName="AI Model" solution="msdyn_AISolution (202507.4.22.2)">
+          <package appName="PowerAI" version="202503.4.25.2">msdyn_AISolutionAnchor (202503.4.25.2)</package>
+        </Required>
+        <Dependent type="300" schemaName="msfed_icmcopilot_7b369" displayName="ICM Copilot" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_icmcase_JudicialDistrict_govcdm_judicialdistrict" displayName="govcdm_icmcase_JudicialDistrict_govcdm_judicialdistrict" parentSchemaName="govcdm_judicialdistrict" parentDisplayName="Judicial District" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="ICM Case" id="{436413f2-28eb-4f86-81cf-8029f214dcf0}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_icmcase_JudicialDistrict_govcdm_judicialdistrict" displayName="govcdm_icmcase_JudicialDistrict_govcdm_judicialdistrict" parentSchemaName="govcdm_judicialdistrict" parentDisplayName="Judicial District" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="ICM Case" id="{b4d619a1-66ab-ef11-b8e9-001dd804e2ae}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_icmcase_OrganizationInitiative_govcdm_organizationinitiative" displayName="govcdm_icmcase_OrganizationInitiative_govcdm_organizationinitiative" parentSchemaName="govcdm_organizationinitiative" parentDisplayName="Organization Initiative" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="ICM Case" id="{436413f2-28eb-4f86-81cf-8029f214dcf0}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_icmcase_OriginatingLead_govcdm_icmlead" displayName="govcdm_icmcase_OriginatingLead_govcdm_icmlead" parentSchemaName="govcdm_icmlead" parentDisplayName="ICM Lead" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="ICM Case" id="{436413f2-28eb-4f86-81cf-8029f214dcf0}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_icmcase_OriginatingLead_govcdm_icmlead" displayName="govcdm_icmcase_OriginatingLead_govcdm_icmlead" parentSchemaName="govcdm_icmlead" parentDisplayName="ICM Lead" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="ICM Case" id="{b4d619a1-66ab-ef11-b8e9-001dd804e2ae}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_icmcase_PrimaryComplainant_govcdm_icmcasecontact" displayName="govcdm_icmcase_PrimaryComplainant_govcdm_icmcasecontact" parentSchemaName="govcdm_icmcasecontact" parentDisplayName="ICM Case Contact" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="ICM Case" id="{436413f2-28eb-4f86-81cf-8029f214dcf0}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_icmcase_PrimarySubject_govcdm_icmcasecontact" displayName="govcdm_icmcase_PrimarySubject_govcdm_icmcasecontact" parentSchemaName="govcdm_icmcasecontact" parentDisplayName="ICM Case Contact" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="ICM Case" id="{436413f2-28eb-4f86-81cf-8029f214dcf0}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_icmcasecontact_ICMCase_govcdm_icmcase" displayName="govcdm_icmcasecontact_ICMCase_govcdm_icmcase" parentSchemaName="govcdm_icmcase" parentDisplayName="ICM Case" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="ICM Case Contact" id="{1c3bfd5a-3973-46ba-8186-0c9fbac157e6}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_icmcasecontact_ICMCase_govcdm_icmcase" displayName="govcdm_icmcasecontact_ICMCase_govcdm_icmcase" parentSchemaName="govcdm_icmcase" parentDisplayName="ICM Case" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="ICM Case" id="{436413f2-28eb-4f86-81cf-8029f214dcf0}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_icmcasecontact_ICMCase_govcdm_icmcase" displayName="govcdm_icmcasecontact_ICMCase_govcdm_icmcase" parentSchemaName="govcdm_icmcase" parentDisplayName="ICM Case" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="ICM Case Contact" id="{b5fe5e54-3ba9-ef11-8a6a-001dd804e2ae}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_icmcasecontact_Person_contact" displayName="govcdm_icmcasecontact_Person_contact" parentSchemaName="contact" parentDisplayName="Person" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="ICM Case Contact" id="{1c3bfd5a-3973-46ba-8186-0c9fbac157e6}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_icmcasecontact_Person_contact" displayName="govcdm_icmcasecontact_Person_contact" parentSchemaName="contact" parentDisplayName="Person" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="60" displayName="Quick Create (Deprecated)" parentDisplayName="ICM Case Contact" id="{727aa925-80f7-ee11-a1fd-6045bddc9197}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_icmcasecontact_Person_contact" displayName="govcdm_icmcasecontact_Person_contact" parentSchemaName="contact" parentDisplayName="Person" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="ICM Case Contact" id="{b5fe5e54-3ba9-ef11-8a6a-001dd804e2ae}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_icmcasecontactviolation_ICMCaseContact_go" displayName="govcdm_icmcasecontactviolation_ICMCaseContact_go" parentSchemaName="govcdm_icmcasecontact" parentDisplayName="ICM Case Contact" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="ICM Case Contact Violation" id="{09dc41d0-7cf7-ee11-a1fd-6045bddc9197}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_icmcasecontactviolation_ICMCaseViolation_" displayName="govcdm_icmcasecontactviolation_ICMCaseViolation_" parentSchemaName="govcdm_icmcaseviolation" parentDisplayName="ICM Case Violation" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="ICM Case Contact Violation" id="{09dc41d0-7cf7-ee11-a1fd-6045bddc9197}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_icmcaseevidence_ICMCase_govcdm_icmcase" displayName="govcdm_icmcaseevidence_ICMCase_govcdm_icmcase" parentSchemaName="govcdm_icmcase" parentDisplayName="ICM Case" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="ICM Case Evidence" id="{a55660f1-7cf7-ee11-a1fd-6045bddc9197}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_icmcaseevidence_ICMEvidence_govcdm_icmevi" displayName="govcdm_icmcaseevidence_ICMEvidence_govcdm_icmevi" parentSchemaName="govcdm_icmevidence" parentDisplayName="ICM Evidence" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="ICM Case Evidence" id="{a55660f1-7cf7-ee11-a1fd-6045bddc9197}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_icmcaseviolation_ICMCase_govcdm_icmcase" displayName="govcdm_icmcaseviolation_ICMCase_govcdm_icmcase" parentSchemaName="govcdm_icmcase" parentDisplayName="ICM Case" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="ICM Case Violation" id="{b719db0c-7df7-ee11-a1fd-6045bddc9197}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_icmcaseviolation_ICMViolation_govcdm_icmv" displayName="govcdm_icmcaseviolation_ICMViolation_govcdm_icmv" parentSchemaName="govcdm_icmviolation" parentDisplayName="ICM Violation" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="ICM Case Violation" id="{b719db0c-7df7-ee11-a1fd-6045bddc9197}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_icmlead_IncidentPrimaryLocation_govcdm_location" displayName="govcdm_icmlead_IncidentPrimaryLocation_govcdm_location" parentSchemaName="govcdm_location" parentDisplayName="Location" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="ICM Lead" id="{2879ebef-4a82-4cc2-8231-ca119d6db4fa}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_icmreferral_ICMCase_govcdm_icmcase" displayName="govcdm_icmreferral_ICMCase_govcdm_icmcase" parentSchemaName="govcdm_icmcase" parentDisplayName="ICM Case" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="ICM Referral" id="{ae3d9f64-7df7-ee11-a1fd-6045bddc9197}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_abbreviation" displayName="Abbreviation" parentSchemaName="govcdm_icmviolation" parentDisplayName="ICM Violation" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="26" schemaName="Active ICM Violations" displayName="Active ICM Violations" parentSchemaName="govcdm_icmviolation" parentDisplayName="ICM Violation" id="{01178a83-30bf-4d4c-aac2-a272a54078d9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_abbreviation" displayName="Abbreviation" parentSchemaName="govcdm_icmviolation" parentDisplayName="ICM Violation" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="ICM Violation" id="{e39a8795-a70b-4e2b-b34c-fdc11e936e01}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_businessphone" displayName="Business Phone" parentSchemaName="govcdm_icmcasecontact" parentDisplayName="ICM Case Contact" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="ICM Case Contact" id="{1c3bfd5a-3973-46ba-8186-0c9fbac157e6}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_businessphone" displayName="Business Phone" parentSchemaName="govcdm_icmlead" parentDisplayName="ICM Lead" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="ICM Lead" id="{2879ebef-4a82-4cc2-8231-ca119d6db4fa}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_businessphone" displayName="Business Phone" parentSchemaName="govcdm_icmlead" parentDisplayName="ICM Lead" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="ICM Lead" id="{e370be2a-5aab-ef11-b8e9-001dd804e2ae}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_caseclosuredate" displayName="Case Closure Date" parentSchemaName="govcdm_icmcase" parentDisplayName="ICM Case" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="26" schemaName="Active ICM Cases" displayName="Active ICM Cases" parentSchemaName="govcdm_icmcase" parentDisplayName="ICM Case" id="{48ed2689-910f-4975-9499-99df0841f5ee}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_caseclosuredate" displayName="Case Closure Date" parentSchemaName="govcdm_icmcase" parentDisplayName="ICM Case" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="29" displayName="ICM Lead to ICM Case" id="{8ab9e6bb-5fab-ef11-b8e9-001dd804c7ab}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_caseclosuredate" displayName="Case Closure Date" parentSchemaName="govcdm_icmcase" parentDisplayName="ICM Case" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="ICM Case" id="{436413f2-28eb-4f86-81cf-8029f214dcf0}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_caseclosuredate" displayName="Case Closure Date" parentSchemaName="govcdm_icmcase" parentDisplayName="ICM Case" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="ICM Lead to ICM Case" id="{68490a7c-0eed-4b36-977f-b5935283225c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_caseopeneddate" displayName="Case Opened Date" parentSchemaName="govcdm_icmcase" parentDisplayName="ICM Case" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="26" schemaName="Active ICM Cases" displayName="Active ICM Cases" parentSchemaName="govcdm_icmcase" parentDisplayName="ICM Case" id="{48ed2689-910f-4975-9499-99df0841f5ee}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_caseopeneddate" displayName="Case Opened Date" parentSchemaName="govcdm_icmcase" parentDisplayName="ICM Case" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="ICM Case" id="{436413f2-28eb-4f86-81cf-8029f214dcf0}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_caseopeneddate" displayName="Case Opened Date" parentSchemaName="govcdm_icmcase" parentDisplayName="ICM Case" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="ICM Case" id="{b4d619a1-66ab-ef11-b8e9-001dd804e2ae}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_description" displayName="Description" parentSchemaName="govcdm_icmcase" parentDisplayName="ICM Case" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="ICM Case" id="{436413f2-28eb-4f86-81cf-8029f214dcf0}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_description" displayName="Description" parentSchemaName="govcdm_icmcase" parentDisplayName="ICM Case" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="ICM Case" id="{b4d619a1-66ab-ef11-b8e9-001dd804e2ae}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_description" displayName="Description" parentSchemaName="govcdm_icmviolation" parentDisplayName="ICM Violation" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="26" schemaName="Active ICM Violations" displayName="Active ICM Violations" parentSchemaName="govcdm_icmviolation" parentDisplayName="ICM Violation" id="{01178a83-30bf-4d4c-aac2-a272a54078d9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_description" displayName="Description" parentSchemaName="govcdm_icmviolation" parentDisplayName="ICM Violation" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="ICM Violation" id="{e39a8795-a70b-4e2b-b34c-fdc11e936e01}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_details" displayName="Details" parentSchemaName="govcdm_icmcasecontact" parentDisplayName="ICM Case Contact" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="26" schemaName="Active ICM Case Contacts" displayName="Active ICM Case Contacts" parentSchemaName="govcdm_icmcasecontact" parentDisplayName="ICM Case Contact" id="{b37ab77a-cbf7-4d82-8e2e-2277a7eb9c16}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_details" displayName="Details" parentSchemaName="govcdm_icmcasecontact" parentDisplayName="ICM Case Contact" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="ICM Case Contact" id="{1c3bfd5a-3973-46ba-8186-0c9fbac157e6}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_details" displayName="Details" parentSchemaName="govcdm_icmcasecontact" parentDisplayName="ICM Case Contact" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="ICM Case Contact" id="{b5fe5e54-3ba9-ef11-8a6a-001dd804e2ae}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_emailaddress" displayName="Email Address" parentSchemaName="govcdm_icmcasecontact" parentDisplayName="ICM Case Contact" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="26" schemaName="Active ICM Case Contacts" displayName="Active ICM Case Contacts" parentSchemaName="govcdm_icmcasecontact" parentDisplayName="ICM Case Contact" id="{b37ab77a-cbf7-4d82-8e2e-2277a7eb9c16}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_emailaddress" displayName="Email Address" parentSchemaName="govcdm_icmcasecontact" parentDisplayName="ICM Case Contact" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="ICM Case Contact" id="{1c3bfd5a-3973-46ba-8186-0c9fbac157e6}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_emailaddress" displayName="Email Address" parentSchemaName="govcdm_icmlead" parentDisplayName="ICM Lead" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="ICM Lead" id="{2879ebef-4a82-4cc2-8231-ca119d6db4fa}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_emailaddress" displayName="Email Address" parentSchemaName="govcdm_icmlead" parentDisplayName="ICM Lead" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="ICM Lead" id="{e370be2a-5aab-ef11-b8e9-001dd804e2ae}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_firstname" displayName="First Name" parentSchemaName="govcdm_icmcasecontact" parentDisplayName="ICM Case Contact" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="ICM Case Contact" id="{1c3bfd5a-3973-46ba-8186-0c9fbac157e6}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_firstname" displayName="First Name" parentSchemaName="govcdm_icmcasecontact" parentDisplayName="ICM Case Contact" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="ICM Case Contact" id="{b5fe5e54-3ba9-ef11-8a6a-001dd804e2ae}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_firstname" displayName="First Name" parentSchemaName="govcdm_icmlead" parentDisplayName="ICM Lead" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="ICM Lead" id="{2879ebef-4a82-4cc2-8231-ca119d6db4fa}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_firstname" displayName="First Name" parentSchemaName="govcdm_icmlead" parentDisplayName="ICM Lead" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="ICM Lead" id="{e370be2a-5aab-ef11-b8e9-001dd804e2ae}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_formalfindings" displayName="Formal Findings" parentSchemaName="govcdm_icmcase" parentDisplayName="ICM Case" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="ICM Case" id="{436413f2-28eb-4f86-81cf-8029f214dcf0}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_formalrecommendations" displayName="Formal Recommendations" parentSchemaName="govcdm_icmcase" parentDisplayName="ICM Case" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="29" displayName="ICM Lead to ICM Case" id="{8ab9e6bb-5fab-ef11-b8e9-001dd804c7ab}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_formalrecommendations" displayName="Formal Recommendations" parentSchemaName="govcdm_icmcase" parentDisplayName="ICM Case" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="ICM Case" id="{436413f2-28eb-4f86-81cf-8029f214dcf0}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_formalrecommendations" displayName="Formal Recommendations" parentSchemaName="govcdm_icmcase" parentDisplayName="ICM Case" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="ICM Lead to ICM Case" id="{68490a7c-0eed-4b36-977f-b5935283225c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_formalstartdate" displayName="Formal Start Date" parentSchemaName="govcdm_icmcase" parentDisplayName="ICM Case" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="26" schemaName="Active ICM Cases" displayName="Active ICM Cases" parentSchemaName="govcdm_icmcase" parentDisplayName="ICM Case" id="{48ed2689-910f-4975-9499-99df0841f5ee}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_formalstartdate" displayName="Formal Start Date" parentSchemaName="govcdm_icmcase" parentDisplayName="ICM Case" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="ICM Case" id="{436413f2-28eb-4f86-81cf-8029f214dcf0}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_homephone" displayName="Home Phone" parentSchemaName="govcdm_icmcasecontact" parentDisplayName="ICM Case Contact" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="ICM Case Contact" id="{1c3bfd5a-3973-46ba-8186-0c9fbac157e6}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_homephone" displayName="Home Phone" parentSchemaName="govcdm_icmlead" parentDisplayName="ICM Lead" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="ICM Lead" id="{2879ebef-4a82-4cc2-8231-ca119d6db4fa}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_homephone" displayName="Home Phone" parentSchemaName="govcdm_icmlead" parentDisplayName="ICM Lead" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="ICM Lead" id="{e370be2a-5aab-ef11-b8e9-001dd804e2ae}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_icmcase" displayName="ICM Case" parentSchemaName="govcdm_icmcasecontact" parentDisplayName="ICM Case Contact" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="ICM Case Contact" id="{1c3bfd5a-3973-46ba-8186-0c9fbac157e6}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_icmcase" displayName="ICM Case" parentSchemaName="govcdm_icmcasecontact" parentDisplayName="ICM Case Contact" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="ICM Case Contact" id="{b5fe5e54-3ba9-ef11-8a6a-001dd804e2ae}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_icmcase" displayName="ICM Case" parentSchemaName="govcdm_icmcaseevidence" parentDisplayName="ICM Case Evidence" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="ICM Case Evidence" id="{a55660f1-7cf7-ee11-a1fd-6045bddc9197}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_icmcase" displayName="ICM Case" parentSchemaName="govcdm_icmcaseviolation" parentDisplayName="ICM Case Violation" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="ICM Case Violation" id="{b719db0c-7df7-ee11-a1fd-6045bddc9197}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_icmcase" displayName="ICM Case" parentSchemaName="govcdm_icmreferral" parentDisplayName="ICM Referral" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="ICM Referral" id="{ae3d9f64-7df7-ee11-a1fd-6045bddc9197}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_icmcasecontact" displayName="ICM Case Contact" parentSchemaName="govcdm_icmcasecontactviolation" parentDisplayName="ICM Case Contact Violation" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="ICM Case Contact Violation" id="{09dc41d0-7cf7-ee11-a1fd-6045bddc9197}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_icmcasecontactid" displayName="ICM Case Contact" parentSchemaName="govcdm_icmcasecontact" parentDisplayName="ICM Case Contact" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="26" schemaName="Active ICM Case Contacts" displayName="Active ICM Case Contacts" parentSchemaName="govcdm_icmcasecontact" parentDisplayName="ICM Case Contact" id="{b37ab77a-cbf7-4d82-8e2e-2277a7eb9c16}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_icmcasecontacttype" displayName="ICM Case Contact Type" parentSchemaName="govcdm_icmcasecontact" parentDisplayName="ICM Case Contact" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="26" schemaName="Active ICM Case Contacts" displayName="Active ICM Case Contacts" parentSchemaName="govcdm_icmcasecontact" parentDisplayName="ICM Case Contact" id="{b37ab77a-cbf7-4d82-8e2e-2277a7eb9c16}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_icmcasecontacttype" displayName="ICM Case Contact Type" parentSchemaName="govcdm_icmcasecontact" parentDisplayName="ICM Case Contact" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="ICM Case Contact" id="{1c3bfd5a-3973-46ba-8186-0c9fbac157e6}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_icmcasecontacttype" displayName="ICM Case Contact Type" parentSchemaName="govcdm_icmcasecontact" parentDisplayName="ICM Case Contact" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="60" displayName="Quick Create (Deprecated)" parentDisplayName="ICM Case Contact" id="{727aa925-80f7-ee11-a1fd-6045bddc9197}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_icmcasecontacttype" displayName="ICM Case Contact Type" parentSchemaName="govcdm_icmcasecontact" parentDisplayName="ICM Case Contact" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="ICM Case Contact" id="{b5fe5e54-3ba9-ef11-8a6a-001dd804e2ae}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_icmcaseid" displayName="ICM Case" parentSchemaName="govcdm_icmcase" parentDisplayName="ICM Case" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="26" schemaName="Active ICM Cases" displayName="Active ICM Cases" parentSchemaName="govcdm_icmcase" parentDisplayName="ICM Case" id="{48ed2689-910f-4975-9499-99df0841f5ee}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_icmcaseid" displayName="ICM Case" parentSchemaName="govcdm_icmcase" parentDisplayName="ICM Case" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="29" displayName="ICM Lead to ICM Case" id="{8ab9e6bb-5fab-ef11-b8e9-001dd804c7ab}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_icmcasestage" displayName="ICM Case Stage" parentSchemaName="govcdm_icmcase" parentDisplayName="ICM Case" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="26" schemaName="Active ICM Cases" displayName="Active ICM Cases" parentSchemaName="govcdm_icmcase" parentDisplayName="ICM Case" id="{48ed2689-910f-4975-9499-99df0841f5ee}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_icmcasestage" displayName="ICM Case Stage" parentSchemaName="govcdm_icmcase" parentDisplayName="ICM Case" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="ICM Case" id="{436413f2-28eb-4f86-81cf-8029f214dcf0}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_icmcaseviolation" displayName="ICM Case Violation" parentSchemaName="govcdm_icmcasecontactviolation" parentDisplayName="ICM Case Contact Violation" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="ICM Case Contact Violation" id="{09dc41d0-7cf7-ee11-a1fd-6045bddc9197}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_icmevidence" displayName="ICM Evidence" parentSchemaName="govcdm_icmcaseevidence" parentDisplayName="ICM Case Evidence" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="ICM Case Evidence" id="{a55660f1-7cf7-ee11-a1fd-6045bddc9197}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_icmleadid" displayName="ICM Lead" parentSchemaName="govcdm_icmlead" parentDisplayName="ICM Lead" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="26" schemaName="Active ICM Leads" displayName="Active ICM Leads" parentSchemaName="govcdm_icmlead" parentDisplayName="ICM Lead" id="{07c559eb-cc02-4f6b-a1ca-973064f89427}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_icmleadid" displayName="ICM Lead" parentSchemaName="govcdm_icmlead" parentDisplayName="ICM Lead" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="26" schemaName="Inactive ICM Lead to ICM Case on my ICM Leads" displayName="Inactive ICM Lead to ICM Case on my ICM Leads" parentSchemaName="msfed_icmleadtoicmcase" parentDisplayName="ICM Lead to ICM Case" id="{6147cba0-03d7-4782-9a64-66db12bab877}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_icmleadid" displayName="ICM Lead" parentSchemaName="govcdm_icmlead" parentDisplayName="ICM Lead" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="26" schemaName="Active ICM Lead to ICM Case on my ICM Leads" displayName="Active ICM Lead to ICM Case on my ICM Leads" parentSchemaName="msfed_icmleadtoicmcase" parentDisplayName="ICM Lead to ICM Case" id="{ccfda80e-a467-44ba-8170-518034c749b8}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_icmleadid" displayName="ICM Lead" parentSchemaName="govcdm_icmlead" parentDisplayName="ICM Lead" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="29" displayName="ICM Lead to ICM Case" id="{8ab9e6bb-5fab-ef11-b8e9-001dd804c7ab}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_icmreferraltype" displayName="ICM Referral Type" parentSchemaName="govcdm_icmreferral" parentDisplayName="ICM Referral" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="ICM Referral" id="{ae3d9f64-7df7-ee11-a1fd-6045bddc9197}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_icmviolation" displayName="ICM Violation" parentSchemaName="govcdm_icmcaseviolation" parentDisplayName="ICM Case Violation" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="ICM Case Violation" id="{b719db0c-7df7-ee11-a1fd-6045bddc9197}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_icmviolationid" displayName="ICM Violation" parentSchemaName="govcdm_icmviolation" parentDisplayName="ICM Violation" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="26" schemaName="Active ICM Violations" displayName="Active ICM Violations" parentSchemaName="govcdm_icmviolation" parentDisplayName="ICM Violation" id="{01178a83-30bf-4d4c-aac2-a272a54078d9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_incidentenddate" displayName="Incident End Date" parentSchemaName="govcdm_icmlead" parentDisplayName="ICM Lead" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="ICM Lead" id="{2879ebef-4a82-4cc2-8231-ca119d6db4fa}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_incidentenddate" displayName="Incident End Date" parentSchemaName="govcdm_icmlead" parentDisplayName="ICM Lead" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="ICM Lead" id="{e370be2a-5aab-ef11-b8e9-001dd804e2ae}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_incidentprimarylocation" displayName="Incident Primary Location" parentSchemaName="govcdm_icmlead" parentDisplayName="ICM Lead" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="ICM Lead" id="{2879ebef-4a82-4cc2-8231-ca119d6db4fa}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_incidentstartdate" displayName="Incident Start Date" parentSchemaName="govcdm_icmlead" parentDisplayName="ICM Lead" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="ICM Lead" id="{2879ebef-4a82-4cc2-8231-ca119d6db4fa}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_incidentstartdate" displayName="Incident Start Date" parentSchemaName="govcdm_icmlead" parentDisplayName="ICM Lead" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="ICM Lead" id="{e370be2a-5aab-ef11-b8e9-001dd804e2ae}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_informalfindings" displayName="Informal Findings" parentSchemaName="govcdm_icmcase" parentDisplayName="ICM Case" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="ICM Case" id="{436413f2-28eb-4f86-81cf-8029f214dcf0}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_informalrecommendations" displayName="Informal Recommendations" parentSchemaName="govcdm_icmcase" parentDisplayName="ICM Case" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="29" displayName="ICM Lead to ICM Case" id="{8ab9e6bb-5fab-ef11-b8e9-001dd804c7ab}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_informalrecommendations" displayName="Informal Recommendations" parentSchemaName="govcdm_icmcase" parentDisplayName="ICM Case" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="ICM Case" id="{436413f2-28eb-4f86-81cf-8029f214dcf0}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_informalrecommendations" displayName="Informal Recommendations" parentSchemaName="govcdm_icmcase" parentDisplayName="ICM Case" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="ICM Lead to ICM Case" id="{68490a7c-0eed-4b36-977f-b5935283225c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_informalstartdate" displayName="Informal Start Date" parentSchemaName="govcdm_icmcase" parentDisplayName="ICM Case" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="26" schemaName="Active ICM Cases" displayName="Active ICM Cases" parentSchemaName="govcdm_icmcase" parentDisplayName="ICM Case" id="{48ed2689-910f-4975-9499-99df0841f5ee}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_informalstartdate" displayName="Informal Start Date" parentSchemaName="govcdm_icmcase" parentDisplayName="ICM Case" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="ICM Case" id="{436413f2-28eb-4f86-81cf-8029f214dcf0}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_judicialdistrict" displayName="Judicial District" parentSchemaName="govcdm_icmcase" parentDisplayName="ICM Case" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="ICM Case" id="{436413f2-28eb-4f86-81cf-8029f214dcf0}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_judicialdistrict" displayName="Judicial District" parentSchemaName="govcdm_icmcase" parentDisplayName="ICM Case" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="ICM Case" id="{b4d619a1-66ab-ef11-b8e9-001dd804e2ae}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_lastname" displayName="Last Name" parentSchemaName="govcdm_icmcasecontact" parentDisplayName="ICM Case Contact" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="ICM Case Contact" id="{1c3bfd5a-3973-46ba-8186-0c9fbac157e6}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_lastname" displayName="Last Name" parentSchemaName="govcdm_icmcasecontact" parentDisplayName="ICM Case Contact" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="ICM Case Contact" id="{b5fe5e54-3ba9-ef11-8a6a-001dd804e2ae}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_lastname" displayName="Last Name" parentSchemaName="govcdm_icmlead" parentDisplayName="ICM Lead" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="ICM Lead" id="{2879ebef-4a82-4cc2-8231-ca119d6db4fa}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_lastname" displayName="Last Name" parentSchemaName="govcdm_icmlead" parentDisplayName="ICM Lead" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="ICM Lead" id="{e370be2a-5aab-ef11-b8e9-001dd804e2ae}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_methodofreceipt" displayName="Method of Receipt" parentSchemaName="govcdm_icmlead" parentDisplayName="ICM Lead" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="26" schemaName="Active ICM Leads" displayName="Active ICM Leads" parentSchemaName="govcdm_icmlead" parentDisplayName="ICM Lead" id="{07c559eb-cc02-4f6b-a1ca-973064f89427}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_methodofreceipt" displayName="Method of Receipt" parentSchemaName="govcdm_icmlead" parentDisplayName="ICM Lead" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="ICM Lead" id="{2879ebef-4a82-4cc2-8231-ca119d6db4fa}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_methodofreceipt" displayName="Method of Receipt" parentSchemaName="govcdm_icmlead" parentDisplayName="ICM Lead" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="ICM Lead" id="{4b517d47-7df7-ee11-a1fd-6045bddc9197}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_methodofreceipt" displayName="Method of Receipt" parentSchemaName="govcdm_icmlead" parentDisplayName="ICM Lead" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="ICM Lead" id="{e370be2a-5aab-ef11-b8e9-001dd804e2ae}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_mobilephone" displayName="Mobile Phone" parentSchemaName="govcdm_icmcasecontact" parentDisplayName="ICM Case Contact" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="ICM Case Contact" id="{1c3bfd5a-3973-46ba-8186-0c9fbac157e6}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_mobilephone" displayName="Mobile Phone" parentSchemaName="govcdm_icmlead" parentDisplayName="ICM Lead" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="ICM Lead" id="{2879ebef-4a82-4cc2-8231-ca119d6db4fa}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_mobilephone" displayName="Mobile Phone" parentSchemaName="govcdm_icmlead" parentDisplayName="ICM Lead" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="ICM Lead" id="{e370be2a-5aab-ef11-b8e9-001dd804e2ae}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_icmcase" parentDisplayName="ICM Case" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="10" schemaName="bpf_govcdm_icmcase_msfed_icmleadtoicmcase" displayName="bpf_govcdm_icmcase_msfed_icmleadtoicmcase" parentSchemaName="govcdm_icmcase" parentDisplayName="ICM Case" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_icmcase" parentDisplayName="ICM Case" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="26" schemaName="Active ICM Cases" displayName="Active ICM Cases" parentSchemaName="govcdm_icmcase" parentDisplayName="ICM Case" id="{48ed2689-910f-4975-9499-99df0841f5ee}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_icmcase" parentDisplayName="ICM Case" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="29" displayName="ICM Lead to ICM Case" id="{8ab9e6bb-5fab-ef11-b8e9-001dd804c7ab}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_icmcase" parentDisplayName="ICM Case" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="ICM Case" id="{436413f2-28eb-4f86-81cf-8029f214dcf0}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_icmcase" parentDisplayName="ICM Case" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="ICM Case" id="{b4d619a1-66ab-ef11-b8e9-001dd804e2ae}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_icmcasecontact" parentDisplayName="ICM Case Contact" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="26" schemaName="Active ICM Case Contacts" displayName="Active ICM Case Contacts" parentSchemaName="govcdm_icmcasecontact" parentDisplayName="ICM Case Contact" id="{b37ab77a-cbf7-4d82-8e2e-2277a7eb9c16}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_icmcasecontact" parentDisplayName="ICM Case Contact" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="ICM Case Contact" id="{1c3bfd5a-3973-46ba-8186-0c9fbac157e6}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_icmcasecontactviolation" parentDisplayName="ICM Case Contact Violation" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="ICM Case Contact Violation" id="{09dc41d0-7cf7-ee11-a1fd-6045bddc9197}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_icmcaseevidence" parentDisplayName="ICM Case Evidence" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="ICM Case Evidence" id="{a55660f1-7cf7-ee11-a1fd-6045bddc9197}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_icmcaseviolation" parentDisplayName="ICM Case Violation" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="ICM Case Violation" id="{b719db0c-7df7-ee11-a1fd-6045bddc9197}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_icmevidence" parentDisplayName="ICM Evidence" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="ICM Evidence" id="{b3f54626-7df7-ee11-a1fd-6045bddc9197}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_icmlead" parentDisplayName="ICM Lead" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="10" schemaName="bpf_govcdm_icmlead_msfed_icmleadtoicmcase" displayName="bpf_govcdm_icmlead_msfed_icmleadtoicmcase" parentSchemaName="govcdm_icmlead" parentDisplayName="ICM Lead" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_icmlead" parentDisplayName="ICM Lead" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="26" schemaName="Active ICM Leads" displayName="Active ICM Leads" parentSchemaName="govcdm_icmlead" parentDisplayName="ICM Lead" id="{07c559eb-cc02-4f6b-a1ca-973064f89427}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_icmlead" parentDisplayName="ICM Lead" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="29" displayName="ICM Lead to ICM Case" id="{8ab9e6bb-5fab-ef11-b8e9-001dd804c7ab}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_icmlead" parentDisplayName="ICM Lead" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="ICM Lead" id="{2879ebef-4a82-4cc2-8231-ca119d6db4fa}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_icmlead" parentDisplayName="ICM Lead" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="ICM Lead" id="{4b517d47-7df7-ee11-a1fd-6045bddc9197}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_icmlead" parentDisplayName="ICM Lead" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="ICM Lead to ICM Case" id="{68490a7c-0eed-4b36-977f-b5935283225c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_icmreferral" parentDisplayName="ICM Referral" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="ICM Referral" id="{ae3d9f64-7df7-ee11-a1fd-6045bddc9197}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_icmviolation" parentDisplayName="ICM Violation" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="26" schemaName="Active ICM Violations" displayName="Active ICM Violations" parentSchemaName="govcdm_icmviolation" parentDisplayName="ICM Violation" id="{01178a83-30bf-4d4c-aac2-a272a54078d9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_icmviolation" parentDisplayName="ICM Violation" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="ICM Violation" id="{27cb777b-7df7-ee11-a1fd-6045bddc9197}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_icmviolation" parentDisplayName="ICM Violation" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="ICM Violation" id="{e39a8795-a70b-4e2b-b34c-fdc11e936e01}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_narrativedetails" displayName="Narrative Details" parentSchemaName="govcdm_icmlead" parentDisplayName="ICM Lead" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="26" schemaName="Active ICM Leads" displayName="Active ICM Leads" parentSchemaName="govcdm_icmlead" parentDisplayName="ICM Lead" id="{07c559eb-cc02-4f6b-a1ca-973064f89427}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_narrativedetails" displayName="Narrative Details" parentSchemaName="govcdm_icmlead" parentDisplayName="ICM Lead" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="ICM Lead" id="{2879ebef-4a82-4cc2-8231-ca119d6db4fa}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_narrativedetails" displayName="Narrative Details" parentSchemaName="govcdm_icmlead" parentDisplayName="ICM Lead" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="ICM Lead" id="{e370be2a-5aab-ef11-b8e9-001dd804e2ae}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_narrativelocations" displayName="Narrative Location(s)" parentSchemaName="govcdm_icmlead" parentDisplayName="ICM Lead" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="ICM Lead" id="{2879ebef-4a82-4cc2-8231-ca119d6db4fa}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_narrativeotherparties" displayName="Narrative Other Parties" parentSchemaName="govcdm_icmlead" parentDisplayName="ICM Lead" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="ICM Lead" id="{2879ebef-4a82-4cc2-8231-ca119d6db4fa}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_narrativesubjects" displayName="Narrative Subject(s)" parentSchemaName="govcdm_icmlead" parentDisplayName="ICM Lead" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="ICM Lead" id="{2879ebef-4a82-4cc2-8231-ca119d6db4fa}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_organizationinitiative" displayName="Organization Initiative" parentSchemaName="govcdm_icmcase" parentDisplayName="ICM Case" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="ICM Case" id="{436413f2-28eb-4f86-81cf-8029f214dcf0}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_originatinglead" displayName="Originating Lead" parentSchemaName="govcdm_icmcase" parentDisplayName="ICM Case" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="ICM Case" id="{436413f2-28eb-4f86-81cf-8029f214dcf0}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_originatinglead" displayName="Originating Lead" parentSchemaName="govcdm_icmcase" parentDisplayName="ICM Case" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="ICM Case" id="{b4d619a1-66ab-ef11-b8e9-001dd804e2ae}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_person" displayName="Person" parentSchemaName="govcdm_icmcasecontact" parentDisplayName="ICM Case Contact" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="ICM Case Contact" id="{1c3bfd5a-3973-46ba-8186-0c9fbac157e6}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_person" displayName="Person" parentSchemaName="govcdm_icmcasecontact" parentDisplayName="ICM Case Contact" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="60" displayName="Quick Create (Deprecated)" parentDisplayName="ICM Case Contact" id="{727aa925-80f7-ee11-a1fd-6045bddc9197}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_person" displayName="Person" parentSchemaName="govcdm_icmcasecontact" parentDisplayName="ICM Case Contact" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="ICM Case Contact" id="{b5fe5e54-3ba9-ef11-8a6a-001dd804e2ae}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_preferredmethodofcontact" displayName="Preferred Method of Contact" parentSchemaName="govcdm_icmcasecontact" parentDisplayName="ICM Case Contact" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="ICM Case Contact" id="{1c3bfd5a-3973-46ba-8186-0c9fbac157e6}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_preferredmethodofcontact" displayName="Preferred Method of Contact" parentSchemaName="govcdm_icmlead" parentDisplayName="ICM Lead" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="ICM Lead" id="{2879ebef-4a82-4cc2-8231-ca119d6db4fa}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_preferredmethodofcontact" displayName="Preferred Method of Contact" parentSchemaName="govcdm_icmlead" parentDisplayName="ICM Lead" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="ICM Lead" id="{e370be2a-5aab-ef11-b8e9-001dd804e2ae}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_primarycomplainant" displayName="Primary Complainant" parentSchemaName="govcdm_icmcase" parentDisplayName="ICM Case" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="26" schemaName="Active ICM Cases" displayName="Active ICM Cases" parentSchemaName="govcdm_icmcase" parentDisplayName="ICM Case" id="{48ed2689-910f-4975-9499-99df0841f5ee}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_primarycomplainant" displayName="Primary Complainant" parentSchemaName="govcdm_icmcase" parentDisplayName="ICM Case" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="ICM Case" id="{436413f2-28eb-4f86-81cf-8029f214dcf0}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_primarysubject" displayName="Primary Subject" parentSchemaName="govcdm_icmcase" parentDisplayName="ICM Case" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="26" schemaName="Active ICM Cases" displayName="Active ICM Cases" parentSchemaName="govcdm_icmcase" parentDisplayName="ICM Case" id="{48ed2689-910f-4975-9499-99df0841f5ee}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_primarysubject" displayName="Primary Subject" parentSchemaName="govcdm_icmcase" parentDisplayName="ICM Case" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="ICM Case" id="{436413f2-28eb-4f86-81cf-8029f214dcf0}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_priority" displayName="Priority" parentSchemaName="govcdm_icmlead" parentDisplayName="ICM Lead" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="26" schemaName="Active ICM Leads" displayName="Active ICM Leads" parentSchemaName="govcdm_icmlead" parentDisplayName="ICM Lead" id="{07c559eb-cc02-4f6b-a1ca-973064f89427}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_priority" displayName="Priority" parentSchemaName="govcdm_icmlead" parentDisplayName="ICM Lead" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="ICM Lead" id="{2879ebef-4a82-4cc2-8231-ca119d6db4fa}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_receiveddatetime" displayName="Received Date Time" parentSchemaName="govcdm_icmlead" parentDisplayName="ICM Lead" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="26" schemaName="Active ICM Leads" displayName="Active ICM Leads" parentSchemaName="govcdm_icmlead" parentDisplayName="ICM Lead" id="{07c559eb-cc02-4f6b-a1ca-973064f89427}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_receiveddatetime" displayName="Received Date Time" parentSchemaName="govcdm_icmlead" parentDisplayName="ICM Lead" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="ICM Lead" id="{2879ebef-4a82-4cc2-8231-ca119d6db4fa}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_receiveddatetime" displayName="Received Date Time" parentSchemaName="govcdm_icmlead" parentDisplayName="ICM Lead" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="ICM Lead" id="{e370be2a-5aab-ef11-b8e9-001dd804e2ae}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_remainanonymous" displayName="Remain Anonymous" parentSchemaName="govcdm_icmcasecontact" parentDisplayName="ICM Case Contact" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="26" schemaName="Active ICM Case Contacts" displayName="Active ICM Case Contacts" parentSchemaName="govcdm_icmcasecontact" parentDisplayName="ICM Case Contact" id="{b37ab77a-cbf7-4d82-8e2e-2277a7eb9c16}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_remainanonymous" displayName="Remain Anonymous" parentSchemaName="govcdm_icmcasecontact" parentDisplayName="ICM Case Contact" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="ICM Case Contact" id="{1c3bfd5a-3973-46ba-8186-0c9fbac157e6}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_remainanonymous" displayName="Remain Anonymous" parentSchemaName="govcdm_icmcasecontact" parentDisplayName="ICM Case Contact" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="ICM Case Contact" id="{b5fe5e54-3ba9-ef11-8a6a-001dd804e2ae}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_remainanonymous" displayName="Remain Anonymous" parentSchemaName="govcdm_icmlead" parentDisplayName="ICM Lead" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="ICM Lead" id="{2879ebef-4a82-4cc2-8231-ca119d6db4fa}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_remainanonymous" displayName="Remain Anonymous" parentSchemaName="govcdm_icmlead" parentDisplayName="ICM Lead" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="ICM Lead" id="{e370be2a-5aab-ef11-b8e9-001dd804e2ae}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_securityclassification" displayName="Security Classification" parentSchemaName="govcdm_icmcase" parentDisplayName="ICM Case" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="26" schemaName="Active ICM Cases" displayName="Active ICM Cases" parentSchemaName="govcdm_icmcase" parentDisplayName="ICM Case" id="{48ed2689-910f-4975-9499-99df0841f5ee}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_securityclassification" displayName="Security Classification" parentSchemaName="govcdm_icmcase" parentDisplayName="ICM Case" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="ICM Case" id="{436413f2-28eb-4f86-81cf-8029f214dcf0}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_securityclassification" displayName="Security Classification" parentSchemaName="govcdm_icmcase" parentDisplayName="ICM Case" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="ICM Case" id="{b4d619a1-66ab-ef11-b8e9-001dd804e2ae}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="govcdm_icmcase" parentDisplayName="ICM Case" solution="Active" />
+        <Dependent type="29" displayName="ICM Lead to ICM Case" id="{8ab9e6bb-5fab-ef11-b8e9-001dd804c7ab}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="govcdm_icmcase" parentDisplayName="ICM Case" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="ICM Case" id="{436413f2-28eb-4f86-81cf-8029f214dcf0}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="govcdm_icmcase" parentDisplayName="ICM Case" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="ICM Lead to ICM Case" id="{68490a7c-0eed-4b36-977f-b5935283225c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="govcdm_icmcasecontact" parentDisplayName="ICM Case Contact" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="ICM Case Contact" id="{1c3bfd5a-3973-46ba-8186-0c9fbac157e6}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="govcdm_icmcasecontactviolation" parentDisplayName="ICM Case Contact Violation" solution="Active" />
+        <Dependent type="60" displayName="Main" parentDisplayName="ICM Case Contact Violation" id="{09dc41d0-7cf7-ee11-a1fd-6045bddc9197}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="govcdm_icmcaseevidence" parentDisplayName="ICM Case Evidence" solution="Active" />
+        <Dependent type="60" displayName="Main" parentDisplayName="ICM Case Evidence" id="{a55660f1-7cf7-ee11-a1fd-6045bddc9197}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="govcdm_icmcaseviolation" parentDisplayName="ICM Case Violation" solution="Active" />
+        <Dependent type="60" displayName="Main" parentDisplayName="ICM Case Violation" id="{b719db0c-7df7-ee11-a1fd-6045bddc9197}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="govcdm_icmevidence" parentDisplayName="ICM Evidence" solution="Active" />
+        <Dependent type="60" displayName="Main" parentDisplayName="ICM Evidence" id="{b3f54626-7df7-ee11-a1fd-6045bddc9197}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="govcdm_icmlead" parentDisplayName="ICM Lead" solution="Active" />
+        <Dependent type="26" schemaName="Inactive ICM Lead to ICM Case on my ICM Leads" displayName="Inactive ICM Lead to ICM Case on my ICM Leads" parentSchemaName="msfed_icmleadtoicmcase" parentDisplayName="ICM Lead to ICM Case" id="{6147cba0-03d7-4782-9a64-66db12bab877}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="govcdm_icmlead" parentDisplayName="ICM Lead" solution="Active" />
+        <Dependent type="26" schemaName="Active ICM Lead to ICM Case on my ICM Leads" displayName="Active ICM Lead to ICM Case on my ICM Leads" parentSchemaName="msfed_icmleadtoicmcase" parentDisplayName="ICM Lead to ICM Case" id="{ccfda80e-a467-44ba-8170-518034c749b8}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="govcdm_icmlead" parentDisplayName="ICM Lead" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="ICM Lead" id="{2879ebef-4a82-4cc2-8231-ca119d6db4fa}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="govcdm_icmlead" parentDisplayName="ICM Lead" solution="Active" />
+        <Dependent type="60" displayName="Main" parentDisplayName="ICM Lead" id="{4b517d47-7df7-ee11-a1fd-6045bddc9197}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="govcdm_icmreferral" parentDisplayName="ICM Referral" solution="Active" />
+        <Dependent type="60" displayName="Main" parentDisplayName="ICM Referral" id="{ae3d9f64-7df7-ee11-a1fd-6045bddc9197}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="govcdm_icmviolation" parentDisplayName="ICM Violation" solution="Active" />
+        <Dependent type="60" displayName="Main" parentDisplayName="ICM Violation" id="{27cb777b-7df7-ee11-a1fd-6045bddc9197}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="govcdm_icmviolation" parentDisplayName="ICM Violation" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="ICM Violation" id="{e39a8795-a70b-4e2b-b34c-fdc11e936e01}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="statecode" displayName="Status" parentSchemaName="govcdm_icmcase" parentDisplayName="ICM Case" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="26" schemaName="Active ICM Cases" displayName="Active ICM Cases" parentSchemaName="govcdm_icmcase" parentDisplayName="ICM Case" id="{48ed2689-910f-4975-9499-99df0841f5ee}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="statecode" displayName="Status" parentSchemaName="govcdm_icmcasecontact" parentDisplayName="ICM Case Contact" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="26" schemaName="Active ICM Case Contacts" displayName="Active ICM Case Contacts" parentSchemaName="govcdm_icmcasecontact" parentDisplayName="ICM Case Contact" id="{b37ab77a-cbf7-4d82-8e2e-2277a7eb9c16}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="statecode" displayName="Status" parentSchemaName="govcdm_icmlead" parentDisplayName="ICM Lead" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="26" schemaName="Active ICM Leads" displayName="Active ICM Leads" parentSchemaName="govcdm_icmlead" parentDisplayName="ICM Lead" id="{07c559eb-cc02-4f6b-a1ca-973064f89427}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="statecode" displayName="Status" parentSchemaName="govcdm_icmviolation" parentDisplayName="ICM Violation" solution="govcdm_investigations (1.0.0.1)" />
+        <Dependent type="26" schemaName="Active ICM Violations" displayName="Active ICM Violations" parentSchemaName="govcdm_icmviolation" parentDisplayName="ICM Violation" id="{01178a83-30bf-4d4c-aac2-a272a54078d9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Active ICM Case Contacts" displayName="Active ICM Case Contacts" parentSchemaName="govcdm_icmcasecontact" parentDisplayName="ICM Case Contact" solution="govcdm_investigations (1.0.0.1)" id="{b37ab77a-cbf7-4d82-8e2e-2277a7eb9c16}" />
+        <Dependent type="26" schemaName="Active ICM Case Contacts" displayName="Active ICM Case Contacts" parentSchemaName="govcdm_icmcasecontact" parentDisplayName="ICM Case Contact" id="{b37ab77a-cbf7-4d82-8e2e-2277a7eb9c16}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Active ICM Cases" displayName="Active ICM Cases" parentSchemaName="govcdm_icmcase" parentDisplayName="ICM Case" solution="govcdm_investigations (1.0.0.1)" id="{48ed2689-910f-4975-9499-99df0841f5ee}" />
+        <Dependent type="26" schemaName="Active ICM Cases" displayName="Active ICM Cases" parentSchemaName="govcdm_icmcase" parentDisplayName="ICM Case" id="{48ed2689-910f-4975-9499-99df0841f5ee}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Active ICM Leads" displayName="Active ICM Leads" parentSchemaName="govcdm_icmlead" parentDisplayName="ICM Lead" solution="govcdm_investigations (1.0.0.1)" id="{07c559eb-cc02-4f6b-a1ca-973064f89427}" />
+        <Dependent type="26" schemaName="Active ICM Leads" displayName="Active ICM Leads" parentSchemaName="govcdm_icmlead" parentDisplayName="ICM Lead" id="{07c559eb-cc02-4f6b-a1ca-973064f89427}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Active ICM Violations" displayName="Active ICM Violations" parentSchemaName="govcdm_icmviolation" parentDisplayName="ICM Violation" solution="govcdm_investigations (1.0.0.1)" id="{01178a83-30bf-4d4c-aac2-a272a54078d9}" />
+        <Dependent type="26" schemaName="Active ICM Violations" displayName="Active ICM Violations" parentSchemaName="govcdm_icmviolation" parentDisplayName="ICM Violation" id="{01178a83-30bf-4d4c-aac2-a272a54078d9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="300" schemaName="msfed_assistantpage_7e2a6" displayName="Assistant Page" solution="msfed_processandtasking (1.0.2.0)" />
+        <Dependent type="62" schemaName="msfed_InvestigativeCaseManagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="300" schemaName="msfed_assistantpage_7e2a6" displayName="Assistant Page" solution="msfed_processandtasking (1.0.2.0)" />
+        <Dependent type="AppElement" displayName="msfed_msfed_InvestigativeCaseManagement_canvasappid_msfed_assistantpage_7e2a6" id.uniquename="msfed_msfed_InvestigativeCaseManagement_canvasappid_msfed_assistantpage_7e2a6" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Information" parentDisplayName="ICM Case Contact" solution="govcdm_investigations (1.0.0.1)" id="{00cd75e1-2e3c-4f10-875e-cf58be0664c3}" />
+        <Dependent type="80" schemaName="msfed_InvestigativeCaseManagement" displayName="Investigative Case Management" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Information" parentDisplayName="ICM Case Contact" solution="govcdm_investigations (1.0.0.1)" id="{1c3bfd5a-3973-46ba-8186-0c9fbac157e6}" />
+        <Dependent type="60" displayName="Information" parentDisplayName="ICM Case Contact" id="{1c3bfd5a-3973-46ba-8186-0c9fbac157e6}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Information" parentDisplayName="ICM Lead" solution="govcdm_investigations (1.0.0.1)" id="{2879ebef-4a82-4cc2-8231-ca119d6db4fa}" />
+        <Dependent type="60" displayName="Information" parentDisplayName="ICM Lead" id="{2879ebef-4a82-4cc2-8231-ca119d6db4fa}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Information" parentDisplayName="ICM Case" solution="govcdm_investigations (1.0.0.1)" id="{436413f2-28eb-4f86-81cf-8029f214dcf0}" />
+        <Dependent type="60" displayName="Information" parentDisplayName="ICM Case" id="{436413f2-28eb-4f86-81cf-8029f214dcf0}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Quick Create" parentDisplayName="ICM Case" solution="govcdm_investigations (1.0.0.1)" id="{b4d619a1-66ab-ef11-b8e9-001dd804e2ae}" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="ICM Case" id="{b4d619a1-66ab-ef11-b8e9-001dd804e2ae}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Quick Create" parentDisplayName="ICM Case Contact" solution="govcdm_investigations (1.0.0.1)" id="{b5fe5e54-3ba9-ef11-8a6a-001dd804e2ae}" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="ICM Case Contact" id="{b5fe5e54-3ba9-ef11-8a6a-001dd804e2ae}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Quick Create" parentDisplayName="ICM Lead" solution="govcdm_investigations (1.0.0.1)" id="{e370be2a-5aab-ef11-b8e9-001dd804e2ae}" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="ICM Lead" id="{e370be2a-5aab-ef11-b8e9-001dd804e2ae}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Information" parentDisplayName="ICM Violation" solution="govcdm_investigations (1.0.0.1)" id="{e39a8795-a70b-4e2b-b34c-fdc11e936e01}" />
+        <Dependent type="60" displayName="Information" parentDisplayName="ICM Violation" id="{e39a8795-a70b-4e2b-b34c-fdc11e936e01}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="msdyn_/Images/AppModule_Default_Icon.png" displayName="msdyn_/Images/AppModule_Default_Icon.png" solution="AppModuleWebResources (2.5)" />
+        <Dependent type="80" schemaName="msfed_InvestigativeCaseManagement" displayName="Investigative Case Management" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="msfed_processandtasking" displayName="msfed_processandtasking" solution="msfed_processandtasking (1.0.2.0)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="ICM Case" id="{436413f2-28eb-4f86-81cf-8029f214dcf0}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="66" schemaName="msfed_MicrosoftPCF.IFrameControl" displayName="msfed_MicrosoftPCF.IFrameControl" solution="msfed_pcfiframe (1.0.0.1)" />
+        <Dependent type="300" schemaName="msfed_icmcopilot_7b369" displayName="ICM Copilot" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="66" schemaName="PowerApps.Copilot" displayName="PowerApps.Copilot" solution="BaseCustomControlsCore (9.0.2507.4012)">
+          <package appName="Base Custom Controls" version="9.0.2507.4012">BaseCustomControlsCore (9.0.2507.4012)</package>
+        </Required>
+        <Dependent type="300" schemaName="msfed_icmcopilot_7b369" displayName="ICM Copilot" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="SettingDefinition" displayName="AppChannel" solution="msdyn_AppFrameworkInfraExtensions (1.0.0.15)" id.uniquename="AppChannel">
+          <package appName="PowerAppsAppFramework Package" version="1.0.0.21">PowerAppsAppFramework_Anchor (1.0.0.21)</package>
+        </Required>
+        <Dependent type="AppSetting" displayName="parentappmoduleid.uniquename=msfed_InvestigativeCaseManagement,settingdefinitionid.uniquename=AppChannel" id.parentappmoduleid.uniquename="msfed_InvestigativeCaseManagement" id.settingdefinitionid.uniquename="AppChannel" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="SettingDefinition" displayName="appcopilotenabled" solution="msdyn_AppCopilotAppInfraSettings (9.2.2025062.250606027)" id.uniquename="appcopilotenabled">
+          <package appName="PowerAppsAppCopilotApp Package" version="9.2.2025042.250409005">PowerAppsAppCopilotApp_Anchor (9.2.2025042.250409005)</package>
+          <package appName="PowerAppsAppCopilotApp Package" version="1.0.0.2">msdyn_SuggestedAction (1.0.0.2)</package>
+        </Required>
+        <Dependent type="AppSetting" displayName="parentappmoduleid.uniquename=msfed_InvestigativeCaseManagement,settingdefinitionid.uniquename=appcopilotenabled" id.parentappmoduleid.uniquename="msfed_InvestigativeCaseManagement" id.settingdefinitionid.uniquename="appcopilotenabled" />
+      </MissingDependency>
+    </MissingDependencies>
+  </SolutionManifest>
+</ImportExportXml>

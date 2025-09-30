@@ -1,0 +1,11 @@
+<environmentvariabledefinition schemaname="msfed_AssistantURL">
+  <defaultvalue>https://gcc.powerva.microsoft.us/environments/f1b05d05-7921-e351-a15e-b7cb23a3cf90/bots/cr459_icmAgent/webchat?__version__=2</defaultvalue>
+  <displayname default="Assistant URL">
+    <label description="Assistant URL" languagecode="1033" />
+  </displayname>
+  <introducedversion>1.0.0.6</introducedversion>
+  <iscustomizable>1</iscustomizable>
+  <isrequired>0</isrequired>
+  <secretstore>0</secretstore>
+  <type>100000000</type>
+</environmentvariabledefinition>

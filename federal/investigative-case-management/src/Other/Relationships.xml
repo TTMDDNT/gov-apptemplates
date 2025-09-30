@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EntityRelationships xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <EntityRelationship Name="bpf_govcdm_icmcase_msfed_icmleadtoicmcase" />
+  <EntityRelationship Name="bpf_govcdm_icmlead_msfed_icmleadtoicmcase" />
+  <EntityRelationship Name="lk_msfed_icmleadtoicmcase_activestageid" />
+  <EntityRelationship Name="lk_msfed_icmleadtoicmcase_createdby" />
+  <EntityRelationship Name="lk_msfed_icmleadtoicmcase_modifiedby" />
+  <EntityRelationship Name="lk_msfed_icmleadtoicmcase_processid" />
+  <EntityRelationship Name="organization_msfed_icmleadtoicmcase" />
+</EntityRelationships>

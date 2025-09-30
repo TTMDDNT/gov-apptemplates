@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{b37ab77a-cbf7-4d82-8e2e-2277a7eb9c16}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="govcdm_name" select="1" icon="1" preview="1">
+        <row name="result" id="govcdm_icmcasecontactid">
+          <cell name="govcdm_name" width="132" />
+          <cell name="govcdm_icmcasecontacttype" width="176" />
+          <cell name="govcdm_remainanonymous" width="156" />
+          <cell name="govcdm_emailaddress" width="123" />
+          <cell name="govcdm_details" width="300" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="govcdm_icmcasecontact">
+          <attribute name="govcdm_icmcasecontactid" />
+          <attribute name="govcdm_name" />
+          <order attribute="govcdm_name" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="govcdm_icmcasecontacttype" />
+          <attribute name="govcdm_details" />
+          <attribute name="govcdm_emailaddress" />
+          <attribute name="govcdm_remainanonymous" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active ICM Case Contacts" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>
