@@ -9,6 +9,9 @@ docs
 .test/
 .scripts/convert/
 cross-module/
+target
+.config/*
+!.config/*-template.json
 
 # User-specific files
 *.rsuser

@@ -402,7 +402,7 @@ function Deploy-Solution {
             $settingsFile = $Settings
         }
         
-        $settingsPath = Join-Path (Join-Path $PSScriptRoot '..\_Env') $settingsFile
+        $settingsPath = Join-Path (Join-Path $PSScriptRoot '..\.config') $settingsFile
         $pacCommand += " --settings-file `"$settingsPath`""
     }
 
@@ -928,9 +928,9 @@ function Connect-DataverseTenant {
     # Check if $authProfile is provided, otherwise prompt for it
     if (-not $authProfile) {
         Write-Host ""
-        pac auth list
+        pac auth list | Out-Host
         $authProfile = Read-Host "Enter Tenant ID"
-        pac auth select --index $authProfile
+        pac auth select --index $authProfile | Out-Host
     }
     else {
 
@@ -943,9 +943,75 @@ function Connect-DataverseTenant {
         }
 
         # now connect
-        pac auth select --name $authProfile
+        pac auth select --name $authProfile | Out-Host
     }
 }
+
+# New helper: retrieve the signed-in tenant/organization name from pac auth who
+function Get-TenantName {
+    <#
+    Captures `pac auth who` output silently, parses for the "Name:" line (preferred)
+    or "Organization Friendly Name:" as a fallback, and returns that string. If
+    nothing is found, returns $null.
+    #>
+    try {
+        $whoOutput = (& pac auth who 2>&1 | Out-String).Trim()
+    }
+    catch {
+        $whoOutput = ""
+    }
+
+    if (-not $whoOutput) { return $null }
+
+    $tenantName = $null
+    $lines = $whoOutput -split "`r?`n"
+    foreach ($line in $lines) {
+        if ($line -match '^\s*Name:\s*(.+)$') {
+            $tenantName = $matches[1].Trim()
+            break
+        }
+    }
+
+    if (-not $tenantName) {
+        foreach ($line in $lines) {
+            if ($line -match '^\s*Organization Friendly Name:\s*(.+)$') {
+                $tenantName = $matches[1].Trim()
+                break
+            }
+        }
+    }
+
+    return $tenantName
+}
+
+# function Connect-DataverseTenant {
+#     param(
+#         [string]$authProfile
+#     )
+
+#     Write-Host "Selecting authentication profile..."
+
+#     # Check if $authProfile is provided, otherwise prompt for it
+#     if (-not $authProfile) {
+#         Write-Host ""
+#         pac auth list
+#         $authProfile = Read-Host "Enter Tenant ID"
+#         pac auth select --index $authProfile
+#     }
+#     else {
+
+#         # if auth profile provided, check the config file for custom settings
+#         # else just use what was provided
+#         $config = Get-Config
+#         if ($null -ne $config -and $config.$authProfile) {
+#             Write-Host "Using configuration override for profile."
+#             $authProfile = $config.$authProfile
+#         }
+
+#         # now connect
+#         pac auth select --name $authProfile
+#     }
+# }
 
 function Connect-DataverseEnvironment {
     param(

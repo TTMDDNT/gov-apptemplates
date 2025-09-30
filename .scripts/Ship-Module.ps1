@@ -6,8 +6,13 @@
 $projectRoot = "$PSScriptRoot\.."
 . "${projectRoot}\.scripts\Util.ps1"
 
-# ask which tenant to ship to
+# ask which tenant to ship to (select profile)
 Connect-DataverseTenant
+# retrieve the signed-in tenant name for display/use (silent pac auth who parsing)
+$tenantName = Get-TenantName
+if ($tenantName) { Write-Host "Selected Tenant: $tenantName" }
+else { Write-Host "Selected Tenant: (unknown)" }
+
 $envName = Connect-DataverseEnvironment
 Write-Host "Selected Environment: $envName"
 
@@ -26,9 +31,7 @@ do {
 
     if ($module -ne "") {
         # deploy the solution
-        # in future versions, this could be made smart enough to deploy the correct data models and other
-        # dependencies, based on the app module you choose - for now, keeping this simple and manual
-        Deploy-Solution "$baseFolder\$module" -Managed -AutoConfirm 
+        Deploy-Solution "$baseFolder\$module" -Managed -AutoConfirm -Settings "$tenantName\$envName.json"
         
     }
 } while ($module -ne "") # Continue looping until the input is an empty string

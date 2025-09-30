@@ -11,7 +11,7 @@ Write-Host "Warning - This operation will overwrite the unmanaged solution in yo
 if ($true -eq (Confirm-Next "Proceed (y/n)?")) {
 
     # ask which type of ip
-    $ipType = Select-ItemFromList "cross-module", "federal"
+    $ipType = Select-ItemFromList "cross-module", "federal", "target"
     $baseFolder = "$projectRoot\$ipType"
 
     # ask for which module to sync
@@ -22,7 +22,7 @@ if ($true -eq (Confirm-Next "Proceed (y/n)?")) {
 
     Connect-DataverseTenant
 
-    if (($ipType -eq "cross-module")) {
+    if (($module -eq "core") -or ($module -eq "process-and-tasking")) {
         $env = "GOV UTILITY APPS"
         pac org select --environment $env
         # Deploy-Solution "$baseFolder\$module" -AutoConfirm -Settings $env
