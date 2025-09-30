@@ -15,7 +15,7 @@ Write-Host "Selected Environment: $envName"
 do {
     # ask which type of ip
     Write-Host ""
-    $ipType = Select-ItemFromList "federal", "cross-module"
+    $ipType = Select-ItemFromList "cross-module", "federal"
     $baseFolder = "$projectRoot\$ipType"
 
     # ask for which module to ship

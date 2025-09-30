@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{5a16c319-ac82-ef11-ac20-001dd804e2ae}</formid>
+    <IntroducedVersion>1.0.0.10</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab id="F931FFE2-B873-473F-8F95-9502F0AA3F5E" name="tab_1" showlabel="false" labelid="{2009b78c-0d44-41c0-a0ff-769d60f49afd}" ordinalvalue="0">
+          <columns>
+            <column width="34%" id="0">
+              <sections>
+                <section id="0C655D4E-C6E3-424E-9AF5-71E72D30D12E" name="tab_1_column_1_section_1" columns="1" showlabel="true" showbar="false" IsUserDefined="0" labelwidth="130" labelid="{630c4fd7-501f-4508-abd0-37eec09452e9}" ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell id="542FBFBE-0E4C-496C-8012-555DE6581923" labelid="{3d602e27-9a35-4231-ab6d-d1b03f8d8edc}" ordinalvalue="10000" solutionaction="Removed" />
+                    </row>
+                    <row>
+                      <cell id="{b3c73964-f921-484c-90ad-6cd808e5b27f}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10000" solutionaction="Added">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="msfed_automationtype" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="msfed_automationtype" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{f5df5114-dacd-4de5-bedd-61430eb8f903}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10001" solutionaction="Added">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_contenttemplate" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="govcdm_contenttemplate" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b9b437c3-4dcb-4005-b65c-73e1c2a53214}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10002" solutionaction="Added">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_name" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="govcdm_name" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="Quick Create" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>

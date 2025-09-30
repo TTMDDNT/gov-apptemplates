@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{fbd32d77-3612-ef11-9f89-001dd8075f2f}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="govcdm_name" select="1" icon="1" preview="1">
+        <row name="result" id="govcdm_processstepid">
+          <cell name="govcdm_processsteporder" width="148" />
+          <cell name="govcdm_name" width="200" />
+          <cell name="govcdm_processsteptype" width="143" />
+          <cell name="govcdm_assignto" width="117" />
+          <cell name="govcdm_details" width="210" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical">
+        <entity name="govcdm_processstep">
+          <attribute name="govcdm_name" />
+          <attribute name="govcdm_processstepid" />
+          <attribute name="govcdm_processsteptype" />
+          <attribute name="govcdm_assignto" />
+          <attribute name="govcdm_processsteporder" />
+          <attribute name="govcdm_details" />
+          <order attribute="govcdm_processsteporder" descending="false" />
+          <order attribute="govcdm_name" descending="false" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.6</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Process Steps" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

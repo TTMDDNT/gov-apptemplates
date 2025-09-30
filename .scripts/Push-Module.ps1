@@ -11,7 +11,7 @@ Write-Host "Warning - This operation will overwrite the unmanaged solution in yo
 if ($true -eq (Confirm-Next "Proceed (y/n)?")) {
 
     # ask which type of ip
-    $ipType = Select-ItemFromList "cross-module"
+    $ipType = Select-ItemFromList "cross-module", "federal"
     $baseFolder = "$projectRoot\$ipType"
 
     # ask for which module to sync

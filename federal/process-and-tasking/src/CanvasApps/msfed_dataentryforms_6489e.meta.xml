@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CanvasApp xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>msfed_dataentryforms_6489e</Name>
+  <AppVersion>2024-09-10T00:39:39Z</AppVersion>
+  <Status>Ready</Status>
+  <CreatedByClientVersion>3.24083.14.0</CreatedByClientVersion>
+  <MinClientVersion>3.24083.14.0</MinClientVersion>
+  <Tags>{"primaryDeviceWidth":"1591","primaryDeviceHeight":"804","supportsPortrait":"true","supportsLandscape":"true","primaryFormFactor":"Tablet","showStatusBar":"false","publisherVersion":"3.24083.14","minimumRequiredApiVersion":"2.2.0","hasComponent":"true","hasUnlockedComponent":"true","isUnifiedRootApp":"false","sienaVersion":"20240823T021603Z-3.24081.10.0"}</Tags>
+  <IsCdsUpgraded>0</IsCdsUpgraded>
+  <GalleryItemId xsi:nil="true"></GalleryItemId>
+  <BackgroundColor>RGBA(0,176,240,1)</BackgroundColor>
+  <DisplayName>Data Entry Forms</DisplayName>
+  <Description xsi:nil="true"></Description>
+  <CommitMessage xsi:nil="true"></CommitMessage>
+  <Publisher xsi:nil="true"></Publisher>
+  <AuthorizationReferences>[]</AuthorizationReferences>
+  <ConnectionReferences>{}</ConnectionReferences>
+  <DatabaseReferences>{"default.cds":{"databaseDetails":{"referenceType":"Environmental","environmentName":"default.cds","overrideValues":{"status":"NotSpecified","environmentVariableName":""}},"dataSources":{"Users":{"entitySetName":"systemusers","logicalName":"systemuser"},"Security Roles":{"entitySetName":"roles","logicalName":"role"},"Data Entry Responses":{"entitySetName":"govcdm_dataentryresponses","logicalName":"govcdm_dataentryresponse"},"Data Entry Steps":{"entitySetName":"govcdm_dataentrysteps","logicalName":"govcdm_dataentrystep"}}}}</DatabaseReferences>
+  <AppComponents>[]</AppComponents>
+  <AppComponentDependencies>[]</AppComponentDependencies>
+  <CanConsumeAppPass>0</CanConsumeAppPass>
+  <CanvasAppType>0</CanvasAppType>
+  <BypassConsent>0</BypassConsent>
+  <AdminControlBypassConsent>0</AdminControlBypassConsent>
+  <EmbeddedApp xsi:nil="true"></EmbeddedApp>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <CdsDependencies>{"cdsdependencies":[{"logicalname":"systemuser","componenttype":1},{"logicalname":"role","componenttype":1},{"logicalname":"govcdm_dataentryresponse","componenttype":1},{"logicalname":"govcdm_dataentrystep","componenttype":1}]}</CdsDependencies>
+  <IsCustomizable>1</IsCustomizable>
+  <BackgroundImageUri>/CanvasApps/msfed_dataentryforms_6489e_BackgroundImageUri</BackgroundImageUri>
+  <DocumentUri>/CanvasApps/msfed_dataentryforms_6489e_DocumentUri.msapp</DocumentUri>
+  <AdditionalUris>
+    <AdditionalUri>/CanvasApps/msfed_dataentryforms_6489e_AdditionalUris0_identity.json</AdditionalUri>
+  </AdditionalUris>
+</CanvasApp>

@@ -1,0 +1,305 @@
+{
+  "properties": {
+    "connectionReferences": {
+      "shared_sharepointonline": {
+        "runtimeSource": "embedded",
+        "connection": {
+          "connectionReferenceLogicalName": "msfed_sharedsharepointonline_49354"
+        },
+        "api": {
+          "name": "shared_sharepointonline"
+        }
+      }
+    },
+    "definition": {
+      "$schema": "https://schema.management.azure.com/providers/Microsoft.Logic/schemas/2016-06-01/workflowdefinition.json#",
+      "contentVersion": "1.0.0.0",
+      "parameters": {
+        "$authentication": {
+          "defaultValue": {},
+          "type": "SecureObject"
+        },
+        "$connections": {
+          "defaultValue": {},
+          "type": "Object"
+        }
+      },
+      "triggers": {
+        "manual": {
+          "metadata": {
+            "operationMetadataId": "b4cdfd4e-05d3-4e69-aecf-9b22a7cd87d3"
+          },
+          "type": "Request",
+          "kind": "PowerAppV2",
+          "inputs": {
+            "schema": {
+              "type": "object",
+              "properties": {
+                "text_2": {
+                  "description": "Please enter your input",
+                  "title": "Site URL",
+                  "type": "string",
+                  "x-ms-content-hint": "TEXT",
+                  "x-ms-dynamically-added": true
+                },
+                "text_3": {
+                  "description": "Please enter your input",
+                  "title": "Folder Path",
+                  "type": "string",
+                  "x-ms-content-hint": "TEXT",
+                  "x-ms-dynamically-added": true
+                }
+              },
+              "required": [
+                "text_2",
+                "text_3"
+              ]
+            }
+          }
+        }
+      },
+      "actions": {
+        "Respond_to_a_Power_App_or_flow": {
+          "runAfter": {
+            "Initialize_variable": [
+              "Succeeded"
+            ]
+          },
+          "metadata": {
+            "operationMetadataId": "20f70598-098a-4347-b1b7-201445527570"
+          },
+          "type": "Response",
+          "kind": "PowerApp",
+          "inputs": {
+            "schema": {
+              "type": "object",
+              "properties": {
+                "url": {
+                  "title": "URL",
+                  "x-ms-dynamically-added": true,
+                  "type": "string"
+                },
+                "exists": {
+                  "title": "Exists",
+                  "x-ms-dynamically-added": true,
+                  "type": "boolean"
+                },
+                "folder": {
+                  "title": "Folder",
+                  "x-ms-dynamically-added": true,
+                  "type": "string"
+                }
+              },
+              "additionalProperties": {}
+            },
+            "statusCode": 200,
+            "body": {
+              "url": "@{variables('varURL')}",
+              "exists": "@variables('varExists')",
+              "folder": "@{variables('varSharePointFolder')}"
+            }
+          }
+        },
+        "Initialize_variable": {
+          "runAfter": {
+            "If_SharePoint_Folder_Exists": [
+              "Succeeded"
+            ]
+          },
+          "metadata": {
+            "operationMetadataId": "fd296fd6-0d03-46f8-9cfd-bfa96a16e6d2"
+          },
+          "type": "InitializeVariable",
+          "inputs": {
+            "variables": [
+              {
+                "name": "varURL",
+                "type": "string",
+                "value": "@variables('varSharePointFolder')?['webURL']"
+              }
+            ]
+          }
+        },
+        "If_SharePoint_Folder_Exists": {
+          "actions": {
+            "Existing_Folder": {
+              "metadata": {
+                "operationMetadataId": "1217fb71-33a0-452a-8540-1b145fca4415"
+              },
+              "type": "ParseJson",
+              "inputs": {
+                "content": "@body('Check_Existing_SharePoint_Folder')?['result']",
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "ItemId": {
+                      "type": "integer"
+                    },
+                    "Id": {
+                      "type": "string"
+                    },
+                    "Name": {
+                      "type": "string"
+                    },
+                    "DisplayName": {
+                      "type": "string"
+                    },
+                    "Path": {
+                      "type": "string"
+                    },
+                    "LastModified": {
+                      "type": "string"
+                    },
+                    "Size": {
+                      "type": "integer"
+                    },
+                    "IsFolder": {
+                      "type": "boolean"
+                    }
+                  }
+                }
+              }
+            },
+            "varSharePointFolder_From_Existing": {
+              "runAfter": {
+                "Existing_Folder": [
+                  "Succeeded"
+                ]
+              },
+              "metadata": {
+                "operationMetadataId": "62fdbea7-38fa-4cdc-bc7a-9e954067f0ef"
+              },
+              "type": "SetVariable",
+              "inputs": {
+                "name": "varSharePointFolder",
+                "value": "@body('Existing_Folder')"
+              }
+            },
+            "Folder_Exists": {
+              "runAfter": {
+                "varSharePointFolder_From_Existing": [
+                  "Succeeded"
+                ]
+              },
+              "metadata": {
+                "operationMetadataId": "d21af575-0394-4b18-8781-593a632a80c8"
+              },
+              "type": "SetVariable",
+              "inputs": {
+                "name": "varExists",
+                "value": true
+              }
+            }
+          },
+          "runAfter": {
+            "varExists": [
+              "Succeeded"
+            ]
+          },
+          "else": {
+            "actions": {
+              "varSharePointFolder_From_New": {
+                "runAfter": {
+                  "Create_Folder": [
+                    "Succeeded"
+                  ]
+                },
+                "metadata": {
+                  "operationMetadataId": "91c4693c-e8d8-41a2-83f8-817c37a41dd3"
+                },
+                "type": "SetVariable",
+                "inputs": {
+                  "name": "varSharePointFolder",
+                  "value": "@body('Create_Folder')"
+                }
+              },
+              "Create_Folder": {
+                "type": "OpenApiConnection",
+                "inputs": {
+                  "parameters": {
+                    "dataset": "@triggerBody()?['text_2']",
+                    "table": "Documents",
+                    "parameters/path": "@triggerBody()?['text_3']"
+                  },
+                  "host": {
+                    "apiId": "/providers/Microsoft.PowerApps/apis/shared_sharepointonline",
+                    "operationId": "CreateNewFolder",
+                    "connectionName": "shared_sharepointonline"
+                  }
+                }
+              }
+            }
+          },
+          "expression": {
+            "and": [
+              {
+                "greater": [
+                  "@length(body('Check_Existing_SharePoint_Folder')?['result'])",
+                  0
+                ]
+              }
+            ]
+          },
+          "metadata": {
+            "operationMetadataId": "ded976e5-7f67-4208-b844-099763181ce1"
+          },
+          "type": "If"
+        },
+        "varSharePointFolder": {
+          "runAfter": {
+            "Check_Existing_SharePoint_Folder": [
+              "Succeeded"
+            ]
+          },
+          "metadata": {
+            "operationMetadataId": "21eb832d-a78f-4ee2-adeb-4bbb3545ff16"
+          },
+          "type": "InitializeVariable",
+          "inputs": {
+            "variables": [
+              {
+                "name": "varSharePointFolder",
+                "type": "object"
+              }
+            ]
+          }
+        },
+        "varExists": {
+          "runAfter": {
+            "varSharePointFolder": [
+              "Succeeded"
+            ]
+          },
+          "metadata": {
+            "operationMetadataId": "d75806d2-c0a9-4495-b553-e2d403ad63c8"
+          },
+          "type": "InitializeVariable",
+          "inputs": {
+            "variables": [
+              {
+                "name": "varExists",
+                "type": "boolean",
+                "value": false
+              }
+            ]
+          }
+        },
+        "Check_Existing_SharePoint_Folder": {
+          "runAfter": {},
+          "type": "Workflow",
+          "inputs": {
+            "host": {
+              "workflowReferenceName": "f193dfc1-0472-f011-bec2-001dd80408b4"
+            },
+            "body": {
+              "text": "@triggerBody()?['text_2']",
+              "text_1": "@triggerBody()?['text_3']"
+            }
+          }
+        }
+      }
+    },
+    "templateName": null
+  },
+  "schemaVersion": "1.0.0.0"
+}

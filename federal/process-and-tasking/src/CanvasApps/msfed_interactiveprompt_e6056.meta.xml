@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CanvasApp xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>msfed_interactiveprompt_e6056</Name>
+  <AppVersion>2025-03-11T22:04:23Z</AppVersion>
+  <Status>Ready</Status>
+  <CreatedByClientVersion>3.25024.7.0</CreatedByClientVersion>
+  <MinClientVersion>3.25024.7.0</MinClientVersion>
+  <Tags>{"primaryDeviceWidth":"640","primaryDeviceHeight":"640","supportsPortrait":"true","supportsLandscape":"true","primaryFormFactor":"Phone","showStatusBar":"false","publisherVersion":"3.25024.7","minimumRequiredApiVersion":"2.2.0","hasComponent":"true","hasUnlockedComponent":"true","isUnifiedRootApp":"false"}</Tags>
+  <IsCdsUpgraded>0</IsCdsUpgraded>
+  <GalleryItemId xsi:nil="true"></GalleryItemId>
+  <BackgroundColor>RGBA(251,101,60,1)</BackgroundColor>
+  <DisplayName>Interactive Prompt</DisplayName>
+  <Description xsi:nil="true"></Description>
+  <CommitMessage xsi:nil="true"></CommitMessage>
+  <Publisher xsi:nil="true"></Publisher>
+  <AuthorizationReferences>[]</AuthorizationReferences>
+  <ConnectionReferences>{}</ConnectionReferences>
+  <DatabaseReferences>{"default.cds":{"databaseDetails":{"referenceType":"NotSpecified","environmentName":"default.cds","overrideValues":{"status":"NotSpecified","environmentVariableName":""}},"dataSources":{"Interactive Prompts":{"entitySetName":"govcdm_interactiveprompts","logicalName":"govcdm_interactiveprompt"}}}}</DatabaseReferences>
+  <AppComponents>[{"appComponentName":"4a93216dcf3d4599ab14176afcc992a4","displayName":"cmpPrompts","appName":"04f56975-3ecd-4c4b-b84f-0588eab56790","appVersion":"2025-03-11T22:04:23Z","appComponentLibraryLogicalName":"msfed_interactiveprompt_e6056","appDisplayName":"Interactive Prompt","environmentName":"8a0aefef-630d-ecba-8f30-8829804f5624","owner":{"id":"186d6fbc-1c31-411f-b9eb-03834f91e38a","displayName":"Jeremy Hofmann","email":"jeremyho@FedAIRSGCC.onmicrosoft.com","type":"User","tenantId":"c0daba30-fba7-4669-a2fc-36142728b7e9","userPrincipalName":"jeremyho@FedAIRSGCC.onmicrosoft.com"},"allowCustomization":true,"createdOn":"2025-03-11T22:04:20.674Z","lastModifiedOn":"2025-03-11T22:04:20.674Z","connectionReferences":{},"databaseReferences":{"default.cds":{"databaseDetails":{"referenceType":"NotSpecified","environmentName":"default.cds","overrideValues":{"status":"NotSpecified","environmentVariableName":""}},"dataSources":{"Interactive Prompts":{"entitySetName":"govcdm_interactiveprompts","logicalName":"govcdm_interactiveprompt"}}}}}]</AppComponents>
+  <AppComponentDependencies>[]</AppComponentDependencies>
+  <CanConsumeAppPass>0</CanConsumeAppPass>
+  <CanvasAppType>1</CanvasAppType>
+  <BypassConsent>0</BypassConsent>
+  <AdminControlBypassConsent>0</AdminControlBypassConsent>
+  <EmbeddedApp xsi:nil="true"></EmbeddedApp>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <CdsDependencies>{"cdsdependencies":[{"logicalname":"govcdm_interactiveprompt","componenttype":1}]}</CdsDependencies>
+  <IsCustomizable>1</IsCustomizable>
+  <BackgroundImageUri>/CanvasApps/msfed_interactiveprompt_e6056_BackgroundImageUri</BackgroundImageUri>
+  <DocumentUri>/CanvasApps/msfed_interactiveprompt_e6056_DocumentUri.msapp</DocumentUri>
+  <AdditionalUris>
+    <AdditionalUri>/CanvasApps/msfed_interactiveprompt_e6056_AdditionalUris0_identity.json</AdditionalUri>
+  </AdditionalUris>
+</CanvasApp>

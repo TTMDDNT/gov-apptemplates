@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{58b06fc0-7e7d-4811-9767-19381aefdbbb}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls" solutionaction="Modified">
+      <tabs>
+        <tab verticallayout="true" id="{0c9316ea-1d4f-40a4-aec0-702eed043a4f}" IsUserDefined="1" ordinalvalue="0">
+          <columns>
+            <column width="100%" id="0">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{c9c154c4-aea5-4b82-8eba-a5d2b6ef313c}" ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell id="{3e5dde5c-df4a-4e44-aff3-26d70ee793d0}" ordinalvalue="10001" solutionaction="Modified" />
+                    </row>
+                    <row>
+                      <cell id="{90d1332e-4ef1-453e-a237-05c182e096e8}" ordinalvalue="10004" solutionaction="Modified" />
+                    </row>
+                    <row>
+                      <cell id="{7272a0a0-b020-466b-8f91-c9cf91f913de}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10000" solutionaction="Added">
+                        <labels>
+                          <label description="Interactive Prompt Type" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_interactiveprompttype" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="govcdm_interactiveprompttype" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c861268a-4e82-47ee-ba34-59250507f62f}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10002" solutionaction="Added">
+                        <labels>
+                          <label description="Prompt" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_prompt" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="govcdm_prompt" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d436c809-5011-423d-80e9-9bcbc4d60d5c}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10003" solutionaction="Added">
+                        <labels>
+                          <label description="Details" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_details" classid="{E0DECE4B-6FC8-4A8F-A065-082708572369}" datafieldname="govcdm_details" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="null_section_3" id="528bf91f-7b42-41ee-a288-fbc7dfcbed63" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115" ordinalvalue="1" solutionaction="Added">
+                  <labels>
+                    <label description="Sub Interactive Prompts" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell locklevel="0" id="{256fa55b-6d36-48e8-b0fa-ad35f9b718cc}" rowspan="4" colspan="1" auto="false" showlabel="false" ordinalvalue="10000">
+                        <labels>
+                          <label description="New SG control 1698262707618" languagecode="1033" />
+                        </labels>
+                        <control indicationOfSubgrid="true" id="Subgrid_new_1" classid="{E7A81278-8635-4D9E-8D4D-59480B391C5B}">
+                          <parameters>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <ChartGridMode>All</ChartGridMode>
+                            <TargetEntityType>govcdm_interactiveprompt</TargetEntityType>
+                            <ViewId>{172DB314-B1B3-400E-9B56-ADECD6AFA710}</ViewId>
+                            <ViewIds>{172DB314-B1B3-400E-9B56-ADECD6AFA710}</ViewIds>
+                            <RelationshipName>govcdm_govcdm_interactiveprompt_ParentInteractiv</RelationshipName>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+                <section name="null_section_4" id="2d16789e-f189-4bb4-97f5-46e3e40a4d30" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115" ordinalvalue="2" solutionaction="Added">
+                  <labels>
+                    <label description="Interactive Responses" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell locklevel="0" id="{6a2c54cc-1d9a-4018-a3c9-d24e67010e28}" rowspan="4" colspan="1" auto="false" showlabel="false" ordinalvalue="10000">
+                        <labels>
+                          <label description="New SG control 1698262751887" languagecode="1033" />
+                        </labels>
+                        <control indicationOfSubgrid="true" id="Subgrid_new_2" classid="{E7A81278-8635-4D9E-8D4D-59480B391C5B}">
+                          <parameters>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <ChartGridMode>All</ChartGridMode>
+                            <TargetEntityType>govcdm_interactiveresponse</TargetEntityType>
+                            <ViewId>{2760503A-1186-4EFA-9184-2CF96F40BCEA}</ViewId>
+                            <ViewIds>{2760503A-1186-4EFA-9184-2CF96F40BCEA}</ViewIds>
+                            <RelationshipName>govcdm_govcdm_interactiveresponse_InteractivePro</RelationshipName>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{4d33be55-9893-449e-9ab8-38431c9e2e2d}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left" solutionaction="Added">
+        <rows>
+          <row>
+            <cell id="{4d9f58fa-079c-47ec-8290-b6414a83dc4a}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10000">
+              <labels>
+                <label description="Parent Interactive Prompt" languagecode="1033" />
+              </labels>
+              <control id="header_govcdm_parentinteractiveprompt" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="govcdm_parentinteractiveprompt" disabled="false" />
+            </cell>
+            <cell id="{3c531769-864f-4309-bfe6-a95d4967b259}" showlabel="false" ordinalvalue="20001">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{b7687bad-dce7-4bab-b52b-87c78a397bff}" showlabel="false" ordinalvalue="30002">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{9c59534f-cc04-49d7-82c9-256e73cf7c77}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left" solutionaction="Added">
+        <rows />
+      </footer>
+      <DisplayConditions Order="0" FallbackForm="true" solutionaction="Added">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

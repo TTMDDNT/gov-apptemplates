@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{77ab057c-6840-ee11-bdf3-000d3a5a7dcf}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab id="ACBA75B7-97B6-4116-AA55-51312992B721" name="tab_1" showlabel="false" labelid="{12af29c6-037e-462d-bb79-8df18c931e93}">
+          <labels>
+            <label description="New Tab" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section id="AD49B5BF-256F-46A8-9C75-947146172EB9" name="tab_1_column_1_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0" labelwidth="130" labelid="{7668d1c7-60bc-41c1-9ab1-7450517c31d0}">
+                  <labels>
+                    <label description="New Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="C0550AC7-0F44-45A4-8EF5-D2911C0689D9" labelid="{46cb9ab7-3bca-4083-a9c8-721788d9aa04}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{795c2d78-da12-463d-b56b-b8c411f87c98}" locklevel="0" colspan="1" rowspan="7" labelid="{102e698d-4c5b-43c8-973a-2f0034b64c9b}" showlabel="false">
+                        <labels>
+                          <label description="Details" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_details" classid="{E0DECE4B-6FC8-4A8F-A065-082708572369}" datafieldname="govcdm_details" disabled="false" />
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <DisplayConditions Order="1" FallbackForm="true">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Quick View" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>

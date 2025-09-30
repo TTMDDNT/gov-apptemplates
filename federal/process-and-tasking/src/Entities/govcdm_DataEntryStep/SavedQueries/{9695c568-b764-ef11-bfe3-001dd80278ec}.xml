@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{9695c568-b764-ef11-bfe3-001dd80278ec}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="govcdm_name" select="1" icon="1" preview="1">
+        <row name="result" id="govcdm_dataentrystepid">
+          <cell name="govcdm_name" width="200" />
+          <cell name="govcdm_description" width="300" />
+          <cell name="govcdm_formbaseurl" width="133" />
+          <cell name="govcdm_formappliestoschemaname" width="217" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="true">
+        <entity name="govcdm_dataentrystep">
+          <attribute name="govcdm_name" />
+          <attribute name="govcdm_dataentrystepid" />
+          <filter type="and">
+            <condition attribute="govcdm_dataentrytype" operator="eq" value="166840000" />
+          </filter>
+          <attribute name="govcdm_description" />
+          <attribute name="govcdm_formbaseurl" />
+          <attribute name="govcdm_formappliestoschemaname" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.6</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Data Entry Forms" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

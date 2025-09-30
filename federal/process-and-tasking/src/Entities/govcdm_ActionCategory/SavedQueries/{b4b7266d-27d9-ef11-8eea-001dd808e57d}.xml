@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{b4b7266d-27d9-ef11-8eea-001dd808e57d}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="govcdm_name" select="1" icon="1" preview="1">
+        <row name="result" id="govcdm_actioncategoryid">
+          <cell name="govcdm_name" width="200" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="true">
+        <entity name="govcdm_actioncategory">
+          <attribute name="govcdm_name" />
+          <attribute name="govcdm_actioncategoryid" />
+          <filter type="and">
+            <condition attribute="govcdm_parentactioncategory" operator="null" />
+          </filter>
+          <order attribute="govcdm_name" descending="false" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.6</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Top Level Categories" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

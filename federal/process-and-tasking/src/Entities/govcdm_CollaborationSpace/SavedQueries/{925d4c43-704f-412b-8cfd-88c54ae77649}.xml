@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{925d4c43-704f-412b-8cfd-88c54ae77649}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="govcdm_name" select="1" icon="1" preview="1">
+        <row name="result" id="govcdm_collaborationspaceid">
+          <cell name="createdon" width="125" />
+          <cell name="govcdm_name" width="189" />
+          <cell name="govcdm_collaborationspacetype" width="186" />
+          <cell name="govcdm_teamid" width="100" />
+          <cell name="govcdm_teamchannelid" width="140" />
+          <cell name="govcdm_url" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="govcdm_collaborationspace">
+          <attribute name="govcdm_collaborationspaceid" />
+          <attribute name="govcdm_name" />
+          <attribute name="createdon" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="govcdm_collaborationspacetype" />
+          <attribute name="govcdm_teamid" />
+          <attribute name="govcdm_teamchannelid" />
+          <attribute name="govcdm_url" />
+          <order attribute="createdon" descending="true" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.10</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Collaboration Spaces" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

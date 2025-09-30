@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{51d45993-bfe8-42ee-90f3-77c6df41f83f}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="govcdm_name" select="1" icon="1" preview="1">
+        <row name="result" id="govcdm_dataentrystepid">
+          <cell name="govcdm_dataentrytype" width="133" />
+          <cell name="govcdm_dataentrysteporder" width="56" />
+          <cell name="govcdm_name" width="196" />
+          <cell name="govcdm_description" width="300" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="govcdm_dataentrystep">
+          <attribute name="govcdm_dataentrystepid" />
+          <attribute name="govcdm_name" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="govcdm_dataentrytype" />
+          <attribute name="govcdm_dataentrysteporder" />
+          <order attribute="govcdm_dataentrysteporder" descending="false" />
+          <attribute name="govcdm_description" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.7</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Data Entry Steps" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

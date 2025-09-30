@@ -1,0 +1,428 @@
+{
+  "properties": {
+    "connectionReferences": {
+      "shared_commondataserviceforapps": {
+        "runtimeSource": "embedded",
+        "connection": {
+          "connectionReferenceLogicalName": "msfed_sharedcommondataserviceforapps_d7f8d"
+        },
+        "api": {
+          "name": "shared_commondataserviceforapps"
+        }
+      },
+      "shared_office365groups": {
+        "runtimeSource": "embedded",
+        "connection": {
+          "connectionReferenceLogicalName": "msfed_sharedoffice365groups_ded41"
+        },
+        "api": {
+          "name": "shared_office365groups"
+        }
+      }
+    },
+    "definition": {
+      "$schema": "https://schema.management.azure.com/providers/Microsoft.Logic/schemas/2016-06-01/workflowdefinition.json#",
+      "contentVersion": "1.0.0.0",
+      "parameters": {
+        "$authentication": {
+          "defaultValue": {},
+          "type": "SecureObject"
+        },
+        "$connections": {
+          "defaultValue": {},
+          "type": "Object"
+        }
+      },
+      "triggers": {
+        "Collaboration_Space_Created": {
+          "metadata": {
+            "operationMetadataId": "912ddfe0-dab4-48f8-a9b4-a9f3a34ae21b"
+          },
+          "type": "OpenApiConnectionWebhook",
+          "inputs": {
+            "parameters": {
+              "subscriptionRequest/message": 1,
+              "subscriptionRequest/entityname": "govcdm_collaborationspace",
+              "subscriptionRequest/scope": 4,
+              "subscriptionRequest/filterexpression": "govcdm_virtualrecordid ne null and govcdm_collaborationspacetype eq 166840003",
+              "subscriptionRequest/name": "10b3b141-7e86-ef11-ac21-001dd80278ec"
+            },
+            "host": {
+              "apiId": "/providers/Microsoft.PowerApps/apis/shared_commondataserviceforapps",
+              "operationId": "SubscribeWebhookTrigger",
+              "connectionName": "shared_commondataserviceforapps"
+            }
+          }
+        }
+      },
+      "actions": {
+        "Get_Primary_Record": {
+          "runAfter": {
+            "varPrimaryRecordDisplayField": [
+              "Succeeded"
+            ]
+          },
+          "metadata": {
+            "operationMetadataId": "d695a2ae-07cb-4ee1-b1b1-67f4b24911d7"
+          },
+          "type": "OpenApiConnection",
+          "inputs": {
+            "parameters": {
+              "entityName": "@triggerBody()?['govcdm_virtualrecordtype']",
+              "recordId": "@triggerBody()?['govcdm_virtualrecordid']"
+            },
+            "host": {
+              "apiId": "/providers/Microsoft.PowerApps/apis/shared_commondataserviceforapps",
+              "operationId": "GetItem",
+              "connectionName": "shared_commondataserviceforapps"
+            }
+          }
+        },
+        "varName": {
+          "runAfter": {
+            "Get_Primary_Record": [
+              "Succeeded"
+            ]
+          },
+          "metadata": {
+            "operationMetadataId": "38418f76-626d-44cb-bbd5-83a1cfaf5098"
+          },
+          "type": "InitializeVariable",
+          "inputs": {
+            "variables": [
+              {
+                "name": "varName",
+                "type": "string",
+                "value": "@outputs('Get_Primary_Record')?[concat('body/', variables('varPrimaryRecordDisplayField'))]"
+              }
+            ]
+          }
+        },
+        "varPrimaryRecordDisplayField": {
+          "runAfter": {},
+          "metadata": {
+            "operationMetadataId": "324263ca-2807-4b80-825e-e8f4764f3ed9"
+          },
+          "type": "InitializeVariable",
+          "inputs": {
+            "variables": [
+              {
+                "name": "varPrimaryRecordDisplayField",
+                "type": "string",
+                "value": "@triggerBody()?['govcdm_virtualrecorddisplayfield']"
+              }
+            ]
+          }
+        },
+        "Create_Team_Channel": {
+          "runAfter": {
+            "varName": [
+              "Succeeded"
+            ]
+          },
+          "metadata": {
+            "operationMetadataId": "5877ec2d-5abe-4310-989c-c2d8b1f6eb34"
+          },
+          "type": "Workflow",
+          "inputs": {
+            "host": {
+              "workflowReferenceName": "69c66c04-6586-ef11-ac21-001dd808e57d"
+            },
+            "body": {
+              "text": "@triggerBody()?['govcdm_teamid']",
+              "text_1": "@variables('varName')"
+            }
+          }
+        },
+        "Team_Channel": {
+          "runAfter": {
+            "Create_Team_Channel": [
+              "Succeeded"
+            ]
+          },
+          "metadata": {
+            "operationMetadataId": "3f983154-44a4-49c4-907a-6069d8faa6d4"
+          },
+          "type": "ParseJson",
+          "inputs": {
+            "content": "@body('Create_Team_Channel')?['channel']",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "createdDateTime": {
+                  "type": "string"
+                },
+                "displayName": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "tenantId": {
+                  "type": "string"
+                },
+                "webUrl": {
+                  "type": "string"
+                },
+                "membershipType": {
+                  "type": "string"
+                },
+                "isArchived": {
+                  "type": "boolean"
+                }
+              }
+            }
+          }
+        },
+        "Update_Collaboration_Space": {
+          "runAfter": {
+            "varSharePointFolder": [
+              "Succeeded"
+            ]
+          },
+          "metadata": {
+            "operationMetadataId": "df433c6c-1e5a-456e-a15d-6451a49c9da7"
+          },
+          "type": "OpenApiConnection",
+          "inputs": {
+            "parameters": {
+              "entityName": "govcdm_collaborationspaces",
+              "recordId": "@triggerBody()?['govcdm_collaborationspaceid']",
+              "item/govcdm_name": "Team Channel: @{body('Team_Channel')?['displayName']}",
+              "item/govcdm_sharepointfolderpath": "@variables('varSharePointFolder')",
+              "item/govcdm_sharepointsite": "@variables('varSharePointSite')",
+              "item/govcdm_teamchannelid": "@body('Team_Channel')?['id']",
+              "item/govcdm_url": "@body('Team_Channel')?['webUrl']"
+            },
+            "host": {
+              "apiId": "/providers/Microsoft.PowerApps/apis/shared_commondataserviceforapps",
+              "operationId": "UpdateRecord",
+              "connectionName": "shared_commondataserviceforapps"
+            }
+          }
+        },
+        "varFields": {
+          "runAfter": {
+            "Update_Collaboration_Space": [
+              "Succeeded"
+            ]
+          },
+          "metadata": {
+            "operationMetadataId": "e50f155c-87c8-4aec-8b6e-40ddc54ce035"
+          },
+          "type": "InitializeVariable",
+          "inputs": {
+            "variables": [
+              {
+                "name": "varFields",
+                "type": "object",
+                "value": {
+                  "msfed_CollaborationSpace@odata.bind": "/govcdm_collaborationspaces(@{triggerBody()?['govcdm_collaborationspaceid']})"
+                }
+              }
+            ]
+          }
+        },
+        "Update_Primary_Record": {
+          "runAfter": {
+            "varFields": [
+              "Succeeded"
+            ]
+          },
+          "metadata": {
+            "operationMetadataId": "3a63a543-4701-4de9-acba-d601b117420f"
+          },
+          "type": "OpenApiConnection",
+          "inputs": {
+            "parameters": {
+              "entityName": "@triggerBody()?['govcdm_virtualrecordtype']",
+              "recordId": "@triggerBody()?['govcdm_virtualrecordid']",
+              "item": "@variables('varFields')"
+            },
+            "host": {
+              "apiId": "/providers/Microsoft.PowerApps/apis/shared_commondataserviceforapps",
+              "operationId": "UpdateRecord",
+              "connectionName": "shared_commondataserviceforapps"
+            }
+          }
+        },
+        "varAutomationResponse": {
+          "runAfter": {
+            "Update_Primary_Record": [
+              "Succeeded"
+            ]
+          },
+          "metadata": {
+            "operationMetadataId": "503d5c83-1380-464e-a0c2-376a3ffc4f5e"
+          },
+          "type": "InitializeVariable",
+          "inputs": {
+            "variables": [
+              {
+                "name": "varAutomationResponse",
+                "type": "string"
+              }
+            ]
+          }
+        },
+        "If_Action_Assignment_Linked": {
+          "actions": {
+            "Team_Existed": {
+              "actions": {
+                "Reusing_Existing_Team_Channel": {
+                  "metadata": {
+                    "operationMetadataId": "4cf1f1e8-99a0-4ede-afad-f08d8ab9d402"
+                  },
+                  "type": "SetVariable",
+                  "inputs": {
+                    "name": "varAutomationResponse",
+                    "value": "Reused existing Team Channel <a href='@{body('Create_Team_Channel')?['url']}'>@{variables('varName')}</a>."
+                  }
+                }
+              },
+              "else": {
+                "actions": {
+                  "Created_New_Team_Channel": {
+                    "metadata": {
+                      "operationMetadataId": "1f233d4a-657f-4793-8bce-32c4d0cf0a57"
+                    },
+                    "type": "SetVariable",
+                    "inputs": {
+                      "name": "varAutomationResponse",
+                      "value": "Created new Team Channel <a href='@{body('Create_Team_Channel')?['url']}'>@{variables('varName')}</a>."
+                    }
+                  }
+                }
+              },
+              "expression": {
+                "and": [
+                  {
+                    "equals": [
+                      "@body('Create_Team_Channel')?['exists']",
+                      "@true"
+                    ]
+                  }
+                ]
+              },
+              "metadata": {
+                "operationMetadataId": "c885ccde-201d-4411-8473-a7e19eb837a5"
+              },
+              "type": "If"
+            },
+            "Update_Action_Item": {
+              "runAfter": {
+                "Team_Existed": [
+                  "Succeeded"
+                ]
+              },
+              "type": "OpenApiConnection",
+              "inputs": {
+                "parameters": {
+                  "entityName": "govcdm_actionitems",
+                  "recordId": "@outputs('Update_Collaboration_Space')?['body/_govcdm_actionitem_value']",
+                  "item/govcdm_actionstatus": 166840005,
+                  "item/govcdm_automationresponse": "Operation Complete. @{variables('varAutomationResponse')}"
+                },
+                "host": {
+                  "apiId": "/providers/Microsoft.PowerApps/apis/shared_commondataserviceforapps",
+                  "operationId": "UpdateOnlyRecord",
+                  "connectionName": "shared_commondataserviceforapps"
+                }
+              }
+            }
+          },
+          "runAfter": {
+            "varAutomationResponse": [
+              "Succeeded"
+            ]
+          },
+          "else": {
+            "actions": {}
+          },
+          "expression": {
+            "and": [
+              {
+                "equals": [
+                  "@not(empty(triggerBody()?['_govcdm_actionitem_value']))",
+                  "@true"
+                ]
+              }
+            ]
+          },
+          "metadata": {
+            "operationMetadataId": "ceaee4ad-4bec-45aa-83c2-5ea2bfe5c8fd"
+          },
+          "type": "If"
+        },
+        "Team_SharePoint_Info": {
+          "runAfter": {
+            "Team_Channel": [
+              "Succeeded"
+            ]
+          },
+          "metadata": {
+            "operationMetadataId": "4ad7ea6d-e0be-4f7d-aba5-6b9b19d0c321"
+          },
+          "type": "OpenApiConnection",
+          "inputs": {
+            "parameters": {
+              "Uri": "https://graph.microsoft.com/v1.0/groups/@{triggerBody()?['govcdm_teamid']}/drive",
+              "Method": "GET",
+              "ContentType": "application/json"
+            },
+            "host": {
+              "apiId": "/providers/Microsoft.PowerApps/apis/shared_office365groups",
+              "operationId": "HttpRequestV2",
+              "connectionName": "shared_office365groups"
+            }
+          }
+        },
+        "varSharePointSite": {
+          "runAfter": {
+            "Team_SharePoint_Info": [
+              "Succeeded"
+            ]
+          },
+          "metadata": {
+            "operationMetadataId": "c1003de4-b0e1-4947-a5b6-fb12a5b7ce31"
+          },
+          "type": "InitializeVariable",
+          "inputs": {
+            "variables": [
+              {
+                "name": "varSharePointSite",
+                "type": "string",
+                "value": "@replace(body('Team_SharePoint_Info')?['webURL'], '/Shared%20Documents', '')"
+              }
+            ]
+          }
+        },
+        "varSharePointFolder": {
+          "runAfter": {
+            "varSharePointSite": [
+              "Succeeded"
+            ]
+          },
+          "metadata": {
+            "operationMetadataId": "50012774-0ee8-4e2f-9dd2-e65cf224bfb8"
+          },
+          "type": "InitializeVariable",
+          "inputs": {
+            "variables": [
+              {
+                "name": "varSharePointFolder",
+                "type": "string",
+                "value": "/Shared Documents/@{variables('varName')}"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "templateName": null
+  },
+  "schemaVersion": "1.0.0.0"
+}

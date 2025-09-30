@@ -1,0 +1,203 @@
+{
+  "properties": {
+    "connectionReferences": {
+      "shared_sharepointonline": {
+        "runtimeSource": "invoker",
+        "connection": {
+          "connectionReferenceLogicalName": "msfed_sharedsharepointonline_49354"
+        },
+        "api": {
+          "name": "shared_sharepointonline"
+        }
+      }
+    },
+    "definition": {
+      "$schema": "https://schema.management.azure.com/providers/Microsoft.Logic/schemas/2016-06-01/workflowdefinition.json#",
+      "contentVersion": "1.0.0.0",
+      "parameters": {
+        "$authentication": {
+          "defaultValue": {},
+          "type": "SecureObject"
+        },
+        "$connections": {
+          "defaultValue": {},
+          "type": "Object"
+        }
+      },
+      "triggers": {
+        "manual": {
+          "metadata": {
+            "operationMetadataId": "358ff606-0835-49b7-8947-d1a6bd0c8055"
+          },
+          "type": "Request",
+          "kind": "PowerAppV2",
+          "inputs": {
+            "schema": {
+              "type": "object",
+              "properties": {
+                "text": {
+                  "title": "SiteURL",
+                  "type": "string",
+                  "x-ms-dynamically-added": true,
+                  "description": "Please enter your input",
+                  "x-ms-content-hint": "TEXT"
+                },
+                "text_1": {
+                  "title": "FileID",
+                  "type": "string",
+                  "x-ms-dynamically-added": true,
+                  "description": "Please enter your input",
+                  "x-ms-content-hint": "TEXT"
+                }
+              },
+              "required": [
+                "text",
+                "text_1"
+              ]
+            }
+          }
+        }
+      },
+      "actions": {
+        "Get_File_Preview": {
+          "runAfter": {
+            "Get_File_Info": [
+              "Succeeded"
+            ]
+          },
+          "metadata": {
+            "operationMetadataId": "088173dd-805d-4ccb-a418-c381dca51206"
+          },
+          "type": "OpenApiConnection",
+          "inputs": {
+            "parameters": {
+              "dataset": "@triggerBody()?['text']",
+              "parameters/method": "POST",
+              "parameters/uri": "_api/v2.0/sites('@{outputs('Site_ID')}')/drives/@{outputs('Get_File_Info')?['body']?['parentReference']?['driveId']}/items/@{triggerBody()?['text_1']}/preview",
+              "parameters/headers": {
+                "Content-Type": "application/json",
+                "Accept": "application/json"
+              }
+            },
+            "host": {
+              "apiId": "/providers/Microsoft.PowerApps/apis/shared_sharepointonline",
+              "operationId": "HttpRequest",
+              "connectionName": "shared_sharepointonline"
+            }
+          }
+        },
+        "Get_Site_Info": {
+          "runAfter": {},
+          "metadata": {
+            "operationMetadataId": "7059db1e-1df8-483d-a453-5292d5bbebfe"
+          },
+          "type": "OpenApiConnection",
+          "inputs": {
+            "parameters": {
+              "dataset": "@triggerBody()?['text']",
+              "parameters/method": "GET",
+              "parameters/uri": "_api/site?$select=Id,Url",
+              "parameters/headers": {
+                "Accept": "application/json"
+              }
+            },
+            "host": {
+              "apiId": "/providers/Microsoft.PowerApps/apis/shared_sharepointonline",
+              "operationId": "HttpRequest",
+              "connectionName": "shared_sharepointonline"
+            }
+          }
+        },
+        "Respond_to_a_Power_App_or_flow": {
+          "runAfter": {
+            "Get_File_Preview": [
+              "Succeeded"
+            ]
+          },
+          "metadata": {
+            "operationMetadataId": "e22be1a0-7c3e-47fb-9c66-9698b533416e"
+          },
+          "type": "Response",
+          "kind": "PowerApp",
+          "inputs": {
+            "schema": {
+              "type": "object",
+              "properties": {
+                "previewurl": {
+                  "title": "PreviewURL",
+                  "x-ms-dynamically-added": true,
+                  "type": "string"
+                }
+              },
+              "additionalProperties": {}
+            },
+            "statusCode": 200,
+            "body": {
+              "previewurl": "@{outputs('Get_File_Preview')?['body']?['getUrl']}"
+            }
+          }
+        },
+        "Get_Web_Info": {
+          "runAfter": {
+            "Get_Site_Info": [
+              "Succeeded"
+            ]
+          },
+          "metadata": {
+            "operationMetadataId": "b1f0bc0b-ab8d-4d7c-bfda-8331d4a344cc"
+          },
+          "type": "OpenApiConnection",
+          "inputs": {
+            "parameters": {
+              "dataset": "@triggerBody()?['text']",
+              "parameters/method": "GET",
+              "parameters/uri": "_api/web",
+              "parameters/headers": {
+                "Accept": "application/json"
+              }
+            },
+            "host": {
+              "apiId": "/providers/Microsoft.PowerApps/apis/shared_sharepointonline",
+              "operationId": "HttpRequest",
+              "connectionName": "shared_sharepointonline"
+            }
+          }
+        },
+        "Get_File_Info": {
+          "runAfter": {
+            "Site_ID": [
+              "Succeeded"
+            ]
+          },
+          "type": "OpenApiConnection",
+          "inputs": {
+            "parameters": {
+              "dataset": "@triggerBody()?['text']",
+              "parameters/method": "GET",
+              "parameters/uri": "_api/v2.0/sites('@{outputs('Site_ID')}')/drive/items/@{triggerBody()?['text_1']} ",
+              "parameters/headers": {
+                "Accept": "application/json"
+              }
+            },
+            "host": {
+              "apiId": "/providers/Microsoft.PowerApps/apis/shared_sharepointonline",
+              "operationId": "HttpRequest",
+              "connectionName": "shared_sharepointonline"
+            }
+          }
+        },
+        "Site_ID": {
+          "runAfter": {
+            "Get_Web_Info": [
+              "Succeeded"
+            ]
+          },
+          "type": "Compose",
+          "inputs": "@concat(uriHost(triggerBody()?['text']), ',','', outputs('Get_Site_Info')?['body']?['Id'], ',', outputs('Get_Web_Info')?['body']?['Id'])"
+        }
+      }
+    },
+    "templateName": null
+  },
+  "schemaVersion": "1.0.0.0"
+}

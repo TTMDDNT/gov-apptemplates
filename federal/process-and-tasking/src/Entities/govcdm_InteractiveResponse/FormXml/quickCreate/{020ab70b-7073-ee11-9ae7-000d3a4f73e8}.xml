@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{020ab70b-7073-ee11-9ae7-000d3a4f73e8}</formid>
+    <IntroducedVersion>1.0.0.4</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab id="F931FFE2-B873-473F-8F95-9502F0AA3F5E" name="tab_1" showlabel="false" labelid="{b01d5a74-2232-45c8-bfc7-5c03f179c304}">
+          <labels>
+            <label description="New Tab" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="34%">
+              <sections>
+                <section id="0C655D4E-C6E3-424E-9AF5-71E72D30D12E" name="tab_1_column_1_section_1" columns="1" showlabel="true" showbar="false" IsUserDefined="0" labelwidth="130" labelid="{a5c13d96-6e3c-4925-b08e-12a505a678b0}">
+                  <labels>
+                    <label description="New Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="542FBFBE-0E4C-496C-8012-555DE6581923" labelid="{a825d113-dd37-4d91-bdac-0dacd227492b}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e3a00855-82b6-444e-b286-ec4f44d512b6}" locklevel="0" colspan="1" rowspan="1" labelid="{26d11e3a-7356-4d95-bb17-fbe2018f2763}">
+                        <labels>
+                          <label description="Interactive Prompt" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_interactiveprompt" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="govcdm_interactiveprompt" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{956164ae-838e-4da5-95b4-5a186d839417}" locklevel="0" colspan="1" rowspan="1" labelid="{1abcc43b-add6-4435-a87e-480100017286}">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_name" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="govcdm_name" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{dde2b1d3-665e-4e7c-b4b8-0792cf5c585b}" locklevel="0" colspan="1" rowspan="1" labelid="{67adedfa-c7c2-4465-9103-105a5547cc57}">
+                        <labels>
+                          <label description="Responder" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_responder" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="govcdm_responder" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ae91d881-85d2-48ee-bff3-1fb9d26000b6}" locklevel="0" colspan="1" rowspan="1" labelid="{aa0b50d8-fd08-4a3d-8786-bf3d8846b6f4}">
+                        <labels>
+                          <label description="Response Date Time" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_responsedatetime" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="govcdm_responsedatetime" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section id="02DECBA0-3AE2-484D-A19F-C5353AF4F4F2" name="tab_1_column_2_section_1" columns="1" showlabel="true" showbar="false" IsUserDefined="0" labelwidth="130" labelid="{d8feaab8-c0f6-4cd8-bef3-03a4df76f285}">
+                  <labels>
+                    <label description="New Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="266FE48D-4D04-4E9A-8C5A-7DEF9A2F059B" labelid="{fd7f1c31-d309-406e-9bc2-a64058e11ac5}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{4d8be0ce-e0a4-4225-9b8a-930180c731b2}" locklevel="0" colspan="1" rowspan="1" labelid="{8136bba0-07c3-49d4-a0a3-858f2c552753}">
+                        <labels>
+                          <label description="Response Short Text" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_responseshorttext" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="govcdm_responseshorttext" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{eca6d45d-7a99-48d6-992b-c34ac7a7367d}" locklevel="0" colspan="1" rowspan="1" labelid="{93aa19a3-100f-4145-91da-2a1b394afece}">
+                        <labels>
+                          <label description="Response Long Text" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_responselongtext" classid="{E0DECE4B-6FC8-4A8F-A065-082708572369}" datafieldname="govcdm_responselongtext" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{7ee65e1f-2c56-4f51-b189-2616ce5103f6}" locklevel="0" colspan="1" rowspan="1" labelid="{b8076683-fcad-450c-85b9-9acacc23904a}">
+                        <labels>
+                          <label description="Response Whole Number" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_responsewholenumber" classid="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}" datafieldname="govcdm_responsewholenumber" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{3d4811fa-71e6-4451-98ff-3b41fbc52b0a}" locklevel="0" colspan="1" rowspan="1" labelid="{d8b3970e-2e01-403d-8cc3-cbaec2baacb8}">
+                        <labels>
+                          <label description="Response Float" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_responsefloat" classid="{0D2C745A-E5A8-4C8F-BA63-C6D3BB604660}" datafieldname="govcdm_responsefloat" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section id="46FD66EA-B686-41D9-AAE0-C565BD78EC1F" name="tab_1_column_3_section_1" columns="1" showlabel="true" showbar="false" IsUserDefined="0" labelwidth="130" labelid="{5dc6d67a-3194-4b59-b3ed-9e1cdaa4fab9}">
+                  <labels>
+                    <label description="New Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="07C04A4E-A482-45CC-BAB7-7FCA3CD02938" labelid="{1f318281-8b66-46bc-b894-41056a53c40f}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Interactive Response Quick Create" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>

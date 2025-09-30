@@ -1,0 +1,145 @@
+{
+  "properties": {
+    "connectionReferences": {
+      "shared_sharepointonline": {
+        "runtimeSource": "embedded",
+        "connection": {
+          "connectionReferenceLogicalName": "msfed_sharedsharepointonline_49354"
+        },
+        "api": {
+          "name": "shared_sharepointonline"
+        }
+      }
+    },
+    "definition": {
+      "$schema": "https://schema.management.azure.com/providers/Microsoft.Logic/schemas/2016-06-01/workflowdefinition.json#",
+      "contentVersion": "1.0.0.0",
+      "parameters": {
+        "$authentication": {
+          "defaultValue": {},
+          "type": "SecureObject"
+        },
+        "$connections": {
+          "defaultValue": {},
+          "type": "Object"
+        }
+      },
+      "triggers": {
+        "manual": {
+          "metadata": {
+            "operationMetadataId": "d9d06bd2-ebc9-4a38-a0cc-002a0104d689"
+          },
+          "type": "Request",
+          "kind": "PowerAppV2",
+          "inputs": {
+            "schema": {
+              "type": "object",
+              "properties": {
+                "text": {
+                  "description": "Please enter your input",
+                  "title": "SharePoint Site",
+                  "type": "string",
+                  "x-ms-content-hint": "TEXT",
+                  "x-ms-dynamically-added": true
+                },
+                "text_1": {
+                  "description": "Please enter your input",
+                  "title": "File Path",
+                  "type": "string",
+                  "x-ms-content-hint": "TEXT",
+                  "x-ms-dynamically-added": true
+                }
+              },
+              "required": [
+                "text",
+                "text_1"
+              ]
+            }
+          }
+        }
+      },
+      "actions": {
+        "Get_File_Metadata": {
+          "runAfter": {
+            "Decoded_File_Path": [
+              "Succeeded"
+            ]
+          },
+          "type": "OpenApiConnection",
+          "inputs": {
+            "parameters": {
+              "dataset": "@triggerBody()?['text']",
+              "path": "@outputs('Decoded_File_Path')"
+            },
+            "host": {
+              "apiId": "/providers/Microsoft.PowerApps/apis/shared_sharepointonline",
+              "operationId": "GetFileMetadataByPath",
+              "connectionName": "shared_sharepointonline"
+            }
+          }
+        },
+        "Get_File_Properties": {
+          "runAfter": {
+            "Get_File_Metadata": [
+              "Succeeded"
+            ]
+          },
+          "type": "OpenApiConnection",
+          "inputs": {
+            "parameters": {
+              "dataset": "@triggerBody()?['text']",
+              "table": "@'Documents'",
+              "id": "@outputs('Get_File_Metadata')?['body/ItemId']"
+            },
+            "host": {
+              "apiId": "/providers/Microsoft.PowerApps/apis/shared_sharepointonline",
+              "operationId": "GetFileItem",
+              "connectionName": "shared_sharepointonline"
+            }
+          }
+        },
+        "Respond_to_a_Power_App_or_flow": {
+          "runAfter": {
+            "Get_File_Properties": [
+              "Succeeded"
+            ]
+          },
+          "type": "Response",
+          "kind": "PowerApp",
+          "inputs": {
+            "schema": {
+              "type": "object",
+              "properties": {
+                "drive_id": {
+                  "title": "Drive ID",
+                  "type": "string",
+                  "x-ms-content-hint": "TEXT",
+                  "x-ms-dynamically-added": true
+                },
+                "drive_item id": {
+                  "title": "Drive Item ID",
+                  "type": "string",
+                  "x-ms-content-hint": "TEXT",
+                  "x-ms-dynamically-added": true
+                }
+              },
+              "additionalProperties": {}
+            },
+            "statusCode": 200,
+            "body": {
+              "drive_id": "@{body('Get_File_Properties')?['{DriveId}']}",
+              "drive_item id": "@{body('Get_File_Properties')?['{DriveItemId}']}"
+            }
+          }
+        },
+        "Decoded_File_Path": {
+          "runAfter": {},
+          "type": "Compose",
+          "inputs": "@decodeUriComponent(triggerBody()?['text_1'])"
+        }
+      }
+    },
+    "templateName": null
+  },
+  "schemaVersion": "1.0.0.0"
+}

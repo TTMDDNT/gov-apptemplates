@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{2f468610-0ed9-ef11-8eea-001dd801d1a8}</formid>
+    <IntroducedVersion>1.0.0.11</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab id="F931FFE2-B873-473F-8F95-9502F0AA3F5E" name="tab_1" showlabel="false" labelid="{148c7927-b332-4f81-9811-82e555f312d3}" ordinalvalue="0">
+          <columns>
+            <column width="34%" id="0">
+              <sections>
+                <section id="0C655D4E-C6E3-424E-9AF5-71E72D30D12E" name="tab_1_column_1_section_1" columns="1" showlabel="true" showbar="false" IsUserDefined="0" labelwidth="130" labelid="{ce843b5a-3893-4c33-a990-678085b730cd}" ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell id="542FBFBE-0E4C-496C-8012-555DE6581923" labelid="{e32cc33d-67b2-4e9f-b613-b717a4b2d8e7}" ordinalvalue="10000" solutionaction="Removed" />
+                    </row>
+                    <row>
+                      <cell id="{eba49cd5-fdff-49e7-8a01-109310df50b5}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10000" solutionaction="Added">
+                        <labels>
+                          <label description="Primary Action Item" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_primaryactionitem" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="govcdm_primaryactionitem" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{664ddb65-0fa1-42ff-9419-f5e7c321c48c}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10001" solutionaction="Added">
+                        <labels>
+                          <label description="Parent Action Item" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_parentactionitem" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="govcdm_parentactionitem" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e5d8673c-bdfc-47d7-89c8-7cf15e791c6c}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10002" solutionaction="Added">
+                        <labels>
+                          <label description="Subject" languagecode="1033" />
+                        </labels>
+                        <control id="subject" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="subject" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{500823f2-3c72-47ca-b0cc-5301dd32f366}" locklevel="0" colspan="1" rowspan="6" ordinalvalue="10003" solutionaction="Added">
+                        <labels>
+                          <label description="Description" languagecode="1033" />
+                        </labels>
+                        <control id="description" classid="{E0DECE4B-6FC8-4A8F-A065-082708572369}" datafieldname="description" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{8ab00f75-c0f3-4597-a8d7-063562f0adcd}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10004" solutionaction="Added">
+                        <labels>
+                          <label description="Due Date" languagecode="1033" />
+                        </labels>
+                        <control id="scheduledend" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="scheduledend" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{53aeaf87-8ccd-4243-9b30-c8d5a7ec6875}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10005" solutionaction="Added">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="Quick Create" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>

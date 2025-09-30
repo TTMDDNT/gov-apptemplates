@@ -1,0 +1,198 @@
+{
+  "properties": {
+    "connectionReferences": {
+      "shared_commondataserviceforapps": {
+        "runtimeSource": "embedded",
+        "connection": {
+          "connectionReferenceLogicalName": "msfed_sharedcommondataserviceforapps_d7f8d"
+        },
+        "api": {
+          "name": "shared_commondataserviceforapps"
+        }
+      },
+      "shared_wordonlinebusiness": {
+        "runtimeSource": "embedded",
+        "connection": {
+          "connectionReferenceLogicalName": "msfed_sharedwordonlinebusiness_7950a"
+        },
+        "api": {
+          "name": "shared_wordonlinebusiness"
+        }
+      }
+    },
+    "definition": {
+      "$schema": "https://schema.management.azure.com/providers/Microsoft.Logic/schemas/2016-06-01/workflowdefinition.json#",
+      "contentVersion": "1.0.0.0",
+      "parameters": {
+        "$authentication": {
+          "defaultValue": {},
+          "type": "SecureObject"
+        },
+        "$connections": {
+          "defaultValue": {},
+          "type": "Object"
+        }
+      },
+      "triggers": {
+        "New_Document": {
+          "metadata": {
+            "operationMetadataId": "60f0af7c-3660-4ae5-a951-6c0b4a8053b8"
+          },
+          "type": "OpenApiConnectionWebhook",
+          "inputs": {
+            "parameters": {
+              "subscriptionRequest/message": 1,
+              "subscriptionRequest/entityname": "govcdm_document",
+              "subscriptionRequest/scope": 4,
+              "subscriptionRequest/filterexpression": "govcdm_name eq 'Letter of Recommendation'",
+              "subscriptionRequest/name": "2e4b4316-d87d-ef11-a671-001dd80278ec"
+            },
+            "host": {
+              "apiId": "/providers/Microsoft.PowerApps/apis/shared_commondataserviceforapps",
+              "operationId": "SubscribeWebhookTrigger",
+              "connectionName": "shared_commondataserviceforapps"
+            }
+          }
+        }
+      },
+      "actions": {
+        "Populate_Template": {
+          "runAfter": {
+            "Get_Template_File": [
+              "Succeeded"
+            ]
+          },
+          "metadata": {
+            "014FRR4FRGO5KAWRT66BBZGBCOT7TB2YKM": "/Templates/Template - Security Clearance Request.docx",
+            "operationMetadataId": "1b1444ec-0d19-41ac-8b59-05905c7b1146",
+            "014FRR4FX6U5PQOJARMZGLXIHFSBE74JVI": "/Templates/Template - Letter of Recommendation.docx"
+          },
+          "type": "OpenApiConnection",
+          "inputs": {
+            "parameters": {
+              "source": "@body('Get_Content_Template')?['govcdm_sharepointsite']",
+              "drive": "@body('Get_Template_File')?['drive_id']",
+              "file": "@body('Get_Template_File')?['drive_item id']",
+              "dynamicFileSchema": {
+                "-1187986067": "@{body('Get_Person')?['fullname']}"
+              }
+            },
+            "host": {
+              "apiId": "/providers/Microsoft.PowerApps/apis/shared_wordonlinebusiness",
+              "operationId": "CreateFileItem",
+              "connectionName": "shared_wordonlinebusiness"
+            }
+          }
+        },
+        "Get_Person": {
+          "runAfter": {},
+          "metadata": {
+            "operationMetadataId": "1e4cf365-9202-40ba-8170-6685477ce375"
+          },
+          "type": "OpenApiConnection",
+          "inputs": {
+            "parameters": {
+              "entityName": "contacts",
+              "recordId": "@triggerBody()?['govcdm_virtualrecordid']"
+            },
+            "host": {
+              "apiId": "/providers/Microsoft.PowerApps/apis/shared_commondataserviceforapps",
+              "operationId": "GetItem",
+              "connectionName": "shared_commondataserviceforapps"
+            }
+          }
+        },
+        "Update_Document": {
+          "runAfter": {
+            "Save_File_to_Collaboration_Space": [
+              "Succeeded"
+            ]
+          },
+          "metadata": {
+            "operationMetadataId": "2f45e4b7-071b-408b-bb00-a3b85c925ae9"
+          },
+          "type": "OpenApiConnection",
+          "inputs": {
+            "parameters": {
+              "entityName": "govcdm_documents",
+              "recordId": "@triggerBody()?['govcdm_documentid']",
+              "item/govcdm_documenturl": "@body('Save_File_to_Collaboration_Space')?['filepath']"
+            },
+            "host": {
+              "apiId": "/providers/Microsoft.PowerApps/apis/shared_commondataserviceforapps",
+              "operationId": "UpdateRecord",
+              "connectionName": "shared_commondataserviceforapps"
+            }
+          }
+        },
+        "Save_File_to_Collaboration_Space": {
+          "runAfter": {
+            "Populate_Template": [
+              "Succeeded"
+            ]
+          },
+          "metadata": {
+            "operationMetadataId": "868caf31-4fe6-4815-960c-67cbd76d05cb"
+          },
+          "type": "Workflow",
+          "inputs": {
+            "host": {
+              "workflowReferenceName": "1e230ede-0b88-ef11-ac21-001dd80278ec"
+            },
+            "body": {
+              "text": "@body('Get_Person')?['_msfed_collaborationspace_value']",
+              "text_1": "Letter of Recommendation - @{body('Get_Person')?['fullname']}.docx",
+              "file": {
+                "contentBytes": "@{base64(body('Populate_Template'))}"
+              }
+            }
+          }
+        },
+        "Get_Template_File": {
+          "runAfter": {
+            "Get_Content_Template": [
+              "Succeeded"
+            ]
+          },
+          "metadata": {
+            "operationMetadataId": "25b972e2-dda3-4fde-b862-25de831d54a8"
+          },
+          "type": "Workflow",
+          "inputs": {
+            "host": {
+              "workflowReferenceName": "084419c8-c888-ef11-ac21-001dd808e57d"
+            },
+            "body": {
+              "text": "@body('Get_Content_Template')?['govcdm_sharepointsite']",
+              "text_1": "@body('Get_Content_Template')?['govcdm_sharepointfilepath']"
+            }
+          }
+        },
+        "Get_Content_Template": {
+          "runAfter": {
+            "Get_Person": [
+              "Succeeded"
+            ]
+          },
+          "metadata": {
+            "operationMetadataId": "97ac214c-1a74-486d-9808-aab850445aea"
+          },
+          "type": "OpenApiConnection",
+          "inputs": {
+            "parameters": {
+              "entityName": "govcdm_contenttemplates",
+              "recordId": "@triggerBody()?['_govcdm_contenttemplate_value']"
+            },
+            "host": {
+              "apiId": "/providers/Microsoft.PowerApps/apis/shared_commondataserviceforapps",
+              "operationId": "GetItem",
+              "connectionName": "shared_commondataserviceforapps"
+            }
+          }
+        }
+      }
+    },
+    "templateName": null
+  },
+  "schemaVersion": "1.0.0.0"
+}

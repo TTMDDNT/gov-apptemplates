@@ -1,0 +1,344 @@
+{
+  "properties": {
+    "connectionReferences": {
+      "shared_commondataserviceforapps": {
+        "runtimeSource": "embedded",
+        "connection": {
+          "connectionReferenceLogicalName": "msfed_sharedcommondataserviceforapps_d7f8d"
+        },
+        "api": {
+          "name": "shared_commondataserviceforapps"
+        }
+      },
+      "shared_approvals": {
+        "runtimeSource": "embedded",
+        "connection": {
+          "connectionReferenceLogicalName": "msfed_sharedapprovals_61812"
+        },
+        "api": {
+          "name": "shared_approvals"
+        }
+      }
+    },
+    "definition": {
+      "$schema": "https://schema.management.azure.com/providers/Microsoft.Logic/schemas/2016-06-01/workflowdefinition.json#",
+      "contentVersion": "1.0.0.0",
+      "parameters": {
+        "$authentication": {
+          "defaultValue": {},
+          "type": "SecureObject"
+        },
+        "$connections": {
+          "defaultValue": {},
+          "type": "Object"
+        }
+      },
+      "triggers": {
+        "Action_Item_Submitted_for_Review": {
+          "type": "OpenApiConnectionWebhook",
+          "inputs": {
+            "parameters": {
+              "subscriptionRequest/message": 3,
+              "subscriptionRequest/entityname": "govcdm_actionitem",
+              "subscriptionRequest/scope": 4,
+              "subscriptionRequest/filteringattributes": "govcdm_actionstatus",
+              "subscriptionRequest/filterexpression": "govcdm_actionstatus eq 166840002",
+              "subscriptionRequest/name": "69bcc30b-1d8c-ef11-ac21-001dd808e57d"
+            },
+            "host": {
+              "apiId": "/providers/Microsoft.PowerApps/apis/shared_commondataserviceforapps",
+              "operationId": "SubscribeWebhookTrigger",
+              "connectionName": "shared_commondataserviceforapps"
+            }
+          }
+        }
+      },
+      "actions": {
+        "Send_For_Approval": {
+          "runAfter": {
+            "Get_Primary_Record": [
+              "Succeeded"
+            ]
+          },
+          "metadata": {
+            "operationMetadataId": "12388d6f-9e59-48e6-81b5-8b831786f423"
+          },
+          "type": "OpenApiConnectionWebhook",
+          "inputs": {
+            "parameters": {
+              "approvalType": "BasicAwaitAll",
+              "WebhookApprovalCreationInput/title": "Approval Required: @{body('Get_Action_Item')?['subject']}",
+              "WebhookApprovalCreationInput/assignedTo": "@body('Get_User')?['internalemailaddress']",
+              "WebhookApprovalCreationInput/details": "@body('Get_Action_Item')?['govcdm_originatorcomments']",
+              "WebhookApprovalCreationInput/itemLink": "@{body('Get_Primary_Record')?['url']}&appid=@{variables('varAppID')}",
+              "WebhookApprovalCreationInput/itemLinkDescription": "Link To Item",
+              "WebhookApprovalCreationInput/enableNotifications": true,
+              "WebhookApprovalCreationInput/enableReassignment": true
+            },
+            "host": {
+              "apiId": "/providers/Microsoft.PowerApps/apis/shared_approvals",
+              "operationId": "StartAndWaitForAnApproval",
+              "connectionName": "shared_approvals"
+            }
+          }
+        },
+        "Update_Action_Assignment": {
+          "runAfter": {
+            "Switch": [
+              "Succeeded"
+            ]
+          },
+          "metadata": {
+            "operationMetadataId": "a4d817d3-9ed4-4733-ba5f-f054c4e5a379"
+          },
+          "type": "OpenApiConnection",
+          "inputs": {
+            "parameters": {
+              "entityName": "govcdm_actionitems",
+              "recordId": "@triggerBody()?['activityid']",
+              "item/govcdm_actionstatus": "@variables('varActionStatus')"
+            },
+            "host": {
+              "apiId": "/providers/Microsoft.PowerApps/apis/shared_commondataserviceforapps",
+              "operationId": "UpdateRecord",
+              "connectionName": "shared_commondataserviceforapps"
+            }
+          }
+        },
+        "varApprovalResult": {
+          "runAfter": {
+            "Send_For_Approval": [
+              "Succeeded"
+            ]
+          },
+          "metadata": {
+            "operationMetadataId": "46af52cf-0120-4967-baea-f7f243803ad4"
+          },
+          "type": "InitializeVariable",
+          "inputs": {
+            "variables": [
+              {
+                "name": "varApprovalResult",
+                "type": "string",
+                "value": "@body('Send_For_Approval')?['outcome']"
+              }
+            ]
+          }
+        },
+        "Switch": {
+          "runAfter": {
+            "Initialize_variable": [
+              "Succeeded"
+            ]
+          },
+          "cases": {
+            "Approve": {
+              "case": "Approve",
+              "actions": {
+                "varActionStatus_is_Approved": {
+                  "type": "SetVariable",
+                  "inputs": {
+                    "name": "varActionStatus",
+                    "value": 166840005
+                  }
+                },
+                "Set_variable": {
+                  "runAfter": {
+                    "varActionStatus_is_Approved": [
+                      "Succeeded"
+                    ]
+                  },
+                  "type": "SetVariable",
+                  "inputs": {
+                    "name": "varResponsePastTense",
+                    "value": "Approved"
+                  }
+                }
+              }
+            }
+          },
+          "default": {
+            "actions": {}
+          },
+          "expression": "@variables('varApprovalResult')",
+          "type": "Switch"
+        },
+        "varActionStatus": {
+          "runAfter": {
+            "varApprovalResult": [
+              "Succeeded"
+            ]
+          },
+          "type": "InitializeVariable",
+          "inputs": {
+            "variables": [
+              {
+                "name": "varActionStatus",
+                "type": "integer",
+                "value": 166840004
+              }
+            ]
+          }
+        },
+        "Get_Action_Item": {
+          "runAfter": {},
+          "type": "OpenApiConnection",
+          "inputs": {
+            "parameters": {
+              "entityName": "govcdm_actionitems",
+              "recordId": "@triggerBody()?['activityid']"
+            },
+            "host": {
+              "apiId": "/providers/Microsoft.PowerApps/apis/shared_commondataserviceforapps",
+              "operationId": "GetItem",
+              "connectionName": "shared_commondataserviceforapps"
+            }
+          }
+        },
+        "Get_User": {
+          "runAfter": {
+            "varAppID": [
+              "Succeeded"
+            ]
+          },
+          "type": "OpenApiConnection",
+          "inputs": {
+            "parameters": {
+              "entityName": "systemusers",
+              "recordId": "@body('Get_Action_Item')?['_ownerid_value']"
+            },
+            "host": {
+              "apiId": "/providers/Microsoft.PowerApps/apis/shared_commondataserviceforapps",
+              "operationId": "GetItem",
+              "connectionName": "shared_commondataserviceforapps"
+            }
+          }
+        },
+        "For_each": {
+          "foreach": "@outputs('Send_For_Approval')?['body']?['responses']",
+          "actions": {
+            "Add_Discussion_Item": {
+              "type": "OpenApiConnection",
+              "inputs": {
+                "parameters": {
+                  "entityName": "govcdm_discussionitems",
+                  "item/govcdm_name": "@{variables('varResponsePastTense')} by @{item()?['responder']?['displayName']}",
+                  "item/govcdm_ActionAssignment@odata.bind": "govcdm_items(@{triggerBody()?['activityid']})",
+                  "item/govcdm_comment": "@items('For_each')?['comments']"
+                },
+                "host": {
+                  "apiId": "/providers/Microsoft.PowerApps/apis/shared_commondataserviceforapps",
+                  "operationId": "CreateRecord",
+                  "connectionName": "shared_commondataserviceforapps"
+                }
+              }
+            }
+          },
+          "runAfter": {
+            "Update_Action_Assignment": [
+              "Succeeded"
+            ]
+          },
+          "type": "Foreach"
+        },
+        "Initialize_variable": {
+          "runAfter": {
+            "varActionStatus": [
+              "Succeeded"
+            ]
+          },
+          "type": "InitializeVariable",
+          "inputs": {
+            "variables": [
+              {
+                "name": "varResponsePastTense",
+                "type": "string",
+                "value": "Returned"
+              }
+            ]
+          }
+        },
+        "Get_Primary_Record": {
+          "runAfter": {
+            "Get_User": [
+              "Succeeded"
+            ]
+          },
+          "type": "Workflow",
+          "inputs": {
+            "host": {
+              "workflowReferenceName": "839f49fb-f02f-ef11-840a-001dd80278ec"
+            },
+            "body": {
+              "text": "@body('Get_Action_Item')?['govcdm_virtualregardingtype']",
+              "text_1": "@body('Get_Action_Item')?['govcdm_virtualregardingid']"
+            }
+          }
+        },
+        "varAppID": {
+          "runAfter": {
+            "App_Details": [
+              "Succeeded"
+            ]
+          },
+          "type": "InitializeVariable",
+          "inputs": {
+            "variables": [
+              {
+                "name": "varAppID",
+                "type": "string",
+                "value": "@body('App_Details')?['appmoduleid']"
+              }
+            ]
+          }
+        },
+        "Get_App_for_Process_Step": {
+          "runAfter": {
+            "Get_Action_Item": [
+              "Succeeded"
+            ]
+          },
+          "type": "Workflow",
+          "inputs": {
+            "host": {
+              "workflowReferenceName": "14903dca-b78c-ef11-ac21-001dd808e57d"
+            },
+            "body": {
+              "text": "@body('Get_Action_Item')?['_govcdm_processstep_value']"
+            }
+          }
+        },
+        "App_Details": {
+          "runAfter": {
+            "Get_App_for_Process_Step": [
+              "Succeeded"
+            ]
+          },
+          "type": "ParseJson",
+          "inputs": {
+            "content": "@body('Get_App_for_Process_Step')?['result']",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "appmoduleid@odata.type": {
+                  "type": "string"
+                },
+                "appmoduleid": {
+                  "type": "string"
+                },
+                "uniquename": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "templateName": null
+  },
+  "schemaVersion": "1.0.0.0"
+}

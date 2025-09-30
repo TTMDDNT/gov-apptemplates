@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{e35f619c-3112-ef11-9f89-001dd8075f2f}</formid>
+    <IntroducedVersion>1.0.0.6</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab id="F931FFE2-B873-473F-8F95-9502F0AA3F5E" name="tab_1" showlabel="false" labelid="{0e7f7454-9a0d-4b78-a8fc-1708b75ae094}">
+          <labels>
+            <label description="New Tab" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="34%">
+              <sections>
+                <section id="0C655D4E-C6E3-424E-9AF5-71E72D30D12E" name="tab_1_column_1_section_1" columns="1" showlabel="true" showbar="false" IsUserDefined="0" labelwidth="130" labelid="{c37eaa40-367e-4111-af5e-f3492f7504ad}">
+                  <labels>
+                    <label description="New Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="542FBFBE-0E4C-496C-8012-555DE6581923" labelid="{2eefc092-2820-4425-93da-254a40f4cb7c}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{959bce6c-9910-41b1-af45-fef7450af529}" locklevel="0" colspan="1" rowspan="1" labelid="{90eebc6a-5a46-4a19-85b0-69eb50f5423d}">
+                        <labels>
+                          <label description="Process Step" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_processstep" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="govcdm_processstep" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{97d1b198-9193-4e9c-bf04-a424ebcafa0b}" locklevel="0" colspan="1" rowspan="1" labelid="{118a58c8-aba9-4387-a6cb-a0ef34f0541e}">
+                        <labels>
+                          <label description="Depends On" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_dependson" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="govcdm_dependson" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section id="02DECBA0-3AE2-484D-A19F-C5353AF4F4F2" name="tab_1_column_2_section_1" columns="1" showlabel="true" showbar="false" IsUserDefined="0" labelwidth="130" labelid="{6637a540-a5e3-421b-a922-8280be858748}">
+                  <labels>
+                    <label description="New Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="266FE48D-4D04-4E9A-8C5A-7DEF9A2F059B" labelid="{b2fd0a3d-1691-4acd-8aa0-9a1160650e08}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section id="46FD66EA-B686-41D9-AAE0-C565BD78EC1F" name="tab_1_column_3_section_1" columns="1" showlabel="true" showbar="false" IsUserDefined="0" labelwidth="130" labelid="{f4451177-4eb2-4939-86e2-4c1a0b5583b3}">
+                  <labels>
+                    <label description="New Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="07C04A4E-A482-45CC-BAB7-7FCA3CD02938" labelid="{1594d9d1-749a-4b24-8fac-40b102c8c4fd}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Quick Create" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>

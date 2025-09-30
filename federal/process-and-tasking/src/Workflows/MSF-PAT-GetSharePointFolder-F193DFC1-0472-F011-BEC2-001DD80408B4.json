@@ -1,0 +1,139 @@
+{
+  "properties": {
+    "connectionReferences": {
+      "shared_sharepointonline": {
+        "runtimeSource": "embedded",
+        "connection": {
+          "connectionReferenceLogicalName": "msfed_sharedsharepointonline_49354"
+        },
+        "api": {
+          "name": "shared_sharepointonline"
+        }
+      }
+    },
+    "definition": {
+      "$schema": "https://schema.management.azure.com/providers/Microsoft.Logic/schemas/2016-06-01/workflowdefinition.json#",
+      "contentVersion": "1.0.0.0",
+      "parameters": {
+        "$authentication": {
+          "defaultValue": {},
+          "type": "SecureObject"
+        },
+        "$connections": {
+          "defaultValue": {},
+          "type": "Object"
+        }
+      },
+      "triggers": {
+        "manual": {
+          "metadata": {
+            "operationMetadataId": "ef7bf64b-e022-4c2d-ac0f-a41b3d36c469"
+          },
+          "type": "Request",
+          "kind": "PowerAppV2",
+          "inputs": {
+            "schema": {
+              "type": "object",
+              "properties": {
+                "text": {
+                  "description": "Please enter your input",
+                  "title": "Site URL",
+                  "type": "string",
+                  "x-ms-content-hint": "TEXT",
+                  "x-ms-dynamically-added": true
+                },
+                "text_1": {
+                  "description": "Please enter your input",
+                  "title": "Folder Path",
+                  "type": "string",
+                  "x-ms-content-hint": "TEXT",
+                  "x-ms-dynamically-added": true
+                }
+              },
+              "required": [
+                "text",
+                "text_1"
+              ]
+            }
+          }
+        }
+      },
+      "actions": {
+        "Try_Get_Folder": {
+          "actions": {
+            "Get_Folder_Info": {
+              "type": "OpenApiConnection",
+              "inputs": {
+                "parameters": {
+                  "dataset": "@triggerBody()?['text']",
+                  "path": "Shared Documents/@{decodeUriComponent(triggerBody()?['text_1'])}"
+                },
+                "host": {
+                  "apiId": "/providers/Microsoft.PowerApps/apis/shared_sharepointonline",
+                  "operationId": "GetFolderMetadataByPath",
+                  "connectionName": "shared_sharepointonline"
+                }
+              }
+            }
+          },
+          "runAfter": {},
+          "type": "Scope"
+        },
+        "Folder_Info": {
+          "runAfter": {
+            "Handle_Error": [
+              "Succeeded",
+              "Skipped"
+            ]
+          },
+          "type": "Compose",
+          "inputs": "@if(equals(result('Try_Get_Folder')[0]['status'], 'Succeeded'), outputs('Get_Folder_Info')?['body'], null)"
+        },
+        "Respond": {
+          "runAfter": {
+            "Folder_Info": [
+              "Succeeded"
+            ]
+          },
+          "type": "Response",
+          "kind": "PowerApp",
+          "inputs": {
+            "schema": {
+              "type": "object",
+              "properties": {
+                "result": {
+                  "title": "Result",
+                  "type": "string",
+                  "x-ms-content-hint": "TEXT",
+                  "x-ms-dynamically-added": true
+                }
+              },
+              "additionalProperties": {}
+            },
+            "statusCode": 200,
+            "body": {
+              "result": "@{outputs('Folder_Info')}"
+            }
+          }
+        },
+        "Handle_Error": {
+          "actions": {
+            "Compose": {
+              "type": "Compose",
+              "inputs": {}
+            }
+          },
+          "runAfter": {
+            "Try_Get_Folder": [
+              "Failed",
+              "TimedOut"
+            ]
+          },
+          "type": "Scope"
+        }
+      }
+    },
+    "templateName": null
+  },
+  "schemaVersion": "1.0.0.0"
+}

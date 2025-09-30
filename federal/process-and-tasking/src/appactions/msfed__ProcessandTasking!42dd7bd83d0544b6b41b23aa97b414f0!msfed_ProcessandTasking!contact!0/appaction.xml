@@ -1,0 +1,27 @@
+<appaction uniquename="msfed__ProcessandTasking!42dd7bd83d0544b6b41b23aa97b414f0!msfed_ProcessandTasking!contact!0">
+  <appmoduleid>
+    <uniquename>msfed_ProcessandTasking</uniquename>
+  </appmoduleid>
+  <buttonlabeltext default="Process and Tasking">
+    <label description="Process and Tasking" languagecode="1033" />
+  </buttonlabeltext>
+  <context>1</context>
+  <contextentity>
+    <logicalname>contact</logicalname>
+  </contextentity>
+  <contextvalue>contact</contextvalue>
+  <fonticon>$clientsvg:TaskSequence</fonticon>
+  <hidden>0</hidden>
+  <iscustomizable>1</iscustomizable>
+  <isdisabled>0</isdisabled>
+  <isgrouptitlehidden>0</isgrouptitlehidden>
+  <location>0</location>
+  <name>ProcessandTasking!42dd7bd83d0544b6b41b23aa97b414f0</name>
+  <onclickeventtype>0</onclickeventtype>
+  <origin>0</origin>
+  <sequence>100100017.5000000000</sequence>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+  <type>1</type>
+  <visibilitytype>0</visibilitytype>
+</appaction>

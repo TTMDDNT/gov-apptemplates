@@ -1,0 +1,132 @@
+{
+  "properties": {
+    "connectionReferences": {
+      "shared_sharepointonline": {
+        "api": {
+          "name": "shared_sharepointonline"
+        },
+        "connection": {
+          "connectionReferenceLogicalName": "msfed_sharedsharepointonline_49354"
+        },
+        "runtimeSource": "invoker"
+      }
+    },
+    "definition": {
+      "$schema": "https://schema.management.azure.com/providers/Microsoft.Logic/schemas/2016-06-01/workflowdefinition.json#",
+      "contentVersion": "1.0.0.0",
+      "parameters": {
+        "$authentication": {
+          "defaultValue": {},
+          "type": "SecureObject"
+        },
+        "$connections": {
+          "defaultValue": {},
+          "type": "Object"
+        }
+      },
+      "triggers": {
+        "manual": {
+          "type": "Request",
+          "kind": "PowerAppV2",
+          "inputs": {
+            "schema": {
+              "type": "object",
+              "properties": {
+                "text": {
+                  "title": "SharePoint Site",
+                  "type": "string",
+                  "x-ms-dynamically-added": true,
+                  "description": "Please enter your input",
+                  "x-ms-content-hint": "TEXT"
+                },
+                "text_1": {
+                  "title": "Folder Path",
+                  "type": "string",
+                  "x-ms-dynamically-added": true,
+                  "description": "Please enter your input",
+                  "x-ms-content-hint": "TEXT"
+                }
+              },
+              "required": [
+                "text",
+                "text_1"
+              ]
+            }
+          },
+          "metadata": {
+            "operationMetadataId": "8962b0d9-b47b-4724-951a-18c18db11d1f"
+          }
+        }
+      },
+      "actions": {
+        "Respond_to_a_Power_App_or_flow": {
+          "type": "Response",
+          "kind": "PowerApp",
+          "inputs": {
+            "schema": {
+              "type": "object",
+              "properties": {
+                "result": {
+                  "title": "Result",
+                  "x-ms-dynamically-added": true,
+                  "type": "string"
+                }
+              },
+              "additionalProperties": {}
+            },
+            "statusCode": 200,
+            "body": {
+              "result": "@{body('Select_Items')}"
+            }
+          },
+          "runAfter": {
+            "Select_Items": [
+              "Succeeded"
+            ]
+          },
+          "metadata": {
+            "operationMetadataId": "2fada85a-78e8-48f1-bd8f-211412b9827f"
+          }
+        },
+        "Get_Files": {
+          "type": "OpenApiConnection",
+          "inputs": {
+            "parameters": {
+              "dataset": "@triggerBody()?['text']",
+              "table": "Documents",
+              "folderPath": "@triggerBody()?['text_1']"
+            },
+            "host": {
+              "apiId": "/providers/Microsoft.PowerApps/apis/shared_sharepointonline",
+              "operationId": "GetFileItems",
+              "connectionName": "shared_sharepointonline"
+            }
+          },
+          "runAfter": {}
+        },
+        "Select_Items": {
+          "type": "Select",
+          "inputs": {
+            "from": "@outputs('Get_Files')?['body/value']",
+            "select": {
+              "Name": "@{item()?['{Name}']}",
+              "FullPath": "@{item()?['{FullPath}']}",
+              "Link": "@{item()?['{Link}']}",
+              "IsFolder": "@{item()?['{IsFolder}']}",
+              "ThumbnailSmall": "/@{item()?['{Thumbnail}']?['Small']}",
+              "Editor": "@item()?['Editor']?['DisplayName']",
+              "ModifiedOn": "@item()?['Modified']"
+            }
+          },
+          "runAfter": {
+            "Get_Files": [
+              "Succeeded"
+            ]
+          }
+        }
+      }
+    },
+    "templateName": null
+  },
+  "schemaVersion": "1.0.0.0"
+}

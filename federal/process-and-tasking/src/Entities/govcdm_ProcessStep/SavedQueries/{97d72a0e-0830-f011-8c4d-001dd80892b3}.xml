@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{97d72a0e-0830-f011-8c4d-001dd80892b3}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="govcdm_name" select="1" icon="1" preview="1">
+        <row name="result" id="govcdm_processstepid">
+          <cell name="govcdm_primaryprocessstep" width="160" />
+          <cell name="govcdm_parentprocessstep" width="151" />
+          <cell name="govcdm_processsteporder" width="148" />
+          <cell name="govcdm_name" width="218" />
+          <cell name="govcdm_processsteptype" width="143" />
+          <cell name="govcdm_details" width="300" />
+          <cell name="govcdm_dataentrystep" width="130" />
+          <cell name="a_2cdce7493735462584f0a07fe14ad352.govcdm_formappliestoschemaname" width="319" />
+          <cell name="a_2cdce7493735462584f0a07fe14ad352.govcdm_formbaseurl" width="235" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical" distinct="true">
+        <entity name="govcdm_processstep">
+          <attribute name="govcdm_processstepid" />
+          <attribute name="govcdm_name" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="govcdm_details" />
+          <attribute name="govcdm_processsteptype" />
+          <attribute name="govcdm_dataentrystep" />
+          <link-entity alias="a_2cdce7493735462584f0a07fe14ad352" name="govcdm_dataentrystep" to="govcdm_dataentrystep" from="govcdm_dataentrystepid" link-type="outer" visible="false">
+            <attribute name="govcdm_formappliestoschemaname" />
+            <attribute name="govcdm_formbaseurl" />
+          </link-entity>
+          <attribute name="govcdm_primaryprocessstep" />
+          <attribute name="govcdm_parentprocessstep" />
+          <attribute name="govcdm_processsteporder" />
+          <order attribute="govcdm_primaryprocessstep" descending="false" />
+          <order attribute="govcdm_parentprocessstep" descending="false" />
+          <order attribute="govcdm_processsteporder" descending="false" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.6</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Process Templates - All Items" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>
