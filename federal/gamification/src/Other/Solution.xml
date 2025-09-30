@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImportExportXml version="9.2.24122.204" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" OrganizationVersion="9.2.24122.204" OrganizationSchemaType="Standard" CRMServerServiceabilityVersion="9.2.24122.00204">
+  <SolutionManifest>
+    <UniqueName>msfed_gamification</UniqueName>
+    <LocalizedNames>
+      <LocalizedName description="Microsoft Federal - Gamification" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions />
+    <Version>1.0.0.0</Version>
+    <Managed>2</Managed>
+    <Publisher>
+      <UniqueName>microsoftfederal</UniqueName>
+      <LocalizedNames>
+        <LocalizedName description="microsoftfederal" languagecode="1033" />
+      </LocalizedNames>
+      <Descriptions>
+        <Description description="microsoftfederal" languagecode="1033" />
+      </Descriptions>
+      <EMailAddress xsi:nil="true"></EMailAddress>
+      <SupportingWebsiteUrl xsi:nil="true"></SupportingWebsiteUrl>
+      <CustomizationPrefix>msfed</CustomizationPrefix>
+      <CustomizationOptionValuePrefix>18844</CustomizationOptionValuePrefix>
+      <Addresses>
+        <Address>
+          <AddressNumber>1</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+        <Address>
+          <AddressNumber>2</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+      </Addresses>
+    </Publisher>
+    <RootComponents>
+      <RootComponent type="1" schemaName="govcdm_game" behavior="2" />
+      <RootComponent type="1" schemaName="govcdm_gameachievement" behavior="2" />
+      <RootComponent type="1" schemaName="govcdm_gameactivity" behavior="2" />
+      <RootComponent type="1" schemaName="govcdm_gameuser" behavior="2" />
+      <RootComponent type="1" schemaName="govcdm_gameuserachievement" behavior="2" />
+      <RootComponent type="1" schemaName="govcdm_gameuseractivity" behavior="2" />
+      <RootComponent type="62" schemaName="msfed_Gamification" behavior="0" />
+      <RootComponent type="80" schemaName="msfed_Gamification" behavior="0" />
+    </RootComponents>
+    <MissingDependencies>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_game" displayName="Game" solution="govcdm_gamification (1.0.0.0)" />
+        <Dependent type="1" schemaName="govcdm_game" displayName="Game" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_gameachievement" displayName="Game Achievement" solution="govcdm_gamification (1.0.0.0)" />
+        <Dependent type="1" schemaName="govcdm_gameachievement" displayName="Game Achievement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_gameactivity" displayName="Game Activity" solution="govcdm_gamification (1.0.0.0)" />
+        <Dependent type="1" schemaName="govcdm_gameactivity" displayName="Game Activity" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_gameuser" displayName="Game User" solution="govcdm_gamification (1.0.0.0)" />
+        <Dependent type="1" schemaName="govcdm_gameuser" displayName="Game User" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_gameuserachievement" displayName="Game User Achievement" solution="govcdm_gamification (1.0.0.0)" />
+        <Dependent type="1" schemaName="govcdm_gameuserachievement" displayName="Game User Achievement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_gameuseractivity" displayName="Game User Activity" solution="govcdm_gamification (1.0.0.0)" />
+        <Dependent type="1" schemaName="govcdm_gameuseractivity" displayName="Game User Activity" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_description" displayName="Description" parentSchemaName="govcdm_game" parentDisplayName="Game" solution="govcdm_gamification (1.0.0.0)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Game" id="{245f8343-ccf1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_game" parentDisplayName="Game" solution="govcdm_gamification (1.0.0.0)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Game" id="{245f8343-ccf1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_gameachievement" parentDisplayName="Game Achievement" solution="govcdm_gamification (1.0.0.0)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Game Achievement" id="{dab01759-ccf1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_gameactivity" parentDisplayName="Game Activity" solution="govcdm_gamification (1.0.0.0)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Game Activity" id="{33f71472-ccf1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_gameuser" parentDisplayName="Game User" solution="govcdm_gamification (1.0.0.0)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Game User" id="{e57e3e85-ccf1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_gameuserachievement" parentDisplayName="Game User Achievement" solution="govcdm_gamification (1.0.0.0)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Game User Achievement" id="{452b2899-ccf1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_gameuseractivity" parentDisplayName="Game User Activity" solution="govcdm_gamification (1.0.0.0)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Game User Activity" id="{be426eac-ccf1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="govcdm_game" parentDisplayName="Game" solution="Active" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Game" id="{245f8343-ccf1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="govcdm_gameachievement" parentDisplayName="Game Achievement" solution="Active" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Game Achievement" id="{dab01759-ccf1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="govcdm_gameactivity" parentDisplayName="Game Activity" solution="Active" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Game Activity" id="{33f71472-ccf1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="govcdm_gameuser" parentDisplayName="Game User" solution="Active" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Game User" id="{e57e3e85-ccf1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="govcdm_gameuserachievement" parentDisplayName="Game User Achievement" solution="Active" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Game User Achievement" id="{452b2899-ccf1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="govcdm_gameuseractivity" parentDisplayName="Game User Activity" solution="Active" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Game User Activity" id="{be426eac-ccf1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="msdyn_/Images/AppModule_Default_Icon.png" displayName="msdyn_/Images/AppModule_Default_Icon.png" solution="AppModuleWebResources (2.5)" />
+        <Dependent type="80" schemaName="msfed_Gamification" displayName="Gamification" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="SettingDefinition" displayName="AppChannel" solution="msdyn_AppFrameworkInfraExtensions (1.0.0.12)" id.uniquename="AppChannel">
+          <package appName="PowerAppsAppFramework Package" version="1.0.0.16">PowerAppsAppFramework_Anchor (1.0.0.16)</package>
+        </Required>
+        <Dependent type="AppSetting" displayName="parentappmoduleid.uniquename=msfed_Gamification,settingdefinitionid.uniquename=AppChannel" id.parentappmoduleid.uniquename="msfed_Gamification" id.settingdefinitionid.uniquename="AppChannel" />
+      </MissingDependency>
+    </MissingDependencies>
+  </SolutionManifest>
+</ImportExportXml>
