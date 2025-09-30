@@ -1,0 +1,271 @@
+<entities >
+  <entity name="contact" displayname="Person" etc="2" primaryidfield="contactid" primarynamefield="fullname" disableplugins="false">
+    <fields>
+      <field displayname="Address 1" name="address1_composite" type="string" />
+      <field displayname="Address 1: Address Type" name="address1_addresstypecode" type="optionsetvalue" />
+      <field displayname="Address 1: City" name="address1_city" type="string" />
+      <field displayname="Address 1: Country/Region" name="address1_country" type="string" />
+      <field displayname="Address 1: County" name="address1_county" type="string" />
+      <field displayname="Address 1: Fax" name="address1_fax" type="string" />
+      <field displayname="Address 1: Freight Terms" name="address1_freighttermscode" type="optionsetvalue" />
+      <field displayname="Address 1: ID" name="address1_addressid" type="guid" primaryKey="true" />
+      <field displayname="Address 1: Latitude" name="address1_latitude" type="float" />
+      <field displayname="Address 1: Longitude" name="address1_longitude" type="float" />
+      <field displayname="Address 1: Name" name="address1_name" type="string" />
+      <field displayname="Address 1: Phone" name="address1_telephone1" type="string" />
+      <field displayname="Address 1: Post Office Box" name="address1_postofficebox" type="string" />
+      <field displayname="Address 1: Primary Contact Name" name="address1_primarycontactname" type="string" />
+      <field displayname="Address 1: Shipping Method" name="address1_shippingmethodcode" type="optionsetvalue" />
+      <field displayname="Address 1: State/Province" name="address1_stateorprovince" type="string" />
+      <field displayname="Address 1: Street 1" name="address1_line1" type="string" />
+      <field displayname="Address 1: Street 2" name="address1_line2" type="string" />
+      <field displayname="Address 1: Street 3" name="address1_line3" type="string" />
+      <field displayname="Address 1: Telephone 2" name="address1_telephone2" type="string" />
+      <field displayname="Address 1: Telephone 3" name="address1_telephone3" type="string" />
+      <field displayname="Address 1: UPS Zone" name="address1_upszone" type="string" />
+      <field displayname="Address 1: UTC Offset" name="address1_utcoffset" type="number" />
+      <field displayname="Address 1: ZIP/Postal Code" name="address1_postalcode" type="string" />
+      <field displayname="Address 2" name="address2_composite" type="string" />
+      <field displayname="Address 2: Address Type" name="address2_addresstypecode" type="optionsetvalue" />
+      <field displayname="Address 2: City" name="address2_city" type="string" />
+      <field displayname="Address 2: Country/Region" name="address2_country" type="string" />
+      <field displayname="Address 2: County" name="address2_county" type="string" />
+      <field displayname="Address 2: Fax" name="address2_fax" type="string" />
+      <field displayname="Address 2: Freight Terms" name="address2_freighttermscode" type="optionsetvalue" />
+      <field displayname="Address 2: ID" name="address2_addressid" type="guid" primaryKey="true" />
+      <field displayname="Address 2: Latitude" name="address2_latitude" type="float" />
+      <field displayname="Address 2: Longitude" name="address2_longitude" type="float" />
+      <field displayname="Address 2: Name" name="address2_name" type="string" />
+      <field displayname="Address 2: Post Office Box" name="address2_postofficebox" type="string" />
+      <field displayname="Address 2: Primary Contact Name" name="address2_primarycontactname" type="string" />
+      <field displayname="Address 2: Shipping Method" name="address2_shippingmethodcode" type="optionsetvalue" />
+      <field displayname="Address 2: State/Province" name="address2_stateorprovince" type="string" />
+      <field displayname="Address 2: Street 1" name="address2_line1" type="string" />
+      <field displayname="Address 2: Street 2" name="address2_line2" type="string" />
+      <field displayname="Address 2: Street 3" name="address2_line3" type="string" />
+      <field displayname="Address 2: Telephone 1" name="address2_telephone1" type="string" />
+      <field displayname="Address 2: Telephone 2" name="address2_telephone2" type="string" />
+      <field displayname="Address 2: Telephone 3" name="address2_telephone3" type="string" />
+      <field displayname="Address 2: UPS Zone" name="address2_upszone" type="string" />
+      <field displayname="Address 2: UTC Offset" name="address2_utcoffset" type="number" />
+      <field displayname="Address 2: ZIP/Postal Code" name="address2_postalcode" type="string" />
+      <field displayname="Address 3" name="address3_composite" type="string" />
+      <field displayname="Address 3: Address Type" name="address3_addresstypecode" type="optionsetvalue" />
+      <field displayname="Address 3: City" name="address3_city" type="string" />
+      <field displayname="Address 3: County" name="address3_county" type="string" />
+      <field displayname="Address 3: Fax" name="address3_fax" type="string" />
+      <field displayname="Address 3: Freight Terms" name="address3_freighttermscode" type="optionsetvalue" />
+      <field displayname="Address 3: ID" name="address3_addressid" type="guid" primaryKey="true" />
+      <field displayname="Address 3: Latitude" name="address3_latitude" type="float" />
+      <field displayname="Address 3: Longitude" name="address3_longitude" type="float" />
+      <field displayname="Address 3: Name" name="address3_name" type="string" />
+      <field displayname="Address 3: Post Office Box" name="address3_postofficebox" type="string" />
+      <field displayname="Address 3: Primary Contact Name" name="address3_primarycontactname" type="string" />
+      <field displayname="Address 3: Shipping Method" name="address3_shippingmethodcode" type="optionsetvalue" />
+      <field displayname="Address 3: Telephone1" name="address3_telephone1" type="string" />
+      <field displayname="Address 3: Telephone2" name="address3_telephone2" type="string" />
+      <field displayname="Address 3: Telephone3" name="address3_telephone3" type="string" />
+      <field displayname="Address 3: UPS Zone" name="address3_upszone" type="string" />
+      <field displayname="Address 3: UTC Offset" name="address3_utcoffset" type="number" />
+      <field displayname="Address Home Country" name="govcdm_addresshomecountry" type="entityreference" lookupType="govcdm_country" customfield="true" />
+      <field displayname="Address Home State" name="govcdm_addresshomestateorprovince" type="entityreference" lookupType="govcdm_stateorprovince" customfield="true" />
+      <field displayname="Address3: Country/Region" name="address3_country" type="string" />
+      <field displayname="Address3: State/Province" name="address3_stateorprovince" type="string" />
+      <field displayname="Address3: Street 1" name="address3_line1" type="string" />
+      <field displayname="Address3: Street 2" name="address3_line2" type="string" />
+      <field displayname="Address3: Street 3" name="address3_line3" type="string" />
+      <field displayname="Address3: ZIP/Postal Code" name="address3_postalcode" type="string" />
+      <field displayname="Anniversary" name="anniversary" type="datetime" />
+      <field displayname="Assistant" name="assistantname" type="string" />
+      <field displayname="Assistant Phone" name="assistantphone" type="string" />
+      <field displayname="Back Office Customer" name="isbackofficecustomer" type="bool" />
+      <field displayname="Birthday" name="birthdate" type="datetime" />
+      <field displayname="Business Phone" name="telephone1" type="string" />
+      <field displayname="Business Phone 2" name="business2" type="string" />
+      <field displayname="Callback Number" name="callback" type="string" />
+      <field displayname="Children's Names" name="childrensnames" type="string" />
+      <field displayname="Clearance Level" name="govcdm_clearancelevel" type="entityreference" lookupType="govcdm_clearancelevel" customfield="true" />
+      <field displayname="Company Phone" name="company" type="string" />
+      <field displayname="Contact" name="contactid" type="guid" primaryKey="true" />
+      <field displayname="Credit Hold" name="creditonhold" type="bool" />
+      <field displayname="Customer Size" name="customersizecode" type="optionsetvalue" />
+      <field displayname="Department" name="department" type="string" />
+      <field displayname="Description" name="description" type="string" />
+      <field displayname="Do not allow Bulk Emails" name="donotbulkemail" type="bool" />
+      <field displayname="Do not allow Bulk Mails" name="donotbulkpostalmail" type="bool" />
+      <field displayname="Do not allow Emails" name="donotemail" type="bool" />
+      <field displayname="Do not allow Faxes" name="donotfax" type="bool" />
+      <field displayname="Do not allow Mails" name="donotpostalmail" type="bool" />
+      <field displayname="Do not allow Phone Calls" name="donotphone" type="bool" />
+      <field displayname="Education" name="educationcode" type="optionsetvalue" />
+      <field displayname="Email" name="emailaddress1" type="string" />
+      <field displayname="Email Address 2" name="emailaddress2" type="string" />
+      <field displayname="Email Address 3" name="emailaddress3" type="string" />
+      <field displayname="Employee" name="employeeid" type="string" />
+      <field displayname="Entity Image" name="entityimage" type="imagedata" />
+      <field displayname="Entity Image Id" name="entityimageid" type="guid" />
+      <field displayname="External User Identifier" name="externaluseridentifier" type="string" />
+      <field displayname="Fax" name="fax" type="string" />
+      <field displayname="First Name" name="firstname" type="string" />
+      <field displayname="Follow Email Activity" name="followemail" type="bool" />
+      <field displayname="FTP Site" name="ftpsiteurl" type="string" />
+      <field displayname="Full Name" name="fullname" type="string" />
+      <field displayname="Gender" name="gendercode" type="optionsetvalue" />
+      <field displayname="Government" name="governmentid" type="string" />
+      <field displayname="Has Children" name="haschildrencode" type="optionsetvalue" />
+      <field displayname="Home Phone" name="telephone2" type="string" />
+      <field displayname="Home Phone 2" name="home2" type="string" />
+      <field displayname="Job Grade" name="govcdm_jobgrade" type="entityreference" lookupType="govcdm_graderank" customfield="true" />
+      <field displayname="Job Series" name="govcdm_jobseries" type="entityreference" lookupType="govcdm_jobseries" customfield="true" />
+      <field displayname="Job Title" name="jobtitle" type="string" />
+      <field displayname="Last Name" name="lastname" type="string" />
+      <field displayname="Last On Hold Time" name="lastonholdtime" type="datetime" />
+      <field displayname="Lead Source" name="leadsourcecode" type="optionsetvalue" />
+      <field displayname="Manager" name="managername" type="string" />
+      <field displayname="Manager Phone" name="managerphone" type="string" />
+      <field displayname="Managing Partner" name="msa_managingpartnerid" type="entityreference" lookupType="account" customfield="true" />
+      <field displayname="Marital Status" name="familystatuscode" type="optionsetvalue" />
+      <field displayname="Marketing Only" name="marketingonly" type="bool" />
+      <field displayname="Master ID" name="masterid" type="entityreference" lookupType="contact" />
+      <field displayname="Merged" name="merged" type="bool" />
+      <field displayname="Middle Name" name="middlename" type="string" />
+      <field displayname="Mobile Phone" name="mobilephone" type="string" />
+      <field displayname="Nickname" name="nickname" type="string" />
+      <field displayname="No. of Children" name="numberofchildren" type="number" />
+      <field displayname="On Hold Time (Minutes)" name="onholdtime" type="number" />
+      <field displayname="Originating Lead" name="originatingleadid" type="entityreference" lookupType="lead" />
+      <field displayname="Pager" name="pager" type="string" />
+      <field displayname="Parent Contact" name="parentcontactid" type="entityreference" lookupType="contact" />
+      <field displayname="Payment Terms" name="paymenttermscode" type="optionsetvalue" />
+      <field displayname="Personnel Type" name="govcdm_personneltype" type="entityreference" lookupType="govcdm_personneltype" customfield="true" />
+      <field displayname="Preferred Day" name="preferredappointmentdaycode" type="optionsetvalue" />
+      <field displayname="Preferred Facility/Equipment" name="preferredequipmentid" type="entityreference" lookupType="equipment" />
+      <field displayname="Preferred Method of Contact" name="preferredcontactmethodcode" type="optionsetvalue" />
+      <field displayname="Preferred Time" name="preferredappointmenttimecode" type="optionsetvalue" />
+      <field displayname="Relationship Type" name="customertypecode" type="optionsetvalue" />
+      <field displayname="Role" name="accountrolecode" type="optionsetvalue" />
+      <field displayname="Salutation" name="salutation" type="string" />
+      <field displayname="Send Marketing Materials" name="donotsendmm" type="bool" />
+      <field displayname="Shipping Method" name="shippingmethodcode" type="optionsetvalue" />
+      <field displayname="Spouse/Partner Name" name="spousesname" type="string" />
+      <field displayname="Status" name="statecode" type="state" />
+      <field displayname="Status Reason" name="statuscode" type="status" />
+      <field displayname="Suffix" name="suffix" type="string" />
+      <field displayname="Telephone 3" name="telephone3" type="string" />
+      <field displayname="Territory" name="territorycode" type="optionsetvalue" />
+      <field displayname="Time Spent by me" name="timespentbymeonemailandmeetings" type="string" />
+      <field displayname="User" name="govcdm_user" type="entityreference" lookupType="systemuser" customfield="true" />
+      <field displayname="Website" name="websiteurl" type="string" />
+    </fields>
+  </entity>
+  <entity name="lead" displayname="Lead" etc="4" primaryidfield="leadid" primarynamefield="fullname" disableplugins="false">
+    <fields>
+      <field displayname="Email" name="emailaddress1" type="string" />
+      <field displayname="First Name" name="firstname" type="string" />
+      <field displayname="Last Name" name="lastname" type="string" />
+      <field displayname="Business Phone" name="telephone1" type="string" />
+      <field displayname="Street 1" name="address1_line1" type="string" />
+      <field displayname="Topic" name="subject" type="string" />
+      <field displayname="Description" name="description" type="string" />
+      <field displayname="City" name="address1_city" type="string" />
+      <field displayname="State/Province" name="address1_stateorprovince" type="string" />
+      <field displayname="Country/Region" name="address1_country" type="string" />
+      <field displayname="Lead" name="leadid" type="guid" primaryKey="true" />
+    </fields>
+  </entity>
+  <entity name="govcdm_icmviolation" displayname="ICM Violation" etc="11158" primaryidfield="govcdm_icmviolationid" primarynamefield="govcdm_name" disableplugins="false">
+    <fields>
+      <field displayname="Abbreviation" name="govcdm_abbreviation" type="string" customfield="true" />
+      <field displayname="Description" name="govcdm_description" type="string" customfield="true" />
+      <field displayname="ICM Violation" name="govcdm_icmviolationid" type="guid" primaryKey="true" />
+      <field displayname="Name" name="govcdm_name" type="string" customfield="true" />
+    </fields>
+  </entity>
+  <entity name="msfed_leadtocaseicm" displayname="Lead to Case (ICM)" etc="11374" primaryidfield="businessprocessflowinstanceid" primarynamefield="bpf_name" disableplugins="false">
+    <fields>
+      <field displayname="Name" name="bpf_name" type="string" customfield="true" />
+      <field displayname="Active Stage" name="activestageid" type="entityreference" lookupType="processstage" />
+      <field displayname="Active Stage Started On" name="activestagestartedon" type="datetime" />
+      <field displayname="Completed On" name="completedon" type="datetime" />
+      <field displayname="Created On" name="createdon" type="datetime" />
+      <field displayname="Duration" name="bpf_duration" type="number" customfield="true" />
+      <field displayname="Incident" name="bpf_incidentid" type="entityreference" lookupType="incident" customfield="true" />
+      <field displayname="Lead" name="bpf_leadid" type="entityreference" lookupType="lead" customfield="true" />
+      <field displayname="Lead to Case (ICM)" name="businessprocessflowinstanceid" type="guid" primaryKey="true" />
+      <field displayname="Modified On" name="modifiedon" type="datetime" />
+      <field displayname="Process" name="processid" type="entityreference" lookupType="workflow" />
+      <field displayname="Status" name="statecode" type="state" />
+      <field displayname="Status Reason" name="statuscode" type="status" />
+      <field displayname="Traversed Path" name="traversedpath" type="string" />
+    </fields>
+  </entity>
+  <entity name="incident" displayname="Case" etc="112" primaryidfield="incidentid" primarynamefield="title" disableplugins="false">
+    <fields>
+      <field displayname="(Deprecated) Stage Id" name="stageid" type="guid" />
+      <field displayname="(Deprecated) Traversed Path" name="traversedpath" type="string" />
+      <field displayname="Account" name="accountid" type="entityreference" lookupType="account" />
+      <field displayname="Activities Complete" name="activitiescomplete" type="bool" />
+      <field displayname="Case" name="incidentid" type="guid" primaryKey="true" />
+      <field displayname="Case Age" name="caseage" type="string" customfield="true" />
+      <field displayname="Case Number" name="ticketnumber" type="string" />
+      <field displayname="Case Stage" name="incidentstagecode" type="optionsetvalue" />
+      <field displayname="Case Title" name="title" type="string" />
+      <field displayname="Case Type" name="casetypecode" type="optionsetvalue" />
+      <field displayname="Child Cases" name="numberofchildincidents" type="number" />
+      <field displayname="Complainant" name="customerid" type="entityreference" lookupType="account|contact" />
+      <field displayname="Complaint Recommendation" name="msfed_complaintrecommendation" type="string" customfield="true" />
+      <field displayname="Contact" name="contactid" type="entityreference" lookupType="contact" />
+      <field displayname="Contact" name="primarycontactid" type="entityreference" lookupType="contact" />
+      <field displayname="Copilot Engaged" name="msdyn_copilotengaged" type="bool" customfield="true" />
+      <field displayname="Customer Contacted" name="customercontacted" type="bool" />
+      <field displayname="Deactivated On" name="deactivatedon" type="datetime" customfield="true" />
+      <field displayname="Decrement Entitlement Terms" name="decremententitlementterm" type="bool" />
+      <field displayname="Decrementing" name="isdecrementing" type="bool" />
+      <field displayname="Description" name="description" type="string" />
+      <field displayname="Email Address" name="emailaddress" type="string" />
+      <field displayname="Entity Image" name="entityimage" type="imagedata" />
+      <field displayname="entityimageid" name="entityimageid" type="guid" />
+      <field displayname="Escalated On" name="escalatedon" type="datetime" />
+      <field displayname="Exchange Rate" name="exchangerate" type="decimal" />
+      <field displayname="First Response By" name="responseby" type="datetime" />
+      <field displayname="First Response By KPI" name="firstresponsebykpiid" type="entityreference" lookupType="slakpiinstance" />
+      <field displayname="First Response Sent" name="firstresponsesent" type="bool" />
+      <field displayname="First Response SLA Status" name="firstresponseslastatus" type="optionsetvalue" />
+      <field displayname="Follow Up By" name="followupby" type="datetime" />
+      <field displayname="Follow up Task Created" name="followuptaskcreated" type="bool" />
+      <field displayname="Influence Score" name="influencescore" type="float" />
+      <field displayname="Internal Use Only" name="merged" type="bool" />
+      <field displayname="Is Escalated" name="isescalated" type="bool" />
+      <field displayname="Knowledge Base Article" name="kbarticleid" type="entityreference" lookupType="kbarticle" />
+      <field displayname="Last Interaction" name="lastinteraction" type="string" customfield="true" />
+      <field displayname="Last On Hold Time" name="lastonholdtime" type="datetime" />
+      <field displayname="Master Case" name="masterid" type="entityreference" lookupType="incident" />
+      <field displayname="Modified On" name="modifiedon" type="datetime" />
+      <field displayname="Next Sla" name="nextsla" type="string" customfield="true" />
+      <field displayname="On Hold Time (Minutes)" name="onholdtime" type="number" />
+      <field displayname="Origin" name="caseorigincode" type="optionsetvalue" />
+      <field displayname="Originating Lead" name="msfed_originatinglead" type="entityreference" lookupType="lead" customfield="true" />
+      <field displayname="Parent Case" name="parentcaseid" type="entityreference" lookupType="incident" />
+      <field displayname="Pre Create Entity Attachments Id" name="msdyn_precreateattachmentsid" type="string" customfield="true" />
+      <field displayname="Pre Create Notes Id" name="msdyn_precreatenotesid" type="string" customfield="true" />
+      <field displayname="Priority" name="prioritycode" type="optionsetvalue" />
+      <field displayname="Received As" name="messagetypecode" type="optionsetvalue" />
+      <field displayname="Resolve By" name="resolveby" type="datetime" />
+      <field displayname="Resolve By KPI" name="resolvebykpiid" type="entityreference" lookupType="slakpiinstance" />
+      <field displayname="Resolve By SLA Status" name="resolvebyslastatus" type="optionsetvalue" />
+      <field displayname="Responsible Contact (Deprecated)" name="responsiblecontactid" type="entityreference" lookupType="contact" />
+      <field displayname="Route Case" name="routecase" type="bool" />
+      <field displayname="Satisfaction" name="customersatisfactioncode" type="optionsetvalue" />
+      <field displayname="Sentiment" name="msdyn_casesentiment" type="optionsetvalue" customfield="true" />
+      <field displayname="Sentiment Value" name="sentimentvalue" type="float" />
+      <field displayname="Serial Number" name="productserialnumber" type="string" />
+      <field displayname="Service Level" name="contractservicelevelcode" type="optionsetvalue" />
+      <field displayname="Service Stage" name="servicestage" type="optionsetvalue" />
+      <field displayname="Severity" name="severitycode" type="optionsetvalue" />
+      <field displayname="Status" name="statecode" type="state" />
+      <field displayname="Status Reason" name="statuscode" type="status" />
+      <field displayname="Entitlement" name="entitlementid" type="entityreference" lookupType="entitlement" />
+      <field displayname="Process Id" name="processid" type="guid" />
+    </fields>
+  </entity>
+</entities>

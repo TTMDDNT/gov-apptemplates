@@ -1,0 +1,21 @@
+<entities >
+  <entity name="govcdm_project" displayname="Project" etc="10533" primaryidfield="govcdm_projectid" primarynamefield="govcdm_name" disableplugins="false">
+    <fields>
+      <field displayname="Actual End Date" name="govcdm_actualenddate" type="datetime" customfield="true" />
+      <field displayname="Actual Start Date" name="govcdm_actualstartdate" type="datetime" customfield="true" />
+      <field displayname="Budget Amount" name="govcdm_budgetamount" type="money" customfield="true" />
+      <field displayname="Budget Amount (Base)" name="govcdm_budgetamount_base" type="money" customfield="true" />
+      <field displayname="Description" name="govcdm_description" type="string" customfield="true" />
+      <field displayname="Name" name="govcdm_name" type="string" customfield="true" />
+      <field displayname="Parent Project" name="govcdm_parentproject" type="entityreference" lookupType="govcdm_project" customfield="true" />
+      <field displayname="Primary Project Manager" name="govcdm_primaryprojectmanager" type="entityreference" lookupType="govcdm_projectresource" customfield="true" />
+      <field displayname="Project" name="govcdm_projectid" type="guid" primaryKey="true" />
+      <field displayname="Project Code" name="govcdm_projectcode" type="string" customfield="true" />
+      <field displayname="Project Request" name="govcdm_projectrequest" type="entityreference" lookupType="govcdm_projectrequest" customfield="true" />
+      <field displayname="Scheduled End Date" name="govcdm_scheduledenddate" type="datetime" customfield="true" />
+      <field displayname="Scheduled Start Date" name="govcdm_scheduledstartdate" type="datetime" customfield="true" />
+      <field displayname="Status" name="statecode" type="state" />
+      <field displayname="Status Reason" name="statuscode" type="status" />
+    </fields>
+  </entity>
+</entities>

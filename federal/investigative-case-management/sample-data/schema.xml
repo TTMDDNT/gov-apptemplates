@@ -1,0 +1,35 @@
+<entities >
+  <entity name="govcdm_icmviolation" displayname="ICM Violation" etc="10605" primaryidfield="govcdm_icmviolationid" primarynamefield="govcdm_name" disableplugins="false">
+    <fields>
+      <field displayname="Abbreviation" name="govcdm_abbreviation" type="string" customfield="true" />
+      <field displayname="Description" name="govcdm_description" type="string" customfield="true" />
+      <field displayname="ICM Violation" name="govcdm_icmviolationid" type="guid" primaryKey="true" />
+      <field displayname="Name" name="govcdm_name" type="string" customfield="true" />
+    </fields>
+  </entity>
+  <entity name="govcdm_icmlead" displayname="ICM Lead" etc="10603" primaryidfield="govcdm_icmleadid" primarynamefield="govcdm_name" disableplugins="false">
+    <fields>
+      <field displayname="Business Phone" name="govcdm_businessphone" type="string" customfield="true" />
+      <field displayname="Email Address" name="govcdm_emailaddress" type="string" customfield="true" />
+      <field displayname="First Name" name="govcdm_firstname" type="string" customfield="true" />
+      <field displayname="Home Phone" name="govcdm_homephone" type="string" customfield="true" />
+      <field displayname="ICM Lead" name="govcdm_icmleadid" type="guid" primaryKey="true" />
+      <field displayname="Incident End Date" name="govcdm_incidentenddate" type="datetime" customfield="true" />
+      <field displayname="Incident Primary Location" name="govcdm_incidentprimarylocation" type="entityreference" lookupType="govcdm_location" customfield="true" />
+      <field displayname="Incident Start Date" name="govcdm_incidentstartdate" type="datetime" customfield="true" />
+      <field displayname="Last Name" name="govcdm_lastname" type="string" customfield="true" />
+      <field displayname="Method of Receipt" name="govcdm_methodofreceipt" type="optionsetvalue" customfield="true" />
+      <field displayname="Mobile Phone" name="govcdm_mobilephone" type="string" customfield="true" />
+      <field displayname="Name" name="govcdm_name" type="string" customfield="true" />
+      <field displayname="Narrative Details" name="govcdm_narrativedetails" type="string" customfield="true" />
+      <field displayname="Narrative Location(s)" name="govcdm_narrativelocations" type="string" customfield="true" />
+      <field displayname="Narrative Other Parties" name="govcdm_narrativeotherparties" type="string" customfield="true" />
+      <field displayname="Narrative Subject(s)" name="govcdm_narrativesubjects" type="string" customfield="true" />
+      <field displayname="Preferred Method of Contact" name="govcdm_preferredmethodofcontact" type="optionsetvalue" customfield="true" />
+      <field displayname="Priority" name="govcdm_priority" type="optionsetvalue" customfield="true" />
+      <field displayname="Received Date Time" name="govcdm_receiveddatetime" type="datetime" customfield="true" />
+      <field displayname="Record Created On" name="overriddencreatedon" type="datetime" />
+      <field displayname="Remain Anonymous" name="govcdm_remainanonymous" type="optionsetvalue" customfield="true" />
+    </fields>
+  </entity>
+</entities>

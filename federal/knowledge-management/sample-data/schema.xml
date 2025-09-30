@@ -1,0 +1,12 @@
+<entities >
+  <entity name="govcdm_kbarticle" displayname="KB Article" etc="10553" primaryidfield="govcdm_kbarticleid" primarynamefield="govcdm_name" disableplugins="false">
+    <fields>
+      <field displayname="Details" name="govcdm_details" type="string" customfield="true" />
+      <field displayname="KB Article" name="govcdm_kbarticleid" type="guid" primaryKey="true" />
+      <field displayname="Keywords" name="govcdm_keywords" type="string" customfield="true" />
+      <field displayname="Name" name="govcdm_name" type="string" customfield="true" />
+      <field displayname="URL Moniker" name="govcdm_urlmoniker" type="string" customfield="true" />
+      <field displayname="Short URL" name="govcdm_shorturl" type="string" customfield="true" />
+    </fields>
+  </entity>
+</entities>

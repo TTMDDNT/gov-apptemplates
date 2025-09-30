@@ -1,0 +1,114 @@
+<entities >
+  <entity name="govcdm_trainingcertificate" displayname="Training Certificate" etc="10510" primaryidfield="govcdm_trainingcertificateid" primarynamefield="govcdm_name" disableplugins="false">
+    <fields>
+      <field displayname="Name" name="govcdm_name" type="string" customfield="true" />
+      <field displayname="Description" name="govcdm_description" type="string" customfield="true" />
+      <field displayname="Issue Requirements" name="govcdm_issuerequirements" type="string" customfield="true" />
+      <field displayname="Issuing Body" name="govcdm_issuingbody" type="entityreference" lookupType="account" customfield="true" />
+      <field displayname="Valid For" name="govcdm_validfor" type="number" customfield="true" />
+      <field displayname="Training Course" name="govcdm_trainingcourse" type="entityreference" lookupType="govcdm_trainingcourse" customfield="true" />
+      <field displayname="Training Certificate" name="govcdm_trainingcertificateid" type="guid" primaryKey="true" />
+      <field displayname="Status" name="statecode" type="state" />
+      <field displayname="Status Reason" name="statuscode" type="status" />
+      <field displayname="Renewal Requirements" name="govcdm_renewalrequirements" type="string" customfield="true" />
+    </fields>
+  </entity>
+  <entity name="govcdm_trainingclass" displayname="Training Class" etc="10511" primaryidfield="govcdm_trainingclassid" primarynamefield="govcdm_name" disableplugins="false">
+    <fields>
+      <field displayname="Class Number" name="govcdm_name" type="string" customfield="true" />
+      <field displayname="Room Number" name="govcdm_roomnumber" type="string" customfield="true" />
+      <field displayname="Capacity" name="govcdm_capacity" type="number" customfield="true" />
+      <field displayname="Class Materials" name="govcdm_classmaterials" type="string" customfield="true" />
+      <field displayname="Title" name="govcdm_title" type="string" customfield="true" />
+      <field displayname="End Date" name="govcdm_enddate" type="datetime" customfield="true" />
+      <field displayname="Enrollment Close Date" name="govcdm_enrollmentclosedate" type="datetime" customfield="true" />
+      <field displayname="Enrollment Open Date" name="govcdm_enrollmentopendate" type="datetime" customfield="true" />
+      <field displayname="Hours" name="govcdm_hours" type="number" customfield="true" />
+      <field displayname="Instructor" name="govcdm_instructor" type="entityreference" lookupType="govcdm_traininginstructor" customfield="true" />
+      <field displayname="Location" name="govcdm_location" type="entityreference" lookupType="govcdm_location" customfield="true" />
+      <field displayname="Max Capacity" name="govcdm_maxcapacity" type="number" customfield="true" />
+      <field displayname="Min Capacity" name="govcdm_mincapacity" type="number" customfield="true" />
+      <field displayname="Start Date" name="govcdm_startdate" type="datetime" customfield="true" />
+      <field displayname="Status" name="statecode" type="state" />
+      <field displayname="Status Reason" name="statuscode" type="status" />
+      <field displayname="Total Enrolled" name="govcdm_totalenrolled" type="number" customfield="true" />
+      <field displayname="Training Class" name="govcdm_trainingclassid" type="guid" primaryKey="true" />
+      <field displayname="Training Course" name="govcdm_trainingcourse" type="entityreference" lookupType="govcdm_trainingcourse" customfield="true" />
+    </fields>
+  </entity>
+  <entity name="govcdm_trainingcourse" displayname="Training Course" etc="10514" primaryidfield="govcdm_trainingcourseid" primarynamefield="govcdm_name" disableplugins="false">
+    <fields>
+      <field displayname="Syllabus" name="govcdm_syllabus" type="string" customfield="true" />
+      <field displayname="Accreditation " name="govcdm_accreditation" type="string" customfield="true" />
+      <field displayname="Assessment Method" name="govcdm_assessmentmethod" type="string" customfield="true" />
+      <field displayname="Title" name="govcdm_title" type="string" customfield="true" />
+      <field displayname="Description" name="govcdm_description" type="string" customfield="true" />
+      <field displayname="Duration" name="govcdm_duration" type="number" customfield="true" />
+      <field displayname="Knowlege Level" name="govcdm_knowlegelevel" type="optionsetvalue" customfield="true" />
+      <field displayname="Learning Objectives" name="govcdm_learningobjectives" type="string" customfield="true" />
+      <field displayname="Materials Needed" name="govcdm_materialsneeded" type="string" customfield="true" />
+      <field displayname="Course Number" name="govcdm_name" type="string" customfield="true" />
+      <field displayname="Prerequisites " name="govcdm_prerequisites" type="string" customfield="true" />
+      <field displayname="Primary Training Objective" name="govcdm_primarytrainingobjective" type="entityreference" lookupType="govcdm_trainingobjective" customfield="true" />
+      <field displayname="Status" name="statecode" type="state" />
+      <field displayname="Status Reason" name="statuscode" type="status" />
+      <field displayname="Total Capacity" name="govcdm_totalcapacity" type="number" customfield="true" />
+      <field displayname="Total Enrolled" name="govcdm_totalenrolled" type="number" customfield="true" />
+      <field displayname="Training Course" name="govcdm_trainingcourseid" type="guid" primaryKey="true" />
+    </fields>
+  </entity>
+  <entity name="govcdm_trainingcoursecertificate" displayname="Training Course Certificate" etc="10624" primaryidfield="govcdm_trainingcoursecertificateid" primarynamefield="govcdm_name" disableplugins="false">
+    <fields>
+      <field displayname="Status Reason" name="statuscode" type="status" />
+      <field displayname="Training Certificate" name="govcdm_trainingcertificate" type="entityreference" lookupType="govcdm_trainingcertificate" customfield="true" />
+      <field displayname="Training Course" name="govcdm_trainingcourse" type="entityreference" lookupType="govcdm_trainingcourse" customfield="true" />
+      <field displayname="Training Course Certificate" name="govcdm_trainingcoursecertificateid" type="guid" primaryKey="true" />
+      <field displayname="Name" name="govcdm_name" type="string" customfield="true" />
+      <field displayname="Status" name="statecode" type="state" />
+    </fields>
+  </entity>
+  <entity name="govcdm_trainingcourseenrollee" displayname="Training Course Enrollee" etc="10515" primaryidfield="govcdm_trainingcourseenrolleeid" primarynamefield="govcdm_name" disableplugins="false">
+    <fields>
+      <field displayname="Email Address" name="govcdm_emailaddress" type="string" customfield="true" />
+      <field displayname="Enrollee Comments" name="govcdm_enrolleecomments" type="string" customfield="true" />
+      <field displayname="Enrollee Employment Type" name="govcdm_enrolleeemploymenttype" type="optionsetvalue" customfield="true" />
+      <field displayname="Enrollee Organization Unit" name="govcdm_enrolleeorganizationunit" type="entityreference" lookupType="govcdm_organizationunit" customfield="true" />
+      <field displayname="Enrollee Paygrade" name="govcdm_enrolleepaygrade" type="entityreference" lookupType="govcdm_paygrade" customfield="true" />
+      <field displayname="Enrollment Status" name="govcdm_enrollmentstatus" type="optionsetvalue" customfield="true" />
+      <field displayname="First Name" name="govcdm_firstname" type="string" customfield="true" />
+      <field displayname="Home Phone" name="govcdm_homephone" type="string" customfield="true" />
+      <field displayname="Identification Number" name="govcdm_identificationnumber" type="string" customfield="true" />
+      <field displayname="Last Name" name="govcdm_lastname" type="string" customfield="true" />
+      <field displayname="Middle Name" name="govcdm_middlename" type="string" customfield="true" />
+      <field displayname="Mobile Phone" name="govcdm_mobilephone" type="string" customfield="true" />
+      <field displayname="Name" name="govcdm_name" type="string" customfield="true" />
+      <field displayname="Person" name="govcdm_person" type="entityreference" lookupType="contact" customfield="true" />
+      <field displayname="Status" name="statecode" type="state" />
+      <field displayname="Status Reason" name="statuscode" type="status" />
+      <field displayname="Training Class" name="govcdm_trainingclass" type="entityreference" lookupType="govcdm_trainingclass" customfield="true" />
+      <field displayname="Training Course" name="govcdm_trainingcourse" type="entityreference" lookupType="govcdm_trainingcourse" customfield="true" />
+      <field displayname="Training Course Enrollee" name="govcdm_trainingcourseenrolleeid" type="guid" primaryKey="true" />
+    </fields>
+  </entity>
+  <entity name="govcdm_trainingcourserequirement" displayname="Training Course Requirement" etc="10599" primaryidfield="govcdm_trainingcourserequirementid" primarynamefield="govcdm_name" disableplugins="false">
+    <fields>
+      <field displayname="Name" name="govcdm_name" type="string" customfield="true" />
+      <field displayname="Requires Certificate" name="govcdm_requirescertificate" type="entityreference" lookupType="govcdm_trainingcertificate" customfield="true" />
+      <field displayname="Requires Course" name="govcdm_requirescourse" type="entityreference" lookupType="govcdm_trainingcourse" customfield="true" />
+      <field displayname="Requires Other" name="govcdm_requiresother" type="string" customfield="true" />
+      <field displayname="Training Course" name="govcdm_trainingcourse" type="entityreference" lookupType="govcdm_trainingcourse" customfield="true" />
+      <field displayname="Training Course Requirement" name="govcdm_trainingcourserequirementid" type="guid" primaryKey="true" />
+    </fields>
+  </entity>
+  <entity name="govcdm_trainingobjective" displayname="Training Objective" etc="10517" primaryidfield="govcdm_trainingobjectiveid" primarynamefield="govcdm_name" disableplugins="false">
+    <fields>
+      <field displayname="Description" name="govcdm_description" type="string" customfield="true" />
+      <field displayname="Key Performance Indicators" name="govcdm_keyperformanceindicators" type="string" customfield="true" />
+      <field displayname="Name" name="govcdm_name" type="string" customfield="true" />
+      <field displayname="Status" name="statecode" type="state" />
+      <field displayname="Status Reason" name="statuscode" type="status" />
+      <field displayname="Target Completion Date" name="govcdm_targetcompletiondate" type="datetime" customfield="true" />
+      <field displayname="Training Objective" name="govcdm_trainingobjectiveid" type="guid" primaryKey="true" />
+    </fields>
+  </entity>
+</entities>
