@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{a34c84de-a9d6-ee11-9079-000d3a3b9c87}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="govcdm_name" select="1" icon="1" preview="1">
+        <row name="result" id="govcdm_budgetobjectclassificationid">
+          <cell name="govcdm_abbreviation" width="114" />
+          <cell name="govcdm_name" width="200" />
+          <cell name="govcdm_parentcode" width="109" />
+          <cell name="govcdm_description" width="106" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical">
+        <entity name="govcdm_budgetobjectclassification">
+          <attribute name="govcdm_name" />
+          <attribute name="govcdm_budgetobjectclassificationid" />
+          <attribute name="govcdm_abbreviation" />
+          <attribute name="govcdm_description" />
+          <attribute name="govcdm_parentcode" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Budget Object Classification Codes" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

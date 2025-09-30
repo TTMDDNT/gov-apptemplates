@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{00b55be7-8348-41a3-a4cf-1482877efc2a}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls" shownavigationbar="false" solutionaction="Modified">
+      <tabs>
+        <tab verticallayout="true" id="{d8aa3869-0f7e-43bf-a792-88d1ccea3d77}" IsUserDefined="1" ordinalvalue="0">
+          <columns>
+            <column width="100%" id="0">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{2a2794bf-57ae-469a-bb43-65d3352046d9}" ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell id="{d36f2244-fc3c-4b81-9b07-ccacb89f8463}" colspan="1" rowspan="1" ordinalvalue="10005" solutionaction="Modified" />
+                    </row>
+                    <row>
+                      <cell id="{7a30dfcd-dabf-4153-8cf6-1631d9253274}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10001" solutionaction="Added">
+                        <labels>
+                          <label description="Contract Start Date" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_contractstartdate" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="govcdm_contractstartdate" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{af771c0c-ea2b-4e69-adc7-d455826df92b}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10002" solutionaction="Added">
+                        <labels>
+                          <label description="Contract End Date" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_contractenddate" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="govcdm_contractenddate" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{7d22972d-83f7-4198-a1f1-5e4ab5c8bd88}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10003" solutionaction="Added">
+                        <labels>
+                          <label description="Contracting Officer" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_contractingofficer" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="govcdm_contractingofficer" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e4ab95b0-d64f-4b1a-8495-e09609264948}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10004" solutionaction="Added">
+                        <labels>
+                          <label description="Description" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_description" classid="{E0DECE4B-6FC8-4A8F-A065-082708572369}" datafieldname="govcdm_description" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_2" id="b75c2bf5-b00b-4b35-8840-4f29b519d13c" IsUserDefined="0" locklevel="0" showlabel="true" visible="false" ordinalvalue="1" solutionaction="Added">
+          <labels>
+            <label description="Process and Tasking" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%" id="0">
+              <sections>
+                <section name="tab_2_section_1" id="1c1dc14d-8ee3-4610-a812-838c65a463f6" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115" ordinalvalue="0">
+                  <labels>
+                    <label description="New Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row />
+                    <row>
+                      <cell id="{4c25195a-42db-4680-81c3-b628c6da0f89}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10000">
+                        <labels>
+                          <label description="Process and Tasking State" languagecode="1033" />
+                        </labels>
+                        <control id="msfed_processandtaskingstate" classid="{E0DECE4B-6FC8-4A8F-A065-082708572369}" datafieldname="msfed_processandtaskingstate" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{1ce72f38-ca3e-4f6b-b48e-ff038e343313}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left" solutionaction="Added">
+        <rows>
+          <row>
+            <cell id="{16174ecb-2e14-460a-9efb-4cbe448552f5}" showlabel="false" ordinalvalue="10000">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{c679325a-c13d-483e-810c-4c3204624d24}" showlabel="false" ordinalvalue="20001">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{d4b3177e-4578-4f65-973f-c382e498a3f7}" showlabel="false" ordinalvalue="30002">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{68fcb34d-3b3f-4ab6-8b0d-1fc296eeb342}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left" solutionaction="Added">
+        <rows>
+          <row>
+            <cell id="{693f5ca7-894a-46c1-baab-14db21a7bc1d}" showlabel="false" ordinalvalue="10000">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{98768576-f3fc-4efe-8f67-9dafc3a5a021}" showlabel="false" ordinalvalue="20001">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{4f668425-626c-4bb6-b5c6-4ad7f5d52359}" showlabel="false" ordinalvalue="30002">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions Order="0" FallbackForm="true" solutionaction="Added">
+        <Everyone />
+      </DisplayConditions>
+      <formLibraries solutionaction="Added">
+        <Library name="msfed_processandtasking" libraryUniqueId="{4d00e06b-4d29-4e8e-8491-c18b5d183918}" />
+      </formLibraries>
+      <events solutionaction="Added">
+        <event name="onload" application="false" active="false">
+          <Handlers>
+            <Handler functionName="openActionItemPane" libraryName="msfed_processandtasking" handlerUniqueId="{f8ca3a52-95d1-42f7-a9ee-4b06f87e0bf4}" enabled="true" parameters="" passExecutionContext="true" ordinalvalue="0" />
+            <Handler functionName="registerClosePanes" libraryName="msfed_processandtasking" handlerUniqueId="{91f3f00a-eec3-403b-91a4-1a44f30afac5}" enabled="true" parameters="" passExecutionContext="true" ordinalvalue="1" />
+          </Handlers>
+        </event>
+      </events>
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

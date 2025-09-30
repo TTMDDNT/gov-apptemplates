@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{aaacce2f-a9d6-ee11-9079-000d3a3b9c87}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{60efaae7-c7b6-49b2-af19-d7f2c4c8308f}" IsUserDefined="1" labelid="{396c9098-aef8-4fe7-9647-bb3f7a7cd143}">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{b72e7696-7a07-4e2e-9988-3b96cbd4ab88}" labelid="{3c15001f-5a82-4041-b551-72338d5089f6}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{fa434f1d-17c3-4601-83b2-f864491b4b37}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Abbreviation" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_abbreviation" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="govcdm_abbreviation" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{bb1f5ebf-6298-4b3b-99e7-7e08601f2aca}" labelid="{139558d2-aa9b-4d9a-8219-f325365856eb}">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="govcdm_name" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a9bae3c8-e75f-453b-be27-15a81fd7eab9}" locklevel="0" colspan="1" rowspan="4">
+                        <labels>
+                          <label description="Description" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_description" classid="{E0DECE4B-6FC8-4A8F-A065-082708572369}" datafieldname="govcdm_description" disabled="false" />
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row>
+                      <cell id="{882fe111-0e58-44f6-815b-c926970f1582}" labelid="{0dedb7dd-d4fa-4a23-8fa9-ec48271fe71d}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{d0072e94-78d8-4911-a9d6-cc0d6eb8bdfa}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{c4c5a99f-8fec-451c-8c40-d15b7fd669af}" showlabel="false" labelid="{3d400378-c690-4584-944f-7a5cc45efe71}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{8888ad67-f310-4675-84b8-ae0a3e1fa811}" showlabel="false" labelid="{d33db4f2-c717-4cbb-a9fa-6a37cbe4d261}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{998782cb-820b-41fa-95d3-56feb3afbce8}" showlabel="false" labelid="{6a423c04-e642-4852-ad7f-f9e615e4a585}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{80c287ab-9788-4917-822e-930661fff55d}" locklevel="0" colspan="1" rowspan="1">
+              <labels>
+                <label description="Parent Code" languagecode="1033" />
+              </labels>
+              <control id="header_govcdm_parentcode" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="govcdm_parentcode" disabled="false" />
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{a140ae1a-4300-4351-8bd3-e9f65c7576ca}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{dbf38663-7765-4e99-a538-10d7b3192a16}" showlabel="false" labelid="{d522b25b-6020-4bc1-bde9-eed17cbe6879}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{9f7ff335-cafc-454b-b087-e6a7c85279c1}" showlabel="false" labelid="{71f5eb45-149c-4189-8bcf-ed6ec9141ae2}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{9dfac8fd-de3d-4a08-a20a-ca0dfaae9350}" showlabel="false" labelid="{7600cf57-0704-4700-985c-c9bad8077925}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions Order="1" FallbackForm="true">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Main" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

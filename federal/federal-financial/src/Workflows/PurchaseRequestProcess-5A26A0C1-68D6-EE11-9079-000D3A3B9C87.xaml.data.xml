@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Workflow WorkflowId="{5a26a0c1-68d6-ee11-9079-000d3a3b9c87}" Name="Purchase Request Process" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <XamlFileName>/Workflows/PurchaseRequestProcess-5A26A0C1-68D6-EE11-9079-000D3A3B9C87.xaml</XamlFileName>
+  <Type>1</Type>
+  <Subprocess>0</Subprocess>
+  <Category>4</Category>
+  <Mode>0</Mode>
+  <Scope>4</Scope>
+  <OnDemand>0</OnDemand>
+  <TriggerOnCreate>1</TriggerOnCreate>
+  <TriggerOnDelete>0</TriggerOnDelete>
+  <AsyncAutodelete>0</AsyncAutodelete>
+  <SyncWorkflowLogOnFailure>0</SyncWorkflowLogOnFailure>
+  <StateCode>1</StateCode>
+  <StatusCode>2</StatusCode>
+  <processorder>100</processorder>
+  <RunAs>1</RunAs>
+  <UniqueName>msfed_purchaserequestprocess</UniqueName>
+  <IsTransacted>1</IsTransacted>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <BusinessProcessType>0</BusinessProcessType>
+  <IsCustomProcessingStepAllowedForOtherPublishers>1</IsCustomProcessingStepAllowedForOtherPublishers>
+  <ProcessTriggerScope>1</ProcessTriggerScope>
+  <PrimaryEntity>govcdm_PurchaseRequest</PrimaryEntity>
+  <LocalizedNames>
+    <LocalizedName languagecode="1033" description="Purchase Request Process" />
+  </LocalizedNames>
+  <labels>
+    <steplabels id="{484ffbd7-f5ef-4323-bd80-932b741f5d01}">
+      <label languagecode="1033" description="Request Submission" />
+    </steplabels>
+    <steplabels id="{80a2f68d-08f4-46bf-997d-aca261b0e9fb}">
+      <label languagecode="1033" description="Purchase Request Number" />
+    </steplabels>
+    <steplabels id="{7356b266-1ee4-423a-97d9-be8eb935579c}">
+      <label languagecode="1033" description="Approval" />
+    </steplabels>
+    <steplabels id="{f42972bc-7379-431e-9fa6-63b13642cc1b}">
+      <label languagecode="1033" description="Approval Status" />
+    </steplabels>
+    <steplabels id="{e3adfdd3-fc21-40e5-a302-e83764049a17}">
+      <label languagecode="1033" description="Fulfillment " />
+    </steplabels>
+    <steplabels id="{891b7eda-7b11-479e-bf84-e9b343e54bc0}">
+      <label languagecode="1033" description="Status" />
+    </steplabels>
+  </labels>
+</Workflow>

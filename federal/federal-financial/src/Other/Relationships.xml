@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EntityRelationships xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <EntityRelationship Name="bpf_govcdm_purchaserequest_msfed_purchaserequestprocess" />
+  <EntityRelationship Name="lk_msfed_purchaserequestprocess_activestageid" />
+  <EntityRelationship Name="lk_msfed_purchaserequestprocess_createdby" />
+  <EntityRelationship Name="lk_msfed_purchaserequestprocess_modifiedby" />
+  <EntityRelationship Name="lk_msfed_purchaserequestprocess_processid" />
+  <EntityRelationship Name="organization_msfed_purchaserequestprocess" />
+</EntityRelationships>

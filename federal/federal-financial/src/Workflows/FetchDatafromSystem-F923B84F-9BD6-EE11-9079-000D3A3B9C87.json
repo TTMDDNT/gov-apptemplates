@@ -1,0 +1,118 @@
+{
+  "properties": {
+    "connectionReferences": {},
+    "definition": {
+      "$schema": "https://schema.management.azure.com/providers/Microsoft.Logic/schemas/2016-06-01/workflowdefinition.json#",
+      "contentVersion": "1.0.0.0",
+      "parameters": {
+        "$authentication": {
+          "defaultValue": {},
+          "type": "SecureObject"
+        }
+      },
+      "triggers": {
+        "manual": {
+          "metadata": {
+            "operationMetadataId": "7ab6a5cf-9457-45b9-809f-e3a3ae640eb1"
+          },
+          "type": "Request",
+          "kind": "PowerAppV2",
+          "inputs": {
+            "schema": {
+              "type": "object",
+              "properties": {
+                "text": {
+                  "title": "From System",
+                  "type": "string",
+                  "x-ms-dynamically-added": true,
+                  "description": "Please enter the Source System Name",
+                  "x-ms-content-hint": "TEXT"
+                }
+              },
+              "required": [
+                "text"
+              ]
+            }
+          }
+        }
+      },
+      "actions": {
+        "Condition": {
+          "actions": {
+            "Fetch_from_Accounting_System": {
+              "runAfter": {},
+              "metadata": {
+                "operationMetadataId": "8cfae70e-ae19-48ce-814b-928cdbc2b6bc"
+              },
+              "type": "SetVariable",
+              "inputs": {
+                "name": "ResultText",
+                "value": "ACT-@{rand(10000, 20000)}"
+              }
+            }
+          },
+          "runAfter": {
+            "Initialize_variable": [
+              "Succeeded"
+            ]
+          },
+          "expression": {
+            "equals": [
+              "@triggerBody()['text']",
+              "Accounting Number"
+            ]
+          },
+          "metadata": {
+            "operationMetadataId": "542e8eba-8765-4882-b3ba-bb7dc3c58a50"
+          },
+          "type": "If"
+        },
+        "Initialize_variable": {
+          "runAfter": {},
+          "metadata": {
+            "operationMetadataId": "73cf6592-f395-4ffd-9e76-bc9bde0ac569"
+          },
+          "type": "InitializeVariable",
+          "inputs": {
+            "variables": [
+              {
+                "name": "ResultText",
+                "type": "string"
+              }
+            ]
+          }
+        },
+        "Respond_to_a_PowerApp_or_flow": {
+          "runAfter": {
+            "Condition": [
+              "Succeeded"
+            ]
+          },
+          "metadata": {
+            "operationMetadataId": "683bfd3d-b329-4f56-bb0c-068191be11b1"
+          },
+          "type": "Response",
+          "kind": "PowerApp",
+          "inputs": {
+            "statusCode": 200,
+            "body": {
+              "resulttext": "@variables('ResultText')"
+            },
+            "schema": {
+              "type": "object",
+              "properties": {
+                "resulttext": {
+                  "title": "ResultText",
+                  "x-ms-dynamically-added": true,
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "templateName": ""
+  },
+  "schemaVersion": "1.0.0.0"
+}

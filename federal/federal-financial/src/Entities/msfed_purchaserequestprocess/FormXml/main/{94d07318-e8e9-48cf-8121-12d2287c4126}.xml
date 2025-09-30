@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{94d07318-e8e9-48cf-8121-12d2287c4126}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{484ffbd7-f5ef-4323-bd80-932b741f5d01}" name="StageStep3" locklevel="0" expanded="true" visible="false" labelid="{7cfc8742-8034-4bc2-b3c0-62156ef17766}">
+          <labels>
+            <label description="Request Submission" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{af500c0b-892c-9bfe-9e12-19ab86af1dab}" name="StageStep3_section1" labelid="{965c1a11-57ff-48c1-a0c0-d171d232d031}">
+                  <labels>
+                    <label description="Request Submission" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{80a2f68d-08f4-46bf-997d-aca261b0e9fb}" showlabel="true" visible="true" labelid="{5bed464f-ae7e-4647-be8c-641282b92f36}">
+                        <labels>
+                          <label description="Purchase Request Number" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_govcdm_purchaserequest_msfed_purchaserequestprocess:govcdm_name" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="govcdm_name" disabled="false" relationship="bpf_govcdm_purchaserequest_msfed_purchaserequestprocess" isrequired="true" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{7356b266-1ee4-423a-97d9-be8eb935579c}" name="StageStep7" locklevel="0" expanded="true" visible="false" labelid="{cd64af38-300f-4fef-986c-0a0d825a17c8}">
+          <labels>
+            <label description="Approval" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{1e0cbe31-2486-db01-a90b-c59bf6fdf750}" name="StageStep7_section1" labelid="{bee5b415-321c-4242-87ef-00a9838a10b9}">
+                  <labels>
+                    <label description="Approval" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{f42972bc-7379-431e-9fa6-63b13642cc1b}" showlabel="true" visible="true" labelid="{98dc8cc8-a728-47a4-a210-a0200a86a21f}">
+                        <labels>
+                          <label description="Approval Status" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_govcdm_purchaserequest_msfed_purchaserequestprocess:govcdm_approvalstatus" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="govcdm_approvalstatus" disabled="false" relationship="bpf_govcdm_purchaserequest_msfed_purchaserequestprocess" isrequired="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{e3adfdd3-fc21-40e5-a302-e83764049a17}" name="StageStep11" locklevel="0" expanded="true" visible="false" labelid="{75d06125-f397-4c19-ab55-6d4db01d7102}">
+          <labels>
+            <label description="Fulfillment " languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{b5df6bd6-c773-0bce-6e48-05ba52fc5296}" name="StageStep11_section1" labelid="{5e495b25-9671-485f-9a70-121ea0af8391}">
+                  <labels>
+                    <label description="Fulfillment " languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{891b7eda-7b11-479e-bf84-e9b343e54bc0}" showlabel="true" visible="true" labelid="{452fa56c-ef46-468e-a3bc-773a916599f0}">
+                        <labels>
+                          <label description="Status" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_govcdm_purchaserequest_msfed_purchaserequestprocess:statecode" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="statecode" disabled="false" relationship="bpf_govcdm_purchaserequest_msfed_purchaserequestprocess" isrequired="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

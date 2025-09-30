@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Entity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name LocalizedName="Budget Object Classification" OriginalName="Budget Object Classification">govcdm_BudgetObjectClassification</Name>
+  <FormXml />
+  <SavedQueries />
+  <RibbonDiffXml />
+</Entity>
