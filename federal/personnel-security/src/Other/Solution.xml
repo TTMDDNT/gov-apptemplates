@@ -1,0 +1,1327 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImportExportXml version="9.2.25074.262" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" OrganizationVersion="9.2.25074.262" OrganizationSchemaType="Standard" CRMServerServiceabilityVersion="9.2.25081.00260">
+  <SolutionManifest>
+    <UniqueName>msfed_personnelsecurity</UniqueName>
+    <LocalizedNames>
+      <LocalizedName description="Microsoft Federal - Personnel Security" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions />
+    <Version>1.0.1.0</Version>
+    <Managed>2</Managed>
+    <Publisher>
+      <UniqueName>microsoftfederal</UniqueName>
+      <LocalizedNames>
+        <LocalizedName description="microsoftfederal" languagecode="1033" />
+      </LocalizedNames>
+      <Descriptions>
+        <Description description="microsoftfederal" languagecode="1033" />
+      </Descriptions>
+      <EMailAddress xsi:nil="true"></EMailAddress>
+      <SupportingWebsiteUrl xsi:nil="true"></SupportingWebsiteUrl>
+      <CustomizationPrefix>msfed</CustomizationPrefix>
+      <CustomizationOptionValuePrefix>18844</CustomizationOptionValuePrefix>
+      <Addresses>
+        <Address>
+          <AddressNumber>1</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+        <Address>
+          <AddressNumber>2</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+      </Addresses>
+    </Publisher>
+    <RootComponents>
+      <RootComponent type="1" schemaName="govcdm_collaborationspace" behavior="1" />
+      <RootComponent type="1" schemaName="govcdm_personneladjudication" behavior="2" />
+      <RootComponent type="1" schemaName="govcdm_personnelbackgroundinvestigation" behavior="2" />
+      <RootComponent type="1" schemaName="govcdm_personnelbadgerequest" behavior="2" />
+      <RootComponent type="1" schemaName="govcdm_personnelclearance" behavior="2" />
+      <RootComponent type="1" schemaName="govcdm_personnelcvtrigger" behavior="2" />
+      <RootComponent type="1" schemaName="govcdm_personnelforeigncontact" behavior="2" />
+      <RootComponent type="1" schemaName="govcdm_personnelforeigntravel" behavior="2" />
+      <RootComponent type="1" schemaName="govcdm_personnelpassport" behavior="2" />
+      <RootComponent type="1" schemaName="govcdm_personnelphysicalcredential" behavior="1" />
+      <RootComponent type="1" schemaName="govcdm_personnelreportablelifeevent" behavior="2" />
+      <RootComponent type="1" schemaName="govcdm_personnelvisitorrequest" behavior="2" />
+      <RootComponent type="1" schemaName="msfed_personnelsecurityinvestigation" behavior="0" />
+      <RootComponent type="1" schemaName="msfed_widget" behavior="0" />
+      <RootComponent type="29" id="{8b2421da-6671-f011-bec2-001dd80e063c}" behavior="0" />
+      <RootComponent type="29" id="{e85bc12a-8974-f011-bec2-001dd80519db}" behavior="0" />
+      <RootComponent type="300" schemaName="msfed_personnelsecurityassistant_62406" behavior="0" />
+      <RootComponent type="401" id="{2f6f2a04-474b-4a10-863b-66ec76434756}" behavior="0" />
+      <RootComponent type="401" id="{50973caa-58d0-4fe6-a119-d901503616f9}" behavior="0" />
+      <RootComponent type="401" id="{b121ca23-c665-4af8-8bb5-6235ef75da23}" behavior="0" />
+      <RootComponent type="60" id="{e0d08e28-c273-f011-bec2-001dd80e063c}" behavior="0" />
+      <RootComponent type="62" schemaName="msfed_PersonnelSecurity" behavior="0" />
+      <RootComponent type="80" schemaName="msfed_PersonnelSecurity" behavior="0" />
+    </RootComponents>
+    <MissingDependencies>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_actionassignment" displayName="Action Assignment" solution="govcdm_processandtasking (1.0.2.0)" />
+        <Dependent type="80" schemaName="msfed_PersonnelSecurity" displayName="Personnel Security" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_collaborationspace" displayName="Collaboration Space" solution="govcdm_processandtasking (1.0.2.0)" />
+        <Dependent type="1" schemaName="govcdm_collaborationspace" displayName="Collaboration Space" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_document" displayName="Document" solution="govcdm_core (1.0.2.2)" />
+        <Dependent type="80" schemaName="msfed_PersonnelSecurity" displayName="Personnel Security" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_personalinformation" displayName="Personal Information" solution="govcdm_core (1.0.2.2)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Personnel Background Investigation" id="{77349620-4cf1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_personalinformation" displayName="Personal Information" solution="govcdm_core (1.0.2.2)" />
+        <Dependent type="62" schemaName="msfed_PersonnelSecurity" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_personalinformation" displayName="Personal Information" solution="govcdm_core (1.0.2.2)" />
+        <Dependent type="80" schemaName="msfed_PersonnelSecurity" displayName="Personnel Security" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_personneladjudication" displayName="Personnel Adjudication" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="1" schemaName="govcdm_personneladjudication" displayName="Personnel Adjudication" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_personnelbackgroundinvestigation" displayName="Personnel Background Investigation" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="1" schemaName="govcdm_personnelbackgroundinvestigation" displayName="Personnel Background Investigation" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_personnelbadgerequest" displayName="Personnel Badge Request" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="1" schemaName="govcdm_personnelbadgerequest" displayName="Personnel Badge Request" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_personnelbadgerequest" displayName="Personnel Badge Request" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Personnel Badge Request" id="{d7fa7e35-4cf1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_personnelclearance" displayName="Personnel Clearance" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="1" schemaName="govcdm_personnelclearance" displayName="Personnel Clearance" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_personnelcvtrigger" displayName="Personnel CV Trigger" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="1" schemaName="govcdm_personnelcvtrigger" displayName="Personnel CV Trigger" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_personnelforeigncontact" displayName="Personnel Foreign Contact" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="1" schemaName="govcdm_personnelforeigncontact" displayName="Personnel Foreign Contact" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_personnelforeigncontact" displayName="Personnel Foreign Contact" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Personnel Background Investigation" id="{77349620-4cf1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_personnelforeigncontact" displayName="Personnel Foreign Contact" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Personnel Foreign Contact" id="{e9e7385a-bff1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_personnelforeigncontact" displayName="Personnel Foreign Contact" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="62" schemaName="msfed_PersonnelSecurity" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_personnelforeigncontact" displayName="Personnel Foreign Contact" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="80" schemaName="msfed_PersonnelSecurity" displayName="Personnel Security" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_personnelforeigntravel" displayName="Personnel Foreign Travel" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="1" schemaName="govcdm_personnelforeigntravel" displayName="Personnel Foreign Travel" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_personnelforeigntravel" displayName="Personnel Foreign Travel" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Personnel Foreign Travel" id="{761a4198-bff1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_personnelforeigntravel" displayName="Personnel Foreign Travel" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Personnel Background Investigation" id="{77349620-4cf1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_personnelforeigntravel" displayName="Personnel Foreign Travel" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="62" schemaName="msfed_PersonnelSecurity" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_personnelforeigntravel" displayName="Personnel Foreign Travel" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="80" schemaName="msfed_PersonnelSecurity" displayName="Personnel Security" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_personnelpassport" displayName="Personnel Passport" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="1" schemaName="govcdm_personnelpassport" displayName="Personnel Passport" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_personnelpassport" displayName="Personnel Passport" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Personnel Passport" id="{051eac62-c3f1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_personnelpassport" displayName="Personnel Passport" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Personnel Background Investigation" id="{77349620-4cf1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_personnelpassport" displayName="Personnel Passport" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="62" schemaName="msfed_PersonnelSecurity" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_personnelpassport" displayName="Personnel Passport" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="80" schemaName="msfed_PersonnelSecurity" displayName="Personnel Security" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_personnelphysicalcredential" displayName="Personnel Physical Credential" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="1" schemaName="govcdm_personnelphysicalcredential" displayName="Personnel Physical Credential" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_personnelreportablelifeevent" displayName="Personnel Reportable Life Event" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="1" schemaName="govcdm_personnelreportablelifeevent" displayName="Personnel Reportable Life Event" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_personnelreportablelifeevent" displayName="Personnel Reportable Life Event" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Personnel Reportable Life Event" id="{6a42a8ba-c3f1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_personnelreportablelifeevent" displayName="Personnel Reportable Life Event" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Personnel Background Investigation" id="{77349620-4cf1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_personnelreportablelifeevent" displayName="Personnel Reportable Life Event" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="62" schemaName="msfed_PersonnelSecurity" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_personnelreportablelifeevent" displayName="Personnel Reportable Life Event" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="80" schemaName="msfed_PersonnelSecurity" displayName="Personnel Security" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_personnelvisitorrequest" displayName="Personnel Visitor Request" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="1" schemaName="govcdm_personnelvisitorrequest" displayName="Personnel Visitor Request" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_personnelvisitorrequest" displayName="Personnel Visitor Request" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Personnel Visitor Request" id="{91b548db-c3f1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_personnelvisitorrequest" displayName="Personnel Visitor Request" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="62" schemaName="msfed_PersonnelSecurity" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_personnelvisitorrequest" displayName="Personnel Visitor Request" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="80" schemaName="msfed_PersonnelSecurity" displayName="Personnel Security" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aimodel" displayName="AI Model" solution="msdyn_AISolution (202507.4.22.2)">
+          <package appName="PowerAI" version="202503.4.25.2">msdyn_AISolutionAnchor (202503.4.25.2)</package>
+        </Required>
+        <Dependent type="300" schemaName="msfed_personnelsecurityassistant_62406" displayName="Personnel Security - Assistant" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_govcdm_personnelbackgroundinvestigation_P" displayName="govcdm_govcdm_personnelbackgroundinvestigation_P" parentSchemaName="govcdm_personneladjudication" parentDisplayName="Personnel Adjudication" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Personnel Adjudication" id="{76ec80ec-4bf1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_govcdm_personnelbackgroundinvestigation_P" displayName="govcdm_govcdm_personnelbackgroundinvestigation_P" parentSchemaName="govcdm_personneladjudication" parentDisplayName="Personnel Adjudication" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Personnel Background Investigation" id="{77349620-4cf1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_personalinformation_BackgroundInvestigation_govcdm_personnelbackgroundinvestigation" displayName="govcdm_personalinformation_BackgroundInvestigation_govcdm_personnelbackgroundinvestigation" parentSchemaName="govcdm_personnelbackgroundinvestigation" parentDisplayName="Personnel Background Investigation" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Personnel Background Investigation" id="{77349620-4cf1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_personneladjudication_Adjudicator_systemuser" displayName="govcdm_personneladjudication_Adjudicator_systemuser" parentSchemaName="systemuser" parentDisplayName="User" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Personnel Adjudication" id="{76ec80ec-4bf1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_personneladjudication_BackgroundInvestigation_govcdm_personnelbackgroundinvestigation" displayName="govcdm_personneladjudication_BackgroundInvestigation_govcdm_personnelbackgroundinvestigation" parentSchemaName="govcdm_personnelbackgroundinvestigation" parentDisplayName="Personnel Background Investigation" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Personnel Adjudication" id="{76ec80ec-4bf1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_personneladjudication_BackgroundInvestigation_govcdm_personnelbackgroundinvestigation" displayName="govcdm_personneladjudication_BackgroundInvestigation_govcdm_personnelbackgroundinvestigation" parentSchemaName="govcdm_personnelbackgroundinvestigation" parentDisplayName="Personnel Background Investigation" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Personnel Background Investigation" id="{77349620-4cf1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_personneladjudication_BackgroundInvestigation_govcdm_personnelbackgroundinvestigation" displayName="govcdm_personneladjudication_BackgroundInvestigation_govcdm_personnelbackgroundinvestigation" parentSchemaName="govcdm_personnelbackgroundinvestigation" parentDisplayName="Personnel Background Investigation" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Personnel Adjudication" id="{c9e62603-d94a-f011-8779-001dd8096a49}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_personneladjudication_DecisionDocument_govcdm_document" displayName="govcdm_personneladjudication_DecisionDocument_govcdm_document" parentSchemaName="govcdm_document" parentDisplayName="Document" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Personnel Adjudication" id="{76ec80ec-4bf1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_personneladjudication_Personnel_contact" displayName="govcdm_personneladjudication_Personnel_contact" parentSchemaName="contact" parentDisplayName="Person" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Personnel Adjudication" id="{76ec80ec-4bf1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_personneladjudication_Personnel_contact" displayName="govcdm_personneladjudication_Personnel_contact" parentSchemaName="contact" parentDisplayName="Person" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Personnel Adjudication" id="{c9e62603-d94a-f011-8779-001dd8096a49}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_personneladjudication_PersonnelClearance_govcdm_personnelclearance" displayName="govcdm_personneladjudication_PersonnelClearance_govcdm_personnelclearance" parentSchemaName="govcdm_personnelclearance" parentDisplayName="Personnel Clearance" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Personnel Adjudication" id="{76ec80ec-4bf1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_personnelbackgroundinvestigation_InvestigationProvider_account" displayName="govcdm_personnelbackgroundinvestigation_InvestigationProvider_account" parentSchemaName="account" parentDisplayName="Account" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Personnel Background Investigation" id="{77349620-4cf1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_personnelbackgroundinvestigation_InvestigationProviderPOC_contact" displayName="govcdm_personnelbackgroundinvestigation_InvestigationProviderPOC_contact" parentSchemaName="contact" parentDisplayName="Person" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Personnel Background Investigation" id="{77349620-4cf1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_personnelbackgroundinvestigation_OriginatingCVTrigger_govcdm_personnelcvtrigger" displayName="govcdm_personnelbackgroundinvestigation_OriginatingCVTrigger_govcdm_personnelcvtrigger" parentSchemaName="govcdm_personnelcvtrigger" parentDisplayName="Personnel CV Trigger" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Personnel Background Investigation" id="{77349620-4cf1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_personnelbackgroundinvestigation_OriginatingCVTrigger_govcdm_personnelcvtrigger" displayName="govcdm_personnelbackgroundinvestigation_OriginatingCVTrigger_govcdm_personnelcvtrigger" parentSchemaName="govcdm_personnelcvtrigger" parentDisplayName="Personnel CV Trigger" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Personnel CV Trigger" id="{d96d257b-24e0-402b-a5a2-8f9b0b2ab476}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_personnelbackgroundinvestigation_Person_contact" displayName="govcdm_personnelbackgroundinvestigation_Person_contact" parentSchemaName="contact" parentDisplayName="Person" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Personnel Background Investigation" id="{1d382115-d94a-f011-8779-001dd8096a49}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_personnelbackgroundinvestigation_Person_contact" displayName="govcdm_personnelbackgroundinvestigation_Person_contact" parentSchemaName="contact" parentDisplayName="Person" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Personnel Background Investigation" id="{77349620-4cf1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_personnelbackgroundinvestigation_PersonnelClearance_govcdm_personnelclearance" displayName="govcdm_personnelbackgroundinvestigation_PersonnelClearance_govcdm_personnelclearance" parentSchemaName="govcdm_personnelclearance" parentDisplayName="Personnel Clearance" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Personnel Clearance" id="{ef5574ee-fd25-4af6-a3c1-f8053804d8b3}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_personnelbackgroundinvestigation_PriorInvestigation_govcdm_personnelbackgroundinvestigation" displayName="govcdm_personnelbackgroundinvestigation_PriorInvestigation_govcdm_personnelbackgroundinvestigation" parentSchemaName="govcdm_personnelbackgroundinvestigation" parentDisplayName="Personnel Background Investigation" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Personnel Background Investigation" id="{77349620-4cf1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_personnelbackgroundinvestigation_QuestionnaireDocument_govcdm_document" displayName="govcdm_personnelbackgroundinvestigation_QuestionnaireDocument_govcdm_document" parentSchemaName="govcdm_document" parentDisplayName="Document" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Personnel Background Investigation" id="{77349620-4cf1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_personnelclearance_BackgroundInvestigation_govcdm_personnelbackgroundinvestigation" displayName="govcdm_personnelclearance_BackgroundInvestigation_govcdm_personnelbackgroundinvestigation" parentSchemaName="govcdm_personnelbackgroundinvestigation" parentDisplayName="Personnel Background Investigation" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Personnel Background Investigation" id="{77349620-4cf1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_personnelclearance_BackgroundInvestigation_govcdm_personnelbackgroundinvestigation" displayName="govcdm_personnelclearance_BackgroundInvestigation_govcdm_personnelbackgroundinvestigation" parentSchemaName="govcdm_personnelbackgroundinvestigation" parentDisplayName="Personnel Background Investigation" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Personnel Clearance" id="{a6146da2-576d-f011-bec1-001dd80691a1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_personnelclearance_BackgroundInvestigation_govcdm_personnelbackgroundinvestigation" displayName="govcdm_personnelclearance_BackgroundInvestigation_govcdm_personnelbackgroundinvestigation" parentSchemaName="govcdm_personnelbackgroundinvestigation" parentDisplayName="Personnel Background Investigation" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Personnel Clearance" id="{ef5574ee-fd25-4af6-a3c1-f8053804d8b3}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_personnelclearance_Person_contact" displayName="govcdm_personnelclearance_Person_contact" parentSchemaName="contact" parentDisplayName="Person" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Personnel Clearance" id="{a6146da2-576d-f011-bec1-001dd80691a1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_personnelclearance_Person_contact" displayName="govcdm_personnelclearance_Person_contact" parentSchemaName="contact" parentDisplayName="Person" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Personnel Clearance" id="{ef5574ee-fd25-4af6-a3c1-f8053804d8b3}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_personnelclearance_PersonnelAdjudication_govcdm_personneladjudication" displayName="govcdm_personnelclearance_PersonnelAdjudication_govcdm_personneladjudication" parentSchemaName="govcdm_personneladjudication" parentDisplayName="Personnel Adjudication" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Personnel Adjudication" id="{76ec80ec-4bf1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_personnelclearance_PersonnelAdjudication_govcdm_personneladjudication" displayName="govcdm_personnelclearance_PersonnelAdjudication_govcdm_personneladjudication" parentSchemaName="govcdm_personneladjudication" parentDisplayName="Personnel Adjudication" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Personnel Clearance" id="{a6146da2-576d-f011-bec1-001dd80691a1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_personnelclearance_PersonnelAdjudication_govcdm_personneladjudication" displayName="govcdm_personnelclearance_PersonnelAdjudication_govcdm_personneladjudication" parentSchemaName="govcdm_personneladjudication" parentDisplayName="Personnel Adjudication" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Personnel Clearance" id="{ef5574ee-fd25-4af6-a3c1-f8053804d8b3}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_personnelcvtrigger_BackgroundInvestigation_govcdm_personnelbackgroundinvestigation" displayName="govcdm_personnelcvtrigger_BackgroundInvestigation_govcdm_personnelbackgroundinvestigation" parentSchemaName="govcdm_personnelbackgroundinvestigation" parentDisplayName="Personnel Background Investigation" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Personnel CV Trigger" id="{d96d257b-24e0-402b-a5a2-8f9b0b2ab476}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_personnelcvtrigger_Person_contact" displayName="govcdm_personnelcvtrigger_Person_contact" parentSchemaName="contact" parentDisplayName="Person" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Personnel CV Trigger" id="{037a6884-576d-f011-bec1-001dd80691a1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_personnelcvtrigger_Person_contact" displayName="govcdm_personnelcvtrigger_Person_contact" parentSchemaName="contact" parentDisplayName="Person" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Personnel CV Trigger" id="{d96d257b-24e0-402b-a5a2-8f9b0b2ab476}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_personnelcvtrigger_PersonnelClearance_govcdm_personnelclearance" displayName="govcdm_personnelcvtrigger_PersonnelClearance_govcdm_personnelclearance" parentSchemaName="govcdm_personnelclearance" parentDisplayName="Personnel Clearance" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Personnel CV Trigger" id="{d96d257b-24e0-402b-a5a2-8f9b0b2ab476}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_personnelcvtrigger_PersonnelClearance_govcdm_personnelclearance" displayName="govcdm_personnelcvtrigger_PersonnelClearance_govcdm_personnelclearance" parentSchemaName="govcdm_personnelclearance" parentDisplayName="Personnel Clearance" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Personnel Clearance" id="{ef5574ee-fd25-4af6-a3c1-f8053804d8b3}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_personnelforeigncontact_BackgroundInvestigation_govcdm_personnelbackgroundinvestigation" displayName="govcdm_personnelforeigncontact_BackgroundInvestigation_govcdm_personnelbackgroundinvestigation" parentSchemaName="govcdm_personnelbackgroundinvestigation" parentDisplayName="Personnel Background Investigation" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Personnel Background Investigation" id="{77349620-4cf1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_personnelforeigncontact_BackgroundInvestigation_govcdm_personnelbackgroundinvestigation" displayName="govcdm_personnelforeigncontact_BackgroundInvestigation_govcdm_personnelbackgroundinvestigation" parentSchemaName="govcdm_personnelbackgroundinvestigation" parentDisplayName="Personnel Background Investigation" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Personnel Foreign Contact" id="{8a2b8234-d94a-f011-8779-001dd8096d0a}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_personnelforeigncontact_Person_contact" displayName="govcdm_personnelforeigncontact_Person_contact" parentSchemaName="contact" parentDisplayName="Person" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Personnel Foreign Contact" id="{8a2b8234-d94a-f011-8779-001dd8096d0a}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_personnelforeigntravel_BackgroundInvestigation_govcdm_personnelbackgroundinvestigation" displayName="govcdm_personnelforeigntravel_BackgroundInvestigation_govcdm_personnelbackgroundinvestigation" parentSchemaName="govcdm_personnelbackgroundinvestigation" parentDisplayName="Personnel Background Investigation" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Personnel Background Investigation" id="{77349620-4cf1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_personnelforeigntravel_BackgroundInvestigation_govcdm_personnelbackgroundinvestigation" displayName="govcdm_personnelforeigntravel_BackgroundInvestigation_govcdm_personnelbackgroundinvestigation" parentSchemaName="govcdm_personnelbackgroundinvestigation" parentDisplayName="Personnel Background Investigation" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Personnel Foreign Travel" id="{827ce545-d94a-f011-8779-001dd8096a49}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_personnelforeigntravel_Person_contact" displayName="govcdm_personnelforeigntravel_Person_contact" parentSchemaName="contact" parentDisplayName="Person" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Personnel Foreign Travel" id="{827ce545-d94a-f011-8779-001dd8096a49}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_personnelpassport_BackgroundInvestigation_govcdm_personnelbackgroundinvestigation" displayName="govcdm_personnelpassport_BackgroundInvestigation_govcdm_personnelbackgroundinvestigation" parentSchemaName="govcdm_personnelbackgroundinvestigation" parentDisplayName="Personnel Background Investigation" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Personnel Passport" id="{3bae2d58-d94a-f011-8779-001dd8096a49}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_personnelpassport_BackgroundInvestigation_govcdm_personnelbackgroundinvestigation" displayName="govcdm_personnelpassport_BackgroundInvestigation_govcdm_personnelbackgroundinvestigation" parentSchemaName="govcdm_personnelbackgroundinvestigation" parentDisplayName="Personnel Background Investigation" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Personnel Background Investigation" id="{77349620-4cf1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_personnelpassport_Person_contact" displayName="govcdm_personnelpassport_Person_contact" parentSchemaName="contact" parentDisplayName="Person" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Personnel Passport" id="{3bae2d58-d94a-f011-8779-001dd8096a49}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_personnelreportablelifeevent_BackgroundInvestigation_govcdm_personnelbackgroundinvestigation" displayName="govcdm_personnelreportablelifeevent_BackgroundInvestigation_govcdm_personnelbackgroundinvestigation" parentSchemaName="govcdm_personnelbackgroundinvestigation" parentDisplayName="Personnel Background Investigation" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Personnel Reportable Life Event" id="{4bd6dd73-d94a-f011-8779-001dd8096d0a}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_personnelreportablelifeevent_BackgroundInvestigation_govcdm_personnelbackgroundinvestigation" displayName="govcdm_personnelreportablelifeevent_BackgroundInvestigation_govcdm_personnelbackgroundinvestigation" parentSchemaName="govcdm_personnelbackgroundinvestigation" parentDisplayName="Personnel Background Investigation" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Personnel Background Investigation" id="{77349620-4cf1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_personnelreportablelifeevent_Person_contact" displayName="govcdm_personnelreportablelifeevent_Person_contact" parentSchemaName="contact" parentDisplayName="Person" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Personnel Reportable Life Event" id="{4bd6dd73-d94a-f011-8779-001dd8096d0a}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_actionstatus" displayName="Action Status" parentSchemaName="govcdm_personnelbackgroundinvestigation" parentDisplayName="Personnel Background Investigation" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="26" schemaName="Active Personnel Background Investigations" displayName="Active Personnel Background Investigations" parentSchemaName="govcdm_personnelbackgroundinvestigation" parentDisplayName="Personnel Background Investigation" id="{e7f4b221-215e-4fb2-a555-a47296873f88}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_actionstatus" displayName="Action Status" parentSchemaName="govcdm_personnelbackgroundinvestigation" parentDisplayName="Personnel Background Investigation" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="29" displayName="Personnel Security - Investigation" id="{8b2421da-6671-f011-bec2-001dd80e063c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_actionstatus" displayName="Action Status" parentSchemaName="govcdm_personnelbackgroundinvestigation" parentDisplayName="Personnel Background Investigation" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="59" schemaName="By Status" displayName="By Status" parentSchemaName="govcdm_personnelbackgroundinvestigation" parentDisplayName="Personnel Background Investigation" id="{f64a24c8-b073-f011-bec2-001dd83061df}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_actionstatus" displayName="Action Status" parentSchemaName="govcdm_personnelbackgroundinvestigation" parentDisplayName="Personnel Background Investigation" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Personnel Security - Investigation" id="{391196fd-a3b5-4c5b-9015-532013830626}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_actionstatus" displayName="Action Status" parentSchemaName="govcdm_personnelbackgroundinvestigation" parentDisplayName="Personnel Background Investigation" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Personnel Background Investigation" id="{77349620-4cf1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_adjudicationdate" displayName="Adjudication Date" parentSchemaName="govcdm_personneladjudication" parentDisplayName="Personnel Adjudication" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="26" schemaName="Active Personnel Adjudications" displayName="Active Personnel Adjudications" parentSchemaName="govcdm_personneladjudication" parentDisplayName="Personnel Adjudication" id="{592033af-8e6b-4bc0-88b2-f3551c8a8c8e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_adjudicationdate" displayName="Adjudication Date" parentSchemaName="govcdm_personneladjudication" parentDisplayName="Personnel Adjudication" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Personnel Adjudication" id="{76ec80ec-4bf1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_adjudicationdate" displayName="Adjudication Date" parentSchemaName="govcdm_personneladjudication" parentDisplayName="Personnel Adjudication" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Personnel Adjudication" id="{c9e62603-d94a-f011-8779-001dd8096a49}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_adjudicationstatus" displayName="Adjudication Status" parentSchemaName="govcdm_personneladjudication" parentDisplayName="Personnel Adjudication" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="26" schemaName="Active Personnel Adjudications" displayName="Active Personnel Adjudications" parentSchemaName="govcdm_personneladjudication" parentDisplayName="Personnel Adjudication" id="{592033af-8e6b-4bc0-88b2-f3551c8a8c8e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_adjudicationstatus" displayName="Adjudication Status" parentSchemaName="govcdm_personneladjudication" parentDisplayName="Personnel Adjudication" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="29" displayName="Personnel Security - Investigation" id="{8b2421da-6671-f011-bec2-001dd80e063c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_adjudicationstatus" displayName="Adjudication Status" parentSchemaName="govcdm_personneladjudication" parentDisplayName="Personnel Adjudication" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Personnel Security - Investigation" id="{391196fd-a3b5-4c5b-9015-532013830626}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_adjudicationstatus" displayName="Adjudication Status" parentSchemaName="govcdm_personneladjudication" parentDisplayName="Personnel Adjudication" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Personnel Adjudication" id="{76ec80ec-4bf1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_adjudicationstatus" displayName="Adjudication Status" parentSchemaName="govcdm_personneladjudication" parentDisplayName="Personnel Adjudication" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Personnel Adjudication" id="{c9e62603-d94a-f011-8779-001dd8096a49}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_adjudicator" displayName="Adjudicator" parentSchemaName="govcdm_personneladjudication" parentDisplayName="Personnel Adjudication" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="26" schemaName="Active Personnel Adjudications" displayName="Active Personnel Adjudications" parentSchemaName="govcdm_personneladjudication" parentDisplayName="Personnel Adjudication" id="{592033af-8e6b-4bc0-88b2-f3551c8a8c8e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_adjudicator" displayName="Adjudicator" parentSchemaName="govcdm_personneladjudication" parentDisplayName="Personnel Adjudication" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Personnel Adjudication" id="{76ec80ec-4bf1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_backgroundinvestigation" displayName="Background Investigation" parentSchemaName="govcdm_personneladjudication" parentDisplayName="Personnel Adjudication" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="26" schemaName="Active Personnel Adjudications" displayName="Active Personnel Adjudications" parentSchemaName="govcdm_personneladjudication" parentDisplayName="Personnel Adjudication" id="{592033af-8e6b-4bc0-88b2-f3551c8a8c8e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_backgroundinvestigation" displayName="Background Investigation" parentSchemaName="govcdm_personneladjudication" parentDisplayName="Personnel Adjudication" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Personnel Adjudication" id="{76ec80ec-4bf1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_backgroundinvestigation" displayName="Background Investigation" parentSchemaName="govcdm_personneladjudication" parentDisplayName="Personnel Adjudication" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Personnel Adjudication" id="{c9e62603-d94a-f011-8779-001dd8096a49}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_backgroundinvestigation" displayName="Background Investigation" parentSchemaName="govcdm_personnelclearance" parentDisplayName="Personnel Clearance" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="26" schemaName="Active Personnel Clearances" displayName="Active Personnel Clearances" parentSchemaName="govcdm_personnelclearance" parentDisplayName="Personnel Clearance" id="{e9940f22-0ea4-42fe-b6cd-ed7937d8264f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_backgroundinvestigation" displayName="Background Investigation" parentSchemaName="govcdm_personnelclearance" parentDisplayName="Personnel Clearance" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Personnel Clearance" id="{a6146da2-576d-f011-bec1-001dd80691a1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_backgroundinvestigation" displayName="Background Investigation" parentSchemaName="govcdm_personnelclearance" parentDisplayName="Personnel Clearance" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Personnel Clearance" id="{ef5574ee-fd25-4af6-a3c1-f8053804d8b3}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_backgroundinvestigation" displayName="Background Investigation" parentSchemaName="govcdm_personnelcvtrigger" parentDisplayName="Personnel CV Trigger" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="26" schemaName="Active Personnel CV Triggers" displayName="Active Personnel CV Triggers" parentSchemaName="govcdm_personnelcvtrigger" parentDisplayName="Personnel CV Trigger" id="{7aa0c1cb-5243-467f-b49a-7dcbc85bbd2b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_backgroundinvestigation" displayName="Background Investigation" parentSchemaName="govcdm_personnelcvtrigger" parentDisplayName="Personnel CV Trigger" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Personnel CV Trigger" id="{d96d257b-24e0-402b-a5a2-8f9b0b2ab476}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_backgroundinvestigation" displayName="Background Investigation" parentSchemaName="govcdm_personnelforeigncontact" parentDisplayName="Personnel Foreign Contact" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Personnel Foreign Contact" id="{8a2b8234-d94a-f011-8779-001dd8096d0a}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_backgroundinvestigation" displayName="Background Investigation" parentSchemaName="govcdm_personnelforeigntravel" parentDisplayName="Personnel Foreign Travel" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Personnel Foreign Travel" id="{827ce545-d94a-f011-8779-001dd8096a49}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_backgroundinvestigation" displayName="Background Investigation" parentSchemaName="govcdm_personnelpassport" parentDisplayName="Personnel Passport" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Personnel Passport" id="{3bae2d58-d94a-f011-8779-001dd8096a49}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_backgroundinvestigation" displayName="Background Investigation" parentSchemaName="govcdm_personnelreportablelifeevent" parentDisplayName="Personnel Reportable Life Event" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Personnel Reportable Life Event" id="{4bd6dd73-d94a-f011-8779-001dd8096d0a}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_backgroundinvestigationtype" displayName="Background Investigation Type" parentSchemaName="govcdm_personnelbackgroundinvestigation" parentDisplayName="Personnel Background Investigation" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="26" schemaName="Active Personnel Background Investigations" displayName="Active Personnel Background Investigations" parentSchemaName="govcdm_personnelbackgroundinvestigation" parentDisplayName="Personnel Background Investigation" id="{e7f4b221-215e-4fb2-a555-a47296873f88}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_backgroundinvestigationtype" displayName="Background Investigation Type" parentSchemaName="govcdm_personnelbackgroundinvestigation" parentDisplayName="Personnel Background Investigation" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Personnel Background Investigation" id="{1d382115-d94a-f011-8779-001dd8096a49}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_backgroundinvestigationtype" displayName="Background Investigation Type" parentSchemaName="govcdm_personnelbackgroundinvestigation" parentDisplayName="Personnel Background Investigation" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Personnel Background Investigation" id="{77349620-4cf1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_clearancelevelgranted" displayName="Clearance Level Granted" parentSchemaName="govcdm_personnelclearance" parentDisplayName="Personnel Clearance" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="26" schemaName="Active Personnel Clearances" displayName="Active Personnel Clearances" parentSchemaName="govcdm_personnelclearance" parentDisplayName="Personnel Clearance" id="{e9940f22-0ea4-42fe-b6cd-ed7937d8264f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_clearancelevelgranted" displayName="Clearance Level Granted" parentSchemaName="govcdm_personnelclearance" parentDisplayName="Personnel Clearance" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Personnel Clearance" id="{a6146da2-576d-f011-bec1-001dd80691a1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_clearancelevelgranted" displayName="Clearance Level Granted" parentSchemaName="govcdm_personnelclearance" parentDisplayName="Personnel Clearance" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Personnel Clearance" id="{ef5574ee-fd25-4af6-a3c1-f8053804d8b3}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_completiondate" displayName="Completion Date" parentSchemaName="govcdm_personnelbackgroundinvestigation" parentDisplayName="Personnel Background Investigation" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="26" schemaName="Active Personnel Background Investigations" displayName="Active Personnel Background Investigations" parentSchemaName="govcdm_personnelbackgroundinvestigation" parentDisplayName="Personnel Background Investigation" id="{e7f4b221-215e-4fb2-a555-a47296873f88}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_completiondate" displayName="Completion Date" parentSchemaName="govcdm_personnelbackgroundinvestigation" parentDisplayName="Personnel Background Investigation" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Personnel Background Investigation" id="{77349620-4cf1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_cvintelligencesource" displayName="CV Intelligence Source" parentSchemaName="govcdm_personnelcvtrigger" parentDisplayName="Personnel CV Trigger" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="26" schemaName="Active Personnel CV Triggers" displayName="Active Personnel CV Triggers" parentSchemaName="govcdm_personnelcvtrigger" parentDisplayName="Personnel CV Trigger" id="{7aa0c1cb-5243-467f-b49a-7dcbc85bbd2b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_cvintelligencesource" displayName="CV Intelligence Source" parentSchemaName="govcdm_personnelcvtrigger" parentDisplayName="Personnel CV Trigger" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Personnel CV Trigger" id="{037a6884-576d-f011-bec1-001dd80691a1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_cvintelligencesource" displayName="CV Intelligence Source" parentSchemaName="govcdm_personnelcvtrigger" parentDisplayName="Personnel CV Trigger" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Personnel CV Trigger" id="{d96d257b-24e0-402b-a5a2-8f9b0b2ab476}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_cvtriggerevent" displayName="CV Trigger Event" parentSchemaName="govcdm_personnelcvtrigger" parentDisplayName="Personnel CV Trigger" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="26" schemaName="Active Personnel CV Triggers" displayName="Active Personnel CV Triggers" parentSchemaName="govcdm_personnelcvtrigger" parentDisplayName="Personnel CV Trigger" id="{7aa0c1cb-5243-467f-b49a-7dcbc85bbd2b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_cvtriggerevent" displayName="CV Trigger Event" parentSchemaName="govcdm_personnelcvtrigger" parentDisplayName="Personnel CV Trigger" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Personnel CV Trigger" id="{037a6884-576d-f011-bec1-001dd80691a1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_cvtriggerevent" displayName="CV Trigger Event" parentSchemaName="govcdm_personnelcvtrigger" parentDisplayName="Personnel CV Trigger" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Personnel CV Trigger" id="{d96d257b-24e0-402b-a5a2-8f9b0b2ab476}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_decisiondocument" displayName="Decision Document" parentSchemaName="govcdm_personneladjudication" parentDisplayName="Personnel Adjudication" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Personnel Adjudication" id="{76ec80ec-4bf1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_decisiondocumentlink" displayName="Decision Document Link" parentSchemaName="govcdm_personneladjudication" parentDisplayName="Personnel Adjudication" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Personnel Adjudication" id="{76ec80ec-4bf1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_details" displayName="Details" parentSchemaName="govcdm_personnelcvtrigger" parentDisplayName="Personnel CV Trigger" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="26" schemaName="Active Personnel CV Triggers" displayName="Active Personnel CV Triggers" parentSchemaName="govcdm_personnelcvtrigger" parentDisplayName="Personnel CV Trigger" id="{7aa0c1cb-5243-467f-b49a-7dcbc85bbd2b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_details" displayName="Details" parentSchemaName="govcdm_personnelcvtrigger" parentDisplayName="Personnel CV Trigger" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Personnel CV Trigger" id="{037a6884-576d-f011-bec1-001dd80691a1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_details" displayName="Details" parentSchemaName="govcdm_personnelcvtrigger" parentDisplayName="Personnel CV Trigger" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Personnel CV Trigger" id="{d96d257b-24e0-402b-a5a2-8f9b0b2ab476}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_duedate" displayName="Due Date" parentSchemaName="govcdm_personnelbackgroundinvestigation" parentDisplayName="Personnel Background Investigation" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="26" schemaName="Active Personnel Background Investigations" displayName="Active Personnel Background Investigations" parentSchemaName="govcdm_personnelbackgroundinvestigation" parentDisplayName="Personnel Background Investigation" id="{e7f4b221-215e-4fb2-a555-a47296873f88}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_duedate" displayName="Due Date" parentSchemaName="govcdm_personnelbackgroundinvestigation" parentDisplayName="Personnel Background Investigation" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Personnel Background Investigation" id="{1d382115-d94a-f011-8779-001dd8096a49}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_duedate" displayName="Due Date" parentSchemaName="govcdm_personnelbackgroundinvestigation" parentDisplayName="Personnel Background Investigation" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Personnel Background Investigation" id="{77349620-4cf1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_eligibilitydate" displayName="Eligibility Date" parentSchemaName="govcdm_personnelclearance" parentDisplayName="Personnel Clearance" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="26" schemaName="Active Personnel Clearances" displayName="Active Personnel Clearances" parentSchemaName="govcdm_personnelclearance" parentDisplayName="Personnel Clearance" id="{e9940f22-0ea4-42fe-b6cd-ed7937d8264f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_eligibilitydate" displayName="Eligibility Date" parentSchemaName="govcdm_personnelclearance" parentDisplayName="Personnel Clearance" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Personnel Clearance" id="{a6146da2-576d-f011-bec1-001dd80691a1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_eligibilitydate" displayName="Eligibility Date" parentSchemaName="govcdm_personnelclearance" parentDisplayName="Personnel Clearance" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Personnel Clearance" id="{ef5574ee-fd25-4af6-a3c1-f8053804d8b3}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_eligibilitystatus" displayName="Eligibility Status" parentSchemaName="govcdm_personnelclearance" parentDisplayName="Personnel Clearance" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="26" schemaName="Active Personnel Clearances" displayName="Active Personnel Clearances" parentSchemaName="govcdm_personnelclearance" parentDisplayName="Personnel Clearance" id="{e9940f22-0ea4-42fe-b6cd-ed7937d8264f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_eligibilitystatus" displayName="Eligibility Status" parentSchemaName="govcdm_personnelclearance" parentDisplayName="Personnel Clearance" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="29" displayName="Personnel Security - Investigation" id="{8b2421da-6671-f011-bec2-001dd80e063c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_eligibilitystatus" displayName="Eligibility Status" parentSchemaName="govcdm_personnelclearance" parentDisplayName="Personnel Clearance" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Personnel Security - Investigation" id="{391196fd-a3b5-4c5b-9015-532013830626}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_eligibilitystatus" displayName="Eligibility Status" parentSchemaName="govcdm_personnelclearance" parentDisplayName="Personnel Clearance" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Personnel Clearance" id="{a6146da2-576d-f011-bec1-001dd80691a1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_eligibilitystatus" displayName="Eligibility Status" parentSchemaName="govcdm_personnelclearance" parentDisplayName="Personnel Clearance" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Personnel Clearance" id="{ef5574ee-fd25-4af6-a3c1-f8053804d8b3}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_expirationdate" displayName="Expiration Date" parentSchemaName="govcdm_personnelclearance" parentDisplayName="Personnel Clearance" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="26" schemaName="Active Personnel Clearances" displayName="Active Personnel Clearances" parentSchemaName="govcdm_personnelclearance" parentDisplayName="Personnel Clearance" id="{e9940f22-0ea4-42fe-b6cd-ed7937d8264f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_expirationdate" displayName="Expiration Date" parentSchemaName="govcdm_personnelclearance" parentDisplayName="Personnel Clearance" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Personnel Clearance" id="{a6146da2-576d-f011-bec1-001dd80691a1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_expirationdate" displayName="Expiration Date" parentSchemaName="govcdm_personnelclearance" parentDisplayName="Personnel Clearance" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Personnel Clearance" id="{ef5574ee-fd25-4af6-a3c1-f8053804d8b3}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_initiationdate" displayName="Initiation Date" parentSchemaName="govcdm_personnelbackgroundinvestigation" parentDisplayName="Personnel Background Investigation" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="26" schemaName="Active Personnel Background Investigations" displayName="Active Personnel Background Investigations" parentSchemaName="govcdm_personnelbackgroundinvestigation" parentDisplayName="Personnel Background Investigation" id="{e7f4b221-215e-4fb2-a555-a47296873f88}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_initiationdate" displayName="Initiation Date" parentSchemaName="govcdm_personnelbackgroundinvestigation" parentDisplayName="Personnel Background Investigation" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Personnel Background Investigation" id="{1d382115-d94a-f011-8779-001dd8096a49}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_initiationdate" displayName="Initiation Date" parentSchemaName="govcdm_personnelbackgroundinvestigation" parentDisplayName="Personnel Background Investigation" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Personnel Background Investigation" id="{77349620-4cf1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_investigationlaunched" displayName="Investigation Launched" parentSchemaName="govcdm_personnelcvtrigger" parentDisplayName="Personnel CV Trigger" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Personnel CV Trigger" id="{d96d257b-24e0-402b-a5a2-8f9b0b2ab476}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_investigationnotes" displayName="Investigation Notes" parentSchemaName="govcdm_personnelbackgroundinvestigation" parentDisplayName="Personnel Background Investigation" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Personnel Background Investigation" id="{77349620-4cf1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_investigationprovider" displayName="Investigation Provider" parentSchemaName="govcdm_personnelbackgroundinvestigation" parentDisplayName="Personnel Background Investigation" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="26" schemaName="Active Personnel Background Investigations" displayName="Active Personnel Background Investigations" parentSchemaName="govcdm_personnelbackgroundinvestigation" parentDisplayName="Personnel Background Investigation" id="{e7f4b221-215e-4fb2-a555-a47296873f88}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_investigationprovider" displayName="Investigation Provider" parentSchemaName="govcdm_personnelbackgroundinvestigation" parentDisplayName="Personnel Background Investigation" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="59" schemaName="By Provider" displayName="By Provider" parentSchemaName="govcdm_personnelbackgroundinvestigation" parentDisplayName="Personnel Background Investigation" id="{9811ef5b-b073-f011-bec2-001dd83061df}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_investigationprovider" displayName="Investigation Provider" parentSchemaName="govcdm_personnelbackgroundinvestigation" parentDisplayName="Personnel Background Investigation" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Personnel Background Investigation" id="{77349620-4cf1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_investigationproviderpoc" displayName="Investigation Provider POC" parentSchemaName="govcdm_personnelbackgroundinvestigation" parentDisplayName="Personnel Background Investigation" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Personnel Background Investigation" id="{77349620-4cf1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_collaborationspace" parentDisplayName="Collaboration Space" solution="govcdm_processandtasking (1.0.2.0)" />
+        <Dependent type="10" schemaName="msfed_govcdm_personnelbackgroundinvestigation_CollaborationSpace_govcdm_collaborationspace" displayName="msfed_govcdm_personnelbackgroundinvestigation_CollaborationSpace_govcdm_collaborationspace" parentSchemaName="govcdm_collaborationspace" parentDisplayName="Collaboration Space" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_personneladjudication" parentDisplayName="Personnel Adjudication" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="10" schemaName="bpf_govcdm_personneladjudication_msfed_personnelsecurityinvestigation" displayName="bpf_govcdm_personneladjudication_msfed_personnelsecurityinvestigation" parentSchemaName="govcdm_personneladjudication" parentDisplayName="Personnel Adjudication" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_personneladjudication" parentDisplayName="Personnel Adjudication" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="26" schemaName="Active Personnel Adjudications" displayName="Active Personnel Adjudications" parentSchemaName="govcdm_personneladjudication" parentDisplayName="Personnel Adjudication" id="{592033af-8e6b-4bc0-88b2-f3551c8a8c8e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_personneladjudication" parentDisplayName="Personnel Adjudication" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="29" displayName="Personnel Security - Investigation" id="{8b2421da-6671-f011-bec2-001dd80e063c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_personneladjudication" parentDisplayName="Personnel Adjudication" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Personnel Adjudication" id="{76ec80ec-4bf1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_personneladjudication" parentDisplayName="Personnel Adjudication" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Personnel Adjudication" id="{c9e62603-d94a-f011-8779-001dd8096a49}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Investigation Number" parentSchemaName="govcdm_personnelbackgroundinvestigation" parentDisplayName="Personnel Background Investigation" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="2" schemaName="govcdm_name" displayName="Investigation Number" parentSchemaName="govcdm_personnelbackgroundinvestigation" parentDisplayName="Personnel Background Investigation" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_personnelbadgerequest" parentDisplayName="Personnel Badge Request" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Personnel Badge Request" id="{d7fa7e35-4cf1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_personnelclearance" parentDisplayName="Personnel Clearance" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="10" schemaName="bpf_govcdm_personnelclearance_msfed_personnelsecurityinvestigation" displayName="bpf_govcdm_personnelclearance_msfed_personnelsecurityinvestigation" parentSchemaName="govcdm_personnelclearance" parentDisplayName="Personnel Clearance" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_personnelclearance" parentDisplayName="Personnel Clearance" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="26" schemaName="Active Personnel Clearances" displayName="Active Personnel Clearances" parentSchemaName="govcdm_personnelclearance" parentDisplayName="Personnel Clearance" id="{e9940f22-0ea4-42fe-b6cd-ed7937d8264f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_personnelclearance" parentDisplayName="Personnel Clearance" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="29" displayName="Personnel Security - Investigation" id="{8b2421da-6671-f011-bec2-001dd80e063c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_personnelclearance" parentDisplayName="Personnel Clearance" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Personnel Clearance" id="{a6146da2-576d-f011-bec1-001dd80691a1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_personnelclearance" parentDisplayName="Personnel Clearance" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Personnel Clearance" id="{ef5574ee-fd25-4af6-a3c1-f8053804d8b3}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_personnelcvtrigger" parentDisplayName="Personnel CV Trigger" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="26" schemaName="Active Personnel CV Triggers" displayName="Active Personnel CV Triggers" parentSchemaName="govcdm_personnelcvtrigger" parentDisplayName="Personnel CV Trigger" id="{7aa0c1cb-5243-467f-b49a-7dcbc85bbd2b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_personnelcvtrigger" parentDisplayName="Personnel CV Trigger" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Personnel CV Trigger" id="{d96d257b-24e0-402b-a5a2-8f9b0b2ab476}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_personnelforeigncontact" parentDisplayName="Personnel Foreign Contact" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Personnel Foreign Contact" id="{8a2b8234-d94a-f011-8779-001dd8096d0a}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_personnelforeigncontact" parentDisplayName="Personnel Foreign Contact" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Personnel Foreign Contact" id="{e9e7385a-bff1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_personnelforeigntravel" parentDisplayName="Personnel Foreign Travel" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Personnel Foreign Travel" id="{761a4198-bff1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_personnelforeigntravel" parentDisplayName="Personnel Foreign Travel" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Personnel Foreign Travel" id="{827ce545-d94a-f011-8779-001dd8096a49}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_personnelpassport" parentDisplayName="Personnel Passport" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Personnel Passport" id="{051eac62-c3f1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_personnelpassport" parentDisplayName="Personnel Passport" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Personnel Passport" id="{3bae2d58-d94a-f011-8779-001dd8096a49}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_personnelreportablelifeevent" parentDisplayName="Personnel Reportable Life Event" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Personnel Reportable Life Event" id="{4bd6dd73-d94a-f011-8779-001dd8096d0a}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_personnelreportablelifeevent" parentDisplayName="Personnel Reportable Life Event" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Personnel Reportable Life Event" id="{6a42a8ba-c3f1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_personnelvisitorrequest" parentDisplayName="Personnel Visitor Request" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Personnel Visitor Request" id="{91b548db-c3f1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_notes" displayName="Notes" parentSchemaName="govcdm_personnelclearance" parentDisplayName="Personnel Clearance" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Personnel Clearance" id="{a6146da2-576d-f011-bec1-001dd80691a1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_notes" displayName="Notes" parentSchemaName="govcdm_personnelclearance" parentDisplayName="Personnel Clearance" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Personnel Clearance" id="{ef5574ee-fd25-4af6-a3c1-f8053804d8b3}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_originatingcvtrigger" displayName="Originating CV Trigger" parentSchemaName="govcdm_personnelbackgroundinvestigation" parentDisplayName="Personnel Background Investigation" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Personnel Background Investigation" id="{77349620-4cf1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_passporttype" displayName="Passport Type" parentSchemaName="govcdm_personnelpassport" parentDisplayName="Personnel Passport" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Personnel Passport" id="{3bae2d58-d94a-f011-8779-001dd8096a49}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_person" displayName="Person" parentSchemaName="govcdm_personnelbackgroundinvestigation" parentDisplayName="Personnel Background Investigation" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="26" schemaName="Active Personnel Background Investigations" displayName="Active Personnel Background Investigations" parentSchemaName="govcdm_personnelbackgroundinvestigation" parentDisplayName="Personnel Background Investigation" id="{e7f4b221-215e-4fb2-a555-a47296873f88}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_person" displayName="Person" parentSchemaName="govcdm_personnelbackgroundinvestigation" parentDisplayName="Personnel Background Investigation" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Personnel Background Investigation" id="{1d382115-d94a-f011-8779-001dd8096a49}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_person" displayName="Person" parentSchemaName="govcdm_personnelbackgroundinvestigation" parentDisplayName="Personnel Background Investigation" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Personnel Background Investigation" id="{77349620-4cf1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_person" displayName="Person" parentSchemaName="govcdm_personnelclearance" parentDisplayName="Personnel Clearance" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="26" schemaName="Active Personnel Clearances" displayName="Active Personnel Clearances" parentSchemaName="govcdm_personnelclearance" parentDisplayName="Personnel Clearance" id="{e9940f22-0ea4-42fe-b6cd-ed7937d8264f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_person" displayName="Person" parentSchemaName="govcdm_personnelclearance" parentDisplayName="Personnel Clearance" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Personnel Clearance" id="{a6146da2-576d-f011-bec1-001dd80691a1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_person" displayName="Person" parentSchemaName="govcdm_personnelclearance" parentDisplayName="Personnel Clearance" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Personnel Clearance" id="{ef5574ee-fd25-4af6-a3c1-f8053804d8b3}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_person" displayName="Person" parentSchemaName="govcdm_personnelcvtrigger" parentDisplayName="Personnel CV Trigger" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="26" schemaName="Active Personnel CV Triggers" displayName="Active Personnel CV Triggers" parentSchemaName="govcdm_personnelcvtrigger" parentDisplayName="Personnel CV Trigger" id="{7aa0c1cb-5243-467f-b49a-7dcbc85bbd2b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_person" displayName="Person" parentSchemaName="govcdm_personnelcvtrigger" parentDisplayName="Personnel CV Trigger" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Personnel CV Trigger" id="{037a6884-576d-f011-bec1-001dd80691a1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_person" displayName="Person" parentSchemaName="govcdm_personnelcvtrigger" parentDisplayName="Personnel CV Trigger" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Personnel CV Trigger" id="{d96d257b-24e0-402b-a5a2-8f9b0b2ab476}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_person" displayName="Person" parentSchemaName="govcdm_personnelforeigncontact" parentDisplayName="Personnel Foreign Contact" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Personnel Foreign Contact" id="{8a2b8234-d94a-f011-8779-001dd8096d0a}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_person" displayName="Person" parentSchemaName="govcdm_personnelforeigntravel" parentDisplayName="Personnel Foreign Travel" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Personnel Foreign Travel" id="{827ce545-d94a-f011-8779-001dd8096a49}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_person" displayName="Person" parentSchemaName="govcdm_personnelpassport" parentDisplayName="Personnel Passport" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Personnel Passport" id="{3bae2d58-d94a-f011-8779-001dd8096a49}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_person" displayName="Person" parentSchemaName="govcdm_personnelreportablelifeevent" parentDisplayName="Personnel Reportable Life Event" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Personnel Reportable Life Event" id="{4bd6dd73-d94a-f011-8779-001dd8096d0a}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_personnel" displayName="Personnel" parentSchemaName="govcdm_personneladjudication" parentDisplayName="Personnel Adjudication" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="26" schemaName="Active Personnel Adjudications" displayName="Active Personnel Adjudications" parentSchemaName="govcdm_personneladjudication" parentDisplayName="Personnel Adjudication" id="{592033af-8e6b-4bc0-88b2-f3551c8a8c8e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_personnel" displayName="Personnel" parentSchemaName="govcdm_personneladjudication" parentDisplayName="Personnel Adjudication" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Personnel Adjudication" id="{76ec80ec-4bf1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_personnel" displayName="Personnel" parentSchemaName="govcdm_personneladjudication" parentDisplayName="Personnel Adjudication" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Personnel Adjudication" id="{c9e62603-d94a-f011-8779-001dd8096a49}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_personneladjudication" displayName="Personnel Adjudication" parentSchemaName="govcdm_personnelbackgroundinvestigation" parentDisplayName="Personnel Background Investigation" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Personnel Background Investigation" id="{77349620-4cf1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_personneladjudication" displayName="Personnel Adjudication" parentSchemaName="govcdm_personnelclearance" parentDisplayName="Personnel Clearance" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="26" schemaName="Active Personnel Clearances" displayName="Active Personnel Clearances" parentSchemaName="govcdm_personnelclearance" parentDisplayName="Personnel Clearance" id="{e9940f22-0ea4-42fe-b6cd-ed7937d8264f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_personneladjudication" displayName="Personnel Adjudication" parentSchemaName="govcdm_personnelclearance" parentDisplayName="Personnel Clearance" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Personnel Clearance" id="{a6146da2-576d-f011-bec1-001dd80691a1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_personneladjudication" displayName="Personnel Adjudication" parentSchemaName="govcdm_personnelclearance" parentDisplayName="Personnel Clearance" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Personnel Clearance" id="{ef5574ee-fd25-4af6-a3c1-f8053804d8b3}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_personneladjudicationid" displayName="Personnel Adjudication" parentSchemaName="govcdm_personneladjudication" parentDisplayName="Personnel Adjudication" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="26" schemaName="Active Personnel Adjudications" displayName="Active Personnel Adjudications" parentSchemaName="govcdm_personneladjudication" parentDisplayName="Personnel Adjudication" id="{592033af-8e6b-4bc0-88b2-f3551c8a8c8e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_personneladjudicationid" displayName="Personnel Adjudication" parentSchemaName="govcdm_personneladjudication" parentDisplayName="Personnel Adjudication" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="29" displayName="Personnel Security - Investigation" id="{8b2421da-6671-f011-bec2-001dd80e063c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_personnelbackgroundinvestigationid" displayName="Personnel Background Investigation" parentSchemaName="govcdm_personnelbackgroundinvestigation" parentDisplayName="Personnel Background Investigation" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="26" schemaName="Active Personnel Security - Investigation on my Personnel Background Investigations" displayName="Active Personnel Security - Investigation on my Personnel Background Investigations" parentSchemaName="msfed_personnelsecurityinvestigation" parentDisplayName="Personnel Security - Investigation" id="{488d71a4-63d8-44fe-9213-b8f1b0722b0d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_personnelbackgroundinvestigationid" displayName="Personnel Background Investigation" parentSchemaName="govcdm_personnelbackgroundinvestigation" parentDisplayName="Personnel Background Investigation" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="26" schemaName="Inactive Personnel Security - Investigation on my Personnel Background Investigations" displayName="Inactive Personnel Security - Investigation on my Personnel Background Investigations" parentSchemaName="msfed_personnelsecurityinvestigation" parentDisplayName="Personnel Security - Investigation" id="{a6252930-8400-427a-b0a5-67351147dfe4}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_personnelbackgroundinvestigationid" displayName="Personnel Background Investigation" parentSchemaName="govcdm_personnelbackgroundinvestigation" parentDisplayName="Personnel Background Investigation" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="26" schemaName="Active Personnel Background Investigations" displayName="Active Personnel Background Investigations" parentSchemaName="govcdm_personnelbackgroundinvestigation" parentDisplayName="Personnel Background Investigation" id="{e7f4b221-215e-4fb2-a555-a47296873f88}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_personnelbackgroundinvestigationid" displayName="Personnel Background Investigation" parentSchemaName="govcdm_personnelbackgroundinvestigation" parentDisplayName="Personnel Background Investigation" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="29" displayName="Personnel Security - Investigation" id="{8b2421da-6671-f011-bec2-001dd80e063c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_personnelclearance" displayName="Personnel Clearance" parentSchemaName="govcdm_personneladjudication" parentDisplayName="Personnel Adjudication" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="26" schemaName="Active Personnel Adjudications" displayName="Active Personnel Adjudications" parentSchemaName="govcdm_personneladjudication" parentDisplayName="Personnel Adjudication" id="{592033af-8e6b-4bc0-88b2-f3551c8a8c8e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_personnelclearance" displayName="Personnel Clearance" parentSchemaName="govcdm_personneladjudication" parentDisplayName="Personnel Adjudication" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Personnel Adjudication" id="{76ec80ec-4bf1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_personnelclearance" displayName="Personnel Clearance" parentSchemaName="govcdm_personnelcvtrigger" parentDisplayName="Personnel CV Trigger" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Personnel CV Trigger" id="{d96d257b-24e0-402b-a5a2-8f9b0b2ab476}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_personnelclearanceid" displayName="Personnel Clearance" parentSchemaName="govcdm_personnelclearance" parentDisplayName="Personnel Clearance" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="26" schemaName="Active Personnel Clearances" displayName="Active Personnel Clearances" parentSchemaName="govcdm_personnelclearance" parentDisplayName="Personnel Clearance" id="{e9940f22-0ea4-42fe-b6cd-ed7937d8264f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_personnelclearanceid" displayName="Personnel Clearance" parentSchemaName="govcdm_personnelclearance" parentDisplayName="Personnel Clearance" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="29" displayName="Personnel Security - Investigation" id="{8b2421da-6671-f011-bec2-001dd80e063c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_personnelcvtriggerid" displayName="Personnel CV Trigger" parentSchemaName="govcdm_personnelcvtrigger" parentDisplayName="Personnel CV Trigger" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="26" schemaName="Active Personnel CV Triggers" displayName="Active Personnel CV Triggers" parentSchemaName="govcdm_personnelcvtrigger" parentDisplayName="Personnel CV Trigger" id="{7aa0c1cb-5243-467f-b49a-7dcbc85bbd2b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_positiondesignation" displayName="Position Designation" parentSchemaName="govcdm_personneladjudication" parentDisplayName="Personnel Adjudication" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="26" schemaName="Active Personnel Adjudications" displayName="Active Personnel Adjudications" parentSchemaName="govcdm_personneladjudication" parentDisplayName="Personnel Adjudication" id="{592033af-8e6b-4bc0-88b2-f3551c8a8c8e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_positiondesignation" displayName="Position Designation" parentSchemaName="govcdm_personneladjudication" parentDisplayName="Personnel Adjudication" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Personnel Adjudication" id="{76ec80ec-4bf1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_positiondesignation" displayName="Position Designation" parentSchemaName="govcdm_personneladjudication" parentDisplayName="Personnel Adjudication" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Personnel Adjudication" id="{c9e62603-d94a-f011-8779-001dd8096a49}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_positiondesignation" displayName="Position Designation" parentSchemaName="govcdm_personnelbackgroundinvestigation" parentDisplayName="Personnel Background Investigation" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="26" schemaName="Active Personnel Background Investigations" displayName="Active Personnel Background Investigations" parentSchemaName="govcdm_personnelbackgroundinvestigation" parentDisplayName="Personnel Background Investigation" id="{e7f4b221-215e-4fb2-a555-a47296873f88}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_positiondesignation" displayName="Position Designation" parentSchemaName="govcdm_personnelbackgroundinvestigation" parentDisplayName="Personnel Background Investigation" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Personnel Background Investigation" id="{1d382115-d94a-f011-8779-001dd8096a49}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_positiondesignation" displayName="Position Designation" parentSchemaName="govcdm_personnelbackgroundinvestigation" parentDisplayName="Personnel Background Investigation" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Personnel Background Investigation" id="{77349620-4cf1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_priorinvestigation" displayName="Prior Investigation" parentSchemaName="govcdm_personnelbackgroundinvestigation" parentDisplayName="Personnel Background Investigation" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Personnel Background Investigation" id="{77349620-4cf1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_questionnairedocument" displayName="Questionnaire Document" parentSchemaName="govcdm_personnelbackgroundinvestigation" parentDisplayName="Personnel Background Investigation" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="29" displayName="Personnel Security - Investigation" id="{8b2421da-6671-f011-bec2-001dd80e063c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_questionnairedocument" displayName="Questionnaire Document" parentSchemaName="govcdm_personnelbackgroundinvestigation" parentDisplayName="Personnel Background Investigation" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Personnel Security - Investigation" id="{391196fd-a3b5-4c5b-9015-532013830626}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_questionnairedocument" displayName="Questionnaire Document" parentSchemaName="govcdm_personnelbackgroundinvestigation" parentDisplayName="Personnel Background Investigation" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Personnel Background Investigation" id="{77349620-4cf1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_questionnairelink" displayName="Questionnaire Link" parentSchemaName="govcdm_personnelbackgroundinvestigation" parentDisplayName="Personnel Background Investigation" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Personnel Background Investigation" id="{77349620-4cf1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_rationale" displayName="Rationale" parentSchemaName="govcdm_personneladjudication" parentDisplayName="Personnel Adjudication" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Personnel Adjudication" id="{76ec80ec-4bf1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_seadalcoholconcern" displayName="SEAD - Alcohol Concern" parentSchemaName="govcdm_personneladjudication" parentDisplayName="Personnel Adjudication" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Personnel Adjudication" id="{76ec80ec-4bf1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_seadallegiancetousconcern" displayName="SEAD - Allegiance to US Concern" parentSchemaName="govcdm_personneladjudication" parentDisplayName="Personnel Adjudication" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Personnel Adjudication" id="{76ec80ec-4bf1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_seadcriminalconcern" displayName="SEAD - Criminal Concern" parentSchemaName="govcdm_personneladjudication" parentDisplayName="Personnel Adjudication" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Personnel Adjudication" id="{76ec80ec-4bf1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_seaddrugconcern" displayName="SEAD - Drug Concern" parentSchemaName="govcdm_personneladjudication" parentDisplayName="Personnel Adjudication" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Personnel Adjudication" id="{76ec80ec-4bf1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_seadfinancialconcern" displayName="SEAD - Financial Concern" parentSchemaName="govcdm_personneladjudication" parentDisplayName="Personnel Adjudication" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Personnel Adjudication" id="{76ec80ec-4bf1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_seadforeigninfluenceconcern" displayName="SEAD - Foreign Influence Concern" parentSchemaName="govcdm_personneladjudication" parentDisplayName="Personnel Adjudication" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Personnel Adjudication" id="{76ec80ec-4bf1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_seadforeignpreferenceconcern" displayName="SEAD - Foreign Preference Concern" parentSchemaName="govcdm_personneladjudication" parentDisplayName="Personnel Adjudication" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Personnel Adjudication" id="{76ec80ec-4bf1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_seadoutsideactivitiesconcern" displayName="SEAD - Outside Activities Concern" parentSchemaName="govcdm_personneladjudication" parentDisplayName="Personnel Adjudication" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Personnel Adjudication" id="{76ec80ec-4bf1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_seadpersonalconductconcern" displayName="SEAD - Personal Conduct Concern" parentSchemaName="govcdm_personneladjudication" parentDisplayName="Personnel Adjudication" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Personnel Adjudication" id="{76ec80ec-4bf1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_seadprotectedinfoconcern" displayName="SEAD - Protected Info Concern" parentSchemaName="govcdm_personneladjudication" parentDisplayName="Personnel Adjudication" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Personnel Adjudication" id="{76ec80ec-4bf1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_seadpsychologicalconcern" displayName="SEAD - Psychological Concern" parentSchemaName="govcdm_personneladjudication" parentDisplayName="Personnel Adjudication" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Personnel Adjudication" id="{76ec80ec-4bf1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_seadsexualbehaviorconcern" displayName="SEAD - Sexual Behavior Concern" parentSchemaName="govcdm_personneladjudication" parentDisplayName="Personnel Adjudication" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Personnel Adjudication" id="{76ec80ec-4bf1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_seaduseofitconcern" displayName="SEAD - Use of IT Concern" parentSchemaName="govcdm_personneladjudication" parentDisplayName="Personnel Adjudication" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Personnel Adjudication" id="{76ec80ec-4bf1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_sourcesystem" displayName="Source System" parentSchemaName="govcdm_personnelcvtrigger" parentDisplayName="Personnel CV Trigger" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Personnel CV Trigger" id="{037a6884-576d-f011-bec1-001dd80691a1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_sourcesystem" displayName="Source System" parentSchemaName="govcdm_personnelcvtrigger" parentDisplayName="Personnel CV Trigger" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Personnel CV Trigger" id="{d96d257b-24e0-402b-a5a2-8f9b0b2ab476}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_triggerdate" displayName="Trigger Date" parentSchemaName="govcdm_personnelcvtrigger" parentDisplayName="Personnel CV Trigger" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="26" schemaName="Active Personnel CV Triggers" displayName="Active Personnel CV Triggers" parentSchemaName="govcdm_personnelcvtrigger" parentDisplayName="Personnel CV Trigger" id="{7aa0c1cb-5243-467f-b49a-7dcbc85bbd2b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_triggerdate" displayName="Trigger Date" parentSchemaName="govcdm_personnelcvtrigger" parentDisplayName="Personnel CV Trigger" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Personnel CV Trigger" id="{037a6884-576d-f011-bec1-001dd80691a1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_triggerdate" displayName="Trigger Date" parentSchemaName="govcdm_personnelcvtrigger" parentDisplayName="Personnel CV Trigger" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Personnel CV Trigger" id="{d96d257b-24e0-402b-a5a2-8f9b0b2ab476}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="govcdm_personneladjudication" parentDisplayName="Personnel Adjudication" solution="Active" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Personnel Adjudication" id="{76ec80ec-4bf1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="govcdm_personnelbackgroundinvestigation" parentDisplayName="Personnel Background Investigation" solution="Active" />
+        <Dependent type="26" schemaName="Active Personnel Security - Investigation on my Personnel Background Investigations" displayName="Active Personnel Security - Investigation on my Personnel Background Investigations" parentSchemaName="msfed_personnelsecurityinvestigation" parentDisplayName="Personnel Security - Investigation" id="{488d71a4-63d8-44fe-9213-b8f1b0722b0d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="govcdm_personnelbackgroundinvestigation" parentDisplayName="Personnel Background Investigation" solution="Active" />
+        <Dependent type="26" schemaName="Inactive Personnel Security - Investigation on my Personnel Background Investigations" displayName="Inactive Personnel Security - Investigation on my Personnel Background Investigations" parentSchemaName="msfed_personnelsecurityinvestigation" parentDisplayName="Personnel Security - Investigation" id="{a6252930-8400-427a-b0a5-67351147dfe4}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="govcdm_personnelbackgroundinvestigation" parentDisplayName="Personnel Background Investigation" solution="Active" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Personnel Background Investigation" id="{77349620-4cf1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="govcdm_personnelbadgerequest" parentDisplayName="Personnel Badge Request" solution="Active" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Personnel Badge Request" id="{d7fa7e35-4cf1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="govcdm_personnelclearance" parentDisplayName="Personnel Clearance" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Personnel Clearance" id="{ef5574ee-fd25-4af6-a3c1-f8053804d8b3}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="govcdm_personnelcvtrigger" parentDisplayName="Personnel CV Trigger" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Personnel CV Trigger" id="{d96d257b-24e0-402b-a5a2-8f9b0b2ab476}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="govcdm_personnelforeigncontact" parentDisplayName="Personnel Foreign Contact" solution="Active" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Personnel Foreign Contact" id="{e9e7385a-bff1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="govcdm_personnelforeigntravel" parentDisplayName="Personnel Foreign Travel" solution="Active" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Personnel Foreign Travel" id="{761a4198-bff1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="govcdm_personnelpassport" parentDisplayName="Personnel Passport" solution="Active" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Personnel Passport" id="{051eac62-c3f1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="govcdm_personnelreportablelifeevent" parentDisplayName="Personnel Reportable Life Event" solution="Active" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Personnel Reportable Life Event" id="{6a42a8ba-c3f1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="govcdm_personnelvisitorrequest" parentDisplayName="Personnel Visitor Request" solution="Active" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Personnel Visitor Request" id="{91b548db-c3f1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="owningbusinessunit" displayName="Owning Business Unit" parentSchemaName="govcdm_personnelbackgroundinvestigation" parentDisplayName="Personnel Background Investigation" solution="Active" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Personnel Background Investigation" id="{77349620-4cf1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="statecode" displayName="Status" parentSchemaName="govcdm_personneladjudication" parentDisplayName="Personnel Adjudication" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="26" schemaName="Active Personnel Adjudications" displayName="Active Personnel Adjudications" parentSchemaName="govcdm_personneladjudication" parentDisplayName="Personnel Adjudication" id="{592033af-8e6b-4bc0-88b2-f3551c8a8c8e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="statecode" displayName="Status" parentSchemaName="govcdm_personnelbackgroundinvestigation" parentDisplayName="Personnel Background Investigation" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="26" schemaName="Active Personnel Background Investigations" displayName="Active Personnel Background Investigations" parentSchemaName="govcdm_personnelbackgroundinvestigation" parentDisplayName="Personnel Background Investigation" id="{e7f4b221-215e-4fb2-a555-a47296873f88}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="statecode" displayName="Status" parentSchemaName="govcdm_personnelclearance" parentDisplayName="Personnel Clearance" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="26" schemaName="Active Personnel Clearances" displayName="Active Personnel Clearances" parentSchemaName="govcdm_personnelclearance" parentDisplayName="Personnel Clearance" id="{e9940f22-0ea4-42fe-b6cd-ed7937d8264f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="statecode" displayName="Status" parentSchemaName="govcdm_personnelcvtrigger" parentDisplayName="Personnel CV Trigger" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="26" schemaName="Active Personnel CV Triggers" displayName="Active Personnel CV Triggers" parentSchemaName="govcdm_personnelcvtrigger" parentDisplayName="Personnel CV Trigger" id="{7aa0c1cb-5243-467f-b49a-7dcbc85bbd2b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Active Personal Information" displayName="Active Personal Information" parentSchemaName="govcdm_personalinformation" parentDisplayName="Personal Information" solution="govcdm_core (1.0.2.2)" id="{0b420469-a1db-4cd4-b621-3cd685ea6660}" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Personnel Background Investigation" id="{77349620-4cf1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Active Personnel Adjudications" displayName="Active Personnel Adjudications" parentSchemaName="govcdm_personneladjudication" parentDisplayName="Personnel Adjudication" solution="govcdm_personnelsecurity (1.0.1.0)" id="{592033af-8e6b-4bc0-88b2-f3551c8a8c8e}" />
+        <Dependent type="26" schemaName="Active Personnel Adjudications" displayName="Active Personnel Adjudications" parentSchemaName="govcdm_personneladjudication" parentDisplayName="Personnel Adjudication" id="{592033af-8e6b-4bc0-88b2-f3551c8a8c8e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Active Personnel Background Investigations" displayName="Active Personnel Background Investigations" parentSchemaName="govcdm_personnelbackgroundinvestigation" parentDisplayName="Personnel Background Investigation" solution="govcdm_personnelsecurity (1.0.1.0)" id="{e7f4b221-215e-4fb2-a555-a47296873f88}" />
+        <Dependent type="26" schemaName="Active Personnel Background Investigations" displayName="Active Personnel Background Investigations" parentSchemaName="govcdm_personnelbackgroundinvestigation" parentDisplayName="Personnel Background Investigation" id="{e7f4b221-215e-4fb2-a555-a47296873f88}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Active Personnel Clearances" displayName="Active Personnel Clearances" parentSchemaName="govcdm_personnelclearance" parentDisplayName="Personnel Clearance" solution="govcdm_personnelsecurity (1.0.1.0)" id="{e9940f22-0ea4-42fe-b6cd-ed7937d8264f}" />
+        <Dependent type="26" schemaName="Active Personnel Clearances" displayName="Active Personnel Clearances" parentSchemaName="govcdm_personnelclearance" parentDisplayName="Personnel Clearance" id="{e9940f22-0ea4-42fe-b6cd-ed7937d8264f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Active Personnel CV Triggers" displayName="Active Personnel CV Triggers" parentSchemaName="govcdm_personnelcvtrigger" parentDisplayName="Personnel CV Trigger" solution="govcdm_personnelsecurity (1.0.1.0)" id="{7aa0c1cb-5243-467f-b49a-7dcbc85bbd2b}" />
+        <Dependent type="26" schemaName="Active Personnel CV Triggers" displayName="Active Personnel CV Triggers" parentSchemaName="govcdm_personnelcvtrigger" parentDisplayName="Personnel CV Trigger" id="{7aa0c1cb-5243-467f-b49a-7dcbc85bbd2b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Active Personnel Foreign Contacts" displayName="Active Personnel Foreign Contacts" parentSchemaName="govcdm_personnelforeigncontact" parentDisplayName="Personnel Foreign Contact" solution="govcdm_personnelsecurity (1.0.1.0)" id="{de02f356-653a-4da2-ada6-8d5e2e48c059}" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Personnel Background Investigation" id="{77349620-4cf1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Active Personnel Foreign Travels" displayName="Active Personnel Foreign Travels" parentSchemaName="govcdm_personnelforeigntravel" parentDisplayName="Personnel Foreign Travel" solution="govcdm_personnelsecurity (1.0.1.0)" id="{1f5b86a3-90eb-45e9-9a0d-e64e0ea2e65f}" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Personnel Background Investigation" id="{77349620-4cf1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Active Personnel Passports" displayName="Active Personnel Passports" parentSchemaName="govcdm_personnelpassport" parentDisplayName="Personnel Passport" solution="govcdm_personnelsecurity (1.0.1.0)" id="{e375a2d3-d71d-428d-95aa-d808434d148c}" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Personnel Background Investigation" id="{77349620-4cf1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Active Personnel Reportable Life Events" displayName="Active Personnel Reportable Life Events" parentSchemaName="govcdm_personnelreportablelifeevent" parentDisplayName="Personnel Reportable Life Event" solution="govcdm_personnelsecurity (1.0.1.0)" id="{a253577d-133c-4770-adda-24d75b45e159}" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Personnel Background Investigation" id="{77349620-4cf1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="300" schemaName="msfed_actionitemspage_c082a" displayName="Action Items Page" solution="msfed_processandtasking (1.0.2.0)" />
+        <Dependent type="AppElement" displayName="msfed_msfed_PersonnelSecurity_canvasappid_msfed_actionitemspage_c082a" id.uniquename="msfed_msfed_PersonnelSecurity_canvasappid_msfed_actionitemspage_c082a" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="300" schemaName="msfed_documentspage_2bdae" displayName="Documents Page" solution="msfed_processandtasking (1.0.2.0)" />
+        <Dependent type="AppElement" displayName="msfed_msfed_PersonnelSecurity_canvasappid_msfed_documentspage_2bdae" id.uniquename="msfed_msfed_PersonnelSecurity_canvasappid_msfed_documentspage_2bdae" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Quick Create" parentDisplayName="Personnel CV Trigger" solution="govcdm_personnelsecurity (1.0.1.0)" id="{037a6884-576d-f011-bec1-001dd80691a1}" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Personnel CV Trigger" id="{037a6884-576d-f011-bec1-001dd80691a1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Quick Create" parentDisplayName="Personnel Background Investigation" solution="govcdm_personnelsecurity (1.0.1.0)" id="{1d382115-d94a-f011-8779-001dd8096a49}" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Personnel Background Investigation" id="{1d382115-d94a-f011-8779-001dd8096a49}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Quick Create" parentDisplayName="Personnel Passport" solution="govcdm_personnelsecurity (1.0.1.0)" id="{3bae2d58-d94a-f011-8779-001dd8096a49}" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Personnel Passport" id="{3bae2d58-d94a-f011-8779-001dd8096a49}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Quick Create" parentDisplayName="Personnel Reportable Life Event" solution="govcdm_personnelsecurity (1.0.1.0)" id="{4bd6dd73-d94a-f011-8779-001dd8096d0a}" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Personnel Reportable Life Event" id="{4bd6dd73-d94a-f011-8779-001dd8096d0a}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Contact Quick Create" parentDisplayName="Person" solution="msdynce_AppCommon (9.0.4.0066)" id="{661157fe-2fc9-4eaa-835f-5bfa2f7b64f7}">
+          <package appName="msdynce_AppCommon" version="9.0.25073.10001">msdynce_AppCommonAnchor (9.0.25073.10001)</package>
+        </Required>
+        <Dependent type="80" schemaName="msfed_PersonnelSecurity" displayName="Personnel Security" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Information" parentDisplayName="Document" solution="govcdm_core (1.0.2.2)" id="{66c7a42f-8504-464f-be34-00a42909ed1e}" />
+        <Dependent type="80" schemaName="msfed_PersonnelSecurity" displayName="Personnel Security" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Quick Create" parentDisplayName="Personnel Foreign Travel" solution="govcdm_personnelsecurity (1.0.1.0)" id="{827ce545-d94a-f011-8779-001dd8096a49}" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Personnel Foreign Travel" id="{827ce545-d94a-f011-8779-001dd8096a49}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Main" parentDisplayName="Person" solution="msfed_core (1.0.2.1)" id="{8300c511-fbf0-ee11-904b-0022481df7e6}" />
+        <Dependent type="80" schemaName="msfed_PersonnelSecurity" displayName="Personnel Security" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Account" parentDisplayName="Account" solution="msdynce_AppCommon (9.0.4.0066)" id="{8448b78f-8f42-454e-8e2a-f8196b0419af}">
+          <package appName="msdynce_AppCommon" version="9.0.25073.10001">msdynce_AppCommonAnchor (9.0.25073.10001)</package>
+        </Required>
+        <Dependent type="80" schemaName="msfed_PersonnelSecurity" displayName="Personnel Security" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Quick Create" parentDisplayName="Personnel Foreign Contact" solution="govcdm_personnelsecurity (1.0.1.0)" id="{8a2b8234-d94a-f011-8779-001dd8096d0a}" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Personnel Foreign Contact" id="{8a2b8234-d94a-f011-8779-001dd8096d0a}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Quick Create" parentDisplayName="Document" solution="govcdm_core (1.0.2.2)" id="{992b8347-a43c-f011-8c4d-001dd8087307}" />
+        <Dependent type="80" schemaName="msfed_PersonnelSecurity" displayName="Personnel Security" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Information" parentDisplayName="Document" solution="govcdm_core (1.0.2.2)" id="{a4c17c9c-69be-400e-a945-529b724d4a9c}" />
+        <Dependent type="80" schemaName="msfed_PersonnelSecurity" displayName="Personnel Security" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Quick Create" parentDisplayName="Personnel Clearance" solution="govcdm_personnelsecurity (1.0.1.0)" id="{a6146da2-576d-f011-bec1-001dd80691a1}" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Personnel Clearance" id="{a6146da2-576d-f011-bec1-001dd80691a1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Information" parentDisplayName="Account" solution="msdynce_AppCommon (9.0.4.0066)" id="{b053a39a-041a-4356-acef-ddf00182762b}">
+          <package appName="msdynce_AppCommon" version="9.0.25073.10001">msdynce_AppCommonAnchor (9.0.25073.10001)</package>
+        </Required>
+        <Dependent type="80" schemaName="msfed_PersonnelSecurity" displayName="Personnel Security" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Quick Create" parentDisplayName="Personnel Adjudication" solution="govcdm_personnelsecurity (1.0.1.0)" id="{c9e62603-d94a-f011-8779-001dd8096a49}" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Personnel Adjudication" id="{c9e62603-d94a-f011-8779-001dd8096a49}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Account Quick Create" parentDisplayName="Account" solution="msdynce_AppCommon (9.0.4.0066)" id="{c9e7ec2d-efca-4e4c-b3e3-f63c4bba5e4b}">
+          <package appName="msdynce_AppCommon" version="9.0.25073.10001">msdynce_AppCommonAnchor (9.0.25073.10001)</package>
+        </Required>
+        <Dependent type="80" schemaName="msfed_PersonnelSecurity" displayName="Personnel Security" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Information" parentDisplayName="Personnel CV Trigger" solution="govcdm_personnelsecurity (1.0.1.0)" id="{d96d257b-24e0-402b-a5a2-8f9b0b2ab476}" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Personnel CV Trigger" id="{d96d257b-24e0-402b-a5a2-8f9b0b2ab476}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Information" parentDisplayName="Personnel Clearance" solution="govcdm_personnelsecurity (1.0.1.0)" id="{ef5574ee-fd25-4af6-a3c1-f8053804d8b3}" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Personnel Clearance" id="{ef5574ee-fd25-4af6-a3c1-f8053804d8b3}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="govcdm_personneladjudicationicon" displayName="govcdm_personneladjudicationicon" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="1" schemaName="govcdm_personneladjudication" displayName="Personnel Adjudication" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="govcdm_personnelbackgroundinvestigationicon" displayName="govcdm_personnelbackgroundinvestigationicon" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="1" schemaName="govcdm_personnelbackgroundinvestigation" displayName="Personnel Background Investigation" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="govcdm_personnelphysicalcredentialicon" displayName="govcdm_personnelphysicalcredentialicon" solution="govcdm_personnelsecurity (1.0.1.0)" />
+        <Dependent type="1" schemaName="govcdm_personnelphysicalcredential" displayName="Personnel Physical Credential" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="msdyn_/Images/AppModule_Default_Icon.png" displayName="msdyn_/Images/AppModule_Default_Icon.png" solution="AppModuleWebResources (2.5)" />
+        <Dependent type="80" schemaName="msfed_PersonnelSecurity" displayName="Personnel Security" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="msfed_core" displayName="msfed_core" solution="msfed_core (1.0.2.1)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Personnel Adjudication" id="{76ec80ec-4bf1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="msfed_core_nameutility" displayName="msfed_core_nameutility" solution="msfed_core (1.0.2.1)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Personnel Clearance" id="{a6146da2-576d-f011-bec1-001dd80691a1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="msfed_core_nameutility" displayName="msfed_core_nameutility" solution="msfed_core (1.0.2.1)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Personnel Adjudication" id="{c9e62603-d94a-f011-8779-001dd8096a49}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="msfed_processandtasking" displayName="msfed_processandtasking" solution="msfed_processandtasking (1.0.2.0)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Personnel Background Investigation" id="{77349620-4cf1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="66" schemaName="MscrmControls.OptionSet.OptionSetControl" displayName="MscrmControls.OptionSet.OptionSetControl" solution="CustomControlsCore (9.2.25074.00262)">
+          <package appName="Custom Controls Package" version="9.2.25074.00262">CustomControlsCore (9.2.25074.00262)</package>
+        </Required>
+        <Dependent type="60" displayName="Main" parentDisplayName="Personnel Adjudication" id="{76ec80ec-4bf1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="connectionreference" displayName="msfed_sharedcommondataservice_74f74" solution="Active" id.connectionreferencelogicalname="msfed_sharedcommondataservice_74f74" />
+        <Dependent type="29" displayName="Send CV Alert to Security Officer" id="{e85bc12a-8974-f011-bec2-001dd80519db}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="SettingDefinition" displayName="AppChannel" solution="msdyn_AppFrameworkInfraExtensions (1.0.0.15)" id.uniquename="AppChannel">
+          <package appName="PowerAppsAppFramework Package" version="1.0.0.21">PowerAppsAppFramework_Anchor (1.0.0.21)</package>
+        </Required>
+        <Dependent type="AppSetting" displayName="parentappmoduleid.uniquename=msfed_PersonnelSecurity,settingdefinitionid.uniquename=AppChannel" id.parentappmoduleid.uniquename="msfed_PersonnelSecurity" id.settingdefinitionid.uniquename="AppChannel" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="SettingDefinition" displayName="appcopilotenabled" solution="msdyn_AppCopilotAppInfraSettings (9.2.2025062.250606027)" id.uniquename="appcopilotenabled">
+          <package appName="PowerAppsAppCopilotApp Package" version="9.2.2025042.250409005">PowerAppsAppCopilotApp_Anchor (9.2.2025042.250409005)</package>
+          <package appName="PowerAppsAppCopilotApp Package" version="1.0.0.2">msdyn_SuggestedAction (1.0.0.2)</package>
+        </Required>
+        <Dependent type="AppSetting" displayName="parentappmoduleid.uniquename=msfed_PersonnelSecurity,settingdefinitionid.uniquename=appcopilotenabled" id.parentappmoduleid.uniquename="msfed_PersonnelSecurity" id.settingdefinitionid.uniquename="appcopilotenabled" />
+      </MissingDependency>
+    </MissingDependencies>
+  </SolutionManifest>
+</ImportExportXml>

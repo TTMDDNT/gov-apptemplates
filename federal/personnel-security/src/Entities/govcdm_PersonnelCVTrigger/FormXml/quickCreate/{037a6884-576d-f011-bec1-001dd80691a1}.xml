@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{037a6884-576d-f011-bec1-001dd80691a1}</formid>
+    <IntroducedVersion>1.0.0.2</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab id="F931FFE2-B873-473F-8F95-9502F0AA3F5E" name="tab_1" showlabel="false" labelid="{8a81ec38-cf32-40bd-95cc-0c4fe93e7831}" ordinalvalue="0">
+          <columns>
+            <column width="34%" id="0">
+              <sections>
+                <section id="0C655D4E-C6E3-424E-9AF5-71E72D30D12E" name="tab_1_column_1_section_1" columns="1" showlabel="true" showbar="false" IsUserDefined="0" labelwidth="130" labelid="{12a6f81a-c9db-4dd7-8e81-25878f59ac81}" ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell id="542FBFBE-0E4C-496C-8012-555DE6581923" labelid="{892a747d-d753-44d3-a9e7-dc3a72182604}" ordinalvalue="10000" solutionaction="Removed" />
+                    </row>
+                    <row>
+                      <cell id="{c6ca13a6-360a-4d8e-8aa2-2d121c9000be}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10000" solutionaction="Added">
+                        <labels>
+                          <label description="Person" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_person" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="govcdm_person" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{4e8e385d-7ae0-48e3-808d-457d79f9a239}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10001" solutionaction="Added">
+                        <labels>
+                          <label description="CV Intelligence Source" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_cvintelligencesource" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="govcdm_cvintelligencesource" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{24d6c5fd-c16f-44fd-92ed-4229cae32760}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10002" solutionaction="Added">
+                        <labels>
+                          <label description="Source System" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_sourcesystem" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="govcdm_sourcesystem" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{50910d79-82b3-4e41-bbf6-de8e5855aa41}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10003" solutionaction="Added">
+                        <labels>
+                          <label description="CV Trigger Event" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_cvtriggerevent" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="govcdm_cvtriggerevent" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{6f93d1ba-412a-4c4f-986e-3820bce99ea5}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10004" solutionaction="Added">
+                        <labels>
+                          <label description="Trigger Date" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_triggerdate" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="govcdm_triggerdate" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{1fb4c1cd-8170-4420-94f8-3e694f78d6e7}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10005" solutionaction="Added">
+                        <labels>
+                          <label description="Details" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_details" classid="{E0DECE4B-6FC8-4A8F-A065-082708572369}" datafieldname="govcdm_details" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="Quick Create" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>

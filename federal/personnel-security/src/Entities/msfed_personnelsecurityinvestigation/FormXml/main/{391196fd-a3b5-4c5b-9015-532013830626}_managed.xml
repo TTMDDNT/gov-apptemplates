@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{391196fd-a3b5-4c5b-9015-532013830626}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{1d78900a-0cbc-488a-9883-0c0fd930bf4d}" name="StageStep3" locklevel="0" expanded="true" visible="false" labelid="{72549bba-1076-4440-a3b0-d095068cb595}">
+          <labels>
+            <label description="Initiation" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{ce93aad9-006d-a6b9-b17e-ce218b6f6f4c}" name="StageStep3_section1" labelid="{a5dbbf80-cf57-44ff-9200-9dbcf9ae992a}">
+                  <labels>
+                    <label description="Initiation" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{f50aa922-8b1c-47b6-84d6-43b4528ebf73}" showlabel="true" visible="true" labelid="{f9a011c5-1604-4794-99ed-e1f59338060e}">
+                        <labels>
+                          <label description="Questionnaire Document" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_govcdm_personnelbackgroundinvestigation_msfed_personnelsecurityinvestigation:govcdm_questionnairedocument" classid="{270bd3db-d9af-4782-9025-509e298dec0a}" datafieldname="govcdm_questionnairedocument" relationship="bpf_govcdm_personnelbackgroundinvestigation_msfed_personnelsecurityinvestigation" isrequired="false" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{17d66586-17b7-48a7-869e-a3a2a876b865}" name="StageStep7" locklevel="0" expanded="true" visible="false" labelid="{fa83ffef-1e93-4a29-a8e2-2dd9be9b8120}">
+          <labels>
+            <label description="Investigation" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{8b0a95dc-0af7-7394-6c1f-1643c4554f9f}" name="StageStep7_section1" labelid="{6d59799a-8ac5-49ae-a47b-bb929eacef2f}">
+                  <labels>
+                    <label description="Investigation" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{8ef8e629-1a11-45f4-abd7-9c7501c627cd}" showlabel="true" visible="true" labelid="{5e77e4d6-16b4-4c27-8be9-59c1375c3db1}">
+                        <labels>
+                          <label description="Action Status" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_govcdm_personnelbackgroundinvestigation_msfed_personnelsecurityinvestigation:govcdm_actionstatus" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="govcdm_actionstatus" relationship="bpf_govcdm_personnelbackgroundinvestigation_msfed_personnelsecurityinvestigation" isrequired="false" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{dfbf0d35-a32d-4e6d-b9a9-4c2d8690078c}" name="StageStep11" locklevel="0" expanded="true" visible="false" labelid="{dc770faa-032a-4f7d-b8ed-69c6e01df0b5}">
+          <labels>
+            <label description="Adjudication" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{71eb0bbc-6938-d3b1-35ad-25d7d729377e}" name="StageStep11_section1" labelid="{8b8727c5-0056-4ce1-be3c-6e1b631137f6}">
+                  <labels>
+                    <label description="Adjudication" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{6b99c256-5fa1-44cf-b09b-8b77b44d56f6}" showlabel="true" visible="true" labelid="{cd4ed76e-b0b4-448d-88f0-c1c31521ca98}">
+                        <labels>
+                          <label description="Adjudication Status" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_govcdm_personneladjudication_msfed_personnelsecurityinvestigation:govcdm_adjudicationstatus" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="govcdm_adjudicationstatus" relationship="bpf_govcdm_personneladjudication_msfed_personnelsecurityinvestigation" isrequired="false" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{bb686b72-10c3-4839-9f99-b619bb1a9b97}" name="StageStep15" locklevel="0" expanded="true" visible="false" labelid="{252e76dc-ce90-475f-bf3c-1266c970b3c7}">
+          <labels>
+            <label description="Clearance" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{aaf042ea-9ab8-98a5-7bee-71f1422cac26}" name="StageStep15_section1" labelid="{5e127a48-1f08-46e8-82a0-82116c0aa9a8}">
+                  <labels>
+                    <label description="Clearance" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{59a21177-1dff-4994-9f59-88fff5995542}" showlabel="true" visible="true" labelid="{0cd813fa-f3c9-46ce-b924-3f102c510288}">
+                        <labels>
+                          <label description="Eligibility Status" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_govcdm_personnelclearance_msfed_personnelsecurityinvestigation:govcdm_eligibilitystatus" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="govcdm_eligibilitystatus" relationship="bpf_govcdm_personnelclearance_msfed_personnelsecurityinvestigation" isrequired="false" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

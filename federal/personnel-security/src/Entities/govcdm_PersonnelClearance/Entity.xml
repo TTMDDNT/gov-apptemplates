@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Entity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name LocalizedName="Personnel Clearance" OriginalName="Personnel Clearance">govcdm_PersonnelClearance</Name>
+  <FormXml />
+  <SavedQueries />
+  <RibbonDiffXml />
+</Entity>

@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppModuleSiteMap xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SiteMapUniqueName>msfed_PersonnelSecurity</SiteMapUniqueName>
+  <EnableCollapsibleGroups>False</EnableCollapsibleGroups>
+  <ShowHome>True</ShowHome>
+  <ShowPinned>True</ShowPinned>
+  <ShowRecents>True</ShowRecents>
+  <SiteMap IntroducedVersion="7.0.0.0">
+    <Area Id="area_61782e63" ResourceId="SitemapDesigner.NewTitle" DescriptionResourceId="SitemapDesigner.NewTitle" ShowGroups="true" IntroducedVersion="7.0.0.0">
+      <Titles>
+        <Title LCID="1033" Title="Area1" />
+      </Titles>
+      <Group Id="group_77bebfe6" ResourceId="SitemapDesigner.NewGroup" DescriptionResourceId="SitemapDesigner.NewGroup" IntroducedVersion="7.0.0.0" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+        <Titles>
+          <Title LCID="1033" Title="Clearance Activity" />
+        </Titles>
+        <SubArea Id="subarea_66aee710" DescriptionResourceId="Dashboards_Description" Icon="/_imgs/imagestrips/transparent_spacer.gif" Url="/workplace/home_dashboards.aspx" DefaultDashboard="e0d08e28-c273-f011-bec2-001dd80e063c" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" ToolTipResourseId="DashboardTooltip">
+          <Titles>
+            <Title LCID="1033" Title="Dashboard" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="subarea_6ba6f4e6" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="govcdm_personnelbackgroundinvestigation" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Background Investigations" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="subarea_f6a04396" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="govcdm_personneladjudication" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Adjudications" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="subarea_56294c9c" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="govcdm_personnelclearance" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Clearances" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="subarea_e34b9514" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="govcdm_personnelcvtrigger" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="CV Triggers" />
+          </Titles>
+        </SubArea>
+      </Group>
+      <Group Id="group_b2624e17" ResourceId="SitemapDesigner.NewGroup" DescriptionResourceId="SitemapDesigner.NewGroup" IntroducedVersion="7.0.0.0" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+        <Titles>
+          <Title LCID="1033" Title="Search Related" />
+        </Titles>
+        <SubArea Id="subarea_8acc9d9a" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="govcdm_personalinformation" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="subarea_61f6b73e" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="govcdm_personnelforeigncontact" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Foreign Contacts" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="subarea_1468581b" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="govcdm_personnelforeigntravel" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Foreign Travels" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="subarea_720049cf" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="govcdm_personnelpassport" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Passports" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="subarea_14fefe29" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="govcdm_personnelreportablelifeevent" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Reportable Life Events" />
+          </Titles>
+        </SubArea>
+      </Group>
+      <Group Id="group_82bdffd3" ResourceId="SitemapDesigner.NewGroup" DescriptionResourceId="SitemapDesigner.NewGroup" IntroducedVersion="7.0.0.0" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+        <Titles>
+          <Title LCID="1033" Title="Physical Security" />
+        </Titles>
+        <SubArea Id="subarea_ca08c183" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="govcdm_personnelphysicalcredential" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Physical Credentials" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="subarea_a547064f" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="govcdm_personnelvisitorrequest" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Visitor Requests" />
+          </Titles>
+        </SubArea>
+      </Group>
+      <Group Id="group_98e4a52c" ResourceId="SitemapDesigner.NewGroup" DescriptionResourceId="SitemapDesigner.NewGroup" IntroducedVersion="7.0.0.0" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+        <Titles>
+          <Title LCID="1033" Title="Admin" />
+        </Titles>
+        <SubArea Id="subarea_0044fb4c" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="account" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Investigation Providers" />
+          </Titles>
+        </SubArea>
+      </Group>
+    </Area>
+  </SiteMap>
+  <LocalizedNames>
+    <LocalizedName description="Personnel Security" languagecode="1033" />
+  </LocalizedNames>
+</AppModuleSiteMap>
