@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppModule>
+  <UniqueName>msfed_HRAdministration</UniqueName>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <WebResourceId>953b9fac-1e5e-e611-80d6-00155ded156f</WebResourceId>
+  <OptimizedFor></OptimizedFor>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+  <FormFactor>1</FormFactor>
+  <ClientType>4</ClientType>
+  <NavigationType>0</NavigationType>
+  <AppModuleComponents>
+    <AppModuleComponent type="1" schemaName="contact" />
+    <AppModuleComponent type="1" schemaName="govcdm_hractiontype" />
+    <AppModuleComponent type="1" schemaName="govcdm_hrchangerequest" />
+    <AppModuleComponent type="1" schemaName="govcdm_hrevent" />
+    <AppModuleComponent type="1" schemaName="govcdm_hrpersonnelaction" />
+    <AppModuleComponent type="1" schemaName="govcdm_hrposition" />
+    <AppModuleComponent type="1" schemaName="govcdm_hrpositionassignment" />
+    <AppModuleComponent type="1" schemaName="govcdm_hrpositiondescription" />
+    <AppModuleComponent type="1" schemaName="govcdm_hrteleworkrequest" />
+    <AppModuleComponent type="1" schemaName="govcdm_processstep" />
+    <AppModuleComponent type="26" id="{c7c56eeb-5d40-ee11-bdf3-000d3a5a7dcf}" />
+    <AppModuleComponent type="26" id="{7dab73c7-6ae1-4739-8f85-48ef1a814709}" />
+    <AppModuleComponent type="26" id="{0b10e62b-c88c-4f08-96f8-5b5223524f8f}" />
+    <AppModuleComponent type="26" id="{02fe129d-ce83-43d6-afba-950ed066948c}" />
+    <AppModuleComponent type="26" id="{bb894760-9ed2-4342-83f3-e59a11acf6d0}" />
+    <AppModuleComponent type="60" id="{7973fe64-253d-ee11-bdf4-000d3a119632}" />
+    <AppModuleComponent type="60" id="{64af97db-f8f1-ee11-904b-000d3a8cbc95}" />
+    <AppModuleComponent type="60" id="{69391501-f9f1-ee11-904b-000d3a8cbc95}" />
+    <AppModuleComponent type="60" id="{6e74371b-f9f1-ee11-904b-000d3a8cbc95}" />
+    <AppModuleComponent type="62" schemaName="msfed_HRAdministration" />
+  </AppModuleComponents>
+  <AppModuleRoleMaps>
+    <Role id="{627090ff-40a3-4053-8790-584edc5be201}" />
+    <Role id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+  </AppModuleRoleMaps>
+  <LocalizedNames>
+    <LocalizedName description="HR Administration" languagecode="1033" />
+  </LocalizedNames>
+  <appelements>
+    <appelement uniquename="msfed_msfed_HRAdministration_canvasappid_msfed_actionitemspage_c082a">
+      <canvasappid>
+        <name>msfed_actionitemspage_c082a</name>
+      </canvasappid>
+      <iscustomizable>1</iscustomizable>
+      <name>msfed_msfed_HRAdministration_canvasappid_msfed_actionitemspage_c082a</name>
+    </appelement>
+  </appelements>
+</AppModule>

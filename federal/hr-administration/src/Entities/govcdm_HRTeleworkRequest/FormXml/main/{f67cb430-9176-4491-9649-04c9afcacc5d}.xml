@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{f67cb430-9176-4491-9649-04c9afcacc5d}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls" solutionaction="Modified">
+      <tabs>
+        <tab verticallayout="true" id="{fd58a6fa-2d4b-4831-9857-00a02ae40d5c}" IsUserDefined="1" ordinalvalue="0">
+          <columns>
+            <column width="100%" id="0">
+              <sections>
+                <section showlabel="true" showbar="false" IsUserDefined="0" id="{9f8f5e60-e36b-4bcd-8e0f-d30414eb0c11}" columns="11" name="secTerms" ordinalvalue="0" solutionaction="Modified">
+                  <labels>
+                    <label description="Terms of Agreement" languagecode="1033" solutionaction="Modified" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{4aad4e25-7691-4b8f-acff-419dcba32c3c}" ordinalvalue="10001" solutionaction="Removed" />
+                    </row>
+                    <row>
+                      <cell id="{d30dea70-6243-4f5b-bf54-5d8ec1286faf}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="20001" solutionaction="Added">
+                        <labels>
+                          <label description="Telework Arrangement Type" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_teleworkarrangementtype" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="govcdm_teleworkarrangementtype" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b8dfb145-30b6-49c3-8cff-67773b748453}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10002" solutionaction="Added">
+                        <labels>
+                          <label description="Employee" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_employee" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="govcdm_employee" disabled="false" />
+                      </cell>
+                      <cell id="{800b6509-346f-424f-960b-e10ae1e4deda}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="20003" solutionaction="Added">
+                        <labels>
+                          <label description="Number Days Per Period" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_numberdaysperperiod" classid="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}" datafieldname="govcdm_numberdaysperperiod" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e2e4ee47-c4c4-4694-a90b-585ef4ce3fbb}" locklevel="0" colspan="1" rowspan="4" ordinalvalue="10004" solutionaction="Added">
+                        <labels>
+                          <label description="Regular Worksite Address" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_regularworksiteaddress" classid="{E0DECE4B-6FC8-4A8F-A065-082708572369}" datafieldname="govcdm_regularworksiteaddress" disabled="false" />
+                      </cell>
+                      <cell id="{ac8a63d4-3443-4896-990e-fb865f8159b0}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="20005" solutionaction="Added">
+                        <labels>
+                          <label description="Alternate Work Days" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_alternateworkdays" classid="{4AA28AB7-9C13-4F57-A73D-AD894D048B5F}" datafieldname="govcdm_alternateworkdays" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{471d1e5b-0673-4f09-86f4-81095936835d}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="20006" solutionaction="Added">
+                        <labels>
+                          <label description="Telework Start Date" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_teleworkstartdate" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="govcdm_teleworkstartdate" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a47193b4-554a-4187-9794-599bcf83e992}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="20007" solutionaction="Added">
+                        <labels>
+                          <label description="Telework End Date" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_teleworkenddate" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="govcdm_teleworkenddate" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell locklevel="0" id="{70c2e033-969b-417e-898f-6f0bfe0f4c20}" ordinalvalue="20008" solutionaction="Added">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{47ab8aae-bdfd-4268-9995-f4643bc76569}" locklevel="0" colspan="1" rowspan="4" ordinalvalue="10009" solutionaction="Added">
+                        <labels>
+                          <label description="Alternate Worksite Address" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_alternateworksiteaddress" classid="{E0DECE4B-6FC8-4A8F-A065-082708572369}" datafieldname="govcdm_alternateworksiteaddress" disabled="false" />
+                      </cell>
+                      <cell locklevel="0" id="{b963c2c2-f1f2-4209-b346-75e221835d3e}" ordinalvalue="20010" solutionaction="Added">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell locklevel="0" id="{a11fc550-456c-42b5-bfad-9c2fafad1acf}" ordinalvalue="20011" solutionaction="Added">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b5f16f29-8f2b-4ce9-9103-976852faf51f}" ordinalvalue="20012" solutionaction="Added">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{f2ee4b85-6bd2-4ce9-a355-219361e8e20b}" ordinalvalue="20013" solutionaction="Added">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{878f795d-379f-43b9-a6c5-eaa2ec93aa6b}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10014" solutionaction="Added">
+                        <labels>
+                          <label description="Alternate Worksite Phone" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_alternateworksitephone" classid="{8C10015A-B339-4982-9474-A95FE05631A5}" datafieldname="govcdm_alternateworksitephone" disabled="false" />
+                      </cell>
+                      <cell id="{8f6b2f51-ebb0-42a6-b5a1-716694aff8fe}" ordinalvalue="20015" solutionaction="Added">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{89df1549-9746-4901-b28f-cc089a6cdae8}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10016" solutionaction="Added">
+                        <labels>
+                          <label description="Alternate Worksite Email" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_alternateworksiteemail" classid="{ADA2203E-B4CD-49BE-9DDF-234642B43B52}" datafieldname="govcdm_alternateworksiteemail" disabled="false" />
+                      </cell>
+                      <cell id="{1bc027c1-b1d7-498c-a239-c0a25e856c09}" ordinalvalue="20017" solutionaction="Added">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="null_section_3" id="34b15e2e-9771-4732-9e98-682e5d5b4d85" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="11" labelwidth="115" ordinalvalue="1" solutionaction="Added">
+                  <labels>
+                    <label description="Cancellation" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{7e6d0196-076e-45e8-9303-f1a1b860137d}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10000">
+                        <labels>
+                          <label description="Cancellation Date" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_cancellationdate" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="govcdm_cancellationdate" disabled="false" />
+                      </cell>
+                      <cell id="{2ed01397-51be-4e2e-af5d-c59730682b65}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="20001">
+                        <labels>
+                          <label description="Cancellation Reason" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_cancellationreason" classid="{E0DECE4B-6FC8-4A8F-A065-082708572369}" datafieldname="govcdm_cancellationreason" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{40313916-ffaf-4f06-8892-76df62a89e1f}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left" solutionaction="Added">
+        <rows>
+          <row>
+            <cell id="{4aad4e25-7691-4b8f-acff-419dcba32c3c}" colspan="1" rowspan="1" ordinalvalue="10000">
+              <labels>
+                <label description="Owner" languagecode="1033" />
+              </labels>
+              <control id="header_ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+            </cell>
+            <cell id="{4c88a7ae-4422-499d-a339-269a21b8d5f2}" showlabel="false" ordinalvalue="20001">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{53de4f59-d13d-433f-85ad-d5cfb29e0170}" showlabel="false" ordinalvalue="30002">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+          <row>
+            <cell id="{31e083bf-c947-4d0b-a9d1-3fd98a815e6c}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10003">
+              <labels>
+                <label description="Action Assignment" languagecode="1033" />
+              </labels>
+              <control id="header_msfed_actionassignment" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msfed_actionassignment" disabled="false" />
+            </cell>
+            <cell id="{6b72ab22-1aa3-49a8-abde-e6c51ebb2ff9}" ordinalvalue="20004">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{bd8af248-5259-4d85-86ce-383bcc87caa1}" ordinalvalue="30005">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{59bbb39a-c0a9-4cf3-bb8e-c8aa7e1bfc1c}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left" solutionaction="Added">
+        <rows />
+      </footer>
+      <DisplayConditions Order="0" FallbackForm="true" solutionaction="Added">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>
