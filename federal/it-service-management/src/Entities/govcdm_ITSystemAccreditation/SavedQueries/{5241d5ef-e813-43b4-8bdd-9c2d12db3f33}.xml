@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{5241d5ef-e813-43b4-8bdd-9c2d12db3f33}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="govcdm_name" select="1" icon="1" preview="1">
+        <row name="result" id="govcdm_itsystemaccreditationid">
+          <cell name="govcdm_name" width="143" />
+          <cell name="govcdm_itsystem" width="167" />
+          <cell name="govcdm_itaccreditationtype" width="165" />
+          <cell name="govcdm_expirationdate" width="130" />
+          <cell name="govcdm_scope" width="300" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="govcdm_itsystemaccreditation">
+          <attribute name="govcdm_itsystemaccreditationid" />
+          <attribute name="govcdm_name" />
+          <order attribute="govcdm_name" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="govcdm_itaccreditationtype" />
+          <attribute name="govcdm_itsystem" />
+          <attribute name="govcdm_expirationdate" />
+          <attribute name="govcdm_scope" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active IT System Accreditations" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

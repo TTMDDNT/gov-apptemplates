@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{f233a9d5-f36a-ef11-a671-001dd830706f}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab id="F931FFE2-B873-473F-8F95-9502F0AA3F5E" name="tab_1" showlabel="false" labelid="{0ffce650-93e5-4d56-94d5-f6598fe1192b}" ordinalvalue="0">
+          <columns>
+            <column width="34%" id="0">
+              <sections>
+                <section id="0C655D4E-C6E3-424E-9AF5-71E72D30D12E" name="tab_1_column_1_section_1" columns="1" showlabel="true" showbar="false" IsUserDefined="0" labelwidth="130" labelid="{23db1136-5835-4b2f-856a-80ef6414a496}" ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell id="{7225c4b4-549f-4133-afcd-7bbc4f6b2310}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10001" solutionaction="Added">
+                        <labels>
+                          <label description="IT System Access Request" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_itsystemaccessrequest" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="govcdm_itsystemaccessrequest" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{657caf35-52ff-486b-acd3-87f73fec0325}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10002" solutionaction="Added">
+                        <labels>
+                          <label description="IT System Access Action" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_itsystemaccessaction" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="govcdm_itsystemaccessaction" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{2b726d5c-69ca-48e8-b7c0-188236c1b8b8}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10003" solutionaction="Added">
+                        <labels>
+                          <label description="IT Product" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_itproduct" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="govcdm_itproduct" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{f0dbb6ab-b8be-4fc1-be9f-5ddff29c0b0d}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10004" solutionaction="Added">
+                        <labels>
+                          <label description="IT Product Entitlement" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_itproductentitlement" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="govcdm_itproductentitlement" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{cfb96b37-53b1-4883-a153-bf13d43112a3}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10005" solutionaction="Added">
+                        <labels>
+                          <label description="IT System Component" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_itsystemcomponent" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="govcdm_itsystemcomponent" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0e29dd45-ccbf-485d-9fa2-18e8ecaa54c4}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10006" solutionaction="Added">
+                        <labels>
+                          <label description="Justification" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_justification" classid="{E0DECE4B-6FC8-4A8F-A065-082708572369}" datafieldname="govcdm_justification" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="Quick Create" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>

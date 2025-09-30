@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{710c06eb-c012-4213-b490-81cbba5cd7aa}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls" solutionaction="Modified">
+      <tabs>
+        <tab verticallayout="true" id="{e3f627c5-4c9a-435e-99ac-7baf791568c3}" IsUserDefined="1" ordinalvalue="0">
+          <columns>
+            <column width="100%" id="0">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{639e2af2-a13b-4f18-bf1e-a66df303f398}" ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell id="{6adeec28-65f3-4aee-bedf-a67a0e99a2bb}" colspan="1" rowspan="1" ordinalvalue="10005" solutionaction="Modified">
+                        <labels>
+                          <label description="Name" languagecode="1033" solutionaction="Modified" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{20d0f844-7506-4aa2-b92b-d0f0da5bb202}" colspan="1" rowspan="1" ordinalvalue="10006" solutionaction="Modified">
+                        <labels>
+                          <label description="Owner" languagecode="1033" solutionaction="Modified" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{271d1122-e624-408a-b376-032dd0e52e54}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10000" solutionaction="Added">
+                        <labels>
+                          <label description="IT System Access Action" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_itsystemaccessaction" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="govcdm_itsystemaccessaction" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b82e2917-5ca2-4ee2-99ce-8735a989e0ba}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10001" solutionaction="Added">
+                        <labels>
+                          <label description="IT System Component" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_itsystemcomponent" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="govcdm_itsystemcomponent" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{89e785e7-b19d-40fb-b142-59dc93ac84d0}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10002" solutionaction="Added">
+                        <labels>
+                          <label description="IT Product" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_itproduct" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="govcdm_itproduct" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{14ec9f6c-15b3-4f48-8b64-f6482dbc2ed5}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10003" solutionaction="Added">
+                        <labels>
+                          <label description="IT Product Entitlement" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_itproductentitlement" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="govcdm_itproductentitlement" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{15c4636b-9de1-48c8-a11b-37ae95bfff39}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10004" solutionaction="Added">
+                        <labels>
+                          <label description="Justification" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_justification" classid="{E0DECE4B-6FC8-4A8F-A065-082708572369}" datafieldname="govcdm_justification" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_2" id="0a98cd67-93f9-4afa-81fd-da62848d9ae4" IsUserDefined="0" locklevel="0" showlabel="true" ordinalvalue="1" solutionaction="Added">
+          <labels>
+            <label description="Processing" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%" id="0">
+              <sections>
+                <section name="tab_2_section_1" id="e914f6e8-4e3b-4873-ac91-a1885f3beab3" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115" ordinalvalue="0">
+                  <labels>
+                    <label description="New Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row />
+                    <row>
+                      <cell id="{4f5b5b63-89e8-4340-847c-c9a0f1196ccb}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10000">
+                        <labels>
+                          <label description="Action Comments" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_actioncomments" classid="{E0DECE4B-6FC8-4A8F-A065-082708572369}" datafieldname="govcdm_actioncomments" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{50a1766b-c14f-4c3d-92cb-730113c928b2}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10001">
+                        <labels>
+                          <label description="Action Completed Date Time" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_actioncompleteddatetime" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="govcdm_actioncompleteddatetime" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{4b868441-845d-4b36-89e0-f5ebe0666fef}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10002">
+                        <labels>
+                          <label description="Action Status" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_actionstatus" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="govcdm_actionstatus" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{2b25b1aa-3d02-4f60-bf27-2f7dc274b7a2}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10003">
+                        <labels>
+                          <label description="Action Expiration Date Time" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_actionexpirationdatetime" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="govcdm_actionexpirationdatetime" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{10ac74b1-b811-4728-bd80-e78b75acc9ed}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left" solutionaction="Added">
+        <rows>
+          <row>
+            <cell id="{eeda8ad1-56f6-4c59-8266-f27742b86089}" showlabel="false" ordinalvalue="10000">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{c55a0914-504e-45e6-a2a4-54c786a34932}" showlabel="false" ordinalvalue="20001">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{86f71e0f-859f-42df-b1ad-120685226377}" showlabel="false" ordinalvalue="30002">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{0e0a6056-0a70-4444-8fbc-07e46ecc4ae2}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="40003">
+              <labels>
+                <label description="IT System Access Request" languagecode="1033" />
+              </labels>
+              <control id="header_govcdm_itsystemaccessrequest" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="govcdm_itsystemaccessrequest" disabled="false" />
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{c21a2655-c918-4dbe-b9b3-e15a97a2f227}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left" solutionaction="Added">
+        <rows>
+          <row>
+            <cell id="{8c8b8d2c-392f-4185-b86b-ee2c94df382b}" showlabel="false" ordinalvalue="10000">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{e6f0a039-4675-4dda-bce0-ef8b72caa426}" showlabel="false" ordinalvalue="20001">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{fecd4f54-4e2e-49d4-b2d5-221b48d2c765}" showlabel="false" ordinalvalue="30002">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions Order="0" FallbackForm="true" solutionaction="Added">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

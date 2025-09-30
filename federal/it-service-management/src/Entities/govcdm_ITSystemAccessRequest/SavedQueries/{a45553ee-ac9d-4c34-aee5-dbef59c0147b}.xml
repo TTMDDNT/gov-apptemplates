@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{a45553ee-ac9d-4c34-aee5-dbef59c0147b}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="govcdm_name" select="1" icon="1" preview="1">
+        <row name="result" id="govcdm_itsystemaccessrequestid">
+          <cell name="govcdm_name" width="118" />
+          <cell name="govcdm_requestdate" width="116" />
+          <cell name="govcdm_requestedbydate" width="149" />
+          <cell name="govcdm_itsystemaccessrequesttype" width="221" />
+          <cell name="govcdm_actionstatus" width="116" />
+          <cell name="govcdm_useridentificationnumber" width="195" />
+          <cell name="govcdm_lastname" width="102" />
+          <cell name="govcdm_firstname" width="103" />
+          <cell name="govcdm_emailaddress" width="123" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="govcdm_itsystemaccessrequest">
+          <attribute name="govcdm_itsystemaccessrequestid" />
+          <attribute name="govcdm_name" />
+          <order attribute="govcdm_name" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="govcdm_itsystemaccessrequesttype" />
+          <attribute name="govcdm_lastname" />
+          <attribute name="govcdm_firstname" />
+          <attribute name="govcdm_emailaddress" />
+          <attribute name="govcdm_requestdate" />
+          <attribute name="govcdm_requestedbydate" />
+          <attribute name="govcdm_actionstatus" />
+          <attribute name="govcdm_useridentificationnumber" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active IT System Access Requests" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>
