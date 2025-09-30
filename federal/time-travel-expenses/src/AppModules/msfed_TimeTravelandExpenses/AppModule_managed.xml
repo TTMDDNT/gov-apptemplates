@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppModule>
+  <UniqueName>msfed_TimeTravelandExpenses</UniqueName>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <WebResourceId>953b9fac-1e5e-e611-80d6-00155ded156f</WebResourceId>
+  <OptimizedFor></OptimizedFor>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+  <FormFactor>1</FormFactor>
+  <ClientType>4</ClientType>
+  <NavigationType>0</NavigationType>
+  <AppModuleComponents>
+    <AppModuleComponent type="1" schemaName="govcdm_actionassignment" />
+    <AppModuleComponent type="1" schemaName="govcdm_expenseitemcategory" />
+    <AppModuleComponent type="1" schemaName="govcdm_expensereport" />
+    <AppModuleComponent type="1" schemaName="govcdm_expensereportlineitem" />
+    <AppModuleComponent type="1" schemaName="govcdm_timeavailability" />
+    <AppModuleComponent type="1" schemaName="govcdm_timeentry" />
+    <AppModuleComponent type="1" schemaName="govcdm_timeperiod" />
+    <AppModuleComponent type="1" schemaName="govcdm_timeproject" />
+    <AppModuleComponent type="1" schemaName="govcdm_timeprojecttask" />
+    <AppModuleComponent type="1" schemaName="govcdm_travelpurpose" />
+    <AppModuleComponent type="1" schemaName="govcdm_travelrequest" />
+    <AppModuleComponent type="26" id="{d91c00ec-6d2a-ef11-840a-001dd805290e}" />
+    <AppModuleComponent type="26" id="{759bf6c2-cdd1-45fb-a971-38784d13a4cd}" />
+    <AppModuleComponent type="26" id="{8dd847e8-9b10-4421-8574-5d70d0930ff5}" />
+    <AppModuleComponent type="26" id="{fe2e3dfd-4c89-4b4b-b561-64bda743a1ee}" />
+    <AppModuleComponent type="26" id="{92a8bad9-9dda-4ac4-9f53-b06a91b3aabb}" />
+    <AppModuleComponent type="26" id="{3a7c4e64-0684-4447-8200-cdb39c1852f7}" />
+    <AppModuleComponent type="26" id="{2a71066c-c6ed-483a-b426-fc319405ea53}" />
+    <AppModuleComponent type="60" id="{5218693e-5e15-f011-9989-001dd809c52b}" />
+    <AppModuleComponent type="62" schemaName="msfed_TimeTravelandExpenses" />
+  </AppModuleComponents>
+  <AppModuleRoleMaps>
+    <Role id="{627090ff-40a3-4053-8790-584edc5be201}" />
+    <Role id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+  </AppModuleRoleMaps>
+  <LocalizedNames>
+    <LocalizedName description="Time, Travel, and Expenses" languagecode="1033" />
+  </LocalizedNames>
+  <appelements>
+    <appelement uniquename="msfed_msfed_TimeTravelandExpenses_canvasappid_msfed_actionassignmentpage_3215d">
+      <canvasappid>
+        <name>msfed_actionassignmentpage_3215d</name>
+      </canvasappid>
+      <iscustomizable>1</iscustomizable>
+      <name>msfed_msfed_TimeTravelandExpenses_canvasappid_msfed_actionassignmentpage_3215d</name>
+    </appelement>
+    <appelement uniquename="msfed_msfed_TimeTravelandExpenses_canvasappid_msfed_actionitempage_94fbe">
+      <canvasappid>
+        <name>msfed_actionitempage_94fbe</name>
+      </canvasappid>
+      <iscustomizable>1</iscustomizable>
+      <name>msfed_msfed_TimeTravelandExpenses_canvasappid_msfed_actionitempage_94fbe</name>
+    </appelement>
+  </appelements>
+  <appsettings>
+    <appsetting settingdefinitionid.uniquename="AppChannel">
+      <iscustomizable>1</iscustomizable>
+      <value>1</value>
+    </appsetting>
+  </appsettings>
+</AppModule>
