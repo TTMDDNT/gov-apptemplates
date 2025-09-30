@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{aa4dfd93-e274-ee11-9ae7-6045bd0062b9}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="govcdm_name" select="1" icon="1" preview="1">
+        <row name="result" id="govcdm_projectid">
+          <cell name="govcdm_name" width="300" />
+          <cell name="govcdm_primaryprojectmanager" width="182" />
+          <cell name="govcdm_scheduledstartdate" width="159" />
+          <cell name="govcdm_scheduledenddate" width="155" />
+          <cell name="govcdm_description" width="296" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="govcdm_project">
+          <attribute name="govcdm_projectid" />
+          <attribute name="govcdm_name" />
+          <order attribute="govcdm_name" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="govcdm_primaryprojectmanager" />
+          <attribute name="govcdm_scheduledenddate" />
+          <attribute name="govcdm_scheduledstartdate" />
+          <attribute name="govcdm_description" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Current Projects" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>
