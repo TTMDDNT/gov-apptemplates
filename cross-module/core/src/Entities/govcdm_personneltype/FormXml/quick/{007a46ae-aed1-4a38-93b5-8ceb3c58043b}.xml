@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{007a46ae-aed1-4a38-93b5-8ceb3c58043b}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form maxWidth="400" solutionaction="Modified">
+      <tabs>
+        <tab verticallayout="true" id="{2546b066-7acc-40c5-91b4-ff8fe06963a7}" IsUserDefined="1" ordinalvalue="0">
+          <columns>
+            <column width="100%" id="0">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{348e024d-7157-4752-8dca-1ebfe992af2b}" ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell id="{2bebec5c-aea0-45cc-b6bd-129e23e1c8d8}" showlabel="true" locklevel="1" visible="false" ordinalvalue="10001" solutionaction="Modified">
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" uniqueid="{00d14372-e4d4-557b-4001-1627085c4380}" disabled="false" solutionaction="Modified">
+                          <parameters solutionaction="Added">
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="Quick View" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A quick view form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

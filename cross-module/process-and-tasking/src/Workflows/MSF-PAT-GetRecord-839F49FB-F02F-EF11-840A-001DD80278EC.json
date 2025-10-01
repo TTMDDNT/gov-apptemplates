@@ -1,0 +1,192 @@
+{
+  "properties": {
+    "connectionReferences": {
+      "shared_commondataserviceforapps": {
+        "runtimeSource": "embedded",
+        "connection": {
+          "connectionReferenceLogicalName": "msgov_sharedcommondataserviceforapps_d7f8d"
+        },
+        "api": {
+          "name": "shared_commondataserviceforapps"
+        }
+      }
+    },
+    "definition": {
+      "$schema": "https://schema.management.azure.com/providers/Microsoft.Logic/schemas/2016-06-01/workflowdefinition.json#",
+      "contentVersion": "1.0.0.0",
+      "parameters": {
+        "$connections": {
+          "defaultValue": {},
+          "type": "Object"
+        },
+        "$authentication": {
+          "defaultValue": {},
+          "type": "SecureObject"
+        }
+      },
+      "triggers": {
+        "manual": {
+          "metadata": {
+            "operationMetadataId": "15daff66-3945-4270-a78c-4285e1222498"
+          },
+          "type": "Request",
+          "kind": "PowerAppV2",
+          "inputs": {
+            "schema": {
+              "type": "object",
+              "properties": {
+                "text": {
+                  "title": "EntityName",
+                  "type": "string",
+                  "x-ms-dynamically-added": true,
+                  "description": "Enter the Entity Name",
+                  "x-ms-content-hint": "TEXT"
+                },
+                "text_1": {
+                  "title": "RecordID",
+                  "type": "string",
+                  "x-ms-dynamically-added": true,
+                  "description": "Enter the Record ID",
+                  "x-ms-content-hint": "TEXT"
+                }
+              },
+              "required": [
+                "text",
+                "text_1"
+              ]
+            }
+          }
+        }
+      },
+      "actions": {
+        "Get_Record": {
+          "runAfter": {},
+          "metadata": {
+            "operationMetadataId": "5a77f6dc-7c62-4fe2-b454-d07439b1c08e"
+          },
+          "type": "OpenApiConnection",
+          "inputs": {
+            "host": {
+              "connectionName": "shared_commondataserviceforapps",
+              "operationId": "GetItem",
+              "apiId": "/providers/Microsoft.PowerApps/apis/shared_commondataserviceforapps"
+            },
+            "parameters": {
+              "entityName": "@triggerBody()['text']",
+              "recordId": "@triggerBody()['text_1']"
+            },
+            "authentication": "@parameters('$authentication')"
+          }
+        },
+        "Respond_to_a_Power_App_or_flow": {
+          "runAfter": {
+            "Compose": [
+              "Succeeded"
+            ]
+          },
+          "metadata": {
+            "operationMetadataId": "c606bf94-9c36-4975-a397-44adf2ce2eac"
+          },
+          "type": "Response",
+          "kind": "PowerApp",
+          "inputs": {
+            "statusCode": 200,
+            "body": {
+              "result": "@{outputs('Compose')}",
+              "url": "@{variables('varRecordURL')}"
+            },
+            "schema": {
+              "type": "object",
+              "properties": {
+                "result": {
+                  "title": "Result",
+                  "x-ms-dynamically-added": true,
+                  "type": "string"
+                },
+                "url": {
+                  "title": "URL",
+                  "x-ms-dynamically-added": true,
+                  "type": "string"
+                }
+              }
+            }
+          }
+        },
+        "Compose": {
+          "runAfter": {
+            "varRecordURL": [
+              "Succeeded"
+            ]
+          },
+          "metadata": {
+            "operationMetadataId": "6d9d3306-daf9-4f6a-87b2-04edbd35ec15"
+          },
+          "type": "Compose",
+          "inputs": "@string(body('Get_Record'))"
+        },
+        "varBaseURL": {
+          "runAfter": {
+            "Get_Record": [
+              "Succeeded"
+            ]
+          },
+          "metadata": {
+            "operationMetadataId": "e11394ea-c175-4f3e-8167-67158cd74cdb"
+          },
+          "type": "InitializeVariable",
+          "inputs": {
+            "variables": [
+              {
+                "name": "varBaseURL",
+                "type": "string",
+                "value": "@uriHost(body('Get_Record')?['@odata.id'])"
+              }
+            ]
+          }
+        },
+        "varRecordURL": {
+          "runAfter": {
+            "varEntitySingular": [
+              "Succeeded"
+            ]
+          },
+          "metadata": {
+            "operationMetadataId": "916b8a06-e14f-44d1-bb67-91c5e4b4248a"
+          },
+          "type": "InitializeVariable",
+          "inputs": {
+            "variables": [
+              {
+                "name": "varRecordURL",
+                "type": "string",
+                "value": "@concat('https://', variables('varBaseURL'), '/main.aspx?pagetype=entityrecord&etn=', variables('varEntitySingular'), '&id=', triggerBody()?['text_1'])"
+              }
+            ]
+          }
+        },
+        "varEntitySingular": {
+          "runAfter": {
+            "varBaseURL": [
+              "Succeeded"
+            ]
+          },
+          "metadata": {
+            "operationMetadataId": "c5b7e4f3-43b0-464d-8611-02074591258b"
+          },
+          "type": "InitializeVariable",
+          "inputs": {
+            "variables": [
+              {
+                "name": "varEntitySingular",
+                "type": "string",
+                "value": "@trim(last(split(body('Get_Record')?['@odata.type'], '.')))\r\n"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "templateName": ""
+  },
+  "schemaVersion": "1.0.0.0"
+}

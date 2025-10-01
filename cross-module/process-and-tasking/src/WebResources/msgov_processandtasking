@@ -1,0 +1,184 @@
+function openActionItemPane(context, isSelected = true, title = "Action Item", width = 400, hideHeader = false) {
+	const customPageName = "msgov_actionitempage_94fbe"
+	const icon = "WebResources/govcdm_actionassignmenticon"
+	openPane(context, isSelected, title, customPageName, icon, width, hideHeader);
+}
+
+function openActionItemsPane(context, isSelected = true, title = "Action Items", width = 600, hideHeader = false) {
+	const customPageName = "msgov_actionitemspage_c082a"
+	const icon = "WebResources/govcdm_actionassignmenticon"
+	openPane(context, isSelected, title, customPageName, icon, width, hideHeader);
+}
+
+function openActionAssignmentPane(context, isSelected = true, title = "Action Assignment", width = 400, hideHeader = false) {
+	const customPageName = "msgov_actionassignmentpage_3215d"
+	const icon = "WebResources/govcdm_actionassignmenticon"
+	openPane(context, isSelected, title, customPageName, icon, width, hideHeader);
+}
+
+function openDocumentsPane(context, isSelected = false, title = "Documents", width = 400, hideHeader = false) {
+	const customPageName = "msgov_documentspage_2bdae"
+	const icon = "WebResources/govcdm_documentsicon"
+	openPane(context, isSelected, title, customPageName, icon, width, hideHeader);
+}
+
+function openAssistantPane(context, isSelected = false, title = "Copilot", width = 400, hideHeader = false) {
+	const customPageName = "msgov_assistantpage_7e2a6"
+	const icon = "WebResources/msgov_boticon"
+	openPane(context, isSelected, title, customPageName, icon, width, hideHeader);
+}
+
+function openPane(context, isSelected, title, customPageName, icon, width = 400, hideHeader = false) {
+	const formContext = getFormContext(context);
+	function createPane() {
+		let entityName = formContext.data.entity.getEntityName();
+		entityName += "s";
+		let recordId = formContext.data.entity.getId().replace(/[\{\}]/g, '');
+
+		Xrm.App.sidePanes.createPane({
+			title,
+			imageSrc: icon,
+			paneId: title,
+			hideHeader,
+			canClose: true,
+			width,
+			isSelected
+		}).then((pane) => {
+			setTimeout(
+				pane.navigate({
+					pageType: "custom",
+					name: customPageName,
+					entityName,
+					recordId
+				}),
+				2000
+			);
+		});
+
+		startStateManagement(context);
+	}
+
+	const pane = Xrm.App.sidePanes.getPane(title);
+	if (pane) {
+		pane.close().then(createPane);
+	} else {
+		createPane();
+	}
+}
+
+function getFormContext(context) {
+	return context.getFormContext ? context.getFormContext() : context;
+}
+function findProcessAndTaskingStateField(formContext) {
+	const attributes = formContext.data.entity.attributes.get();
+	for (let i = 0; i < attributes.length; i++) {
+		const name = attributes[i].getName();
+		if (name.endsWith("_processandtaskingstate")) {
+			return name;
+		}
+	}
+	// fallback to default
+	return "msgov_processandtaskingstate";
+}
+
+var isStateManaged = false;
+
+function startStateManagement(context) {
+	if (isStateManaged) return;
+	setProcessAndTaskingState(context);
+	isStateManaged = true;
+	intervalId = setInterval(() => setProcessAndTaskingState(context), 3000);
+}
+
+function closeSidePanes() {
+	closeSidePane("Action Item");
+	closeSidePane("Action Items");
+	closeSidePane("Action Assignment");
+	closeSidePane("Documents");
+	closeSidePane("Copilot");
+}
+
+function closeSidePane(paneId) {
+	const pane = Xrm.App.sidePanes.getPane(paneId);
+	if (pane) pane.close();
+}
+
+
+function setProcessAndTaskingState(context) {
+	const formContext = getFormContext(context);
+	const uniqueValue = new Date().toISOString();
+	const fieldName = findProcessAndTaskingStateField(formContext);
+	formContext.getAttribute(fieldName).setValue(uniqueValue);
+}
+
+
+function handleOnSaveEvent(context) {
+	const formContext = getFormContext(context);
+	const fieldName = findProcessAndTaskingStateField(formContext);
+	formContext.getAttribute(fieldName).setValue("");
+	const saveMode = context.getEventArgs().getSaveMode();
+	if (saveMode === 2) closeSidePanes();
+	else setProcessAndTaskingState(context);
+}
+
+function registerClosePanes(context) {
+	const formContext = getFormContext(context);
+	formContext.data.entity.addOnSave(handleOnSaveEvent);
+}
+
+function getLookupValue(formContext, controlName) {
+	const lookupField = formContext.getAttribute(controlName);
+	if (!lookupField) return null;
+	const lookupValue = lookupField.getValue();
+	return (lookupValue && lookupValue.length > 0) ? lookupValue[0].id.replace(/[\{\}]/g, '') : null;
+}
+
+function openActionItemDialog(context, title = "Action Item", widthPercent = 60) {
+    const customPageName = "msgov_actionitempage_94fbe";
+    openCustomPageAsDialog(context, title, customPageName, widthPercent);
+}
+
+function openActionItemsDialog(context, title = "Action Items", widthPercent = 70) {
+    const customPageName = "msgov_actionitemspage_c082a";
+    openCustomPageAsDialog(context, title, customPageName, widthPercent);
+}
+
+function openActionAssignmentDialog(context, title = "Action Assignment", widthPercent = 60) {
+    const customPageName = "msgov_actionassignmentpage_3215d";
+    openCustomPageAsDialog(context, title, customPageName, widthPercent);
+}
+
+function openDocumentsDialog(context, title = "Documents", widthPercent = 60) {
+    const customPageName = "msgov_documentspage_2bdae";
+    openCustomPageAsDialog(context, title, customPageName, widthPercent);
+}
+
+function openAssistantDialog(context, title = "Copilot", widthPercent = 60) {
+    const customPageName = "msgov_assistantpage_7e2a6";
+    openCustomPageAsDialog(context, title, customPageName, widthPercent);
+}
+
+function openCustomPageAsDialog(context, title, customPageName, widthPercent = 60) {
+    const formContext = context.getAttribute ? context : context.getFormContext();
+    const entityName = formContext.data.entity.getEntityName() + "s";
+    const recordId = formContext.data.entity.getId().replace(/[{}]/g, '');
+
+    const pageInput = {
+        pageType: "custom",
+        name: customPageName,
+        entityName: entityName,
+        recordId: recordId
+    };
+
+    const navigationOptions = {
+        target: 2, // dialog
+        position: 1, // centered
+        width: { value: widthPercent, unit: "%" },
+        title: title
+    };
+
+    Xrm.Navigation.navigateTo(pageInput, navigationOptions).catch(function (error) {
+        console.error("Dialog failed to open:", error);
+    });
+}
+

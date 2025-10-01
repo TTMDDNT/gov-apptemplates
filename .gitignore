@@ -8,10 +8,10 @@ docs
 .github/
 .test/
 .scripts/convert/
-cross-module/
 target
 .config/*
 !.config/*-template.json
+!.config/README.md
 
 # User-specific files
 *.rsuser

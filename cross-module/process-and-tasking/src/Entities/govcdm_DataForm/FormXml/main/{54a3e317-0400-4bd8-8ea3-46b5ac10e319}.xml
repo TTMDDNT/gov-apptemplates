@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{54a3e317-0400-4bd8-8ea3-46b5ac10e319}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls" solutionaction="Modified">
+      <tabs>
+        <tab verticallayout="true" id="{7d82f69b-b9c5-4280-8abc-5c20ea786078}" IsUserDefined="1" ordinalvalue="0">
+          <columns>
+            <column width="100%" id="0">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{3335cc1f-a7ac-40dd-9060-d3185d98ad96}" ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell id="{7e1257c5-d8bb-424c-9d1e-3c8db26503f7}" ordinalvalue="10003" solutionaction="Modified" />
+                    </row>
+                    <row>
+                      <cell id="{ab03ffeb-34e4-41fb-a279-7e32731f1baa}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10001" solutionaction="Added">
+                        <labels>
+                          <label description="Schema Name" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_schemaname" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="govcdm_schemaname" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c873cfd6-185a-4c3f-87ca-a6d5718b707a}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10002" solutionaction="Added">
+                        <labels>
+                          <label description="Base URL" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_baseurl" classid="{71716B6C-711E-476C-8AB8-5D11542BFB47}" datafieldname="govcdm_baseurl" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{d1c85522-999c-4480-87e0-712a0d6d39a5}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left" solutionaction="Added">
+        <rows />
+      </header>
+      <footer id="{b328fddc-fd87-46ad-91a8-1888788b5138}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left" solutionaction="Added">
+        <rows />
+      </footer>
+      <DisplayConditions Order="0" FallbackForm="true" solutionaction="Added">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

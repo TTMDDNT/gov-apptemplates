@@ -392,16 +392,17 @@ function Deploy-Solution {
     # Construct the pac import command
     $pacCommand = "pac solution import --path $path"
     if ($Settings) {
-        $config = Get-Config
-        if ($null -ne $config -and $config.EnvironmentSettings.$Settings) {
-            Write-Host "Using configuration override for environment settings."
-            $settingsFile = $config.EnvironmentSettings.$Settings
-        }
-        else {
-            # $settingsPath = Join-Path $SolutionPath $Settings
-            $settingsFile = $Settings
-        }
-        
+        # $config = Get-Config
+        # if ($null -ne $config -and $config.EnvironmentSettings.$Settings) {
+        #     Write-Host "Using configuration override for environment settings."
+        #     $settingsFile = $config.EnvironmentSettings.$Settings
+        # }
+        # else {
+        #     # $settingsPath = Join-Path $SolutionPath $Settings
+        #     $settingsFile = $Settings
+        # }
+        $settingsFile = $Settings
+
         $settingsPath = Join-Path (Join-Path $PSScriptRoot '..\.config') $settingsFile
         $pacCommand += " --settings-file `"$settingsPath`""
     }

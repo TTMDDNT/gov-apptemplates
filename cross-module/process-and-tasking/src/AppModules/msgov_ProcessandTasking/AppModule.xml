@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppModule>
+  <UniqueName>msgov_ProcessandTasking</UniqueName>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <WebResourceId>953b9fac-1e5e-e611-80d6-00155ded156f</WebResourceId>
+  <OptimizedFor></OptimizedFor>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+  <FormFactor>1</FormFactor>
+  <ClientType>4</ClientType>
+  <NavigationType>0</NavigationType>
+  <AppModuleComponents>
+    <AppModuleComponent type="1" schemaName="contact" />
+    <AppModuleComponent type="1" schemaName="govcdm_actionassignment" />
+    <AppModuleComponent type="1" schemaName="govcdm_actionitem" />
+    <AppModuleComponent type="1" schemaName="govcdm_collaborationspace" />
+    <AppModuleComponent type="1" schemaName="govcdm_contenttemplate" />
+    <AppModuleComponent type="1" schemaName="govcdm_dataentryresponse" />
+    <AppModuleComponent type="1" schemaName="govcdm_dataentrystep" />
+    <AppModuleComponent type="1" schemaName="govcdm_dataform" />
+    <AppModuleComponent type="1" schemaName="govcdm_document" />
+    <AppModuleComponent type="1" schemaName="govcdm_interactiveprompt" />
+    <AppModuleComponent type="1" schemaName="govcdm_interactiveresponse" />
+    <AppModuleComponent type="1" schemaName="govcdm_processstep" />
+    <AppModuleComponent type="1" schemaName="govcdm_processstepdependency" />
+    <AppModuleComponent type="26" id="{00000000-0000-0000-00aa-000000666400}" />
+    <AppModuleComponent type="26" id="{00000000-0000-0000-00aa-000010001004}" />
+    <AppModuleComponent type="26" id="{00000000-0000-0000-00aa-000010001210}" />
+    <AppModuleComponent type="26" id="{c7c56eeb-5d40-ee11-bdf3-000d3a5a7dcf}" />
+    <AppModuleComponent type="26" id="{a3b1cf21-5474-ef11-a671-001dd80278ec}" />
+    <AppModuleComponent type="26" id="{97d72a0e-0830-f011-8c4d-001dd80892b3}" />
+    <AppModuleComponent type="26" id="{7dab73c7-6ae1-4739-8f85-48ef1a814709}" />
+    <AppModuleComponent type="26" id="{0b10e62b-c88c-4f08-96f8-5b5223524f8f}" />
+    <AppModuleComponent type="26" id="{14ea1914-0e2c-4918-8eca-60930324f18f}" />
+    <AppModuleComponent type="26" id="{a2d479c5-53e3-4c69-addd-802327e67a0d}" />
+    <AppModuleComponent type="26" id="{02fe129d-ce83-43d6-afba-950ed066948c}" />
+    <AppModuleComponent type="26" id="{58fb20ff-d5be-406f-908e-c777e9dedf5f}" />
+    <AppModuleComponent type="26" id="{bb894760-9ed2-4342-83f3-e59a11acf6d0}" />
+    <AppModuleComponent type="26" id="{8df19b44-a073-40c3-9d6d-ee1355d8c4ba}" />
+    <AppModuleComponent type="26" id="{eda26f1e-dbcc-40ad-91f2-ff2878d1d8d8}" />
+    <AppModuleComponent type="60" id="{28d2abed-a33f-ee11-bdf3-000d3a5a7dcf}" />
+    <AppModuleComponent type="60" id="{2e70a5c7-2340-ee11-bdf3-000d3a5a7dcf}" />
+    <AppModuleComponent type="60" id="{99a3c479-6540-ee11-bdf3-000d3a5a7dcf}" />
+    <AppModuleComponent type="60" id="{77ab057c-6840-ee11-bdf3-000d3a5a7dcf}" />
+    <AppModuleComponent type="60" id="{5e0eb276-3112-ef11-9f89-001dd80278ec}" />
+    <AppModuleComponent type="60" id="{18ea70fb-a53c-f011-8c4d-001dd806574b}" />
+    <AppModuleComponent type="60" id="{e35f619c-3112-ef11-9f89-001dd8075f2f}" />
+    <AppModuleComponent type="60" id="{6176dd9d-a53c-f011-8c4d-001dd8087307}" />
+    <AppModuleComponent type="60" id="{b07ddb31-16df-ee11-904d-0022481c9844}" />
+    <AppModuleComponent type="60" id="{35bcc41d-5344-4e4c-9377-01812de67c8f}" />
+    <AppModuleComponent type="60" id="{6ebf4fb0-26a2-4285-b342-255b791ecb0e}" />
+    <AppModuleComponent type="60" id="{fac918e4-ab15-4993-a5d7-53482f8ec45c}" />
+    <AppModuleComponent type="60" id="{7f00d0c5-a06c-45eb-811a-b1fbc5d25163}" />
+    <AppModuleComponent type="62" schemaName="msgov_ProcessandTasking" />
+  </AppModuleComponents>
+  <AppModuleRoleMaps>
+    <Role id="{627090ff-40a3-4053-8790-584edc5be201}" />
+    <Role id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+  </AppModuleRoleMaps>
+  <LocalizedNames>
+    <LocalizedName description="Process and Tasking" languagecode="1033" />
+  </LocalizedNames>
+  <appelements>
+    <appelement uniquename="msgov_msgov_ProcessandTasking_canvasappid_msgov_actionassignmentpage_3215d">
+      <canvasappid>
+        <name>msgov_actionassignmentpage_3215d</name>
+      </canvasappid>
+      <iscustomizable>1</iscustomizable>
+      <name>msgov_msgov_ProcessandTasking_canvasappid_msgov_actionassignmentpage_3215d</name>
+    </appelement>
+    <appelement uniquename="msgov_msgov_ProcessandTasking_canvasappid_msgov_actionitempage_94fbe">
+      <canvasappid>
+        <name>msgov_actionitempage_94fbe</name>
+      </canvasappid>
+      <iscustomizable>1</iscustomizable>
+      <name>msgov_msgov_ProcessandTasking_canvasappid_msgov_actionitempage_94fbe</name>
+    </appelement>
+    <appelement uniquename="msgov_msgov_ProcessandTasking_canvasappid_msgov_actionitemspage_c082a">
+      <canvasappid>
+        <name>msgov_actionitemspage_c082a</name>
+      </canvasappid>
+      <iscustomizable>1</iscustomizable>
+      <name>msgov_msgov_ProcessandTasking_canvasappid_msgov_actionitemspage_c082a</name>
+    </appelement>
+    <appelement uniquename="msgov_msgov_ProcessandTasking_canvasappid_msgov_assistantpage_7e2a6">
+      <canvasappid>
+        <name>msgov_assistantpage_7e2a6</name>
+      </canvasappid>
+      <iscustomizable>1</iscustomizable>
+      <name>msgov_msgov_ProcessandTasking_canvasappid_msgov_assistantpage_7e2a6</name>
+    </appelement>
+    <appelement uniquename="msgov_msgov_ProcessandTasking_canvasappid_msgov_documentspage_2bdae">
+      <canvasappid>
+        <name>msgov_documentspage_2bdae</name>
+      </canvasappid>
+      <iscustomizable>1</iscustomizable>
+      <name>msgov_msgov_ProcessandTasking_canvasappid_msgov_documentspage_2bdae</name>
+    </appelement>
+    <appelement uniquename="msgov_msgov_ProcessandTasking_canvasappid_msgov_processandtaskingdefaultcommandlibrary_18eb2">
+      <canvasappid>
+        <name>msgov_processandtaskingdefaultcommandlibrary_18eb2</name>
+      </canvasappid>
+      <iscustomizable>1</iscustomizable>
+      <name>msgov_msgov_ProcessandTasking_canvasappid_msgov_processandtaskingdefaultcommandlibrary_18eb2</name>
+    </appelement>
+  </appelements>
+</AppModule>

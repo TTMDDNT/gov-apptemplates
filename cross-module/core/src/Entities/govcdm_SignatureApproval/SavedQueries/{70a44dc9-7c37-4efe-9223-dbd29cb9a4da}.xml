@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{70a44dc9-7c37-4efe-9223-dbd29cb9a4da}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="govcdm_name" select="1" icon="1" preview="1">
+        <row name="result" id="govcdm_signatureapprovalid">
+          <cell name="govcdm_name" width="300" />
+          <cell name="createdon" width="125" />
+          <cell name="govcdm_comments" width="100" disableSorting="1" />
+          <cell name="govcdm_econfirmation" width="100" />
+          <cell name="govcdm_esignature" width="100" />
+          <cell name="govcdm_signedapprovedby" width="100" />
+          <cell name="govcdm_signedapproveddatetime" width="100" />
+          <cell name="govcdm_approvalstatus" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>1</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="govcdm_signatureapproval">
+          <attribute name="govcdm_name" />
+          <attribute name="createdon" />
+          <order attribute="govcdm_name" descending="false" />
+          <attribute name="govcdm_signedapproveddatetime" />
+          <attribute name="govcdm_signedapprovedby" />
+          <attribute name="govcdm_esignature" />
+          <attribute name="govcdm_econfirmation" />
+          <attribute name="govcdm_comments" />
+          <attribute name="govcdm_approvalstatus" />
+          <attribute name="govcdm_signatureapprovalid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Signature Approval Advanced Find View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

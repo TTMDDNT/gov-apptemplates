@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{32c22f7c-9cb7-4f6a-afdd-4d4af4f2f72c}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form maxWidth="400" solutionaction="Modified">
+      <tabs>
+        <tab verticallayout="true" id="{56238244-b4bd-4522-95f2-9ad5c19aacf4}" IsUserDefined="1" ordinalvalue="0">
+          <columns>
+            <column width="100%" id="0">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{d85fdc7a-c4d2-442a-8369-34ca7d508088}" ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell id="{7f85c2ab-da44-4a20-b424-9730c6dfef3d}" ordinalvalue="10001" solutionaction="Modified" />
+                    </row>
+                    <row>
+                      <cell id="{8ab2a627-8de3-4a20-a6a5-d9892dffae9f}" showlabel="true" locklevel="1" visible="false" ordinalvalue="10008" solutionaction="Modified">
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" uniqueid="{441678c5-a802-4449-d128-b623109ee839}" disabled="false" solutionaction="Modified">
+                          <parameters solutionaction="Added">
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{09605dcd-81a6-6ee1-6343-c0996dc4b260}" showlabel="true" locklevel="0" ordinalvalue="10000" solutionaction="Added">
+                        <labels>
+                          <label description="Product Number" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_productnumber" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="govcdm_productnumber" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{8e4813e1-aae2-c603-c965-8c52799e5987}" showlabel="true" locklevel="0" ordinalvalue="10002" solutionaction="Added">
+                        <labels>
+                          <label description="Manufacturer" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_manufacturer" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="govcdm_manufacturer" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0b83a998-ac7b-b5a0-3cb4-62909eb9d999}" showlabel="true" locklevel="0" ordinalvalue="10003" solutionaction="Added">
+                        <labels>
+                          <label description="Description" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_description" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="govcdm_description" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{04bc582e-aa1b-1e10-a363-1e5b26e72d65}" showlabel="true" locklevel="0" ordinalvalue="10004" solutionaction="Added">
+                        <labels>
+                          <label description="URL" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_url" classid="{71716B6C-711E-476c-8AB8-5D11542BFB47}" datafieldname="govcdm_url" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{464bea80-7dc3-4785-a72a-89351903b826}" showlabel="true" locklevel="0" ordinalvalue="10005" solutionaction="Added">
+                        <labels>
+                          <label description="Unit of Issue" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_unitofissue" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="govcdm_unitofissue" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{8b25db40-b2b9-18ed-2913-a5367172b036}" showlabel="true" locklevel="0" ordinalvalue="10006" solutionaction="Added">
+                        <labels>
+                          <label description="Unit Price" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_unitprice" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="govcdm_unitprice" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{414644a5-845e-7ca1-26a1-eb7553d49e7c}" showlabel="true" locklevel="0" ordinalvalue="10007" solutionaction="Added">
+                        <labels>
+                          <label description="Parent Product" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_parentproduct" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="govcdm_parentproduct" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="Quick View" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A quick view form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{3df2351d-00f9-465f-a355-77a0276a0a68}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="govcdm_name" select="1" icon="1" preview="1">
+        <row name="result" id="govcdm_legalamendmentid">
+          <cell name="govcdm_name" width="300" />
+          <cell name="govcdm_submissiontype" width="137" />
+          <cell name="govcdm_amendmentdate" width="221" />
+          <cell name="govcdm_fulltexturl" width="265" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="govcdm_legalamendment">
+          <attribute name="govcdm_legalamendmentid" />
+          <attribute name="govcdm_name" />
+          <order attribute="govcdm_name" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="govcdm_amendmentdate" />
+          <attribute name="govcdm_fulltexturl" />
+          <attribute name="govcdm_submissiontype" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Legal Amendments" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

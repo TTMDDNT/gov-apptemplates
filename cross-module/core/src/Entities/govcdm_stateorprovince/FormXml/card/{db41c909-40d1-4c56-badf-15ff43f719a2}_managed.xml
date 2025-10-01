@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{db41c909-40d1-4c56-badf-15ff43f719a2}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form maxWidth="400" solutionaction="Modified">
+      <tabs>
+        <tab name="general" verticallayout="true" id="{99dee382-27ab-4689-a8e9-2d3be9767105}" IsUserDefined="0" ordinalvalue="0">
+          <columns>
+            <column width="25%" id="0">
+              <sections>
+                <section name="ColorStrip" showlabel="false" showbar="false" columns="1" IsUserDefined="0" id="{8351f071-2b73-4fd7-b6ae-6fe25995f04d}" ordinalvalue="0">
+                  <rows solutionaction="Added" />
+                </section>
+              </sections>
+            </column>
+            <column width="75%" id="1">
+              <sections>
+                <section name="CardDetails" showlabel="false" showbar="false" columns="1" id="{0deea46d-42e9-48fe-bd8d-2de15bc6b137}" IsUserDefined="0" ordinalvalue="1">
+                  <rows>
+                    <row>
+                      <cell id="{56b3a19b-3613-55b1-b81c-0d4ecd48e831}" showlabel="true" locklevel="0" ordinalvalue="10001" solutionaction="Added">
+                        <labels>
+                          <label description="Abbreviation" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_abbreviation" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="govcdm_abbreviation" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{5c1b46ca-03eb-a4d6-3e49-d565db5b138e}" showlabel="true" locklevel="0" ordinalvalue="10002" solutionaction="Added">
+                        <labels>
+                          <label description="Country" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_country" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="govcdm_country" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="Card" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A card form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

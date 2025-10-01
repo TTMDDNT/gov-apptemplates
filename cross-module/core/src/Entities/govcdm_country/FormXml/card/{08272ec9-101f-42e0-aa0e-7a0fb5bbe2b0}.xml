@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{08272ec9-101f-42e0-aa0e-7a0fb5bbe2b0}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form maxWidth="400" solutionaction="Modified">
+      <tabs>
+        <tab name="general" verticallayout="true" id="{31666688-52fc-45c0-8c3c-fcc08083a24c}" IsUserDefined="0" ordinalvalue="0">
+          <columns>
+            <column width="25%" id="0">
+              <sections>
+                <section name="ColorStrip" showlabel="false" showbar="false" columns="1" IsUserDefined="0" id="{31d9443c-4c71-48ab-b8b1-cbabf773397e}" ordinalvalue="0">
+                  <rows solutionaction="Added" />
+                </section>
+              </sections>
+            </column>
+            <column width="75%" id="1">
+              <sections>
+                <section name="CardDetails" showlabel="false" showbar="false" columns="1" id="{c972a945-d4dd-4821-9c6b-441c933e65a7}" IsUserDefined="0" ordinalvalue="1">
+                  <rows>
+                    <row>
+                      <cell id="{eae21343-9474-6291-d440-b1972945637a}" showlabel="true" locklevel="0" ordinalvalue="10001" solutionaction="Added">
+                        <labels>
+                          <label description="Abbreviation" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_abbreviation" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="govcdm_abbreviation" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="Card" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A card form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

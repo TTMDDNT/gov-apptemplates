@@ -1,0 +1,203 @@
+{
+  "properties": {
+    "connectionReferences": {
+      "shared_commondataserviceforapps": {
+        "runtimeSource": "embedded",
+        "connection": {
+          "connectionReferenceLogicalName": "msgov_sharedcommondataserviceforapps_d7f8d"
+        },
+        "api": {
+          "name": "shared_commondataserviceforapps"
+        }
+      }
+    },
+    "definition": {
+      "$schema": "https://schema.management.azure.com/providers/Microsoft.Logic/schemas/2016-06-01/workflowdefinition.json#",
+      "contentVersion": "1.0.0.0",
+      "parameters": {
+        "$connections": {
+          "defaultValue": {},
+          "type": "Object"
+        },
+        "$authentication": {
+          "defaultValue": {},
+          "type": "SecureObject"
+        }
+      },
+      "triggers": {
+        "manual": {
+          "metadata": {
+            "operationMetadataId": "855e7030-99f0-4d9b-a74c-678409107bd5"
+          },
+          "type": "Request",
+          "kind": "PowerAppV2",
+          "inputs": {
+            "schema": {
+              "type": "object",
+              "properties": {
+                "text": {
+                  "title": "ProcessID",
+                  "type": "string",
+                  "x-ms-dynamically-added": true,
+                  "description": "Please enter your input",
+                  "x-ms-content-hint": "TEXT"
+                },
+                "text_1": {
+                  "title": "EntityName",
+                  "type": "string",
+                  "x-ms-dynamically-added": true,
+                  "description": "Please enter your input",
+                  "x-ms-content-hint": "TEXT"
+                },
+                "text_2": {
+                  "title": "RecordID",
+                  "type": "string",
+                  "x-ms-dynamically-added": true,
+                  "description": "Please enter your input",
+                  "x-ms-content-hint": "TEXT"
+                },
+                "text_3": {
+                  "title": "UserID",
+                  "type": "string",
+                  "x-ms-dynamically-added": true,
+                  "description": "Please enter your input",
+                  "x-ms-content-hint": "TEXT"
+                }
+              },
+              "required": [
+                "text",
+                "text_1",
+                "text_2",
+                "text_3"
+              ]
+            }
+          }
+        }
+      },
+      "actions": {
+        "Create_Primary_Action_Assignment": {
+          "runAfter": {
+            "Get_Process_Template": [
+              "Succeeded"
+            ]
+          },
+          "metadata": {
+            "operationMetadataId": "5e63b731-8f9b-41d2-91d4-5e21509a1504"
+          },
+          "type": "OpenApiConnection",
+          "inputs": {
+            "host": {
+              "connectionName": "shared_commondataserviceforapps",
+              "operationId": "CreateRecord",
+              "apiId": "/providers/Microsoft.PowerApps/apis/shared_commondataserviceforapps"
+            },
+            "parameters": {
+              "entityName": "govcdm_actionassignments",
+              "item/subject": "@outputs('Get_Process_Template')?['body/govcdm_name']",
+              "item/govcdm_actiontype": "@outputs('Get_Process_Template')?['body/govcdm_processsteptype']",
+              "item/govcdm_ProcessStep_govcdm_ActionAssignment@odata.bind": "govcdm_processsteps(@{outputs('Get_Process_Template')?['body/govcdm_processstepid']})",
+              "item/govcdm_Originator_govcdm_ActionAssignment@odata.bind": "systemusers(@{triggerBody()['text_3']})",
+              "item/govcdm_virtualregardingid": "@triggerBody()['text_2']",
+              "item/govcdm_virtualregardingtype": "@triggerBody()['text_1']"
+            },
+            "authentication": "@parameters('$authentication')"
+          }
+        },
+        "Get_Process_Template": {
+          "runAfter": {},
+          "metadata": {
+            "operationMetadataId": "a96f4d91-a44c-4b67-bfca-3a41d846ac3a"
+          },
+          "type": "OpenApiConnection",
+          "inputs": {
+            "host": {
+              "connectionName": "shared_commondataserviceforapps",
+              "operationId": "GetItem",
+              "apiId": "/providers/Microsoft.PowerApps/apis/shared_commondataserviceforapps"
+            },
+            "parameters": {
+              "entityName": "govcdm_processsteps",
+              "recordId": "@triggerBody()['text']"
+            },
+            "authentication": "@parameters('$authentication')"
+          }
+        },
+        "Respond_to_a_Power_App_or_flow": {
+          "runAfter": {
+            "Link_Primary_Action_Assignment_to_Record": [
+              "Succeeded"
+            ]
+          },
+          "metadata": {
+            "operationMetadataId": "621d7da0-ec6b-4f3b-a521-81e89c152b65"
+          },
+          "type": "Response",
+          "kind": "PowerApp",
+          "inputs": {
+            "statusCode": 200,
+            "body": {
+              "result": "@outputs('Create_Primary_Action_Assignment')?['body/activityid']"
+            },
+            "schema": {
+              "type": "object",
+              "properties": {
+                "result": {
+                  "title": "Result",
+                  "x-ms-dynamically-added": true,
+                  "type": "string"
+                }
+              }
+            }
+          }
+        },
+        "Link_Primary_Action_Assignment_to_Record": {
+          "runAfter": {
+            "Create_Child_Actions": [
+              "Succeeded"
+            ]
+          },
+          "metadata": {
+            "operationMetadataId": "495d4a61-dd27-4a08-bfc2-d6baae7fb243"
+          },
+          "type": "OpenApiConnection",
+          "inputs": {
+            "host": {
+              "connectionName": "shared_commondataserviceforapps",
+              "operationId": "UpdateRecord",
+              "apiId": "/providers/Microsoft.PowerApps/apis/shared_commondataserviceforapps"
+            },
+            "parameters": {
+              "entityName": "@triggerBody()['text_1']",
+              "recordId": "@triggerBody()['text_2']",
+              "item": {
+                "msgov_PrimaryActionAssignment@odata.bind": "/govcdm_actionassignments(@{outputs('Create_Primary_Action_Assignment')?['body/activityid']})"
+              }
+            },
+            "authentication": "@parameters('$authentication')"
+          }
+        },
+        "Create_Child_Actions": {
+          "runAfter": {
+            "Create_Primary_Action_Assignment": [
+              "Succeeded"
+            ]
+          },
+          "metadata": {
+            "operationMetadataId": "0f0a5cae-2501-4449-afd1-4e4d9d8f6763"
+          },
+          "type": "Workflow",
+          "inputs": {
+            "host": {
+              "workflowReferenceName": "e3acc37f-0d72-ef11-a671-001dd808e57d"
+            },
+            "body": {
+              "text": "@outputs('Create_Primary_Action_Assignment')?['body/activityid']"
+            }
+          }
+        }
+      }
+    },
+    "templateName": ""
+  },
+  "schemaVersion": "1.0.0.0"
+}

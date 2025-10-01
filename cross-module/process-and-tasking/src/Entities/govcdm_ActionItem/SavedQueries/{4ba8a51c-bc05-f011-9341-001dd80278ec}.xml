@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{4ba8a51c-bc05-f011-9341-001dd80278ec}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="subject" select="1" icon="1" preview="1">
+        <row name="result" id="activityid">
+          <cell name="subject" width="164" />
+          <cell name="govcdm_parentactionitem" width="147" />
+          <cell name="ownerid" width="100" />
+          <cell name="govcdm_actionstatus" width="116" />
+          <cell name="scheduledend" width="100" />
+          <cell name="description" width="106" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical" distinct="true">
+        <entity name="govcdm_actionitem">
+          <attribute name="activityid" />
+          <attribute name="subject" />
+          <attribute name="govcdm_actionstatus" />
+          <attribute name="ownerid" />
+          <attribute name="scheduledend" />
+          <attribute name="description" />
+          <attribute name="govcdm_parentactionitem" />
+          <order attribute="govcdm_parentactionitem" descending="false" />
+          <order attribute="subject" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="not-null" />
+            <condition attribute="govcdm_actiontype" operator="eq" value="166840001" />
+          </filter>
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.6</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Approvals" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

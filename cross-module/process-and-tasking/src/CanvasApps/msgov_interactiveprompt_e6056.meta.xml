@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CanvasApp xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>msgov_interactiveprompt_e6056</Name>
+  <AppVersion>2025-09-30T01:15:04Z</AppVersion>
+  <Status>Ready</Status>
+  <CreatedByClientVersion>3.25024.7.0</CreatedByClientVersion>
+  <MinClientVersion>3.25024.7.0</MinClientVersion>
+  <Tags>{"primaryDeviceWidth":"640","primaryDeviceHeight":"640","supportsPortrait":"true","supportsLandscape":"true","primaryFormFactor":"Phone","showStatusBar":"false","publisherVersion":"3.25024.7","minimumRequiredApiVersion":"2.2.0","hasComponent":"true","hasUnlockedComponent":"true","isUnifiedRootApp":"false"}</Tags>
+  <IsCdsUpgraded>0</IsCdsUpgraded>
+  <GalleryItemId xsi:nil="true"></GalleryItemId>
+  <BackgroundColor>RGBA(251,101,60,1)</BackgroundColor>
+  <DisplayName>Interactive Prompt</DisplayName>
+  <Description></Description>
+  <CommitMessage></CommitMessage>
+  <Publisher></Publisher>
+  <AuthorizationReferences>[]</AuthorizationReferences>
+  <ConnectionReferences>{}</ConnectionReferences>
+  <DatabaseReferences>{"default.cds":{"databaseDetails":{"referenceType":"Environmental","environmentName":"default.cds","overrideValues":{"status":"NotSpecified","environmentVariableName":""}},"dataSources":{"Interactive Prompts":{"entitySetName":"govcdm_interactiveprompts","logicalName":"govcdm_interactiveprompt"}}}}</DatabaseReferences>
+  <AppComponents>[{"appComponentName":"4a93216dcf3d4599ab14176afcc992a4","displayName":"cmpPrompts","appVersion":"2025-03-11T22:04:23Z","appComponentLibraryLogicalName":"msgov_interactiveprompt_e6056","environmentName":"779a4c24-aaa6-e500-8999-8cebcc816c0c","allowCustomization":true,"createdOn":"2025-03-11T22:04:20.674Z","lastModifiedOn":"2025-03-11T22:04:20.674Z","connectionReferences":{},"databaseReferences":{"default.cds":{"databaseDetails":{"referenceType":"NotSpecified","environmentName":"default.cds","overrideValues":{"status":"NotSpecified","environmentVariableName":""}},"dataSources":{"Interactive Prompts":{"entitySetName":"govcdm_interactiveprompts","logicalName":"govcdm_interactiveprompt"}}}}}]</AppComponents>
+  <AppComponentDependencies>[]</AppComponentDependencies>
+  <CanConsumeAppPass>1</CanConsumeAppPass>
+  <CanvasAppType>1</CanvasAppType>
+  <BypassConsent>0</BypassConsent>
+  <EmbeddedApp xsi:nil="true"></EmbeddedApp>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <CdsDependencies>{"cdsdependencies":[{"componenttype":1,"logicalname":"govcdm_interactiveprompt"}]}</CdsDependencies>
+  <IsCustomizable>1</IsCustomizable>
+  <BackgroundImageUri>/CanvasApps/msgov_interactiveprompt_e6056_BackgroundImageUri</BackgroundImageUri>
+  <DocumentUri>/CanvasApps/msgov_interactiveprompt_e6056_DocumentUri.msapp</DocumentUri>
+  <AdditionalUris>
+    <AdditionalUri>/CanvasApps/msgov_interactiveprompt_e6056_AdditionalUris0_identity.json</AdditionalUri>
+  </AdditionalUris>
+</CanvasApp>

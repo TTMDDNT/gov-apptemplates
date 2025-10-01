@@ -1,0 +1,156 @@
+{
+  "properties": {
+    "connectionReferences": {
+      "shared_sharepointonline": {
+        "runtimeSource": "embedded",
+        "connection": {
+          "connectionReferenceLogicalName": "msgov_sharedsharepointonline_49354"
+        },
+        "api": {
+          "name": "shared_sharepointonline"
+        }
+      }
+    },
+    "definition": {
+      "$schema": "https://schema.management.azure.com/providers/Microsoft.Logic/schemas/2016-06-01/workflowdefinition.json#",
+      "contentVersion": "1.0.0.0",
+      "parameters": {
+        "$connections": {
+          "defaultValue": {},
+          "type": "Object"
+        },
+        "$authentication": {
+          "defaultValue": {},
+          "type": "SecureObject"
+        }
+      },
+      "triggers": {
+        "manual": {
+          "metadata": {
+            "operationMetadataId": "d9d06bd2-ebc9-4a38-a0cc-002a0104d689"
+          },
+          "type": "Request",
+          "kind": "PowerAppV2",
+          "inputs": {
+            "schema": {
+              "type": "object",
+              "properties": {
+                "text": {
+                  "description": "Please enter your input",
+                  "title": "SharePoint Site",
+                  "type": "string",
+                  "x-ms-content-hint": "TEXT",
+                  "x-ms-dynamically-added": true
+                },
+                "text_1": {
+                  "description": "Please enter your input",
+                  "title": "File Path",
+                  "type": "string",
+                  "x-ms-content-hint": "TEXT",
+                  "x-ms-dynamically-added": true
+                }
+              },
+              "required": [
+                "text",
+                "text_1"
+              ]
+            }
+          }
+        }
+      },
+      "actions": {
+        "Get_File_Metadata": {
+          "runAfter": {
+            "Decoded_File_Path": [
+              "Succeeded"
+            ]
+          },
+          "metadata": {
+            "operationMetadataId": "3181c2e2-3721-40ef-9259-5956d9be7116"
+          },
+          "type": "OpenApiConnection",
+          "inputs": {
+            "host": {
+              "connectionName": "shared_sharepointonline",
+              "operationId": "GetFileMetadataByPath",
+              "apiId": "/providers/Microsoft.PowerApps/apis/shared_sharepointonline"
+            },
+            "parameters": {
+              "dataset": "@triggerBody()?['text']",
+              "path": "@outputs('Decoded_File_Path')"
+            },
+            "authentication": "@parameters('$authentication')"
+          }
+        },
+        "Get_File_Properties": {
+          "runAfter": {
+            "Get_File_Metadata": [
+              "Succeeded"
+            ]
+          },
+          "metadata": {
+            "operationMetadataId": "2afbcd26-4a93-4de2-adfd-17b829b60ac5"
+          },
+          "type": "OpenApiConnection",
+          "inputs": {
+            "host": {
+              "connectionName": "shared_sharepointonline",
+              "operationId": "GetFileItem",
+              "apiId": "/providers/Microsoft.PowerApps/apis/shared_sharepointonline"
+            },
+            "parameters": {
+              "dataset": "@triggerBody()?['text']",
+              "table": "@'Documents'",
+              "id": "@outputs('Get_File_Metadata')?['body/ItemId']"
+            },
+            "authentication": "@parameters('$authentication')"
+          }
+        },
+        "Respond_to_a_Power_App_or_flow": {
+          "runAfter": {
+            "Get_File_Properties": [
+              "Succeeded"
+            ]
+          },
+          "metadata": {
+            "operationMetadataId": "f6e9bd04-6bf9-47c0-b472-d71ef1459888"
+          },
+          "type": "Response",
+          "kind": "PowerApp",
+          "inputs": {
+            "statusCode": 200,
+            "body": {
+              "drive_id": "@{body('Get_File_Properties')?['{DriveId}']}",
+              "drive_item_id": "@{body('Get_File_Properties')?['{DriveItemId}']}"
+            },
+            "schema": {
+              "type": "object",
+              "properties": {
+                "drive_id": {
+                  "title": "Drive ID",
+                  "x-ms-dynamically-added": true,
+                  "type": "string"
+                },
+                "drive_item_id": {
+                  "title": "Drive Item ID",
+                  "x-ms-dynamically-added": true,
+                  "type": "string"
+                }
+              }
+            }
+          }
+        },
+        "Decoded_File_Path": {
+          "runAfter": {},
+          "metadata": {
+            "operationMetadataId": "00ef2477-e82c-45df-9726-68131b20f23c"
+          },
+          "type": "Compose",
+          "inputs": "@decodeUriComponent(triggerBody()?['text_1'])"
+        }
+      }
+    },
+    "templateName": ""
+  },
+  "schemaVersion": "1.0.0.0"
+}

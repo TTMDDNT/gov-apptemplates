@@ -1,0 +1,138 @@
+{
+  "properties": {
+    "connectionReferences": {
+      "shared_sharepointonline": {
+        "runtimeSource": "invoker",
+        "connection": {
+          "connectionReferenceLogicalName": "msgov_sharedsharepointonline_49354"
+        },
+        "api": {
+          "name": "shared_sharepointonline"
+        }
+      }
+    },
+    "definition": {
+      "$schema": "https://schema.management.azure.com/providers/Microsoft.Logic/schemas/2016-06-01/workflowdefinition.json#",
+      "contentVersion": "1.0.0.0",
+      "parameters": {
+        "$connections": {
+          "defaultValue": {},
+          "type": "Object"
+        },
+        "$authentication": {
+          "defaultValue": {},
+          "type": "SecureObject"
+        }
+      },
+      "triggers": {
+        "manual": {
+          "metadata": {
+            "operationMetadataId": "8962b0d9-b47b-4724-951a-18c18db11d1f"
+          },
+          "type": "Request",
+          "kind": "PowerAppV2",
+          "inputs": {
+            "schema": {
+              "type": "object",
+              "properties": {
+                "text": {
+                  "title": "SharePoint Site",
+                  "type": "string",
+                  "x-ms-dynamically-added": true,
+                  "description": "Please enter your input",
+                  "x-ms-content-hint": "TEXT"
+                },
+                "text_1": {
+                  "title": "Folder Path",
+                  "type": "string",
+                  "x-ms-dynamically-added": true,
+                  "description": "Please enter your input",
+                  "x-ms-content-hint": "TEXT"
+                }
+              },
+              "required": [
+                "text",
+                "text_1"
+              ]
+            }
+          }
+        }
+      },
+      "actions": {
+        "Respond_to_a_Power_App_or_flow": {
+          "runAfter": {
+            "Select_Items": [
+              "Succeeded"
+            ]
+          },
+          "metadata": {
+            "operationMetadataId": "2fada85a-78e8-48f1-bd8f-211412b9827f"
+          },
+          "type": "Response",
+          "kind": "PowerApp",
+          "inputs": {
+            "statusCode": 200,
+            "body": {
+              "result": "@{body('Select_Items')}"
+            },
+            "schema": {
+              "type": "object",
+              "properties": {
+                "result": {
+                  "title": "Result",
+                  "x-ms-dynamically-added": true,
+                  "type": "string"
+                }
+              }
+            }
+          }
+        },
+        "Get_Files": {
+          "runAfter": {},
+          "metadata": {
+            "operationMetadataId": "ed3e5c69-bccd-4cbc-843b-9fca16fddab8"
+          },
+          "type": "OpenApiConnection",
+          "inputs": {
+            "host": {
+              "connectionName": "shared_sharepointonline",
+              "operationId": "GetFileItems",
+              "apiId": "/providers/Microsoft.PowerApps/apis/shared_sharepointonline"
+            },
+            "parameters": {
+              "dataset": "@triggerBody()?['text']",
+              "table": "Documents",
+              "folderPath": "@triggerBody()?['text_1']"
+            },
+            "authentication": "@parameters('$authentication')"
+          }
+        },
+        "Select_Items": {
+          "runAfter": {
+            "Get_Files": [
+              "Succeeded"
+            ]
+          },
+          "metadata": {
+            "operationMetadataId": "8186d769-bbb6-4883-8663-a2b1c9bd0d7c"
+          },
+          "type": "Select",
+          "inputs": {
+            "from": "@outputs('Get_Files')?['body/value']",
+            "select": {
+              "Name": "@{item()?['{Name}']}",
+              "FullPath": "@{item()?['{FullPath}']}",
+              "Link": "@{item()?['{Link}']}",
+              "IsFolder": "@{item()?['{IsFolder}']}",
+              "ThumbnailSmall": "/@{item()?['{Thumbnail}']?['Small']}",
+              "Editor": "@item()?['Editor']?['DisplayName']",
+              "ModifiedOn": "@item()?['Modified']"
+            }
+          }
+        }
+      }
+    },
+    "templateName": ""
+  },
+  "schemaVersion": "1.0.0.0"
+}

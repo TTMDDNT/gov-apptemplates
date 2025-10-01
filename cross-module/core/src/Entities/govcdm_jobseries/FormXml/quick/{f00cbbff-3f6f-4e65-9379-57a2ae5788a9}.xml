@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{f00cbbff-3f6f-4e65-9379-57a2ae5788a9}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form maxWidth="400" solutionaction="Modified">
+      <tabs>
+        <tab verticallayout="true" id="{5dddd7f9-7ff2-4a6c-a6a0-75b973470b98}" IsUserDefined="1" ordinalvalue="0">
+          <columns>
+            <column width="100%" id="0">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{4780b822-553e-4cf9-9e91-438aa8d03719}" ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell id="{d0053472-f9cb-4f80-8570-f897a761705d}" showlabel="true" locklevel="1" visible="false" ordinalvalue="10003" solutionaction="Modified">
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" uniqueid="{ecd7ce5a-c820-895c-294d-b30268325182}" disabled="false" solutionaction="Modified">
+                          <parameters solutionaction="Added">
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{70e4c17a-9415-695a-c8a1-77a6d4002058}" showlabel="true" locklevel="0" ordinalvalue="10001" solutionaction="Added">
+                        <labels>
+                          <label description="Series Number" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_seriesnumber" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="govcdm_seriesnumber" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c3ce5bb9-adb7-7dac-080e-2d83d48a0ad8}" showlabel="true" locklevel="0" ordinalvalue="10002" solutionaction="Added">
+                        <labels>
+                          <label description="Description" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_description" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="govcdm_description" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="Quick View" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A quick view form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

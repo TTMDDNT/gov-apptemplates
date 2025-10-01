@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppModule>
+  <UniqueName>msgov_Core</UniqueName>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <WebResourceId>953b9fac-1e5e-e611-80d6-00155ded156f</WebResourceId>
+  <OptimizedFor></OptimizedFor>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+  <FormFactor>1</FormFactor>
+  <ClientType>4</ClientType>
+  <NavigationType>0</NavigationType>
+  <AppModuleComponents>
+    <AppModuleComponent type="1" schemaName="contact" />
+    <AppModuleComponent type="1" schemaName="govcdm_analysis" />
+    <AppModuleComponent type="1" schemaName="govcdm_clearancelevel" />
+    <AppModuleComponent type="1" schemaName="govcdm_complianceframework" />
+    <AppModuleComponent type="1" schemaName="govcdm_complianceframeworkcategory" />
+    <AppModuleComponent type="1" schemaName="govcdm_compliancerequirement" />
+    <AppModuleComponent type="1" schemaName="govcdm_country" />
+    <AppModuleComponent type="1" schemaName="govcdm_fiscalperiod" />
+    <AppModuleComponent type="1" schemaName="govcdm_graderank" />
+    <AppModuleComponent type="1" schemaName="govcdm_impact" />
+    <AppModuleComponent type="1" schemaName="govcdm_jobseries" />
+    <AppModuleComponent type="1" schemaName="govcdm_legalamendment" />
+    <AppModuleComponent type="1" schemaName="govcdm_legalauthority" />
+    <AppModuleComponent type="1" schemaName="govcdm_legalcrossreference" />
+    <AppModuleComponent type="1" schemaName="govcdm_location" />
+    <AppModuleComponent type="1" schemaName="govcdm_organizationinitiative" />
+    <AppModuleComponent type="1" schemaName="govcdm_organizationunit" />
+    <AppModuleComponent type="1" schemaName="govcdm_organizationunittype" />
+    <AppModuleComponent type="1" schemaName="govcdm_paygrade" />
+    <AppModuleComponent type="1" schemaName="govcdm_personalinformation" />
+    <AppModuleComponent type="1" schemaName="govcdm_personalinformationtype" />
+    <AppModuleComponent type="1" schemaName="govcdm_personneltype" />
+    <AppModuleComponent type="1" schemaName="govcdm_privacyconsent" />
+    <AppModuleComponent type="1" schemaName="govcdm_product" />
+    <AppModuleComponent type="1" schemaName="govcdm_reviewapprovaldecision" />
+    <AppModuleComponent type="1" schemaName="govcdm_riskitem" />
+    <AppModuleComponent type="1" schemaName="govcdm_signatureapproval" />
+    <AppModuleComponent type="1" schemaName="govcdm_stateorprovince" />
+    <AppModuleComponent type="1" schemaName="systemuser" />
+    <AppModuleComponent type="60" id="{8300c511-fbf0-ee11-904b-0022481df7e6}" />
+    <AppModuleComponent type="60" id="{661157fe-2fc9-4eaa-835f-5bfa2f7b64f7}" />
+    <AppModuleComponent type="62" schemaName="msgov_Core" />
+  </AppModuleComponents>
+  <AppModuleRoleMaps>
+    <Role id="{627090ff-40a3-4053-8790-584edc5be201}" />
+    <Role id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+  </AppModuleRoleMaps>
+  <LocalizedNames>
+    <LocalizedName description="Core" languagecode="1033" />
+  </LocalizedNames>
+  <appsettings>
+    <appsetting settingdefinitionid.uniquename="AppChannel">
+      <iscustomizable>1</iscustomizable>
+      <value>1</value>
+    </appsetting>
+  </appsettings>
+</AppModule>

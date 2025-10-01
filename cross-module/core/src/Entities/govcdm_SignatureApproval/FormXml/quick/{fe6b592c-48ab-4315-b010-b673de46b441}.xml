@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{fe6b592c-48ab-4315-b010-b673de46b441}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form maxWidth="400" solutionaction="Modified">
+      <tabs>
+        <tab verticallayout="true" id="{3a444318-3be7-4cd8-9f6b-e81ef6c0535f}" IsUserDefined="1" ordinalvalue="0">
+          <columns>
+            <column width="100%" id="0">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{890553e7-1a3b-43f9-a299-acb605c0c250}" ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell id="{4bb356f5-1a27-4c4b-b56c-935442a3d45c}" showlabel="true" locklevel="1" visible="false" ordinalvalue="10007" solutionaction="Modified">
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" uniqueid="{21390ec3-c83b-14be-662a-aeeaa624a517}" disabled="false" solutionaction="Modified">
+                          <parameters solutionaction="Added">
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{aeaa1a7d-7de0-b595-31c2-de8493964b2d}" showlabel="true" locklevel="0" ordinalvalue="10001" solutionaction="Added">
+                        <labels>
+                          <label description="E-Confirmation" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_econfirmation" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="govcdm_econfirmation" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{6925957a-8e97-b448-da65-090b833ab2e8}" showlabel="true" locklevel="0" ordinalvalue="10002" solutionaction="Added">
+                        <labels>
+                          <label description="E-Signature" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_esignature" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="govcdm_esignature" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{88c2d371-55de-0bba-c80b-e5dcc6c36486}" showlabel="true" locklevel="0" ordinalvalue="10003" solutionaction="Added">
+                        <labels>
+                          <label description="Signed Approved By" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_signedapprovedby" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="govcdm_signedapprovedby" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d0496163-5583-124e-e140-2430b9a1e275}" showlabel="true" locklevel="0" ordinalvalue="10004" solutionaction="Added">
+                        <labels>
+                          <label description="Signed Approved Date Time" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_signedapproveddatetime" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="govcdm_signedapproveddatetime" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{4bec964a-43a8-a2d9-0ac7-43acbc07ba32}" showlabel="true" locklevel="0" ordinalvalue="10005" solutionaction="Added">
+                        <labels>
+                          <label description="Comments" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_comments" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="govcdm_comments" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{de12bb8d-a6cd-0682-01b6-66e69dea8c27}" showlabel="true" locklevel="0" ordinalvalue="10006" solutionaction="Added">
+                        <labels>
+                          <label description="Approval Status" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_approvalstatus" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="govcdm_approvalstatus" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="Quick View" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A quick view form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{b8d7a199-c1b7-44f5-9707-8d4f7bb62a43}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form shownavigationbar="true" showImage="false" maxWidth="1920" solutionaction="Modified">
+      <tabs>
+        <tab verticallayout="true" id="{b8aa55a0-7b26-43a5-b253-58702caca861}" IsUserDefined="1" ordinalvalue="0">
+          <columns>
+            <column width="100%" id="0">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{31c541cd-40ce-4abe-bdb5-a2c0c9b2fa6e}" ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell id="{e6c35b17-83c2-4fcc-a2f3-32c4d90f20b2}" showlabel="true" locklevel="0" ordinalvalue="10000" solutionaction="Modified">
+                        <control id="govcdm_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="govcdm_name" uniqueid="{e140ee28-2d05-1591-74d7-1d0d01840b2b}" disabled="false" solutionaction="Modified" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{1ff819df-22d2-4be5-81d8-e44864e5fad3}" showlabel="true" locklevel="1" visible="false" ordinalvalue="10006" solutionaction="Modified">
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" uniqueid="{08618374-130b-5c68-5412-2e9497e9deb7}" disabled="false" solutionaction="Modified">
+                          <parameters solutionaction="Added">
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ac5222d9-c6b5-65e9-241e-7551b58cb6de}" showlabel="true" locklevel="0" ordinalvalue="10001" solutionaction="Added">
+                        <labels>
+                          <label description="Abbreviation" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_abbreviation" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="govcdm_abbreviation" disabled="false" uniqueid="{1d3aab0d-b86d-40c5-44be-bc4584626408}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{023c7a0d-7d15-9469-43d0-18998cd48ae7}" showlabel="true" locklevel="0" ordinalvalue="10002" solutionaction="Added">
+                        <labels>
+                          <label description="Org Code" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_orgcode" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="govcdm_orgcode" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{27ad2038-aae0-272d-ae0a-c5d01d7d582a}" showlabel="true" locklevel="0" ordinalvalue="10003" solutionaction="Added">
+                        <labels>
+                          <label description="Organization Unit Type" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_organizationunittype" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="govcdm_organizationunittype" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{cb43bc68-31a3-3304-d576-179246443c45}" showlabel="true" locklevel="0" ordinalvalue="10004" solutionaction="Added">
+                        <labels>
+                          <label description="Managed By" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_managedby" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="govcdm_managedby" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{67a40871-d409-d15a-a140-07cd0902c497}" showlabel="true" locklevel="0" ordinalvalue="10005" solutionaction="Added">
+                        <labels>
+                          <label description="Description" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_description" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="govcdm_description" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{08176e22-3c49-4315-90b3-24c6b799a276}" columns="111" solutionaction="Added">
+        <rows>
+          <row>
+            <cell id="{0a856ff2-3562-4c9e-aa9d-7c46f8d8681c}" showlabel="false" ordinalvalue="10000">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{8730e935-c69b-35e7-aa8e-05761ed72135}" showlabel="false" ordinalvalue="20001">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{d5674512-39c6-4deb-c6ab-262cb6db39e2}" showlabel="true" locklevel="0" ordinalvalue="30002">
+              <labels>
+                <label description="Parent Organization Unit" languagecode="1033" />
+              </labels>
+              <control id="header_govcdm_parentorganizationunit" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="govcdm_parentorganizationunit" disabled="false" />
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <Navigation solutionaction="Added">
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions solutionaction="Added" />
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="Main" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A main form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{27e74b7a-19c6-4c64-828d-44803ccf1ff9}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="govcdm_name" select="1" icon="1" preview="1">
+        <row name="result" id="govcdm_documentid">
+          <cell name="govcdm_name" width="187" />
+          <cell name="govcdm_documenturl" width="300" />
+          <cell name="govcdm_description" width="106" />
+          <cell name="govcdm_keywords" width="100" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="govcdm_document">
+          <attribute name="govcdm_documentid" />
+          <attribute name="govcdm_name" />
+          <attribute name="createdon" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="govcdm_description" />
+          <attribute name="govcdm_documenturl" />
+          <attribute name="govcdm_keywords" />
+          <order attribute="createdon" descending="true" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.7</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Documents" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{5888f75f-8865-494c-ae37-898226695198}</formid>
+    <IntroducedVersion>1.0.0.10</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls" solutionaction="Modified">
+      <tabs>
+        <tab verticallayout="true" id="{953587d7-b8b6-46d1-a69c-42de36211f35}" IsUserDefined="1" ordinalvalue="0">
+          <labels>
+            <label description="Configuration" languagecode="1033" solutionaction="Modified" />
+          </labels>
+          <columns>
+            <column width="100%" id="0">
+              <sections>
+                <section showlabel="true" showbar="false" IsUserDefined="0" id="{65d84b6e-73c6-4eac-a91a-e760361ca261}" columns="1" ordinalvalue="0" solutionaction="Modified">
+                  <rows>
+                    <row>
+                      <cell id="{85e06f45-c8a1-4afd-aa6d-81ba3d8c96b1}" ordinalvalue="10002" solutionaction="Modified" />
+                    </row>
+                    <row>
+                      <cell id="{fab07ea8-2d63-4f8c-8b34-c090f167eb83}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10001" solutionaction="Added">
+                        <labels>
+                          <label description="Collaboration Space Type" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_collaborationspacetype" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="govcdm_collaborationspacetype" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="null_section_3" id="c6b208d8-0b3a-4e76-b41c-c3cab08da53d" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115" ordinalvalue="1" solutionaction="Added">
+                  <labels>
+                    <label description="Microsoft Teams" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{6ab0dce8-c04e-4a4e-8dbe-4fb4e12ab043}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10000">
+                        <labels>
+                          <label description="Team ID" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_teamid" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="govcdm_teamid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c6eb6bc0-94a3-48bd-9aa7-59e8aefbf244}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10001">
+                        <labels>
+                          <label description="Team Channel ID" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_teamchannelid" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="govcdm_teamchannelid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b39a45a8-2f00-4846-82b3-35ed4a4c853d}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10002">
+                        <labels>
+                          <label description="Team Chat ID" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_teamchatid" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="govcdm_teamchatid" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="null_section_4" id="78466839-3b61-4a9d-a3aa-fa9378535b5e" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115" ordinalvalue="2" solutionaction="Added">
+                  <labels>
+                    <label description="SharePoint" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{f41955d5-2d56-48f4-a732-3b50db14c44b}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10000">
+                        <labels>
+                          <label description="SharePoint Site" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_sharepointsite" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="govcdm_sharepointsite" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{417bb164-7d47-462c-a9d8-03b48e385ecb}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10001">
+                        <labels>
+                          <label description="SharePoint Folder Path" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_sharepointfolderpath" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="govcdm_sharepointfolderpath" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_2" id="c0e2dee9-c242-46d6-a801-ac8427e60cb0" IsUserDefined="0" locklevel="0" showlabel="true" ordinalvalue="1" solutionaction="Added">
+          <labels>
+            <label description="Instance" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%" id="0">
+              <sections>
+                <section name="tab_2_section_1" id="2a19fe91-4c1e-44e9-a351-b08b2655b873" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115" ordinalvalue="0">
+                  <labels>
+                    <label description="New Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{2bfbc700-4368-470e-9fcb-c5e6685a9123}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10000">
+                        <labels>
+                          <label description="Virtual Record Type" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_virtualrecordtype" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="govcdm_virtualrecordtype" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{fbd14e75-c804-4756-82e2-d44e61f91e7d}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10001">
+                        <labels>
+                          <label description="Virtual Record ID" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_virtualrecordid" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="govcdm_virtualrecordid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{dce47ff2-64cd-4d1e-b7ea-93bbea7df32c}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10002">
+                        <labels>
+                          <label description="Virtual Record Display Field" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_virtualrecorddisplayfield" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="govcdm_virtualrecorddisplayfield" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{1a42ff29-c608-45bf-9384-71c5b5cf756d}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10003">
+                        <labels>
+                          <label description="URL" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_url" classid="{71716B6C-711E-476C-8AB8-5D11542BFB47}" datafieldname="govcdm_url" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{47289815-645f-45bd-be7d-f41eddab88b5}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10004">
+                        <labels>
+                          <label description="Action Assignment" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_actionassignment" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="govcdm_actionassignment" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{a578b7d5-ea9d-404a-8b93-f75d2e3995e7}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left" solutionaction="Added">
+        <rows></rows>
+      </header>
+      <footer id="{f258c20c-d489-42e8-91fd-d9c339162c23}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left" solutionaction="Added">
+        <rows></rows>
+      </footer>
+      <DisplayConditions Order="0" FallbackForm="true" solutionaction="Added">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

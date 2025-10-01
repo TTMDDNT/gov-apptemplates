@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{00547baf-3117-48a0-a6fd-62002d78b318}</formid>
+    <IntroducedVersion>1.0.0.7</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls" solutionaction="Modified">
+      <tabs>
+        <tab verticallayout="true" id="{e58d0e75-73be-42b2-9f4b-09502b38d688}" IsUserDefined="1" ordinalvalue="0">
+          <columns>
+            <column width="100%" id="0">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{29c115d9-f85f-46bf-8754-4f3eb369476f}" ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell id="{7118d210-6aab-4695-9b13-1bf2ad888267}" ordinalvalue="10000">
+                        <labels>
+                          <label description="Name" languagecode="1033" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{eb1738b0-220a-4e7e-8d16-88854e096981}" ordinalvalue="10003" solutionaction="Modified">
+                        <labels>
+                          <label description="Owner" languagecode="1033" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{85d079a2-c13d-489c-934a-76758949dd50}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10001" solutionaction="Added">
+                        <labels>
+                          <label description="SharePoint Site" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_sharepointsite" classid="{71716B6C-711E-476C-8AB8-5D11542BFB47}" datafieldname="govcdm_sharepointsite" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{61ccbcc2-e5ab-4f7e-9b79-34f0149c1cdc}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10002" solutionaction="Added">
+                        <labels>
+                          <label description="SharePoint File Path" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_sharepointfilepath" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="govcdm_sharepointfilepath" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{d2e9a08e-4753-45d3-a434-b3519343f01a}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left" solutionaction="Added">
+        <rows></rows>
+      </header>
+      <footer id="{4b5cf6f6-63bc-4ba9-a52d-b3de87546ed2}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left" solutionaction="Added">
+        <rows></rows>
+      </footer>
+      <DisplayConditions Order="0" FallbackForm="true" solutionaction="Added">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

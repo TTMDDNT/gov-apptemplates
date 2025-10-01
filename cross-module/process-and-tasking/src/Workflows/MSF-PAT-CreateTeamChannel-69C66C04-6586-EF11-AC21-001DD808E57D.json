@@ -1,0 +1,313 @@
+{
+  "properties": {
+    "connectionReferences": {
+      "shared_teams": {
+        "runtimeSource": "embedded",
+        "connection": {
+          "connectionReferenceLogicalName": "msgov_sharedteams_d3a6c"
+        },
+        "api": {
+          "name": "shared_teams"
+        }
+      }
+    },
+    "definition": {
+      "$schema": "https://schema.management.azure.com/providers/Microsoft.Logic/schemas/2016-06-01/workflowdefinition.json#",
+      "contentVersion": "1.0.0.0",
+      "parameters": {
+        "$connections": {
+          "defaultValue": {},
+          "type": "Object"
+        },
+        "$authentication": {
+          "defaultValue": {},
+          "type": "SecureObject"
+        }
+      },
+      "triggers": {
+        "manual": {
+          "metadata": {
+            "operationMetadataId": "b4cdfd4e-05d3-4e69-aecf-9b22a7cd87d3"
+          },
+          "type": "Request",
+          "kind": "PowerAppV2",
+          "inputs": {
+            "schema": {
+              "type": "object",
+              "properties": {
+                "text": {
+                  "title": "Team ID",
+                  "type": "string",
+                  "x-ms-dynamically-added": true,
+                  "description": "Please enter your input",
+                  "x-ms-content-hint": "TEXT"
+                },
+                "text_1": {
+                  "title": "Channel Name",
+                  "type": "string",
+                  "x-ms-dynamically-added": true,
+                  "description": "Please enter your input",
+                  "x-ms-content-hint": "TEXT"
+                }
+              },
+              "required": [
+                "text",
+                "text_1"
+              ]
+            }
+          }
+        }
+      },
+      "actions": {
+        "Respond_to_a_Power_App_or_flow": {
+          "runAfter": {
+            "Initialize_variable": [
+              "Succeeded"
+            ]
+          },
+          "metadata": {
+            "operationMetadataId": "20f70598-098a-4347-b1b7-201445527570"
+          },
+          "type": "Response",
+          "kind": "PowerApp",
+          "inputs": {
+            "statusCode": 200,
+            "body": {
+              "url": "@{variables('varURL')}",
+              "exists": "@variables('varExists')",
+              "channel": "@{variables('varTeamChannel')}"
+            },
+            "schema": {
+              "type": "object",
+              "properties": {
+                "url": {
+                  "title": "URL",
+                  "x-ms-dynamically-added": true,
+                  "type": "string"
+                },
+                "exists": {
+                  "title": "Exists",
+                  "x-ms-dynamically-added": true,
+                  "type": "boolean"
+                },
+                "channel": {
+                  "title": "Channel",
+                  "x-ms-dynamically-added": true,
+                  "type": "string"
+                }
+              }
+            }
+          }
+        },
+        "Initialize_variable": {
+          "runAfter": {
+            "If_Team_Channel_Exists": [
+              "Succeeded"
+            ]
+          },
+          "metadata": {
+            "operationMetadataId": "fd296fd6-0d03-46f8-9cfd-bfa96a16e6d2"
+          },
+          "type": "InitializeVariable",
+          "inputs": {
+            "variables": [
+              {
+                "name": "varURL",
+                "type": "string",
+                "value": "@variables('varTeamChannel')?['webURL']"
+              }
+            ]
+          }
+        },
+        "Check_Existing_Team_Channel": {
+          "runAfter": {},
+          "metadata": {
+            "operationMetadataId": "f476643c-7d7e-4a21-ad07-e7f9543266c4"
+          },
+          "type": "Workflow",
+          "inputs": {
+            "host": {
+              "workflowReferenceName": "ceeb238a-1587-ef11-ac21-001dd808e57d"
+            },
+            "body": {
+              "text": "@triggerBody()?['text']",
+              "text_1": "@triggerBody()?['text_1']"
+            }
+          }
+        },
+        "If_Team_Channel_Exists": {
+          "actions": {
+            "Existing_Team": {
+              "runAfter": {},
+              "metadata": {
+                "operationMetadataId": "1217fb71-33a0-452a-8540-1b145fca4415"
+              },
+              "type": "ParseJson",
+              "inputs": {
+                "content": "@body('Check_Existing_Team_Channel')?['result']",
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "string"
+                    },
+                    "createdDateTime": {
+                      "type": "string"
+                    },
+                    "displayName": {
+                      "type": "string"
+                    },
+                    "description": {
+                      "type": "string"
+                    },
+                    "tenantId": {
+                      "type": "string"
+                    },
+                    "webUrl": {
+                      "type": "string"
+                    },
+                    "membershipType": {
+                      "type": "string"
+                    },
+                    "isArchived": {
+                      "type": "boolean"
+                    }
+                  }
+                }
+              }
+            },
+            "varTeamChannel_From_Existing": {
+              "runAfter": {
+                "Existing_Team": [
+                  "Succeeded"
+                ]
+              },
+              "metadata": {
+                "operationMetadataId": "62fdbea7-38fa-4cdc-bc7a-9e954067f0ef"
+              },
+              "type": "SetVariable",
+              "inputs": {
+                "name": "varTeamChannel",
+                "value": "@body('Existing_Team')"
+              }
+            },
+            "Team_Exists": {
+              "runAfter": {
+                "varTeamChannel_From_Existing": [
+                  "Succeeded"
+                ]
+              },
+              "metadata": {
+                "operationMetadataId": "d21af575-0394-4b18-8781-593a632a80c8"
+              },
+              "type": "SetVariable",
+              "inputs": {
+                "name": "varExists",
+                "value": true
+              }
+            }
+          },
+          "runAfter": {
+            "varExists": [
+              "Succeeded"
+            ]
+          },
+          "else": {
+            "actions": {
+              "Create_a_channel": {
+                "runAfter": {},
+                "metadata": {
+                  "operationMetadataId": "b172bee2-6e55-4be7-9c5c-f3fefcfd47aa"
+                },
+                "type": "OpenApiConnection",
+                "inputs": {
+                  "host": {
+                    "connectionName": "shared_teams",
+                    "operationId": "CreateChannel",
+                    "apiId": "/providers/Microsoft.PowerApps/apis/shared_teams"
+                  },
+                  "parameters": {
+                    "groupId": "@triggerBody()?['text']",
+                    "body/displayName": "@triggerBody()?['text_1']",
+                    "body/description": "Automatically generated from Fed Apps Process and Tasking"
+                  },
+                  "authentication": "@parameters('$authentication')"
+                }
+              },
+              "varTeamChannel_From_New": {
+                "runAfter": {
+                  "Create_a_channel": [
+                    "Succeeded"
+                  ]
+                },
+                "metadata": {
+                  "operationMetadataId": "91c4693c-e8d8-41a2-83f8-817c37a41dd3"
+                },
+                "type": "SetVariable",
+                "inputs": {
+                  "name": "varTeamChannel",
+                  "value": "@body('Create_a_channel')"
+                }
+              }
+            }
+          },
+          "expression": {
+            "and": [
+              {
+                "greater": [
+                  "@length(body('Check_Existing_Team_Channel')?['result'])",
+                  0
+                ]
+              }
+            ]
+          },
+          "metadata": {
+            "operationMetadataId": "ded976e5-7f67-4208-b844-099763181ce1"
+          },
+          "type": "If"
+        },
+        "varTeamChannel": {
+          "runAfter": {
+            "Check_Existing_Team_Channel": [
+              "Succeeded"
+            ]
+          },
+          "metadata": {
+            "operationMetadataId": "21eb832d-a78f-4ee2-adeb-4bbb3545ff16"
+          },
+          "type": "InitializeVariable",
+          "inputs": {
+            "variables": [
+              {
+                "name": "varTeamChannel",
+                "type": "object"
+              }
+            ]
+          }
+        },
+        "varExists": {
+          "runAfter": {
+            "varTeamChannel": [
+              "Succeeded"
+            ]
+          },
+          "metadata": {
+            "operationMetadataId": "d75806d2-c0a9-4495-b553-e2d403ad63c8"
+          },
+          "type": "InitializeVariable",
+          "inputs": {
+            "variables": [
+              {
+                "name": "varExists",
+                "type": "boolean",
+                "value": false
+              }
+            ]
+          }
+        }
+      }
+    },
+    "templateName": ""
+  },
+  "schemaVersion": "1.0.0.0"
+}

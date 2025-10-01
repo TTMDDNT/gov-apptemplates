@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{860ae330-28b6-4d30-b383-16198255cb55}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form maxWidth="400" solutionaction="Modified">
+      <tabs>
+        <tab name="general" verticallayout="true" id="{d9825974-c5f9-4467-b502-3f9ee93646cf}" IsUserDefined="0" ordinalvalue="0">
+          <columns>
+            <column width="25%" id="0">
+              <sections>
+                <section name="ColorStrip" showlabel="false" showbar="false" columns="1" IsUserDefined="0" id="{834d67ed-db3b-4ef8-92aa-ee6ce9b495ee}" ordinalvalue="0">
+                  <rows solutionaction="Added">
+                    <row>
+                      <cell id="{caca8574-d784-4009-a88e-69543f008ad0}" showlabel="true" locklevel="0" ordinalvalue="10000">
+                        <labels>
+                          <label description="Status Reason" languagecode="1033" />
+                        </labels>
+                        <control id="statuscode" classid="{5D68B988-0661-4db2-BC3E-17598AD3BE6C}" datafieldname="statuscode" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="75%" id="1">
+              <sections>
+                <section name="CardHeader" showlabel="false" showbar="false" columns="111" id="{7cecf50e-dfdf-4857-a4b8-21914d1d8070}" IsUserDefined="0" ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell id="{caca8574-d784-4009-a88e-69543f008ad0}" showlabel="true" locklevel="0" ordinalvalue="10000" solutionaction="Removed" />
+                      <cell id="{71937173-d76f-4474-a436-065e50f08abc}" showlabel="true" locklevel="0" ordinalvalue="20001" solutionaction="Removed" />
+                      <cell id="{f4bef41c-6538-4326-b840-bd243af8f58c}" showlabel="true" locklevel="0" ordinalvalue="30002" solutionaction="Removed" />
+                    </row>
+                    <row>
+                      <cell id="{bb9c50d0-9e2e-dc67-0100-ddcb1c3d23d2}" showlabel="false" ordinalvalue="10000" solutionaction="Added">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                      <cell id="{bdad0630-9a08-ce3a-65c1-c7558703bcce}" showlabel="true" locklevel="0" ordinalvalue="20001" solutionaction="Added">
+                        <labels>
+                          <label description="E-Confirmation" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_econfirmation" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="govcdm_econfirmation" disabled="false" />
+                      </cell>
+                      <cell id="{50e6e005-8031-608c-4c18-1c401cddb78b}" showlabel="true" locklevel="0" ordinalvalue="30002" solutionaction="Added">
+                        <labels>
+                          <label description="Approval Status" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_approvalstatus" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="govcdm_approvalstatus" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="CardDetails" showlabel="false" showbar="false" columns="1" id="{7e2ae0e4-7805-42cd-9fae-a2d19a77eb53}" IsUserDefined="0" ordinalvalue="1">
+                  <rows>
+                    <row>
+                      <cell id="{a43077a8-73db-8876-3ac8-ad2548d1e39c}" showlabel="true" locklevel="0" ordinalvalue="10001" solutionaction="Added">
+                        <labels>
+                          <label description="E-Signature" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_esignature" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="govcdm_esignature" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{6715a253-73e6-419c-29a4-127e1175548d}" showlabel="true" locklevel="0" ordinalvalue="10002" solutionaction="Added">
+                        <labels>
+                          <label description="Signed Approved By" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_signedapprovedby" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="govcdm_signedapprovedby" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b2589d6d-5958-d19d-905d-2305ed0c1817}" showlabel="true" locklevel="0" ordinalvalue="10003" solutionaction="Added">
+                        <labels>
+                          <label description="Signed Approved Date Time" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_signedapproveddatetime" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="govcdm_signedapproveddatetime" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="CardFooter" showlabel="false" columns="1111" showbar="false" id="{c7007837-2ad0-4337-9dec-8c8de5170ee6}" IsUserDefined="0" ordinalvalue="2">
+                  <rows>
+                    <row>
+                      <cell id="{8d3e663b-5720-44ae-884c-ea6de82f4eb5}" showlabel="true" locklevel="0" ordinalvalue="30002" solutionaction="Modified" />
+                      <cell id="{20219155-2161-4cf9-a414-0f496d4529de}" showlabel="true" locklevel="0" ordinalvalue="40003" solutionaction="Modified" />
+                      <cell id="{63d5d531-4b2e-4467-aefa-db4c31d5d997}" showlabel="true" locklevel="0" ordinalvalue="30002" solutionaction="Removed" />
+                      <cell id="{bbc9bff5-5619-4886-ae91-93d841406076}" showlabel="true" locklevel="0" ordinalvalue="40003" solutionaction="Removed" />
+                    </row>
+                    <row>
+                      <cell id="{3c63aca4-403c-1199-edca-bed434c081b3}" showlabel="true" locklevel="0" ordinalvalue="10000" solutionaction="Added">
+                        <labels>
+                          <label description="Comments" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_comments" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="govcdm_comments" disabled="false" />
+                      </cell>
+                      <cell id="{e5c94a04-a2d0-0772-6633-5807c6b86a51}" showlabel="false" ordinalvalue="20001" solutionaction="Added">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="Card" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A card form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

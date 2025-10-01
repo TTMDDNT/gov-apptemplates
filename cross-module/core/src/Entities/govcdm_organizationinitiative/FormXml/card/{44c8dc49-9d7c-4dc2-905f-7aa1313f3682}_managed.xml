@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{44c8dc49-9d7c-4dc2-905f-7aa1313f3682}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form maxWidth="400" solutionaction="Modified">
+      <tabs>
+        <tab name="general" verticallayout="true" id="{ae7560d2-febd-4a85-ab13-bb0ade895611}" IsUserDefined="0" ordinalvalue="0">
+          <columns>
+            <column width="25%" id="0">
+              <sections>
+                <section name="ColorStrip" showlabel="false" showbar="false" columns="1" IsUserDefined="0" id="{52483043-c0de-4cac-9baa-eb7e540d3415}" ordinalvalue="0">
+                  <rows solutionaction="Added" />
+                </section>
+              </sections>
+            </column>
+            <column width="75%" id="1">
+              <sections>
+                <section name="CardHeader" showlabel="false" showbar="false" columns="111" id="{77731f5a-d89d-42d9-a2c0-923d75f87600}" IsUserDefined="0" ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell id="{f8a89068-37ab-4ca1-9343-21bf44dc5a0d}" showlabel="true" locklevel="0" ordinalvalue="30002" solutionaction="Removed" />
+                    </row>
+                    <row>
+                      <cell id="{d496b2c7-8c8e-823a-c316-6e74cbbb5b25}" showlabel="true" locklevel="0" ordinalvalue="30002" solutionaction="Added">
+                        <labels>
+                          <label description="Parent Initiative" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_parentinitiative" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="govcdm_parentinitiative" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="CardDetails" showlabel="false" showbar="false" columns="1" id="{fbcb774a-af3b-4f80-9af5-9e34b9c81b3f}" IsUserDefined="0" ordinalvalue="1">
+                  <rows>
+                    <row>
+                      <cell id="{983857a5-d1a7-ed79-4d89-92783a59bddc}" showlabel="true" locklevel="0" ordinalvalue="10001" solutionaction="Added">
+                        <labels>
+                          <label description="Organization Unit" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_organizationunit" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="govcdm_organizationunit" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{5cb32bca-0c6d-ece6-8a2d-7e1452bdece3}" showlabel="true" locklevel="0" ordinalvalue="10002" solutionaction="Added">
+                        <labels>
+                          <label description="Description" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_description" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="govcdm_description" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="Card" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A card form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

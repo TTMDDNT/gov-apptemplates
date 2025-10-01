@@ -1,0 +1,35 @@
+<appaction uniquename="msgov__ProcessandTasking!26be508388eb4adda6f9abcca3d430db!msgov_ProcessandTasking!contact!0">
+  <appmoduleid>
+    <uniquename>msgov_ProcessandTasking</uniquename>
+  </appmoduleid>
+  <buttonlabeltext default="Open Sidebar">
+    <label description="Open Sidebar" languagecode="1033" />
+  </buttonlabeltext>
+  <context>1</context>
+  <contextentity>
+    <logicalname>contact</logicalname>
+  </contextentity>
+  <contextvalue>contact</contextvalue>
+  <fonticon>GlobalFilterCollapsedRow</fonticon>
+  <hidden>0</hidden>
+  <iscustomizable>1</iscustomizable>
+  <isdisabled>0</isdisabled>
+  <isgrouptitlehidden>0</isgrouptitlehidden>
+  <location>0</location>
+  <name>ProcessandTasking!26be508388eb4adda6f9abcca3d430db</name>
+  <onclickeventjavascriptfunctionname>openActionItemsPane</onclickeventjavascriptfunctionname>
+  <onclickeventjavascriptparameters>[{"type":5}]</onclickeventjavascriptparameters>
+  <onclickeventjavascriptwebresourceid>
+    <webresourceid>4911da10-1fe6-ee11-904d-0022481c9844</webresourceid>
+  </onclickeventjavascriptwebresourceid>
+  <onclickeventtype>2</onclickeventtype>
+  <origin>0</origin>
+  <parentappactionid>
+    <uniquename>msgov__NewGroup!4abae419b9d645b0a9078835812e2450!msgov_ProcessandTasking!contact!0</uniquename>
+  </parentappactionid>
+  <sequence>10000.0000000000</sequence>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+  <type>0</type>
+  <visibilitytype>0</visibilitytype>
+</appaction>

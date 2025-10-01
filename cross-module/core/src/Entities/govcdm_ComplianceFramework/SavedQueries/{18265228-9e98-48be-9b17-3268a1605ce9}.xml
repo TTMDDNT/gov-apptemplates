@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{18265228-9e98-48be-9b17-3268a1605ce9}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="govcdm_name" select="1" icon="1" preview="1">
+        <row name="result" id="govcdm_complianceframeworkid">
+          <cell name="govcdm_name" width="104" />
+          <cell name="govcdm_title" width="177" />
+          <cell name="govcdm_responsibleauthority" width="167" />
+          <cell name="govcdm_description" width="300" />
+          <cell name="govcdm_url" width="300" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="govcdm_complianceframework">
+          <attribute name="govcdm_complianceframeworkid" />
+          <attribute name="govcdm_name" />
+          <order attribute="govcdm_name" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="govcdm_title" />
+          <attribute name="govcdm_description" />
+          <attribute name="govcdm_responsibleauthority" />
+          <attribute name="govcdm_url" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.7</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Compliance Frameworks" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CanvasApp xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>msgov_dataforms_77fdb</Name>
+  <AppVersion>2025-09-30T01:15:09Z</AppVersion>
+  <Status>Ready</Status>
+  <CreatedByClientVersion>3.23094.31.0</CreatedByClientVersion>
+  <MinClientVersion>3.23094.31.0</MinClientVersion>
+  <Tags>{"primaryDeviceWidth":"1366","primaryDeviceHeight":"768","supportsPortrait":"true","supportsLandscape":"true","primaryFormFactor":"Tablet","showStatusBar":"false","publisherVersion":"3.23094.31","minimumRequiredApiVersion":"2.2.0","hasComponent":"false","hasUnlockedComponent":"false","isUnifiedRootApp":"false","sienaVersion":"20231012T144841Z-3.23093.15.0"}</Tags>
+  <IsCdsUpgraded>0</IsCdsUpgraded>
+  <GalleryItemId xsi:nil="true"></GalleryItemId>
+  <BackgroundColor>RGBA(0,176,240,1)</BackgroundColor>
+  <DisplayName>Data Forms</DisplayName>
+  <Description></Description>
+  <CommitMessage></CommitMessage>
+  <Publisher></Publisher>
+  <AuthorizationReferences>[]</AuthorizationReferences>
+  <ConnectionReferences>{}</ConnectionReferences>
+  <DatabaseReferences>{"default.cds":{"databaseDetails":{"referenceType":"Environmental","environmentName":"default.cds","overrideValues":{"status":"NotSpecified"}},"dataSources":{"Data Forms":{"entitySetName":"govcdm_dataforms","logicalName":"govcdm_dataform"},"Users":{"entitySetName":"systemusers","logicalName":"systemuser"},"Teams":{"entitySetName":"teams","logicalName":"team"},"Feedback":{"entitySetName":"feedback","logicalName":"feedback"},"Action Assignments":{"entitySetName":"govcdm_actionassignments","logicalName":"govcdm_actionassignment"},"Process Steps":{"entitySetName":"govcdm_processsteps","logicalName":"govcdm_processstep"},"Persons":{"entitySetName":"contacts","logicalName":"contact"}},"components":[{"componentName":"CustomControl","identifier":"msfed_MicrosoftPCF.IFrameControl","identifierType":"LogicalName","capabilities":{"pcfExternalServiceUsageAllowed":false}}]}}</DatabaseReferences>
+  <AppComponents>[]</AppComponents>
+  <AppComponentDependencies>[]</AppComponentDependencies>
+  <CanConsumeAppPass>1</CanConsumeAppPass>
+  <CanvasAppType>0</CanvasAppType>
+  <BypassConsent>0</BypassConsent>
+  <EmbeddedApp xsi:nil="true"></EmbeddedApp>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <CdsDependencies>{"cdsdependencies":[{"componenttype":1,"logicalname":"govcdm_dataform"},{"componenttype":1,"logicalname":"systemuser"},{"componenttype":1,"logicalname":"team"},{"componenttype":1,"logicalname":"feedback"},{"componenttype":1,"logicalname":"govcdm_actionassignment"},{"componenttype":1,"logicalname":"govcdm_processstep"},{"componenttype":1,"logicalname":"contact"},{"componenttype":66,"logicalname":"msfed_MicrosoftPCF.IFrameControl","componenttypeplatformname":"CustomControl"}]}</CdsDependencies>
+  <IsCustomizable>1</IsCustomizable>
+  <BackgroundImageUri>/CanvasApps/msgov_dataforms_77fdb_BackgroundImageUri</BackgroundImageUri>
+  <DocumentUri>/CanvasApps/msgov_dataforms_77fdb_DocumentUri.msapp</DocumentUri>
+</CanvasApp>
