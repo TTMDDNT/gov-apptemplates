@@ -5,27 +5,27 @@
 $projectRoot = "$PSScriptRoot\.."
 . "${projectRoot}\.scripts\Util.ps1"
 
-# ask which type of ip
+# ask which type of module
 Write-Host ""
-$ipType = Select-ItemFromList "cross-module", "modules"
-$baseFolder = "$projectRoot\$ipType"
+$moduleType = Select-ItemFromList "cross-module", "modules"
+$baseFolder = "$projectRoot\$moduleType"
 
 # ask for which module to sync
 Write-Host ""
 $excludeFolders = "__pycache__", ".scripts"
-$folderNames = Get-ChildItem -Path "$projectRoot\$ipType" -Directory -Exclude $excludeFolders | Select-Object -ExpandProperty Name
+$folderNames = Get-ChildItem -Path "$projectRoot\$moduleType" -Directory -Exclude $excludeFolders | Select-Object -ExpandProperty Name
 $module = Select-ItemFromList $folderNames
 
 # select environment: allow the user to type an environment to run
 # Connect-DataverseEnvironment (which lists environments and prompts),
 # or press Enter to auto-select the default environment for the chosen module.
-Connect-DataverseTenant
+Connect-DataverseTenant "GOV APPS"
 
-# determine default environment based on ipType
-if ($ipType -eq "cross-module") {
+# determine default environment based on moduleType
+if ($moduleType -eq "cross-module") {
     $defaultEnv = "GOV UTILITY APPS"
 }
-elseif ($ipType -eq "modules") {
+elseif ($moduleType -eq "modules") {
     $defaultEnv = "GOV APPS"
 }
 else {

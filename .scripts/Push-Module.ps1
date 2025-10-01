@@ -10,23 +10,26 @@ $projectRoot = "$PSScriptRoot\.."
 Write-Host "Warning - This operation will overwrite the unmanaged solution in your environment."
 if ($true -eq (Confirm-Next "Proceed (y/n)?")) {
 
-    # ask which type of ip
+    # ask which type of module
     $ipType = Select-ItemFromList "cross-module", "federal", "target"
     $baseFolder = "$projectRoot\$ipType"
 
-    # ask for which module to sync
+    # ask for which module to push (import)
     Write-Host ""
     $excludeFolders = "__pycache__", ".scripts"
     $folderNames = Get-ChildItem -Path "$projectRoot\$ipType" -Directory -Exclude $excludeFolders | Select-Object -ExpandProperty Name
     $module = Select-ItemFromList $folderNames
 
-    Connect-DataverseTenant
+    $tenantName = "GOV APPS"
+    Connect-DataverseTenant $tenantName
 
     if (($module -eq "core") -or ($module -eq "process-and-tasking")) {
-        $env = "GOV UTILITY APPS"
-        pac org select --environment $env
-        # Deploy-Solution "$baseFolder\$module" -AutoConfirm -Settings $env
-        Deploy-Solution "$baseFolder\$module" -AutoConfirm
-
+        $envName = "GOV UTILITY APPS"
     }
+    else {
+        $envName = "GOV APPS"   
+    }
+
+    pac org select --environment $envName
+    Deploy-Solution "$baseFolder\$module" -AutoConfirm -Settings "$tenantName\$envName.json"
 }

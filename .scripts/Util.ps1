@@ -937,11 +937,11 @@ function Connect-DataverseTenant {
 
         # if auth profile provided, check the config file for custom settings
         # else just use what was provided
-        $config = Get-Config
-        if ($null -ne $config -and $config.$authProfile) {
-            Write-Host "Using configuration override for profile."
-            $authProfile = $config.$authProfile
-        }
+        # $config = Get-Config
+        # if ($null -ne $config -and $config.$authProfile) {
+        #     Write-Host "Using configuration override for profile."
+        #     $authProfile = $config.$authProfile
+        # }
 
         # now connect
         pac auth select --name $authProfile | Out-Host

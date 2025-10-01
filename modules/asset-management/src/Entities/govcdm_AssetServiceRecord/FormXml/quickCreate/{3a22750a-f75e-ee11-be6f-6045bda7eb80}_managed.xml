@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{3a22750a-f75e-ee11-be6f-6045bda7eb80}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab id="F931FFE2-B873-473F-8F95-9502F0AA3F5E" name="tab_1" showlabel="false" labelid="{076104da-9b4c-4898-a5bb-5b77ecbbb6e6}">
+          <labels>
+            <label description="New Tab" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="34%">
+              <sections>
+                <section id="0C655D4E-C6E3-424E-9AF5-71E72D30D12E" name="tab_1_column_1_section_1" columns="1" showlabel="true" showbar="false" IsUserDefined="0" labelwidth="130" labelid="{381efadb-0aab-458c-a08b-7fa109c1613c}">
+                  <labels>
+                    <label description="New Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="542FBFBE-0E4C-496C-8012-555DE6581923" labelid="{39ddfd38-feed-4d4e-ab13-04a73edf2fe2}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{13c7858c-683b-47db-8f81-b770a2a96ccd}" locklevel="0" colspan="1" rowspan="1" labelid="{77799341-2d41-44c5-9f4c-aae2e6d50d53}">
+                        <labels>
+                          <label description="Asset" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_asset" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="govcdm_asset" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{028d85bf-44ff-47a9-a8a7-56b8b04dad08}" locklevel="0" colspan="1" rowspan="1" labelid="{7efd0b73-316f-496c-8944-ef7ce67e9c43}">
+                        <labels>
+                          <label description="Service Request Date Time" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_servicerequestdatetime" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="govcdm_servicerequestdatetime" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{2fbd8b88-ce0a-41ab-bdfb-79b42a461cc3}" locklevel="0" colspan="1" rowspan="1" labelid="{b8238002-743d-4fd2-8410-ad3f6f325351}">
+                        <labels>
+                          <label description="Service Request Description" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_servicerequestdescription" classid="{E0DECE4B-6FC8-4A8F-A065-082708572369}" datafieldname="govcdm_servicerequestdescription" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section id="02DECBA0-3AE2-484D-A19F-C5353AF4F4F2" name="tab_1_column_2_section_1" columns="1" showlabel="true" showbar="false" IsUserDefined="0" labelwidth="130" labelid="{0beb3ce1-dc19-4b78-a01f-653d688e1d49}">
+                  <labels>
+                    <label description="New Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="266FE48D-4D04-4E9A-8C5A-7DEF9A2F059B" labelid="{15b0d532-7762-4f3f-99a8-f6dac5377730}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{26d4b643-900d-425e-a5ff-b3f0c743f11d}" locklevel="0" colspan="1" rowspan="1" labelid="{c4e370a5-490f-41a5-a962-41cdf0a703c2}">
+                        <labels>
+                          <label description="Service Location" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_servicelocation" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="govcdm_servicelocation" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d7858f75-769c-42f6-8834-14212ead1184}" locklevel="0" colspan="1" rowspan="1" labelid="{a57fe51e-54ff-4a80-a2a1-5349dc3bcab7}">
+                        <labels>
+                          <label description="Service Start Date Time" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_servicestartdatetime" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="govcdm_servicestartdatetime" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{dbe258f4-9111-42d3-b7fb-f6d34af24d33}" locklevel="0" colspan="1" rowspan="1" labelid="{e515b213-3e6e-4cb9-9693-6d652ec439f2}">
+                        <labels>
+                          <label description="Service End Date Time" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_serviceenddatetime" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="govcdm_serviceenddatetime" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{8474193b-59c3-4bbf-9dcc-24a990d87e69}" locklevel="0" colspan="1" rowspan="1" labelid="{91a2fc07-dd6d-456c-b5bc-13d057ec4406}">
+                        <labels>
+                          <label description="Service Notes" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_servicenotes" classid="{E0DECE4B-6FC8-4A8F-A065-082708572369}" datafieldname="govcdm_servicenotes" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section id="46FD66EA-B686-41D9-AAE0-C565BD78EC1F" name="tab_1_column_3_section_1" columns="1" showlabel="true" showbar="false" IsUserDefined="0" labelwidth="130" labelid="{f28dbe30-1b52-444f-92e5-79b9e922a4ef}">
+                  <labels>
+                    <label description="New Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="07C04A4E-A482-45CC-BAB7-7FCA3CD02938" labelid="{5c85e37f-0148-4432-8ebd-51ef5530ac9d}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{6cccdda3-106c-462f-ba3b-da0174b5a18e}" locklevel="0" colspan="1" rowspan="1" labelid="{361c673a-0b89-4779-a680-463e1d18ebce}">
+                        <labels>
+                          <label description="Expected Return Date Time" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_expectedreturndatetime" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="govcdm_expectedreturndatetime" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{81d4e393-d4f2-4cc0-bb6e-b8d31b61bca6}" locklevel="0" colspan="1" rowspan="1" labelid="{7a5f8058-915d-488a-95f5-bf4f711f1a2f}">
+                        <labels>
+                          <label description="Actual Return Date Time" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_actualreturndatetime" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="govcdm_actualreturndatetime" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Quick Create" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>

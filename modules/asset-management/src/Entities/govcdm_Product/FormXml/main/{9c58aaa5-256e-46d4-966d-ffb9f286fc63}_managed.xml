@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{9c58aaa5-256e-46d4-966d-ffb9f286fc63}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls" solutionaction="Modified">
+      <tabs>
+        <tab verticallayout="true" id="{6df2fa55-2f25-4529-930f-8e85f044564c}" IsUserDefined="1" ordinalvalue="0">
+          <columns>
+            <column width="100%" id="0">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{ca4f981a-9324-4728-8978-32b7bbd62aaf}" ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell id="{c2fe5c3a-041c-42aa-82e5-12e6670bec1d}" ordinalvalue="10004" solutionaction="Modified" />
+                    </row>
+                    <row>
+                      <cell id="{e364ab63-3725-bbd7-bdaa-26950703b83c}" showlabel="true" locklevel="0" ordinalvalue="10005" solutionaction="Modified" />
+                    </row>
+                    <row>
+                      <cell id="{080430a1-83dd-5120-0cec-ec82e05d6bbc}" showlabel="true" locklevel="0" ordinalvalue="10006" solutionaction="Modified" />
+                    </row>
+                    <row>
+                      <cell id="{23d51ba8-d390-3716-b30b-38b569cbc1b4}" showlabel="true" locklevel="0" ordinalvalue="10008" solutionaction="Modified" />
+                    </row>
+                    <row>
+                      <cell id="{ba6db614-8442-3935-ea22-8e8602231e60}" showlabel="true" locklevel="0" ordinalvalue="10009" solutionaction="Modified" />
+                    </row>
+                    <row>
+                      <cell id="{44dd134e-5bb9-8322-4614-0ec94c4e2531}" showlabel="true" locklevel="0" ordinalvalue="10010" solutionaction="Modified" />
+                    </row>
+                    <row>
+                      <cell id="{71758a59-40ba-48c0-b436-40647bf8adfe}" ordinalvalue="10007" solutionaction="Modified" />
+                    </row>
+                    <row>
+                      <cell id="{eb7926a2-ac5b-47b6-86ef-562a6f268a2c}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10001" solutionaction="Added">
+                        <labels>
+                          <label description="Manufacturer" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_manufacturer" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="govcdm_manufacturer" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{fdf153fa-530b-4132-bd72-b5736128666e}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10002" solutionaction="Added">
+                        <labels>
+                          <label description="Description" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_description" classid="{E0DECE4B-6FC8-4A8F-A065-082708572369}" datafieldname="govcdm_description" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{daf6de2d-bc77-49e1-a938-020c5449c25a}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10003" solutionaction="Added">
+                        <labels>
+                          <label description="URL" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_url" classid="{71716B6C-711E-476C-8AB8-5D11542BFB47}" datafieldname="govcdm_url" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="{6df2fa55-2f25-4529-930f-8e85f044564c}_section_2" showlabel="true" showbar="false" locklevel="0" id="{a17d38e2-2088-db8d-2c2e-9bb91e575d62}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left" ordinalvalue="2" solutionaction="Modified" />
+                <section name="null_section_3" id="cd259405-8617-401b-aa07-291b1a93776f" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115" ordinalvalue="1" solutionaction="Added">
+                  <labels>
+                    <label description="Sub Products" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell locklevel="0" id="{f3557fc2-d684-4148-ab07-e857b8cc2a8e}" rowspan="4" colspan="1" auto="false" showlabel="false" ordinalvalue="10000">
+                        <labels>
+                          <label description="New SG control 1696014425802" languagecode="1033" />
+                        </labels>
+                        <control indicationOfSubgrid="true" id="Subgrid_new_1" classid="{E7A81278-8635-4D9E-8D4D-59480B391C5B}">
+                          <parameters>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <ChartGridMode>All</ChartGridMode>
+                            <TargetEntityType>govcdm_product</TargetEntityType>
+                            <ViewId>{BA625FEA-C61D-41DD-80D2-4CADF4E4F600}</ViewId>
+                            <ViewIds>{BA625FEA-C61D-41DD-80D2-4CADF4E4F600}</ViewIds>
+                            <RelationshipName>govcdm_govcdm_product_ParentProduct_govcdm_produ</RelationshipName>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{b9db3ce8-4852-4366-a29c-5c7b6020e098}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left" solutionaction="Modified">
+        <rows>
+          <row>
+            <cell id="{af141725-cf96-4a04-a5b9-86fb43bedcc9}" showlabel="false" ordinalvalue="10000" solutionaction="Removed" />
+            <cell id="{c03fe3d6-75df-422e-9a93-d5c214b75b27}" showlabel="false" ordinalvalue="20001" solutionaction="Removed" />
+          </row>
+          <row>
+            <cell id="{1ca4637c-5a97-44fa-8606-9d2e5adf830e}" showlabel="false" ordinalvalue="10000" solutionaction="Added">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{d0c71b7e-4a43-45e5-809a-213a5fc00724}" showlabel="false" ordinalvalue="20001" solutionaction="Added">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{573d55b8-b641-406d-9c0d-8ac6ae07a5ab}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left" solutionaction="Added">
+        <rows></rows>
+      </footer>
+      <DisplayConditions Order="0" FallbackForm="true" solutionaction="Added">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

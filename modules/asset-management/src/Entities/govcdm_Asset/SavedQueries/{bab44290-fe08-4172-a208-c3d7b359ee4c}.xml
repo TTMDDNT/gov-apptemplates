@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{bab44290-fe08-4172-a208-c3d7b359ee4c}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="govcdm_name" select="1" icon="1" preview="1">
+        <row name="result" id="govcdm_assetid">
+          <cell name="govcdm_assetnumber" width="127" />
+          <cell name="govcdm_name" width="300" />
+          <cell name="govcdm_assetcategory" width="126" />
+          <cell name="govcdm_acquireddatetime" width="155" />
+          <cell name="govcdm_currentowner" width="155" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="govcdm_asset">
+          <attribute name="govcdm_assetid" />
+          <attribute name="govcdm_name" />
+          <order attribute="govcdm_name" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="govcdm_assetnumber" />
+          <attribute name="govcdm_currentowner" />
+          <attribute name="govcdm_assetcategory" />
+          <attribute name="govcdm_acquireddatetime" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Assets" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>
