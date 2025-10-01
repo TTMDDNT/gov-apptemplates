@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{af69dec9-0edf-ee11-904c-000d3a3ab141}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="govcdm_name" select="1" icon="1" preview="1">
+        <row name="result" id="govcdm_executiveactionid">
+          <cell name="govcdm_actionnumber" width="128" />
+          <cell name="govcdm_name" width="288" />
+          <cell name="govcdm_executiveactiontype" width="169" />
+          <cell name="govcdm_priority" width="100" />
+          <cell name="govcdm_securityclassification" width="168" />
+          <cell name="govcdm_actionstatus" width="116" />
+          <cell name="govcdm_receiveddatetime" width="155" />
+          <cell name="govcdm_duedatetime" width="126" />
+          <cell name="govcdm_description" width="300" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical">
+        <entity name="govcdm_executiveaction">
+          <attribute name="govcdm_name" />
+          <attribute name="govcdm_executiveactionid" />
+          <attribute name="govcdm_actionnumber" />
+          <attribute name="govcdm_actionstatus" />
+          <attribute name="govcdm_description" />
+          <attribute name="govcdm_duedatetime" />
+          <attribute name="govcdm_executiveactiontype" />
+          <attribute name="govcdm_priority" />
+          <attribute name="govcdm_securityclassification" />
+          <attribute name="govcdm_receiveddatetime" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Executive Actions" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

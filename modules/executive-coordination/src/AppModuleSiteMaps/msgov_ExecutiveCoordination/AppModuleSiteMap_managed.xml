@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppModuleSiteMap xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SiteMapUniqueName>msgov_ExecutiveCoordination</SiteMapUniqueName>
+  <EnableCollapsibleGroups>False</EnableCollapsibleGroups>
+  <ShowHome>True</ShowHome>
+  <ShowPinned>True</ShowPinned>
+  <ShowRecents>True</ShowRecents>
+  <SiteMap IntroducedVersion="7.0.0.0">
+    <Area Id="area_fdfd8325" ResourceId="SitemapDesigner.NewTitle" DescriptionResourceId="SitemapDesigner.NewTitle" ShowGroups="true" IntroducedVersion="7.0.0.0">
+      <Titles>
+        <Title LCID="1033" Title="Area1" />
+      </Titles>
+      <Group Id="group_661bed47" ResourceId="SitemapDesigner.NewGroup" DescriptionResourceId="SitemapDesigner.NewGroup" IntroducedVersion="7.0.0.0" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+        <Titles>
+          <Title LCID="1033" Title="Mandates" />
+        </Titles>
+        <SubArea Id="subarea_7f1cf245" Icon="/_imgs/imagestrips/transparent_spacer.gif" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" Page="msgov_legalauthorityanalyzer_6459b">
+          <Titles>
+            <Title LCID="1033" Title="Legal Authority Analyzer" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="subarea_4f5401c2" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="govcdm_legalauthority" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="subarea_4ac5d666" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="govcdm_analysis" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="subarea_db04b4d3" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="govcdm_impact" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="subarea_0a7ab908" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="govcdm_riskitem" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+      </Group>
+      <Group Id="group_26a2d69b" ResourceId="SitemapDesigner.NewGroup" DescriptionResourceId="SitemapDesigner.NewGroup" IntroducedVersion="7.0.0.0" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+        <Titles>
+          <Title LCID="1033" Title="Action and Correspondence" />
+        </Titles>
+        <SubArea Id="subarea_7c03d570" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="govcdm_executiveaction" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="subarea_f15aa2aa" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="govcdm_actionitem" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Action Items List" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="subarea_2dd4e7b2" VectorIcon="/WebResources/govcdm_actionitemicon" Icon="/WebResources/govcdm_actionitemicon" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="true" Sku="All,OnPremise,Live,SPLA" Page="msgov_actionitemspage_c082a">
+          <Titles>
+            <Title LCID="1033" Title="Action Items Tracker" />
+          </Titles>
+        </SubArea>
+      </Group>
+      <Group Id="group_74dbc321" ResourceId="SitemapDesigner.NewGroup" DescriptionResourceId="SitemapDesigner.NewGroup" IntroducedVersion="7.0.0.0" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+        <Titles>
+          <Title LCID="1033" Title="Admin" />
+        </Titles>
+        <SubArea Id="subarea_7a52fdc9" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="govcdm_executiveactiontype" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+      </Group>
+    </Area>
+  </SiteMap>
+  <LocalizedNames>
+    <LocalizedName description="Executive Coordination" languagecode="1033" />
+  </LocalizedNames>
+</AppModuleSiteMap>

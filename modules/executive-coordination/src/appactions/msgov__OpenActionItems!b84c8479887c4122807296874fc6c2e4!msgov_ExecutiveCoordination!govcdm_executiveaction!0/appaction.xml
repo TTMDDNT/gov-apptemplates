@@ -1,0 +1,28 @@
+<appaction uniquename="msgov__OpenActionItems!b84c8479887c4122807296874fc6c2e4!msgov_ExecutiveCoordination!govcdm_executiveaction!0">
+  <appmoduleid>
+    <uniquename>msgov_ExecutiveCoordination</uniquename>
+  </appmoduleid>
+  <context>1</context>
+  <contextentity>
+    <logicalname>govcdm_executiveaction</logicalname>
+  </contextentity>
+  <contextvalue>govcdm_executiveaction</contextvalue>
+  <grouptitle default="Open Action Items">
+    <label description="Open Action Items" languagecode="1033" />
+  </grouptitle>
+  <hidden>0</hidden>
+  <iscustomizable>1</iscustomizable>
+  <isdisabled>0</isdisabled>
+  <isgrouptitlehidden>1</isgrouptitlehidden>
+  <location>0</location>
+  <name>OpenActionItems!b84c8479887c4122807296874fc6c2e4</name>
+  <onclickeventtype>0</onclickeventtype>
+  <origin>0</origin>
+  <parentappactionid>
+    <uniquename>msgov__ActionItems!41aa5ab7fd6448be8020d7884fdcd7e3!msgov_ExecutiveCoordination!govcdm_executiveaction!0</uniquename>
+  </parentappactionid>
+  <sequence>10000.0000000000</sequence>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+  <type>3</type>
+</appaction>

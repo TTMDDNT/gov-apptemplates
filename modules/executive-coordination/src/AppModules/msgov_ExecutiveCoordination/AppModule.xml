@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppModule>
+  <UniqueName>msgov_ExecutiveCoordination</UniqueName>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <WebResourceId>953b9fac-1e5e-e611-80d6-00155ded156f</WebResourceId>
+  <OptimizedFor></OptimizedFor>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+  <FormFactor>1</FormFactor>
+  <ClientType>4</ClientType>
+  <NavigationType>0</NavigationType>
+  <AppModuleComponents>
+    <AppModuleComponent type="1" schemaName="govcdm_actionitem" />
+    <AppModuleComponent type="1" schemaName="govcdm_analysis" />
+    <AppModuleComponent type="1" schemaName="govcdm_executiveaction" />
+    <AppModuleComponent type="1" schemaName="govcdm_executiveactiontype" />
+    <AppModuleComponent type="1" schemaName="govcdm_impact" />
+    <AppModuleComponent type="1" schemaName="govcdm_legalauthority" />
+    <AppModuleComponent type="1" schemaName="govcdm_mou" />
+    <AppModuleComponent type="1" schemaName="govcdm_riskitem" />
+    <AppModuleComponent type="26" id="{af69dec9-0edf-ee11-904c-000d3a3ab141}" />
+    <AppModuleComponent type="26" id="{05ddf1dd-1bd0-4f68-bcd3-37e49cef1ff4}" />
+    <AppModuleComponent type="26" id="{2d9f5ee4-e5b7-4596-a1c1-663872dde9dc}" />
+    <AppModuleComponent type="26" id="{6e7d5da7-f0ee-4989-a55c-adb5c068c06f}" />
+    <AppModuleComponent type="26" id="{1e5259dd-9699-4b69-a723-c619631ce3bc}" />
+    <AppModuleComponent type="60" id="{2d59b82c-26df-ee11-904c-000d3a3ab141}" />
+    <AppModuleComponent type="60" id="{13fc05af-cc9a-ef11-8a6b-001dd802baf8}" />
+    <AppModuleComponent type="60" id="{49244fdb-832b-f011-8c4d-001dd802fa74}" />
+    <AppModuleComponent type="60" id="{192cf190-0f2d-f011-8c4d-001dd806d846}" />
+    <AppModuleComponent type="60" id="{f7224180-102d-f011-8c4d-001dd806d846}" />
+    <AppModuleComponent type="60" id="{6613c8c1-102d-f011-8c4d-001dd806d846}" />
+    <AppModuleComponent type="60" id="{24f0b966-112d-f011-8c4d-001dd806d846}" />
+    <AppModuleComponent type="60" id="{d88a5cfe-f121-f011-9989-001dd808dc27}" />
+    <AppModuleComponent type="60" id="{ed1e95c8-832b-f011-8c4d-001dd80b5e94}" />
+    <AppModuleComponent type="60" id="{65e3b154-46c3-4e32-8d1f-02a644ff714e}" />
+    <AppModuleComponent type="60" id="{3934ea03-4d6b-468f-94d3-05e599164a9a}" />
+    <AppModuleComponent type="60" id="{130b09e5-a02f-4a49-b275-89b90497d948}" />
+    <AppModuleComponent type="60" id="{3e189baa-070c-44c6-a582-8a643666f6cc}" />
+    <AppModuleComponent type="60" id="{f1c2fb79-aa06-471e-a6f1-94ecbb8bef26}" />
+    <AppModuleComponent type="60" id="{890827a3-5ccf-4540-9f60-b62dc006d9a7}" />
+    <AppModuleComponent type="62" schemaName="msgov_ExecutiveCoordination" />
+  </AppModuleComponents>
+  <AppModuleRoleMaps>
+    <Role id="{627090ff-40a3-4053-8790-584edc5be201}" />
+    <Role id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+  </AppModuleRoleMaps>
+  <LocalizedNames>
+    <LocalizedName description="Executive Coordination" languagecode="1033" />
+  </LocalizedNames>
+  <appelements>
+    <appelement uniquename="msgov_msgov_ExecutiveCoordination_canvasappid_msgov_actionitempage_94fbe">
+      <canvasappid>
+        <name>msgov_actionitempage_94fbe</name>
+      </canvasappid>
+      <iscustomizable>1</iscustomizable>
+      <name>msgov_msgov_ExecutiveCoordination_canvasappid_msgov_actionitempage_94fbe</name>
+    </appelement>
+    <appelement uniquename="msgov_msgov_ExecutiveCoordination_canvasappid_msgov_actionitemspage_c082a">
+      <canvasappid>
+        <name>msgov_actionitemspage_c082a</name>
+      </canvasappid>
+      <iscustomizable>1</iscustomizable>
+      <name>msgov_msgov_ExecutiveCoordination_canvasappid_msgov_actionitemspage_c082a</name>
+    </appelement>
+    <appelement uniquename="msgov_msgov_ExecutiveCoordination_canvasappid_msgov_legalauthorityanalyzer_6459b">
+      <canvasappid>
+        <name>msgov_legalauthorityanalyzer_6459b</name>
+      </canvasappid>
+      <iscustomizable>1</iscustomizable>
+      <name>msgov_msgov_ExecutiveCoordination_canvasappid_msgov_legalauthorityanalyzer_6459b</name>
+    </appelement>
+  </appelements>
+  <appsettings>
+    <appsetting settingdefinitionid.uniquename="AppChannel">
+      <iscustomizable>1</iscustomizable>
+      <value>1</value>
+    </appsetting>
+    <appsetting settingdefinitionid.uniquename="appcopilotenabled">
+      <iscustomizable>1</iscustomizable>
+      <value>2</value>
+    </appsetting>
+  </appsettings>
+</AppModule>

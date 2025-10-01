@@ -1,0 +1,1074 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImportExportXml version="9.2.25083.183" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" OrganizationVersion="9.2.25083.183" OrganizationSchemaType="Standard" CRMServerServiceabilityVersion="9.2.25083.00183">
+  <SolutionManifest>
+    <UniqueName>msgov_executivecoordination</UniqueName>
+    <LocalizedNames>
+      <LocalizedName description="Microsoft Gov - Executive Coordination" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions />
+    <Version>1.1.0.0</Version>
+    <Managed>2</Managed>
+    <Publisher>
+      <UniqueName>msgovsolutions</UniqueName>
+      <LocalizedNames>
+        <LocalizedName description="Microsoft Government Solutions" languagecode="1033" />
+      </LocalizedNames>
+      <Descriptions>
+        <Description description="Microsoft Government Solutions" languagecode="1033" />
+      </Descriptions>
+      <EMailAddress xsi:nil="true"></EMailAddress>
+      <SupportingWebsiteUrl xsi:nil="true"></SupportingWebsiteUrl>
+      <CustomizationPrefix>msgov</CustomizationPrefix>
+      <CustomizationOptionValuePrefix>18844</CustomizationOptionValuePrefix>
+      <Addresses>
+        <Address>
+          <AddressNumber>1</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+        <Address>
+          <AddressNumber>2</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+      </Addresses>
+    </Publisher>
+    <RootComponents>
+      <RootComponent type="1" schemaName="activitypointer" behavior="2" />
+      <RootComponent type="1" schemaName="adx_inviteredemption" behavior="2" />
+      <RootComponent type="1" schemaName="adx_portalcomment" behavior="2" />
+      <RootComponent type="1" schemaName="appointment" behavior="2" />
+      <RootComponent type="1" schemaName="chat" behavior="2" />
+      <RootComponent type="1" schemaName="email" behavior="2" />
+      <RootComponent type="1" schemaName="fax" behavior="2" />
+      <RootComponent type="1" schemaName="govcdm_actionassignment" behavior="2" />
+      <RootComponent type="1" schemaName="govcdm_analysis" behavior="2" />
+      <RootComponent type="1" schemaName="govcdm_collaborationspace" behavior="1" />
+      <RootComponent type="1" schemaName="govcdm_executiveaction" behavior="1" />
+      <RootComponent type="1" schemaName="govcdm_impact" behavior="2" />
+      <RootComponent type="1" schemaName="govcdm_legalauthority" behavior="2" />
+      <RootComponent type="1" schemaName="govcdm_mou" behavior="2" />
+      <RootComponent type="1" schemaName="govcdm_riskitem" behavior="2" />
+      <RootComponent type="1" schemaName="letter" behavior="2" />
+      <RootComponent type="1" schemaName="phonecall" behavior="2" />
+      <RootComponent type="1" schemaName="processsession" behavior="2" />
+      <RootComponent type="1" schemaName="recurringappointmentmaster" behavior="2" />
+      <RootComponent type="1" schemaName="task" behavior="2" />
+      <RootComponent type="300" schemaName="msgov_legalauthorityanalyzer_6459b" behavior="0" />
+      <RootComponent type="300" schemaName="msgov_mou_f2437" behavior="0" />
+      <RootComponent type="401" id="{a485e029-4ac2-48bd-97a5-456ea260cd0f}" behavior="0" />
+      <RootComponent type="62" schemaName="msgov_ExecutiveCoordination" behavior="0" />
+      <RootComponent type="80" schemaName="msgov_ExecutiveCoordination" behavior="0" />
+    </RootComponents>
+    <MissingDependencies>
+      <MissingDependency>
+        <Required type="1" schemaName="adx_inviteredemption" displayName="Invite Redemption" solution="PowerPages_RuntimeCore (1.0.2407.1)">
+          <package appName="Power Pages Core Package" version="1.1.2508.192">PowerPages_Core (1.1.2508.192)</package>
+        </Required>
+        <Dependent type="1" schemaName="adx_inviteredemption" displayName="Invite Redemption" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="adx_portalcomment" displayName="Portal Comment" solution="PowerPages_RuntimeCore (1.0.2407.1)">
+          <package appName="Power Pages Core Package" version="1.1.2508.192">PowerPages_Core (1.1.2508.192)</package>
+        </Required>
+        <Dependent type="1" schemaName="adx_portalcomment" displayName="Portal Comment" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="chat" displayName="Teams chat" solution="msdynce_ActivitiesPatch (9.0.25083.250826006)">
+          <package appName="msdynce_Activities" version="9.0.25083.250826006">msdynce_EnableUCIByDefault (9.0.25083.250826006)</package>
+        </Required>
+        <Dependent type="1" schemaName="chat" displayName="Teams chat" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_actionassignment" displayName="Action Assignment" solution="govcdm_processandtasking (1.0.2.0)" />
+        <Dependent type="1" schemaName="govcdm_actionassignment" displayName="Action Assignment" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_actionitem" displayName="Action Item" solution="govcdm_processandtasking (1.0.2.0)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Executive Action" id="{890827a3-5ccf-4540-9f60-b62dc006d9a7}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_actionitem" displayName="Action Item" solution="govcdm_processandtasking (1.0.2.0)" />
+        <Dependent type="62" schemaName="msgov_ExecutiveCoordination" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_actionitem" displayName="Action Item" solution="govcdm_processandtasking (1.0.2.0)" />
+        <Dependent type="80" schemaName="msgov_ExecutiveCoordination" displayName="Executive Coordination" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_analysis" displayName="Analysis" solution="govcdm_core (1.0.2.2)" />
+        <Dependent type="1" schemaName="govcdm_analysis" displayName="Analysis" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_analysis" displayName="Analysis" solution="govcdm_core (1.0.2.2)" />
+        <Dependent type="60" displayName="Information - Executive Coordination" parentDisplayName="Legal Authority" id="{192cf190-0f2d-f011-8c4d-001dd806d846}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_analysis" displayName="Analysis" solution="govcdm_core (1.0.2.2)" />
+        <Dependent type="60" displayName="Information - Executive Coordination" parentDisplayName="Analysis" id="{f7224180-102d-f011-8c4d-001dd806d846}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_analysis" displayName="Analysis" solution="govcdm_core (1.0.2.2)" />
+        <Dependent type="62" schemaName="msgov_ExecutiveCoordination" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_analysis" displayName="Analysis" solution="govcdm_core (1.0.2.2)" />
+        <Dependent type="80" schemaName="msgov_ExecutiveCoordination" displayName="Executive Coordination" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_collaborationspace" displayName="Collaboration Space" solution="govcdm_processandtasking (1.0.2.0)" />
+        <Dependent type="1" schemaName="govcdm_collaborationspace" displayName="Collaboration Space" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_executiveaction" displayName="Executive Action" solution="govcdm_executivecoordination (1.0.2.0)" />
+        <Dependent type="1" schemaName="govcdm_executiveaction" displayName="Executive Action" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_executiveactiontype" displayName="Executive Action Type" solution="govcdm_executivecoordination (1.0.2.0)" />
+        <Dependent type="62" schemaName="msgov_ExecutiveCoordination" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_executiveactiontype" displayName="Executive Action Type" solution="govcdm_executivecoordination (1.0.2.0)" />
+        <Dependent type="80" schemaName="msgov_ExecutiveCoordination" displayName="Executive Coordination" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_impact" displayName="Impact" solution="govcdm_core (1.0.2.2)" />
+        <Dependent type="1" schemaName="govcdm_impact" displayName="Impact" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_impact" displayName="Impact" solution="govcdm_core (1.0.2.2)" />
+        <Dependent type="60" displayName="Information - Executive Coordination" parentDisplayName="Legal Authority" id="{192cf190-0f2d-f011-8c4d-001dd806d846}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_impact" displayName="Impact" solution="govcdm_core (1.0.2.2)" />
+        <Dependent type="60" displayName="Information - Executive Coordination" parentDisplayName="Impact" id="{6613c8c1-102d-f011-8c4d-001dd806d846}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_impact" displayName="Impact" solution="govcdm_core (1.0.2.2)" />
+        <Dependent type="60" displayName="Information - Executive Coordination" parentDisplayName="Analysis" id="{f7224180-102d-f011-8c4d-001dd806d846}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_impact" displayName="Impact" solution="govcdm_core (1.0.2.2)" />
+        <Dependent type="62" schemaName="msgov_ExecutiveCoordination" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_impact" displayName="Impact" solution="govcdm_core (1.0.2.2)" />
+        <Dependent type="80" schemaName="msgov_ExecutiveCoordination" displayName="Executive Coordination" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_legalamendment" displayName="Legal Amendment" solution="govcdm_core (1.0.2.2)" />
+        <Dependent type="60" displayName="Information - Executive Coordination" parentDisplayName="Legal Authority" id="{192cf190-0f2d-f011-8c4d-001dd806d846}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_legalauthority" displayName="Legal Authority" solution="govcdm_core (1.0.2.2)" />
+        <Dependent type="1" schemaName="govcdm_legalauthority" displayName="Legal Authority" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_legalauthority" displayName="Legal Authority" solution="govcdm_core (1.0.2.2)" />
+        <Dependent type="60" displayName="Information - Executive Coordination" parentDisplayName="Legal Authority" id="{192cf190-0f2d-f011-8c4d-001dd806d846}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_legalauthority" displayName="Legal Authority" solution="govcdm_core (1.0.2.2)" />
+        <Dependent type="62" schemaName="msgov_ExecutiveCoordination" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_legalauthority" displayName="Legal Authority" solution="govcdm_core (1.0.2.2)" />
+        <Dependent type="80" schemaName="msgov_ExecutiveCoordination" displayName="Executive Coordination" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_legalcrossreference" displayName="Legal Cross-Reference" solution="govcdm_core (1.0.2.2)" />
+        <Dependent type="60" displayName="Information - Executive Coordination" parentDisplayName="Legal Authority" id="{192cf190-0f2d-f011-8c4d-001dd806d846}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_mou" displayName="MOU" solution="govcdm_executivecoordination (1.0.2.0)" />
+        <Dependent type="1" schemaName="govcdm_mou" displayName="MOU" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_mou" displayName="MOU" solution="govcdm_executivecoordination (1.0.2.0)" />
+        <Dependent type="80" schemaName="msgov_ExecutiveCoordination" displayName="Executive Coordination" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_organizationunit" displayName="Organization Unit" solution="govcdm_core (1.0.2.2)" />
+        <Dependent type="300" schemaName="msgov_legalauthorityanalyzer_6459b" displayName="Legal Authority Analyzer" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_riskitem" displayName="Risk Item" solution="govcdm_core (1.0.2.2)" />
+        <Dependent type="1" schemaName="govcdm_riskitem" displayName="Risk Item" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_riskitem" displayName="Risk Item" solution="govcdm_core (1.0.2.2)" />
+        <Dependent type="60" displayName="Information - Executive Coordination" parentDisplayName="Legal Authority" id="{192cf190-0f2d-f011-8c4d-001dd806d846}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_riskitem" displayName="Risk Item" solution="govcdm_core (1.0.2.2)" />
+        <Dependent type="60" displayName="Information - Executive Coordination" parentDisplayName="Risk Item" id="{24f0b966-112d-f011-8c4d-001dd806d846}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_riskitem" displayName="Risk Item" solution="govcdm_core (1.0.2.2)" />
+        <Dependent type="60" displayName="Information - Executive Coordination" parentDisplayName="Analysis" id="{f7224180-102d-f011-8c4d-001dd806d846}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_riskitem" displayName="Risk Item" solution="govcdm_core (1.0.2.2)" />
+        <Dependent type="62" schemaName="msgov_ExecutiveCoordination" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_riskitem" displayName="Risk Item" solution="govcdm_core (1.0.2.2)" />
+        <Dependent type="80" schemaName="msgov_ExecutiveCoordination" displayName="Executive Coordination" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aimodel" displayName="AI Model" solution="msdyn_AISolution (202507.4.22.2)">
+          <package appName="PowerAI" version="202507.4.22.2">msdyn_AISolutionAnchor (202507.4.22.2)</package>
+        </Required>
+        <Dependent type="300" schemaName="msgov_legalauthorityanalyzer_6459b" displayName="Legal Authority Analyzer" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_analysis_AssessmentPOC_contact" displayName="govcdm_analysis_AssessmentPOC_contact" parentSchemaName="contact" parentDisplayName="Person" solution="govcdm_core (1.0.2.2)" />
+        <Dependent type="60" displayName="Information - Executive Coordination" parentDisplayName="Analysis" id="{f7224180-102d-f011-8c4d-001dd806d846}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_analysis_LegalAuthority_govcdm_legalauthority" displayName="govcdm_analysis_LegalAuthority_govcdm_legalauthority" parentSchemaName="govcdm_legalauthority" parentDisplayName="Legal Authority" solution="govcdm_core (1.0.2.2)" />
+        <Dependent type="60" displayName="Information - Executive Coordination" parentDisplayName="Legal Authority" id="{192cf190-0f2d-f011-8c4d-001dd806d846}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_analysis_LegalAuthority_govcdm_legalauthority" displayName="govcdm_analysis_LegalAuthority_govcdm_legalauthority" parentSchemaName="govcdm_legalauthority" parentDisplayName="Legal Authority" solution="govcdm_core (1.0.2.2)" />
+        <Dependent type="60" displayName="Information - Executive Coordination" parentDisplayName="Analysis" id="{f7224180-102d-f011-8c4d-001dd806d846}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_analysis_OrganizationUnit_govcdm_organizationunit" displayName="govcdm_analysis_OrganizationUnit_govcdm_organizationunit" parentSchemaName="govcdm_organizationunit" parentDisplayName="Organization Unit" solution="govcdm_core (1.0.2.2)" />
+        <Dependent type="60" displayName="Information - Executive Coordination" parentDisplayName="Analysis" id="{f7224180-102d-f011-8c4d-001dd806d846}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_executiveaction_ExecutiveActionType_govcd" displayName="govcdm_executiveaction_ExecutiveActionType_govcd" parentSchemaName="govcdm_executiveactiontype" parentDisplayName="Executive Action Type" solution="govcdm_executivecoordination (1.0.2.0)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Executive Action" id="{2d59b82c-26df-ee11-904c-000d3a3ab141}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_executiveaction_ExecutiveActionType_govcd" displayName="govcdm_executiveaction_ExecutiveActionType_govcd" parentSchemaName="govcdm_executiveactiontype" parentDisplayName="Executive Action Type" solution="govcdm_executivecoordination (1.0.2.0)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Executive Action" id="{890827a3-5ccf-4540-9f60-b62dc006d9a7}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_executiveaction_ParentAction_govcdm_execu" displayName="govcdm_executiveaction_ParentAction_govcdm_execu" parentSchemaName="govcdm_executiveaction" parentDisplayName="Executive Action" solution="govcdm_executivecoordination (1.0.2.0)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Executive Action" id="{2d59b82c-26df-ee11-904c-000d3a3ab141}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_executiveaction_ParentAction_govcdm_execu" displayName="govcdm_executiveaction_ParentAction_govcdm_execu" parentSchemaName="govcdm_executiveaction" parentDisplayName="Executive Action" solution="govcdm_executivecoordination (1.0.2.0)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Executive Action" id="{890827a3-5ccf-4540-9f60-b62dc006d9a7}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_executiveaction_ReceivedFromOrganization_" displayName="govcdm_executiveaction_ReceivedFromOrganization_" parentSchemaName="account" parentDisplayName="Account" solution="govcdm_executivecoordination (1.0.2.0)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Executive Action" id="{2d59b82c-26df-ee11-904c-000d3a3ab141}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_executiveaction_ReceivedFromOrganization_" displayName="govcdm_executiveaction_ReceivedFromOrganization_" parentSchemaName="account" parentDisplayName="Account" solution="govcdm_executivecoordination (1.0.2.0)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Executive Action" id="{890827a3-5ccf-4540-9f60-b62dc006d9a7}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_executiveaction_ReceivedFromOU_govcdm_org" displayName="govcdm_executiveaction_ReceivedFromOU_govcdm_org" parentSchemaName="govcdm_organizationunit" parentDisplayName="Organization Unit" solution="govcdm_executivecoordination (1.0.2.0)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Executive Action" id="{2d59b82c-26df-ee11-904c-000d3a3ab141}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_executiveaction_ReceivedFromOU_govcdm_org" displayName="govcdm_executiveaction_ReceivedFromOU_govcdm_org" parentSchemaName="govcdm_organizationunit" parentDisplayName="Organization Unit" solution="govcdm_executivecoordination (1.0.2.0)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Executive Action" id="{890827a3-5ccf-4540-9f60-b62dc006d9a7}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_executiveaction_ReceivedFromPerson_contac" displayName="govcdm_executiveaction_ReceivedFromPerson_contac" parentSchemaName="contact" parentDisplayName="Person" solution="govcdm_executivecoordination (1.0.2.0)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Executive Action" id="{2d59b82c-26df-ee11-904c-000d3a3ab141}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_executiveaction_ReceivedFromPerson_contac" displayName="govcdm_executiveaction_ReceivedFromPerson_contac" parentSchemaName="contact" parentDisplayName="Person" solution="govcdm_executivecoordination (1.0.2.0)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Executive Action" id="{890827a3-5ccf-4540-9f60-b62dc006d9a7}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_executiveaction_SourceAnalysis_govcdm_analysis" displayName="govcdm_executiveaction_SourceAnalysis_govcdm_analysis" parentSchemaName="govcdm_analysis" parentDisplayName="Analysis" solution="govcdm_executivecoordination (1.0.2.0)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Executive Action" id="{2d59b82c-26df-ee11-904c-000d3a3ab141}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_executiveaction_SourceAnalysis_govcdm_analysis" displayName="govcdm_executiveaction_SourceAnalysis_govcdm_analysis" parentSchemaName="govcdm_analysis" parentDisplayName="Analysis" solution="govcdm_executivecoordination (1.0.2.0)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Executive Action" id="{890827a3-5ccf-4540-9f60-b62dc006d9a7}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_executiveaction_SourceAnalysis_govcdm_analysis" displayName="govcdm_executiveaction_SourceAnalysis_govcdm_analysis" parentSchemaName="govcdm_analysis" parentDisplayName="Analysis" solution="govcdm_executivecoordination (1.0.2.0)" />
+        <Dependent type="60" displayName="Information - Executive Coordination" parentDisplayName="Analysis" id="{f7224180-102d-f011-8c4d-001dd806d846}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_executiveaction_SourceImpact_govcdm_impact" displayName="govcdm_executiveaction_SourceImpact_govcdm_impact" parentSchemaName="govcdm_impact" parentDisplayName="Impact" solution="govcdm_executivecoordination (1.0.2.0)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Executive Action" id="{2d59b82c-26df-ee11-904c-000d3a3ab141}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_executiveaction_SourceImpact_govcdm_impact" displayName="govcdm_executiveaction_SourceImpact_govcdm_impact" parentSchemaName="govcdm_impact" parentDisplayName="Impact" solution="govcdm_executivecoordination (1.0.2.0)" />
+        <Dependent type="60" displayName="Information - Executive Coordination" parentDisplayName="Impact" id="{6613c8c1-102d-f011-8c4d-001dd806d846}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_executiveaction_SourceImpact_govcdm_impact" displayName="govcdm_executiveaction_SourceImpact_govcdm_impact" parentSchemaName="govcdm_impact" parentDisplayName="Impact" solution="govcdm_executivecoordination (1.0.2.0)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Executive Action" id="{890827a3-5ccf-4540-9f60-b62dc006d9a7}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_executiveaction_SourceLegalAuthority_govcdm_legalauthority" displayName="govcdm_executiveaction_SourceLegalAuthority_govcdm_legalauthority" parentSchemaName="govcdm_legalauthority" parentDisplayName="Legal Authority" solution="govcdm_executivecoordination (1.0.2.0)" />
+        <Dependent type="60" displayName="Information - Executive Coordination" parentDisplayName="Legal Authority" id="{192cf190-0f2d-f011-8c4d-001dd806d846}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_executiveaction_SourceLegalAuthority_govcdm_legalauthority" displayName="govcdm_executiveaction_SourceLegalAuthority_govcdm_legalauthority" parentSchemaName="govcdm_legalauthority" parentDisplayName="Legal Authority" solution="govcdm_executivecoordination (1.0.2.0)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Executive Action" id="{2d59b82c-26df-ee11-904c-000d3a3ab141}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_executiveaction_SourceLegalAuthority_govcdm_legalauthority" displayName="govcdm_executiveaction_SourceLegalAuthority_govcdm_legalauthority" parentSchemaName="govcdm_legalauthority" parentDisplayName="Legal Authority" solution="govcdm_executivecoordination (1.0.2.0)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Executive Action" id="{890827a3-5ccf-4540-9f60-b62dc006d9a7}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_executiveaction_SourceRiskItem_govcdm_riskitem" displayName="govcdm_executiveaction_SourceRiskItem_govcdm_riskitem" parentSchemaName="govcdm_riskitem" parentDisplayName="Risk Item" solution="govcdm_executivecoordination (1.0.2.0)" />
+        <Dependent type="60" displayName="Information - Executive Coordination" parentDisplayName="Risk Item" id="{24f0b966-112d-f011-8c4d-001dd806d846}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_executiveaction_SourceRiskItem_govcdm_riskitem" displayName="govcdm_executiveaction_SourceRiskItem_govcdm_riskitem" parentSchemaName="govcdm_riskitem" parentDisplayName="Risk Item" solution="govcdm_executivecoordination (1.0.2.0)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Executive Action" id="{2d59b82c-26df-ee11-904c-000d3a3ab141}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_executiveaction_SourceRiskItem_govcdm_riskitem" displayName="govcdm_executiveaction_SourceRiskItem_govcdm_riskitem" parentSchemaName="govcdm_riskitem" parentDisplayName="Risk Item" solution="govcdm_executivecoordination (1.0.2.0)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Executive Action" id="{890827a3-5ccf-4540-9f60-b62dc006d9a7}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_impact_Analysis_govcdm_analysis" displayName="govcdm_impact_Analysis_govcdm_analysis" parentSchemaName="govcdm_analysis" parentDisplayName="Analysis" solution="govcdm_core (1.0.2.2)" />
+        <Dependent type="60" displayName="Information - Executive Coordination" parentDisplayName="Impact" id="{6613c8c1-102d-f011-8c4d-001dd806d846}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_impact_Analysis_govcdm_analysis" displayName="govcdm_impact_Analysis_govcdm_analysis" parentSchemaName="govcdm_analysis" parentDisplayName="Analysis" solution="govcdm_core (1.0.2.2)" />
+        <Dependent type="60" displayName="Information - Executive Coordination" parentDisplayName="Analysis" id="{f7224180-102d-f011-8c4d-001dd806d846}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_impact_LegalAuthority_govcdm_legalauthority" displayName="govcdm_impact_LegalAuthority_govcdm_legalauthority" parentSchemaName="govcdm_legalauthority" parentDisplayName="Legal Authority" solution="govcdm_core (1.0.2.2)" />
+        <Dependent type="60" displayName="Information - Executive Coordination" parentDisplayName="Legal Authority" id="{192cf190-0f2d-f011-8c4d-001dd806d846}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_impact_LegalAuthority_govcdm_legalauthority" displayName="govcdm_impact_LegalAuthority_govcdm_legalauthority" parentSchemaName="govcdm_legalauthority" parentDisplayName="Legal Authority" solution="govcdm_core (1.0.2.2)" />
+        <Dependent type="60" displayName="Information - Executive Coordination" parentDisplayName="Impact" id="{6613c8c1-102d-f011-8c4d-001dd806d846}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_impact_OrganizationUnit_govcdm_organizationunit" displayName="govcdm_impact_OrganizationUnit_govcdm_organizationunit" parentSchemaName="govcdm_organizationunit" parentDisplayName="Organization Unit" solution="govcdm_core (1.0.2.2)" />
+        <Dependent type="60" displayName="Information - Executive Coordination" parentDisplayName="Impact" id="{6613c8c1-102d-f011-8c4d-001dd806d846}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_impact_ParentImpact_govcdm_impact" displayName="govcdm_impact_ParentImpact_govcdm_impact" parentSchemaName="govcdm_impact" parentDisplayName="Impact" solution="govcdm_core (1.0.2.2)" />
+        <Dependent type="60" displayName="Information - Executive Coordination" parentDisplayName="Impact" id="{6613c8c1-102d-f011-8c4d-001dd806d846}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_legalamendment_ParentLegalAuthority_govcdm_legalauthority" displayName="govcdm_legalamendment_ParentLegalAuthority_govcdm_legalauthority" parentSchemaName="govcdm_legalauthority" parentDisplayName="Legal Authority" solution="govcdm_core (1.0.2.2)" />
+        <Dependent type="60" displayName="Information - Executive Coordination" parentDisplayName="Legal Authority" id="{192cf190-0f2d-f011-8c4d-001dd806d846}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_legalauthority_Document_govcdm_document" displayName="govcdm_legalauthority_Document_govcdm_document" parentSchemaName="govcdm_document" parentDisplayName="Document" solution="govcdm_core (1.0.2.2)" />
+        <Dependent type="60" displayName="Information - Executive Coordination" parentDisplayName="Legal Authority" id="{192cf190-0f2d-f011-8c4d-001dd806d846}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_legalauthority_IssuingBody_account" displayName="govcdm_legalauthority_IssuingBody_account" parentSchemaName="account" parentDisplayName="Account" solution="govcdm_core (1.0.2.2)" />
+        <Dependent type="60" displayName="Information - Executive Coordination" parentDisplayName="Legal Authority" id="{192cf190-0f2d-f011-8c4d-001dd806d846}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_legalcrossreference_FromLegalAuthority_govcdm_legalauthority" displayName="govcdm_legalcrossreference_FromLegalAuthority_govcdm_legalauthority" parentSchemaName="govcdm_legalauthority" parentDisplayName="Legal Authority" solution="govcdm_core (1.0.2.2)" />
+        <Dependent type="60" displayName="Information - Executive Coordination" parentDisplayName="Legal Authority" id="{192cf190-0f2d-f011-8c4d-001dd806d846}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_legalcrossreference_ToLegalAuthority_govcdm_legalauthority" displayName="govcdm_legalcrossreference_ToLegalAuthority_govcdm_legalauthority" parentSchemaName="govcdm_legalauthority" parentDisplayName="Legal Authority" solution="govcdm_core (1.0.2.2)" />
+        <Dependent type="60" displayName="Information - Executive Coordination" parentDisplayName="Legal Authority" id="{192cf190-0f2d-f011-8c4d-001dd806d846}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_riskitem_Analysis_govcdm_analysis" displayName="govcdm_riskitem_Analysis_govcdm_analysis" parentSchemaName="govcdm_analysis" parentDisplayName="Analysis" solution="govcdm_core (1.0.2.2)" />
+        <Dependent type="60" displayName="Information - Executive Coordination" parentDisplayName="Risk Item" id="{24f0b966-112d-f011-8c4d-001dd806d846}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_riskitem_Analysis_govcdm_analysis" displayName="govcdm_riskitem_Analysis_govcdm_analysis" parentSchemaName="govcdm_analysis" parentDisplayName="Analysis" solution="govcdm_core (1.0.2.2)" />
+        <Dependent type="60" displayName="Information - Executive Coordination" parentDisplayName="Analysis" id="{f7224180-102d-f011-8c4d-001dd806d846}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_riskitem_LegalAuthority_govcdm_legalauthority" displayName="govcdm_riskitem_LegalAuthority_govcdm_legalauthority" parentSchemaName="govcdm_legalauthority" parentDisplayName="Legal Authority" solution="govcdm_core (1.0.2.2)" />
+        <Dependent type="60" displayName="Information - Executive Coordination" parentDisplayName="Legal Authority" id="{192cf190-0f2d-f011-8c4d-001dd806d846}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_riskitem_LegalAuthority_govcdm_legalauthority" displayName="govcdm_riskitem_LegalAuthority_govcdm_legalauthority" parentSchemaName="govcdm_legalauthority" parentDisplayName="Legal Authority" solution="govcdm_core (1.0.2.2)" />
+        <Dependent type="60" displayName="Information - Executive Coordination" parentDisplayName="Risk Item" id="{24f0b966-112d-f011-8c4d-001dd806d846}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_riskitem_OrganizationUnit_govcdm_organizationunit" displayName="govcdm_riskitem_OrganizationUnit_govcdm_organizationunit" parentSchemaName="govcdm_organizationunit" parentDisplayName="Organization Unit" solution="govcdm_core (1.0.2.2)" />
+        <Dependent type="60" displayName="Information - Executive Coordination" parentDisplayName="Risk Item" id="{24f0b966-112d-f011-8c4d-001dd806d846}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_riskitem_ParentRiskItem_govcdm_riskitem" displayName="govcdm_riskitem_ParentRiskItem_govcdm_riskitem" parentSchemaName="govcdm_riskitem" parentDisplayName="Risk Item" solution="govcdm_core (1.0.2.2)" />
+        <Dependent type="60" displayName="Information - Executive Coordination" parentDisplayName="Risk Item" id="{24f0b966-112d-f011-8c4d-001dd806d846}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_actionnumber" displayName="Action Number" parentSchemaName="govcdm_executiveaction" parentDisplayName="Executive Action" solution="govcdm_executivecoordination (1.0.2.0)" />
+        <Dependent type="26" schemaName="Executive Actions" displayName="Executive Actions" parentSchemaName="govcdm_executiveaction" parentDisplayName="Executive Action" id="{af69dec9-0edf-ee11-904c-000d3a3ab141}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_actionnumber" displayName="Action Number" parentSchemaName="govcdm_executiveaction" parentDisplayName="Executive Action" solution="govcdm_executivecoordination (1.0.2.0)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Executive Action" id="{2d59b82c-26df-ee11-904c-000d3a3ab141}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_actionnumber" displayName="Action Number" parentSchemaName="govcdm_executiveaction" parentDisplayName="Executive Action" solution="govcdm_executivecoordination (1.0.2.0)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Executive Action" id="{890827a3-5ccf-4540-9f60-b62dc006d9a7}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_actionstatus" displayName="Action Status" parentSchemaName="govcdm_analysis" parentDisplayName="Analysis" solution="govcdm_core (1.0.2.2)" />
+        <Dependent type="60" displayName="Information - Executive Coordination" parentDisplayName="Analysis" id="{f7224180-102d-f011-8c4d-001dd806d846}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_actionstatus" displayName="Action Status" parentSchemaName="govcdm_executiveaction" parentDisplayName="Executive Action" solution="govcdm_executivecoordination (1.0.2.0)" />
+        <Dependent type="26" schemaName="Executive Actions" displayName="Executive Actions" parentSchemaName="govcdm_executiveaction" parentDisplayName="Executive Action" id="{af69dec9-0edf-ee11-904c-000d3a3ab141}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_actionstatus" displayName="Action Status" parentSchemaName="govcdm_executiveaction" parentDisplayName="Executive Action" solution="govcdm_executivecoordination (1.0.2.0)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Executive Action" id="{890827a3-5ccf-4540-9f60-b62dc006d9a7}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_actionstatus" displayName="Action Status" parentSchemaName="govcdm_impact" parentDisplayName="Impact" solution="govcdm_core (1.0.2.2)" />
+        <Dependent type="60" displayName="Information - Executive Coordination" parentDisplayName="Impact" id="{6613c8c1-102d-f011-8c4d-001dd806d846}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_actionstatus" displayName="Action Status" parentSchemaName="govcdm_riskitem" parentDisplayName="Risk Item" solution="govcdm_core (1.0.2.2)" />
+        <Dependent type="60" displayName="Information - Executive Coordination" parentDisplayName="Risk Item" id="{24f0b966-112d-f011-8c4d-001dd806d846}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_analysis" displayName="Analysis" parentSchemaName="govcdm_impact" parentDisplayName="Impact" solution="govcdm_core (1.0.2.2)" />
+        <Dependent type="60" displayName="Information - Executive Coordination" parentDisplayName="Impact" id="{6613c8c1-102d-f011-8c4d-001dd806d846}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_analysis" displayName="Analysis" parentSchemaName="govcdm_riskitem" parentDisplayName="Risk Item" solution="govcdm_core (1.0.2.2)" />
+        <Dependent type="60" displayName="Information - Executive Coordination" parentDisplayName="Risk Item" id="{24f0b966-112d-f011-8c4d-001dd806d846}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_analysisfromdate" displayName="Analysis From Date" parentSchemaName="govcdm_analysis" parentDisplayName="Analysis" solution="govcdm_core (1.0.2.2)" />
+        <Dependent type="60" displayName="Information - Executive Coordination" parentDisplayName="Analysis" id="{f7224180-102d-f011-8c4d-001dd806d846}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_analysistodate" displayName="Analysis To Date" parentSchemaName="govcdm_analysis" parentDisplayName="Analysis" solution="govcdm_core (1.0.2.2)" />
+        <Dependent type="60" displayName="Information - Executive Coordination" parentDisplayName="Analysis" id="{f7224180-102d-f011-8c4d-001dd806d846}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_assessmentpoc" displayName="Assessment POC" parentSchemaName="govcdm_analysis" parentDisplayName="Analysis" solution="govcdm_core (1.0.2.2)" />
+        <Dependent type="60" displayName="Information - Executive Coordination" parentDisplayName="Analysis" id="{f7224180-102d-f011-8c4d-001dd806d846}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_citation" displayName="Citation" parentSchemaName="govcdm_legalauthority" parentDisplayName="Legal Authority" solution="govcdm_core (1.0.2.2)" />
+        <Dependent type="60" displayName="Information - Executive Coordination" parentDisplayName="Legal Authority" id="{192cf190-0f2d-f011-8c4d-001dd806d846}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_description" displayName="Description" parentSchemaName="govcdm_executiveaction" parentDisplayName="Executive Action" solution="govcdm_executivecoordination (1.0.2.0)" />
+        <Dependent type="26" schemaName="Executive Actions" displayName="Executive Actions" parentSchemaName="govcdm_executiveaction" parentDisplayName="Executive Action" id="{af69dec9-0edf-ee11-904c-000d3a3ab141}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_description" displayName="Description" parentSchemaName="govcdm_executiveaction" parentDisplayName="Executive Action" solution="govcdm_executivecoordination (1.0.2.0)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Executive Action" id="{2d59b82c-26df-ee11-904c-000d3a3ab141}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_description" displayName="Description" parentSchemaName="govcdm_executiveaction" parentDisplayName="Executive Action" solution="govcdm_executivecoordination (1.0.2.0)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Executive Action" id="{890827a3-5ccf-4540-9f60-b62dc006d9a7}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_description" displayName="Description" parentSchemaName="govcdm_impact" parentDisplayName="Impact" solution="govcdm_core (1.0.2.2)" />
+        <Dependent type="60" displayName="Information - Executive Coordination" parentDisplayName="Impact" id="{6613c8c1-102d-f011-8c4d-001dd806d846}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_description" displayName="Description" parentSchemaName="govcdm_riskitem" parentDisplayName="Risk Item" solution="govcdm_core (1.0.2.2)" />
+        <Dependent type="60" displayName="Information - Executive Coordination" parentDisplayName="Risk Item" id="{24f0b966-112d-f011-8c4d-001dd806d846}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_details" displayName="Details" parentSchemaName="govcdm_analysis" parentDisplayName="Analysis" solution="govcdm_core (1.0.2.2)" />
+        <Dependent type="60" displayName="Information - Executive Coordination" parentDisplayName="Analysis" id="{f7224180-102d-f011-8c4d-001dd806d846}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_dispositionnotes" displayName="Disposition Notes" parentSchemaName="govcdm_legalauthority" parentDisplayName="Legal Authority" solution="govcdm_core (1.0.2.2)" />
+        <Dependent type="60" displayName="Information - Executive Coordination" parentDisplayName="Legal Authority" id="{192cf190-0f2d-f011-8c4d-001dd806d846}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_document" displayName="Document" parentSchemaName="govcdm_legalauthority" parentDisplayName="Legal Authority" solution="govcdm_core (1.0.2.2)" />
+        <Dependent type="60" displayName="Information - Executive Coordination" parentDisplayName="Legal Authority" id="{192cf190-0f2d-f011-8c4d-001dd806d846}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_documentnumber" displayName="Document Number" parentSchemaName="govcdm_legalauthority" parentDisplayName="Legal Authority" solution="govcdm_core (1.0.2.2)" />
+        <Dependent type="60" displayName="Information - Executive Coordination" parentDisplayName="Legal Authority" id="{192cf190-0f2d-f011-8c4d-001dd806d846}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_duedatetime" displayName="Due Date Time" parentSchemaName="govcdm_executiveaction" parentDisplayName="Executive Action" solution="govcdm_executivecoordination (1.0.2.0)" />
+        <Dependent type="26" schemaName="Executive Actions" displayName="Executive Actions" parentSchemaName="govcdm_executiveaction" parentDisplayName="Executive Action" id="{af69dec9-0edf-ee11-904c-000d3a3ab141}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_duedatetime" displayName="Due Date Time" parentSchemaName="govcdm_executiveaction" parentDisplayName="Executive Action" solution="govcdm_executivecoordination (1.0.2.0)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Executive Action" id="{2d59b82c-26df-ee11-904c-000d3a3ab141}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_duedatetime" displayName="Due Date Time" parentSchemaName="govcdm_executiveaction" parentDisplayName="Executive Action" solution="govcdm_executivecoordination (1.0.2.0)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Executive Action" id="{890827a3-5ccf-4540-9f60-b62dc006d9a7}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_effectivedate" displayName="Effective Date" parentSchemaName="govcdm_legalauthority" parentDisplayName="Legal Authority" solution="govcdm_core (1.0.2.2)" />
+        <Dependent type="60" displayName="Information - Executive Coordination" parentDisplayName="Legal Authority" id="{192cf190-0f2d-f011-8c4d-001dd806d846}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_evidenceofmitigation" displayName="Evidence of Mitigation" parentSchemaName="govcdm_impact" parentDisplayName="Impact" solution="govcdm_core (1.0.2.2)" />
+        <Dependent type="60" displayName="Information - Executive Coordination" parentDisplayName="Impact" id="{6613c8c1-102d-f011-8c4d-001dd806d846}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_evidenceofmitigation" displayName="Evidence of Mitigation" parentSchemaName="govcdm_riskitem" parentDisplayName="Risk Item" solution="govcdm_core (1.0.2.2)" />
+        <Dependent type="60" displayName="Information - Executive Coordination" parentDisplayName="Risk Item" id="{24f0b966-112d-f011-8c4d-001dd806d846}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_executiveactioncategory" displayName="Executive Action Category" parentSchemaName="govcdm_executiveaction" parentDisplayName="Executive Action" solution="govcdm_executivecoordination (1.0.2.0)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Executive Action" id="{2d59b82c-26df-ee11-904c-000d3a3ab141}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_executiveactioncategory" displayName="Executive Action Category" parentSchemaName="govcdm_executiveaction" parentDisplayName="Executive Action" solution="govcdm_executivecoordination (1.0.2.0)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Executive Action" id="{890827a3-5ccf-4540-9f60-b62dc006d9a7}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_executiveactionid" displayName="Executive Action" parentSchemaName="govcdm_executiveaction" parentDisplayName="Executive Action" solution="govcdm_executivecoordination (1.0.2.0)" />
+        <Dependent type="26" schemaName="Executive Actions" displayName="Executive Actions" parentSchemaName="govcdm_executiveaction" parentDisplayName="Executive Action" id="{af69dec9-0edf-ee11-904c-000d3a3ab141}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_executiveactiontype" displayName="Executive Action Type" parentSchemaName="govcdm_executiveaction" parentDisplayName="Executive Action" solution="govcdm_executivecoordination (1.0.2.0)" />
+        <Dependent type="26" schemaName="Executive Actions" displayName="Executive Actions" parentSchemaName="govcdm_executiveaction" parentDisplayName="Executive Action" id="{af69dec9-0edf-ee11-904c-000d3a3ab141}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_executiveactiontype" displayName="Executive Action Type" parentSchemaName="govcdm_executiveaction" parentDisplayName="Executive Action" solution="govcdm_executivecoordination (1.0.2.0)" />
+        <Dependent type="59" schemaName="By Executive Action Type" displayName="By Executive Action Type" parentSchemaName="govcdm_executiveaction" parentDisplayName="Executive Action" id="{f62d8298-11df-ee11-904c-000d3a3ab141}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_executiveactiontype" displayName="Executive Action Type" parentSchemaName="govcdm_executiveaction" parentDisplayName="Executive Action" solution="govcdm_executivecoordination (1.0.2.0)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Executive Action" id="{2d59b82c-26df-ee11-904c-000d3a3ab141}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_executiveactiontype" displayName="Executive Action Type" parentSchemaName="govcdm_executiveaction" parentDisplayName="Executive Action" solution="govcdm_executivecoordination (1.0.2.0)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Executive Action" id="{890827a3-5ccf-4540-9f60-b62dc006d9a7}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_executiveordernumber" displayName="Executive Order Number" parentSchemaName="govcdm_legalauthority" parentDisplayName="Legal Authority" solution="govcdm_core (1.0.2.2)" />
+        <Dependent type="60" displayName="Information - Executive Coordination" parentDisplayName="Legal Authority" id="{192cf190-0f2d-f011-8c4d-001dd806d846}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_expirationdate" displayName="Expiration Date" parentSchemaName="govcdm_legalauthority" parentDisplayName="Legal Authority" solution="govcdm_core (1.0.2.2)" />
+        <Dependent type="60" displayName="Information - Executive Coordination" parentDisplayName="Legal Authority" id="{192cf190-0f2d-f011-8c4d-001dd806d846}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_fulltexturl" displayName="Full Text URL" parentSchemaName="govcdm_legalauthority" parentDisplayName="Legal Authority" solution="govcdm_core (1.0.2.2)" />
+        <Dependent type="60" displayName="Information - Executive Coordination" parentDisplayName="Legal Authority" id="{192cf190-0f2d-f011-8c4d-001dd806d846}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_generalcategory" displayName="General Category" parentSchemaName="govcdm_impact" parentDisplayName="Impact" solution="govcdm_core (1.0.2.2)" />
+        <Dependent type="60" displayName="Information - Executive Coordination" parentDisplayName="Impact" id="{6613c8c1-102d-f011-8c4d-001dd806d846}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_identificationdate" displayName="Identification Date" parentSchemaName="govcdm_impact" parentDisplayName="Impact" solution="govcdm_core (1.0.2.2)" />
+        <Dependent type="60" displayName="Information - Executive Coordination" parentDisplayName="Impact" id="{6613c8c1-102d-f011-8c4d-001dd806d846}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_identificationdate" displayName="Identification Date" parentSchemaName="govcdm_riskitem" parentDisplayName="Risk Item" solution="govcdm_core (1.0.2.2)" />
+        <Dependent type="60" displayName="Information - Executive Coordination" parentDisplayName="Risk Item" id="{24f0b966-112d-f011-8c4d-001dd806d846}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_impactlevel" displayName="Impact Level" parentSchemaName="govcdm_impact" parentDisplayName="Impact" solution="govcdm_core (1.0.2.2)" />
+        <Dependent type="60" displayName="Information - Executive Coordination" parentDisplayName="Impact" id="{6613c8c1-102d-f011-8c4d-001dd806d846}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_impactlikelihood" displayName="Impact Likelihood" parentSchemaName="govcdm_impact" parentDisplayName="Impact" solution="govcdm_core (1.0.2.2)" />
+        <Dependent type="60" displayName="Information - Executive Coordination" parentDisplayName="Impact" id="{6613c8c1-102d-f011-8c4d-001dd806d846}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_impactrelevance" displayName="Impact Relevance" parentSchemaName="govcdm_impact" parentDisplayName="Impact" solution="govcdm_core (1.0.2.2)" />
+        <Dependent type="60" displayName="Information - Executive Coordination" parentDisplayName="Impact" id="{6613c8c1-102d-f011-8c4d-001dd806d846}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_issuingbody" displayName="Issuing Body" parentSchemaName="govcdm_legalauthority" parentDisplayName="Legal Authority" solution="govcdm_core (1.0.2.2)" />
+        <Dependent type="60" displayName="Information - Executive Coordination" parentDisplayName="Legal Authority" id="{192cf190-0f2d-f011-8c4d-001dd806d846}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_jurisdictionlevel" displayName="Jurisdiction Level" parentSchemaName="govcdm_legalauthority" parentDisplayName="Legal Authority" solution="govcdm_core (1.0.2.2)" />
+        <Dependent type="60" displayName="Information - Executive Coordination" parentDisplayName="Legal Authority" id="{192cf190-0f2d-f011-8c4d-001dd806d846}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_legalauthority" displayName="Legal Authority" parentSchemaName="govcdm_analysis" parentDisplayName="Analysis" solution="govcdm_core (1.0.2.2)" />
+        <Dependent type="60" displayName="Information - Executive Coordination" parentDisplayName="Analysis" id="{f7224180-102d-f011-8c4d-001dd806d846}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_legalauthority" displayName="Legal Authority" parentSchemaName="govcdm_impact" parentDisplayName="Impact" solution="govcdm_core (1.0.2.2)" />
+        <Dependent type="60" displayName="Information - Executive Coordination" parentDisplayName="Impact" id="{6613c8c1-102d-f011-8c4d-001dd806d846}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_legalauthority" displayName="Legal Authority" parentSchemaName="govcdm_riskitem" parentDisplayName="Risk Item" solution="govcdm_core (1.0.2.2)" />
+        <Dependent type="60" displayName="Information - Executive Coordination" parentDisplayName="Risk Item" id="{24f0b966-112d-f011-8c4d-001dd806d846}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_legalauthoritystatus" displayName="Legal Authority Status" parentSchemaName="govcdm_legalauthority" parentDisplayName="Legal Authority" solution="govcdm_core (1.0.2.2)" />
+        <Dependent type="60" displayName="Information - Executive Coordination" parentDisplayName="Legal Authority" id="{192cf190-0f2d-f011-8c4d-001dd806d846}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_legalauthoritytype" displayName="Legal Authority Type" parentSchemaName="govcdm_legalauthority" parentDisplayName="Legal Authority" solution="govcdm_core (1.0.2.2)" />
+        <Dependent type="60" displayName="Information - Executive Coordination" parentDisplayName="Legal Authority" id="{192cf190-0f2d-f011-8c4d-001dd806d846}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_methodofreceipt" displayName="Method of Receipt" parentSchemaName="govcdm_executiveaction" parentDisplayName="Executive Action" solution="govcdm_executivecoordination (1.0.2.0)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Executive Action" id="{2d59b82c-26df-ee11-904c-000d3a3ab141}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_methodofreceipt" displayName="Method of Receipt" parentSchemaName="govcdm_executiveaction" parentDisplayName="Executive Action" solution="govcdm_executivecoordination (1.0.2.0)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Executive Action" id="{890827a3-5ccf-4540-9f60-b62dc006d9a7}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_mitigationplan" displayName="Mitigation Plan" parentSchemaName="govcdm_impact" parentDisplayName="Impact" solution="govcdm_core (1.0.2.2)" />
+        <Dependent type="60" displayName="Information - Executive Coordination" parentDisplayName="Impact" id="{6613c8c1-102d-f011-8c4d-001dd806d846}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_mitigationplan" displayName="Mitigation Plan" parentSchemaName="govcdm_riskitem" parentDisplayName="Risk Item" solution="govcdm_core (1.0.2.2)" />
+        <Dependent type="60" displayName="Information - Executive Coordination" parentDisplayName="Risk Item" id="{24f0b966-112d-f011-8c4d-001dd806d846}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_analysis" parentDisplayName="Analysis" solution="govcdm_core (1.0.2.2)" />
+        <Dependent type="60" displayName="Information - Executive Coordination" parentDisplayName="Analysis" id="{f7224180-102d-f011-8c4d-001dd806d846}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_executiveaction" parentDisplayName="Executive Action" solution="govcdm_executivecoordination (1.0.2.0)" />
+        <Dependent type="26" schemaName="Executive Actions" displayName="Executive Actions" parentSchemaName="govcdm_executiveaction" parentDisplayName="Executive Action" id="{af69dec9-0edf-ee11-904c-000d3a3ab141}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_executiveaction" parentDisplayName="Executive Action" solution="govcdm_executivecoordination (1.0.2.0)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Executive Action" id="{2d59b82c-26df-ee11-904c-000d3a3ab141}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_executiveaction" parentDisplayName="Executive Action" solution="govcdm_executivecoordination (1.0.2.0)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Executive Action" id="{890827a3-5ccf-4540-9f60-b62dc006d9a7}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_impact" parentDisplayName="Impact" solution="govcdm_core (1.0.2.2)" />
+        <Dependent type="60" displayName="Information - Executive Coordination" parentDisplayName="Impact" id="{6613c8c1-102d-f011-8c4d-001dd806d846}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_legalauthority" parentDisplayName="Legal Authority" solution="govcdm_core (1.0.2.2)" />
+        <Dependent type="60" displayName="Information - Executive Coordination" parentDisplayName="Legal Authority" id="{192cf190-0f2d-f011-8c4d-001dd806d846}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_riskitem" parentDisplayName="Risk Item" solution="govcdm_core (1.0.2.2)" />
+        <Dependent type="60" displayName="Information - Executive Coordination" parentDisplayName="Risk Item" id="{24f0b966-112d-f011-8c4d-001dd806d846}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_organizationunit" displayName="Organization Unit" parentSchemaName="govcdm_analysis" parentDisplayName="Analysis" solution="govcdm_core (1.0.2.2)" />
+        <Dependent type="60" displayName="Information - Executive Coordination" parentDisplayName="Analysis" id="{f7224180-102d-f011-8c4d-001dd806d846}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_organizationunit" displayName="Organization Unit" parentSchemaName="govcdm_impact" parentDisplayName="Impact" solution="govcdm_core (1.0.2.2)" />
+        <Dependent type="60" displayName="Information - Executive Coordination" parentDisplayName="Impact" id="{6613c8c1-102d-f011-8c4d-001dd806d846}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_organizationunit" displayName="Organization Unit" parentSchemaName="govcdm_riskitem" parentDisplayName="Risk Item" solution="govcdm_core (1.0.2.2)" />
+        <Dependent type="60" displayName="Information - Executive Coordination" parentDisplayName="Risk Item" id="{24f0b966-112d-f011-8c4d-001dd806d846}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_outcomesummary" displayName="Outcome Summary" parentSchemaName="govcdm_executiveaction" parentDisplayName="Executive Action" solution="govcdm_executivecoordination (1.0.2.0)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Executive Action" id="{890827a3-5ccf-4540-9f60-b62dc006d9a7}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_parentaction" displayName="Parent Action" parentSchemaName="govcdm_executiveaction" parentDisplayName="Executive Action" solution="govcdm_executivecoordination (1.0.2.0)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Executive Action" id="{2d59b82c-26df-ee11-904c-000d3a3ab141}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_parentaction" displayName="Parent Action" parentSchemaName="govcdm_executiveaction" parentDisplayName="Executive Action" solution="govcdm_executivecoordination (1.0.2.0)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Executive Action" id="{890827a3-5ccf-4540-9f60-b62dc006d9a7}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_parentactionitem" displayName="Parent Action Item" parentSchemaName="govcdm_actionitem" parentDisplayName="Action Item" solution="govcdm_processandtasking (1.0.2.0)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Executive Action" id="{890827a3-5ccf-4540-9f60-b62dc006d9a7}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_parentimpact" displayName="Parent Impact" parentSchemaName="govcdm_impact" parentDisplayName="Impact" solution="govcdm_core (1.0.2.2)" />
+        <Dependent type="60" displayName="Information - Executive Coordination" parentDisplayName="Impact" id="{6613c8c1-102d-f011-8c4d-001dd806d846}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_parentriskitem" displayName="Parent Risk Item" parentSchemaName="govcdm_riskitem" parentDisplayName="Risk Item" solution="govcdm_core (1.0.2.2)" />
+        <Dependent type="60" displayName="Information - Executive Coordination" parentDisplayName="Risk Item" id="{24f0b966-112d-f011-8c4d-001dd806d846}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_priority" displayName="Priority" parentSchemaName="govcdm_executiveaction" parentDisplayName="Executive Action" solution="govcdm_executivecoordination (1.0.2.0)" />
+        <Dependent type="26" schemaName="Executive Actions" displayName="Executive Actions" parentSchemaName="govcdm_executiveaction" parentDisplayName="Executive Action" id="{af69dec9-0edf-ee11-904c-000d3a3ab141}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_priority" displayName="Priority" parentSchemaName="govcdm_executiveaction" parentDisplayName="Executive Action" solution="govcdm_executivecoordination (1.0.2.0)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Executive Action" id="{2d59b82c-26df-ee11-904c-000d3a3ab141}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_priority" displayName="Priority" parentSchemaName="govcdm_executiveaction" parentDisplayName="Executive Action" solution="govcdm_executivecoordination (1.0.2.0)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Executive Action" id="{890827a3-5ccf-4540-9f60-b62dc006d9a7}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_publicationdate" displayName="Publication Date" parentSchemaName="govcdm_legalauthority" parentDisplayName="Legal Authority" solution="govcdm_core (1.0.2.2)" />
+        <Dependent type="60" displayName="Information - Executive Coordination" parentDisplayName="Legal Authority" id="{192cf190-0f2d-f011-8c4d-001dd806d846}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_publicdocurl" displayName="Public Doc URL" parentSchemaName="govcdm_legalauthority" parentDisplayName="Legal Authority" solution="govcdm_core (1.0.2.2)" />
+        <Dependent type="60" displayName="Information - Executive Coordination" parentDisplayName="Legal Authority" id="{192cf190-0f2d-f011-8c4d-001dd806d846}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_receiveddatetime" displayName="Received Date Time" parentSchemaName="govcdm_executiveaction" parentDisplayName="Executive Action" solution="govcdm_executivecoordination (1.0.2.0)" />
+        <Dependent type="26" schemaName="Executive Actions" displayName="Executive Actions" parentSchemaName="govcdm_executiveaction" parentDisplayName="Executive Action" id="{af69dec9-0edf-ee11-904c-000d3a3ab141}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_receiveddatetime" displayName="Received Date Time" parentSchemaName="govcdm_executiveaction" parentDisplayName="Executive Action" solution="govcdm_executivecoordination (1.0.2.0)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Executive Action" id="{2d59b82c-26df-ee11-904c-000d3a3ab141}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_receiveddatetime" displayName="Received Date Time" parentSchemaName="govcdm_executiveaction" parentDisplayName="Executive Action" solution="govcdm_executivecoordination (1.0.2.0)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Executive Action" id="{890827a3-5ccf-4540-9f60-b62dc006d9a7}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_receivedfromorganization" displayName="Received From Organization" parentSchemaName="govcdm_executiveaction" parentDisplayName="Executive Action" solution="govcdm_executivecoordination (1.0.2.0)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Executive Action" id="{2d59b82c-26df-ee11-904c-000d3a3ab141}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_receivedfromorganization" displayName="Received From Organization" parentSchemaName="govcdm_executiveaction" parentDisplayName="Executive Action" solution="govcdm_executivecoordination (1.0.2.0)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Executive Action" id="{890827a3-5ccf-4540-9f60-b62dc006d9a7}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_receivedfromou" displayName="Received From OU" parentSchemaName="govcdm_executiveaction" parentDisplayName="Executive Action" solution="govcdm_executivecoordination (1.0.2.0)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Executive Action" id="{2d59b82c-26df-ee11-904c-000d3a3ab141}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_receivedfromou" displayName="Received From OU" parentSchemaName="govcdm_executiveaction" parentDisplayName="Executive Action" solution="govcdm_executivecoordination (1.0.2.0)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Executive Action" id="{890827a3-5ccf-4540-9f60-b62dc006d9a7}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_receivedfromperson" displayName="Received From Person" parentSchemaName="govcdm_executiveaction" parentDisplayName="Executive Action" solution="govcdm_executivecoordination (1.0.2.0)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Executive Action" id="{2d59b82c-26df-ee11-904c-000d3a3ab141}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_receivedfromperson" displayName="Received From Person" parentSchemaName="govcdm_executiveaction" parentDisplayName="Executive Action" solution="govcdm_executivecoordination (1.0.2.0)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Executive Action" id="{890827a3-5ccf-4540-9f60-b62dc006d9a7}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_reviewdate" displayName="Review Date" parentSchemaName="govcdm_impact" parentDisplayName="Impact" solution="govcdm_core (1.0.2.2)" />
+        <Dependent type="60" displayName="Information - Executive Coordination" parentDisplayName="Impact" id="{6613c8c1-102d-f011-8c4d-001dd806d846}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_reviewdate" displayName="Review Date" parentSchemaName="govcdm_riskitem" parentDisplayName="Risk Item" solution="govcdm_core (1.0.2.2)" />
+        <Dependent type="60" displayName="Information - Executive Coordination" parentDisplayName="Risk Item" id="{24f0b966-112d-f011-8c4d-001dd806d846}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_riskgeneralcategory" displayName="Risk General Category" parentSchemaName="govcdm_riskitem" parentDisplayName="Risk Item" solution="govcdm_core (1.0.2.2)" />
+        <Dependent type="60" displayName="Information - Executive Coordination" parentDisplayName="Risk Item" id="{24f0b966-112d-f011-8c4d-001dd806d846}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_risklevel" displayName="Risk Level" parentSchemaName="govcdm_riskitem" parentDisplayName="Risk Item" solution="govcdm_core (1.0.2.2)" />
+        <Dependent type="60" displayName="Information - Executive Coordination" parentDisplayName="Risk Item" id="{24f0b966-112d-f011-8c4d-001dd806d846}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_risklikelihood" displayName="Risk Likelihood" parentSchemaName="govcdm_riskitem" parentDisplayName="Risk Item" solution="govcdm_core (1.0.2.2)" />
+        <Dependent type="60" displayName="Information - Executive Coordination" parentDisplayName="Risk Item" id="{24f0b966-112d-f011-8c4d-001dd806d846}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_securityclassification" displayName="Security Classification" parentSchemaName="govcdm_executiveaction" parentDisplayName="Executive Action" solution="govcdm_executivecoordination (1.0.2.0)" />
+        <Dependent type="26" schemaName="Executive Actions" displayName="Executive Actions" parentSchemaName="govcdm_executiveaction" parentDisplayName="Executive Action" id="{af69dec9-0edf-ee11-904c-000d3a3ab141}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_securityclassification" displayName="Security Classification" parentSchemaName="govcdm_executiveaction" parentDisplayName="Executive Action" solution="govcdm_executivecoordination (1.0.2.0)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Executive Action" id="{2d59b82c-26df-ee11-904c-000d3a3ab141}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_securityclassification" displayName="Security Classification" parentSchemaName="govcdm_executiveaction" parentDisplayName="Executive Action" solution="govcdm_executivecoordination (1.0.2.0)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Executive Action" id="{890827a3-5ccf-4540-9f60-b62dc006d9a7}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_signingdate" displayName="Signing Date" parentSchemaName="govcdm_legalauthority" parentDisplayName="Legal Authority" solution="govcdm_core (1.0.2.2)" />
+        <Dependent type="60" displayName="Information - Executive Coordination" parentDisplayName="Legal Authority" id="{192cf190-0f2d-f011-8c4d-001dd806d846}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_sourceanalysis" displayName="Source Analysis" parentSchemaName="govcdm_executiveaction" parentDisplayName="Executive Action" solution="govcdm_executivecoordination (1.0.2.0)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Executive Action" id="{2d59b82c-26df-ee11-904c-000d3a3ab141}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_sourceanalysis" displayName="Source Analysis" parentSchemaName="govcdm_executiveaction" parentDisplayName="Executive Action" solution="govcdm_executivecoordination (1.0.2.0)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Executive Action" id="{890827a3-5ccf-4540-9f60-b62dc006d9a7}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_sourceimpact" displayName="Source Impact" parentSchemaName="govcdm_executiveaction" parentDisplayName="Executive Action" solution="govcdm_executivecoordination (1.0.2.0)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Executive Action" id="{2d59b82c-26df-ee11-904c-000d3a3ab141}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_sourceimpact" displayName="Source Impact" parentSchemaName="govcdm_executiveaction" parentDisplayName="Executive Action" solution="govcdm_executivecoordination (1.0.2.0)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Executive Action" id="{890827a3-5ccf-4540-9f60-b62dc006d9a7}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_sourcelegalauthority" displayName="Source Legal Authority" parentSchemaName="govcdm_executiveaction" parentDisplayName="Executive Action" solution="govcdm_executivecoordination (1.0.2.0)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Executive Action" id="{2d59b82c-26df-ee11-904c-000d3a3ab141}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_sourcelegalauthority" displayName="Source Legal Authority" parentSchemaName="govcdm_executiveaction" parentDisplayName="Executive Action" solution="govcdm_executivecoordination (1.0.2.0)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Executive Action" id="{890827a3-5ccf-4540-9f60-b62dc006d9a7}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_sourceriskitem" displayName="Source Risk Item" parentSchemaName="govcdm_executiveaction" parentDisplayName="Executive Action" solution="govcdm_executivecoordination (1.0.2.0)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Executive Action" id="{2d59b82c-26df-ee11-904c-000d3a3ab141}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_sourceriskitem" displayName="Source Risk Item" parentSchemaName="govcdm_executiveaction" parentDisplayName="Executive Action" solution="govcdm_executivecoordination (1.0.2.0)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Executive Action" id="{890827a3-5ccf-4540-9f60-b62dc006d9a7}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_summary" displayName="Summary" parentSchemaName="govcdm_analysis" parentDisplayName="Analysis" solution="govcdm_core (1.0.2.2)" />
+        <Dependent type="60" displayName="Information - Executive Coordination" parentDisplayName="Analysis" id="{f7224180-102d-f011-8c4d-001dd806d846}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_summary" displayName="Summary" parentSchemaName="govcdm_legalauthority" parentDisplayName="Legal Authority" solution="govcdm_core (1.0.2.2)" />
+        <Dependent type="60" displayName="Information - Executive Coordination" parentDisplayName="Legal Authority" id="{192cf190-0f2d-f011-8c4d-001dd806d846}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_tags" displayName="Tags" parentSchemaName="govcdm_legalauthority" parentDisplayName="Legal Authority" solution="govcdm_core (1.0.2.2)" />
+        <Dependent type="60" displayName="Information - Executive Coordination" parentDisplayName="Legal Authority" id="{192cf190-0f2d-f011-8c4d-001dd806d846}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_targetmitigationdate" displayName="Target Mitigation Date" parentSchemaName="govcdm_impact" parentDisplayName="Impact" solution="govcdm_core (1.0.2.2)" />
+        <Dependent type="60" displayName="Information - Executive Coordination" parentDisplayName="Impact" id="{6613c8c1-102d-f011-8c4d-001dd806d846}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_targetmitigationdate" displayName="Target Mitigation Date" parentSchemaName="govcdm_riskitem" parentDisplayName="Risk Item" solution="govcdm_core (1.0.2.2)" />
+        <Dependent type="60" displayName="Information - Executive Coordination" parentDisplayName="Risk Item" id="{24f0b966-112d-f011-8c4d-001dd806d846}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="govcdm_analysis" parentDisplayName="Analysis" solution="Active" />
+        <Dependent type="60" displayName="Information - Executive Coordination" parentDisplayName="Analysis" id="{f7224180-102d-f011-8c4d-001dd806d846}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="govcdm_executiveaction" parentDisplayName="Executive Action" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Executive Action" id="{890827a3-5ccf-4540-9f60-b62dc006d9a7}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="govcdm_impact" parentDisplayName="Impact" solution="Active" />
+        <Dependent type="60" displayName="Information - Executive Coordination" parentDisplayName="Impact" id="{6613c8c1-102d-f011-8c4d-001dd806d846}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="govcdm_legalauthority" parentDisplayName="Legal Authority" solution="Active" />
+        <Dependent type="60" displayName="Information - Executive Coordination" parentDisplayName="Legal Authority" id="{192cf190-0f2d-f011-8c4d-001dd806d846}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="govcdm_riskitem" parentDisplayName="Risk Item" solution="Active" />
+        <Dependent type="60" displayName="Information - Executive Coordination" parentDisplayName="Risk Item" id="{24f0b966-112d-f011-8c4d-001dd806d846}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="regardingobjectid" displayName="Regarding" parentSchemaName="chat" parentDisplayName="Teams chat" solution="msdynce_ActivitiesPatch (9.0.25083.250826006)">
+          <package appName="msdynce_Activities" version="9.0.25083.250826006">msdynce_EnableUCIByDefault (9.0.25083.250826006)</package>
+        </Required>
+        <Dependent type="2" schemaName="regardingobjectid" displayName="Regarding" parentSchemaName="chat" parentDisplayName="Teams chat" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Active Analyses" displayName="Active Analyses" parentSchemaName="govcdm_analysis" parentDisplayName="Analysis" solution="govcdm_core (1.0.2.2)" id="{8c19e398-4af1-4761-b5ba-5ccf20aeceb3}" />
+        <Dependent type="60" displayName="Information - Executive Coordination" parentDisplayName="Legal Authority" id="{192cf190-0f2d-f011-8c4d-001dd806d846}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Active Executive Actions" displayName="Active Executive Actions" parentSchemaName="govcdm_executiveaction" parentDisplayName="Executive Action" solution="govcdm_executivecoordination (1.0.2.0)" id="{9565615a-5591-4a58-9634-3125a68f60e9}" />
+        <Dependent type="60" displayName="Information - Executive Coordination" parentDisplayName="Risk Item" id="{24f0b966-112d-f011-8c4d-001dd806d846}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Active Executive Actions" displayName="Active Executive Actions" parentSchemaName="govcdm_executiveaction" parentDisplayName="Executive Action" solution="govcdm_executivecoordination (1.0.2.0)" id="{9565615a-5591-4a58-9634-3125a68f60e9}" />
+        <Dependent type="60" displayName="Information - Executive Coordination" parentDisplayName="Impact" id="{6613c8c1-102d-f011-8c4d-001dd806d846}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Active Impacts" displayName="Active Impacts" parentSchemaName="govcdm_impact" parentDisplayName="Impact" solution="govcdm_core (1.0.2.2)" id="{2f2a9f7c-5963-439c-97ae-c924b02ec664}" />
+        <Dependent type="60" displayName="Information - Executive Coordination" parentDisplayName="Legal Authority" id="{192cf190-0f2d-f011-8c4d-001dd806d846}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Active Impacts" displayName="Active Impacts" parentSchemaName="govcdm_impact" parentDisplayName="Impact" solution="govcdm_core (1.0.2.2)" id="{2f2a9f7c-5963-439c-97ae-c924b02ec664}" />
+        <Dependent type="60" displayName="Information - Executive Coordination" parentDisplayName="Analysis" id="{f7224180-102d-f011-8c4d-001dd806d846}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Active Legal Amendments" displayName="Active Legal Amendments" parentSchemaName="govcdm_legalamendment" parentDisplayName="Legal Amendment" solution="govcdm_core (1.0.2.2)" id="{3df2351d-00f9-465f-a355-77a0276a0a68}" />
+        <Dependent type="60" displayName="Information - Executive Coordination" parentDisplayName="Legal Authority" id="{192cf190-0f2d-f011-8c4d-001dd806d846}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Active Legal Cross-References" displayName="Active Legal Cross-References" parentSchemaName="govcdm_legalcrossreference" parentDisplayName="Legal Cross-Reference" solution="govcdm_core (1.0.2.2)" id="{a9d9af6f-e2ba-4960-829d-385adb4b79a7}" />
+        <Dependent type="60" displayName="Information - Executive Coordination" parentDisplayName="Legal Authority" id="{192cf190-0f2d-f011-8c4d-001dd806d846}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Active Risk Items" displayName="Active Risk Items" parentSchemaName="govcdm_riskitem" parentDisplayName="Risk Item" solution="govcdm_core (1.0.2.2)" id="{52d1c954-b2de-4de5-9563-bb77e33bffbb}" />
+        <Dependent type="60" displayName="Information - Executive Coordination" parentDisplayName="Legal Authority" id="{192cf190-0f2d-f011-8c4d-001dd806d846}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Active Risk Items" displayName="Active Risk Items" parentSchemaName="govcdm_riskitem" parentDisplayName="Risk Item" solution="govcdm_core (1.0.2.2)" id="{52d1c954-b2de-4de5-9563-bb77e33bffbb}" />
+        <Dependent type="60" displayName="Information - Executive Coordination" parentDisplayName="Analysis" id="{f7224180-102d-f011-8c4d-001dd806d846}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="All Action Items" displayName="All Action Items" parentSchemaName="govcdm_actionitem" parentDisplayName="Action Item" solution="govcdm_processandtasking (1.0.2.0)" id="{df137b50-3c6a-4542-b13d-5afa0f823ce4}" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Executive Action" id="{890827a3-5ccf-4540-9f60-b62dc006d9a7}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Executive Action Advanced Find View" displayName="Executive Action Advanced Find View" parentSchemaName="govcdm_executiveaction" parentDisplayName="Executive Action" solution="govcdm_executivecoordination (1.0.2.0)" id="{05ddf1dd-1bd0-4f68-bcd3-37e49cef1ff4}" />
+        <Dependent type="80" schemaName="msgov_ExecutiveCoordination" displayName="Executive Coordination" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Executive Action Associated View" displayName="Executive Action Associated View" parentSchemaName="govcdm_executiveaction" parentDisplayName="Executive Action" solution="govcdm_executivecoordination (1.0.2.0)" id="{1e5259dd-9699-4b69-a723-c619631ce3bc}" />
+        <Dependent type="80" schemaName="msgov_ExecutiveCoordination" displayName="Executive Coordination" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Executive Action Lookup View" displayName="Executive Action Lookup View" parentSchemaName="govcdm_executiveaction" parentDisplayName="Executive Action" solution="govcdm_executivecoordination (1.0.2.0)" id="{6e7d5da7-f0ee-4989-a55c-adb5c068c06f}" />
+        <Dependent type="80" schemaName="msgov_ExecutiveCoordination" displayName="Executive Coordination" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Quick Find Active Executive Actions" displayName="Quick Find Active Executive Actions" parentSchemaName="govcdm_executiveaction" parentDisplayName="Executive Action" solution="govcdm_executivecoordination (1.0.2.0)" id="{2d9f5ee4-e5b7-4596-a1c1-663872dde9dc}" />
+        <Dependent type="80" schemaName="msgov_ExecutiveCoordination" displayName="Executive Coordination" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="300" schemaName="msgov_actionitempage_94fbe" displayName="Action Item Page" solution="msgov_processandtasking (1.1.0.0)" />
+        <Dependent type="AppElement" displayName="msgov_msgov_ExecutiveCoordination_canvasappid_msgov_actionitempage_94fbe" id.uniquename="msgov_msgov_ExecutiveCoordination_canvasappid_msgov_actionitempage_94fbe" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="300" schemaName="msgov_actionitemspage_c082a" displayName="Action Items Page" solution="msgov_processandtasking (1.1.0.0)" />
+        <Dependent type="62" schemaName="msgov_ExecutiveCoordination" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="300" schemaName="msgov_actionitemspage_c082a" displayName="Action Items Page" solution="msgov_processandtasking (1.1.0.0)" />
+        <Dependent type="AppElement" displayName="msgov_msgov_ExecutiveCoordination_canvasappid_msgov_actionitemspage_c082a" id.uniquename="msgov_msgov_ExecutiveCoordination_canvasappid_msgov_actionitemspage_c082a" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Information" parentDisplayName="Legal Authority" solution="govcdm_core (1.0.2.2)" id="{130b09e5-a02f-4a49-b275-89b90497d948}" />
+        <Dependent type="80" schemaName="msgov_ExecutiveCoordination" displayName="Executive Coordination" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Quick Create" parentDisplayName="Risk Item" solution="govcdm_core (1.0.2.2)" id="{13fc05af-cc9a-ef11-8a6b-001dd802baf8}" />
+        <Dependent type="80" schemaName="msgov_ExecutiveCoordination" displayName="Executive Coordination" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Information" parentDisplayName="Impact" solution="govcdm_core (1.0.2.2)" id="{3934ea03-4d6b-468f-94d3-05e599164a9a}" />
+        <Dependent type="80" schemaName="msgov_ExecutiveCoordination" displayName="Executive Coordination" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Information" parentDisplayName="Analysis" solution="govcdm_core (1.0.2.2)" id="{3e189baa-070c-44c6-a582-8a643666f6cc}" />
+        <Dependent type="80" schemaName="msgov_ExecutiveCoordination" displayName="Executive Coordination" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Quick Create" parentDisplayName="Impact" solution="govcdm_core (1.0.2.2)" id="{49244fdb-832b-f011-8c4d-001dd802fa74}" />
+        <Dependent type="80" schemaName="msgov_ExecutiveCoordination" displayName="Executive Coordination" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Information" parentDisplayName="Executive Action" solution="govcdm_executivecoordination (1.0.2.0)" id="{65e3b154-46c3-4e32-8d1f-02a644ff714e}" />
+        <Dependent type="80" schemaName="msgov_ExecutiveCoordination" displayName="Executive Coordination" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Information" parentDisplayName="Executive Action" solution="govcdm_executivecoordination (1.0.2.0)" id="{890827a3-5ccf-4540-9f60-b62dc006d9a7}" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Executive Action" id="{890827a3-5ccf-4540-9f60-b62dc006d9a7}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Quick Create" parentDisplayName="Legal Authority" solution="govcdm_core (1.0.2.2)" id="{d88a5cfe-f121-f011-9989-001dd808dc27}" />
+        <Dependent type="80" schemaName="msgov_ExecutiveCoordination" displayName="Executive Coordination" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Quick Create" parentDisplayName="Analysis" solution="govcdm_core (1.0.2.2)" id="{ed1e95c8-832b-f011-8c4d-001dd80b5e94}" />
+        <Dependent type="80" schemaName="msgov_ExecutiveCoordination" displayName="Executive Coordination" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Information" parentDisplayName="Risk Item" solution="govcdm_core (1.0.2.2)" id="{f1c2fb79-aa06-471e-a6f1-94ecbb8bef26}" />
+        <Dependent type="80" schemaName="msgov_ExecutiveCoordination" displayName="Executive Coordination" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="adx_icon_invitation_medium" displayName="adx_icon_invitation_medium" solution="PowerPages_RuntimeCore (1.0.2407.1)">
+          <package appName="Power Pages Core Package" version="1.1.2508.192">PowerPages_Core (1.1.2508.192)</package>
+        </Required>
+        <Dependent type="1" schemaName="adx_inviteredemption" displayName="Invite Redemption" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="adx_icon_invitation_small" displayName="adx_icon_invitation_small" solution="PowerPages_RuntimeCore (1.0.2407.1)">
+          <package appName="Power Pages Core Package" version="1.1.2508.192">PowerPages_Core (1.1.2508.192)</package>
+        </Required>
+        <Dependent type="1" schemaName="adx_inviteredemption" displayName="Invite Redemption" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="govcdm_actionassignmenticon" displayName="govcdm_actionassignmenticon" solution="govcdm_processandtasking (1.0.2.0)" />
+        <Dependent type="1" schemaName="govcdm_actionassignment" displayName="Action Assignment" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="govcdm_actionitemicon" displayName="govcdm_actionitemicon" solution="govcdm_processandtasking (1.0.2.0)" />
+        <Dependent type="62" schemaName="msgov_ExecutiveCoordination" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="govcdm_actionitemicon" displayName="govcdm_actionitemicon" solution="govcdm_processandtasking (1.0.2.0)" />
+        <Dependent type="appaction" displayName="msgov__ActionItems!41aa5ab7fd6448be8020d7884fdcd7e3!msgov_ExecutiveCoordination!govcdm_executiveaction!0" id.uniquename="msgov__ActionItems!41aa5ab7fd6448be8020d7884fdcd7e3!msgov_ExecutiveCoordination!govcdm_executiveaction!0" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="govcdm_executiveactionicon" displayName="govcdm_executiveactionicon" solution="govcdm_executivecoordination (1.0.2.0)" />
+        <Dependent type="1" schemaName="govcdm_executiveaction" displayName="Executive Action" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="msdyn_/Images/AppModule_Default_Icon.png" displayName="msdyn_/Images/AppModule_Default_Icon.png" solution="AppModuleWebResources (2.5)">
+          <package appName="AppModule Web Resources Package" version="2.5">AppModuleWebResources (2.5)</package>
+        </Required>
+        <Dependent type="80" schemaName="msgov_ExecutiveCoordination" displayName="Executive Coordination" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="msgov_processandtasking" displayName="msgov_processandtasking" solution="msgov_processandtasking (1.1.0.0)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Executive Action" id="{890827a3-5ccf-4540-9f60-b62dc006d9a7}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="msgov_processandtasking" displayName="msgov_processandtasking" solution="msgov_processandtasking (1.1.0.0)" />
+        <Dependent type="appaction" displayName="msgov__OpenasDialog!4c2c31a01aab4daf92876f008ecc153e!msgov_ExecutiveCoordination!govcdm_executiveaction!0" id.uniquename="msgov__OpenasDialog!4c2c31a01aab4daf92876f008ecc153e!msgov_ExecutiveCoordination!govcdm_executiveaction!0" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="msgov_processandtasking" displayName="msgov_processandtasking" solution="msgov_processandtasking (1.1.0.0)" />
+        <Dependent type="appaction" displayName="msgov__OpenasSidebar!b44f9798283f45aa8144acb8452fc592!msgov_ExecutiveCoordination!govcdm_executiveaction!0" id.uniquename="msgov__OpenasSidebar!b44f9798283f45aa8144acb8452fc592!msgov_ExecutiveCoordination!govcdm_executiveaction!0" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="66" schemaName="Microsoft.PowerApps.PowerAppsOneGrid" displayName="Microsoft.PowerApps.PowerAppsOneGrid" solution="BaseCustomControlsCore (9.0.2508.3010)">
+          <package appName="Base Custom Controls" version="9.0.2508.3010">BaseCustomControlsCore (9.0.2508.3010)</package>
+        </Required>
+        <Dependent type="60" displayName="Information" parentDisplayName="Executive Action" id="{890827a3-5ccf-4540-9f60-b62dc006d9a7}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="SettingDefinition" displayName="AppChannel" solution="msdyn_AppFrameworkInfraExtensions (1.0.0.15)" id.uniquename="AppChannel">
+          <package appName="PowerAppsAppFramework Package" version="1.0.0.22">PowerAppsAppFramework_Anchor (1.0.0.22)</package>
+        </Required>
+        <Dependent type="AppSetting" displayName="parentappmoduleid.uniquename=msgov_ExecutiveCoordination,settingdefinitionid.uniquename=AppChannel" id.parentappmoduleid.uniquename="msgov_ExecutiveCoordination" id.settingdefinitionid.uniquename="AppChannel" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="SettingDefinition" displayName="appcopilotenabled" solution="msdyn_AppCopilotAppInfraSettings (9.2.2025062.250606027)" id.uniquename="appcopilotenabled">
+          <package appName="PowerAppsAppCopilotApp Package" version="1.0.0.2">msdyn_SuggestedAction (1.0.0.2)</package>
+        </Required>
+        <Dependent type="AppSetting" displayName="parentappmoduleid.uniquename=msgov_ExecutiveCoordination,settingdefinitionid.uniquename=appcopilotenabled" id.parentappmoduleid.uniquename="msgov_ExecutiveCoordination" id.settingdefinitionid.uniquename="appcopilotenabled" />
+      </MissingDependency>
+    </MissingDependencies>
+  </SolutionManifest>
+</ImportExportXml>
