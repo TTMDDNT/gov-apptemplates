@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppModule>
+  <UniqueName>msgov_CourtCaseManagement</UniqueName>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <WebResourceId>953b9fac-1e5e-e611-80d6-00155ded156f</WebResourceId>
+  <OptimizedFor></OptimizedFor>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+  <FormFactor>1</FormFactor>
+  <ClientType>4</ClientType>
+  <NavigationType>0</NavigationType>
+  <AppModuleComponents>
+    <AppModuleComponent type="1" schemaName="govcdm_courtcase" />
+    <AppModuleComponent type="1" schemaName="govcdm_courtcaseparty" />
+    <AppModuleComponent type="1" schemaName="govcdm_courtdocument" />
+    <AppModuleComponent type="1" schemaName="govcdm_courthearing" />
+    <AppModuleComponent type="1" schemaName="govcdm_courtmotion" />
+    <AppModuleComponent type="1" schemaName="govcdm_courtorder" />
+    <AppModuleComponent type="1" schemaName="govcdm_courtsession" />
+    <AppModuleComponent type="60" id="{a82702ff-cef1-ee11-904b-000d3a8cbc95}" />
+    <AppModuleComponent type="60" id="{2e63d70e-cff1-ee11-904b-000d3a8cbc95}" />
+    <AppModuleComponent type="60" id="{b1d9c920-cff1-ee11-904b-000d3a8cbc95}" />
+    <AppModuleComponent type="60" id="{dad24737-cff1-ee11-904b-000d3a8cbc95}" />
+    <AppModuleComponent type="60" id="{21db6a48-cff1-ee11-904b-000d3a8cbc95}" />
+    <AppModuleComponent type="60" id="{e4278b54-cff1-ee11-904b-000d3a8cbc95}" />
+    <AppModuleComponent type="60" id="{c54e8e66-cff1-ee11-904b-000d3a8cbc95}" />
+    <AppModuleComponent type="62" schemaName="msgov_CourtCaseManagement" />
+  </AppModuleComponents>
+  <AppModuleRoleMaps>
+    <Role id="{627090ff-40a3-4053-8790-584edc5be201}" />
+    <Role id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+  </AppModuleRoleMaps>
+  <LocalizedNames>
+    <LocalizedName description="Court Case Management" languagecode="1033" />
+  </LocalizedNames>
+  <appsettings>
+    <appsetting settingdefinitionid.uniquename="AppChannel">
+      <iscustomizable>1</iscustomizable>
+      <value>1</value>
+    </appsetting>
+  </appsettings>
+</AppModule>
