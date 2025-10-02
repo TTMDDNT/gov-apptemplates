@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{b64c2bd8-47f1-ee11-904b-000d3a8cbc95}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{420f11a4-4842-40c5-9d49-7fb11df38282}" IsUserDefined="1" labelid="{e2cd7892-4693-4dd9-95c2-9b6e40443346}">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{9a1b51d3-7205-4fe8-925a-8d234efc0bf1}" labelid="{66ea0752-faa0-4c5c-b0aa-c7f5447fb30e}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{8c7f7d62-ecbe-4dbe-bba7-e65439e8a52f}" labelid="{3cdbe3cc-4938-44ad-bcab-6edbb5e387be}">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="govcdm_name" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{5694617f-d106-448b-aca4-f365075d7543}" labelid="{ca691107-46a7-4f3b-9406-f4f80b165954}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{afec9719-974b-439d-8ee8-e876fb668d1b}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{cbfaf196-24ac-4d5c-83b9-4801f82ed404}" showlabel="false" labelid="{b4f36929-1f57-435a-8cef-500a968747f2}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{1b59cfde-4ace-4ad1-92ab-a4880fa16c43}" showlabel="false" labelid="{dce55376-8652-474f-a336-7986493f3788}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{5861a895-da57-497b-a8c5-50d5a251dcb1}" showlabel="false" labelid="{1450aef2-5f8a-41de-baa0-bb0992d1ce75}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{0ef1837f-2987-4b29-b39c-41c7f5194880}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{ad25952f-16e5-4683-9ea0-a7f18d6f678e}" showlabel="false" labelid="{3f68cf34-88b5-4a9c-9ffa-139ae118076d}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{2090e991-899c-482e-92f6-87a06ca3c89e}" showlabel="false" labelid="{f8d27389-8f80-46a9-8156-c0e92c775ff6}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{b64d7daf-ecb0-4af2-8555-cec1bd2fb756}" showlabel="false" labelid="{3838d306-26fb-4e42-a445-d86b2a31f283}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions Order="1" FallbackForm="true">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Main" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>
