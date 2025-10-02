@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppModule>
+  <UniqueName>msgov_ITServiceManagement</UniqueName>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <WebResourceId>953b9fac-1e5e-e611-80d6-00155ded156f</WebResourceId>
+  <OptimizedFor></OptimizedFor>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+  <FormFactor>1</FormFactor>
+  <ClientType>4</ClientType>
+  <NavigationType>0</NavigationType>
+  <AppModuleComponents>
+    <AppModuleComponent type="1" schemaName="govcdm_itassignedentitlements" />
+    <AppModuleComponent type="1" schemaName="govcdm_itdatacenter" />
+    <AppModuleComponent type="1" schemaName="govcdm_itproduct" />
+    <AppModuleComponent type="1" schemaName="govcdm_itproductentitlement" />
+    <AppModuleComponent type="1" schemaName="govcdm_itprovisioningrequest" />
+    <AppModuleComponent type="1" schemaName="govcdm_itservicerequest" />
+    <AppModuleComponent type="1" schemaName="govcdm_itsystem" />
+    <AppModuleComponent type="1" schemaName="govcdm_itsystemaccessdetail" />
+    <AppModuleComponent type="1" schemaName="govcdm_itsystemaccessrequest" />
+    <AppModuleComponent type="1" schemaName="govcdm_itsystemcomponent" />
+    <AppModuleComponent type="1" schemaName="govcdm_itworkassignmentcode" />
+    <AppModuleComponent type="60" id="{afb6a73a-49f1-ee11-904b-000d3a8cbc95}" />
+    <AppModuleComponent type="60" id="{ad92044e-49f1-ee11-904b-000d3a8cbc95}" />
+    <AppModuleComponent type="60" id="{2628fa61-49f1-ee11-904b-000d3a8cbc95}" />
+    <AppModuleComponent type="60" id="{2942bb75-49f1-ee11-904b-000d3a8cbc95}" />
+    <AppModuleComponent type="60" id="{7b112893-49f1-ee11-904b-000d3a8cbc95}" />
+    <AppModuleComponent type="60" id="{31005966-fa6a-ef11-a671-001dd809af04}" />
+    <AppModuleComponent type="60" id="{6ddd13ae-cd28-4707-9adf-21d5f5ca6e53}" />
+    <AppModuleComponent type="60" id="{6ef40450-a665-49ae-9ba0-8cef4007d01f}" />
+    <AppModuleComponent type="60" id="{23341833-45c0-4971-9683-c542ba3e8a32}" />
+    <AppModuleComponent type="62" schemaName="msgov_ITServiceManagement" />
+  </AppModuleComponents>
+  <AppModuleRoleMaps>
+    <Role id="{627090ff-40a3-4053-8790-584edc5be201}" />
+    <Role id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+  </AppModuleRoleMaps>
+  <LocalizedNames>
+    <LocalizedName description="IT Service Management" languagecode="1033" />
+  </LocalizedNames>
+  <appsettings>
+    <appsetting settingdefinitionid.uniquename="AppChannel">
+      <iscustomizable>1</iscustomizable>
+      <value>1</value>
+    </appsetting>
+  </appsettings>
+</AppModule>

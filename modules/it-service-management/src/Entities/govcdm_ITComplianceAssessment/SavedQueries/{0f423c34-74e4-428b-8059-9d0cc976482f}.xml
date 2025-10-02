@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{0f423c34-74e4-428b-8059-9d0cc976482f}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="govcdm_name" select="1" icon="1" preview="1">
+        <row name="result" id="govcdm_itcomplianceassessmentid">
+          <cell name="govcdm_itsystemaccreditation" width="178" />
+          <cell name="govcdm_name" width="116" />
+          <cell name="govcdm_assessmentdate" width="137" />
+          <cell name="govcdm_compliancestatus" width="146" />
+          <cell name="govcdm_risklevel" width="102" />
+          <cell name="govcdm_nextactiondate" width="139" />
+          <cell name="govcdm_targetcompletiondate" width="175" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="govcdm_itcomplianceassessment">
+          <attribute name="govcdm_itcomplianceassessmentid" />
+          <attribute name="govcdm_name" />
+          <order attribute="govcdm_name" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="govcdm_assessmentdate" />
+          <attribute name="govcdm_compliancestatus" />
+          <attribute name="govcdm_nextactiondate" />
+          <attribute name="govcdm_targetcompletiondate" />
+          <attribute name="govcdm_itsystemaccreditation" />
+          <attribute name="govcdm_risklevel" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active IT Compliance Assessments" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>
