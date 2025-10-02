@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{8cb26a5c-cc96-ef11-ac21-001dd8308e26}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="govcdm_name" select="1" icon="1" preview="1">
+        <row name="result" id="govcdm_kmcatalogitemid">
+          <cell name="govcdm_parentkmcatalogitem" width="179" />
+          <cell name="govcdm_name" width="181" />
+          <cell name="govcdm_kmcatalogitemtype" width="171" />
+          <cell name="govcdm_kmcategory" width="127" />
+          <cell name="govcdm_url" width="100" />
+          <cell name="govcdm_description" width="106" />
+          <cell name="govcdm_primarypoc" width="116" />
+          <cell name="govcdm_publicationstatus" width="142" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical" distinct="true">
+        <entity name="govcdm_kmcatalogitem">
+          <attribute name="govcdm_kmcatalogitemid" />
+          <attribute name="govcdm_name" />
+          <attribute name="govcdm_kmcatalogitemtype" />
+          <attribute name="govcdm_kmcategory" />
+          <attribute name="govcdm_url" />
+          <attribute name="govcdm_description" />
+          <attribute name="govcdm_primarypoc" />
+          <attribute name="govcdm_publicationstatus" />
+          <attribute name="govcdm_parentkmcatalogitem" />
+          <order attribute="govcdm_parentkmcatalogitem" descending="false" />
+          <filter type="and">
+            <condition attribute="govcdm_publicationstatus" operator="eq" value="166840000" />
+          </filter>
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.2</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="New KM Catalog Items" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

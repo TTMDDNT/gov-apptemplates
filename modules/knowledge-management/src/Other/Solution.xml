@@ -1,0 +1,844 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImportExportXml version="9.2.25083.183" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" OrganizationVersion="9.2.25083.183" OrganizationSchemaType="Standard" CRMServerServiceabilityVersion="9.2.25084.00181">
+  <SolutionManifest>
+    <UniqueName>msgov_knowledgemanagement</UniqueName>
+    <LocalizedNames>
+      <LocalizedName description="Microsoft Gov - Knowledge Management" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions />
+    <Version>1.1.0.0</Version>
+    <Managed>2</Managed>
+    <Publisher>
+      <UniqueName>msgovsolutions</UniqueName>
+      <LocalizedNames>
+        <LocalizedName description="Microsoft Government Solutions" languagecode="1033" />
+      </LocalizedNames>
+      <Descriptions>
+        <Description description="Microsoft Government Solutions" languagecode="1033" />
+      </Descriptions>
+      <EMailAddress xsi:nil="true"></EMailAddress>
+      <SupportingWebsiteUrl xsi:nil="true"></SupportingWebsiteUrl>
+      <CustomizationPrefix>msgov</CustomizationPrefix>
+      <CustomizationOptionValuePrefix>18844</CustomizationOptionValuePrefix>
+      <Addresses>
+        <Address>
+          <AddressNumber>1</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+        <Address>
+          <AddressNumber>2</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+      </Addresses>
+    </Publisher>
+    <RootComponents>
+      <RootComponent type="1" schemaName="feedback" behavior="2" />
+      <RootComponent type="1" schemaName="govcdm_kbarticle" behavior="2" />
+      <RootComponent type="1" schemaName="govcdm_kmcatalogitem" behavior="1" />
+      <RootComponent type="1" schemaName="govcdm_kmcatalogitempoc" behavior="2" />
+      <RootComponent type="1" schemaName="govcdm_kmcatalogitemrelation" behavior="2" />
+      <RootComponent type="1" schemaName="govcdm_kmcatalogitemtype" behavior="2" />
+      <RootComponent type="1" schemaName="govcdm_kmcategory" behavior="2" />
+      <RootComponent type="1" schemaName="team" behavior="2" />
+      <RootComponent type="300" schemaName="msgov_codesnippets_7b41b" behavior="0" />
+      <RootComponent type="300" schemaName="msgov_contentbrowser_717e0" behavior="0" />
+      <RootComponent type="300" schemaName="msgov_faq_0f494" behavior="0" />
+      <RootComponent type="300" schemaName="msgov_kmbrowser_932a5" behavior="0" />
+      <RootComponent type="300" schemaName="msgov_kmcatalog_d11ca" behavior="0" />
+      <RootComponent type="300" schemaName="msgov_kmplaybooks_89538" behavior="0" />
+      <RootComponent type="300" schemaName="msgov_knowledgebrowser_588df" behavior="0" />
+      <RootComponent type="300" schemaName="msgov_knowledgecatalog_a9ca0" behavior="0" />
+      <RootComponent type="62" schemaName="msgov_KnowledgeManagement" behavior="0" />
+      <RootComponent type="80" schemaName="msgov_KnowledgeManagement" behavior="0" />
+      <RootComponent type="9" schemaName="msgov_kmselectbehavior" behavior="0" />
+    </RootComponents>
+    <MissingDependencies>
+      <MissingDependency>
+        <Required type="1" schemaName="environmentvariabledefinition" displayName="Environment Variable Definition" solution="EnvironmentVariables (1.0.2406.4)">
+          <package appName="EnvironmentVariables" version="1.0.2406.4">EnvironmentVariablesSolutionAnchor (1.0.2406.4)</package>
+        </Required>
+        <Dependent type="300" schemaName="msgov_contentbrowser_717e0" displayName="Content Browser" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="environmentvariabledefinition" displayName="Environment Variable Definition" solution="EnvironmentVariables (1.0.2406.4)">
+          <package appName="EnvironmentVariables" version="1.0.2406.4">EnvironmentVariablesSolutionAnchor (1.0.2406.4)</package>
+        </Required>
+        <Dependent type="300" schemaName="msgov_kmbrowser_932a5" displayName="KM Browser" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="environmentvariabledefinition" displayName="Environment Variable Definition" solution="EnvironmentVariables (1.0.2406.4)">
+          <package appName="EnvironmentVariables" version="1.0.2406.4">EnvironmentVariablesSolutionAnchor (1.0.2406.4)</package>
+        </Required>
+        <Dependent type="300" schemaName="msgov_kmcatalog_d11ca" displayName="KM Catalog" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="environmentvariabledefinition" displayName="Environment Variable Definition" solution="EnvironmentVariables (1.0.2406.4)">
+          <package appName="EnvironmentVariables" version="1.0.2406.4">EnvironmentVariablesSolutionAnchor (1.0.2406.4)</package>
+        </Required>
+        <Dependent type="300" schemaName="msgov_knowledgebrowser_588df" displayName="Knowledge Browser" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="environmentvariablevalue" displayName="Environment Variable Value" solution="EnvironmentVariables (1.0.2406.4)">
+          <package appName="EnvironmentVariables" version="1.0.2406.4">EnvironmentVariablesSolutionAnchor (1.0.2406.4)</package>
+        </Required>
+        <Dependent type="300" schemaName="msgov_contentbrowser_717e0" displayName="Content Browser" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="environmentvariablevalue" displayName="Environment Variable Value" solution="EnvironmentVariables (1.0.2406.4)">
+          <package appName="EnvironmentVariables" version="1.0.2406.4">EnvironmentVariablesSolutionAnchor (1.0.2406.4)</package>
+        </Required>
+        <Dependent type="300" schemaName="msgov_kmbrowser_932a5" displayName="KM Browser" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="environmentvariablevalue" displayName="Environment Variable Value" solution="EnvironmentVariables (1.0.2406.4)">
+          <package appName="EnvironmentVariables" version="1.0.2406.4">EnvironmentVariablesSolutionAnchor (1.0.2406.4)</package>
+        </Required>
+        <Dependent type="300" schemaName="msgov_kmcatalog_d11ca" displayName="KM Catalog" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="environmentvariablevalue" displayName="Environment Variable Value" solution="EnvironmentVariables (1.0.2406.4)">
+          <package appName="EnvironmentVariables" version="1.0.2406.4">EnvironmentVariablesSolutionAnchor (1.0.2406.4)</package>
+        </Required>
+        <Dependent type="300" schemaName="msgov_knowledgebrowser_588df" displayName="Knowledge Browser" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_kbarticle" displayName="KB Article" solution="govcdm_knowledgemanagement (1.0.1.1)" />
+        <Dependent type="1" schemaName="govcdm_kbarticle" displayName="KB Article" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_kbarticle" displayName="KB Article" solution="govcdm_knowledgemanagement (1.0.1.1)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="KB Article" id="{a1fc05f6-00f2-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_kbarticle" displayName="KB Article" solution="govcdm_knowledgemanagement (1.0.1.1)" />
+        <Dependent type="62" schemaName="msgov_KnowledgeManagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_kbarticle" displayName="KB Article" solution="govcdm_knowledgemanagement (1.0.1.1)" />
+        <Dependent type="80" schemaName="msgov_KnowledgeManagement" displayName="Knowledge Management" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_kmcatalogitem" displayName="KM Catalog Item" solution="govcdm_knowledgemanagement (1.0.1.1)" />
+        <Dependent type="1" schemaName="govcdm_kmcatalogitem" displayName="KM Catalog Item" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_kmcatalogitempoc" displayName="KM Catalog Item POC" solution="govcdm_knowledgemanagement (1.0.1.1)" />
+        <Dependent type="1" schemaName="govcdm_kmcatalogitempoc" displayName="KM Catalog Item POC" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_kmcatalogitempoc" displayName="KM Catalog Item POC" solution="govcdm_knowledgemanagement (1.0.1.1)" />
+        <Dependent type="300" schemaName="msgov_knowledgecatalog_a9ca0" displayName="Knowledge Catalog" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_kmcatalogitempoc" displayName="KM Catalog Item POC" solution="govcdm_knowledgemanagement (1.0.1.1)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="KM Catalog Item" id="{ed6ccf9d-d4b8-4547-ab25-8913b56ec624}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_kmcatalogitempoc" displayName="KM Catalog Item POC" solution="govcdm_knowledgemanagement (1.0.1.1)" />
+        <Dependent type="62" schemaName="msgov_KnowledgeManagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_kmcatalogitempoc" displayName="KM Catalog Item POC" solution="govcdm_knowledgemanagement (1.0.1.1)" />
+        <Dependent type="80" schemaName="msgov_KnowledgeManagement" displayName="Knowledge Management" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_kmcatalogitemrelation" displayName="KM Catalog Item Relation" solution="govcdm_knowledgemanagement (1.0.1.1)" />
+        <Dependent type="1" schemaName="govcdm_kmcatalogitemrelation" displayName="KM Catalog Item Relation" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_kmcatalogitemrelation" displayName="KM Catalog Item Relation" solution="govcdm_knowledgemanagement (1.0.1.1)" />
+        <Dependent type="26" schemaName="From Items" displayName="From Items" parentSchemaName="govcdm_kmcatalogitemrelation" parentDisplayName="KM Catalog Item Relation" id="{ad8055ab-7295-ef11-ac21-001dd8308e26}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_kmcatalogitemrelation" displayName="KM Catalog Item Relation" solution="govcdm_knowledgemanagement (1.0.1.1)" />
+        <Dependent type="300" schemaName="msgov_contentbrowser_717e0" displayName="Content Browser" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_kmcatalogitemrelation" displayName="KM Catalog Item Relation" solution="govcdm_knowledgemanagement (1.0.1.1)" />
+        <Dependent type="300" schemaName="msgov_kmbrowser_932a5" displayName="KM Browser" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_kmcatalogitemrelation" displayName="KM Catalog Item Relation" solution="govcdm_knowledgemanagement (1.0.1.1)" />
+        <Dependent type="300" schemaName="msgov_kmcatalog_d11ca" displayName="KM Catalog" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_kmcatalogitemrelation" displayName="KM Catalog Item Relation" solution="govcdm_knowledgemanagement (1.0.1.1)" />
+        <Dependent type="300" schemaName="msgov_kmplaybooks_89538" displayName="KM Playbooks" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_kmcatalogitemrelation" displayName="KM Catalog Item Relation" solution="govcdm_knowledgemanagement (1.0.1.1)" />
+        <Dependent type="300" schemaName="msgov_knowledgebrowser_588df" displayName="Knowledge Browser" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_kmcatalogitemrelation" displayName="KM Catalog Item Relation" solution="govcdm_knowledgemanagement (1.0.1.1)" />
+        <Dependent type="300" schemaName="msgov_knowledgecatalog_a9ca0" displayName="Knowledge Catalog" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_kmcatalogitemrelation" displayName="KM Catalog Item Relation" solution="govcdm_knowledgemanagement (1.0.1.1)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="KM Catalog Item Relation" id="{40b9a121-4bf1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_kmcatalogitemrelation" displayName="KM Catalog Item Relation" solution="govcdm_knowledgemanagement (1.0.1.1)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="KM Catalog Item" id="{ed6ccf9d-d4b8-4547-ab25-8913b56ec624}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_kmcatalogitemrelation" displayName="KM Catalog Item Relation" solution="govcdm_knowledgemanagement (1.0.1.1)" />
+        <Dependent type="62" schemaName="msgov_KnowledgeManagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_kmcatalogitemrelation" displayName="KM Catalog Item Relation" solution="govcdm_knowledgemanagement (1.0.1.1)" />
+        <Dependent type="80" schemaName="msgov_KnowledgeManagement" displayName="Knowledge Management" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_kmcatalogitemtype" displayName="KM Catalog Item Type" solution="govcdm_knowledgemanagement (1.0.1.1)" />
+        <Dependent type="1" schemaName="govcdm_kmcatalogitemtype" displayName="KM Catalog Item Type" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_kmcatalogitemtype" displayName="KM Catalog Item Type" solution="govcdm_knowledgemanagement (1.0.1.1)" />
+        <Dependent type="300" schemaName="msgov_codesnippets_7b41b" displayName="Code Snippets" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_kmcatalogitemtype" displayName="KM Catalog Item Type" solution="govcdm_knowledgemanagement (1.0.1.1)" />
+        <Dependent type="300" schemaName="msgov_contentbrowser_717e0" displayName="Content Browser" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_kmcatalogitemtype" displayName="KM Catalog Item Type" solution="govcdm_knowledgemanagement (1.0.1.1)" />
+        <Dependent type="300" schemaName="msgov_kmbrowser_932a5" displayName="KM Browser" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_kmcatalogitemtype" displayName="KM Catalog Item Type" solution="govcdm_knowledgemanagement (1.0.1.1)" />
+        <Dependent type="300" schemaName="msgov_kmcatalog_d11ca" displayName="KM Catalog" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_kmcatalogitemtype" displayName="KM Catalog Item Type" solution="govcdm_knowledgemanagement (1.0.1.1)" />
+        <Dependent type="300" schemaName="msgov_kmplaybooks_89538" displayName="KM Playbooks" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_kmcatalogitemtype" displayName="KM Catalog Item Type" solution="govcdm_knowledgemanagement (1.0.1.1)" />
+        <Dependent type="300" schemaName="msgov_knowledgebrowser_588df" displayName="Knowledge Browser" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_kmcatalogitemtype" displayName="KM Catalog Item Type" solution="govcdm_knowledgemanagement (1.0.1.1)" />
+        <Dependent type="300" schemaName="msgov_knowledgecatalog_a9ca0" displayName="Knowledge Catalog" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_kmcatalogitemtype" displayName="KM Catalog Item Type" solution="govcdm_knowledgemanagement (1.0.1.1)" />
+        <Dependent type="62" schemaName="msgov_KnowledgeManagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_kmcatalogitemtype" displayName="KM Catalog Item Type" solution="govcdm_knowledgemanagement (1.0.1.1)" />
+        <Dependent type="80" schemaName="msgov_KnowledgeManagement" displayName="Knowledge Management" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_kmcategory" displayName="KM Category" solution="govcdm_knowledgemanagement (1.0.1.1)" />
+        <Dependent type="1" schemaName="govcdm_kmcategory" displayName="KM Category" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_kmcategory" displayName="KM Category" solution="govcdm_knowledgemanagement (1.0.1.1)" />
+        <Dependent type="300" schemaName="msgov_kmbrowser_932a5" displayName="KM Browser" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_kmcategory" displayName="KM Category" solution="govcdm_knowledgemanagement (1.0.1.1)" />
+        <Dependent type="300" schemaName="msgov_kmcatalog_d11ca" displayName="KM Catalog" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_kmcategory" displayName="KM Category" solution="govcdm_knowledgemanagement (1.0.1.1)" />
+        <Dependent type="300" schemaName="msgov_knowledgebrowser_588df" displayName="Knowledge Browser" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_kmcategory" displayName="KM Category" solution="govcdm_knowledgemanagement (1.0.1.1)" />
+        <Dependent type="300" schemaName="msgov_knowledgecatalog_a9ca0" displayName="Knowledge Catalog" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_kmcategory" displayName="KM Category" solution="govcdm_knowledgemanagement (1.0.1.1)" />
+        <Dependent type="62" schemaName="msgov_KnowledgeManagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_kmcategory" displayName="KM Category" solution="govcdm_knowledgemanagement (1.0.1.1)" />
+        <Dependent type="80" schemaName="msgov_KnowledgeManagement" displayName="Knowledge Management" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_privacyconsent" displayName="Privacy Consent" solution="govcdm_core (1.0.2.2)" />
+        <Dependent type="300" schemaName="msgov_knowledgecatalog_a9ca0" displayName="Knowledge Catalog" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_govcdm_kmcatalogitem_ParentKMCatalogItem_" displayName="govcdm_govcdm_kmcatalogitem_ParentKMCatalogItem_" parentSchemaName="govcdm_kmcatalogitem" parentDisplayName="KM Catalog Item" solution="govcdm_knowledgemanagement (1.0.1.1)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="KM Catalog Item" id="{23daf43a-7395-ef11-ac21-001dd804e2ae}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_govcdm_kmcatalogitem_ParentKMCatalogItem_" displayName="govcdm_govcdm_kmcatalogitem_ParentKMCatalogItem_" parentSchemaName="govcdm_kmcatalogitem" parentDisplayName="KM Catalog Item" solution="govcdm_knowledgemanagement (1.0.1.1)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="KM Catalog Item" id="{ed6ccf9d-d4b8-4547-ab25-8913b56ec624}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_govcdm_kmcatalogitemrelation_FromItem_gov" displayName="govcdm_govcdm_kmcatalogitemrelation_FromItem_gov" parentSchemaName="govcdm_kmcatalogitem" parentDisplayName="KM Catalog Item" solution="govcdm_knowledgemanagement (1.0.1.1)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="KM Catalog Item Relation" id="{40b9a121-4bf1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_govcdm_kmcatalogitemrelation_FromItem_gov" displayName="govcdm_govcdm_kmcatalogitemrelation_FromItem_gov" parentSchemaName="govcdm_kmcatalogitem" parentDisplayName="KM Catalog Item" solution="govcdm_knowledgemanagement (1.0.1.1)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="KM Catalog Item Relation" id="{a78a4bd4-7395-ef11-ac21-001dd804e2ae}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_govcdm_kmcatalogitemrelation_FromItem_gov" displayName="govcdm_govcdm_kmcatalogitemrelation_FromItem_gov" parentSchemaName="govcdm_kmcatalogitem" parentDisplayName="KM Catalog Item" solution="govcdm_knowledgemanagement (1.0.1.1)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="KM Catalog Item" id="{ed6ccf9d-d4b8-4547-ab25-8913b56ec624}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_govcdm_kmcatalogitemrelation_FromItem_gov" displayName="govcdm_govcdm_kmcatalogitemrelation_FromItem_gov" parentSchemaName="govcdm_kmcatalogitem" parentDisplayName="KM Catalog Item" solution="govcdm_knowledgemanagement (1.0.1.1)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="KM Catalog Item Relation" id="{f9a80ce1-b2f9-429a-a5ef-06e70b5e69d2}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_govcdm_kmcatalogitemrelation_ToItem_govcd" displayName="govcdm_govcdm_kmcatalogitemrelation_ToItem_govcd" parentSchemaName="govcdm_kmcatalogitem" parentDisplayName="KM Catalog Item" solution="govcdm_knowledgemanagement (1.0.1.1)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="KM Catalog Item Relation" id="{40b9a121-4bf1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_govcdm_kmcatalogitemrelation_ToItem_govcd" displayName="govcdm_govcdm_kmcatalogitemrelation_ToItem_govcd" parentSchemaName="govcdm_kmcatalogitem" parentDisplayName="KM Catalog Item" solution="govcdm_knowledgemanagement (1.0.1.1)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="KM Catalog Item Relation" id="{a78a4bd4-7395-ef11-ac21-001dd804e2ae}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_govcdm_kmcatalogitemrelation_ToItem_govcd" displayName="govcdm_govcdm_kmcatalogitemrelation_ToItem_govcd" parentSchemaName="govcdm_kmcatalogitem" parentDisplayName="KM Catalog Item" solution="govcdm_knowledgemanagement (1.0.1.1)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="KM Catalog Item" id="{ed6ccf9d-d4b8-4547-ab25-8913b56ec624}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_govcdm_kmcatalogitemrelation_ToItem_govcd" displayName="govcdm_govcdm_kmcatalogitemrelation_ToItem_govcd" parentSchemaName="govcdm_kmcatalogitem" parentDisplayName="KM Catalog Item" solution="govcdm_knowledgemanagement (1.0.1.1)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="KM Catalog Item Relation" id="{f9a80ce1-b2f9-429a-a5ef-06e70b5e69d2}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_kmcatalogitem_Collection_govcdm_kmcatalogitem" displayName="govcdm_kmcatalogitem_Collection_govcdm_kmcatalogitem" parentSchemaName="govcdm_kmcatalogitem" parentDisplayName="KM Catalog Item" solution="govcdm_knowledgemanagement (1.0.1.1)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="KM Catalog Item" id="{ed6ccf9d-d4b8-4547-ab25-8913b56ec624}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_kmcatalogitem_KMCatalogItemType_govcdm_km" displayName="govcdm_kmcatalogitem_KMCatalogItemType_govcdm_km" parentSchemaName="govcdm_kmcatalogitemtype" parentDisplayName="KM Catalog Item Type" solution="govcdm_knowledgemanagement (1.0.1.1)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="KM Catalog Item" id="{23daf43a-7395-ef11-ac21-001dd804e2ae}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_kmcatalogitem_KMCatalogItemType_govcdm_km" displayName="govcdm_kmcatalogitem_KMCatalogItemType_govcdm_km" parentSchemaName="govcdm_kmcatalogitemtype" parentDisplayName="KM Catalog Item Type" solution="govcdm_knowledgemanagement (1.0.1.1)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="KM Catalog Item" id="{ed6ccf9d-d4b8-4547-ab25-8913b56ec624}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_kmcatalogitem_KMCategory_govcdm_kmcategor" displayName="govcdm_kmcatalogitem_KMCategory_govcdm_kmcategor" parentSchemaName="govcdm_kmcategory" parentDisplayName="KM Category" solution="govcdm_knowledgemanagement (1.0.1.1)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="KM Catalog Item" id="{23daf43a-7395-ef11-ac21-001dd804e2ae}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_kmcatalogitem_KMCategory_govcdm_kmcategor" displayName="govcdm_kmcatalogitem_KMCategory_govcdm_kmcategor" parentSchemaName="govcdm_kmcategory" parentDisplayName="KM Category" solution="govcdm_knowledgemanagement (1.0.1.1)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="KM Catalog Item" id="{ed6ccf9d-d4b8-4547-ab25-8913b56ec624}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_kmcatalogitem_PrimaryPOC_contact" displayName="govcdm_kmcatalogitem_PrimaryPOC_contact" parentSchemaName="contact" parentDisplayName="Person" solution="govcdm_knowledgemanagement (1.0.1.1)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="KM Catalog Item" id="{23daf43a-7395-ef11-ac21-001dd804e2ae}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_kmcatalogitem_PrimaryPOC_contact" displayName="govcdm_kmcatalogitem_PrimaryPOC_contact" parentSchemaName="contact" parentDisplayName="Person" solution="govcdm_knowledgemanagement (1.0.1.1)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="KM Catalog Item" id="{ed6ccf9d-d4b8-4547-ab25-8913b56ec624}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_kmcatalogitempoc_KMCatalogItem_govcdm_kmc" displayName="govcdm_kmcatalogitempoc_KMCatalogItem_govcdm_kmc" parentSchemaName="govcdm_kmcatalogitem" parentDisplayName="KM Catalog Item" solution="govcdm_knowledgemanagement (1.0.1.1)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="KM Catalog Item" id="{ed6ccf9d-d4b8-4547-ab25-8913b56ec624}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_kmcatalogitempoc_Person_contact" displayName="govcdm_kmcatalogitempoc_Person_contact" parentSchemaName="contact" parentDisplayName="Person" solution="govcdm_knowledgemanagement (1.0.1.1)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="KM Catalog Item POC" id="{076dfb61-7395-ef11-ac21-001dd830706f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_collection" displayName="Collection" parentSchemaName="govcdm_kmcatalogitem" parentDisplayName="KM Catalog Item" solution="govcdm_knowledgemanagement (1.0.1.1)" />
+        <Dependent type="26" schemaName="Active KM Catalog Items" displayName="Active KM Catalog Items" parentSchemaName="govcdm_kmcatalogitem" parentDisplayName="KM Catalog Item" id="{972d61ab-4a37-402c-833f-9b49719207c0}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_collection" displayName="Collection" parentSchemaName="govcdm_kmcatalogitem" parentDisplayName="KM Catalog Item" solution="govcdm_knowledgemanagement (1.0.1.1)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="KM Catalog Item" id="{ed6ccf9d-d4b8-4547-ab25-8913b56ec624}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_content" displayName="Content" parentSchemaName="govcdm_kmcatalogitem" parentDisplayName="KM Catalog Item" solution="govcdm_knowledgemanagement (1.0.1.1)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="KM Catalog Item" id="{ed6ccf9d-d4b8-4547-ab25-8913b56ec624}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_contentdate" displayName="Content Date" parentSchemaName="govcdm_kmcatalogitem" parentDisplayName="KM Catalog Item" solution="govcdm_knowledgemanagement (1.0.1.1)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="KM Catalog Item" id="{23daf43a-7395-ef11-ac21-001dd804e2ae}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_contentdate" displayName="Content Date" parentSchemaName="govcdm_kmcatalogitem" parentDisplayName="KM Catalog Item" solution="govcdm_knowledgemanagement (1.0.1.1)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="KM Catalog Item" id="{ed6ccf9d-d4b8-4547-ab25-8913b56ec624}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_description" displayName="Description" parentSchemaName="govcdm_kmcatalogitem" parentDisplayName="KM Catalog Item" solution="govcdm_knowledgemanagement (1.0.1.1)" />
+        <Dependent type="26" schemaName="New KM Catalog Items" displayName="New KM Catalog Items" parentSchemaName="govcdm_kmcatalogitem" parentDisplayName="KM Catalog Item" id="{8cb26a5c-cc96-ef11-ac21-001dd8308e26}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_description" displayName="Description" parentSchemaName="govcdm_kmcatalogitem" parentDisplayName="KM Catalog Item" solution="govcdm_knowledgemanagement (1.0.1.1)" />
+        <Dependent type="26" schemaName="Active KM Catalog Items" displayName="Active KM Catalog Items" parentSchemaName="govcdm_kmcatalogitem" parentDisplayName="KM Catalog Item" id="{972d61ab-4a37-402c-833f-9b49719207c0}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_description" displayName="Description" parentSchemaName="govcdm_kmcatalogitem" parentDisplayName="KM Catalog Item" solution="govcdm_knowledgemanagement (1.0.1.1)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="KM Catalog Item" id="{23daf43a-7395-ef11-ac21-001dd804e2ae}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_description" displayName="Description" parentSchemaName="govcdm_kmcatalogitem" parentDisplayName="KM Catalog Item" solution="govcdm_knowledgemanagement (1.0.1.1)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="KM Catalog Item" id="{ed6ccf9d-d4b8-4547-ab25-8913b56ec624}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_description" displayName="Description" parentSchemaName="govcdm_kmcatalogitemtype" parentDisplayName="KM Catalog Item Type" solution="govcdm_knowledgemanagement (1.0.1.1)" />
+        <Dependent type="26" schemaName="Active KM Catalog Item Types" displayName="Active KM Catalog Item Types" parentSchemaName="govcdm_kmcatalogitemtype" parentDisplayName="KM Catalog Item Type" id="{7eb955cd-29c0-4fec-9251-a4886bfbc5a8}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_description" displayName="Description" parentSchemaName="govcdm_kmcatalogitemtype" parentDisplayName="KM Catalog Item Type" solution="govcdm_knowledgemanagement (1.0.1.1)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="KM Catalog Item Type" id="{67ed4f2e-7495-ef11-ac21-001dd809427e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_description" displayName="Description" parentSchemaName="govcdm_kmcatalogitemtype" parentDisplayName="KM Catalog Item Type" solution="govcdm_knowledgemanagement (1.0.1.1)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="KM Catalog Item Type" id="{9a994aef-ade0-4fbc-8332-aea50c2412d2}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_details" displayName="Details" parentSchemaName="govcdm_kbarticle" parentDisplayName="KB Article" solution="govcdm_knowledgemanagement (1.0.1.1)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="KB Article" id="{a1fc05f6-00f2-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_fromitem" displayName="From Item" parentSchemaName="govcdm_kmcatalogitemrelation" parentDisplayName="KM Catalog Item Relation" solution="govcdm_knowledgemanagement (1.0.1.1)" />
+        <Dependent type="26" schemaName="From Items" displayName="From Items" parentSchemaName="govcdm_kmcatalogitemrelation" parentDisplayName="KM Catalog Item Relation" id="{ad8055ab-7295-ef11-ac21-001dd8308e26}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_fromitem" displayName="From Item" parentSchemaName="govcdm_kmcatalogitemrelation" parentDisplayName="KM Catalog Item Relation" solution="govcdm_knowledgemanagement (1.0.1.1)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="KM Catalog Item Relation" id="{40b9a121-4bf1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_fromitem" displayName="From Item" parentSchemaName="govcdm_kmcatalogitemrelation" parentDisplayName="KM Catalog Item Relation" solution="govcdm_knowledgemanagement (1.0.1.1)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="KM Catalog Item Relation" id="{a78a4bd4-7395-ef11-ac21-001dd804e2ae}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_fromitem" displayName="From Item" parentSchemaName="govcdm_kmcatalogitemrelation" parentDisplayName="KM Catalog Item Relation" solution="govcdm_knowledgemanagement (1.0.1.1)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="KM Catalog Item Relation" id="{f9a80ce1-b2f9-429a-a5ef-06e70b5e69d2}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_highlightfromdate" displayName="Highlight From Date" parentSchemaName="govcdm_kmcatalogitem" parentDisplayName="KM Catalog Item" solution="govcdm_knowledgemanagement (1.0.1.1)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="KM Catalog Item" id="{ed6ccf9d-d4b8-4547-ab25-8913b56ec624}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_highlighttodate" displayName="Highlight To Date" parentSchemaName="govcdm_kmcatalogitem" parentDisplayName="KM Catalog Item" solution="govcdm_knowledgemanagement (1.0.1.1)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="KM Catalog Item" id="{ed6ccf9d-d4b8-4547-ab25-8913b56ec624}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_keywords" displayName="Keywords" parentSchemaName="govcdm_kbarticle" parentDisplayName="KB Article" solution="govcdm_knowledgemanagement (1.0.1.1)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="KB Article" id="{a1fc05f6-00f2-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_keywords" displayName="Keywords" parentSchemaName="govcdm_kmcatalogitem" parentDisplayName="KM Catalog Item" solution="govcdm_knowledgemanagement (1.0.1.1)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="KM Catalog Item" id="{ed6ccf9d-d4b8-4547-ab25-8913b56ec624}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_kmcatalogitemid" displayName="KM Catalog Item" parentSchemaName="govcdm_kmcatalogitem" parentDisplayName="KM Catalog Item" solution="govcdm_knowledgemanagement (1.0.1.1)" />
+        <Dependent type="26" schemaName="To Items" displayName="To Items" parentSchemaName="govcdm_kmcatalogitemrelation" parentDisplayName="KM Catalog Item Relation" id="{13faf553-726d-4fe0-9da9-e7621bd4822e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_kmcatalogitemid" displayName="KM Catalog Item" parentSchemaName="govcdm_kmcatalogitem" parentDisplayName="KM Catalog Item" solution="govcdm_knowledgemanagement (1.0.1.1)" />
+        <Dependent type="26" schemaName="New KM Catalog Items" displayName="New KM Catalog Items" parentSchemaName="govcdm_kmcatalogitem" parentDisplayName="KM Catalog Item" id="{8cb26a5c-cc96-ef11-ac21-001dd8308e26}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_kmcatalogitemid" displayName="KM Catalog Item" parentSchemaName="govcdm_kmcatalogitem" parentDisplayName="KM Catalog Item" solution="govcdm_knowledgemanagement (1.0.1.1)" />
+        <Dependent type="26" schemaName="Active KM Catalog Items" displayName="Active KM Catalog Items" parentSchemaName="govcdm_kmcatalogitem" parentDisplayName="KM Catalog Item" id="{972d61ab-4a37-402c-833f-9b49719207c0}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_kmcatalogitemid" displayName="KM Catalog Item" parentSchemaName="govcdm_kmcatalogitem" parentDisplayName="KM Catalog Item" solution="govcdm_knowledgemanagement (1.0.1.1)" />
+        <Dependent type="26" schemaName="From Items" displayName="From Items" parentSchemaName="govcdm_kmcatalogitemrelation" parentDisplayName="KM Catalog Item Relation" id="{ad8055ab-7295-ef11-ac21-001dd8308e26}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_kmcatalogitemrelationid" displayName="KM Catalog Item Relation" parentSchemaName="govcdm_kmcatalogitemrelation" parentDisplayName="KM Catalog Item Relation" solution="govcdm_knowledgemanagement (1.0.1.1)" />
+        <Dependent type="26" schemaName="To Items" displayName="To Items" parentSchemaName="govcdm_kmcatalogitemrelation" parentDisplayName="KM Catalog Item Relation" id="{13faf553-726d-4fe0-9da9-e7621bd4822e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_kmcatalogitemrelationid" displayName="KM Catalog Item Relation" parentSchemaName="govcdm_kmcatalogitemrelation" parentDisplayName="KM Catalog Item Relation" solution="govcdm_knowledgemanagement (1.0.1.1)" />
+        <Dependent type="26" schemaName="From Items" displayName="From Items" parentSchemaName="govcdm_kmcatalogitemrelation" parentDisplayName="KM Catalog Item Relation" id="{ad8055ab-7295-ef11-ac21-001dd8308e26}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_kmcatalogitemsubtype" displayName="KM Catalog Item Subtype" parentSchemaName="govcdm_kmcatalogitem" parentDisplayName="KM Catalog Item" solution="govcdm_knowledgemanagement (1.0.1.1)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="KM Catalog Item" id="{23daf43a-7395-ef11-ac21-001dd804e2ae}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_kmcatalogitemsubtype" displayName="KM Catalog Item Subtype" parentSchemaName="govcdm_kmcatalogitem" parentDisplayName="KM Catalog Item" solution="govcdm_knowledgemanagement (1.0.1.1)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="KM Catalog Item" id="{ed6ccf9d-d4b8-4547-ab25-8913b56ec624}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_kmcatalogitemtype" displayName="KM Catalog Item Type" parentSchemaName="govcdm_kmcatalogitem" parentDisplayName="KM Catalog Item" solution="govcdm_knowledgemanagement (1.0.1.1)" />
+        <Dependent type="26" schemaName="To Items" displayName="To Items" parentSchemaName="govcdm_kmcatalogitemrelation" parentDisplayName="KM Catalog Item Relation" id="{13faf553-726d-4fe0-9da9-e7621bd4822e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_kmcatalogitemtype" displayName="KM Catalog Item Type" parentSchemaName="govcdm_kmcatalogitem" parentDisplayName="KM Catalog Item" solution="govcdm_knowledgemanagement (1.0.1.1)" />
+        <Dependent type="26" schemaName="New KM Catalog Items" displayName="New KM Catalog Items" parentSchemaName="govcdm_kmcatalogitem" parentDisplayName="KM Catalog Item" id="{8cb26a5c-cc96-ef11-ac21-001dd8308e26}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_kmcatalogitemtype" displayName="KM Catalog Item Type" parentSchemaName="govcdm_kmcatalogitem" parentDisplayName="KM Catalog Item" solution="govcdm_knowledgemanagement (1.0.1.1)" />
+        <Dependent type="26" schemaName="Active KM Catalog Items" displayName="Active KM Catalog Items" parentSchemaName="govcdm_kmcatalogitem" parentDisplayName="KM Catalog Item" id="{972d61ab-4a37-402c-833f-9b49719207c0}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_kmcatalogitemtype" displayName="KM Catalog Item Type" parentSchemaName="govcdm_kmcatalogitem" parentDisplayName="KM Catalog Item" solution="govcdm_knowledgemanagement (1.0.1.1)" />
+        <Dependent type="26" schemaName="From Items" displayName="From Items" parentSchemaName="govcdm_kmcatalogitemrelation" parentDisplayName="KM Catalog Item Relation" id="{ad8055ab-7295-ef11-ac21-001dd8308e26}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_kmcatalogitemtype" displayName="KM Catalog Item Type" parentSchemaName="govcdm_kmcatalogitem" parentDisplayName="KM Catalog Item" solution="govcdm_knowledgemanagement (1.0.1.1)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="KM Catalog Item" id="{23daf43a-7395-ef11-ac21-001dd804e2ae}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_kmcatalogitemtype" displayName="KM Catalog Item Type" parentSchemaName="govcdm_kmcatalogitem" parentDisplayName="KM Catalog Item" solution="govcdm_knowledgemanagement (1.0.1.1)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="KM Catalog Item" id="{ed6ccf9d-d4b8-4547-ab25-8913b56ec624}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_kmcatalogitemtypeid" displayName="KM Catalog Item Type" parentSchemaName="govcdm_kmcatalogitemtype" parentDisplayName="KM Catalog Item Type" solution="govcdm_knowledgemanagement (1.0.1.1)" />
+        <Dependent type="26" schemaName="Active KM Catalog Item Types" displayName="Active KM Catalog Item Types" parentSchemaName="govcdm_kmcatalogitemtype" parentDisplayName="KM Catalog Item Type" id="{7eb955cd-29c0-4fec-9251-a4886bfbc5a8}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_kmcategory" displayName="KM Category" parentSchemaName="govcdm_kmcatalogitem" parentDisplayName="KM Catalog Item" solution="govcdm_knowledgemanagement (1.0.1.1)" />
+        <Dependent type="26" schemaName="New KM Catalog Items" displayName="New KM Catalog Items" parentSchemaName="govcdm_kmcatalogitem" parentDisplayName="KM Catalog Item" id="{8cb26a5c-cc96-ef11-ac21-001dd8308e26}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_kmcategory" displayName="KM Category" parentSchemaName="govcdm_kmcatalogitem" parentDisplayName="KM Catalog Item" solution="govcdm_knowledgemanagement (1.0.1.1)" />
+        <Dependent type="26" schemaName="Active KM Catalog Items" displayName="Active KM Catalog Items" parentSchemaName="govcdm_kmcatalogitem" parentDisplayName="KM Catalog Item" id="{972d61ab-4a37-402c-833f-9b49719207c0}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_kmcategory" displayName="KM Category" parentSchemaName="govcdm_kmcatalogitem" parentDisplayName="KM Catalog Item" solution="govcdm_knowledgemanagement (1.0.1.1)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="KM Catalog Item" id="{23daf43a-7395-ef11-ac21-001dd804e2ae}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_kmcategory" displayName="KM Category" parentSchemaName="govcdm_kmcatalogitem" parentDisplayName="KM Catalog Item" solution="govcdm_knowledgemanagement (1.0.1.1)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="KM Catalog Item" id="{ed6ccf9d-d4b8-4547-ab25-8913b56ec624}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_kbarticle" parentDisplayName="KB Article" solution="govcdm_knowledgemanagement (1.0.1.1)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="KB Article" id="{a1fc05f6-00f2-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_kmcatalogitem" parentDisplayName="KM Catalog Item" solution="govcdm_knowledgemanagement (1.0.1.1)" />
+        <Dependent type="26" schemaName="New KM Catalog Items" displayName="New KM Catalog Items" parentSchemaName="govcdm_kmcatalogitem" parentDisplayName="KM Catalog Item" id="{8cb26a5c-cc96-ef11-ac21-001dd8308e26}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_kmcatalogitem" parentDisplayName="KM Catalog Item" solution="govcdm_knowledgemanagement (1.0.1.1)" />
+        <Dependent type="26" schemaName="Active KM Catalog Items" displayName="Active KM Catalog Items" parentSchemaName="govcdm_kmcatalogitem" parentDisplayName="KM Catalog Item" id="{972d61ab-4a37-402c-833f-9b49719207c0}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_kmcatalogitem" parentDisplayName="KM Catalog Item" solution="govcdm_knowledgemanagement (1.0.1.1)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="KM Catalog Item" id="{23daf43a-7395-ef11-ac21-001dd804e2ae}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_kmcatalogitem" parentDisplayName="KM Catalog Item" solution="govcdm_knowledgemanagement (1.0.1.1)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="KM Catalog Item" id="{ed6ccf9d-d4b8-4547-ab25-8913b56ec624}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_kmcatalogitempoc" parentDisplayName="KM Catalog Item POC" solution="govcdm_knowledgemanagement (1.0.1.1)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="KM Catalog Item POC" id="{076dfb61-7395-ef11-ac21-001dd830706f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_kmcatalogitemrelation" parentDisplayName="KM Catalog Item Relation" solution="govcdm_knowledgemanagement (1.0.1.1)" />
+        <Dependent type="26" schemaName="To Items" displayName="To Items" parentSchemaName="govcdm_kmcatalogitemrelation" parentDisplayName="KM Catalog Item Relation" id="{13faf553-726d-4fe0-9da9-e7621bd4822e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_kmcatalogitemrelation" parentDisplayName="KM Catalog Item Relation" solution="govcdm_knowledgemanagement (1.0.1.1)" />
+        <Dependent type="26" schemaName="From Items" displayName="From Items" parentSchemaName="govcdm_kmcatalogitemrelation" parentDisplayName="KM Catalog Item Relation" id="{ad8055ab-7295-ef11-ac21-001dd8308e26}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_kmcatalogitemrelation" parentDisplayName="KM Catalog Item Relation" solution="govcdm_knowledgemanagement (1.0.1.1)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="KM Catalog Item Relation" id="{40b9a121-4bf1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_kmcatalogitemrelation" parentDisplayName="KM Catalog Item Relation" solution="govcdm_knowledgemanagement (1.0.1.1)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="KM Catalog Item Relation" id="{a78a4bd4-7395-ef11-ac21-001dd804e2ae}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_kmcatalogitemrelation" parentDisplayName="KM Catalog Item Relation" solution="govcdm_knowledgemanagement (1.0.1.1)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="KM Catalog Item Relation" id="{f9a80ce1-b2f9-429a-a5ef-06e70b5e69d2}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_kmcatalogitemtype" parentDisplayName="KM Catalog Item Type" solution="govcdm_knowledgemanagement (1.0.1.1)" />
+        <Dependent type="26" schemaName="Active KM Catalog Item Types" displayName="Active KM Catalog Item Types" parentSchemaName="govcdm_kmcatalogitemtype" parentDisplayName="KM Catalog Item Type" id="{7eb955cd-29c0-4fec-9251-a4886bfbc5a8}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_kmcatalogitemtype" parentDisplayName="KM Catalog Item Type" solution="govcdm_knowledgemanagement (1.0.1.1)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="KM Catalog Item Type" id="{67ed4f2e-7495-ef11-ac21-001dd809427e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_kmcatalogitemtype" parentDisplayName="KM Catalog Item Type" solution="govcdm_knowledgemanagement (1.0.1.1)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="KM Catalog Item Type" id="{9a994aef-ade0-4fbc-8332-aea50c2412d2}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_kmcategory" parentDisplayName="KM Category" solution="govcdm_knowledgemanagement (1.0.1.1)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="KM Category" id="{7d80444d-7495-ef11-ac21-001dd830706f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_parentkmcatalogitem" displayName="Parent KM Catalog Item" parentSchemaName="govcdm_kmcatalogitem" parentDisplayName="KM Catalog Item" solution="govcdm_knowledgemanagement (1.0.1.1)" />
+        <Dependent type="26" schemaName="New KM Catalog Items" displayName="New KM Catalog Items" parentSchemaName="govcdm_kmcatalogitem" parentDisplayName="KM Catalog Item" id="{8cb26a5c-cc96-ef11-ac21-001dd8308e26}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_parentkmcatalogitem" displayName="Parent KM Catalog Item" parentSchemaName="govcdm_kmcatalogitem" parentDisplayName="KM Catalog Item" solution="govcdm_knowledgemanagement (1.0.1.1)" />
+        <Dependent type="26" schemaName="Active KM Catalog Items" displayName="Active KM Catalog Items" parentSchemaName="govcdm_kmcatalogitem" parentDisplayName="KM Catalog Item" id="{972d61ab-4a37-402c-833f-9b49719207c0}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_parentkmcatalogitem" displayName="Parent KM Catalog Item" parentSchemaName="govcdm_kmcatalogitem" parentDisplayName="KM Catalog Item" solution="govcdm_knowledgemanagement (1.0.1.1)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="KM Catalog Item" id="{23daf43a-7395-ef11-ac21-001dd804e2ae}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_parentkmcatalogitem" displayName="Parent KM Catalog Item" parentSchemaName="govcdm_kmcatalogitem" parentDisplayName="KM Catalog Item" solution="govcdm_knowledgemanagement (1.0.1.1)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="KM Catalog Item" id="{ed6ccf9d-d4b8-4547-ab25-8913b56ec624}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_person" displayName="Person" parentSchemaName="govcdm_kmcatalogitempoc" parentDisplayName="KM Catalog Item POC" solution="govcdm_knowledgemanagement (1.0.1.1)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="KM Catalog Item POC" id="{076dfb61-7395-ef11-ac21-001dd830706f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_primarypoc" displayName="Primary POC" parentSchemaName="govcdm_kmcatalogitem" parentDisplayName="KM Catalog Item" solution="govcdm_knowledgemanagement (1.0.1.1)" />
+        <Dependent type="26" schemaName="New KM Catalog Items" displayName="New KM Catalog Items" parentSchemaName="govcdm_kmcatalogitem" parentDisplayName="KM Catalog Item" id="{8cb26a5c-cc96-ef11-ac21-001dd8308e26}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_primarypoc" displayName="Primary POC" parentSchemaName="govcdm_kmcatalogitem" parentDisplayName="KM Catalog Item" solution="govcdm_knowledgemanagement (1.0.1.1)" />
+        <Dependent type="26" schemaName="Active KM Catalog Items" displayName="Active KM Catalog Items" parentSchemaName="govcdm_kmcatalogitem" parentDisplayName="KM Catalog Item" id="{972d61ab-4a37-402c-833f-9b49719207c0}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_primarypoc" displayName="Primary POC" parentSchemaName="govcdm_kmcatalogitem" parentDisplayName="KM Catalog Item" solution="govcdm_knowledgemanagement (1.0.1.1)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="KM Catalog Item" id="{23daf43a-7395-ef11-ac21-001dd804e2ae}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_primarypoc" displayName="Primary POC" parentSchemaName="govcdm_kmcatalogitem" parentDisplayName="KM Catalog Item" solution="govcdm_knowledgemanagement (1.0.1.1)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="KM Catalog Item" id="{ed6ccf9d-d4b8-4547-ab25-8913b56ec624}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_publicationstatus" displayName="Publication Status" parentSchemaName="govcdm_kmcatalogitem" parentDisplayName="KM Catalog Item" solution="govcdm_knowledgemanagement (1.0.1.1)" />
+        <Dependent type="26" schemaName="New KM Catalog Items" displayName="New KM Catalog Items" parentSchemaName="govcdm_kmcatalogitem" parentDisplayName="KM Catalog Item" id="{8cb26a5c-cc96-ef11-ac21-001dd8308e26}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_publicationstatus" displayName="Publication Status" parentSchemaName="govcdm_kmcatalogitem" parentDisplayName="KM Catalog Item" solution="govcdm_knowledgemanagement (1.0.1.1)" />
+        <Dependent type="26" schemaName="Active KM Catalog Items" displayName="Active KM Catalog Items" parentSchemaName="govcdm_kmcatalogitem" parentDisplayName="KM Catalog Item" id="{972d61ab-4a37-402c-833f-9b49719207c0}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_publicationstatus" displayName="Publication Status" parentSchemaName="govcdm_kmcatalogitem" parentDisplayName="KM Catalog Item" solution="govcdm_knowledgemanagement (1.0.1.1)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="KM Catalog Item" id="{23daf43a-7395-ef11-ac21-001dd804e2ae}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_publicationstatus" displayName="Publication Status" parentSchemaName="govcdm_kmcatalogitem" parentDisplayName="KM Catalog Item" solution="govcdm_knowledgemanagement (1.0.1.1)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="KM Catalog Item" id="{ed6ccf9d-d4b8-4547-ab25-8913b56ec624}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_publicationstatus" displayName="Publication Status" parentSchemaName="govcdm_kmcatalogitemrelation" parentDisplayName="KM Catalog Item Relation" solution="govcdm_knowledgemanagement (1.0.1.1)" />
+        <Dependent type="26" schemaName="To Items" displayName="To Items" parentSchemaName="govcdm_kmcatalogitemrelation" parentDisplayName="KM Catalog Item Relation" id="{13faf553-726d-4fe0-9da9-e7621bd4822e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_publicationstatus" displayName="Publication Status" parentSchemaName="govcdm_kmcatalogitemrelation" parentDisplayName="KM Catalog Item Relation" solution="govcdm_knowledgemanagement (1.0.1.1)" />
+        <Dependent type="26" schemaName="From Items" displayName="From Items" parentSchemaName="govcdm_kmcatalogitemrelation" parentDisplayName="KM Catalog Item Relation" id="{ad8055ab-7295-ef11-ac21-001dd8308e26}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_publicationstatus" displayName="Publication Status" parentSchemaName="govcdm_kmcatalogitemrelation" parentDisplayName="KM Catalog Item Relation" solution="govcdm_knowledgemanagement (1.0.1.1)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="KM Catalog Item Relation" id="{a78a4bd4-7395-ef11-ac21-001dd804e2ae}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_publicationstatus" displayName="Publication Status" parentSchemaName="govcdm_kmcatalogitemrelation" parentDisplayName="KM Catalog Item Relation" solution="govcdm_knowledgemanagement (1.0.1.1)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="KM Catalog Item Relation" id="{f9a80ce1-b2f9-429a-a5ef-06e70b5e69d2}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_shorturl" displayName="Short URL" parentSchemaName="govcdm_kbarticle" parentDisplayName="KB Article" solution="govcdm_knowledgemanagement (1.0.1.1)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="KB Article" id="{a1fc05f6-00f2-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_toitem" displayName="To Item" parentSchemaName="govcdm_kmcatalogitemrelation" parentDisplayName="KM Catalog Item Relation" solution="govcdm_knowledgemanagement (1.0.1.1)" />
+        <Dependent type="26" schemaName="To Items" displayName="To Items" parentSchemaName="govcdm_kmcatalogitemrelation" parentDisplayName="KM Catalog Item Relation" id="{13faf553-726d-4fe0-9da9-e7621bd4822e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_toitem" displayName="To Item" parentSchemaName="govcdm_kmcatalogitemrelation" parentDisplayName="KM Catalog Item Relation" solution="govcdm_knowledgemanagement (1.0.1.1)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="KM Catalog Item Relation" id="{40b9a121-4bf1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_toitem" displayName="To Item" parentSchemaName="govcdm_kmcatalogitemrelation" parentDisplayName="KM Catalog Item Relation" solution="govcdm_knowledgemanagement (1.0.1.1)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="KM Catalog Item Relation" id="{a78a4bd4-7395-ef11-ac21-001dd804e2ae}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_toitem" displayName="To Item" parentSchemaName="govcdm_kmcatalogitemrelation" parentDisplayName="KM Catalog Item Relation" solution="govcdm_knowledgemanagement (1.0.1.1)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="KM Catalog Item Relation" id="{f9a80ce1-b2f9-429a-a5ef-06e70b5e69d2}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_url" displayName="URL" parentSchemaName="govcdm_kmcatalogitem" parentDisplayName="KM Catalog Item" solution="govcdm_knowledgemanagement (1.0.1.1)" />
+        <Dependent type="26" schemaName="New KM Catalog Items" displayName="New KM Catalog Items" parentSchemaName="govcdm_kmcatalogitem" parentDisplayName="KM Catalog Item" id="{8cb26a5c-cc96-ef11-ac21-001dd8308e26}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_url" displayName="URL" parentSchemaName="govcdm_kmcatalogitem" parentDisplayName="KM Catalog Item" solution="govcdm_knowledgemanagement (1.0.1.1)" />
+        <Dependent type="26" schemaName="Active KM Catalog Items" displayName="Active KM Catalog Items" parentSchemaName="govcdm_kmcatalogitem" parentDisplayName="KM Catalog Item" id="{972d61ab-4a37-402c-833f-9b49719207c0}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_url" displayName="URL" parentSchemaName="govcdm_kmcatalogitem" parentDisplayName="KM Catalog Item" solution="govcdm_knowledgemanagement (1.0.1.1)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="KM Catalog Item" id="{23daf43a-7395-ef11-ac21-001dd804e2ae}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_url" displayName="URL" parentSchemaName="govcdm_kmcatalogitem" parentDisplayName="KM Catalog Item" solution="govcdm_knowledgemanagement (1.0.1.1)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="KM Catalog Item" id="{ed6ccf9d-d4b8-4547-ab25-8913b56ec624}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_urlmoniker" displayName="URL Moniker" parentSchemaName="govcdm_kbarticle" parentDisplayName="KB Article" solution="govcdm_knowledgemanagement (1.0.1.1)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="KB Article" id="{a1fc05f6-00f2-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_userscancreate" displayName="Users Can Create" parentSchemaName="govcdm_kmcatalogitemtype" parentDisplayName="KM Catalog Item Type" solution="govcdm_knowledgemanagement (1.0.1.1)" />
+        <Dependent type="26" schemaName="Active KM Catalog Item Types" displayName="Active KM Catalog Item Types" parentSchemaName="govcdm_kmcatalogitemtype" parentDisplayName="KM Catalog Item Type" id="{7eb955cd-29c0-4fec-9251-a4886bfbc5a8}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_userscancreate" displayName="Users Can Create" parentSchemaName="govcdm_kmcatalogitemtype" parentDisplayName="KM Catalog Item Type" solution="govcdm_knowledgemanagement (1.0.1.1)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="KM Catalog Item Type" id="{67ed4f2e-7495-ef11-ac21-001dd809427e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_userscancreate" displayName="Users Can Create" parentSchemaName="govcdm_kmcatalogitemtype" parentDisplayName="KM Catalog Item Type" solution="govcdm_knowledgemanagement (1.0.1.1)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="KM Catalog Item Type" id="{9a994aef-ade0-4fbc-8332-aea50c2412d2}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="govcdm_kmcatalogitem" parentDisplayName="KM Catalog Item" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="KM Catalog Item" id="{ed6ccf9d-d4b8-4547-ab25-8913b56ec624}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="govcdm_kmcatalogitemrelation" parentDisplayName="KM Catalog Item Relation" solution="Active" />
+        <Dependent type="60" displayName="Main" parentDisplayName="KM Catalog Item Relation" id="{40b9a121-4bf1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="govcdm_kmcatalogitemrelation" parentDisplayName="KM Catalog Item Relation" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="KM Catalog Item Relation" id="{f9a80ce1-b2f9-429a-a5ef-06e70b5e69d2}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="govcdm_kmcatalogitemtype" parentDisplayName="KM Catalog Item Type" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="KM Catalog Item Type" id="{9a994aef-ade0-4fbc-8332-aea50c2412d2}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="statecode" displayName="Status" parentSchemaName="govcdm_kmcatalogitem" parentDisplayName="KM Catalog Item" solution="govcdm_knowledgemanagement (1.0.1.1)" />
+        <Dependent type="26" schemaName="Active KM Catalog Items" displayName="Active KM Catalog Items" parentSchemaName="govcdm_kmcatalogitem" parentDisplayName="KM Catalog Item" id="{972d61ab-4a37-402c-833f-9b49719207c0}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="statecode" displayName="Status" parentSchemaName="govcdm_kmcatalogitemrelation" parentDisplayName="KM Catalog Item Relation" solution="govcdm_knowledgemanagement (1.0.1.1)" />
+        <Dependent type="26" schemaName="To Items" displayName="To Items" parentSchemaName="govcdm_kmcatalogitemrelation" parentDisplayName="KM Catalog Item Relation" id="{13faf553-726d-4fe0-9da9-e7621bd4822e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="statecode" displayName="Status" parentSchemaName="govcdm_kmcatalogitemrelation" parentDisplayName="KM Catalog Item Relation" solution="govcdm_knowledgemanagement (1.0.1.1)" />
+        <Dependent type="26" schemaName="From Items" displayName="From Items" parentSchemaName="govcdm_kmcatalogitemrelation" parentDisplayName="KM Catalog Item Relation" id="{ad8055ab-7295-ef11-ac21-001dd8308e26}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="statecode" displayName="Status" parentSchemaName="govcdm_kmcatalogitemtype" parentDisplayName="KM Catalog Item Type" solution="govcdm_knowledgemanagement (1.0.1.1)" />
+        <Dependent type="26" schemaName="Active KM Catalog Item Types" displayName="Active KM Catalog Item Types" parentSchemaName="govcdm_kmcatalogitemtype" parentDisplayName="KM Catalog Item Type" id="{7eb955cd-29c0-4fec-9251-a4886bfbc5a8}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Active KM Catalog Item POCs" displayName="Active KM Catalog Item POCs" parentSchemaName="govcdm_kmcatalogitempoc" parentDisplayName="KM Catalog Item POC" solution="govcdm_knowledgemanagement (1.0.1.1)" id="{86ffda0e-38bc-45fa-8133-cc40e7ef734d}" />
+        <Dependent type="60" displayName="Information" parentDisplayName="KM Catalog Item" id="{ed6ccf9d-d4b8-4547-ab25-8913b56ec624}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Active KM Catalog Item Types" displayName="Active KM Catalog Item Types" parentSchemaName="govcdm_kmcatalogitemtype" parentDisplayName="KM Catalog Item Type" solution="govcdm_knowledgemanagement (1.0.1.1)" id="{7eb955cd-29c0-4fec-9251-a4886bfbc5a8}" />
+        <Dependent type="26" schemaName="Active KM Catalog Item Types" displayName="Active KM Catalog Item Types" parentSchemaName="govcdm_kmcatalogitemtype" parentDisplayName="KM Catalog Item Type" id="{7eb955cd-29c0-4fec-9251-a4886bfbc5a8}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Active KM Catalog Items" displayName="Active KM Catalog Items" parentSchemaName="govcdm_kmcatalogitem" parentDisplayName="KM Catalog Item" solution="govcdm_knowledgemanagement (1.0.1.1)" id="{972d61ab-4a37-402c-833f-9b49719207c0}" />
+        <Dependent type="26" schemaName="Active KM Catalog Items" displayName="Active KM Catalog Items" parentSchemaName="govcdm_kmcatalogitem" parentDisplayName="KM Catalog Item" id="{972d61ab-4a37-402c-833f-9b49719207c0}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Inactive KM Catalog Items" displayName="Inactive KM Catalog Items" parentSchemaName="govcdm_kmcatalogitem" parentDisplayName="KM Catalog Item" solution="govcdm_knowledgemanagement (1.0.1.1)" id="{8dc4a940-7b9e-4a6a-9ec5-d2ce94a1a634}" />
+        <Dependent type="80" schemaName="msgov_KnowledgeManagement" displayName="Knowledge Management" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="To Items" displayName="To Items" parentSchemaName="govcdm_kmcatalogitemrelation" parentDisplayName="KM Catalog Item Relation" solution="govcdm_knowledgemanagement (1.0.1.1)" id="{13faf553-726d-4fe0-9da9-e7621bd4822e}" />
+        <Dependent type="26" schemaName="To Items" displayName="To Items" parentSchemaName="govcdm_kmcatalogitemrelation" parentDisplayName="KM Catalog Item Relation" id="{13faf553-726d-4fe0-9da9-e7621bd4822e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Quick Create" parentDisplayName="KM Catalog Item POC" solution="govcdm_knowledgemanagement (1.0.1.1)" id="{076dfb61-7395-ef11-ac21-001dd830706f}" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="KM Catalog Item POC" id="{076dfb61-7395-ef11-ac21-001dd830706f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Quick Create" parentDisplayName="KM Catalog Item" solution="govcdm_knowledgemanagement (1.0.1.1)" id="{23daf43a-7395-ef11-ac21-001dd804e2ae}" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="KM Catalog Item" id="{23daf43a-7395-ef11-ac21-001dd804e2ae}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Quick Create" parentDisplayName="KM Catalog Item Type" solution="govcdm_knowledgemanagement (1.0.1.1)" id="{67ed4f2e-7495-ef11-ac21-001dd809427e}" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="KM Catalog Item Type" id="{67ed4f2e-7495-ef11-ac21-001dd809427e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Information" parentDisplayName="KM Catalog Item POC" solution="govcdm_knowledgemanagement (1.0.1.1)" id="{76c87cce-73aa-4cb8-9fb4-03e556d02e42}" />
+        <Dependent type="80" schemaName="msgov_KnowledgeManagement" displayName="Knowledge Management" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Quick Create" parentDisplayName="KM Category" solution="govcdm_knowledgemanagement (1.0.1.1)" id="{7d80444d-7495-ef11-ac21-001dd830706f}" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="KM Category" id="{7d80444d-7495-ef11-ac21-001dd830706f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Information" parentDisplayName="KM Catalog Item Type" solution="govcdm_knowledgemanagement (1.0.1.1)" id="{9a994aef-ade0-4fbc-8332-aea50c2412d2}" />
+        <Dependent type="60" displayName="Information" parentDisplayName="KM Catalog Item Type" id="{9a994aef-ade0-4fbc-8332-aea50c2412d2}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Quick Create" parentDisplayName="KM Catalog Item Relation" solution="govcdm_knowledgemanagement (1.0.1.1)" id="{a78a4bd4-7395-ef11-ac21-001dd804e2ae}" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="KM Catalog Item Relation" id="{a78a4bd4-7395-ef11-ac21-001dd804e2ae}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Information" parentDisplayName="KM Category" solution="govcdm_knowledgemanagement (1.0.1.1)" id="{c6839428-8936-438e-b58f-8fe3c4e066e0}" />
+        <Dependent type="80" schemaName="msgov_KnowledgeManagement" displayName="Knowledge Management" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Information" parentDisplayName="KM Catalog Item" solution="govcdm_knowledgemanagement (1.0.1.1)" id="{ed6ccf9d-d4b8-4547-ab25-8913b56ec624}" />
+        <Dependent type="60" displayName="Information" parentDisplayName="KM Catalog Item" id="{ed6ccf9d-d4b8-4547-ab25-8913b56ec624}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Information" parentDisplayName="KM Catalog Item Relation" solution="govcdm_knowledgemanagement (1.0.1.1)" id="{f9a80ce1-b2f9-429a-a5ef-06e70b5e69d2}" />
+        <Dependent type="60" displayName="Information" parentDisplayName="KM Catalog Item Relation" id="{f9a80ce1-b2f9-429a-a5ef-06e70b5e69d2}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="msdyn_/Images/AppModule_Default_Icon.png" displayName="msdyn_/Images/AppModule_Default_Icon.png" solution="AppModuleWebResources (2.5)">
+          <package appName="AppModule Web Resources Package" version="2.5">AppModuleWebResources (2.5)</package>
+        </Required>
+        <Dependent type="80" schemaName="msgov_KnowledgeManagement" displayName="Knowledge Management" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="9" schemaName="govcdm_yesno" displayName="Yes No" solution="govcdm_core (1.0.2.2)" />
+        <Dependent type="2" schemaName="msgov_iskmteam" displayName="Is KM Team" parentSchemaName="team" parentDisplayName="Team" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="SettingDefinition" displayName="AppChannel" solution="msdyn_AppFrameworkInfraExtensions (1.0.0.15)" id.uniquename="AppChannel">
+          <package appName="PowerAppsAppFramework Package" version="1.0.0.22">PowerAppsAppFramework_Anchor (1.0.0.22)</package>
+        </Required>
+        <Dependent type="AppSetting" displayName="parentappmoduleid.uniquename=msgov_KnowledgeManagement,settingdefinitionid.uniquename=AppChannel" id.parentappmoduleid.uniquename="msgov_KnowledgeManagement" id.settingdefinitionid.uniquename="AppChannel" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="SettingDefinition" displayName="appcopilotenabled" solution="msdyn_AppCopilotAppInfraSettings (9.2.2025062.250606027)" id.uniquename="appcopilotenabled">
+          <package appName="PowerAppsAppCopilotApp Package" version="1.0.0.2">msdyn_SuggestedAction (1.0.0.2)</package>
+        </Required>
+        <Dependent type="AppSetting" displayName="parentappmoduleid.uniquename=msgov_KnowledgeManagement,settingdefinitionid.uniquename=appcopilotenabled" id.parentappmoduleid.uniquename="msgov_KnowledgeManagement" id.settingdefinitionid.uniquename="appcopilotenabled" />
+      </MissingDependency>
+    </MissingDependencies>
+  </SolutionManifest>
+</ImportExportXml>
