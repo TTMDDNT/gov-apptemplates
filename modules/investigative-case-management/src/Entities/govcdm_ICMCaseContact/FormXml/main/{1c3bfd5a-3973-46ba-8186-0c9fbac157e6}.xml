@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{1c3bfd5a-3973-46ba-8186-0c9fbac157e6}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls" solutionaction="Modified">
+      <tabs>
+        <tab verticallayout="true" id="{afd7a61a-e6cb-400c-9ebe-2a654782af8d}" IsUserDefined="1" ordinalvalue="0">
+          <columns>
+            <column width="100%" id="0">
+              <sections>
+                <section showlabel="true" showbar="false" IsUserDefined="0" id="{1e6493cf-271f-45ca-add6-b2dd00b74049}" ordinalvalue="0" solutionaction="Modified">
+                  <labels>
+                    <label description="Identification" languagecode="1033" solutionaction="Modified" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{17a51449-8fe8-42cd-af61-e514907dedc9}" ordinalvalue="10002" solutionaction="Modified" />
+                    </row>
+                    <row>
+                      <cell id="{8bbcb296-66c8-497d-adbd-dfba07cdabc5}" colspan="1" rowspan="1" ordinalvalue="10004" solutionaction="Modified" />
+                    </row>
+                    <row>
+                      <cell id="{7e8895b1-a798-4fbd-9fe0-8bd735b12421}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10000" solutionaction="Added">
+                        <labels>
+                          <label description="ICM Case Contact Type" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_icmcasecontacttype" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="govcdm_icmcasecontacttype" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ac0007d2-69b1-42de-ae4d-0eea06a1d588}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10001" solutionaction="Added">
+                        <labels>
+                          <label description="Remain Anonymous" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_remainanonymous" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="govcdm_remainanonymous" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{85a2030a-b613-4485-8861-71de79419e26}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10003" solutionaction="Added">
+                        <labels>
+                          <label description="Details" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_details" classid="{E0DECE4B-6FC8-4A8F-A065-082708572369}" datafieldname="govcdm_details" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="null_section_3" id="4b3d926a-f195-4d30-a30e-5e2ba149a857" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="11" labelwidth="115" ordinalvalue="1" solutionaction="Added">
+                  <labels>
+                    <label description="Contact Information" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{9112e350-16e3-4db5-a49a-4342469876dd}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10000">
+                        <labels>
+                          <label description="Person" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_person" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="govcdm_person" disabled="false" />
+                      </cell>
+                      <cell id="{583ec6be-3a31-44f4-af86-a6ae581532d3}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="20001">
+                        <labels>
+                          <label description="Preferred Method of Contact" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_preferredmethodofcontact" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="govcdm_preferredmethodofcontact" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{27ffdeec-75b9-4d20-8935-50b6b2c57970}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10002">
+                        <labels>
+                          <label description="First Name" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_firstname" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="govcdm_firstname" disabled="false" />
+                      </cell>
+                      <cell id="{26362f46-355a-462b-bc66-581b2a3ae928}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="20003">
+                        <labels>
+                          <label description="Business Phone" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_businessphone" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="govcdm_businessphone" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{80384dda-e024-4967-b5ea-1c83dd55c762}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10004">
+                        <labels>
+                          <label description="Last Name" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_lastname" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="govcdm_lastname" disabled="false" />
+                      </cell>
+                      <cell id="{06c0e9a1-58bf-4abd-98c1-c365b6117baf}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="20005">
+                        <labels>
+                          <label description="Home Phone" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_homephone" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="govcdm_homephone" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c1b7f953-8acc-40c2-a2f3-13240bf88796}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10006">
+                        <labels>
+                          <label description="Email Address" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_emailaddress" classid="{ADA2203E-B4CD-49BE-9DDF-234642B43B52}" datafieldname="govcdm_emailaddress" disabled="false" />
+                      </cell>
+                      <cell id="{299fba0f-e76c-425b-8142-5cc581a50390}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="20007">
+                        <labels>
+                          <label description="Mobile Phone" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_mobilephone" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="govcdm_mobilephone" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{ccbf0440-8f3b-4870-8d9e-4b66211db7fc}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left" solutionaction="Added">
+        <rows>
+          <row>
+            <cell id="{159c10a4-7cc9-4581-8a36-e2491e189fef}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10000">
+              <labels>
+                <label description="ICM Case" languagecode="1033" />
+              </labels>
+              <control id="header_govcdm_icmcase" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="govcdm_icmcase" disabled="false" />
+            </cell>
+            <cell id="{d0c4adb2-2b77-437f-b7a8-7736a95c1cd4}" showlabel="false" ordinalvalue="20001">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{bc96d992-e7eb-4856-b3cd-9088d01baab8}" showlabel="false" ordinalvalue="30002">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{767edff9-e117-4543-a565-c89f3cdeae02}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left" solutionaction="Added">
+        <rows></rows>
+      </footer>
+      <DisplayConditions Order="0" FallbackForm="true" solutionaction="Added">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{b4d619a1-66ab-ef11-b8e9-001dd804e2ae}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab id="F931FFE2-B873-473F-8F95-9502F0AA3F5E" name="tab_1" showlabel="false" labelid="{c412765f-8545-484a-bf74-65e61374ff30}" ordinalvalue="0">
+          <columns>
+            <column width="34%" id="0">
+              <sections>
+                <section id="0C655D4E-C6E3-424E-9AF5-71E72D30D12E" name="tab_1_column_1_section_1" columns="1" showlabel="true" showbar="false" IsUserDefined="0" labelwidth="130" labelid="{d646d2e6-255c-4751-8065-93b5485a9c89}" ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell id="542FBFBE-0E4C-496C-8012-555DE6581923" labelid="{d20616b8-9b2a-488e-b288-8aa984a2252a}" ordinalvalue="10000" solutionaction="Removed" />
+                    </row>
+                    <row>
+                      <cell id="{2ad13f96-8463-47b9-85ae-b93849385e59}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10000" solutionaction="Added">
+                        <labels>
+                          <label description="Originating Lead" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_originatinglead" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="govcdm_originatinglead" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{33033e1d-da3f-4f91-8be8-aa86eea7e5b2}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10001" solutionaction="Added">
+                        <labels>
+                          <label description="Case Opened Date" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_caseopeneddate" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="govcdm_caseopeneddate" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{5ac4e531-961e-4d63-9f19-aaceef676f81}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10002" solutionaction="Added">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_name" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="govcdm_name" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{449bb63c-efee-4df4-b01e-56861c3da4b5}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10003" solutionaction="Added">
+                        <labels>
+                          <label description="Description" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_description" classid="{E0DECE4B-6FC8-4A8F-A065-082708572369}" datafieldname="govcdm_description" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{01c70922-8032-44cb-bcd9-991254f8d7ea}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10004" solutionaction="Added">
+                        <labels>
+                          <label description="Security Classification" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_securityclassification" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="govcdm_securityclassification" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b8717ff1-69f5-4c2f-b8ae-e581fc29d9cb}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10005" solutionaction="Added">
+                        <labels>
+                          <label description="Judicial District" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_judicialdistrict" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="govcdm_judicialdistrict" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%" id="1">
+              <sections>
+                <section id="02DECBA0-3AE2-484D-A19F-C5353AF4F4F2" name="tab_1_column_2_section_1" columns="1" showlabel="true" showbar="false" IsUserDefined="0" labelwidth="130" labelid="{d7c22a1a-6b8d-42f8-9958-52bda571f316}" ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell id="266FE48D-4D04-4E9A-8C5A-7DEF9A2F059B" labelid="{33157fd7-eae8-49c8-9f8f-6d53ccc7a878}" ordinalvalue="10000" solutionaction="Removed" />
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%" id="2">
+              <sections>
+                <section id="46FD66EA-B686-41D9-AAE0-C565BD78EC1F" name="tab_1_column_3_section_1" columns="1" showlabel="true" showbar="false" IsUserDefined="0" labelwidth="130" labelid="{af03a8d6-0a4a-4c92-ac5a-2e43f422461a}" ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell id="07C04A4E-A482-45CC-BAB7-7FCA3CD02938" labelid="{da3e6fee-40fd-4cdd-9d04-980622237305}" ordinalvalue="10000" solutionaction="Removed" />
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="Quick Create" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>

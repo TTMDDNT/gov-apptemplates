@@ -1,0 +1,10 @@
+<dvtablesearchentity dvtablesearchentityid="20c0b691-cbd9-4f03-b88f-d6a4964a09e5">
+  <dvtablesearch>
+    <dvtablesearchid>a6984fd8-769b-42c6-9768-ad9440595a42</dvtablesearchid>
+  </dvtablesearch>
+  <entitylogicalname>govcdm_icmcasecontact</entitylogicalname>
+  <iscustomizable>0</iscustomizable>
+  <name>govcdm_ICMCaseContact</name>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</dvtablesearchentity>

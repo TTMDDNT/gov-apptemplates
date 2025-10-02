@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppModule>
+  <UniqueName>msgov_InvestigativeCaseManagement</UniqueName>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <WebResourceId>953b9fac-1e5e-e611-80d6-00155ded156f</WebResourceId>
+  <OptimizedFor></OptimizedFor>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+  <FormFactor>1</FormFactor>
+  <ClientType>4</ClientType>
+  <NavigationType>0</NavigationType>
+  <AppModuleComponents>
+    <AppModuleComponent type="1" schemaName="govcdm_icmcase" />
+    <AppModuleComponent type="1" schemaName="govcdm_icmcasecontact" />
+    <AppModuleComponent type="1" schemaName="govcdm_icmcasecontactviolation" />
+    <AppModuleComponent type="1" schemaName="govcdm_icmcaseevidence" />
+    <AppModuleComponent type="1" schemaName="govcdm_icmcaseviolation" />
+    <AppModuleComponent type="1" schemaName="govcdm_icmlead" />
+    <AppModuleComponent type="1" schemaName="govcdm_icmreferral" />
+    <AppModuleComponent type="1" schemaName="govcdm_icmviolation" />
+    <AppModuleComponent type="60" id="{b5fe5e54-3ba9-ef11-8a6a-001dd804e2ae}" />
+    <AppModuleComponent type="60" id="{e370be2a-5aab-ef11-b8e9-001dd804e2ae}" />
+    <AppModuleComponent type="60" id="{b4d619a1-66ab-ef11-b8e9-001dd804e2ae}" />
+    <AppModuleComponent type="60" id="{1c3bfd5a-3973-46ba-8186-0c9fbac157e6}" />
+    <AppModuleComponent type="60" id="{ae3d9f64-7df7-ee11-a1fd-6045bddc9197}" />
+    <AppModuleComponent type="60" id="{436413f2-28eb-4f86-81cf-8029f214dcf0}" />
+    <AppModuleComponent type="60" id="{2879ebef-4a82-4cc2-8231-ca119d6db4fa}" />
+    <AppModuleComponent type="60" id="{00cd75e1-2e3c-4f10-875e-cf58be0664c3}" />
+    <AppModuleComponent type="62" schemaName="msgov_InvestigativeCaseManagement" />
+  </AppModuleComponents>
+  <AppModuleRoleMaps>
+    <Role id="{627090ff-40a3-4053-8790-584edc5be201}" />
+    <Role id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+  </AppModuleRoleMaps>
+  <LocalizedNames>
+    <LocalizedName description="Investigative Case Management" languagecode="1033" />
+  </LocalizedNames>
+  <appelements>
+    <appelement uniquename="msgov_msgov_InvestigativeCaseManagement_canvasappid_msgov_assistantpage_7e2a6">
+      <canvasappid>
+        <name>msgov_assistantpage_7e2a6</name>
+      </canvasappid>
+      <iscustomizable>1</iscustomizable>
+      <name>msgov_msgov_InvestigativeCaseManagement_canvasappid_msgov_assistantpage_7e2a6</name>
+    </appelement>
+  </appelements>
+  <appsettings>
+    <appsetting settingdefinitionid.uniquename="AppChannel">
+      <iscustomizable>1</iscustomizable>
+      <value>1</value>
+    </appsetting>
+    <appsetting settingdefinitionid.uniquename="appcopilotenabled">
+      <iscustomizable>1</iscustomizable>
+      <value>2</value>
+    </appsetting>
+  </appsettings>
+</AppModule>

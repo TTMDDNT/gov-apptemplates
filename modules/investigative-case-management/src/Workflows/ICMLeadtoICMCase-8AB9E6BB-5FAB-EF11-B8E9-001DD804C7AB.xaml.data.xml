@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Workflow WorkflowId="{8ab9e6bb-5fab-ef11-b8e9-001dd804c7ab}" Name="ICM Lead to ICM Case" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <XamlFileName>/Workflows/ICMLeadtoICMCase-8AB9E6BB-5FAB-EF11-B8E9-001DD804C7AB.xaml</XamlFileName>
+  <Type>1</Type>
+  <Subprocess>0</Subprocess>
+  <Category>4</Category>
+  <Mode>0</Mode>
+  <Scope>4</Scope>
+  <OnDemand>0</OnDemand>
+  <TriggerOnCreate>1</TriggerOnCreate>
+  <TriggerOnDelete>0</TriggerOnDelete>
+  <AsyncAutodelete>0</AsyncAutodelete>
+  <SyncWorkflowLogOnFailure>0</SyncWorkflowLogOnFailure>
+  <StateCode>1</StateCode>
+  <StatusCode>2</StatusCode>
+  <processorder>100</processorder>
+  <RunAs>1</RunAs>
+  <UniqueName>msgov_icmleadtoicmcase</UniqueName>
+  <IsTransacted>1</IsTransacted>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <BusinessProcessType>0</BusinessProcessType>
+  <IsCustomProcessingStepAllowedForOtherPublishers>1</IsCustomProcessingStepAllowedForOtherPublishers>
+  <ProcessTriggerScope>1</ProcessTriggerScope>
+  <ModernFlowType>0</ModernFlowType>
+  <PrimaryEntity>govcdm_ICMLead</PrimaryEntity>
+  <LocalizedNames>
+    <LocalizedName languagecode="1033" description="ICM Lead to ICM Case" />
+  </LocalizedNames>
+  <labels>
+    <steplabels id="{3452239a-59a0-412d-8509-d71e3e09083c}">
+      <label languagecode="1033" description="Lead (Intake)" />
+    </steplabels>
+    <steplabels id="{9fc8b2d7-3134-42a9-b133-5b515b68b331}">
+      <label languagecode="1033" description="Name" />
+    </steplabels>
+    <steplabels id="{43337fbd-440d-4349-979e-f83f11cd73ff}">
+      <label languagecode="1033" description="Triage And Assign" />
+    </steplabels>
+    <steplabels id="{4e087590-d09f-4e6d-a6af-e8ffb0e0b045}">
+      <label languagecode="1033" description="Owner" />
+    </steplabels>
+    <steplabels id="{89e731d8-6a43-4a05-9dc0-500a351c15c6}">
+      <label languagecode="1033" description="Informal Complaint" />
+    </steplabels>
+    <steplabels id="{c73c880d-c81d-4120-b95a-c08f42c558e7}">
+      <label languagecode="1033" description="Informal Recommendations" />
+    </steplabels>
+    <steplabels id="{1b185e9f-76e2-461f-8cd8-6b9547d2fe7e}">
+      <label languagecode="1033" description="Formal Complaint" />
+    </steplabels>
+    <steplabels id="{3de4c6ac-de4e-4565-9033-9267654674b4}">
+      <label languagecode="1033" description="Formal Recommendations" />
+    </steplabels>
+    <steplabels id="{b7bceb09-ad8e-4389-9672-0224b8843587}">
+      <label languagecode="1033" description="Closure" />
+    </steplabels>
+    <steplabels id="{db7d450c-876e-4732-a69f-6ff4a14b6a6c}">
+      <label languagecode="1033" description="Case Closure Date" />
+    </steplabels>
+  </labels>
+</Workflow>
