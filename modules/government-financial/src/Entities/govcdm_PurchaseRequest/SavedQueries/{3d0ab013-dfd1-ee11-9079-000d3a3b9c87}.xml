@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{3d0ab013-dfd1-ee11-9079-000d3a3b9c87}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="govcdm_name" select="1" icon="1" preview="1">
+        <row name="result" id="govcdm_purchaserequestid">
+          <cell name="govcdm_name" width="200" />
+          <cell name="govcdm_approvalstatus" width="131" />
+          <cell name="govcdm_budgetlineitem" width="139" />
+          <cell name="govcdm_accountingcontrolnumber" width="201" />
+          <cell name="govcdm_preparationdate" width="135" />
+          <cell name="govcdm_pointofcontact" width="132" />
+          <cell name="govcdm_pointofcontactemail" width="169" />
+          <cell name="govcdm_pointofcontactphone" width="171" />
+          <cell name="govcdm_fromoffice" width="110" />
+          <cell name="govcdm_tooffice" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical">
+        <entity name="govcdm_purchaserequest">
+          <attribute name="govcdm_name" />
+          <attribute name="govcdm_purchaserequestid" />
+          <attribute name="govcdm_preparationdate" />
+          <attribute name="govcdm_pointofcontact" />
+          <attribute name="govcdm_fromoffice" />
+          <attribute name="govcdm_tooffice" />
+          <attribute name="govcdm_pointofcontactemail" />
+          <attribute name="govcdm_pointofcontactphone" />
+          <attribute name="govcdm_accountingcontrolnumber" />
+          <attribute name="govcdm_budgetlineitem" />
+          <attribute name="govcdm_approvalstatus" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Purchase Requests" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{4ca484e4-17ca-49e3-aed3-b97398eb2f58}</formid>
+    <IntroducedVersion>1.0.1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls" shownavigationbar="false">
+      <header id="{ce36bb14-8ac8-417f-970a-510c035b1edb}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows />
+      </header>
+      <footer id="{8cf0b8ca-7465-417c-be5e-3cef69f8379f}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows />
+      </footer>
+      <formLibraries solutionaction="Added">
+        <Library name="msgov_processandtasking" libraryUniqueId="{a45dd787-9659-424a-ae05-f4e42d81fc42}" />
+      </formLibraries>
+      <events solutionaction="Added">
+        <event name="onload" application="false" active="false">
+          <Handlers>
+            <Handler functionName="openActionItemPane" libraryName="msgov_processandtasking" handlerUniqueId="{c990bb56-6638-4ccf-b8d9-20dbadc26b09}" enabled="true" parameters="" passExecutionContext="true" ordinalvalue="0" />
+            <Handler functionName="registerClosePanes" libraryName="msgov_processandtasking" handlerUniqueId="{eb412f30-3fa0-445f-b721-c79df4509f61}" enabled="true" parameters="" passExecutionContext="true" ordinalvalue="1" />
+          </Handlers>
+        </event>
+      </events>
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

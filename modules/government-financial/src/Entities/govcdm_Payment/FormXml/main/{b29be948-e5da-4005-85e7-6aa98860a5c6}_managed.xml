@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{b29be948-e5da-4005-85e7-6aa98860a5c6}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls" shownavigationbar="false" solutionaction="Modified">
+      <tabs>
+        <tab verticallayout="true" id="{13941807-4cb7-4f34-ac13-97adb879a126}" IsUserDefined="1" ordinalvalue="0">
+          <columns>
+            <column width="50%" id="0" solutionaction="Modified">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{1a2c8571-fcd7-4e86-8d16-6024727b3713}" ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell id="{7f5e0d68-6e6b-4525-bdd4-8f32f1393949}" ordinalvalue="10000">
+                        <labels>
+                          <label description="Name" languagecode="1033" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{41be1859-d1b2-4163-a046-ad448d66b824}" colspan="1" rowspan="1" ordinalvalue="10006" solutionaction="Modified">
+                        <labels>
+                          <label description="Owner" languagecode="1033" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0afdfac2-728d-423d-8c02-6af2c68be78c}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10001" solutionaction="Added">
+                        <labels>
+                          <label description="Contract" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_contract" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="govcdm_contract" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ad63a1f5-b605-49a3-93eb-f202c2886ac4}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10002" solutionaction="Added">
+                        <labels>
+                          <label description="Invoice" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_invoice" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="govcdm_invoice" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{1643bb2d-0239-414f-a9b7-a707b697abd1}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10003" solutionaction="Added">
+                        <labels>
+                          <label description="Purchase Request" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_purchaserequest" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="govcdm_purchaserequest" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e16785cd-abb7-46a3-a966-b677b4f509d8}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10004" solutionaction="Added">
+                        <labels>
+                          <label description="Financial Obligation" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_financialobligation" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="govcdm_financialobligation" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{fae2a6a5-0f95-43d3-8f71-3a2449e925c9}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10005" solutionaction="Added">
+                        <labels>
+                          <label description="Treasury Document Number" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_treasurydocumentnumber" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="govcdm_treasurydocumentnumber" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="50%" id="1" solutionaction="Added">
+              <sections>
+                <section name="_section_606" id="1b1fc3b7-5156-4734-84e6-7ef069b2c080" IsUserDefined="0" locklevel="0" showlabel="false" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115" ordinalvalue="0">
+                  <labels>
+                    <label description="New Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{265d1713-65c2-4474-a4aa-e1c075968d97}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10000">
+                        <labels>
+                          <label description="Payment Amount" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_paymentamount" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="govcdm_paymentamount" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{824d3fc3-4f27-4053-9f11-2d5c09606454}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10001">
+                        <labels>
+                          <label description="Initiated By" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_initiatedby" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="govcdm_initiatedby" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{9913dfff-18af-421e-9537-ed06069a8fce}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10002">
+                        <labels>
+                          <label description="Initiated Date" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_initiateddate" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="govcdm_initiateddate" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c5a1172a-c3d7-494d-8220-8b21e52c3aac}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10003">
+                        <labels>
+                          <label description="Justification" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_justification" classid="{E0DECE4B-6FC8-4A8F-A065-082708572369}" datafieldname="govcdm_justification" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0fa46a73-1319-4620-abbe-08900afbe84a}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10004">
+                        <labels>
+                          <label description="Payment Date" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_paymentdate" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="govcdm_paymentdate" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c55cf3fb-335a-4f92-babd-ac4640d1b52c}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10005">
+                        <labels>
+                          <label description="Payment Method" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_paymentmethod" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="govcdm_paymentmethod" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{f816ccce-0b83-45de-971f-9853b69c4a66}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10006">
+                        <labels>
+                          <label description="Payment Status" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_paymentstatus" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="govcdm_paymentstatus" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_2" id="04312f84-6074-455d-b208-edd266a6ba80" IsUserDefined="0" locklevel="0" showlabel="true" visible="false" ordinalvalue="1" solutionaction="Added">
+          <labels>
+            <label description="Process and Tasking" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%" id="0">
+              <sections>
+                <section name="tab_2_section_1" id="6d25b54d-ad8b-4274-b40d-5ecc133bec25" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115" ordinalvalue="0">
+                  <labels>
+                    <label description="New Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{85ff0ff8-8ffb-4728-91e6-57f0a4d62872}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10000">
+                        <labels>
+                          <label description="Process and Tasking State" languagecode="1033" />
+                        </labels>
+                        <control id="msgov_processandtaskingstate" classid="{E0DECE4B-6FC8-4A8F-A065-082708572369}" datafieldname="msgov_processandtaskingstate" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{a2549cf0-fefb-4204-9107-ee439cdb7460}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left" solutionaction="Added">
+        <rows></rows>
+      </header>
+      <footer id="{77afdbfc-11ee-4d21-97ae-e9fbc255a31c}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left" solutionaction="Added">
+        <rows></rows>
+      </footer>
+      <DisplayConditions Order="0" FallbackForm="true" solutionaction="Added">
+        <Everyone />
+      </DisplayConditions>
+      <formLibraries solutionaction="Added">
+        <Library name="msgov_processandtasking" libraryUniqueId="{1c23c246-c190-4677-85c5-1094cd4556c3}" />
+      </formLibraries>
+      <events solutionaction="Added">
+        <event name="onload" application="false" active="false">
+          <Handlers>
+            <Handler functionName="openActionItemPane" libraryName="msgov_processandtasking" handlerUniqueId="{51473bbd-d538-44b1-958d-970c0b3df479}" enabled="true" parameters="" passExecutionContext="true" ordinalvalue="0" />
+            <Handler functionName="registerClosePanes" libraryName="msgov_processandtasking" handlerUniqueId="{b1c39e62-1ed2-4634-aa7b-8bbd1bc39fae}" enabled="true" parameters="" passExecutionContext="true" ordinalvalue="1" />
+          </Handlers>
+        </event>
+      </events>
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

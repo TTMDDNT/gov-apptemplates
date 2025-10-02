@@ -1,0 +1,294 @@
+{
+  "properties": {
+    "connectionReferences": {
+      "shared_approvals": {
+        "runtimeSource": "invoker",
+        "connection": {
+          "connectionReferenceLogicalName": "msgov_sharedapprovals_61812"
+        },
+        "api": {
+          "name": "shared_approvals"
+        }
+      },
+      "shared_teams": {
+        "runtimeSource": "invoker",
+        "connection": {
+          "connectionReferenceLogicalName": "msgov_sharedteams_d3a6c"
+        },
+        "api": {
+          "name": "shared_teams"
+        }
+      },
+      "shared_commondataserviceforapps-1": {
+        "runtimeSource": "embedded",
+        "connection": {
+          "connectionReferenceLogicalName": "msgov_sharedcommondataserviceforapps_d7f8d"
+        },
+        "api": {
+          "name": "shared_commondataserviceforapps"
+        }
+      }
+    },
+    "definition": {
+      "$schema": "https://schema.management.azure.com/providers/Microsoft.Logic/schemas/2016-06-01/workflowdefinition.json#",
+      "contentVersion": "1.0.0.0",
+      "parameters": {
+        "$authentication": {
+          "defaultValue": {},
+          "type": "SecureObject"
+        },
+        "$connections": {
+          "defaultValue": {},
+          "type": "Object"
+        }
+      },
+      "triggers": {
+        "manual": {
+          "metadata": {
+            "operationMetadataId": "d8a5fed5-b43a-4afb-8b23-813ae5b571cc"
+          },
+          "type": "Request",
+          "kind": "PowerAppV2",
+          "inputs": {
+            "schema": {
+              "type": "object",
+              "properties": {
+                "email": {
+                  "title": "RequesterEmail",
+                  "type": "string",
+                  "format": "email",
+                  "x-ms-dynamically-added": true,
+                  "description": "Please enter Requester e-mail address",
+                  "x-ms-content-hint": "EMAIL"
+                },
+                "email_1": {
+                  "title": "ApproverEmail",
+                  "type": "string",
+                  "format": "email",
+                  "x-ms-dynamically-added": true,
+                  "description": "Please enter Approver e-mail address",
+                  "x-ms-content-hint": "EMAIL"
+                },
+                "text": {
+                  "title": "Approval Title",
+                  "type": "string",
+                  "x-ms-dynamically-added": true,
+                  "description": "Please enter your Approval Title Request",
+                  "x-ms-content-hint": "TEXT"
+                },
+                "text_1": {
+                  "title": "Item Link",
+                  "type": "string",
+                  "x-ms-dynamically-added": true,
+                  "description": "Please enter an Item Link",
+                  "x-ms-content-hint": "TEXT"
+                },
+                "text_2": {
+                  "title": "Link Name",
+                  "type": "string",
+                  "x-ms-dynamically-added": true,
+                  "description": "Please enter a Link Name to use for the Item Link",
+                  "x-ms-content-hint": "TEXT"
+                },
+                "number": {
+                  "title": "Amount",
+                  "type": "number",
+                  "x-ms-dynamically-added": true,
+                  "description": "Enter the total Purchase Request Amount",
+                  "x-ms-content-hint": "NUMBER"
+                },
+                "text_3": {
+                  "title": "Purchase Request ID",
+                  "type": "string",
+                  "x-ms-dynamically-added": true,
+                  "description": "Please enter the ID of the Purchase Request",
+                  "x-ms-content-hint": "TEXT"
+                }
+              },
+              "required": [
+                "email",
+                "email_1",
+                "text",
+                "text_1",
+                "text_2",
+                "number",
+                "text_3"
+              ]
+            }
+          }
+        }
+      },
+      "actions": {
+        "Check_Amount": {
+          "actions": {
+            "Start_an_approval": {
+              "metadata": {
+                "operationMetadataId": "d0a4f08c-8b7b-456d-b84b-a1aba8a582d0"
+              },
+              "type": "OpenApiConnectionWebhook",
+              "inputs": {
+                "parameters": {
+                  "approvalType": "Basic",
+                  "ApprovalCreationInput/title": "@triggerBody()['text']",
+                  "ApprovalCreationInput/assignedTo": "@{triggerBody()['email_1']};",
+                  "ApprovalCreationInput/details": "@{triggerBody()['text_2']} in the amount of @{formatNumber(triggerBody()['number'], 'C')} is awaiting your review. Please click the link below to open this request directly. When ready, use the Approve or Reject buttons to indicate a decision.",
+                  "ApprovalCreationInput/itemLink": "@triggerBody()['text_1']",
+                  "ApprovalCreationInput/itemLinkDescription": "@triggerBody()['text_2']",
+                  "ApprovalCreationInput/requestor": "@{triggerBody()['email']};",
+                  "ApprovalCreationInput/enableNotifications": true
+                },
+                "host": {
+                  "apiId": "/providers/Microsoft.PowerApps/apis/shared_approvals",
+                  "operationId": "approvalSubscribeV2",
+                  "connectionName": "shared_approvals"
+                }
+              }
+            },
+            "Condition": {
+              "actions": {
+                "Post_adaptive_card_in_a_chat_or_channel": {
+                  "metadata": {
+                    "operationMetadataId": "9b2a90a7-76b6-4fbb-95b0-179dc7b2e719"
+                  },
+                  "type": "OpenApiConnection",
+                  "inputs": {
+                    "parameters": {
+                      "poster": "Flow bot",
+                      "location": "Chat with Flow bot",
+                      "body/recipient": "@{triggerBody()['email']};",
+                      "body/messageBody": "{\n    \"type\": \"AdaptiveCard\",\n    \"body\": [\n        {\n            \"type\": \"ColumnSet\",\n            \"columns\": [\n                {\n                    \"type\": \"Column\",\n                    \"width\": \"auto\",\n                    \"items\": [\n                        {\n                            \"type\": \"ImageSet\",\n                            \"images\": [\n                                {\n                                    \"type\": \"Image\",\n                                    \"size\": \"Medium\",\n                                    \"url\": \"data:image/png;base64,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\",\n                                    \"spacing\": \"None\",\n                                    \"horizontalAlignment\": \"Center\"\n                                }\n                            ]\n                        }\n                    ]\n                },\n                {\n                    \"type\": \"Column\",\n                    \"items\": [\n                        {\n                            \"type\": \"TextBlock\",\n                            \"weight\": \"Bolder\",\n                            \"text\": \"Approvals\",\n                            \"wrap\": true\n                        },\n                        {\n                            \"type\": \"TextBlock\",\n                            \"spacing\": \"None\",\n                            \"text\": \"Created @{outputs('Start_an_approval')?['body/responseDate']}\",\n                            \"isSubtle\": true,\n                            \"wrap\": true\n                        }\n                    ],\n                    \"width\": \"stretch\"\n                }\n            ]\n        },\n        {\n            \"type\": \"TextBlock\",\n            \"text\": \"Your approval request has been approved by @{outputs('Start_an_approval')?['body/responder/displayName']}\",\n            \"wrap\": true\n        },\n        {\n            \"type\": \"FactSet\",\n            \"facts\": [\n                {\n                    \"title\": \"Comments\",\n                    \"value\": \"@{outputs('Start_an_approval')?['body/comments']}\"\n                }\n            ]\n        }\n    ],\n    \"actions\": [\n        {\n            \"type\": \"Action.OpenUrl\",\n            \"title\": \"View\",\n            \"url\": \"https://teams.microsoft.com/l/task/7c316234-ded0-4f95-8a83-8453d0876592?url=https%3A%2F%2Fapprovals.teams.microsoft.com%2Fweb%2Fdetails%2FBasic%2F@{outputs('Start_an_approval')?['body/name']}%2F~default&width=600&height=600\",\n            \"iconUrl\": \"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEcSURBVDhP1ZTBccIwFERdAiWkBDqxj4nksb4riDtIC3SQdEAJnCyZEyVQAiXArvKdwRlbNnBgeDMeaS1pLf0VZE/Buu5gpF2rfByaGReOD5kaCWIl7ErnT9aFMx+a6vByRMIbjwiDnam7vJDDSrAz6Nt3+GuGhVX3qa8id9dwzOxuYs1wTJWTWPE/tg5O5TQMwNRtrnKUaObCt8o0FmkKAlAZMeK3rCv7pfiNQS0ZUhycA18+a/ePstp/sa4pM45rd8jYDglNp8w4n+tUDmEgczX8D3ZecJ3KIbhni1K+hkEmE+cF/hDfqEyCxJvZn+I7EuWkOdPejPP11TS9KY8D46IPii11vK84ySKza/qaMkW0+LeJbbpmL0CWXQBObbiEsR31bwAAAABJRU5ErkJggg==\"\n        },\n        {\n            \"type\": \"Action.OpenUrl\",\n            \"title\": \"Contact approver\",\n            \"iconUrl\": \"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAAUCAYAAABvVQZ0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFISURBVDhP1ZTRTcMwEIYzAhvACN2AjsALUmtH9UUMEjYIG6Sb9AHhS3kgI2SEjgD32z8qIiQEiZd+kqX8vrNzvju7uDxK0bWXrvGigw/6noZ0velWRG/oNo9If1VKfPIhntxOa/fwdk1T4eRlZUNcsB9IbOBL0xgYfbC/B23vZhzp18B3csMcUddQ/orfxT0ipDyDPCD8uYi+kyOMp408rzmVQWJ9pYFyMaUcaxSKMoPz31uCKROWu3MlORA9zYkNT0SZgSM//8xo7X9vNnztKYA5OGKMjkKcvK5ciD1lBkl0ojXlYmwNmrilzKTrY2WmXERuDR1QBE5l8mZ6oFzEZJPjiKN+mSBFJHHvrJ1+bHJr2gM2tAgf8Z1eiOoYcLnpknoK9tLSgYgmbwuqhWPipdhW8Ta9EJZYNPNnRZGfrW0CO5ddBEXxAVaE2b69DgAcAAAAAElFTkSuQmCC\",\n            \"url\": \"https://teams.microsoft.com/l/chat/0/0?users=@{outputs('Start_an_approval')?['body/responder/email']},&topicName=Approval%20Request\"\n        }\n    ],\n    \"$schema\": \"http://adaptivecards.io/schemas/adaptive-card.json\",\n    \"version\": \"1.4\",\n    \"msteams\": {\n        \"width\": \"Full\"\n    }\n}"
+                    },
+                    "host": {
+                      "apiId": "/providers/Microsoft.PowerApps/apis/shared_teams",
+                      "operationId": "PostCardToConversation",
+                      "connectionName": "shared_teams"
+                    }
+                  }
+                },
+                "Update_a_row": {
+                  "runAfter": {
+                    "Post_adaptive_card_in_a_chat_or_channel": [
+                      "Succeeded"
+                    ]
+                  },
+                  "metadata": {
+                    "operationMetadataId": "09444b29-d907-4de5-ae30-950a746c663a"
+                  },
+                  "type": "OpenApiConnection",
+                  "inputs": {
+                    "parameters": {
+                      "entityName": "govcdm_purchaserequests",
+                      "recordId": "@triggerBody()['text_3']",
+                      "item/govcdm_approvalstatus": 166840004
+                    },
+                    "host": {
+                      "apiId": "/providers/Microsoft.PowerApps/apis/shared_commondataserviceforapps",
+                      "operationId": "UpdateRecord",
+                      "connectionName": "shared_commondataserviceforapps-1"
+                    }
+                  }
+                }
+              },
+              "runAfter": {
+                "Start_an_approval": [
+                  "Succeeded"
+                ]
+              },
+              "else": {
+                "actions": {
+                  "Post_adaptive_card_in_a_chat_or_channel_2": {
+                    "metadata": {
+                      "operationMetadataId": "9b2a90a7-76b6-4fbb-95b0-179dc7b2e719"
+                    },
+                    "type": "OpenApiConnection",
+                    "inputs": {
+                      "parameters": {
+                        "poster": "Flow bot",
+                        "location": "Chat with Flow bot",
+                        "body/recipient": "@{triggerBody()['email']};",
+                        "body/messageBody": "{\n    \"type\": \"AdaptiveCard\",\n    \"body\": [\n        {\n            \"type\": \"ColumnSet\",\n            \"columns\": [\n                {\n                    \"type\": \"Column\",\n                    \"width\": \"auto\",\n                    \"items\": [\n                        {\n                            \"type\": \"ImageSet\",\n                            \"images\": [\n                                {\n                                    \"type\": \"Image\",\n                                    \"size\": \"Medium\",\n                                    \"url\": \"data:image/png;base64,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\",\n                                    \"spacing\": \"None\",\n                                    \"horizontalAlignment\": \"Center\"\n                                }\n                            ]\n                        }\n                    ]\n                },\n                {\n                    \"type\": \"Column\",\n                    \"items\": [\n                        {\n                            \"type\": \"TextBlock\",\n                            \"weight\": \"Bolder\",\n                            \"text\": \"Approvals\",\n                            \"wrap\": true\n                        },\n                        {\n                            \"type\": \"TextBlock\",\n                            \"spacing\": \"None\",\n                            \"text\": \"Created @{outputs('Start_an_approval')?['body/responseDate']}\",\n                            \"isSubtle\": true,\n                            \"wrap\": true\n                        }\n                    ],\n                    \"width\": \"stretch\"\n                }\n            ]\n        },\n        {\n            \"type\": \"TextBlock\",\n            \"text\": \"Your approval request has been refused by @{outputs('Start_an_approval')?['body/responder/displayName']}\",\n            \"wrap\": true\n        },\n        {\n            \"type\": \"FactSet\",\n            \"facts\": [\n                {\n                    \"title\": \"Comments\",\n                    \"value\": \"@{outputs('Start_an_approval')?['body/comments']}\"\n                }\n            ]\n        }\n    ],\n    \"actions\": [\n        {\n            \"type\": \"Action.OpenUrl\",\n            \"title\": \"View\",\n            \"url\": \"https://teams.microsoft.com/l/task/7c316234-ded0-4f95-8a83-8453d0876592?url=https%3A%2F%2Fapprovals.teams.microsoft.com%2Fweb%2Fdetails%2FBasic%2F@{outputs('Start_an_approval')?['body/name']}%2F~default&width=600&height=600\",\n            \"iconUrl\": \"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEcSURBVDhP1ZTBccIwFERdAiWkBDqxj4nksb4riDtIC3SQdEAJnCyZEyVQAiXArvKdwRlbNnBgeDMeaS1pLf0VZE/Buu5gpF2rfByaGReOD5kaCWIl7ErnT9aFMx+a6vByRMIbjwiDnam7vJDDSrAz6Nt3+GuGhVX3qa8id9dwzOxuYs1wTJWTWPE/tg5O5TQMwNRtrnKUaObCt8o0FmkKAlAZMeK3rCv7pfiNQS0ZUhycA18+a/ePstp/sa4pM45rd8jYDglNp8w4n+tUDmEgczX8D3ZecJ3KIbhni1K+hkEmE+cF/hDfqEyCxJvZn+I7EuWkOdPejPP11TS9KY8D46IPii11vK84ySKza/qaMkW0+LeJbbpmL0CWXQBObbiEsR31bwAAAABJRU5ErkJggg==\"\n        },\n        {\n            \"type\": \"Action.OpenUrl\",\n            \"title\": \"Contact approver\",\n            \"iconUrl\": \"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAAUCAYAAABvVQZ0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFISURBVDhP1ZTRTcMwEIYzAhvACN2AjsALUmtH9UUMEjYIG6Sb9AHhS3kgI2SEjgD32z8qIiQEiZd+kqX8vrNzvju7uDxK0bWXrvGigw/6noZ0velWRG/oNo9If1VKfPIhntxOa/fwdk1T4eRlZUNcsB9IbOBL0xgYfbC/B23vZhzp18B3csMcUddQ/orfxT0ipDyDPCD8uYi+kyOMp408rzmVQWJ9pYFyMaUcaxSKMoPz31uCKROWu3MlORA9zYkNT0SZgSM//8xo7X9vNnztKYA5OGKMjkKcvK5ciD1lBkl0ojXlYmwNmrilzKTrY2WmXERuDR1QBE5l8mZ6oFzEZJPjiKN+mSBFJHHvrJ1+bHJr2gM2tAgf8Z1eiOoYcLnpknoK9tLSgYgmbwuqhWPipdhW8Ta9EJZYNPNnRZGfrW0CO5ddBEXxAVaE2b69DgAcAAAAAElFTkSuQmCC\",\n            \"url\": \"https://teams.microsoft.com/l/chat/0/0?users=@{outputs('Start_an_approval')?['body/responder/email']},&topicName=Approval%20Request\"\n        }\n    ],\n    \"$schema\": \"http://adaptivecards.io/schemas/adaptive-card.json\",\n    \"version\": \"1.4\",\n    \"msteams\": {\n        \"width\": \"Full\"\n    }\n}"
+                      },
+                      "host": {
+                        "apiId": "/providers/Microsoft.PowerApps/apis/shared_teams",
+                        "operationId": "PostCardToConversation",
+                        "connectionName": "shared_teams"
+                      }
+                    }
+                  },
+                  "Update_a_row_2": {
+                    "runAfter": {
+                      "Post_adaptive_card_in_a_chat_or_channel_2": [
+                        "Succeeded"
+                      ]
+                    },
+                    "metadata": {
+                      "operationMetadataId": "0b212e4c-b02d-4db9-84c6-7555041189ff"
+                    },
+                    "type": "OpenApiConnection",
+                    "inputs": {
+                      "parameters": {
+                        "entityName": "govcdm_purchaserequests",
+                        "recordId": "@triggerBody()['text_3']",
+                        "item/govcdm_approvalstatus": 166840002
+                      },
+                      "host": {
+                        "apiId": "/providers/Microsoft.PowerApps/apis/shared_commondataserviceforapps",
+                        "operationId": "UpdateRecord",
+                        "connectionName": "shared_commondataserviceforapps-1"
+                      }
+                    }
+                  }
+                }
+              },
+              "expression": {
+                "equals": [
+                  "@outputs('Start_an_approval')?['body/response']",
+                  "Approve"
+                ]
+              },
+              "metadata": {
+                "operationMetadataId": "9d90a347-ed67-468f-9970-e12f4b622061"
+              },
+              "type": "If"
+            }
+          },
+          "runAfter": {},
+          "else": {
+            "actions": {
+              "Automatically_Approve": {
+                "metadata": {
+                  "operationMetadataId": "aa8dd7ca-5342-40df-bca2-f59317556167"
+                },
+                "type": "OpenApiConnection",
+                "inputs": {
+                  "parameters": {
+                    "entityName": "govcdm_purchaserequests",
+                    "recordId": "@triggerBody()['text_3']",
+                    "item/govcdm_approvalstatus": 166840004
+                  },
+                  "host": {
+                    "apiId": "/providers/Microsoft.PowerApps/apis/shared_commondataserviceforapps",
+                    "operationId": "UpdateRecord",
+                    "connectionName": "shared_commondataserviceforapps-1"
+                  }
+                }
+              }
+            }
+          },
+          "expression": {
+            "greater": [
+              "@triggerBody()['number']",
+              500
+            ]
+          },
+          "metadata": {
+            "operationMetadataId": "e9ccd4ae-4c9e-43e7-a83f-414fcfe7d79f"
+          },
+          "type": "If"
+        }
+      }
+    },
+    "templateName": null
+  },
+  "schemaVersion": "1.0.0.0"
+}

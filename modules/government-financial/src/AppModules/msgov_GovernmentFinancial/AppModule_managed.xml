@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppModule>
+  <UniqueName>msgov_GovernmentFinancial</UniqueName>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <WebResourceId>953b9fac-1e5e-e611-80d6-00155ded156f</WebResourceId>
+  <OptimizedFor></OptimizedFor>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+  <FormFactor>1</FormFactor>
+  <ClientType>4</ClientType>
+  <NavigationType>0</NavigationType>
+  <AppModuleComponents>
+    <AppModuleComponent type="1" schemaName="contact" />
+    <AppModuleComponent type="1" schemaName="govcdm_agreement" />
+    <AppModuleComponent type="1" schemaName="govcdm_budget" />
+    <AppModuleComponent type="1" schemaName="govcdm_budgetlineitem" />
+    <AppModuleComponent type="1" schemaName="govcdm_budgetobjectclassification" />
+    <AppModuleComponent type="1" schemaName="govcdm_contract" />
+    <AppModuleComponent type="1" schemaName="govcdm_federalfundaccount" />
+    <AppModuleComponent type="1" schemaName="govcdm_financialobligation" />
+    <AppModuleComponent type="1" schemaName="govcdm_invoice" />
+    <AppModuleComponent type="1" schemaName="govcdm_location" />
+    <AppModuleComponent type="1" schemaName="govcdm_payment" />
+    <AppModuleComponent type="1" schemaName="govcdm_product" />
+    <AppModuleComponent type="1" schemaName="govcdm_project" />
+    <AppModuleComponent type="1" schemaName="govcdm_purchaserequest" />
+    <AppModuleComponent type="1" schemaName="govcdm_stateorprovince" />
+    <AppModuleComponent type="26" id="{00000000-0000-0000-00aa-000000666400}" />
+    <AppModuleComponent type="26" id="{00000000-0000-0000-00aa-000010001004}" />
+    <AppModuleComponent type="26" id="{00000000-0000-0000-00aa-000010001210}" />
+    <AppModuleComponent type="26" id="{3d0ab013-dfd1-ee11-9079-000d3a3b9c87}" />
+    <AppModuleComponent type="26" id="{a34c84de-a9d6-ee11-9079-000d3a3b9c87}" />
+    <AppModuleComponent type="26" id="{5a31e9ae-2d21-43d3-abf3-0d9eaa0312a2}" />
+    <AppModuleComponent type="26" id="{a5c638a8-155a-43bc-9fa3-336aa693088c}" />
+    <AppModuleComponent type="26" id="{0c89648f-1d39-466d-b819-5821dedd7d46}" />
+    <AppModuleComponent type="26" id="{3d225ab2-0bdc-415d-8315-5c4dee3f374b}" />
+    <AppModuleComponent type="26" id="{ed20cce3-8ef7-46e8-8a12-5d8531bd6b08}" />
+    <AppModuleComponent type="26" id="{14ea1914-0e2c-4918-8eca-60930324f18f}" />
+    <AppModuleComponent type="26" id="{a2d479c5-53e3-4c69-addd-802327e67a0d}" />
+    <AppModuleComponent type="26" id="{0d5d377b-5e7c-47b5-bab1-a5cb8b4ac105}" />
+    <AppModuleComponent type="26" id="{4d286406-3306-434e-a5ff-b8ed6e95ae4b}" />
+    <AppModuleComponent type="26" id="{58fb20ff-d5be-406f-908e-c777e9dedf5f}" />
+    <AppModuleComponent type="26" id="{6da651f0-e454-442d-9b73-c7fb02435a82}" />
+    <AppModuleComponent type="26" id="{8df19b44-a073-40c3-9d6d-ee1355d8c4ba}" />
+    <AppModuleComponent type="26" id="{cfa29e8e-1995-4056-9458-f8193ac069e1}" />
+    <AppModuleComponent type="26" id="{eda26f1e-dbcc-40ad-91f2-ff2878d1d8d8}" />
+    <AppModuleComponent type="62" schemaName="msgov_GovernmentFinancial" />
+  </AppModuleComponents>
+  <AppModuleRoleMaps>
+    <Role id="{627090ff-40a3-4053-8790-584edc5be201}" />
+    <Role id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+  </AppModuleRoleMaps>
+  <LocalizedNames>
+    <LocalizedName description="Government Financial" languagecode="1033" />
+  </LocalizedNames>
+  <appelements>
+    <appelement uniquename="msgov_msgov_GovernmentFinancial_canvasappid_msgov_actionitempage_94fbe">
+      <canvasappid>
+        <name>msgov_actionitempage_94fbe</name>
+      </canvasappid>
+      <iscustomizable>1</iscustomizable>
+      <name>msgov_msgov_GovernmentFinancial_canvasappid_msgov_actionitempage_94fbe</name>
+    </appelement>
+  </appelements>
+</AppModule>

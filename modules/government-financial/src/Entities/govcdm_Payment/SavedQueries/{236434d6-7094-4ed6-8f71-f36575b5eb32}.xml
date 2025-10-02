@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{236434d6-7094-4ed6-8f71-f36575b5eb32}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="govcdm_name" select="1" icon="1" preview="1">
+        <row name="result" id="govcdm_paymentid">
+          <cell name="govcdm_name" width="115" />
+          <cell name="govcdm_initiatedby" width="139" />
+          <cell name="govcdm_initiateddate" width="135" />
+          <cell name="govcdm_paymentamount" width="147" />
+          <cell name="govcdm_paymentmethod" width="144" />
+          <cell name="govcdm_paymentstatus" width="127" />
+          <cell name="govcdm_paymentdate" width="119" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="govcdm_payment">
+          <attribute name="govcdm_paymentid" />
+          <attribute name="govcdm_name" />
+          <order attribute="govcdm_name" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="govcdm_initiatedby" />
+          <attribute name="govcdm_initiateddate" />
+          <attribute name="govcdm_paymentamount" />
+          <attribute name="govcdm_paymentdate" />
+          <attribute name="govcdm_paymentmethod" />
+          <attribute name="govcdm_paymentstatus" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Payments" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>
