@@ -30,6 +30,16 @@
       "LogicalName": "msgov_sharedwordonlinebusiness_7950a",
       "ConnectionId": "",
       "ConnectorId": "/providers/Microsoft.PowerApps/apis/shared_wordonlinebusiness"
+    },
+    {
+      "LogicalName": "msgov_sharedoffice365_9f6d5",
+      "ConnectionId": "",
+      "ConnectorId": "/providers/Microsoft.PowerApps/apis/shared_office365"
+    },
+    {
+      "LogicalName": "msgov_sharedoffice365_65258",
+      "ConnectionId": "",
+      "ConnectorId": "/providers/Microsoft.PowerApps/apis/shared_office365"
     }
   ]
 }

@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{9cb0efe3-e855-4492-84ae-56a7059296f0}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls" solutionaction="Modified">
+      <tabs>
+        <tab verticallayout="true" id="{71b4c400-3375-4726-9461-6272eb0b9cb4}" IsUserDefined="1" ordinalvalue="0">
+          <columns>
+            <column width="100%" id="0">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{0026f96a-1361-4f09-a58e-fc30eebb32e4}" ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell id="{2d5c0ebb-d2a9-4463-8246-f550e579a3bc}" ordinalvalue="10008" solutionaction="Modified" />
+                    </row>
+                    <row>
+                      <cell id="{7d883887-e8b6-4db9-bad8-3033da178010}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10001" solutionaction="Added">
+                        <labels>
+                          <label description="Project Work Item Type" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_projectworkitemtype" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="govcdm_projectworkitemtype" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{f9e969ee-49d8-4f00-86ad-9b9276451181}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10002" solutionaction="Added">
+                        <labels>
+                          <label description="Description" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_description" classid="{E0DECE4B-6FC8-4A8F-A065-082708572369}" datafieldname="govcdm_description" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0d42d484-8f75-42c3-b40d-62eef629d967}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10003" solutionaction="Added">
+                        <labels>
+                          <label description="Assigned To" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_assignedto" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="govcdm_assignedto" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{bf61b040-3327-4dd0-8978-0b0bfe506ccb}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10004" solutionaction="Added">
+                        <labels>
+                          <label description="Project" languagecode="1033" />
+                        </labels>
+                        <control id="header_govcdm_project" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="govcdm_project" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{72704d39-2382-434c-869a-911b94b03777}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10005" solutionaction="Added">
+                        <labels>
+                          <label description="Project Backlog" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_projectbacklog" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="govcdm_projectbacklog" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{108b2e5a-3eea-4d4d-b857-ec7324a5b558}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10006" solutionaction="Added">
+                        <labels>
+                          <label description="Project Iteration" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_projectiteration" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="govcdm_projectiteration" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{411900cf-afc8-4ad7-9507-bc99473f0ebf}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10007" solutionaction="Added">
+                        <labels>
+                          <label description="Project Milestone" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_projectmilestone" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="govcdm_projectmilestone" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{df8847f6-f8de-4801-826f-b12a7b84fc5a}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left" solutionaction="Added">
+        <rows>
+          <row>
+            <cell id="{d1c78a8b-49a1-4b42-a131-5ff530d00223}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10000">
+              <labels>
+                <label description="Parent Work Item" languagecode="1033" />
+              </labels>
+              <control id="header_govcdm_parentworkitem" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="govcdm_parentworkitem" disabled="false" />
+            </cell>
+            <cell id="{37b01777-1550-4a5a-9c6d-02150d912315}" showlabel="false" ordinalvalue="20001">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{942e97f7-16c3-40a4-893e-c3122d8902a6}" showlabel="false" ordinalvalue="30002">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+          <row>
+            <cell id="{7934cda5-f4a0-4650-a4d1-c6ec20040491}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10003">
+              <labels>
+                <label description="Action Status" languagecode="1033" />
+              </labels>
+              <control id="header_govcdm_actionstatus" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="govcdm_actionstatus" disabled="false" />
+            </cell>
+            <cell id="{f43c031a-36f0-40fd-992f-b866366a25b8}" ordinalvalue="20004">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{94c00c07-ce66-4792-90d3-6a1950411fc6}" ordinalvalue="30005">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{bbe08952-702e-4614-a7e9-ed28f1850f47}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left" solutionaction="Added">
+        <rows></rows>
+      </footer>
+      <DisplayConditions Order="0" FallbackForm="true" solutionaction="Added">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

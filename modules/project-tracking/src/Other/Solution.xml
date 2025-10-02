@@ -1,0 +1,613 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImportExportXml version="9.2.25083.183" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" OrganizationVersion="9.2.25083.183" OrganizationSchemaType="Standard" CRMServerServiceabilityVersion="9.2.25084.00181">
+  <SolutionManifest>
+    <UniqueName>msgov_projecttracking</UniqueName>
+    <LocalizedNames>
+      <LocalizedName description="Microsoft Gov - Project Tracking" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions />
+    <Version>1.1.0.0</Version>
+    <Managed>2</Managed>
+    <Publisher>
+      <UniqueName>msgovsolutions</UniqueName>
+      <LocalizedNames>
+        <LocalizedName description="Microsoft Government Solutions" languagecode="1033" />
+      </LocalizedNames>
+      <Descriptions>
+        <Description description="Microsoft Government Solutions" languagecode="1033" />
+      </Descriptions>
+      <EMailAddress xsi:nil="true"></EMailAddress>
+      <SupportingWebsiteUrl xsi:nil="true"></SupportingWebsiteUrl>
+      <CustomizationPrefix>msgov</CustomizationPrefix>
+      <CustomizationOptionValuePrefix>18844</CustomizationOptionValuePrefix>
+      <Addresses>
+        <Address>
+          <AddressNumber>1</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+        <Address>
+          <AddressNumber>2</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+      </Addresses>
+    </Publisher>
+    <RootComponents>
+      <RootComponent type="1" schemaName="govcdm_project" behavior="2" />
+      <RootComponent type="1" schemaName="govcdm_projectbacklog" behavior="2" />
+      <RootComponent type="1" schemaName="govcdm_projectchangerequest" behavior="2" />
+      <RootComponent type="1" schemaName="govcdm_projectiteration" behavior="2" />
+      <RootComponent type="1" schemaName="govcdm_projectmilestone" behavior="2" />
+      <RootComponent type="1" schemaName="govcdm_projectrequest" behavior="2" />
+      <RootComponent type="1" schemaName="govcdm_projectresource" behavior="2" />
+      <RootComponent type="1" schemaName="govcdm_projectrole" behavior="2" />
+      <RootComponent type="1" schemaName="govcdm_projectworkitem" behavior="2" />
+      <RootComponent type="1" schemaName="govcdm_projectworkitemtype" behavior="2" />
+      <RootComponent type="29" id="{4e71fc26-ef74-ee11-9ae7-6045bd0062b9}" behavior="0" />
+      <RootComponent type="300" schemaName="msgov_jobboard_eed01" behavior="0" />
+      <RootComponent type="300" schemaName="msgov_projectrequestapp_10067" behavior="0" />
+      <RootComponent type="60" id="{b36e4776-e674-ee11-9ae7-6045bd0062b9}" behavior="0" />
+      <RootComponent type="62" schemaName="msgov_ProjectTracking" behavior="0" />
+      <RootComponent type="80" schemaName="msgov_ProjectTracking" behavior="0" />
+    </RootComponents>
+    <MissingDependencies>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_project" displayName="Project" solution="govcdm_projecttracking (1.0.0.2)" />
+        <Dependent type="1" schemaName="govcdm_project" displayName="Project" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_project" displayName="Project" solution="govcdm_projecttracking (1.0.0.2)" />
+        <Dependent type="26" schemaName="Current Projects" displayName="Current Projects" parentSchemaName="govcdm_project" parentDisplayName="Project" id="{aa4dfd93-e274-ee11-9ae7-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_project" displayName="Project" solution="govcdm_projecttracking (1.0.0.2)" />
+        <Dependent type="300" schemaName="msgov_jobboard_eed01" displayName="Job Board" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_project" displayName="Project" solution="govcdm_projecttracking (1.0.0.2)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Project" id="{0e0adf6f-e274-ee11-9ae7-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_project" displayName="Project" solution="govcdm_projecttracking (1.0.0.2)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Project Request" id="{d0a9dc3f-e074-ee11-9ae7-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_project" displayName="Project" solution="govcdm_projecttracking (1.0.0.2)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Project" id="{fe9074c2-e074-ee11-9ae7-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_project" displayName="Project" solution="govcdm_projecttracking (1.0.0.2)" />
+        <Dependent type="62" schemaName="msgov_ProjectTracking" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_project" displayName="Project" solution="govcdm_projecttracking (1.0.0.2)" />
+        <Dependent type="80" schemaName="msgov_ProjectTracking" displayName="Project Tracking" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_projectbacklog" displayName="Project Backlog" solution="govcdm_projecttracking (1.0.0.2)" />
+        <Dependent type="1" schemaName="govcdm_projectbacklog" displayName="Project Backlog" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_projectbacklog" displayName="Project Backlog" solution="govcdm_projecttracking (1.0.0.2)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Project" id="{fe9074c2-e074-ee11-9ae7-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_projectbacklog" displayName="Project Backlog" solution="govcdm_projecttracking (1.0.0.2)" />
+        <Dependent type="62" schemaName="msgov_ProjectTracking" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_projectbacklog" displayName="Project Backlog" solution="govcdm_projecttracking (1.0.0.2)" />
+        <Dependent type="80" schemaName="msgov_ProjectTracking" displayName="Project Tracking" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_projectchangerequest" displayName="Project Change Request" solution="govcdm_projecttracking (1.0.0.2)" />
+        <Dependent type="1" schemaName="govcdm_projectchangerequest" displayName="Project Change Request" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_projectchangerequest" displayName="Project Change Request" solution="govcdm_projecttracking (1.0.0.2)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Project" id="{fe9074c2-e074-ee11-9ae7-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_projectchangerequest" displayName="Project Change Request" solution="govcdm_projecttracking (1.0.0.2)" />
+        <Dependent type="62" schemaName="msgov_ProjectTracking" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_projectchangerequest" displayName="Project Change Request" solution="govcdm_projecttracking (1.0.0.2)" />
+        <Dependent type="80" schemaName="msgov_ProjectTracking" displayName="Project Tracking" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_projectiteration" displayName="Project Iteration" solution="govcdm_projecttracking (1.0.0.2)" />
+        <Dependent type="1" schemaName="govcdm_projectiteration" displayName="Project Iteration" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_projectiteration" displayName="Project Iteration" solution="govcdm_projecttracking (1.0.0.2)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Project" id="{fe9074c2-e074-ee11-9ae7-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_projectiteration" displayName="Project Iteration" solution="govcdm_projecttracking (1.0.0.2)" />
+        <Dependent type="62" schemaName="msgov_ProjectTracking" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_projectiteration" displayName="Project Iteration" solution="govcdm_projecttracking (1.0.0.2)" />
+        <Dependent type="80" schemaName="msgov_ProjectTracking" displayName="Project Tracking" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_projectmilestone" displayName="Project Milestone" solution="govcdm_projecttracking (1.0.0.2)" />
+        <Dependent type="1" schemaName="govcdm_projectmilestone" displayName="Project Milestone" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_projectmilestone" displayName="Project Milestone" solution="govcdm_projecttracking (1.0.0.2)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Project" id="{fe9074c2-e074-ee11-9ae7-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_projectmilestone" displayName="Project Milestone" solution="govcdm_projecttracking (1.0.0.2)" />
+        <Dependent type="62" schemaName="msgov_ProjectTracking" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_projectmilestone" displayName="Project Milestone" solution="govcdm_projecttracking (1.0.0.2)" />
+        <Dependent type="80" schemaName="msgov_ProjectTracking" displayName="Project Tracking" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_projectrequest" displayName="Project Request" solution="govcdm_projecttracking (1.0.0.2)" />
+        <Dependent type="1" schemaName="govcdm_projectrequest" displayName="Project Request" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_projectrequest" displayName="Project Request" solution="govcdm_projecttracking (1.0.0.2)" />
+        <Dependent type="26" schemaName="Current Project Requests" displayName="Current Project Requests" parentSchemaName="govcdm_projectrequest" parentDisplayName="Project Request" id="{8e98f07a-e374-ee11-9ae7-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_projectrequest" displayName="Project Request" solution="govcdm_projecttracking (1.0.0.2)" />
+        <Dependent type="29" displayName="New Project Request" id="{4e71fc26-ef74-ee11-9ae7-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_projectrequest" displayName="Project Request" solution="govcdm_projecttracking (1.0.0.2)" />
+        <Dependent type="300" schemaName="msgov_projectrequestapp_10067" displayName="Project Request App" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_projectrequest" displayName="Project Request" solution="govcdm_projecttracking (1.0.0.2)" />
+        <Dependent type="59" schemaName="By Approval Status" displayName="By Approval Status" parentSchemaName="govcdm_projectrequest" parentDisplayName="Project Request" id="{b948c63d-e674-ee11-9ae7-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_projectrequest" displayName="Project Request" solution="govcdm_projecttracking (1.0.0.2)" />
+        <Dependent type="60" displayName="Project Requests" id="{b36e4776-e674-ee11-9ae7-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_projectrequest" displayName="Project Request" solution="govcdm_projecttracking (1.0.0.2)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Project Request" id="{d0a9dc3f-e074-ee11-9ae7-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_projectrequest" displayName="Project Request" solution="govcdm_projecttracking (1.0.0.2)" />
+        <Dependent type="62" schemaName="msgov_ProjectTracking" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_projectrequest" displayName="Project Request" solution="govcdm_projecttracking (1.0.0.2)" />
+        <Dependent type="80" schemaName="msgov_ProjectTracking" displayName="Project Tracking" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_projectresource" displayName="Project Resource" solution="govcdm_projecttracking (1.0.0.2)" />
+        <Dependent type="1" schemaName="govcdm_projectresource" displayName="Project Resource" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_projectresource" displayName="Project Resource" solution="govcdm_projecttracking (1.0.0.2)" />
+        <Dependent type="300" schemaName="msgov_jobboard_eed01" displayName="Job Board" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_projectresource" displayName="Project Resource" solution="govcdm_projecttracking (1.0.0.2)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Project" id="{fe9074c2-e074-ee11-9ae7-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_projectresource" displayName="Project Resource" solution="govcdm_projecttracking (1.0.0.2)" />
+        <Dependent type="62" schemaName="msgov_ProjectTracking" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_projectresource" displayName="Project Resource" solution="govcdm_projecttracking (1.0.0.2)" />
+        <Dependent type="80" schemaName="msgov_ProjectTracking" displayName="Project Tracking" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_projectrole" displayName="Project Role" solution="govcdm_projecttracking (1.0.0.2)" />
+        <Dependent type="1" schemaName="govcdm_projectrole" displayName="Project Role" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_projectrole" displayName="Project Role" solution="govcdm_projecttracking (1.0.0.2)" />
+        <Dependent type="62" schemaName="msgov_ProjectTracking" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_projectrole" displayName="Project Role" solution="govcdm_projecttracking (1.0.0.2)" />
+        <Dependent type="80" schemaName="msgov_ProjectTracking" displayName="Project Tracking" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_projectworkitem" displayName="Project Work Item" solution="govcdm_projecttracking (1.0.0.2)" />
+        <Dependent type="1" schemaName="govcdm_projectworkitem" displayName="Project Work Item" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_projectworkitem" displayName="Project Work Item" solution="govcdm_projecttracking (1.0.0.2)" />
+        <Dependent type="300" schemaName="msgov_jobboard_eed01" displayName="Job Board" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_projectworkitem" displayName="Project Work Item" solution="govcdm_projecttracking (1.0.0.2)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Project" id="{fe9074c2-e074-ee11-9ae7-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_projectworkitem" displayName="Project Work Item" solution="govcdm_projecttracking (1.0.0.2)" />
+        <Dependent type="62" schemaName="msgov_ProjectTracking" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_projectworkitem" displayName="Project Work Item" solution="govcdm_projecttracking (1.0.0.2)" />
+        <Dependent type="80" schemaName="msgov_ProjectTracking" displayName="Project Tracking" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_projectworkitemtype" displayName="Project Work Item Type" solution="govcdm_projecttracking (1.0.0.2)" />
+        <Dependent type="1" schemaName="govcdm_projectworkitemtype" displayName="Project Work Item Type" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_projectworkitemtype" displayName="Project Work Item Type" solution="govcdm_projecttracking (1.0.0.2)" />
+        <Dependent type="62" schemaName="msgov_ProjectTracking" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_projectworkitemtype" displayName="Project Work Item Type" solution="govcdm_projecttracking (1.0.0.2)" />
+        <Dependent type="80" schemaName="msgov_ProjectTracking" displayName="Project Tracking" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_govcdm_project_ParentProject_govcdm_proje" displayName="govcdm_govcdm_project_ParentProject_govcdm_proje" parentSchemaName="govcdm_project" parentDisplayName="Project" solution="govcdm_projecttracking (1.0.0.2)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Project" id="{fe9074c2-e074-ee11-9ae7-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_govcdm_project_PrimaryProjectManager_govc" displayName="govcdm_govcdm_project_PrimaryProjectManager_govc" parentSchemaName="govcdm_projectresource" parentDisplayName="Project Resource" solution="govcdm_projecttracking (1.0.0.2)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Project" id="{fe9074c2-e074-ee11-9ae7-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_govcdm_project_ProjectRequest_govcdm_proj" displayName="govcdm_govcdm_project_ProjectRequest_govcdm_proj" parentSchemaName="govcdm_projectrequest" parentDisplayName="Project Request" solution="govcdm_projecttracking (1.0.0.2)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Project Request" id="{d0a9dc3f-e074-ee11-9ae7-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_govcdm_project_ProjectRequest_govcdm_proj" displayName="govcdm_govcdm_project_ProjectRequest_govcdm_proj" parentSchemaName="govcdm_projectrequest" parentDisplayName="Project Request" solution="govcdm_projecttracking (1.0.0.2)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Project" id="{fe9074c2-e074-ee11-9ae7-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_govcdm_projectbacklog_Project_govcdm_proj" displayName="govcdm_govcdm_projectbacklog_Project_govcdm_proj" parentSchemaName="govcdm_project" parentDisplayName="Project" solution="govcdm_projecttracking (1.0.0.2)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Project" id="{fe9074c2-e074-ee11-9ae7-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_govcdm_projectchangerequest_Project_govcd" displayName="govcdm_govcdm_projectchangerequest_Project_govcd" parentSchemaName="govcdm_project" parentDisplayName="Project" solution="govcdm_projecttracking (1.0.0.2)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Project" id="{fe9074c2-e074-ee11-9ae7-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_govcdm_projectiteration_Project_govcdm_pr" displayName="govcdm_govcdm_projectiteration_Project_govcdm_pr" parentSchemaName="govcdm_project" parentDisplayName="Project" solution="govcdm_projecttracking (1.0.0.2)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Project" id="{fe9074c2-e074-ee11-9ae7-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_govcdm_projectmilestone_Project_govcdm_pr" displayName="govcdm_govcdm_projectmilestone_Project_govcdm_pr" parentSchemaName="govcdm_project" parentDisplayName="Project" solution="govcdm_projecttracking (1.0.0.2)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Project" id="{fe9074c2-e074-ee11-9ae7-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_govcdm_projectrequest_Requestor_contact" displayName="govcdm_govcdm_projectrequest_Requestor_contact" parentSchemaName="contact" parentDisplayName="Person" solution="govcdm_projecttracking (1.0.0.2)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Project Request" id="{d0a9dc3f-e074-ee11-9ae7-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_govcdm_projectresource_Project_govcdm_pro" displayName="govcdm_govcdm_projectresource_Project_govcdm_pro" parentSchemaName="govcdm_project" parentDisplayName="Project" solution="govcdm_projecttracking (1.0.0.2)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Project" id="{fe9074c2-e074-ee11-9ae7-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_govcdm_projectworkitem_AssignedTo_govcdm_" displayName="govcdm_govcdm_projectworkitem_AssignedTo_govcdm_" parentSchemaName="govcdm_projectresource" parentDisplayName="Project Resource" solution="govcdm_projecttracking (1.0.0.2)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Project Work Item" id="{9cb0efe3-e855-4492-84ae-56a7059296f0}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_govcdm_projectworkitem_ParentWorkItem_gov" displayName="govcdm_govcdm_projectworkitem_ParentWorkItem_gov" parentSchemaName="govcdm_projectworkitem" parentDisplayName="Project Work Item" solution="govcdm_projecttracking (1.0.0.2)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Project Work Item" id="{9cb0efe3-e855-4492-84ae-56a7059296f0}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_govcdm_projectworkitem_Project_govcdm_pro" displayName="govcdm_govcdm_projectworkitem_Project_govcdm_pro" parentSchemaName="govcdm_project" parentDisplayName="Project" solution="govcdm_projecttracking (1.0.0.2)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Project Work Item" id="{9cb0efe3-e855-4492-84ae-56a7059296f0}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_govcdm_projectworkitem_Project_govcdm_pro" displayName="govcdm_govcdm_projectworkitem_Project_govcdm_pro" parentSchemaName="govcdm_project" parentDisplayName="Project" solution="govcdm_projecttracking (1.0.0.2)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Project" id="{fe9074c2-e074-ee11-9ae7-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_govcdm_projectworkitem_ProjectBacklog_gov" displayName="govcdm_govcdm_projectworkitem_ProjectBacklog_gov" parentSchemaName="govcdm_projectbacklog" parentDisplayName="Project Backlog" solution="govcdm_projecttracking (1.0.0.2)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Project Work Item" id="{9cb0efe3-e855-4492-84ae-56a7059296f0}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_govcdm_projectworkitem_ProjectIteration_g" displayName="govcdm_govcdm_projectworkitem_ProjectIteration_g" parentSchemaName="govcdm_projectiteration" parentDisplayName="Project Iteration" solution="govcdm_projecttracking (1.0.0.2)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Project Work Item" id="{9cb0efe3-e855-4492-84ae-56a7059296f0}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_govcdm_projectworkitem_ProjectMilestone_g" displayName="govcdm_govcdm_projectworkitem_ProjectMilestone_g" parentSchemaName="govcdm_projectmilestone" parentDisplayName="Project Milestone" solution="govcdm_projecttracking (1.0.0.2)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Project Work Item" id="{9cb0efe3-e855-4492-84ae-56a7059296f0}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_govcdm_projectworkitem_ProjectWorkItemTyp" displayName="govcdm_govcdm_projectworkitem_ProjectWorkItemTyp" parentSchemaName="govcdm_projectworkitemtype" parentDisplayName="Project Work Item Type" solution="govcdm_projecttracking (1.0.0.2)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Project Work Item" id="{9cb0efe3-e855-4492-84ae-56a7059296f0}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_actionstatus" displayName="Action Status" parentSchemaName="govcdm_projectworkitem" parentDisplayName="Project Work Item" solution="govcdm_projecttracking (1.0.0.2)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Project Work Item" id="{9cb0efe3-e855-4492-84ae-56a7059296f0}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_actualenddate" displayName="Actual End Date" parentSchemaName="govcdm_project" parentDisplayName="Project" solution="govcdm_projecttracking (1.0.0.2)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Project" id="{fe9074c2-e074-ee11-9ae7-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_actualstartdate" displayName="Actual Start Date" parentSchemaName="govcdm_project" parentDisplayName="Project" solution="govcdm_projecttracking (1.0.0.2)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Project" id="{fe9074c2-e074-ee11-9ae7-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_approvalstatus" displayName="Approval Status" parentSchemaName="govcdm_projectrequest" parentDisplayName="Project Request" solution="govcdm_projecttracking (1.0.0.2)" />
+        <Dependent type="26" schemaName="Current Project Requests" displayName="Current Project Requests" parentSchemaName="govcdm_projectrequest" parentDisplayName="Project Request" id="{8e98f07a-e374-ee11-9ae7-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_approvalstatus" displayName="Approval Status" parentSchemaName="govcdm_projectrequest" parentDisplayName="Project Request" solution="govcdm_projecttracking (1.0.0.2)" />
+        <Dependent type="59" schemaName="By Approval Status" displayName="By Approval Status" parentSchemaName="govcdm_projectrequest" parentDisplayName="Project Request" id="{b948c63d-e674-ee11-9ae7-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_approvalstatus" displayName="Approval Status" parentSchemaName="govcdm_projectrequest" parentDisplayName="Project Request" solution="govcdm_projecttracking (1.0.0.2)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Project Request" id="{d0a9dc3f-e074-ee11-9ae7-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_assignedto" displayName="Assigned To" parentSchemaName="govcdm_projectworkitem" parentDisplayName="Project Work Item" solution="govcdm_projecttracking (1.0.0.2)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Project Work Item" id="{9cb0efe3-e855-4492-84ae-56a7059296f0}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_budgetamount" displayName="Budget Amount" parentSchemaName="govcdm_project" parentDisplayName="Project" solution="govcdm_projecttracking (1.0.0.2)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Project" id="{0e0adf6f-e274-ee11-9ae7-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_budgetamount" displayName="Budget Amount" parentSchemaName="govcdm_project" parentDisplayName="Project" solution="govcdm_projecttracking (1.0.0.2)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Project" id="{fe9074c2-e074-ee11-9ae7-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_description" displayName="Description" parentSchemaName="govcdm_project" parentDisplayName="Project" solution="govcdm_projecttracking (1.0.0.2)" />
+        <Dependent type="26" schemaName="Current Projects" displayName="Current Projects" parentSchemaName="govcdm_project" parentDisplayName="Project" id="{aa4dfd93-e274-ee11-9ae7-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_description" displayName="Description" parentSchemaName="govcdm_project" parentDisplayName="Project" solution="govcdm_projecttracking (1.0.0.2)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Project" id="{0e0adf6f-e274-ee11-9ae7-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_description" displayName="Description" parentSchemaName="govcdm_project" parentDisplayName="Project" solution="govcdm_projecttracking (1.0.0.2)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Project" id="{fe9074c2-e074-ee11-9ae7-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_description" displayName="Description" parentSchemaName="govcdm_projectrequest" parentDisplayName="Project Request" solution="govcdm_projecttracking (1.0.0.2)" />
+        <Dependent type="26" schemaName="Current Project Requests" displayName="Current Project Requests" parentSchemaName="govcdm_projectrequest" parentDisplayName="Project Request" id="{8e98f07a-e374-ee11-9ae7-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_description" displayName="Description" parentSchemaName="govcdm_projectrequest" parentDisplayName="Project Request" solution="govcdm_projecttracking (1.0.0.2)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Project Request" id="{d0a9dc3f-e074-ee11-9ae7-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_description" displayName="Description" parentSchemaName="govcdm_projectworkitem" parentDisplayName="Project Work Item" solution="govcdm_projecttracking (1.0.0.2)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Project Work Item" id="{9cb0efe3-e855-4492-84ae-56a7059296f0}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_project" parentDisplayName="Project" solution="govcdm_projecttracking (1.0.0.2)" />
+        <Dependent type="26" schemaName="Current Projects" displayName="Current Projects" parentSchemaName="govcdm_project" parentDisplayName="Project" id="{aa4dfd93-e274-ee11-9ae7-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_project" parentDisplayName="Project" solution="govcdm_projecttracking (1.0.0.2)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Project" id="{0e0adf6f-e274-ee11-9ae7-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_project" parentDisplayName="Project" solution="govcdm_projecttracking (1.0.0.2)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Project" id="{fe9074c2-e074-ee11-9ae7-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_projectrequest" parentDisplayName="Project Request" solution="govcdm_projecttracking (1.0.0.2)" />
+        <Dependent type="26" schemaName="Current Project Requests" displayName="Current Project Requests" parentSchemaName="govcdm_projectrequest" parentDisplayName="Project Request" id="{8e98f07a-e374-ee11-9ae7-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_projectrequest" parentDisplayName="Project Request" solution="govcdm_projecttracking (1.0.0.2)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Project Request" id="{d0a9dc3f-e074-ee11-9ae7-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_projectworkitem" parentDisplayName="Project Work Item" solution="govcdm_projecttracking (1.0.0.2)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Project Work Item" id="{9cb0efe3-e855-4492-84ae-56a7059296f0}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_parentproject" displayName="Parent Project" parentSchemaName="govcdm_project" parentDisplayName="Project" solution="govcdm_projecttracking (1.0.0.2)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Project" id="{fe9074c2-e074-ee11-9ae7-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_parentworkitem" displayName="Parent Work Item" parentSchemaName="govcdm_projectworkitem" parentDisplayName="Project Work Item" solution="govcdm_projecttracking (1.0.0.2)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Project Work Item" id="{9cb0efe3-e855-4492-84ae-56a7059296f0}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_primaryprojectmanager" displayName="Primary Project Manager" parentSchemaName="govcdm_project" parentDisplayName="Project" solution="govcdm_projecttracking (1.0.0.2)" />
+        <Dependent type="26" schemaName="Current Projects" displayName="Current Projects" parentSchemaName="govcdm_project" parentDisplayName="Project" id="{aa4dfd93-e274-ee11-9ae7-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_primaryprojectmanager" displayName="Primary Project Manager" parentSchemaName="govcdm_project" parentDisplayName="Project" solution="govcdm_projecttracking (1.0.0.2)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Project" id="{fe9074c2-e074-ee11-9ae7-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_project" displayName="Project" parentSchemaName="govcdm_projectworkitem" parentDisplayName="Project Work Item" solution="govcdm_projecttracking (1.0.0.2)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Project Work Item" id="{9cb0efe3-e855-4492-84ae-56a7059296f0}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_projectbacklog" displayName="Project Backlog" parentSchemaName="govcdm_projectworkitem" parentDisplayName="Project Work Item" solution="govcdm_projecttracking (1.0.0.2)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Project Work Item" id="{9cb0efe3-e855-4492-84ae-56a7059296f0}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_projectid" displayName="Project" parentSchemaName="govcdm_project" parentDisplayName="Project" solution="govcdm_projecttracking (1.0.0.2)" />
+        <Dependent type="26" schemaName="Current Projects" displayName="Current Projects" parentSchemaName="govcdm_project" parentDisplayName="Project" id="{aa4dfd93-e274-ee11-9ae7-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_projectiteration" displayName="Project Iteration" parentSchemaName="govcdm_projectworkitem" parentDisplayName="Project Work Item" solution="govcdm_projecttracking (1.0.0.2)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Project Work Item" id="{9cb0efe3-e855-4492-84ae-56a7059296f0}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_projectmilestone" displayName="Project Milestone" parentSchemaName="govcdm_projectworkitem" parentDisplayName="Project Work Item" solution="govcdm_projecttracking (1.0.0.2)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Project Work Item" id="{9cb0efe3-e855-4492-84ae-56a7059296f0}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_projectrequest" displayName="Project Request" parentSchemaName="govcdm_project" parentDisplayName="Project" solution="govcdm_projecttracking (1.0.0.2)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Project" id="{fe9074c2-e074-ee11-9ae7-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_projectrequestid" displayName="Project Request" parentSchemaName="govcdm_projectrequest" parentDisplayName="Project Request" solution="govcdm_projecttracking (1.0.0.2)" />
+        <Dependent type="26" schemaName="Current Project Requests" displayName="Current Project Requests" parentSchemaName="govcdm_projectrequest" parentDisplayName="Project Request" id="{8e98f07a-e374-ee11-9ae7-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_projectworkitemtype" displayName="Project Work Item Type" parentSchemaName="govcdm_projectworkitem" parentDisplayName="Project Work Item" solution="govcdm_projecttracking (1.0.0.2)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Project Work Item" id="{9cb0efe3-e855-4492-84ae-56a7059296f0}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_requestdate" displayName="Request Date" parentSchemaName="govcdm_projectrequest" parentDisplayName="Project Request" solution="govcdm_projecttracking (1.0.0.2)" />
+        <Dependent type="26" schemaName="Current Project Requests" displayName="Current Project Requests" parentSchemaName="govcdm_projectrequest" parentDisplayName="Project Request" id="{8e98f07a-e374-ee11-9ae7-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_requestdate" displayName="Request Date" parentSchemaName="govcdm_projectrequest" parentDisplayName="Project Request" solution="govcdm_projecttracking (1.0.0.2)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Project Request" id="{d0a9dc3f-e074-ee11-9ae7-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_requestor" displayName="Requestor" parentSchemaName="govcdm_projectrequest" parentDisplayName="Project Request" solution="govcdm_projecttracking (1.0.0.2)" />
+        <Dependent type="26" schemaName="Current Project Requests" displayName="Current Project Requests" parentSchemaName="govcdm_projectrequest" parentDisplayName="Project Request" id="{8e98f07a-e374-ee11-9ae7-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_requestor" displayName="Requestor" parentSchemaName="govcdm_projectrequest" parentDisplayName="Project Request" solution="govcdm_projecttracking (1.0.0.2)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Project Request" id="{d0a9dc3f-e074-ee11-9ae7-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_scheduledenddate" displayName="Scheduled End Date" parentSchemaName="govcdm_project" parentDisplayName="Project" solution="govcdm_projecttracking (1.0.0.2)" />
+        <Dependent type="26" schemaName="Current Projects" displayName="Current Projects" parentSchemaName="govcdm_project" parentDisplayName="Project" id="{aa4dfd93-e274-ee11-9ae7-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_scheduledenddate" displayName="Scheduled End Date" parentSchemaName="govcdm_project" parentDisplayName="Project" solution="govcdm_projecttracking (1.0.0.2)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Project" id="{fe9074c2-e074-ee11-9ae7-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_scheduledstartdate" displayName="Scheduled Start Date" parentSchemaName="govcdm_project" parentDisplayName="Project" solution="govcdm_projecttracking (1.0.0.2)" />
+        <Dependent type="26" schemaName="Current Projects" displayName="Current Projects" parentSchemaName="govcdm_project" parentDisplayName="Project" id="{aa4dfd93-e274-ee11-9ae7-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_scheduledstartdate" displayName="Scheduled Start Date" parentSchemaName="govcdm_project" parentDisplayName="Project" solution="govcdm_projecttracking (1.0.0.2)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Project" id="{fe9074c2-e074-ee11-9ae7-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="govcdm_project" parentDisplayName="Project" solution="Active" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Project" id="{fe9074c2-e074-ee11-9ae7-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="govcdm_projectrequest" parentDisplayName="Project Request" solution="Active" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Project Request" id="{d0a9dc3f-e074-ee11-9ae7-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="govcdm_projectworkitem" parentDisplayName="Project Work Item" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Project Work Item" id="{9cb0efe3-e855-4492-84ae-56a7059296f0}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="statecode" displayName="Status" parentSchemaName="govcdm_project" parentDisplayName="Project" solution="govcdm_projecttracking (1.0.0.2)" />
+        <Dependent type="26" schemaName="Current Projects" displayName="Current Projects" parentSchemaName="govcdm_project" parentDisplayName="Project" id="{aa4dfd93-e274-ee11-9ae7-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="statecode" displayName="Status" parentSchemaName="govcdm_projectrequest" parentDisplayName="Project Request" solution="govcdm_projecttracking (1.0.0.2)" />
+        <Dependent type="26" schemaName="Current Project Requests" displayName="Current Project Requests" parentSchemaName="govcdm_projectrequest" parentDisplayName="Project Request" id="{8e98f07a-e374-ee11-9ae7-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Active Project Backlogs" displayName="Active Project Backlogs" parentSchemaName="govcdm_projectbacklog" parentDisplayName="Project Backlog" solution="govcdm_projecttracking (1.0.0.2)" id="{6023bac8-7813-48a9-aa09-9176dcf5d6bf}" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Project" id="{fe9074c2-e074-ee11-9ae7-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Active Project Change Requests" displayName="Active Project Change Requests" parentSchemaName="govcdm_projectchangerequest" parentDisplayName="Project Change Request" solution="govcdm_projecttracking (1.0.0.2)" id="{d082d576-f171-4d46-bea4-4f06a8671031}" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Project" id="{fe9074c2-e074-ee11-9ae7-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Active Project Iterations" displayName="Active Project Iterations" parentSchemaName="govcdm_projectiteration" parentDisplayName="Project Iteration" solution="govcdm_projecttracking (1.0.0.2)" id="{397ae4ee-bab7-4d50-8251-939746319126}" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Project" id="{fe9074c2-e074-ee11-9ae7-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Active Project Milestones" displayName="Active Project Milestones" parentSchemaName="govcdm_projectmilestone" parentDisplayName="Project Milestone" solution="govcdm_projecttracking (1.0.0.2)" id="{2fe4d660-f328-445b-9bdf-a005c501a39b}" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Project" id="{fe9074c2-e074-ee11-9ae7-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Active Project Resources" displayName="Active Project Resources" parentSchemaName="govcdm_projectresource" parentDisplayName="Project Resource" solution="govcdm_projecttracking (1.0.0.2)" id="{8fd0d308-d548-4706-bd16-1aa317f48d80}" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Project" id="{fe9074c2-e074-ee11-9ae7-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Active Project Work Items" displayName="Active Project Work Items" parentSchemaName="govcdm_projectworkitem" parentDisplayName="Project Work Item" solution="govcdm_projecttracking (1.0.0.2)" id="{eeab7080-0ef1-48ca-9aec-df32fcb87a0c}" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Project" id="{fe9074c2-e074-ee11-9ae7-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Active Projects" displayName="Active Projects" parentSchemaName="govcdm_project" parentDisplayName="Project" solution="govcdm_projecttracking (1.0.0.2)" id="{12f94b94-d896-4812-9854-222fd6e970e9}" />
+        <Dependent type="26" schemaName="Active Projects" displayName="Active Projects" parentSchemaName="govcdm_project" parentDisplayName="Project" id="{12f94b94-d896-4812-9854-222fd6e970e9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Active Projects" displayName="Active Projects" parentSchemaName="govcdm_project" parentDisplayName="Project" solution="govcdm_projecttracking (1.0.0.2)" id="{12f94b94-d896-4812-9854-222fd6e970e9}" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Project Request" id="{d0a9dc3f-e074-ee11-9ae7-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Project Request Advanced Find View" displayName="Project Request Advanced Find View" parentSchemaName="govcdm_projectrequest" parentDisplayName="Project Request" solution="govcdm_projecttracking (1.0.0.2)" id="{38417057-3db5-4d8e-a09a-2b2b687f0449}" />
+        <Dependent type="80" schemaName="msgov_ProjectTracking" displayName="Project Tracking" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Project Request Associated View" displayName="Project Request Associated View" parentSchemaName="govcdm_projectrequest" parentDisplayName="Project Request" solution="govcdm_projecttracking (1.0.0.2)" id="{dec1697c-6f1f-424b-aeac-2598048cd698}" />
+        <Dependent type="80" schemaName="msgov_ProjectTracking" displayName="Project Tracking" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Project Request Lookup View" displayName="Project Request Lookup View" parentSchemaName="govcdm_projectrequest" parentDisplayName="Project Request" solution="govcdm_projecttracking (1.0.0.2)" id="{ae1b169e-f3eb-4231-ba2f-af65ee6d91bb}" />
+        <Dependent type="80" schemaName="msgov_ProjectTracking" displayName="Project Tracking" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Quick Find Active Project Requests" displayName="Quick Find Active Project Requests" parentSchemaName="govcdm_projectrequest" parentDisplayName="Project Request" solution="govcdm_projecttracking (1.0.0.2)" id="{7a089170-b3d7-41ab-b35d-78090e8d3925}" />
+        <Dependent type="80" schemaName="msgov_ProjectTracking" displayName="Project Tracking" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Information" parentDisplayName="Project Work Item" solution="govcdm_projecttracking (1.0.0.2)" id="{9cb0efe3-e855-4492-84ae-56a7059296f0}" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Project Work Item" id="{9cb0efe3-e855-4492-84ae-56a7059296f0}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="msdyn_/Images/AppModule_Default_Icon.png" displayName="msdyn_/Images/AppModule_Default_Icon.png" solution="AppModuleWebResources (2.5)">
+          <package appName="AppModule Web Resources Package" version="2.5">AppModuleWebResources (2.5)</package>
+        </Required>
+        <Dependent type="80" schemaName="msgov_ProjectTracking" displayName="Project Tracking" />
+      </MissingDependency>
+    </MissingDependencies>
+  </SolutionManifest>
+</ImportExportXml>
