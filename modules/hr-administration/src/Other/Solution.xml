@@ -1,0 +1,820 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImportExportXml version="9.2.25083.183" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" OrganizationVersion="9.2.25083.183" OrganizationSchemaType="Standard" CRMServerServiceabilityVersion="9.2.25084.00181">
+  <SolutionManifest>
+    <UniqueName>msgov_hradministration</UniqueName>
+    <LocalizedNames>
+      <LocalizedName description="Microsoft Gov - HR Administration" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions />
+    <Version>1.1.0.0</Version>
+    <Managed>2</Managed>
+    <Publisher>
+      <UniqueName>msgovsolutions</UniqueName>
+      <LocalizedNames>
+        <LocalizedName description="Microsoft Government Solutions" languagecode="1033" />
+      </LocalizedNames>
+      <Descriptions>
+        <Description description="Microsoft Government Solutions" languagecode="1033" />
+      </Descriptions>
+      <EMailAddress xsi:nil="true"></EMailAddress>
+      <SupportingWebsiteUrl xsi:nil="true"></SupportingWebsiteUrl>
+      <CustomizationPrefix>msgov</CustomizationPrefix>
+      <CustomizationOptionValuePrefix>18844</CustomizationOptionValuePrefix>
+      <Addresses>
+        <Address>
+          <AddressNumber>1</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+        <Address>
+          <AddressNumber>2</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+      </Addresses>
+    </Publisher>
+    <RootComponents>
+      <RootComponent type="1" schemaName="govcdm_actionassignment" behavior="1" />
+      <RootComponent type="1" schemaName="govcdm_collaborationspace" behavior="1" />
+      <RootComponent type="1" schemaName="govcdm_hrchangerequest" behavior="2" />
+      <RootComponent type="1" schemaName="govcdm_hrcompovertimerequest" behavior="2" />
+      <RootComponent type="1" schemaName="govcdm_hrevent" behavior="2" />
+      <RootComponent type="1" schemaName="govcdm_hrgpcrequest" behavior="2" />
+      <RootComponent type="1" schemaName="govcdm_hrpersonnelaction" behavior="1" />
+      <RootComponent type="1" schemaName="govcdm_hrpersonnelimpact" behavior="2" />
+      <RootComponent type="1" schemaName="govcdm_hrposition" behavior="2" />
+      <RootComponent type="1" schemaName="govcdm_hrpositionassignment" behavior="2" />
+      <RootComponent type="1" schemaName="govcdm_hrpositiondescription" behavior="2" />
+      <RootComponent type="1" schemaName="govcdm_hrreasonableaccommodation" behavior="2" />
+      <RootComponent type="1" schemaName="govcdm_hrteleworkrequest" behavior="2" />
+      <RootComponent type="1" schemaName="govcdm_hrtimeoffdetails" behavior="2" />
+      <RootComponent type="1" schemaName="govcdm_hrtimeoffrequest" behavior="2" />
+      <RootComponent type="300" schemaName="msgov_teleworkrequest_0ffaf" behavior="0" />
+      <RootComponent type="60" id="{7973fe64-253d-ee11-bdf4-000d3a119632}" behavior="0" />
+      <RootComponent type="62" schemaName="msgov_HRAdministration" behavior="0" />
+      <RootComponent type="80" schemaName="msgov_HRAdministration" behavior="0" />
+    </RootComponents>
+    <MissingDependencies>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_actionassignment" displayName="Action Assignment" solution="govcdm_processandtasking (1.0.2.0)" />
+        <Dependent type="1" schemaName="govcdm_actionassignment" displayName="Action Assignment" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_collaborationspace" displayName="Collaboration Space" solution="govcdm_processandtasking (1.0.2.0)" />
+        <Dependent type="1" schemaName="govcdm_collaborationspace" displayName="Collaboration Space" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_hractiontype" displayName="HR Action Type" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="62" schemaName="msgov_HRAdministration" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_hractiontype" displayName="HR Action Type" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="80" schemaName="msgov_HRAdministration" displayName="HR Administration" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_hrchangerequest" displayName="HR Change Request" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="1" schemaName="govcdm_hrchangerequest" displayName="HR Change Request" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_hrchangerequest" displayName="HR Change Request" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="59" schemaName="HR Change Requests by Type" displayName="HR Change Requests by Type" parentSchemaName="govcdm_hrchangerequest" parentDisplayName="HR Change Request" id="{f3281b68-263d-ee11-bdf4-000d3a119632}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_hrchangerequest" displayName="HR Change Request" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="60" displayName="HR Personnel Change Requests - Admin" id="{7973fe64-253d-ee11-bdf4-000d3a119632}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_hrchangerequest" displayName="HR Change Request" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="62" schemaName="msgov_HRAdministration" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_hrchangerequest" displayName="HR Change Request" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="80" schemaName="msgov_HRAdministration" displayName="HR Administration" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_hrcompovertimerequest" displayName="HR Comp Overtime Request" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="1" schemaName="govcdm_hrcompovertimerequest" displayName="HR Comp Overtime Request" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_hrevent" displayName="HR Event" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="1" schemaName="govcdm_hrevent" displayName="HR Event" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_hrgpcrequest" displayName="HR GPC Request" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="1" schemaName="govcdm_hrgpcrequest" displayName="HR GPC Request" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_hrpersonnelaction" displayName="HR Personnel Action" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="1" schemaName="govcdm_hrpersonnelaction" displayName="HR Personnel Action" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_hrpersonnelimpact" displayName="HR Personnel Impact" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="1" schemaName="govcdm_hrpersonnelimpact" displayName="HR Personnel Impact" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_hrposition" displayName="HR Position" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="1" schemaName="govcdm_hrposition" displayName="HR Position" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_hrposition" displayName="HR Position" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="HR Position" id="{64af97db-f8f1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_hrposition" displayName="HR Position" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="62" schemaName="msgov_HRAdministration" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_hrposition" displayName="HR Position" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="80" schemaName="msgov_HRAdministration" displayName="HR Administration" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_hrpositionassignment" displayName="HR Position Assignment" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="1" schemaName="govcdm_hrpositionassignment" displayName="HR Position Assignment" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_hrpositionassignment" displayName="HR Position Assignment" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="HR Position Assignment" id="{69391501-f9f1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_hrpositionassignment" displayName="HR Position Assignment" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="62" schemaName="msgov_HRAdministration" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_hrpositionassignment" displayName="HR Position Assignment" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="80" schemaName="msgov_HRAdministration" displayName="HR Administration" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_hrpositiondescription" displayName="HR Position Description" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="1" schemaName="govcdm_hrpositiondescription" displayName="HR Position Description" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_hrpositiondescription" displayName="HR Position Description" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="HR Position Description" id="{6e74371b-f9f1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_hrpositiondescription" displayName="HR Position Description" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="62" schemaName="msgov_HRAdministration" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_hrpositiondescription" displayName="HR Position Description" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="80" schemaName="msgov_HRAdministration" displayName="HR Administration" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_hrreasonableaccommodation" displayName="HR Reasonable Accommodation" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="1" schemaName="govcdm_hrreasonableaccommodation" displayName="HR Reasonable Accommodation" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_hrteleworkrequest" displayName="HR Telework Request" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="1" schemaName="govcdm_hrteleworkrequest" displayName="HR Telework Request" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_hrtimeoffdetails" displayName="HR Time Off Details" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="1" schemaName="govcdm_hrtimeoffdetails" displayName="HR Time Off Details" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_hrtimeoffrequest" displayName="HR Time Off Request" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="1" schemaName="govcdm_hrtimeoffrequest" displayName="HR Time Off Request" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_processstep" displayName="Process Step" solution="govcdm_processandtasking (1.0.2.0)" />
+        <Dependent type="62" schemaName="msgov_HRAdministration" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_processstep" displayName="Process Step" solution="govcdm_processandtasking (1.0.2.0)" />
+        <Dependent type="80" schemaName="msgov_HRAdministration" displayName="HR Administration" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_govcdm_hrchangerequest_Person_contact" displayName="govcdm_govcdm_hrchangerequest_Person_contact" parentSchemaName="contact" parentDisplayName="Person" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="HR Change Request" id="{28f22b1f-302d-4127-8551-b47950b8f986}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_govcdm_hrteleworkrequest_Employee_contact" displayName="govcdm_govcdm_hrteleworkrequest_Employee_contact" parentSchemaName="contact" parentDisplayName="Person" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="HR Telework Request" id="{f67cb430-9176-4491-9649-04c9afcacc5d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_hrchangerequest_ApprovedBy_contact" displayName="govcdm_hrchangerequest_ApprovedBy_contact" parentSchemaName="contact" parentDisplayName="Person" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="HR Change Request" id="{28f22b1f-302d-4127-8551-b47950b8f986}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_hrchangerequest_ApprovedByUser_systemuser" displayName="govcdm_hrchangerequest_ApprovedByUser_systemuser" parentSchemaName="systemuser" parentDisplayName="User" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="HR Change Request" id="{28f22b1f-302d-4127-8551-b47950b8f986}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_hrchangerequest_FromHRPosition_govcdm_hrposition" displayName="govcdm_hrchangerequest_FromHRPosition_govcdm_hrposition" parentSchemaName="govcdm_hrposition" parentDisplayName="HR Position" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="HR Change Request" id="{28f22b1f-302d-4127-8551-b47950b8f986}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_hrchangerequest_GradeRank_govcdm_graderank" displayName="govcdm_hrchangerequest_GradeRank_govcdm_graderank" parentSchemaName="govcdm_graderank" parentDisplayName="Grade-Rank" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="HR Change Request" id="{28f22b1f-302d-4127-8551-b47950b8f986}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_hrchangerequest_HRActionType_govcdm_hractiontype" displayName="govcdm_hrchangerequest_HRActionType_govcdm_hractiontype" parentSchemaName="govcdm_hractiontype" parentDisplayName="HR Action Type" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="HR Change Request" id="{28f22b1f-302d-4127-8551-b47950b8f986}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_hrchangerequest_HREvent_govcdm_hrevent" displayName="govcdm_hrchangerequest_HREvent_govcdm_hrevent" parentSchemaName="govcdm_hrevent" parentDisplayName="HR Event" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="HR Change Request" id="{28f22b1f-302d-4127-8551-b47950b8f986}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_hrchangerequest_HRPersonnelAction_govcdm_hrpersonnelaction" displayName="govcdm_hrchangerequest_HRPersonnelAction_govcdm_hrpersonnelaction" parentSchemaName="govcdm_hrpersonnelaction" parentDisplayName="HR Personnel Action" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="HR Change Request" id="{28f22b1f-302d-4127-8551-b47950b8f986}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_hrchangerequest_JobSeries_govcdm_jobseries" displayName="govcdm_hrchangerequest_JobSeries_govcdm_jobseries" parentSchemaName="govcdm_jobseries" parentDisplayName="Job Series" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="HR Change Request" id="{28f22b1f-302d-4127-8551-b47950b8f986}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_hrchangerequest_Location_govcdm_location" displayName="govcdm_hrchangerequest_Location_govcdm_location" parentSchemaName="govcdm_location" parentDisplayName="Location" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="HR Change Request" id="{28f22b1f-302d-4127-8551-b47950b8f986}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_hrchangerequest_NewGradeRank_govcdm_graderank" displayName="govcdm_hrchangerequest_NewGradeRank_govcdm_graderank" parentSchemaName="govcdm_graderank" parentDisplayName="Grade-Rank" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="HR Change Request" id="{28f22b1f-302d-4127-8551-b47950b8f986}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_hrchangerequest_NewJobSeries_govcdm_jobseries" displayName="govcdm_hrchangerequest_NewJobSeries_govcdm_jobseries" parentSchemaName="govcdm_jobseries" parentDisplayName="Job Series" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="HR Change Request" id="{28f22b1f-302d-4127-8551-b47950b8f986}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_hrchangerequest_NewLocation_govcdm_location" displayName="govcdm_hrchangerequest_NewLocation_govcdm_location" parentSchemaName="govcdm_location" parentDisplayName="Location" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="HR Change Request" id="{28f22b1f-302d-4127-8551-b47950b8f986}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_hrchangerequest_NewOrganizationUnit_govcdm_organizationunit" displayName="govcdm_hrchangerequest_NewOrganizationUnit_govcdm_organizationunit" parentSchemaName="govcdm_organizationunit" parentDisplayName="Organization Unit" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="HR Change Request" id="{28f22b1f-302d-4127-8551-b47950b8f986}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_hrchangerequest_NewPrimarySupervisor_contact" displayName="govcdm_hrchangerequest_NewPrimarySupervisor_contact" parentSchemaName="contact" parentDisplayName="Person" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="HR Change Request" id="{28f22b1f-302d-4127-8551-b47950b8f986}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_hrchangerequest_NewSecondarySupervisor_contact" displayName="govcdm_hrchangerequest_NewSecondarySupervisor_contact" parentSchemaName="contact" parentDisplayName="Person" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="HR Change Request" id="{28f22b1f-302d-4127-8551-b47950b8f986}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_hrchangerequest_OrganizationUnit_govcdm_organizationunit" displayName="govcdm_hrchangerequest_OrganizationUnit_govcdm_organizationunit" parentSchemaName="govcdm_organizationunit" parentDisplayName="Organization Unit" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="HR Change Request" id="{28f22b1f-302d-4127-8551-b47950b8f986}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_hrchangerequest_PrimarySupervisor_contact" displayName="govcdm_hrchangerequest_PrimarySupervisor_contact" parentSchemaName="contact" parentDisplayName="Person" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="HR Change Request" id="{28f22b1f-302d-4127-8551-b47950b8f986}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_hrchangerequest_RequestedByPerson_contact" displayName="govcdm_hrchangerequest_RequestedByPerson_contact" parentSchemaName="contact" parentDisplayName="Person" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="HR Change Request" id="{28f22b1f-302d-4127-8551-b47950b8f986}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_hrchangerequest_RequestedByUser_systemuser" displayName="govcdm_hrchangerequest_RequestedByUser_systemuser" parentSchemaName="systemuser" parentDisplayName="User" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="HR Change Request" id="{28f22b1f-302d-4127-8551-b47950b8f986}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_hrchangerequest_SecondarySupervisor_contact" displayName="govcdm_hrchangerequest_SecondarySupervisor_contact" parentSchemaName="contact" parentDisplayName="Person" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="HR Change Request" id="{28f22b1f-302d-4127-8551-b47950b8f986}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_hrchangerequest_ToHRPosition_govcdm_hrposition" displayName="govcdm_hrchangerequest_ToHRPosition_govcdm_hrposition" parentSchemaName="govcdm_hrposition" parentDisplayName="HR Position" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="HR Change Request" id="{28f22b1f-302d-4127-8551-b47950b8f986}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_hrevent_HRPersonnelAction_govcdm_hrpersonnelaction" displayName="govcdm_hrevent_HRPersonnelAction_govcdm_hrpersonnelaction" parentSchemaName="govcdm_hrpersonnelaction" parentDisplayName="HR Personnel Action" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="HR Event" id="{8a8bfc8b-abc1-4649-90ac-c936a5701907}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_hrevent_HRPosition_govcdm_hrposition" displayName="govcdm_hrevent_HRPosition_govcdm_hrposition" parentSchemaName="govcdm_hrposition" parentDisplayName="HR Position" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="HR Event" id="{8a8bfc8b-abc1-4649-90ac-c936a5701907}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_hrevent_Personnel_contact" displayName="govcdm_hrevent_Personnel_contact" parentSchemaName="contact" parentDisplayName="Person" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="HR Event" id="{8a8bfc8b-abc1-4649-90ac-c936a5701907}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_hrevent_Supervisor_contact" displayName="govcdm_hrevent_Supervisor_contact" parentSchemaName="contact" parentDisplayName="Person" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="HR Event" id="{8a8bfc8b-abc1-4649-90ac-c936a5701907}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_hrposition_HRPositionDescription_govcdm_h" displayName="govcdm_hrposition_HRPositionDescription_govcdm_h" parentSchemaName="govcdm_hrpositiondescription" parentDisplayName="HR Position Description" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="HR Position" id="{64af97db-f8f1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_hrposition_OrganizationUnit_govcdm_organi" displayName="govcdm_hrposition_OrganizationUnit_govcdm_organi" parentSchemaName="govcdm_organizationunit" parentDisplayName="Organization Unit" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="HR Position" id="{64af97db-f8f1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_hrpositionassignment_HRPosition_govcdm_hr" displayName="govcdm_hrpositionassignment_HRPosition_govcdm_hr" parentSchemaName="govcdm_hrposition" parentDisplayName="HR Position" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="HR Position Assignment" id="{69391501-f9f1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_hrpositionassignment_Person_contact" displayName="govcdm_hrpositionassignment_Person_contact" parentSchemaName="contact" parentDisplayName="Person" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="HR Position Assignment" id="{69391501-f9f1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="createdon" displayName="Created On" parentSchemaName="govcdm_hrchangerequest" parentDisplayName="HR Change Request" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="26" schemaName="Active HR Change Requests" displayName="Active HR Change Requests" parentSchemaName="govcdm_hrchangerequest" parentDisplayName="HR Change Request" id="{6343121a-ad15-4c33-9fc8-19fcd8d5948e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_actionstatus" displayName="Action Status" parentSchemaName="govcdm_hrevent" parentDisplayName="HR Event" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="HR Event" id="{8a8bfc8b-abc1-4649-90ac-c936a5701907}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_alternateworkdays" displayName="Alternate Work Days" parentSchemaName="govcdm_hrteleworkrequest" parentDisplayName="HR Telework Request" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="HR Telework Request" id="{f67cb430-9176-4491-9649-04c9afcacc5d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_alternateworksiteaddress" displayName="Alternate Worksite Address" parentSchemaName="govcdm_hrteleworkrequest" parentDisplayName="HR Telework Request" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="HR Telework Request" id="{f67cb430-9176-4491-9649-04c9afcacc5d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_alternateworksiteemail" displayName="Alternate Worksite Email" parentSchemaName="govcdm_hrteleworkrequest" parentDisplayName="HR Telework Request" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="HR Telework Request" id="{f67cb430-9176-4491-9649-04c9afcacc5d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_alternateworksitephone" displayName="Alternate Worksite Phone" parentSchemaName="govcdm_hrteleworkrequest" parentDisplayName="HR Telework Request" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="HR Telework Request" id="{f67cb430-9176-4491-9649-04c9afcacc5d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_approvalcomments" displayName="Approval Comments" parentSchemaName="govcdm_hrchangerequest" parentDisplayName="HR Change Request" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="HR Change Request" id="{28f22b1f-302d-4127-8551-b47950b8f986}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_approvaldate" displayName="Approval Date" parentSchemaName="govcdm_hrchangerequest" parentDisplayName="HR Change Request" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="HR Change Request" id="{28f22b1f-302d-4127-8551-b47950b8f986}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_approvalstatus" displayName="Approval Status" parentSchemaName="govcdm_hrchangerequest" parentDisplayName="HR Change Request" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="HR Change Request" id="{28f22b1f-302d-4127-8551-b47950b8f986}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_approvedby" displayName="Approved By" parentSchemaName="govcdm_hrchangerequest" parentDisplayName="HR Change Request" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="HR Change Request" id="{28f22b1f-302d-4127-8551-b47950b8f986}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_approvedbyuser" displayName="Approved By (User)" parentSchemaName="govcdm_hrchangerequest" parentDisplayName="HR Change Request" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="HR Change Request" id="{28f22b1f-302d-4127-8551-b47950b8f986}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_cancellationdate" displayName="Cancellation Date" parentSchemaName="govcdm_hrteleworkrequest" parentDisplayName="HR Telework Request" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="HR Telework Request" id="{f67cb430-9176-4491-9649-04c9afcacc5d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_cancellationreason" displayName="Cancellation Reason" parentSchemaName="govcdm_hrteleworkrequest" parentDisplayName="HR Telework Request" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="HR Telework Request" id="{f67cb430-9176-4491-9649-04c9afcacc5d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_description" displayName="Description" parentSchemaName="govcdm_hrevent" parentDisplayName="HR Event" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="HR Event" id="{8a8bfc8b-abc1-4649-90ac-c936a5701907}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_description" displayName="Description" parentSchemaName="govcdm_hrpersonnelimpact" parentDisplayName="HR Personnel Impact" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="26" schemaName="Active HR Personnel Impacts" displayName="Active HR Personnel Impacts" parentSchemaName="govcdm_hrpersonnelimpact" parentDisplayName="HR Personnel Impact" id="{b821172a-e7d0-4c2b-a368-5e61b7fa1fb9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_description" displayName="Description" parentSchemaName="govcdm_hrpersonnelimpact" parentDisplayName="HR Personnel Impact" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="HR Personnel Impact" id="{067c6977-b156-4500-9246-7d17a70a4901}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_effectivedate" displayName="Effective Date" parentSchemaName="govcdm_hrevent" parentDisplayName="HR Event" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="HR Event" id="{8a8bfc8b-abc1-4649-90ac-c936a5701907}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_effectivefromdate" displayName="Effective From Date" parentSchemaName="govcdm_hrchangerequest" parentDisplayName="HR Change Request" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="HR Change Request" id="{28f22b1f-302d-4127-8551-b47950b8f986}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_effectivetodate" displayName="Effective To Date" parentSchemaName="govcdm_hrchangerequest" parentDisplayName="HR Change Request" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="HR Change Request" id="{28f22b1f-302d-4127-8551-b47950b8f986}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_employee" displayName="Employee" parentSchemaName="govcdm_hrteleworkrequest" parentDisplayName="HR Telework Request" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="HR Telework Request" id="{f67cb430-9176-4491-9649-04c9afcacc5d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_enddate" displayName="End Date" parentSchemaName="govcdm_hrpositionassignment" parentDisplayName="HR Position Assignment" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="HR Position Assignment" id="{69391501-f9f1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_firstname" displayName="First Name" parentSchemaName="govcdm_hrchangerequest" parentDisplayName="HR Change Request" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="HR Change Request" id="{28f22b1f-302d-4127-8551-b47950b8f986}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_fromhrposition" displayName="From HR Position" parentSchemaName="govcdm_hrchangerequest" parentDisplayName="HR Change Request" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="HR Change Request" id="{28f22b1f-302d-4127-8551-b47950b8f986}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_graderank" displayName="Grade / Rank" parentSchemaName="govcdm_hrchangerequest" parentDisplayName="HR Change Request" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="HR Change Request" id="{28f22b1f-302d-4127-8551-b47950b8f986}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_hractiontype" displayName="HR Action Type" parentSchemaName="govcdm_hrchangerequest" parentDisplayName="HR Change Request" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="59" schemaName="HR Change Requests by Type" displayName="HR Change Requests by Type" parentSchemaName="govcdm_hrchangerequest" parentDisplayName="HR Change Request" id="{f3281b68-263d-ee11-bdf4-000d3a119632}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_hractiontype" displayName="HR Action Type" parentSchemaName="govcdm_hrchangerequest" parentDisplayName="HR Change Request" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="HR Change Request" id="{28f22b1f-302d-4127-8551-b47950b8f986}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_hrchangerequestid" displayName="HR Change Request" parentSchemaName="govcdm_hrchangerequest" parentDisplayName="HR Change Request" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="26" schemaName="Active HR Change Requests" displayName="Active HR Change Requests" parentSchemaName="govcdm_hrchangerequest" parentDisplayName="HR Change Request" id="{6343121a-ad15-4c33-9fc8-19fcd8d5948e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_hrevent" displayName="HR Event" parentSchemaName="govcdm_hrchangerequest" parentDisplayName="HR Change Request" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="HR Change Request" id="{28f22b1f-302d-4127-8551-b47950b8f986}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_hreventtype" displayName="HR Event Type" parentSchemaName="govcdm_hrevent" parentDisplayName="HR Event" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="HR Event" id="{8a8bfc8b-abc1-4649-90ac-c936a5701907}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_hrpersonnelaction" displayName="HR Personnel Action" parentSchemaName="govcdm_hrchangerequest" parentDisplayName="HR Change Request" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="HR Change Request" id="{28f22b1f-302d-4127-8551-b47950b8f986}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_hrpersonnelaction" displayName="HR Personnel Action" parentSchemaName="govcdm_hrevent" parentDisplayName="HR Event" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="HR Event" id="{8a8bfc8b-abc1-4649-90ac-c936a5701907}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_hrpersonnelimpactid" displayName="HR Personnel Impact" parentSchemaName="govcdm_hrpersonnelimpact" parentDisplayName="HR Personnel Impact" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="26" schemaName="Active HR Personnel Impacts" displayName="Active HR Personnel Impacts" parentSchemaName="govcdm_hrpersonnelimpact" parentDisplayName="HR Personnel Impact" id="{b821172a-e7d0-4c2b-a368-5e61b7fa1fb9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_hrposition" displayName="HR Position" parentSchemaName="govcdm_hrevent" parentDisplayName="HR Event" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="HR Event" id="{8a8bfc8b-abc1-4649-90ac-c936a5701907}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_hrposition" displayName="HR Position" parentSchemaName="govcdm_hrpositionassignment" parentDisplayName="HR Position Assignment" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="HR Position Assignment" id="{69391501-f9f1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_hrpositiondescription" displayName="HR Position Description" parentSchemaName="govcdm_hrposition" parentDisplayName="HR Position" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="HR Position" id="{64af97db-f8f1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_impactfromdate" displayName="Impact From Date" parentSchemaName="govcdm_hrpersonnelimpact" parentDisplayName="HR Personnel Impact" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="26" schemaName="Active HR Personnel Impacts" displayName="Active HR Personnel Impacts" parentSchemaName="govcdm_hrpersonnelimpact" parentDisplayName="HR Personnel Impact" id="{b821172a-e7d0-4c2b-a368-5e61b7fa1fb9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_impactfromdate" displayName="Impact From Date" parentSchemaName="govcdm_hrpersonnelimpact" parentDisplayName="HR Personnel Impact" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="HR Personnel Impact" id="{067c6977-b156-4500-9246-7d17a70a4901}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_impacttodate" displayName="Impact To Date" parentSchemaName="govcdm_hrpersonnelimpact" parentDisplayName="HR Personnel Impact" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="26" schemaName="Active HR Personnel Impacts" displayName="Active HR Personnel Impacts" parentSchemaName="govcdm_hrpersonnelimpact" parentDisplayName="HR Personnel Impact" id="{b821172a-e7d0-4c2b-a368-5e61b7fa1fb9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_impacttodate" displayName="Impact To Date" parentSchemaName="govcdm_hrpersonnelimpact" parentDisplayName="HR Personnel Impact" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="HR Personnel Impact" id="{067c6977-b156-4500-9246-7d17a70a4901}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_issensitive" displayName="Is Sensitive" parentSchemaName="govcdm_hrevent" parentDisplayName="HR Event" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="HR Event" id="{8a8bfc8b-abc1-4649-90ac-c936a5701907}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_jobseries" displayName="Job Series" parentSchemaName="govcdm_hrchangerequest" parentDisplayName="HR Change Request" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="HR Change Request" id="{28f22b1f-302d-4127-8551-b47950b8f986}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_lastname" displayName="Last Name" parentSchemaName="govcdm_hrchangerequest" parentDisplayName="HR Change Request" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="HR Change Request" id="{28f22b1f-302d-4127-8551-b47950b8f986}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_location" displayName="Location" parentSchemaName="govcdm_hrchangerequest" parentDisplayName="HR Change Request" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="HR Change Request" id="{28f22b1f-302d-4127-8551-b47950b8f986}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_managercomments" displayName="Manager Comments" parentSchemaName="govcdm_hrpersonnelimpact" parentDisplayName="HR Personnel Impact" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="26" schemaName="Active HR Personnel Impacts" displayName="Active HR Personnel Impacts" parentSchemaName="govcdm_hrpersonnelimpact" parentDisplayName="HR Personnel Impact" id="{b821172a-e7d0-4c2b-a368-5e61b7fa1fb9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_managercomments" displayName="Manager Comments" parentSchemaName="govcdm_hrpersonnelimpact" parentDisplayName="HR Personnel Impact" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="HR Personnel Impact" id="{067c6977-b156-4500-9246-7d17a70a4901}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_middlename" displayName="Middle Name" parentSchemaName="govcdm_hrchangerequest" parentDisplayName="HR Change Request" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="HR Change Request" id="{28f22b1f-302d-4127-8551-b47950b8f986}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_hrchangerequest" parentDisplayName="HR Change Request" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="26" schemaName="Active HR Change Requests" displayName="Active HR Change Requests" parentSchemaName="govcdm_hrchangerequest" parentDisplayName="HR Change Request" id="{6343121a-ad15-4c33-9fc8-19fcd8d5948e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_hrchangerequest" parentDisplayName="HR Change Request" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="HR Change Request" id="{28f22b1f-302d-4127-8551-b47950b8f986}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_hrevent" parentDisplayName="HR Event" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="HR Event" id="{8a8bfc8b-abc1-4649-90ac-c936a5701907}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_hrpersonnelimpact" parentDisplayName="HR Personnel Impact" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="26" schemaName="Active HR Personnel Impacts" displayName="Active HR Personnel Impacts" parentSchemaName="govcdm_hrpersonnelimpact" parentDisplayName="HR Personnel Impact" id="{b821172a-e7d0-4c2b-a368-5e61b7fa1fb9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_hrpersonnelimpact" parentDisplayName="HR Personnel Impact" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="HR Personnel Impact" id="{067c6977-b156-4500-9246-7d17a70a4901}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_hrposition" parentDisplayName="HR Position" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="HR Position" id="{64af97db-f8f1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_hrpositionassignment" parentDisplayName="HR Position Assignment" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="HR Position Assignment" id="{69391501-f9f1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_hrpositiondescription" parentDisplayName="HR Position Description" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="HR Position Description" id="{6e74371b-f9f1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_hrteleworkrequest" parentDisplayName="HR Telework Request" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="HR Telework Request" id="{f67cb430-9176-4491-9649-04c9afcacc5d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_newfirstname" displayName="New First Name" parentSchemaName="govcdm_hrchangerequest" parentDisplayName="HR Change Request" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="HR Change Request" id="{28f22b1f-302d-4127-8551-b47950b8f986}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_newgraderank" displayName="New Grade / Rank" parentSchemaName="govcdm_hrchangerequest" parentDisplayName="HR Change Request" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="HR Change Request" id="{28f22b1f-302d-4127-8551-b47950b8f986}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_newjobseries" displayName="New Job Series" parentSchemaName="govcdm_hrchangerequest" parentDisplayName="HR Change Request" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="HR Change Request" id="{28f22b1f-302d-4127-8551-b47950b8f986}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_newlastname" displayName="New Last Name" parentSchemaName="govcdm_hrchangerequest" parentDisplayName="HR Change Request" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="HR Change Request" id="{28f22b1f-302d-4127-8551-b47950b8f986}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_newlocation" displayName="New Location" parentSchemaName="govcdm_hrchangerequest" parentDisplayName="HR Change Request" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="HR Change Request" id="{28f22b1f-302d-4127-8551-b47950b8f986}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_newmiddlename" displayName="New Middle Name" parentSchemaName="govcdm_hrchangerequest" parentDisplayName="HR Change Request" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="HR Change Request" id="{28f22b1f-302d-4127-8551-b47950b8f986}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_neworganizationunit" displayName="New Organization Unit" parentSchemaName="govcdm_hrchangerequest" parentDisplayName="HR Change Request" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="HR Change Request" id="{28f22b1f-302d-4127-8551-b47950b8f986}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_newprimarysupervisor" displayName="New Primary Supervisor" parentSchemaName="govcdm_hrchangerequest" parentDisplayName="HR Change Request" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="HR Change Request" id="{28f22b1f-302d-4127-8551-b47950b8f986}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_newsecondarysupervisor" displayName="New Secondary Supervisor" parentSchemaName="govcdm_hrchangerequest" parentDisplayName="HR Change Request" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="HR Change Request" id="{28f22b1f-302d-4127-8551-b47950b8f986}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_newworkphone" displayName="New Work Phone" parentSchemaName="govcdm_hrchangerequest" parentDisplayName="HR Change Request" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="HR Change Request" id="{28f22b1f-302d-4127-8551-b47950b8f986}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_numberdaysperperiod" displayName="Number Days Per Period" parentSchemaName="govcdm_hrteleworkrequest" parentDisplayName="HR Telework Request" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="HR Telework Request" id="{f67cb430-9176-4491-9649-04c9afcacc5d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_organizationunit" displayName="Organization Unit" parentSchemaName="govcdm_hrchangerequest" parentDisplayName="HR Change Request" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="HR Change Request" id="{28f22b1f-302d-4127-8551-b47950b8f986}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_organizationunit" displayName="Organization Unit" parentSchemaName="govcdm_hrposition" parentDisplayName="HR Position" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="HR Position" id="{64af97db-f8f1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_person" displayName="Person" parentSchemaName="govcdm_hrchangerequest" parentDisplayName="HR Change Request" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="HR Change Request" id="{28f22b1f-302d-4127-8551-b47950b8f986}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_person" displayName="Person" parentSchemaName="govcdm_hrpositionassignment" parentDisplayName="HR Position Assignment" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="HR Position Assignment" id="{69391501-f9f1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_personnel" displayName="Personnel" parentSchemaName="govcdm_hrevent" parentDisplayName="HR Event" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="HR Event" id="{8a8bfc8b-abc1-4649-90ac-c936a5701907}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_primarysupervisor" displayName="Primary Supervisor" parentSchemaName="govcdm_hrchangerequest" parentDisplayName="HR Change Request" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="HR Change Request" id="{28f22b1f-302d-4127-8551-b47950b8f986}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_priority" displayName="Priority" parentSchemaName="govcdm_hrevent" parentDisplayName="HR Event" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="HR Event" id="{8a8bfc8b-abc1-4649-90ac-c936a5701907}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_regularworksiteaddress" displayName="Regular Worksite Address" parentSchemaName="govcdm_hrteleworkrequest" parentDisplayName="HR Telework Request" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="HR Telework Request" id="{f67cb430-9176-4491-9649-04c9afcacc5d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_requestedbyperson" displayName="Requested By (Person)" parentSchemaName="govcdm_hrchangerequest" parentDisplayName="HR Change Request" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="HR Change Request" id="{28f22b1f-302d-4127-8551-b47950b8f986}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_requestedbyuser" displayName="Requested By (User)" parentSchemaName="govcdm_hrchangerequest" parentDisplayName="HR Change Request" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="HR Change Request" id="{28f22b1f-302d-4127-8551-b47950b8f986}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_requesteddate" displayName="Requested Date" parentSchemaName="govcdm_hrchangerequest" parentDisplayName="HR Change Request" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="HR Change Request" id="{28f22b1f-302d-4127-8551-b47950b8f986}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_requestedeffectivedate" displayName="Requested Effective Date" parentSchemaName="govcdm_hrchangerequest" parentDisplayName="HR Change Request" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="HR Change Request" id="{28f22b1f-302d-4127-8551-b47950b8f986}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_requestjustification" displayName="Request Justification" parentSchemaName="govcdm_hrchangerequest" parentDisplayName="HR Change Request" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="HR Change Request" id="{28f22b1f-302d-4127-8551-b47950b8f986}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_requeststatus" displayName="Request Status" parentSchemaName="govcdm_hrchangerequest" parentDisplayName="HR Change Request" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="HR Change Request" id="{28f22b1f-302d-4127-8551-b47950b8f986}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_requestsummary" displayName="Request Summary" parentSchemaName="govcdm_hrchangerequest" parentDisplayName="HR Change Request" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="HR Change Request" id="{28f22b1f-302d-4127-8551-b47950b8f986}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_secondarysupervisor" displayName="Secondary Supervisor" parentSchemaName="govcdm_hrchangerequest" parentDisplayName="HR Change Request" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="HR Change Request" id="{28f22b1f-302d-4127-8551-b47950b8f986}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_securityclassification" displayName="Security Classification" parentSchemaName="govcdm_hrevent" parentDisplayName="HR Event" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="HR Event" id="{8a8bfc8b-abc1-4649-90ac-c936a5701907}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_startdate" displayName="Start Date" parentSchemaName="govcdm_hrevent" parentDisplayName="HR Event" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="HR Event" id="{8a8bfc8b-abc1-4649-90ac-c936a5701907}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_startdate" displayName="Start Date" parentSchemaName="govcdm_hrpositionassignment" parentDisplayName="HR Position Assignment" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="HR Position Assignment" id="{69391501-f9f1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_supervisor" displayName="Supervisor" parentSchemaName="govcdm_hrevent" parentDisplayName="HR Event" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="HR Event" id="{8a8bfc8b-abc1-4649-90ac-c936a5701907}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_teleworkarrangementtype" displayName="Telework Arrangement Type" parentSchemaName="govcdm_hrteleworkrequest" parentDisplayName="HR Telework Request" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="HR Telework Request" id="{f67cb430-9176-4491-9649-04c9afcacc5d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_teleworkenddate" displayName="Telework End Date" parentSchemaName="govcdm_hrteleworkrequest" parentDisplayName="HR Telework Request" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="HR Telework Request" id="{f67cb430-9176-4491-9649-04c9afcacc5d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_teleworkstartdate" displayName="Telework Start Date" parentSchemaName="govcdm_hrteleworkrequest" parentDisplayName="HR Telework Request" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="HR Telework Request" id="{f67cb430-9176-4491-9649-04c9afcacc5d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_tohrposition" displayName="To HR Position" parentSchemaName="govcdm_hrchangerequest" parentDisplayName="HR Change Request" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="HR Change Request" id="{28f22b1f-302d-4127-8551-b47950b8f986}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_workphone" displayName="Work Phone" parentSchemaName="govcdm_hrchangerequest" parentDisplayName="HR Change Request" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="HR Change Request" id="{28f22b1f-302d-4127-8551-b47950b8f986}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="govcdm_hrchangerequest" parentDisplayName="HR Change Request" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="HR Change Request" id="{28f22b1f-302d-4127-8551-b47950b8f986}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="govcdm_hrevent" parentDisplayName="HR Event" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="HR Event" id="{8a8bfc8b-abc1-4649-90ac-c936a5701907}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="govcdm_hrpersonnelimpact" parentDisplayName="HR Personnel Impact" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="HR Personnel Impact" id="{067c6977-b156-4500-9246-7d17a70a4901}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="govcdm_hrposition" parentDisplayName="HR Position" solution="Active" />
+        <Dependent type="60" displayName="Main" parentDisplayName="HR Position" id="{64af97db-f8f1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="govcdm_hrpositionassignment" parentDisplayName="HR Position Assignment" solution="Active" />
+        <Dependent type="60" displayName="Main" parentDisplayName="HR Position Assignment" id="{69391501-f9f1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="govcdm_hrpositiondescription" parentDisplayName="HR Position Description" solution="Active" />
+        <Dependent type="60" displayName="Main" parentDisplayName="HR Position Description" id="{6e74371b-f9f1-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="govcdm_hrteleworkrequest" parentDisplayName="HR Telework Request" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="HR Telework Request" id="{f67cb430-9176-4491-9649-04c9afcacc5d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="statecode" displayName="Status" parentSchemaName="govcdm_hrchangerequest" parentDisplayName="HR Change Request" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="26" schemaName="Active HR Change Requests" displayName="Active HR Change Requests" parentSchemaName="govcdm_hrchangerequest" parentDisplayName="HR Change Request" id="{6343121a-ad15-4c33-9fc8-19fcd8d5948e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="statecode" displayName="Status" parentSchemaName="govcdm_hrpersonnelimpact" parentDisplayName="HR Personnel Impact" solution="govcdm_hradministration (1.0.1.2)" />
+        <Dependent type="26" schemaName="Active HR Personnel Impacts" displayName="Active HR Personnel Impacts" parentSchemaName="govcdm_hrpersonnelimpact" parentDisplayName="HR Personnel Impact" id="{b821172a-e7d0-4c2b-a368-5e61b7fa1fb9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Active HR Change Requests" displayName="Active HR Change Requests" parentSchemaName="govcdm_hrchangerequest" parentDisplayName="HR Change Request" solution="govcdm_hradministration (1.0.1.2)" id="{6343121a-ad15-4c33-9fc8-19fcd8d5948e}" />
+        <Dependent type="26" schemaName="Active HR Change Requests" displayName="Active HR Change Requests" parentSchemaName="govcdm_hrchangerequest" parentDisplayName="HR Change Request" id="{6343121a-ad15-4c33-9fc8-19fcd8d5948e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Active HR Personnel Impacts" displayName="Active HR Personnel Impacts" parentSchemaName="govcdm_hrpersonnelimpact" parentDisplayName="HR Personnel Impact" solution="govcdm_hradministration (1.0.1.2)" id="{b821172a-e7d0-4c2b-a368-5e61b7fa1fb9}" />
+        <Dependent type="26" schemaName="Active HR Personnel Impacts" displayName="Active HR Personnel Impacts" parentSchemaName="govcdm_hrpersonnelimpact" parentDisplayName="HR Personnel Impact" id="{b821172a-e7d0-4c2b-a368-5e61b7fa1fb9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="My HR Personnel Impacts" displayName="My HR Personnel Impacts" parentSchemaName="govcdm_hrpersonnelimpact" parentDisplayName="HR Personnel Impact" solution="govcdm_hradministration (1.0.1.2)" id="{e10d6e4f-af05-f011-bae2-001dd805192c}" />
+        <Dependent type="26" schemaName="My HR Personnel Impacts" displayName="My HR Personnel Impacts" parentSchemaName="govcdm_hrpersonnelimpact" parentDisplayName="HR Personnel Impact" id="{e10d6e4f-af05-f011-bae2-001dd805192c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Process / Step Advanced Find View" displayName="Process / Step Advanced Find View" parentSchemaName="govcdm_processstep" parentDisplayName="Process Step" solution="govcdm_processandtasking (1.0.2.0)" id="{7dab73c7-6ae1-4739-8f85-48ef1a814709}" />
+        <Dependent type="80" schemaName="msgov_HRAdministration" displayName="HR Administration" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Process / Step Associated View" displayName="Process / Step Associated View" parentSchemaName="govcdm_processstep" parentDisplayName="Process Step" solution="govcdm_processandtasking (1.0.2.0)" id="{0b10e62b-c88c-4f08-96f8-5b5223524f8f}" />
+        <Dependent type="80" schemaName="msgov_HRAdministration" displayName="HR Administration" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Process / Step Lookup View" displayName="Process / Step Lookup View" parentSchemaName="govcdm_processstep" parentDisplayName="Process Step" solution="govcdm_processandtasking (1.0.2.0)" id="{bb894760-9ed2-4342-83f3-e59a11acf6d0}" />
+        <Dependent type="80" schemaName="msgov_HRAdministration" displayName="HR Administration" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Process Templates" displayName="Process Templates" parentSchemaName="govcdm_processstep" parentDisplayName="Process Step" solution="msgov_processandtasking (1.1.0.0)" id="{c7c56eeb-5d40-ee11-bdf3-000d3a5a7dcf}" />
+        <Dependent type="80" schemaName="msgov_HRAdministration" displayName="HR Administration" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Quick Find Active Processes / Steps" displayName="Quick Find Active Processes / Steps" parentSchemaName="govcdm_processstep" parentDisplayName="Process Step" solution="govcdm_processandtasking (1.0.2.0)" id="{02fe129d-ce83-43d6-afba-950ed066948c}" />
+        <Dependent type="80" schemaName="msgov_HRAdministration" displayName="HR Administration" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="300" schemaName="msgov_actionitemspage_c082a" displayName="Action Items Page" solution="msgov_processandtasking (1.1.0.0)" />
+        <Dependent type="AppElement" displayName="msgov_msgov_HRAdministration_canvasappid_msgov_actionitemspage_c082a" id.uniquename="msgov_msgov_HRAdministration_canvasappid_msgov_actionitemspage_c082a" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Information" parentDisplayName="HR Personnel Impact" solution="govcdm_hradministration (1.0.1.2)" id="{067c6977-b156-4500-9246-7d17a70a4901}" />
+        <Dependent type="60" displayName="Information" parentDisplayName="HR Personnel Impact" id="{067c6977-b156-4500-9246-7d17a70a4901}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Information" parentDisplayName="HR Change Request" solution="govcdm_hradministration (1.0.1.2)" id="{28f22b1f-302d-4127-8551-b47950b8f986}" />
+        <Dependent type="60" displayName="Information" parentDisplayName="HR Change Request" id="{28f22b1f-302d-4127-8551-b47950b8f986}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Information" parentDisplayName="HR Event" solution="govcdm_hradministration (1.0.1.2)" id="{8a8bfc8b-abc1-4649-90ac-c936a5701907}" />
+        <Dependent type="60" displayName="Information" parentDisplayName="HR Event" id="{8a8bfc8b-abc1-4649-90ac-c936a5701907}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Information" parentDisplayName="HR Telework Request" solution="govcdm_hradministration (1.0.1.2)" id="{f67cb430-9176-4491-9649-04c9afcacc5d}" />
+        <Dependent type="60" displayName="Information" parentDisplayName="HR Telework Request" id="{f67cb430-9176-4491-9649-04c9afcacc5d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="msdyn_/Images/AppModule_Default_Icon.png" displayName="msdyn_/Images/AppModule_Default_Icon.png" solution="AppModuleWebResources (2.5)">
+          <package appName="AppModule Web Resources Package" version="2.5">AppModuleWebResources (2.5)</package>
+        </Required>
+        <Dependent type="80" schemaName="msgov_HRAdministration" displayName="HR Administration" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="msgov_processandtasking" displayName="msgov_processandtasking" solution="msgov_processandtasking (1.1.0.0)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="HR Event" id="{8a8bfc8b-abc1-4649-90ac-c936a5701907}" />
+      </MissingDependency>
+    </MissingDependencies>
+  </SolutionManifest>
+</ImportExportXml>
