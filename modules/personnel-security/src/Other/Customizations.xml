@@ -159,14 +159,7 @@
     </AIModel>
   </AIModels>
   <connectionreferences>
-    <connectionreference connectionreferencelogicalname="msgov_sharedcommondataserviceforapps_4cd2f">
-      <connectionreferencedisplayname>Microsoft Dataverse msgov_personnelsecurity-4cd2f</connectionreferencedisplayname>
-      <connectorid>/providers/Microsoft.PowerApps/apis/shared_commondataserviceforapps</connectorid>
-      <iscustomizable>1</iscustomizable>
-      <promptingbehavior>0</promptingbehavior>
-      <statecode>0</statecode>
-      <statuscode>1</statuscode>
-    </connectionreference>
+    <connectionreference connectionreferencelogicalname="msgov_sharedcommondataserviceforapps_d7f8d"></connectionreference>
     <connectionreference connectionreferencelogicalname="msgov_sharedoffice365_9f6d5">
       <connectionreferencedisplayname>Office 365 Outlook msgov_personnelsecurity-9f6d5</connectionreferencedisplayname>
       <connectorid>/providers/Microsoft.PowerApps/apis/shared_office365</connectorid>

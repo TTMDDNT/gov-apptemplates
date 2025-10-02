@@ -1336,10 +1336,6 @@
         <Dependent type="60" displayName="Main" parentDisplayName="Personnel Adjudication" id="{76ec80ec-4bf1-ee11-904b-000d3a8cbc95}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="connectionreference" displayName="msgov_sharedcommondataserviceforapps_d7f8d" solution="msgov_processandtasking (1.1.0.0)" id.connectionreferencelogicalname="msgov_sharedcommondataserviceforapps_d7f8d" />
-        <Dependent type="29" displayName="Send CV Alert to Security Officer" id="{e85bc12a-8974-f011-bec2-001dd80519db}" />
-      </MissingDependency>
-      <MissingDependency>
         <Required type="SettingDefinition" displayName="AppChannel" solution="msdyn_AppFrameworkInfraExtensions (1.0.0.15)" id.uniquename="AppChannel">
           <package appName="PowerAppsAppFramework Package" version="1.0.0.22">PowerAppsAppFramework_Anchor (1.0.0.22)</package>
         </Required>
