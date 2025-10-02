@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImportExportXml version="9.2.25083.183" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" OrganizationVersion="9.2.25083.183" OrganizationSchemaType="Standard" CRMServerServiceabilityVersion="9.2.25084.00181">
+  <SolutionManifest>
+    <UniqueName>msgov_incidentsandinspections</UniqueName>
+    <LocalizedNames>
+      <LocalizedName description="Microsoft Gov - Incidents and Inspections" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions />
+    <Version>1.1.0.0</Version>
+    <Managed>2</Managed>
+    <Publisher>
+      <UniqueName>msgovsolutions</UniqueName>
+      <LocalizedNames>
+        <LocalizedName description="Microsoft Gov" languagecode="1033" />
+      </LocalizedNames>
+      <Descriptions>
+        <Description description="Microsoft Government Solutions" languagecode="1033" />
+      </Descriptions>
+      <EMailAddress xsi:nil="true"></EMailAddress>
+      <SupportingWebsiteUrl xsi:nil="true"></SupportingWebsiteUrl>
+      <CustomizationPrefix>msgov</CustomizationPrefix>
+      <CustomizationOptionValuePrefix>18844</CustomizationOptionValuePrefix>
+      <Addresses>
+        <Address>
+          <AddressNumber>1</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+        <Address>
+          <AddressNumber>2</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+      </Addresses>
+    </Publisher>
+    <RootComponents>
+      <RootComponent type="1" schemaName="govcdm_inspectableitem" behavior="2" />
+      <RootComponent type="1" schemaName="govcdm_inspection" behavior="2" />
+      <RootComponent type="1" schemaName="govcdm_interactiveprompt" behavior="2" />
+      <RootComponent type="1" schemaName="govcdm_interactiveresponse" behavior="2" />
+      <RootComponent type="300" schemaName="msgov_inspections_c0f2d" behavior="0" />
+      <RootComponent type="62" schemaName="msgov_IncidentsandInspections" behavior="0" />
+      <RootComponent type="80" schemaName="msgov_IncidentsandInspections" behavior="0" />
+    </RootComponents>
+    <MissingDependencies>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_inspectableitem" displayName="Inspectable Item" solution="govcdm_incidentsandinspections (1.0.0.1)" />
+        <Dependent type="1" schemaName="govcdm_inspectableitem" displayName="Inspectable Item" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_inspectableitem" displayName="Inspectable Item" solution="govcdm_incidentsandinspections (1.0.0.1)" />
+        <Dependent type="300" schemaName="msgov_inspections_c0f2d" displayName="Inspections" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_inspectableitem" displayName="Inspectable Item" solution="govcdm_incidentsandinspections (1.0.0.1)" />
+        <Dependent type="62" schemaName="msgov_IncidentsandInspections" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_inspectableitem" displayName="Inspectable Item" solution="govcdm_incidentsandinspections (1.0.0.1)" />
+        <Dependent type="80" schemaName="msgov_IncidentsandInspections" displayName="Incidents and Inspections" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_inspectableitemtype" displayName="Inspectable Item Type" solution="govcdm_incidentsandinspections (1.0.0.1)" />
+        <Dependent type="62" schemaName="msgov_IncidentsandInspections" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_inspectableitemtype" displayName="Inspectable Item Type" solution="govcdm_incidentsandinspections (1.0.0.1)" />
+        <Dependent type="80" schemaName="msgov_IncidentsandInspections" displayName="Incidents and Inspections" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_inspection" displayName="Inspection" solution="govcdm_incidentsandinspections (1.0.0.1)" />
+        <Dependent type="1" schemaName="govcdm_inspection" displayName="Inspection" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_inspection" displayName="Inspection" solution="govcdm_incidentsandinspections (1.0.0.1)" />
+        <Dependent type="300" schemaName="msgov_inspections_c0f2d" displayName="Inspections" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_inspection" displayName="Inspection" solution="govcdm_incidentsandinspections (1.0.0.1)" />
+        <Dependent type="62" schemaName="msgov_IncidentsandInspections" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_inspection" displayName="Inspection" solution="govcdm_incidentsandinspections (1.0.0.1)" />
+        <Dependent type="80" schemaName="msgov_IncidentsandInspections" displayName="Incidents and Inspections" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_interactiveprompt" displayName="Interactive Prompt" solution="govcdm_processandtasking (1.0.2.0)" />
+        <Dependent type="1" schemaName="govcdm_interactiveprompt" displayName="Interactive Prompt" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_interactiveprompt" displayName="Interactive Prompt" solution="govcdm_processandtasking (1.0.2.0)" />
+        <Dependent type="300" schemaName="msgov_inspections_c0f2d" displayName="Inspections" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_interactiveprompt" displayName="Interactive Prompt" solution="govcdm_processandtasking (1.0.2.0)" />
+        <Dependent type="62" schemaName="msgov_IncidentsandInspections" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_interactiveprompt" displayName="Interactive Prompt" solution="govcdm_processandtasking (1.0.2.0)" />
+        <Dependent type="80" schemaName="msgov_IncidentsandInspections" displayName="Incidents and Inspections" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_interactiveresponse" displayName="Interactive Response" solution="govcdm_processandtasking (1.0.2.0)" />
+        <Dependent type="1" schemaName="govcdm_interactiveresponse" displayName="Interactive Response" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_govcdm_inspectableitem_InspectableItemTyp" displayName="govcdm_govcdm_inspectableitem_InspectableItemTyp" parentSchemaName="govcdm_inspectableitemtype" parentDisplayName="Inspectable Item Type" solution="govcdm_incidentsandinspections (1.0.0.1)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Inspectable Item" id="{1c00c32e-d5da-4de9-b84d-9bc6cf300d6b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_govcdm_inspection_InspectableItem_govcdm_" displayName="govcdm_govcdm_inspection_InspectableItem_govcdm_" parentSchemaName="govcdm_inspectableitem" parentDisplayName="Inspectable Item" solution="govcdm_incidentsandinspections (1.0.0.1)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Inspection" id="{64c3ba9a-eb7f-4d89-a0be-e4443fcd7910}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_inspectableitem" displayName="Inspectable Item" parentSchemaName="govcdm_inspection" parentDisplayName="Inspection" solution="govcdm_incidentsandinspections (1.0.0.1)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Inspection" id="{64c3ba9a-eb7f-4d89-a0be-e4443fcd7910}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_inspectableitemtype" displayName="Inspectable Item Type" parentSchemaName="govcdm_inspectableitem" parentDisplayName="Inspectable Item" solution="govcdm_incidentsandinspections (1.0.0.1)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Inspectable Item" id="{1c00c32e-d5da-4de9-b84d-9bc6cf300d6b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_inspectableitem" parentDisplayName="Inspectable Item" solution="govcdm_incidentsandinspections (1.0.0.1)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Inspectable Item" id="{1c00c32e-d5da-4de9-b84d-9bc6cf300d6b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_inspection" parentDisplayName="Inspection" solution="govcdm_incidentsandinspections (1.0.0.1)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Inspection" id="{64c3ba9a-eb7f-4d89-a0be-e4443fcd7910}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="govcdm_inspectableitem" parentDisplayName="Inspectable Item" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Inspectable Item" id="{1c00c32e-d5da-4de9-b84d-9bc6cf300d6b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="govcdm_inspection" parentDisplayName="Inspection" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Inspection" id="{64c3ba9a-eb7f-4d89-a0be-e4443fcd7910}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Active Interactive Prompts" displayName="Active Interactive Prompts" parentSchemaName="govcdm_interactiveprompt" parentDisplayName="Interactive Prompt" solution="govcdm_processandtasking (1.0.2.0)" id="{172db314-b1b3-400e-9b56-adecd6afa710}" />
+        <Dependent type="80" schemaName="msgov_IncidentsandInspections" displayName="Incidents and Inspections" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Active Interactive Responses" displayName="Active Interactive Responses" parentSchemaName="govcdm_interactiveresponse" parentDisplayName="Interactive Response" solution="govcdm_processandtasking (1.0.2.0)" id="{2760503a-1186-4efa-9184-2cf96f40bcea}" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Inspection" id="{64c3ba9a-eb7f-4d89-a0be-e4443fcd7910}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Checklists" displayName="Checklists" parentSchemaName="govcdm_interactiveprompt" parentDisplayName="Interactive Prompt" solution="msgov_processandtasking (1.1.0.0)" id="{718aa655-1474-ee11-9ae7-000d3a4f73e8}" />
+        <Dependent type="80" schemaName="msgov_IncidentsandInspections" displayName="Incidents and Inspections" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Interactive Prompt Advanced Find View" displayName="Interactive Prompt Advanced Find View" parentSchemaName="govcdm_interactiveprompt" parentDisplayName="Interactive Prompt" solution="govcdm_processandtasking (1.0.2.0)" id="{62b25529-23e8-4725-b39e-19c74babd318}" />
+        <Dependent type="80" schemaName="msgov_IncidentsandInspections" displayName="Incidents and Inspections" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Interactive Prompt Associated View" displayName="Interactive Prompt Associated View" parentSchemaName="govcdm_interactiveprompt" parentDisplayName="Interactive Prompt" solution="govcdm_processandtasking (1.0.2.0)" id="{cfedcc10-7b1b-4730-81d0-327d8aed168d}" />
+        <Dependent type="80" schemaName="msgov_IncidentsandInspections" displayName="Incidents and Inspections" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Information" parentDisplayName="Inspectable Item" solution="govcdm_incidentsandinspections (1.0.0.1)" id="{1c00c32e-d5da-4de9-b84d-9bc6cf300d6b}" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Inspectable Item" id="{1c00c32e-d5da-4de9-b84d-9bc6cf300d6b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Information" parentDisplayName="Inspection" solution="govcdm_incidentsandinspections (1.0.0.1)" id="{64c3ba9a-eb7f-4d89-a0be-e4443fcd7910}" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Inspection" id="{64c3ba9a-eb7f-4d89-a0be-e4443fcd7910}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="msdyn_/Images/AppModule_Default_Icon.png" displayName="msdyn_/Images/AppModule_Default_Icon.png" solution="AppModuleWebResources (2.5)">
+          <package appName="AppModule Web Resources Package" version="2.5">AppModuleWebResources (2.5)</package>
+        </Required>
+        <Dependent type="80" schemaName="msgov_IncidentsandInspections" displayName="Incidents and Inspections" />
+      </MissingDependency>
+    </MissingDependencies>
+  </SolutionManifest>
+</ImportExportXml>

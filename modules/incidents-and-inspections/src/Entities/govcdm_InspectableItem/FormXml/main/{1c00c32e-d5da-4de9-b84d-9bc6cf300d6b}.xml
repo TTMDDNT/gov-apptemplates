@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{1c00c32e-d5da-4de9-b84d-9bc6cf300d6b}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls" solutionaction="Modified">
+      <tabs>
+        <tab verticallayout="true" id="{0c87f342-30f3-422f-a322-793f22c9cbb7}" IsUserDefined="1" ordinalvalue="0">
+          <columns>
+            <column width="100%" id="0">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{b93505fc-635f-449b-8166-6e1d1509bf94}" ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell id="{0c1674d2-0055-4c35-a720-ac661dde2094}" ordinalvalue="10002" solutionaction="Modified" />
+                    </row>
+                    <row>
+                      <cell id="{7d8ca208-f92b-4aa1-ba90-b388054e0f58}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10001" solutionaction="Added">
+                        <labels>
+                          <label description="Inspectable Item Type" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_inspectableitemtype" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="govcdm_inspectableitemtype" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{86abfc17-1921-41f3-ac28-a7037cf6aa6c}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left" solutionaction="Added">
+        <rows></rows>
+      </header>
+      <footer id="{c9ec0965-d7ab-4525-85d1-0bd296584b7c}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left" solutionaction="Added">
+        <rows></rows>
+      </footer>
+      <DisplayConditions Order="0" FallbackForm="true" solutionaction="Added">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>
