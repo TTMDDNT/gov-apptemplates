@@ -1,0 +1,11 @@
+<environmentvariabledefinition schemaname="msgov_PersonnelSecurityPBIReport">
+  <defaultvalue>{"group":{"id":"c1148f17-502d-4c68-9b20-7f670b5c5fe3","name":"FED APPS"},"component":{"id":"a6d3cf9d-19e9-4e7b-a6a1-3296ae81fa68","name":"Personnel Security","type":"Report","embedUrl":"https://app.powerbigov.us/reportEmbed"}}</defaultvalue>
+  <displayname default="Personnel Security - PBI Report">
+    <label description="Personnel Security - PBI Report" languagecode="1033" />
+  </displayname>
+  <introducedversion>1.0.0.0</introducedversion>
+  <iscustomizable>1</iscustomizable>
+  <isrequired>0</isrequired>
+  <secretstore>0</secretstore>
+  <type>100000003</type>
+</environmentvariabledefinition>

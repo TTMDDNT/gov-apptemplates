@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{592033af-8e6b-4bc0-88b2-f3551c8a8c8e}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="govcdm_name" select="1" icon="1" preview="1">
+        <row name="result" id="govcdm_personneladjudicationid">
+          <cell name="govcdm_name" width="151" />
+          <cell name="govcdm_personnel" width="174" />
+          <cell name="govcdm_positiondesignation" width="208" />
+          <cell name="govcdm_adjudicationstatus" width="151" />
+          <cell name="govcdm_backgroundinvestigation" width="186" />
+          <cell name="govcdm_adjudicator" width="107" />
+          <cell name="govcdm_adjudicationdate" width="144" />
+          <cell name="govcdm_personnelclearance" width="155" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="govcdm_personneladjudication">
+          <attribute name="govcdm_personneladjudicationid" />
+          <attribute name="govcdm_name" />
+          <order attribute="govcdm_name" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="govcdm_adjudicationdate" />
+          <attribute name="govcdm_adjudicationstatus" />
+          <attribute name="govcdm_adjudicator" />
+          <attribute name="govcdm_backgroundinvestigation" />
+          <attribute name="govcdm_personnel" />
+          <attribute name="govcdm_personnelclearance" />
+          <attribute name="govcdm_positiondesignation" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Personnel Adjudications" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

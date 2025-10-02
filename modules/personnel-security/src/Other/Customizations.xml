@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImportExportXml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" OrganizationVersion="9.2.25083.183" OrganizationSchemaType="Standard" CRMServerServiceabilityVersion="9.2.25084.00181">
+  <Entities />
+  <Roles />
+  <Workflows />
+  <FieldSecurityProfiles />
+  <Templates />
+  <EntityMaps />
+  <EntityRelationships />
+  <OrganizationSettings />
+  <optionsets />
+  <Dashboards />
+  <CustomControls />
+  <AppModuleSiteMaps />
+  <AppModules />
+  <EntityDataProviders />
+  <CanvasApps />
+  <AIModels>
+    <AIModel>
+      <msdyn_aimodelid>{b121ca23-c665-4af8-8bb5-6235ef75da23}</msdyn_aimodelid>
+      <msdyn_name>Personnel Security - Evaluate for Secret Clearance</msdyn_name>
+      <msdyn_templateid>{edfdb190-3791-45d8-9a6c-8f90a37c278a}</msdyn_templateid>
+      <statecode>1</statecode>
+      <statuscode>1</statuscode>
+      <IsCustomizable>1</IsCustomizable>
+      <msdyn_activerunconfigurationid>{371eed21-8574-f011-bec2-001dd83061df}</msdyn_activerunconfigurationid>
+      <AIConfigurations>
+        <AIConfiguration>
+          <msdyn_aiconfigurationid>{371eed21-8574-f011-bec2-001dd83061df}</msdyn_aiconfigurationid>
+          <msdyn_customconfiguration>{"version":"GptDynamicPrompt-2","prompt":[{"type":"literal","text":"Based on this security clearance background check's SEAD-4 adjudication assessment below, is the subject eligible for Secret clearance? Why or why not? Any items indicated below as a Yes are cause for concern. Any items marked No are not a cause for concern. Do not include any bold or italic formatting. \n\nAdjudication Record:  "},{"type":"inputVariable","id":"Personnel_20Adjudication"},{"type":"literal","text":" \n \n- A: Allegiance to the United States: "},{"type":"data","id":"govcdm_personneladjudication.govcdm_seadallegiancetousconcern","text":"Personnel Adjudication.SEAD - Allegiance to US Concern"},{"type":"literal","text":" \n- B: Foreign Influence: "},{"type":"data","id":"govcdm_personneladjudication.govcdm_seadforeigninfluenceconcern","text":"Personnel Adjudication.SEAD - Foreign Influence Concern"},{"type":"literal","text":" \n- C: Foreign Preference: "},{"type":"data","id":"govcdm_personneladjudication.govcdm_seadforeignpreferenceconcern","text":"Personnel Adjudication.SEAD - Foreign Preference Concern"},{"type":"literal","text":" \n "}],"definitions":{"inputs":[{"id":"Personnel_20Adjudication","text":"Personnel Adjudication","type":"text","quickTestValue":"4D13EF4C-8D6D-F011-BEC1-001DD80DE313"}],"formulas":[],"data":[{"id":"govcdm_personneladjudication","displayName":"Personnel Adjudication","type":"dataverseTable","filters":[{"filterType":"equal","attribute":"govcdm_personneladjudicationid","valueType":"inputVariable","value":"Personnel_20Adjudication"}]}],"output":{"formats":["text"]}},"modelParameters":{"modelType":"default","gptParameters":{"temperature":0}},"settings":{"recordRetrievalLimit":30,"shouldPreserveRecordLinks":null,"runtime":null},"code":""}</msdyn_customconfiguration>
+          <msdyn_majoriterationnumber>2</msdyn_majoriterationnumber>
+          <msdyn_minoriterationnumber>0</msdyn_minoriterationnumber>
+          <msdyn_name>b121ca23-c665-4af8-8bb5-6235ef75da23_2025-08-08T18:26:04.392Z</msdyn_name>
+          <msdyn_modelrundataspecification>H4sIAAAAAAAACpWQPW/CMBRF/0r0Zg9QVQzZQikSC0HhY61e40drFGwrfpaIovx3nAClrenQzdK959jXLawtlXNTH5F3VDtlNKRjAQttPRfG8KtmxQ2kLcyUsxU2SzwSpAACMuZavXsm18erQButqXp7GmXy4KUqkQfdb/SrmfzoCchtf8AK0j1WjgRsGtsD63CP/oBOAEqpLp0Xo5lOHNuzqPJdzLW/e6foaPJ8s3fBn3v+7+7Hr9hcLo4G7JVW7rMgDD8QU/MhTa7xA1wi49aRjNFZSJIh+nPufWh3BuS7TXH3AQAA</msdyn_modelrundataspecification>
+          <msdyn_type>190690001</msdyn_type>
+          <msdyn_aimodelid>{b121ca23-c665-4af8-8bb5-6235ef75da23}</msdyn_aimodelid>
+          <msdyn_trainedmodelaiconfigurationpareid>{abfe5cd7-8474-f011-bec2-001dd80e063c}</msdyn_trainedmodelaiconfigurationpareid>
+          <statecode>2</statecode>
+          <statuscode>7</statuscode>
+          <IsCustomizable>1</IsCustomizable>
+          <msdyn_templateversion>1</msdyn_templateversion>
+        </AIConfiguration>
+        <AIConfiguration>
+          <msdyn_aiconfigurationid>{abfe5cd7-8474-f011-bec2-001dd80e063c}</msdyn_aiconfigurationid>
+          <msdyn_databinding>{"schemaVersion":2}</msdyn_databinding>
+          <msdyn_majoriterationnumber>1</msdyn_majoriterationnumber>
+          <msdyn_minoriterationnumber>0</msdyn_minoriterationnumber>
+          <msdyn_modeldata>ceb2cd5e-6c9e-401f-8d2d-62318039ae89</msdyn_modeldata>
+          <msdyn_name>b121ca23-c665-4af8-8bb5-6235ef75da23_2025-08-08T18:24:01.715Z</msdyn_name>
+          <msdyn_modelrundataspecification>
+        {
+          "schemaVersion": 2,
+          "input": {},
+          "output": {}
+        }
+      </msdyn_modelrundataspecification>
+          <msdyn_type>190690000</msdyn_type>
+          <msdyn_aimodelid>{b121ca23-c665-4af8-8bb5-6235ef75da23}</msdyn_aimodelid>
+          <statecode>2</statecode>
+          <statuscode>6</statuscode>
+          <IsCustomizable>1</IsCustomizable>
+          <msdyn_templateversion>1</msdyn_templateversion>
+        </AIConfiguration>
+      </AIConfigurations>
+    </AIModel>
+    <AIModel>
+      <msdyn_aimodelid>{2f6f2a04-474b-4a10-863b-66ec76434756}</msdyn_aimodelid>
+      <msdyn_name>Personnel Security - Suggest SEAD Mitigations</msdyn_name>
+      <msdyn_templateid>{edfdb190-3791-45d8-9a6c-8f90a37c278a}</msdyn_templateid>
+      <statecode>1</statecode>
+      <statuscode>1</statuscode>
+      <IsCustomizable>1</IsCustomizable>
+      <msdyn_activerunconfigurationid>{3654f4af-8474-f011-bec2-001dd83061df}</msdyn_activerunconfigurationid>
+      <AIConfigurations>
+        <AIConfiguration>
+          <msdyn_aiconfigurationid>{3654f4af-8474-f011-bec2-001dd83061df}</msdyn_aiconfigurationid>
+          <msdyn_customconfiguration>{"version":"GptDynamicPrompt-2","prompt":[{"type":"literal","text":"Suggest possible mitigations for the cited guidelines given this person's background and history, based on the selected SEAD-4 guidelines, notes, and outcome for the following identified concerns. Any items indicated below as a Yes are cause for concern. Any items marked No are not a cause for concern. Do not include any bold or italic formatting. \n\nAdjudication Record:  "},{"type":"inputVariable","id":"Personnel_20Adjudication"},{"type":"literal","text":" \n \n- A: Allegiance to the United States: "},{"type":"data","id":"govcdm_personneladjudication.govcdm_seadallegiancetousconcern","text":"Personnel Adjudication.SEAD - Allegiance to US Concern"},{"type":"literal","text":" \n- B: Foreign Influence: "},{"type":"data","id":"govcdm_personneladjudication.govcdm_seadforeigninfluenceconcern","text":"Personnel Adjudication.SEAD - Foreign Influence Concern"},{"type":"literal","text":" \n- C: Foreign Preference: "},{"type":"data","id":"govcdm_personneladjudication.govcdm_seadforeignpreferenceconcern","text":"Personnel Adjudication.SEAD - Foreign Preference Concern"},{"type":"literal","text":" \n "}],"definitions":{"inputs":[{"id":"Personnel_20Adjudication","text":"Personnel Adjudication","type":"text","quickTestValue":"4D13EF4C-8D6D-F011-BEC1-001DD80DE313"}],"formulas":[],"data":[{"id":"govcdm_personneladjudication","displayName":"Personnel Adjudication","type":"dataverseTable","filters":[{"filterType":"equal","attribute":"govcdm_personneladjudicationid","valueType":"inputVariable","value":"Personnel_20Adjudication"}]}],"output":{"formats":["text"]}},"modelParameters":{"modelType":"default","gptParameters":{"temperature":0}},"settings":{"recordRetrievalLimit":30,"shouldPreserveRecordLinks":null,"runtime":null},"code":""}</msdyn_customconfiguration>
+          <msdyn_majoriterationnumber>2</msdyn_majoriterationnumber>
+          <msdyn_minoriterationnumber>0</msdyn_minoriterationnumber>
+          <msdyn_name>2f6f2a04-474b-4a10-863b-66ec76434756_2025-08-08T18:22:52.413Z</msdyn_name>
+          <msdyn_modelrundataspecification>H4sIAAAAAAAACpWQPW/CMBRF/0r0Zg9QVQzZQikSC0HhY61e40drFGwrfpaIovx3nAClrenQzdK959jXLawtlXNTH5F3VDtlNKRjAQttPRfG8KtmxQ2kLcyUsxU2SzwSpAACMuZavXsm18erQButqXp7GmXy4KUqkQfdb/SrmfzoCchtf8AK0j1WjgRsGtsD63CP/oBOAEqpLp0Xo5lOHNuzqPJdzLW/e6foaPJ8s3fBn3v+7+7Hr9hcLo4G7JVW7rMgDD8QU/MhTa7xA1wi49aRjNFZSJIh+nPufWh3BuS7TXH3AQAA</msdyn_modelrundataspecification>
+          <msdyn_type>190690001</msdyn_type>
+          <msdyn_aimodelid>{2f6f2a04-474b-4a10-863b-66ec76434756}</msdyn_aimodelid>
+          <msdyn_trainedmodelaiconfigurationpareid>{a0796695-8474-f011-bec2-001dd80e063c}</msdyn_trainedmodelaiconfigurationpareid>
+          <statecode>2</statecode>
+          <statuscode>7</statuscode>
+          <IsCustomizable>1</IsCustomizable>
+          <msdyn_templateversion>1</msdyn_templateversion>
+        </AIConfiguration>
+        <AIConfiguration>
+          <msdyn_aiconfigurationid>{a0796695-8474-f011-bec2-001dd80e063c}</msdyn_aiconfigurationid>
+          <msdyn_databinding>{"schemaVersion":2}</msdyn_databinding>
+          <msdyn_majoriterationnumber>1</msdyn_majoriterationnumber>
+          <msdyn_minoriterationnumber>0</msdyn_minoriterationnumber>
+          <msdyn_modeldata>9837f8b0-15f6-4c9c-9ce9-882790d468b3</msdyn_modeldata>
+          <msdyn_name>2f6f2a04-474b-4a10-863b-66ec76434756_2025-08-08T18:22:09.155Z</msdyn_name>
+          <msdyn_modelrundataspecification>
+        {
+          "schemaVersion": 2,
+          "input": {},
+          "output": {}
+        }
+      </msdyn_modelrundataspecification>
+          <msdyn_type>190690000</msdyn_type>
+          <msdyn_aimodelid>{2f6f2a04-474b-4a10-863b-66ec76434756}</msdyn_aimodelid>
+          <statecode>2</statecode>
+          <statuscode>6</statuscode>
+          <IsCustomizable>1</IsCustomizable>
+          <msdyn_templateversion>1</msdyn_templateversion>
+        </AIConfiguration>
+      </AIConfigurations>
+    </AIModel>
+    <AIModel>
+      <msdyn_aimodelid>{50973caa-58d0-4fe6-a119-d901503616f9}</msdyn_aimodelid>
+      <msdyn_name>Personnel Security - Create Adjudication Summary</msdyn_name>
+      <msdyn_templateid>{edfdb190-3791-45d8-9a6c-8f90a37c278a}</msdyn_templateid>
+      <statecode>1</statecode>
+      <statuscode>1</statuscode>
+      <IsCustomizable>1</IsCustomizable>
+      <msdyn_activerunconfigurationid>{8114fae0-8f6d-f011-bec1-001dd80de313}</msdyn_activerunconfigurationid>
+      <AIConfigurations>
+        <AIConfiguration>
+          <msdyn_aiconfigurationid>{8114fae0-8f6d-f011-bec1-001dd80de313}</msdyn_aiconfigurationid>
+          <msdyn_customconfiguration>{"version":"GptDynamicPrompt-2","prompt":[{"type":"literal","text":"Write an US Federal background check / security clearance adjudication summary memo based on the selected SEAD-4 guidelines, notes, and outcome for the following identified concerns. Any items indicated below as a Yes are cause for concern. Any items marked No are not a cause for concern. Do not include any bold or italic formatting. \n\nAdjudication Record:  "},{"type":"inputVariable","id":"Personnel_20Adjudication"},{"type":"literal","text":" \n \n- A: Allegiance to the United States: "},{"type":"data","id":"govcdm_personneladjudication.govcdm_seadallegiancetousconcern","text":"Personnel Adjudication.SEAD - Allegiance to US Concern"},{"type":"literal","text":" \n- B: Foreign Influence: "},{"type":"data","id":"govcdm_personneladjudication.govcdm_seadforeigninfluenceconcern","text":"Personnel Adjudication.SEAD - Foreign Influence Concern"},{"type":"literal","text":" \n- C: Foreign Preference: "},{"type":"data","id":"govcdm_personneladjudication.govcdm_seadforeignpreferenceconcern","text":"Personnel Adjudication.SEAD - Foreign Preference Concern"},{"type":"literal","text":" \n "}],"definitions":{"inputs":[{"id":"Personnel_20Adjudication","text":"Personnel Adjudication","type":"text","quickTestValue":"4D13EF4C-8D6D-F011-BEC1-001DD80DE313"}],"formulas":[],"data":[{"id":"govcdm_personneladjudication","displayName":"Personnel Adjudication","type":"dataverseTable","filters":[{"filterType":"equal","attribute":"govcdm_personneladjudicationid","valueType":"inputVariable","value":"Personnel_20Adjudication"}]}],"output":{"formats":["text"]}},"modelParameters":{"modelType":"default","gptParameters":{"temperature":0}},"settings":{"recordRetrievalLimit":30,"shouldPreserveRecordLinks":null,"runtime":null},"code":""}</msdyn_customconfiguration>
+          <msdyn_majoriterationnumber>6</msdyn_majoriterationnumber>
+          <msdyn_minoriterationnumber>0</msdyn_minoriterationnumber>
+          <msdyn_name>50973caa-58d0-4fe6-a119-d901503616f9_2025-07-30T21:55:23.529Z</msdyn_name>
+          <msdyn_modelrundataspecification>H4sIAAAAAAAACpWQPW/CMBRF/0r0Zg9QVQzZQikSC0HhY61e40drFGwrfpaIovx3nAClrenQzdK959jXLawtlXNTH5F3VDtlNKRjAQttPRfG8KtmxQ2kLcyUsxU2SzwSpAACMuZavXsm18erQButqXp7GmXy4KUqkQfdb/SrmfzoCchtf8AK0j1WjgRsGtsD63CP/oBOAEqpLp0Xo5lOHNuzqPJdzLW/e6foaPJ8s3fBn3v+7+7Hr9hcLo4G7JVW7rMgDD8QU/MhTa7xA1wi49aRjNFZSJIh+nPufWh3BuS7TXH3AQAA</msdyn_modelrundataspecification>
+          <msdyn_type>190690001</msdyn_type>
+          <msdyn_aimodelid>{50973caa-58d0-4fe6-a119-d901503616f9}</msdyn_aimodelid>
+          <msdyn_trainedmodelaiconfigurationpareid>{7c2640cc-896d-f011-bec1-001dd806c39c}</msdyn_trainedmodelaiconfigurationpareid>
+          <statecode>2</statecode>
+          <statuscode>7</statuscode>
+          <IsCustomizable>1</IsCustomizable>
+          <msdyn_templateversion>1</msdyn_templateversion>
+        </AIConfiguration>
+        <AIConfiguration>
+          <msdyn_aiconfigurationid>{7c2640cc-896d-f011-bec1-001dd806c39c}</msdyn_aiconfigurationid>
+          <msdyn_databinding>{"schemaVersion":2}</msdyn_databinding>
+          <msdyn_majoriterationnumber>1</msdyn_majoriterationnumber>
+          <msdyn_minoriterationnumber>0</msdyn_minoriterationnumber>
+          <msdyn_modeldata>19ac767b-acb0-4956-8c35-d60c4ddf4ae8</msdyn_modeldata>
+          <msdyn_name>50973caa-58d0-4fe6-a119-d901503616f9_2025-07-30T21:11:49.697Z</msdyn_name>
+          <msdyn_modelrundataspecification>
+        {
+          "schemaVersion": 2,
+          "input": {},
+          "output": {}
+        }
+      </msdyn_modelrundataspecification>
+          <msdyn_type>190690000</msdyn_type>
+          <msdyn_aimodelid>{50973caa-58d0-4fe6-a119-d901503616f9}</msdyn_aimodelid>
+          <statecode>2</statecode>
+          <statuscode>6</statuscode>
+          <IsCustomizable>1</IsCustomizable>
+          <msdyn_templateversion>1</msdyn_templateversion>
+        </AIConfiguration>
+      </AIConfigurations>
+    </AIModel>
+  </AIModels>
+  <connectionreferences>
+    <connectionreference connectionreferencelogicalname="msgov_sharedcommondataserviceforapps_4cd2f">
+      <connectionreferencedisplayname>Microsoft Dataverse msgov_personnelsecurity-4cd2f</connectionreferencedisplayname>
+      <connectorid>/providers/Microsoft.PowerApps/apis/shared_commondataserviceforapps</connectorid>
+      <iscustomizable>1</iscustomizable>
+      <promptingbehavior>0</promptingbehavior>
+      <statecode>0</statecode>
+      <statuscode>1</statuscode>
+    </connectionreference>
+    <connectionreference connectionreferencelogicalname="msgov_sharedoffice365_9f6d5">
+      <connectionreferencedisplayname>Office 365 Outlook msgov_personnelsecurity-9f6d5</connectionreferencedisplayname>
+      <connectorid>/providers/Microsoft.PowerApps/apis/shared_office365</connectorid>
+      <iscustomizable>1</iscustomizable>
+      <promptingbehavior>0</promptingbehavior>
+      <statecode>0</statecode>
+      <statuscode>1</statuscode>
+    </connectionreference>
+  </connectionreferences>
+  <Languages>
+    <Language>1033</Language>
+  </Languages>
+</ImportExportXml>

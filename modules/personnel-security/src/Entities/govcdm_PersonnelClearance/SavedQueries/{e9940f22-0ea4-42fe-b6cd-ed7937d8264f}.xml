@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{e9940f22-0ea4-42fe-b6cd-ed7937d8264f}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="govcdm_name" select="1" icon="1" preview="1">
+        <row name="result" id="govcdm_personnelclearanceid">
+          <cell name="govcdm_name" width="140" />
+          <cell name="govcdm_person" width="153" />
+          <cell name="govcdm_clearancelevelgranted" width="244" />
+          <cell name="govcdm_eligibilitystatus" width="135" />
+          <cell name="govcdm_eligibilitydate" width="127" />
+          <cell name="govcdm_expirationdate" width="130" />
+          <cell name="govcdm_backgroundinvestigation" width="186" />
+          <cell name="govcdm_personneladjudication" width="172" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="govcdm_personnelclearance">
+          <attribute name="govcdm_personnelclearanceid" />
+          <attribute name="govcdm_name" />
+          <order attribute="govcdm_name" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="govcdm_backgroundinvestigation" />
+          <attribute name="govcdm_clearancelevelgranted" />
+          <attribute name="govcdm_eligibilitydate" />
+          <attribute name="govcdm_eligibilitystatus" />
+          <attribute name="govcdm_expirationdate" />
+          <attribute name="govcdm_person" />
+          <attribute name="govcdm_personneladjudication" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.2</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Personnel Clearances" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

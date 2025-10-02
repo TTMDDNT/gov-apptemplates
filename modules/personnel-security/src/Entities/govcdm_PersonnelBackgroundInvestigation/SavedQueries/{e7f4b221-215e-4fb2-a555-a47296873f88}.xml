@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{e7f4b221-215e-4fb2-a555-a47296873f88}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="govcdm_name" select="1" icon="1" preview="1">
+        <row name="result" id="govcdm_personnelbackgroundinvestigationid">
+          <cell name="govcdm_name" width="149" />
+          <cell name="govcdm_person" width="177" />
+          <cell name="govcdm_backgroundinvestigationtype" width="217" />
+          <cell name="govcdm_positiondesignation" width="158" />
+          <cell name="govcdm_actionstatus" width="116" />
+          <cell name="govcdm_investigationprovider" width="300" />
+          <cell name="govcdm_initiationdate" width="122" />
+          <cell name="govcdm_duedate" width="100" />
+          <cell name="govcdm_completiondate" width="137" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="govcdm_personnelbackgroundinvestigation">
+          <attribute name="govcdm_personnelbackgroundinvestigationid" />
+          <attribute name="govcdm_name" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="govcdm_actionstatus" />
+          <attribute name="govcdm_backgroundinvestigationtype" />
+          <attribute name="govcdm_completiondate" />
+          <attribute name="govcdm_duedate" />
+          <attribute name="govcdm_initiationdate" />
+          <attribute name="govcdm_person" />
+          <attribute name="govcdm_positiondesignation" />
+          <order attribute="govcdm_duedate" descending="true" />
+          <attribute name="govcdm_investigationprovider" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Personnel Background Investigations" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Workflow WorkflowId="{8b2421da-6671-f011-bec2-001dd80e063c}" Name="Personnel Security - Investigation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <XamlFileName>/Workflows/PersonnelSecurity-Investigation-8B2421DA-6671-F011-BEC2-001DD80E063C.xaml</XamlFileName>
+  <Type>1</Type>
+  <Subprocess>0</Subprocess>
+  <Category>4</Category>
+  <Mode>0</Mode>
+  <Scope>4</Scope>
+  <OnDemand>0</OnDemand>
+  <TriggerOnCreate>1</TriggerOnCreate>
+  <TriggerOnDelete>0</TriggerOnDelete>
+  <AsyncAutodelete>0</AsyncAutodelete>
+  <SyncWorkflowLogOnFailure>0</SyncWorkflowLogOnFailure>
+  <StateCode>1</StateCode>
+  <StatusCode>2</StatusCode>
+  <processorder>100</processorder>
+  <RunAs>1</RunAs>
+  <UniqueName>msgov_personnelsecurityinvestigation</UniqueName>
+  <IsTransacted>1</IsTransacted>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <BusinessProcessType>0</BusinessProcessType>
+  <IsCustomProcessingStepAllowedForOtherPublishers>1</IsCustomProcessingStepAllowedForOtherPublishers>
+  <ProcessTriggerScope>1</ProcessTriggerScope>
+  <ModernFlowType>0</ModernFlowType>
+  <PrimaryEntity>govcdm_PersonnelBackgroundInvestigation</PrimaryEntity>
+  <LocalizedNames>
+    <LocalizedName languagecode="1033" description="Personnel Security - Investigation" />
+  </LocalizedNames>
+  <labels>
+    <steplabels id="{1d78900a-0cbc-488a-9883-0c0fd930bf4d}">
+      <label languagecode="1033" description="Initiation" />
+    </steplabels>
+    <steplabels id="{f50aa922-8b1c-47b6-84d6-43b4528ebf73}">
+      <label languagecode="1033" description="Questionnaire Document" />
+    </steplabels>
+    <steplabels id="{17d66586-17b7-48a7-869e-a3a2a876b865}">
+      <label languagecode="1033" description="Investigation" />
+    </steplabels>
+    <steplabels id="{8ef8e629-1a11-45f4-abd7-9c7501c627cd}">
+      <label languagecode="1033" description="Action Status" />
+    </steplabels>
+    <steplabels id="{dfbf0d35-a32d-4e6d-b9a9-4c2d8690078c}">
+      <label languagecode="1033" description="Adjudication" />
+    </steplabels>
+    <steplabels id="{6b99c256-5fa1-44cf-b09b-8b77b44d56f6}">
+      <label languagecode="1033" description="Adjudication Status" />
+    </steplabels>
+    <steplabels id="{bb686b72-10c3-4839-9f99-b619bb1a9b97}">
+      <label languagecode="1033" description="Clearance" />
+    </steplabels>
+    <steplabels id="{59a21177-1dff-4994-9f59-88fff5995542}">
+      <label languagecode="1033" description="Eligibility Status" />
+    </steplabels>
+  </labels>
+</Workflow>

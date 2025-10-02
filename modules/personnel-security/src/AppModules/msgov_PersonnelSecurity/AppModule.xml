@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppModule>
+  <UniqueName>msgov_PersonnelSecurity</UniqueName>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <WebResourceId>953b9fac-1e5e-e611-80d6-00155ded156f</WebResourceId>
+  <OptimizedFor></OptimizedFor>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+  <FormFactor>1</FormFactor>
+  <ClientType>4</ClientType>
+  <NavigationType>0</NavigationType>
+  <AppModuleComponents>
+    <AppModuleComponent type="1" schemaName="account" />
+    <AppModuleComponent type="1" schemaName="contact" />
+    <AppModuleComponent type="1" schemaName="govcdm_actionassignment" />
+    <AppModuleComponent type="1" schemaName="govcdm_document" />
+    <AppModuleComponent type="1" schemaName="govcdm_personalinformation" />
+    <AppModuleComponent type="1" schemaName="govcdm_personneladjudication" />
+    <AppModuleComponent type="1" schemaName="govcdm_personnelbackgroundinvestigation" />
+    <AppModuleComponent type="1" schemaName="govcdm_personnelclearance" />
+    <AppModuleComponent type="1" schemaName="govcdm_personnelcvtrigger" />
+    <AppModuleComponent type="1" schemaName="govcdm_personnelforeigncontact" />
+    <AppModuleComponent type="1" schemaName="govcdm_personnelforeigntravel" />
+    <AppModuleComponent type="1" schemaName="govcdm_personnelpassport" />
+    <AppModuleComponent type="1" schemaName="govcdm_personnelphysicalcredential" />
+    <AppModuleComponent type="1" schemaName="govcdm_personnelreportablelifeevent" />
+    <AppModuleComponent type="1" schemaName="govcdm_personnelvisitorrequest" />
+    <AppModuleComponent type="26" id="{00000000-0000-0000-00aa-000010001002}" />
+    <AppModuleComponent type="26" id="{00000000-0000-0000-00aa-000010001031}" />
+    <AppModuleComponent type="60" id="{76ec80ec-4bf1-ee11-904b-000d3a8cbc95}" />
+    <AppModuleComponent type="60" id="{77349620-4cf1-ee11-904b-000d3a8cbc95}" />
+    <AppModuleComponent type="60" id="{e9e7385a-bff1-ee11-904b-000d3a8cbc95}" />
+    <AppModuleComponent type="60" id="{761a4198-bff1-ee11-904b-000d3a8cbc95}" />
+    <AppModuleComponent type="60" id="{051eac62-c3f1-ee11-904b-000d3a8cbc95}" />
+    <AppModuleComponent type="60" id="{6a42a8ba-c3f1-ee11-904b-000d3a8cbc95}" />
+    <AppModuleComponent type="60" id="{91b548db-c3f1-ee11-904b-000d3a8cbc95}" />
+    <AppModuleComponent type="60" id="{992b8347-a43c-f011-8c4d-001dd8087307}" />
+    <AppModuleComponent type="60" id="{e0d08e28-c273-f011-bec2-001dd80e063c}" />
+    <AppModuleComponent type="60" id="{8300c511-fbf0-ee11-904b-0022481df7e6}" />
+    <AppModuleComponent type="60" id="{66c7a42f-8504-464f-be34-00a42909ed1e}" />
+    <AppModuleComponent type="60" id="{a4c17c9c-69be-400e-a945-529b724d4a9c}" />
+    <AppModuleComponent type="60" id="{661157fe-2fc9-4eaa-835f-5bfa2f7b64f7}" />
+    <AppModuleComponent type="60" id="{b053a39a-041a-4356-acef-ddf00182762b}" />
+    <AppModuleComponent type="60" id="{c9e7ec2d-efca-4e4c-b3e3-f63c4bba5e4b}" />
+    <AppModuleComponent type="60" id="{8448b78f-8f42-454e-8e2a-f8196b0419af}" />
+    <AppModuleComponent type="62" schemaName="msgov_PersonnelSecurity" />
+  </AppModuleComponents>
+  <AppModuleRoleMaps>
+    <Role id="{627090ff-40a3-4053-8790-584edc5be201}" />
+    <Role id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+  </AppModuleRoleMaps>
+  <LocalizedNames>
+    <LocalizedName description="Personnel Security" languagecode="1033" />
+  </LocalizedNames>
+  <appelements>
+    <appelement uniquename="msgov_msgov_PersonnelSecurity_canvasappid_msgov_actionitemspage_c082a">
+      <canvasappid>
+        <name>msgov_actionitemspage_c082a</name>
+      </canvasappid>
+      <iscustomizable>1</iscustomizable>
+      <name>msgov_msgov_PersonnelSecurity_canvasappid_msgov_actionitemspage_c082a</name>
+    </appelement>
+    <appelement uniquename="msgov_msgov_PersonnelSecurity_canvasappid_msgov_documentspage_2bdae">
+      <canvasappid>
+        <name>msgov_documentspage_2bdae</name>
+      </canvasappid>
+      <iscustomizable>1</iscustomizable>
+      <name>msgov_msgov_PersonnelSecurity_canvasappid_msgov_documentspage_2bdae</name>
+    </appelement>
+    <appelement uniquename="msgov_msgov_PersonnelSecurity_canvasappid_msgov_personnelsecurityassistant_62406">
+      <canvasappid>
+        <name>msgov_personnelsecurityassistant_62406</name>
+      </canvasappid>
+      <iscustomizable>1</iscustomizable>
+      <name>msgov_msgov_PersonnelSecurity_canvasappid_msgov_personnelsecurityassistant_62406</name>
+    </appelement>
+  </appelements>
+  <appsettings>
+    <appsetting settingdefinitionid.uniquename="AppChannel">
+      <iscustomizable>1</iscustomizable>
+      <value>1</value>
+    </appsetting>
+    <appsetting settingdefinitionid.uniquename="appcopilotenabled">
+      <iscustomizable>1</iscustomizable>
+      <value>2</value>
+    </appsetting>
+  </appsettings>
+</AppModule>

@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dashboard xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <LocalizedNames>
+    <LocalizedName description="Personnel Security" languagecode="1033" />
+  </LocalizedNames>
+  <FormId>{e0d08e28-c273-f011-bec2-001dd80e063c}</FormId>
+  <IsCustomizable>1</IsCustomizable>
+  <IsDefault>0</IsDefault>
+  <FormXml>
+    <forms type="powerbi">
+      <form>
+        <tabs>
+          <tab showlabel="false" verticallayout="true" id="{5a9ebcd9-fdfd-449f-8408-c3f4a753b82f}">
+            <labels>
+              <label description="" languagecode="1033" />
+            </labels>
+            <columns>
+              <column width="100%">
+                <sections>
+                  <section showlabel="false" showbar="false" columns="111" id="{9ffe2ab4-c4ae-47e1-96ca-638c0b254e16}">
+                    <labels>
+                      <label description="" languagecode="1033" />
+                    </labels>
+                    <rows>
+                      <row>
+                        <cell colspan="3" rowspan="24" showlabel="false" id="{cb39f590-976c-4d13-aeaa-0c4425bb545b}" availableforphone="false">
+                          <labels>
+                            <label description="" languagecode="1033" />
+                          </labels>
+                          <control id="41caceb7-410c-4f41-b74b-19a584bc4e2a" classid="{8C54228C-1B25-4909-A12A-F2B968BB0D62}">
+                            <parameters>
+                              <PowerBIGroupId>c1148f17-502d-4c68-9b20-7f670b5c5fe3</PowerBIGroupId>
+                              <PowerBIReportId>a6d3cf9d-19e9-4e7b-a6a1-3296ae81fa68</PowerBIReportId>
+                              <TileUrl>https://app.powerbigov.us/reportEmbed?w=2&amp;config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly9XQUJJLVVTLUdPVi1WSVJHSU5JQS1yZWRpcmVjdC5hbmFseXNpcy51c2dvdmNsb3VkYXBpLm5ldCIsImVtYmVkRmVhdHVyZXMiOnsidXNhZ2VNZXRyaWNzVk5leHQiOnRydWV9fQ%3D%3D&amp;groupId=c1148f17-502d-4c68-9b20-7f670b5c5fe3&amp;reportId=a6d3cf9d-19e9-4e7b-a6a1-3296ae81fa68</TileUrl>
+                              <Type>2</Type>
+                            </parameters>
+                          </control>
+                        </cell>
+                      </row>
+                    </rows>
+                  </section>
+                </sections>
+              </column>
+            </columns>
+          </tab>
+        </tabs>
+        <DisplayConditions FallbackForm="true">
+          <Everyone />
+        </DisplayConditions>
+      </form>
+    </forms>
+  </FormXml>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <IsTabletEnabled>0</IsTabletEnabled>
+</Dashboard>

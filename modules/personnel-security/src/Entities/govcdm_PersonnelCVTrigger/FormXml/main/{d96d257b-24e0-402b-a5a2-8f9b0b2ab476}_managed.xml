@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{d96d257b-24e0-402b-a5a2-8f9b0b2ab476}</formid>
+    <IntroducedVersion>1.0.0.2</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls" shownavigationbar="false" solutionaction="Modified">
+      <tabs>
+        <tab verticallayout="true" id="{fbb8bea8-25b0-4d6a-b56f-9ea75df3d68f}" IsUserDefined="1" ordinalvalue="0">
+          <columns>
+            <column width="50%" id="0" solutionaction="Modified">
+              <sections>
+                <section showlabel="true" showbar="false" IsUserDefined="0" id="{79ab4c35-5c2c-435f-9448-1ae977a37869}" name="secTriggerDetails" ordinalvalue="0" solutionaction="Modified">
+                  <labels>
+                    <label description="Trigger Details" languagecode="1033" solutionaction="Modified" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{88746d25-e1aa-464a-a140-fc94efbb0bfe}" ordinalvalue="10000">
+                        <labels>
+                          <label description="Name" languagecode="1033" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{fbeadce5-4aa3-466d-9b0d-9b1cef76582c}" ordinalvalue="10008" solutionaction="Modified">
+                        <labels>
+                          <label description="Owner" languagecode="1033" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b73c1ac7-816d-43a8-ae22-4a36db0eeebe}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10001" solutionaction="Added">
+                        <labels>
+                          <label description="Person" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_person" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="govcdm_person" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ac86dd4c-afdb-4823-aa96-020dd97531a8}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10002" solutionaction="Added">
+                        <labels>
+                          <label description="Personnel Clearance" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_personnelclearance" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="govcdm_personnelclearance" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c40e9631-cecc-4ca5-a5f8-e4e0de04c0b7}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10003" solutionaction="Added">
+                        <labels>
+                          <label description="Trigger Date" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_triggerdate" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="govcdm_triggerdate" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{9c38ea9d-2224-42ab-a47f-107c7e5a2fb3}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10004" solutionaction="Added">
+                        <labels>
+                          <label description="CV Intelligence Source" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_cvintelligencesource" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="govcdm_cvintelligencesource" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a92dc194-c022-4b88-b02f-ace4e48145f1}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10005" solutionaction="Added">
+                        <labels>
+                          <label description="Source System" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_sourcesystem" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="govcdm_sourcesystem" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{3b374666-699e-4aea-ae63-e86d6dae3872}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10006" solutionaction="Added">
+                        <labels>
+                          <label description="CV Trigger Event" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_cvtriggerevent" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="govcdm_cvtriggerevent" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{76794cb7-f76d-4b46-af5c-91760277fe1d}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10007" solutionaction="Added">
+                        <labels>
+                          <label description="Details" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_details" classid="{E0DECE4B-6FC8-4A8F-A065-082708572369}" datafieldname="govcdm_details" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="50%" id="1" solutionaction="Added">
+              <sections>
+                <section name="_section_25" id="368c1bdb-71e2-468d-b640-61e69790548c" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115" ordinalvalue="0">
+                  <labels>
+                    <label description="Investigation" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{e4be0656-c4cc-42e7-88d2-fa935d5e9c5d}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10000">
+                        <labels>
+                          <label description="Investigation Launched" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_investigationlaunched" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="govcdm_investigationlaunched" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{8cb9765a-9580-4901-b102-c89c96edba22}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10001">
+                        <labels>
+                          <label description="Background Investigation" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_backgroundinvestigation" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="govcdm_backgroundinvestigation" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_2" id="a01934c9-868a-45fc-841c-83537612cffd" IsUserDefined="0" locklevel="0" showlabel="true" ordinalvalue="1" solutionaction="Added">
+          <labels>
+            <label description="Background Investigations" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%" id="0">
+              <sections>
+                <section name="tab_2_section_1" id="c25d5e7b-44a0-4c7a-9ff2-f1fc2205dc95" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115" ordinalvalue="0">
+                  <labels>
+                    <label description="Background Investigations" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell locklevel="0" id="{aac54226-8ad3-4edd-b056-4f089fd25fb9}" rowspan="4" colspan="1" auto="false" showlabel="false" ordinalvalue="10000">
+                        <labels>
+                          <label description="New SG control 1754669395827" languagecode="1033" />
+                        </labels>
+                        <control indicationOfSubgrid="true" id="Subgrid_new_1" classid="{E7A81278-8635-4D9E-8D4D-59480B391C5B}">
+                          <parameters>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <ChartGridMode>All</ChartGridMode>
+                            <RelationshipName>govcdm_personnelbackgroundinvestigation_OriginatingCVTrigger_govcdm_personnelcvtrigger</RelationshipName>
+                            <TargetEntityType>govcdm_personnelbackgroundinvestigation</TargetEntityType>
+                            <ViewId>{e7f4b221-215e-4fb2-a555-a47296873f88}</ViewId>
+                            <ViewIds>{e7f4b221-215e-4fb2-a555-a47296873f88}</ViewIds>
+                            <VisualizationId>{9811ef5b-b073-f011-bec2-001dd83061df}</VisualizationId>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{077a497d-38a1-4523-97f2-eced27087093}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left" solutionaction="Added">
+        <rows></rows>
+      </header>
+      <footer id="{02ccc074-4ffd-4a15-9a0c-8c401222a2ce}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left" solutionaction="Added">
+        <rows></rows>
+      </footer>
+      <DisplayConditions Order="0" FallbackForm="true" solutionaction="Added">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>
