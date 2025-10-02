@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{d91c00ec-6d2a-ef11-840a-001dd805290e}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="govcdm_name" select="1" icon="1" preview="1">
+        <row name="result" id="govcdm_travelrequestid">
+          <cell name="msgov_primaryactionassignment" width="279" />
+          <cell name="govcdm_name" width="200" />
+          <cell name="govcdm_travelerlastname" width="152" />
+          <cell name="govcdm_travelerfirstname" width="154" />
+          <cell name="govcdm_estimatedcosttotal" width="158" />
+          <cell name="govcdm_requestdate" width="116" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="true">
+        <entity name="govcdm_travelrequest">
+          <attribute name="govcdm_name" />
+          <attribute name="govcdm_travelrequestid" />
+          <link-entity name="govcdm_actionassignment" alias="aa" link-type="inner" from="activityid" to="msgov_primaryactionassignment">
+            <filter type="and">
+              <condition attribute="govcdm_actiontype" operator="eq" value="166840001" />
+            </filter>
+          </link-entity>
+          <attribute name="msgov_primaryactionassignment" />
+          <attribute name="govcdm_travelerlastname" />
+          <attribute name="govcdm_travelerfirstname" />
+          <attribute name="govcdm_estimatedcosttotal" />
+          <attribute name="govcdm_requestdate" />
+          <order attribute="govcdm_requestdate" descending="true" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Approval Needed" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

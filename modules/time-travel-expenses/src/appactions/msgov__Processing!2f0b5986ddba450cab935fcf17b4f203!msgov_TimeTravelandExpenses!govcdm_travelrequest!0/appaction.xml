@@ -1,0 +1,32 @@
+<appaction uniquename="msgov__Processing!2f0b5986ddba450cab935fcf17b4f203!msgov_TimeTravelandExpenses!govcdm_travelrequest!0">
+  <appmoduleid>
+    <uniquename>msgov_TimeTravelandExpenses</uniquename>
+  </appmoduleid>
+  <buttonlabeltext default="Processing">
+    <label description="Processing" languagecode="1033" />
+  </buttonlabeltext>
+  <context>1</context>
+  <contextentity>
+    <logicalname>govcdm_travelrequest</logicalname>
+  </contextentity>
+  <contextvalue>govcdm_travelrequest</contextvalue>
+  <fonticon>GlobalFilterCollapsedRow</fonticon>
+  <hidden>0</hidden>
+  <iscustomizable>1</iscustomizable>
+  <isdisabled>0</isdisabled>
+  <isgrouptitlehidden>0</isgrouptitlehidden>
+  <location>0</location>
+  <name>Processing!2f0b5986ddba450cab935fcf17b4f203</name>
+  <onclickeventjavascriptfunctionname>openCustomPageAsPanelViaLookup</onclickeventjavascriptfunctionname>
+  <onclickeventjavascriptparameters>[{"type":21,"value":"Primary Action Assignment"},{"type":21,"value":"msgov_actionassignmentpage_3215d"},{"type":21,"value":"govcdm_actionassignment"},{"type":5},{"type":21,"value":"msgov_primaryactionassignment"},{"type":19,"value":400}]</onclickeventjavascriptparameters>
+  <onclickeventjavascriptwebresourceid>
+    <webresourceid>350a1fc3-deeb-ee11-904c-0022481df7e6</webresourceid>
+  </onclickeventjavascriptwebresourceid>
+  <onclickeventtype>2</onclickeventtype>
+  <origin>0</origin>
+  <sequence>100100015.0000000000</sequence>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+  <type>0</type>
+  <visibilitytype>0</visibilitytype>
+</appaction>

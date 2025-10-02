@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{ae0cc32b-9f11-4e9d-b379-6394017546e2}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls" solutionaction="Modified">
+      <tabs>
+        <tab verticallayout="true" id="{e42f1381-d050-4941-ac40-94935dd7e191}" IsUserDefined="1" ordinalvalue="0">
+          <columns>
+            <column width="100%" id="0">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{ffe2c8d9-2cea-4cac-9fc1-b4278acc7c69}" ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell id="{601d8d5a-bd65-4c7a-baef-b742e68d1796}" ordinalvalue="10000">
+                        <labels>
+                          <label description="Name" languagecode="1033" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e5eca3d9-22f2-4e3c-b624-83d59d904457}" ordinalvalue="10007" solutionaction="Modified">
+                        <labels>
+                          <label description="Owner" languagecode="1033" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{1c6dfee8-ef6b-4b53-a25b-d83dcde6e067}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10001" solutionaction="Added">
+                        <labels>
+                          <label description="Method of Travel" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_methodoftravel" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="govcdm_methodoftravel" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{7270aa6d-f35d-4294-aa46-298d31837e76}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10002" solutionaction="Added">
+                        <labels>
+                          <label description="Segment Start Date Time" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_segmentstartdatetime" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="govcdm_segmentstartdatetime" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{952c2093-cecd-4a05-9f1a-bb4a05f01300}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10003" solutionaction="Added">
+                        <labels>
+                          <label description="Segment End Date Time" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_segmentenddatetime" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="govcdm_segmentenddatetime" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e2420cb7-7b65-4877-ac38-1844ce66aa8c}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10004" solutionaction="Added">
+                        <labels>
+                          <label description="Destination City" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_destinationcity" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="govcdm_destinationcity" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{6bd8e4bb-34cf-485e-92a0-6e6f10c392cf}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10005" solutionaction="Added">
+                        <labels>
+                          <label description="Destination State or Province" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_destinationstateorprovince" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="govcdm_destinationstateorprovince" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{127264ab-fccc-4a99-937b-61b1fc4f1014}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10006" solutionaction="Added">
+                        <labels>
+                          <label description="Destination Country" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_destinationcountry" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="govcdm_destinationcountry" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="null_section_3" id="9611e150-3c2b-417d-bc87-8542c72dfdab" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115" ordinalvalue="1" solutionaction="Added">
+                  <labels>
+                    <label description="Estimated Costs" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{4d11a220-eef1-4471-8a87-961f091adda1}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10000">
+                        <labels>
+                          <label description="Per Diem Maximum Lodging" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_perdiemmaximumlodging" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="govcdm_perdiemmaximumlodging" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{5c2c9069-cb9d-4982-a286-d7901110b818}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10001">
+                        <labels>
+                          <label description="Per Diem Maximum Incidentals" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_perdiemmaximumincidentals" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="govcdm_perdiemmaximumincidentals" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{5885b11d-6b7f-4682-8df2-bf3f555385c4}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10002">
+                        <labels>
+                          <label description="Per Diem Total" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_perdiemtotal" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="govcdm_perdiemtotal" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{1efc0b5f-6489-4e1f-8586-f14c48a9d49e}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10003">
+                        <labels>
+                          <label description="Actual Expense Rate" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_actualexpenserate" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="govcdm_actualexpenserate" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{c2c62197-16f4-494e-97ef-980624c3fd04}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left" solutionaction="Added">
+        <rows>
+          <row>
+            <cell id="{516ccd8c-3d4c-47e8-b5d3-dc6e35b55749}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10000">
+              <labels>
+                <label description="Travel Request" languagecode="1033" />
+              </labels>
+              <control id="header_govcdm_travelrequest" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="govcdm_travelrequest" disabled="false" />
+            </cell>
+            <cell id="{3f1d4ce3-f568-4e58-85d2-4fefd594adba}" showlabel="false" ordinalvalue="20001">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{1107509d-99c0-4797-a5a8-38f161c7f982}" showlabel="false" ordinalvalue="30002">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{e44b36ca-7198-4c15-b7dc-ebdb66dbc8f7}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left" solutionaction="Added">
+        <rows></rows>
+      </footer>
+      <DisplayConditions Order="0" FallbackForm="true" solutionaction="Added">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>
