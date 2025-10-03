@@ -35,17 +35,16 @@ else {
 Write-Host ""
 if ([string]::IsNullOrEmpty($defaultEnv)) {
     # no sensible default, fall back to prompting through Connect-DataverseEnvironment
-    $envName = Connect-DataverseEnvironment
+    Connect-DataverseEnvironment
 }
 else {
     $inputEnv = Read-Host "Enter environment name to select (or press Enter to use default '$defaultEnv')"
     if ([string]::IsNullOrEmpty($inputEnv)) {
         pac org select --environment $defaultEnv
-        $envName = $defaultEnv
     }
     else {
         # use the helper which will list and select (and can also use config overrides)
-        $envName = Connect-DataverseEnvironment -envName $inputEnv
+        Connect-DataverseEnvironment -envName $inputEnv
     }
 }
 
