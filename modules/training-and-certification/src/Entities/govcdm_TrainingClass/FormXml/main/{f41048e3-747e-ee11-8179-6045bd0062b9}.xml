@@ -1,0 +1,309 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{f41048e3-747e-ee11-8179-6045bd0062b9}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{c85e685e-b6d1-4dab-b456-797f95447c39}" IsUserDefined="1" labelid="{cd7a746b-604d-4a52-a8d7-ce0a2a83c5cb}">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="50%">
+              <sections>
+                <section showlabel="true" showbar="false" IsUserDefined="0" id="{810c5f0e-d85c-4b9b-912b-45b1fe068063}" labelid="{d6dfdc3e-d844-456f-8585-fb141ff0a2cc}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{cfe0bd57-e025-4725-bd52-aef341b62bfc}" labelid="{2efb7389-455c-4cef-b0af-94e86c2b31e6}">
+                        <labels>
+                          <label description="Class Number" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="govcdm_name" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{96fe20e2-03ad-4759-a0bf-279a664268e7}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Title" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_title" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="govcdm_title" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c0388ff5-f030-45ce-b6df-5de9e45702c9}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Instructor" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_instructor" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="govcdm_instructor" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d5667441-fbd5-4618-a0ae-fb5375924870}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Class Materials" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_classmaterials" classid="{E0DECE4B-6FC8-4A8F-A065-082708572369}" datafieldname="govcdm_classmaterials" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{5bffaf76-f7f9-4f62-a2a2-4e36c7a1744b}" labelid="{5298727b-ae01-4fbf-ac62-f17de8e79e88}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="50%">
+              <sections>
+                <section name="_section_73" id="e541e561-1ab1-417d-ba24-e53d1d13a4d7" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Class Specifics" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row />
+                    <row>
+                      <cell id="{9294e2e2-6869-4d2c-b50c-c8cfb33f139b}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Location" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_location" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="govcdm_location" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{633caf3f-336a-4fd2-b8e8-307764a2fbbe}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Room Number" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_roomnumber" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="govcdm_roomnumber" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{dc4137f7-7f0b-4d14-a230-6ee10bfa5569}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Start Date" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_startdate" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="govcdm_startdate" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{f73438af-833d-46ec-b21b-1c888f5d8cb0}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="End Date" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_enddate" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="govcdm_enddate" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{6741923e-a761-4153-a667-53069de93a31}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Hours" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_hours" classid="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}" datafieldname="govcdm_hours" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{53efef5d-7f90-4769-92a8-84b2fb6ec396}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Min Capacity" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_mincapacity" classid="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}" datafieldname="govcdm_mincapacity" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{206dbf0f-8e8b-447f-a495-c72727d944ba}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Max Capacity" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_maxcapacity" classid="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}" datafieldname="govcdm_maxcapacity" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{2b1664ca-06ef-4de6-9885-7d8e8e63ed24}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Enrollment Open Date" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_enrollmentopendate" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="govcdm_enrollmentopendate" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b95c77b9-178a-4df1-b879-64df4cea68f2}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Enrollment Close Date" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_enrollmentclosedate" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="govcdm_enrollmentclosedate" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{1c6d73d5-7e77-498f-946c-e9d00fa8a1fe}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Total Enrolled" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_totalenrolled" classid="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}" datafieldname="govcdm_totalenrolled" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_2" id="17bd8e44-bfde-4039-a6c6-8a352ca10e03" IsUserDefined="0" locklevel="0" showlabel="true">
+          <labels>
+            <label description="Enrolled Students" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_2_section_1" id="76b3d7d5-d98b-4830-a34b-2847783708c1" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Training Class Enrollees" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row />
+                    <row>
+                      <cell locklevel="0" id="{2b026eec-53c5-4b8d-8a0e-1486a61857ed}" rowspan="4" colspan="1" auto="false" showlabel="false">
+                        <labels>
+                          <label description="New SG control 1699476730781" languagecode="1033" />
+                        </labels>
+                        <control indicationOfSubgrid="true" id="Subgrid_new_3" classid="{E7A81278-8635-4D9E-8D4D-59480B391C5B}">
+                          <parameters>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <ChartGridMode>All</ChartGridMode>
+                            <TargetEntityType>govcdm_trainingcourseenrollee</TargetEntityType>
+                            <ViewId>{FBFA2BBA-777E-EE11-8179-6045BD0062B9}</ViewId>
+                            <ViewIds>{F5D44D55-6FBC-4E93-88A0-2EAE07B7D463},{FBFA2BBA-777E-EE11-8179-6045BD0062B9}</ViewIds>
+                            <RelationshipName>govcdm_trainingcourseenrollee_TrainingClass_govc</RelationshipName>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_3" id="04f0967d-2370-45df-be02-878d7d8ec127" IsUserDefined="0" locklevel="0" showlabel="true">
+          <labels>
+            <label description="Attendance" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_3_section_1" id="1611ff46-6332-43ed-889f-e02dd5ebf656" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Attendance Records" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row />
+                    <row>
+                      <cell locklevel="0" id="{2c807583-cddf-4e1e-b8db-7e191f7cae22}" rowspan="4" colspan="1" auto="false" showlabel="false">
+                        <labels>
+                          <label description="New SG control 1699475622174" languagecode="1033" />
+                        </labels>
+                        <control indicationOfSubgrid="true" id="Subgrid_new_2" classid="{E7A81278-8635-4D9E-8D4D-59480B391C5B}">
+                          <parameters>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <ChartGridMode>All</ChartGridMode>
+                            <TargetEntityType>govcdm_trainingclassattendance</TargetEntityType>
+                            <ViewId>{2798227E-777E-EE11-8179-6045BD0062B9}</ViewId>
+                            <ViewIds>{43631435-6F5C-4B00-9D18-23629946C91D},{2798227E-777E-EE11-8179-6045BD0062B9}</ViewIds>
+                            <RelationshipName>govcdm_govcdm_trainingclassattendance_TrainingCl</RelationshipName>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{e2c6a3f6-9476-4790-804b-ca42b2165241}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{855b455a-97bd-4f75-9e1d-a3ea5e3ebb99}" showlabel="false" labelid="{b2c380a6-a448-4c36-ad11-4ee4989469d1}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{2156d9a6-f94a-4176-93c6-2fb3227b056c}" showlabel="false" labelid="{ad4a919f-3b5d-4cd3-b341-1ffe1d87dd62}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{261d6d71-f8de-4563-9b27-fe4fedb3807f}" showlabel="false" labelid="{2c3102b0-1c41-4552-b6e2-88e3d02c6c33}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{9e456282-07d2-4af4-82b3-1ae3af499a97}" locklevel="0" colspan="1" rowspan="1">
+              <labels>
+                <label description="Training Course" languagecode="1033" />
+              </labels>
+              <control id="header_govcdm_trainingcourse" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="govcdm_trainingcourse" disabled="false" />
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{dd967515-e0bb-4a33-af4c-aaa9c785b3e9}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{0d4c9ed4-2928-41fa-b361-06e61185ef74}" showlabel="false" labelid="{a6ebb055-7019-4bb5-a1de-4a76430b03b9}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{0f6fcac5-2908-48f1-9219-d0f7cbb2aa99}" showlabel="false" labelid="{ed050ce3-de22-46d7-9dd0-6533606871b0}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{aad34e0c-6edd-48aa-b9de-1158299db1fc}" showlabel="false" labelid="{805f0b9a-f83a-4dae-a3f7-7cd92a5ae1d0}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions Order="1" FallbackForm="true">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Main" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

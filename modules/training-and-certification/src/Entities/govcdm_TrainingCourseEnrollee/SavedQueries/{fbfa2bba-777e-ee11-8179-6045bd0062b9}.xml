@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{fbfa2bba-777e-ee11-8179-6045bd0062b9}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="govcdm_name" select="1" icon="1" preview="1">
+        <row name="result" id="govcdm_trainingcourseenrolleeid">
+          <cell name="createdon" width="105" />
+          <cell name="govcdm_name" width="209" />
+          <cell name="govcdm_trainingclass" width="122" />
+          <cell name="govcdm_lastname" width="112" />
+          <cell name="govcdm_firstname" width="105" />
+          <cell name="govcdm_enrollmentstatus" width="141" />
+          <cell name="govcdm_emailaddress" width="123" />
+          <cell name="govcdm_homephone" width="113" />
+          <cell name="govcdm_mobilephone" width="119" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="govcdm_trainingcourseenrollee">
+          <attribute name="govcdm_trainingcourseenrolleeid" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="govcdm_firstname" />
+          <attribute name="govcdm_lastname" />
+          <attribute name="govcdm_emailaddress" />
+          <attribute name="govcdm_homephone" />
+          <attribute name="govcdm_mobilephone" />
+          <attribute name="govcdm_enrollmentstatus" />
+          <attribute name="govcdm_name" />
+          <attribute name="createdon" />
+          <order attribute="createdon" descending="true" />
+          <attribute name="govcdm_trainingclass" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Training Course Enrollees" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

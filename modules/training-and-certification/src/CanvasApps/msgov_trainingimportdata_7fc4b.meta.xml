@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CanvasApp xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>msgov_trainingimportdata_7fc4b</Name>
+  <AppVersion>2025-10-02T21:55:06Z</AppVersion>
+  <Status>Ready</Status>
+  <CreatedByClientVersion>3.24044.23.0</CreatedByClientVersion>
+  <MinClientVersion>3.24044.23.0</MinClientVersion>
+  <Tags>{"primaryDeviceWidth":"1551","primaryDeviceHeight":"808","supportsPortrait":"true","supportsLandscape":"true","primaryFormFactor":"Tablet","showStatusBar":"false","publisherVersion":"3.24044.23","minimumRequiredApiVersion":"2.2.0","hasComponent":"false","hasUnlockedComponent":"false","isUnifiedRootApp":"false","sienaVersion":"20240425T180811Z-3.24032.26.0"}</Tags>
+  <IsCdsUpgraded>0</IsCdsUpgraded>
+  <GalleryItemId xsi:nil="true"></GalleryItemId>
+  <BackgroundColor>RGBA(0,176,240,1)</BackgroundColor>
+  <DisplayName>Training - Import Data</DisplayName>
+  <Description></Description>
+  <CommitMessage></CommitMessage>
+  <Publisher></Publisher>
+  <AuthorizationReferences>[]</AuthorizationReferences>
+  <ConnectionReferences>{"5cc2c575-d894-4e7d-bf35-c1fc5f83b5f1":{"id":"/providers/microsoft.powerapps/apis/shared_sharepointonline","displayName":"SharePoint","iconUri":"https://conn-afd-prod-endpoint-bmc9bqahasf3grgk.b01.azurefd.net/releases/v1.0.1732/1.0.1732.4070/sharepointonline/icon.png","dataSources":["Documents"],"dependencies":[],"dependents":[],"parameterHints":{},"parameterHintsV2":{},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{"https://fedairsgcc.sharepoint.com/sites/FedApps-Registrar":{"dataSources":{"Documents":{"tableName":"cb2301f0-b458-4700-b031-9c9082bf554e"}}}},"apiTier":"Standard","actions":["providers/PowerPlatform.Governance/Operations/Read"]},"5139df11-9d5a-4482-a5df-12dfb30001f7":{"id":"/providers/microsoft.powerapps/apis/shared_logicflows","displayName":"Logic flows","iconUri":"https://connectorsiconsfairfax.z5.web.core.usgovcloudapi.net/v1.0.1766/1.0.1766.4330/logicflows/icon.png","dataSources":["ReadExcelFile"],"dependencies":["815664e1-90f8-4830-82d0-fbb7fdf0e2c1"],"dependents":[],"parameterHints":{"workflowName":{"value":"05f90b9c-1199-4a10-be4d-ef4138935005"},"workflowEntityId":{"value":"5b5f68fe-38f1-ee11-904b-000d3a8cbc95"},"workflowDisplayName":{"value":"Read Excel File"},"815664e1-90f8-4830-82d0-fbb7fdf0e2c1":{"value":"shared_excelonlinebusiness-1"}},"parameterHintsV2":{"workflowName":{"value":"05f90b9c-1199-4a10-be4d-ef4138935005"},"workflowEntityId":{"value":"5b5f68fe-38f1-ee11-904b-000d3a8cbc95"},"workflowDisplayName":{"value":"Read Excel File"},"shared_excelonlinebusiness-1":{"value":"815664e1-90f8-4830-82d0-fbb7fdf0e2c1"}},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{},"apiTier":"Standard","actions":["Run"]},"815664e1-90f8-4830-82d0-fbb7fdf0e2c1":{"id":"/providers/microsoft.powerapps/apis/shared_excelonlinebusiness","displayName":"Excel Online (Business)","iconUri":"https://connectorsiconsfairfax.z5.web.core.usgovcloudapi.net/v1.0.1768/1.0.1768.4342/excelonlinebusiness/icon.png","dataSources":[],"dependencies":[],"dependents":["5139df11-9d5a-4482-a5df-12dfb30001f7"],"parameterHints":{},"parameterHintsV2":{},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{},"apiTier":"Standard"}}</ConnectionReferences>
+  <DatabaseReferences>{"default.cds":{"databaseDetails":{"referenceType":"Environmental","environmentName":"default.cds","overrideValues":{"status":"NotSpecified","environmentVariableName":""}},"dataSources":{"Training Courses":{"entitySetName":"govcdm_trainingcourses","logicalName":"govcdm_trainingcourse"},"Training Classes":{"entitySetName":"govcdm_trainingclasses","logicalName":"govcdm_trainingclass"},"Locations":{"entitySetName":"govcdm_locations","logicalName":"govcdm_location"},"Training Course Enrollees":{"entitySetName":"govcdm_trainingcourseenrollees","logicalName":"govcdm_trainingcourseenrollee"}}}}</DatabaseReferences>
+  <AppComponents>[]</AppComponents>
+  <AppComponentDependencies>[]</AppComponentDependencies>
+  <CanConsumeAppPass>1</CanConsumeAppPass>
+  <CanvasAppType>2</CanvasAppType>
+  <BypassConsent>0</BypassConsent>
+  <EmbeddedApp xsi:nil="true"></EmbeddedApp>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <CdsDependencies>{"cdsdependencies":[{"componenttype":1,"logicalname":"govcdm_trainingcourse"},{"componenttype":1,"logicalname":"govcdm_trainingclass"},{"componenttype":1,"logicalname":"govcdm_location"},{"componenttype":1,"logicalname":"govcdm_trainingcourseenrollee"}]}</CdsDependencies>
+  <IsCustomizable>1</IsCustomizable>
+  <BackgroundImageUri>/CanvasApps/msgov_trainingimportdata_7fc4b_BackgroundImageUri</BackgroundImageUri>
+  <DocumentUri>/CanvasApps/msgov_trainingimportdata_7fc4b_DocumentUri.msapp</DocumentUri>
+  <AdditionalUris>
+    <AdditionalUri>/CanvasApps/msgov_trainingimportdata_7fc4b_AdditionalUris0_identity.json</AdditionalUri>
+  </AdditionalUris>
+</CanvasApp>

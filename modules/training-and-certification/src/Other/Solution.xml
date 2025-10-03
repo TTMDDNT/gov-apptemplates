@@ -1,0 +1,1730 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImportExportXml version="9.2.25083.183" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" OrganizationVersion="9.2.25083.183" OrganizationSchemaType="Standard" CRMServerServiceabilityVersion="9.2.25084.00181">
+  <SolutionManifest>
+    <UniqueName>msgov_trainingandcertification</UniqueName>
+    <LocalizedNames>
+      <LocalizedName description="Microsoft Gov - Training and Certification" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions />
+    <Version>1.1.0.0</Version>
+    <Managed>2</Managed>
+    <Publisher>
+      <UniqueName>msgovsolutions</UniqueName>
+      <LocalizedNames>
+        <LocalizedName description="Microsoft Gov" languagecode="1033" />
+      </LocalizedNames>
+      <Descriptions>
+        <Description description="Microsoft Government Solutions" languagecode="1033" />
+      </Descriptions>
+      <EMailAddress xsi:nil="true"></EMailAddress>
+      <SupportingWebsiteUrl xsi:nil="true"></SupportingWebsiteUrl>
+      <CustomizationPrefix>msgov</CustomizationPrefix>
+      <CustomizationOptionValuePrefix>18844</CustomizationOptionValuePrefix>
+      <Addresses>
+        <Address>
+          <AddressNumber>1</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+        <Address>
+          <AddressNumber>2</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+      </Addresses>
+    </Publisher>
+    <RootComponents>
+      <RootComponent type="1" schemaName="govcdm_trainingachievement" behavior="2" />
+      <RootComponent type="1" schemaName="govcdm_trainingcertificate" behavior="2" />
+      <RootComponent type="1" schemaName="govcdm_trainingclass" behavior="2" />
+      <RootComponent type="1" schemaName="govcdm_trainingclassattendance" behavior="2" />
+      <RootComponent type="1" schemaName="govcdm_trainingcourse" behavior="2" />
+      <RootComponent type="1" schemaName="govcdm_trainingcoursecertificate" behavior="2" />
+      <RootComponent type="1" schemaName="govcdm_trainingcourseenrollee" behavior="2" />
+      <RootComponent type="1" schemaName="govcdm_trainingcourserequirement" behavior="2" />
+      <RootComponent type="1" schemaName="govcdm_traininginstructor" behavior="2" />
+      <RootComponent type="1" schemaName="govcdm_trainingobjective" behavior="2" />
+      <RootComponent type="29" id="{13c755c7-d1e6-ee11-904c-6045bd00794a}" behavior="0" />
+      <RootComponent type="29" id="{5b5f68fe-38f1-ee11-904b-000d3a8cbc95}" behavior="0" />
+      <RootComponent type="29" id="{e144b438-f1e6-ee11-904c-6045bd00794a}" behavior="0" />
+      <RootComponent type="29" id="{fe54beab-8df2-ee11-904b-000d3a8cbc95}" behavior="0" />
+      <RootComponent type="300" schemaName="msgov_federalacademydefaultcommandlibrary_eec7e" behavior="0" />
+      <RootComponent type="300" schemaName="msgov_registrarapp_c646a" behavior="0" />
+      <RootComponent type="300" schemaName="msgov_studentcommunications_b6fdb" behavior="0" />
+      <RootComponent type="300" schemaName="msgov_trainingimportdata_7fc4b" behavior="0" />
+      <RootComponent type="60" id="{e68def82-99f2-ee11-904b-000d3a8cbc95}" behavior="0" />
+      <RootComponent type="62" schemaName="msgov_TrainingandCertification" behavior="0" />
+      <RootComponent type="80" schemaName="msgov_TrainingandCertification" behavior="0" />
+    </RootComponents>
+    <MissingDependencies>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_kbarticle" displayName="KB Article" solution="govcdm_knowledgemanagement (1.0.1.1)" />
+        <Dependent type="300" schemaName="msgov_studentcommunications_b6fdb" displayName="Student Communications" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_location" displayName="Location" solution="govcdm_core (1.0.2.2)" />
+        <Dependent type="300" schemaName="msgov_registrarapp_c646a" displayName="Registrar App" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_location" displayName="Location" solution="govcdm_core (1.0.2.2)" />
+        <Dependent type="300" schemaName="msgov_trainingimportdata_7fc4b" displayName="Training - Import Data" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_location" displayName="Location" solution="govcdm_core (1.0.2.2)" />
+        <Dependent type="62" schemaName="msgov_TrainingandCertification" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_location" displayName="Location" solution="govcdm_core (1.0.2.2)" />
+        <Dependent type="80" schemaName="msgov_TrainingandCertification" displayName="Training and Certification" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_trainingachievement" displayName="Training Achievement" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="1" schemaName="govcdm_trainingachievement" displayName="Training Achievement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_trainingachievement" displayName="Training Achievement" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="26" schemaName="Training Achievements" displayName="Training Achievements" parentSchemaName="govcdm_trainingachievement" parentDisplayName="Training Achievement" id="{3837e78d-7a7e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_trainingachievement" displayName="Training Achievement" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Training Achievement" id="{822c0759-7a7e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_trainingachievement" displayName="Training Achievement" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Training Achievement Quick Create" parentDisplayName="Training Achievement" id="{df21f479-7a7e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_trainingachievement" displayName="Training Achievement" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="62" schemaName="msgov_TrainingandCertification" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_trainingachievement" displayName="Training Achievement" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="80" schemaName="msgov_TrainingandCertification" displayName="Training and Certification" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_trainingcertificate" displayName="Training Certificate" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="1" schemaName="govcdm_trainingcertificate" displayName="Training Certificate" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_trainingcertificate" displayName="Training Certificate" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="26" schemaName="Training Certificates" displayName="Training Certificates" parentSchemaName="govcdm_trainingcertificate" parentDisplayName="Training Certificate" id="{fd6108fc-767e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_trainingcertificate" displayName="Training Certificate" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Training Certificate Quick Create" parentDisplayName="Training Certificate" id="{5012c224-667e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_trainingcertificate" displayName="Training Certificate" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Training Certificate" id="{813953a9-757e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_trainingcertificate" displayName="Training Certificate" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Training Course" id="{bf239800-da7d-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_trainingcertificate" displayName="Training Certificate" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="62" schemaName="msgov_TrainingandCertification" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_trainingcertificate" displayName="Training Certificate" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="80" schemaName="msgov_TrainingandCertification" displayName="Training and Certification" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_trainingclass" displayName="Training Class" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="1" schemaName="govcdm_trainingclass" displayName="Training Class" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_trainingclass" displayName="Training Class" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="26" schemaName="Training Classes" displayName="Training Classes" parentSchemaName="govcdm_trainingclass" parentDisplayName="Training Class" id="{68f50065-777e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_trainingclass" displayName="Training Class" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="26" schemaName="Training Class Lookup" displayName="Training Class Lookup" parentSchemaName="govcdm_trainingclass" parentDisplayName="Training Class" id="{8d2cada4-47ed-ee11-a1fe-000d3a5d06a6}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_trainingclass" displayName="Training Class" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="29" displayName="Calculate Enrollment Metrics" id="{e144b438-f1e6-ee11-904c-6045bd00794a}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_trainingclass" displayName="Training Class" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="300" schemaName="msgov_federalacademydefaultcommandlibrary_eec7e" displayName="FederalAcademy_DefaultCommandLibrary" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_trainingclass" displayName="Training Class" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="300" schemaName="msgov_registrarapp_c646a" displayName="Registrar App" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_trainingclass" displayName="Training Class" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="300" schemaName="msgov_trainingimportdata_7fc4b" displayName="Training - Import Data" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_trainingclass" displayName="Training Class" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Training Class" id="{2dbcfb5a-667e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_trainingclass" displayName="Training Class" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Training Instructor" id="{a7633903-7b7e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_trainingclass" displayName="Training Class" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Training Course" id="{bf239800-da7d-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_trainingclass" displayName="Training Class" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Training Class" id="{f41048e3-747e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_trainingclass" displayName="Training Class" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="62" schemaName="msgov_TrainingandCertification" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_trainingclass" displayName="Training Class" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="80" schemaName="msgov_TrainingandCertification" displayName="Training and Certification" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_trainingclassattendance" displayName="Training Class Attendance" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="1" schemaName="govcdm_trainingclassattendance" displayName="Training Class Attendance" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_trainingclassattendance" displayName="Training Class Attendance" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="26" schemaName="Training Class Attendances" displayName="Training Class Attendances" parentSchemaName="govcdm_trainingclassattendance" parentDisplayName="Training Class Attendance" id="{2798227e-777e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_trainingclassattendance" displayName="Training Class Attendance" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Training Class Attendance Quick Create" parentDisplayName="Training Class Attendance" id="{00a4add3-7b7e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_trainingclassattendance" displayName="Training Class Attendance" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Training Class Attendance" id="{7edbabae-7b7e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_trainingclassattendance" displayName="Training Class Attendance" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Training Class" id="{f41048e3-747e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_trainingclassattendance" displayName="Training Class Attendance" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="62" schemaName="msgov_TrainingandCertification" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_trainingclassattendance" displayName="Training Class Attendance" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="80" schemaName="msgov_TrainingandCertification" displayName="Training and Certification" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_trainingcourse" displayName="Training Course" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="1" schemaName="govcdm_trainingcourse" displayName="Training Course" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_trainingcoursecertificate" displayName="Training Course Certificate" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="1" schemaName="govcdm_trainingcoursecertificate" displayName="Training Course Certificate" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_trainingcoursecertificate" displayName="Training Course Certificate" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="26" schemaName="Counts Towards" displayName="Counts Towards" parentSchemaName="govcdm_trainingcoursecertificate" parentDisplayName="Training Course Certificate" id="{51a666a2-f9c9-ee11-9079-000d3a3b9c87}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_trainingcoursecertificate" displayName="Training Course Certificate" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="26" schemaName="Required Courses" displayName="Required Courses" parentSchemaName="govcdm_trainingcoursecertificate" parentDisplayName="Training Course Certificate" id="{a0ff3e02-f9c9-ee11-9079-000d3a3b9c87}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_trainingcoursecertificate" displayName="Training Course Certificate" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Training Course Certificate Quick Create" parentDisplayName="Training Course Certificate" id="{436f5d92-f8c9-ee11-9079-000d3a3b9c87}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_trainingcoursecertificate" displayName="Training Course Certificate" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Training Certificate" id="{813953a9-757e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_trainingcoursecertificate" displayName="Training Course Certificate" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Training Course" id="{bf239800-da7d-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_trainingcoursecertificate" displayName="Training Course Certificate" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Training Course Certificate" id="{f428fd6e-f8c9-ee11-9079-000d3a3b9c87}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_trainingcoursecertificate" displayName="Training Course Certificate" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="80" schemaName="msgov_TrainingandCertification" displayName="Training and Certification" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_trainingcourseenrollee" displayName="Training Course Enrollee" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="1" schemaName="govcdm_trainingcourseenrollee" displayName="Training Course Enrollee" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_trainingcourseenrollee" displayName="Training Course Enrollee" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="26" schemaName="New Applicants" displayName="New Applicants" parentSchemaName="govcdm_trainingcourseenrollee" parentDisplayName="Training Course Enrollee" id="{95175b9f-95f2-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_trainingcourseenrollee" displayName="Training Course Enrollee" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="26" schemaName="Training Course Enrollees" displayName="Training Course Enrollees" parentSchemaName="govcdm_trainingcourseenrollee" parentDisplayName="Training Course Enrollee" id="{fbfa2bba-777e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_trainingcourseenrollee" displayName="Training Course Enrollee" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="29" displayName="Enrollment Report Uploaded to SharePoint" id="{13c755c7-d1e6-ee11-904c-6045bd00794a}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_trainingcourseenrollee" displayName="Training Course Enrollee" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="29" displayName="Calculate Enrollment Metrics" id="{e144b438-f1e6-ee11-904c-6045bd00794a}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_trainingcourseenrollee" displayName="Training Course Enrollee" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="29" displayName="Enrollment Submitted - Send Confirmation" id="{fe54beab-8df2-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_trainingcourseenrollee" displayName="Training Course Enrollee" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="300" schemaName="msgov_federalacademydefaultcommandlibrary_eec7e" displayName="FederalAcademy_DefaultCommandLibrary" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_trainingcourseenrollee" displayName="Training Course Enrollee" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="300" schemaName="msgov_registrarapp_c646a" displayName="Registrar App" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_trainingcourseenrollee" displayName="Training Course Enrollee" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="300" schemaName="msgov_studentcommunications_b6fdb" displayName="Student Communications" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_trainingcourseenrollee" displayName="Training Course Enrollee" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="300" schemaName="msgov_trainingimportdata_7fc4b" displayName="Training - Import Data" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_trainingcourseenrollee" displayName="Training Course Enrollee" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="59" schemaName="Applicants by Training Course" displayName="Applicants by Training Course" parentSchemaName="govcdm_trainingcourseenrollee" parentDisplayName="Training Course Enrollee" id="{47ddf1f8-95f2-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_trainingcourseenrollee" displayName="Training Course Enrollee" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Training Course Enrollee" id="{113abd40-7c7e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_trainingcourseenrollee" displayName="Training Course Enrollee" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Training Course Enrollee Quick Create" parentDisplayName="Training Course Enrollee" id="{23556c8e-667e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_trainingcourseenrollee" displayName="Training Course Enrollee" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Portal Course Enrollment - Student Info" parentDisplayName="Training Course Enrollee" id="{3f43ccb2-abd1-ee11-9079-000d3a3b9c87}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_trainingcourseenrollee" displayName="Training Course Enrollee" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Portal Course Enrollment - Class Info" parentDisplayName="Training Course Enrollee" id="{9256ae0a-b0d1-ee11-9079-000d3a3b9c87}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_trainingcourseenrollee" displayName="Training Course Enrollee" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Training Course" id="{bf239800-da7d-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_trainingcourseenrollee" displayName="Training Course Enrollee" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Applicant Dashboard" id="{e68def82-99f2-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_trainingcourseenrollee" displayName="Training Course Enrollee" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Training Class" id="{f41048e3-747e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_trainingcourseenrollee" displayName="Training Course Enrollee" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="62" schemaName="msgov_TrainingandCertification" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_trainingcourseenrollee" displayName="Training Course Enrollee" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="80" schemaName="msgov_TrainingandCertification" displayName="Training and Certification" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_trainingcourserequirement" displayName="Training Course Requirement" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="1" schemaName="govcdm_trainingcourserequirement" displayName="Training Course Requirement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_trainingcourserequirement" displayName="Training Course Requirement" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="26" schemaName="Training Course Requirements" displayName="Training Course Requirements" parentSchemaName="govcdm_trainingcourserequirement" parentDisplayName="Training Course Requirement" id="{0c75dfd8-3adb-ee11-904d-000d3a3b9c87}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_trainingcourserequirement" displayName="Training Course Requirement" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="26" schemaName="Associated View" displayName="Associated View" parentSchemaName="govcdm_trainingcourserequirement" parentDisplayName="Training Course Requirement" id="{414b39f6-3adb-ee11-904d-000d3a3b9c87}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_trainingcourserequirement" displayName="Training Course Requirement" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="300" schemaName="msgov_registrarapp_c646a" displayName="Registrar App" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_trainingcourserequirement" displayName="Training Course Requirement" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Training Course Requirement" id="{3b31be54-3adb-ee11-904d-000d3a3b9c87}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_trainingcourserequirement" displayName="Training Course Requirement" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Training Course" id="{bf239800-da7d-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_trainingcourserequirement" displayName="Training Course Requirement" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Training Course Requirement" id="{fe637af8-3edb-ee11-904d-000d3a3b9c87}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_trainingcourserequirement" displayName="Training Course Requirement" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="80" schemaName="msgov_TrainingandCertification" displayName="Training and Certification" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_traininginstructor" displayName="Training Instructor" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="1" schemaName="govcdm_traininginstructor" displayName="Training Instructor" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_traininginstructor" displayName="Training Instructor" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="26" schemaName="Training Instructors" displayName="Training Instructors" parentSchemaName="govcdm_traininginstructor" parentDisplayName="Training Instructor" id="{b2752572-7b7e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_traininginstructor" displayName="Training Instructor" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Training Instructor" id="{a7633903-7b7e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_traininginstructor" displayName="Training Instructor" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Training Instructor Quick Create" parentDisplayName="Training Instructor" id="{ed42b75d-7b7e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_traininginstructor" displayName="Training Instructor" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="62" schemaName="msgov_TrainingandCertification" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_traininginstructor" displayName="Training Instructor" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="80" schemaName="msgov_TrainingandCertification" displayName="Training and Certification" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_trainingobjective" displayName="Training Objective" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="1" schemaName="govcdm_trainingobjective" displayName="Training Objective" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_trainingobjective" displayName="Training Objective" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="26" schemaName="Training Objectives" displayName="Training Objectives" parentSchemaName="govcdm_trainingobjective" parentDisplayName="Training Objective" id="{c2f50dd8-777e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_trainingobjective" displayName="Training Objective" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Training Objective" id="{0d5abf7c-7c7e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_trainingobjective" displayName="Training Objective" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Training Objective Quick Create" parentDisplayName="Training Objective" id="{131a1a71-7c7e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_trainingobjective" displayName="Training Objective" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="62" schemaName="msgov_TrainingandCertification" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_trainingobjective" displayName="Training Objective" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="80" schemaName="msgov_TrainingandCertification" displayName="Training and Certification" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_govcdm_trainingachievement_Person_contact" displayName="govcdm_govcdm_trainingachievement_Person_contact" parentSchemaName="contact" parentDisplayName="Person" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Training Achievement Quick Create" parentDisplayName="Training Achievement" id="{df21f479-7a7e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_govcdm_trainingachievement_TrainingCertif" displayName="govcdm_govcdm_trainingachievement_TrainingCertif" parentSchemaName="govcdm_trainingcertificate" parentDisplayName="Training Certificate" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Training Achievement Quick Create" parentDisplayName="Training Achievement" id="{df21f479-7a7e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_govcdm_trainingcertificate_IssuingBody_ac" displayName="govcdm_govcdm_trainingcertificate_IssuingBody_ac" parentSchemaName="account" parentDisplayName="Account" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Training Certificate" id="{813953a9-757e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_govcdm_trainingcertificate_TrainingCourse" displayName="govcdm_govcdm_trainingcertificate_TrainingCourse" parentSchemaName="govcdm_trainingcourse" parentDisplayName="Training Course" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Training Certificate" id="{813953a9-757e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_govcdm_trainingcertificate_TrainingCourse" displayName="govcdm_govcdm_trainingcertificate_TrainingCourse" parentSchemaName="govcdm_trainingcourse" parentDisplayName="Training Course" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Training Course" id="{bf239800-da7d-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_govcdm_trainingclass_Instructor_govcdm_tr" displayName="govcdm_govcdm_trainingclass_Instructor_govcdm_tr" parentSchemaName="govcdm_traininginstructor" parentDisplayName="Training Instructor" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Training Class" id="{2dbcfb5a-667e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_govcdm_trainingclass_Instructor_govcdm_tr" displayName="govcdm_govcdm_trainingclass_Instructor_govcdm_tr" parentSchemaName="govcdm_traininginstructor" parentDisplayName="Training Instructor" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Training Instructor" id="{a7633903-7b7e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_govcdm_trainingclass_Instructor_govcdm_tr" displayName="govcdm_govcdm_trainingclass_Instructor_govcdm_tr" parentSchemaName="govcdm_traininginstructor" parentDisplayName="Training Instructor" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Training Class" id="{f41048e3-747e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_govcdm_trainingclass_Location_govcdm_loca" displayName="govcdm_govcdm_trainingclass_Location_govcdm_loca" parentSchemaName="govcdm_location" parentDisplayName="Location" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Training Class" id="{2dbcfb5a-667e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_govcdm_trainingclass_Location_govcdm_loca" displayName="govcdm_govcdm_trainingclass_Location_govcdm_loca" parentSchemaName="govcdm_location" parentDisplayName="Location" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Training Class" id="{f41048e3-747e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_govcdm_trainingclass_TrainingCourse_govcd" displayName="govcdm_govcdm_trainingclass_TrainingCourse_govcd" parentSchemaName="govcdm_trainingcourse" parentDisplayName="Training Course" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Training Class" id="{2dbcfb5a-667e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_govcdm_trainingclass_TrainingCourse_govcd" displayName="govcdm_govcdm_trainingclass_TrainingCourse_govcd" parentSchemaName="govcdm_trainingcourse" parentDisplayName="Training Course" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Portal Course Enrollment - Student Info" parentDisplayName="Training Course Enrollee" id="{3f43ccb2-abd1-ee11-9079-000d3a3b9c87}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_govcdm_trainingclass_TrainingCourse_govcd" displayName="govcdm_govcdm_trainingclass_TrainingCourse_govcd" parentSchemaName="govcdm_trainingcourse" parentDisplayName="Training Course" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Portal Course Enrollment - Class Info" parentDisplayName="Training Course Enrollee" id="{9256ae0a-b0d1-ee11-9079-000d3a3b9c87}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_govcdm_trainingclass_TrainingCourse_govcd" displayName="govcdm_govcdm_trainingclass_TrainingCourse_govcd" parentSchemaName="govcdm_trainingcourse" parentDisplayName="Training Course" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Training Course" id="{bf239800-da7d-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_govcdm_trainingclass_TrainingCourse_govcd" displayName="govcdm_govcdm_trainingclass_TrainingCourse_govcd" parentSchemaName="govcdm_trainingcourse" parentDisplayName="Training Course" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Training Class" id="{f41048e3-747e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_govcdm_trainingclassattendance_Person_con" displayName="govcdm_govcdm_trainingclassattendance_Person_con" parentSchemaName="contact" parentDisplayName="Person" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Training Class Attendance Quick Create" parentDisplayName="Training Class Attendance" id="{00a4add3-7b7e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_govcdm_trainingclassattendance_Person_con" displayName="govcdm_govcdm_trainingclassattendance_Person_con" parentSchemaName="contact" parentDisplayName="Person" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Training Class Attendance" id="{7edbabae-7b7e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_govcdm_trainingclassattendance_TrainingCl" displayName="govcdm_govcdm_trainingclassattendance_TrainingCl" parentSchemaName="govcdm_trainingclass" parentDisplayName="Training Class" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Training Class Attendance Quick Create" parentDisplayName="Training Class Attendance" id="{00a4add3-7b7e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_govcdm_trainingclassattendance_TrainingCl" displayName="govcdm_govcdm_trainingclassattendance_TrainingCl" parentSchemaName="govcdm_trainingclass" parentDisplayName="Training Class" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Training Class Attendance" id="{7edbabae-7b7e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_govcdm_trainingclassattendance_TrainingCl" displayName="govcdm_govcdm_trainingclassattendance_TrainingCl" parentSchemaName="govcdm_trainingclass" parentDisplayName="Training Class" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Training Class" id="{f41048e3-747e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_govcdm_trainingcourse_PrimaryTrainingObje" displayName="govcdm_govcdm_trainingcourse_PrimaryTrainingObje" parentSchemaName="govcdm_trainingobjective" parentDisplayName="Training Objective" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Training Objective" id="{0d5abf7c-7c7e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_govcdm_trainingcourse_PrimaryTrainingObje" displayName="govcdm_govcdm_trainingcourse_PrimaryTrainingObje" parentSchemaName="govcdm_trainingobjective" parentDisplayName="Training Objective" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Training Course" id="{16cf4e0e-7c7e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_govcdm_trainingcourse_PrimaryTrainingObje" displayName="govcdm_govcdm_trainingcourse_PrimaryTrainingObje" parentSchemaName="govcdm_trainingobjective" parentDisplayName="Training Objective" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Training Course" id="{bf239800-da7d-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_govcdm_trainingcourseenrollee_Person_cont" displayName="govcdm_govcdm_trainingcourseenrollee_Person_cont" parentSchemaName="contact" parentDisplayName="Person" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Training Course Enrollee" id="{113abd40-7c7e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_govcdm_trainingcourseenrollee_Person_cont" displayName="govcdm_govcdm_trainingcourseenrollee_Person_cont" parentSchemaName="contact" parentDisplayName="Person" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Training Course Enrollee Quick Create" parentDisplayName="Training Course Enrollee" id="{23556c8e-667e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_govcdm_trainingcourseenrollee_Person_cont" displayName="govcdm_govcdm_trainingcourseenrollee_Person_cont" parentSchemaName="contact" parentDisplayName="Person" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Portal Course Enrollment - Student Info" parentDisplayName="Training Course Enrollee" id="{3f43ccb2-abd1-ee11-9079-000d3a3b9c87}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_govcdm_trainingcourseenrollee_Person_cont" displayName="govcdm_govcdm_trainingcourseenrollee_Person_cont" parentSchemaName="contact" parentDisplayName="Person" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Portal Course Enrollment - Class Info" parentDisplayName="Training Course Enrollee" id="{9256ae0a-b0d1-ee11-9079-000d3a3b9c87}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_govcdm_trainingcourseenrollee_TrainingCou" displayName="govcdm_govcdm_trainingcourseenrollee_TrainingCou" parentSchemaName="govcdm_trainingcourse" parentDisplayName="Training Course" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Training Course Enrollee" id="{113abd40-7c7e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_govcdm_trainingcourseenrollee_TrainingCou" displayName="govcdm_govcdm_trainingcourseenrollee_TrainingCou" parentSchemaName="govcdm_trainingcourse" parentDisplayName="Training Course" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Training Course Enrollee Quick Create" parentDisplayName="Training Course Enrollee" id="{23556c8e-667e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_govcdm_trainingcourseenrollee_TrainingCou" displayName="govcdm_govcdm_trainingcourseenrollee_TrainingCou" parentSchemaName="govcdm_trainingcourse" parentDisplayName="Training Course" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Portal Course Enrollment - Student Info" parentDisplayName="Training Course Enrollee" id="{3f43ccb2-abd1-ee11-9079-000d3a3b9c87}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_govcdm_trainingcourseenrollee_TrainingCou" displayName="govcdm_govcdm_trainingcourseenrollee_TrainingCou" parentSchemaName="govcdm_trainingcourse" parentDisplayName="Training Course" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Portal Course Enrollment - Class Info" parentDisplayName="Training Course Enrollee" id="{9256ae0a-b0d1-ee11-9079-000d3a3b9c87}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_govcdm_trainingcourseenrollee_TrainingCou" displayName="govcdm_govcdm_trainingcourseenrollee_TrainingCou" parentSchemaName="govcdm_trainingcourse" parentDisplayName="Training Course" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Training Course" id="{bf239800-da7d-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_govcdm_traininginstructor_Person_contact" displayName="govcdm_govcdm_traininginstructor_Person_contact" parentSchemaName="contact" parentDisplayName="Person" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Training Instructor" id="{a7633903-7b7e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_govcdm_traininginstructor_Person_contact" displayName="govcdm_govcdm_traininginstructor_Person_contact" parentSchemaName="contact" parentDisplayName="Person" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Training Instructor Quick Create" parentDisplayName="Training Instructor" id="{ed42b75d-7b7e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_trainingcoursecertificate_TrainingCertifi" displayName="govcdm_trainingcoursecertificate_TrainingCertifi" parentSchemaName="govcdm_trainingcertificate" parentDisplayName="Training Certificate" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Training Course Certificate Quick Create" parentDisplayName="Training Course Certificate" id="{436f5d92-f8c9-ee11-9079-000d3a3b9c87}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_trainingcoursecertificate_TrainingCertifi" displayName="govcdm_trainingcoursecertificate_TrainingCertifi" parentSchemaName="govcdm_trainingcertificate" parentDisplayName="Training Certificate" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Training Certificate" id="{813953a9-757e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_trainingcoursecertificate_TrainingCertifi" displayName="govcdm_trainingcoursecertificate_TrainingCertifi" parentSchemaName="govcdm_trainingcertificate" parentDisplayName="Training Certificate" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Training Course Certificate" id="{f428fd6e-f8c9-ee11-9079-000d3a3b9c87}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_trainingcoursecertificate_TrainingCourse_" displayName="govcdm_trainingcoursecertificate_TrainingCourse_" parentSchemaName="govcdm_trainingcourse" parentDisplayName="Training Course" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Training Course Certificate Quick Create" parentDisplayName="Training Course Certificate" id="{436f5d92-f8c9-ee11-9079-000d3a3b9c87}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_trainingcoursecertificate_TrainingCourse_" displayName="govcdm_trainingcoursecertificate_TrainingCourse_" parentSchemaName="govcdm_trainingcourse" parentDisplayName="Training Course" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Training Course" id="{bf239800-da7d-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_trainingcoursecertificate_TrainingCourse_" displayName="govcdm_trainingcoursecertificate_TrainingCourse_" parentSchemaName="govcdm_trainingcourse" parentDisplayName="Training Course" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Training Course Certificate" id="{f428fd6e-f8c9-ee11-9079-000d3a3b9c87}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_trainingcourseenrollee_EnrolleeOrganizati" displayName="govcdm_trainingcourseenrollee_EnrolleeOrganizati" parentSchemaName="govcdm_organizationunit" parentDisplayName="Organization Unit" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Training Course Enrollee" id="{113abd40-7c7e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_trainingcourseenrollee_EnrolleePaygrade_g" displayName="govcdm_trainingcourseenrollee_EnrolleePaygrade_g" parentSchemaName="govcdm_paygrade" parentDisplayName="Pay Grade" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Training Course Enrollee" id="{113abd40-7c7e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_trainingcourseenrollee_TrainingClass_govc" displayName="govcdm_trainingcourseenrollee_TrainingClass_govc" parentSchemaName="govcdm_trainingclass" parentDisplayName="Training Class" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Training Course Enrollee" id="{113abd40-7c7e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_trainingcourseenrollee_TrainingClass_govc" displayName="govcdm_trainingcourseenrollee_TrainingClass_govc" parentSchemaName="govcdm_trainingclass" parentDisplayName="Training Class" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Portal Course Enrollment - Student Info" parentDisplayName="Training Course Enrollee" id="{3f43ccb2-abd1-ee11-9079-000d3a3b9c87}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_trainingcourseenrollee_TrainingClass_govc" displayName="govcdm_trainingcourseenrollee_TrainingClass_govc" parentSchemaName="govcdm_trainingclass" parentDisplayName="Training Class" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Portal Course Enrollment - Class Info" parentDisplayName="Training Course Enrollee" id="{9256ae0a-b0d1-ee11-9079-000d3a3b9c87}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_trainingcourseenrollee_TrainingClass_govc" displayName="govcdm_trainingcourseenrollee_TrainingClass_govc" parentSchemaName="govcdm_trainingclass" parentDisplayName="Training Class" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Training Class" id="{f41048e3-747e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_trainingcourserequirement_RequiresCertifi" displayName="govcdm_trainingcourserequirement_RequiresCertifi" parentSchemaName="govcdm_trainingcertificate" parentDisplayName="Training Certificate" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Training Course Requirement" id="{3b31be54-3adb-ee11-904d-000d3a3b9c87}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_trainingcourserequirement_RequiresCertifi" displayName="govcdm_trainingcourserequirement_RequiresCertifi" parentSchemaName="govcdm_trainingcertificate" parentDisplayName="Training Certificate" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Training Course Requirement" id="{fe637af8-3edb-ee11-904d-000d3a3b9c87}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_trainingcourserequirement_RequiresCourse_" displayName="govcdm_trainingcourserequirement_RequiresCourse_" parentSchemaName="govcdm_trainingcourse" parentDisplayName="Training Course" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Training Course Requirement" id="{3b31be54-3adb-ee11-904d-000d3a3b9c87}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_trainingcourserequirement_RequiresCourse_" displayName="govcdm_trainingcourserequirement_RequiresCourse_" parentSchemaName="govcdm_trainingcourse" parentDisplayName="Training Course" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Training Course Requirement" id="{fe637af8-3edb-ee11-904d-000d3a3b9c87}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_trainingcourserequirement_TrainingCourse_" displayName="govcdm_trainingcourserequirement_TrainingCourse_" parentSchemaName="govcdm_trainingcourse" parentDisplayName="Training Course" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Training Course Requirement" id="{3b31be54-3adb-ee11-904d-000d3a3b9c87}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_trainingcourserequirement_TrainingCourse_" displayName="govcdm_trainingcourserequirement_TrainingCourse_" parentSchemaName="govcdm_trainingcourse" parentDisplayName="Training Course" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Training Course" id="{bf239800-da7d-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_trainingcourserequirement_TrainingCourse_" displayName="govcdm_trainingcourserequirement_TrainingCourse_" parentSchemaName="govcdm_trainingcourse" parentDisplayName="Training Course" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Training Course Requirement" id="{fe637af8-3edb-ee11-904d-000d3a3b9c87}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="createdon" displayName="Created On" parentSchemaName="govcdm_trainingcertificate" parentDisplayName="Training Certificate" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="26" schemaName="Training Certificates" displayName="Training Certificates" parentSchemaName="govcdm_trainingcertificate" parentDisplayName="Training Certificate" id="{fd6108fc-767e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="createdon" displayName="Created On" parentSchemaName="govcdm_trainingcourse" parentDisplayName="Training Course" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="26" schemaName="Quick Find Active Training Courses" displayName="Quick Find Active Training Courses" parentSchemaName="govcdm_trainingcourse" parentDisplayName="Training Course" id="{5664dc68-8005-4c51-9b69-a54751363c87}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="createdon" displayName="Created On" parentSchemaName="govcdm_trainingcourseenrollee" parentDisplayName="Training Course Enrollee" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="26" schemaName="New Applicants" displayName="New Applicants" parentSchemaName="govcdm_trainingcourseenrollee" parentDisplayName="Training Course Enrollee" id="{95175b9f-95f2-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="createdon" displayName="Created On" parentSchemaName="govcdm_trainingcourseenrollee" parentDisplayName="Training Course Enrollee" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="26" schemaName="Training Course Enrollees" displayName="Training Course Enrollees" parentSchemaName="govcdm_trainingcourseenrollee" parentDisplayName="Training Course Enrollee" id="{fbfa2bba-777e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_accreditation" displayName="Accreditation " parentSchemaName="govcdm_trainingcourse" parentDisplayName="Training Course" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Training Course" id="{bf239800-da7d-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_assessmentmethod" displayName="Assessment Method" parentSchemaName="govcdm_trainingcourse" parentDisplayName="Training Course" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Training Course" id="{bf239800-da7d-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_classmaterials" displayName="Class Materials" parentSchemaName="govcdm_trainingclass" parentDisplayName="Training Class" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Training Class" id="{f41048e3-747e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_description" displayName="Description" parentSchemaName="govcdm_trainingcertificate" parentDisplayName="Training Certificate" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Training Certificate" id="{813953a9-757e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_description" displayName="Description" parentSchemaName="govcdm_trainingcourse" parentDisplayName="Training Course" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="2" schemaName="govcdm_description" displayName="Description" parentSchemaName="govcdm_trainingcourse" parentDisplayName="Training Course" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_description" displayName="Description" parentSchemaName="govcdm_trainingobjective" parentDisplayName="Training Objective" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="26" schemaName="Training Objectives" displayName="Training Objectives" parentSchemaName="govcdm_trainingobjective" parentDisplayName="Training Objective" id="{c2f50dd8-777e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_description" displayName="Description" parentSchemaName="govcdm_trainingobjective" parentDisplayName="Training Objective" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Training Objective" id="{0d5abf7c-7c7e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_emailaddress" displayName="Email Address" parentSchemaName="govcdm_trainingcourseenrollee" parentDisplayName="Training Course Enrollee" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="26" schemaName="New Applicants" displayName="New Applicants" parentSchemaName="govcdm_trainingcourseenrollee" parentDisplayName="Training Course Enrollee" id="{95175b9f-95f2-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_emailaddress" displayName="Email Address" parentSchemaName="govcdm_trainingcourseenrollee" parentDisplayName="Training Course Enrollee" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="26" schemaName="Training Course Enrollees" displayName="Training Course Enrollees" parentSchemaName="govcdm_trainingcourseenrollee" parentDisplayName="Training Course Enrollee" id="{fbfa2bba-777e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_emailaddress" displayName="Email Address" parentSchemaName="govcdm_trainingcourseenrollee" parentDisplayName="Training Course Enrollee" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Training Course Enrollee" id="{113abd40-7c7e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_emailaddress" displayName="Email Address" parentSchemaName="govcdm_trainingcourseenrollee" parentDisplayName="Training Course Enrollee" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Portal Course Enrollment - Student Info" parentDisplayName="Training Course Enrollee" id="{3f43ccb2-abd1-ee11-9079-000d3a3b9c87}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_enddate" displayName="End Date" parentSchemaName="govcdm_trainingclass" parentDisplayName="Training Class" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="26" schemaName="Training Classes" displayName="Training Classes" parentSchemaName="govcdm_trainingclass" parentDisplayName="Training Class" id="{68f50065-777e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_enddate" displayName="End Date" parentSchemaName="govcdm_trainingclass" parentDisplayName="Training Class" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="26" schemaName="Training Class Lookup" displayName="Training Class Lookup" parentSchemaName="govcdm_trainingclass" parentDisplayName="Training Class" id="{8d2cada4-47ed-ee11-a1fe-000d3a5d06a6}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_enddate" displayName="End Date" parentSchemaName="govcdm_trainingclass" parentDisplayName="Training Class" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Training Class" id="{2dbcfb5a-667e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_enddate" displayName="End Date" parentSchemaName="govcdm_trainingclass" parentDisplayName="Training Class" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Training Class" id="{f41048e3-747e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_enrolleecomments" displayName="Enrollee Comments" parentSchemaName="govcdm_trainingcourseenrollee" parentDisplayName="Training Course Enrollee" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Training Course Enrollee" id="{113abd40-7c7e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_enrolleecomments" displayName="Enrollee Comments" parentSchemaName="govcdm_trainingcourseenrollee" parentDisplayName="Training Course Enrollee" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Portal Course Enrollment - Class Info" parentDisplayName="Training Course Enrollee" id="{9256ae0a-b0d1-ee11-9079-000d3a3b9c87}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_enrolleeemploymenttype" displayName="Enrollee Employment Type" parentSchemaName="govcdm_trainingcourseenrollee" parentDisplayName="Training Course Enrollee" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Training Course Enrollee" id="{113abd40-7c7e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_enrolleeemploymenttype" displayName="Enrollee Employment Type" parentSchemaName="govcdm_trainingcourseenrollee" parentDisplayName="Training Course Enrollee" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Portal Course Enrollment - Student Info" parentDisplayName="Training Course Enrollee" id="{3f43ccb2-abd1-ee11-9079-000d3a3b9c87}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_enrolleeorganizationunit" displayName="Enrollee Organization Unit" parentSchemaName="govcdm_trainingcourseenrollee" parentDisplayName="Training Course Enrollee" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Training Course Enrollee" id="{113abd40-7c7e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_enrolleepaygrade" displayName="Enrollee Paygrade" parentSchemaName="govcdm_trainingcourseenrollee" parentDisplayName="Training Course Enrollee" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Training Course Enrollee" id="{113abd40-7c7e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_enrollmentclosedate" displayName="Enrollment Close Date" parentSchemaName="govcdm_trainingclass" parentDisplayName="Training Class" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="26" schemaName="Training Classes" displayName="Training Classes" parentSchemaName="govcdm_trainingclass" parentDisplayName="Training Class" id="{68f50065-777e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_enrollmentclosedate" displayName="Enrollment Close Date" parentSchemaName="govcdm_trainingclass" parentDisplayName="Training Class" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Training Class" id="{2dbcfb5a-667e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_enrollmentclosedate" displayName="Enrollment Close Date" parentSchemaName="govcdm_trainingclass" parentDisplayName="Training Class" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Training Class" id="{f41048e3-747e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_enrollmentopendate" displayName="Enrollment Open Date" parentSchemaName="govcdm_trainingclass" parentDisplayName="Training Class" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="26" schemaName="Training Classes" displayName="Training Classes" parentSchemaName="govcdm_trainingclass" parentDisplayName="Training Class" id="{68f50065-777e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_enrollmentopendate" displayName="Enrollment Open Date" parentSchemaName="govcdm_trainingclass" parentDisplayName="Training Class" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Training Class" id="{2dbcfb5a-667e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_enrollmentopendate" displayName="Enrollment Open Date" parentSchemaName="govcdm_trainingclass" parentDisplayName="Training Class" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Training Class" id="{f41048e3-747e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_enrollmentstatus" displayName="Enrollment Status" parentSchemaName="govcdm_trainingcourseenrollee" parentDisplayName="Training Course Enrollee" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="26" schemaName="New Applicants" displayName="New Applicants" parentSchemaName="govcdm_trainingcourseenrollee" parentDisplayName="Training Course Enrollee" id="{95175b9f-95f2-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_enrollmentstatus" displayName="Enrollment Status" parentSchemaName="govcdm_trainingcourseenrollee" parentDisplayName="Training Course Enrollee" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="26" schemaName="Training Course Enrollees" displayName="Training Course Enrollees" parentSchemaName="govcdm_trainingcourseenrollee" parentDisplayName="Training Course Enrollee" id="{fbfa2bba-777e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_enrollmentstatus" displayName="Enrollment Status" parentSchemaName="govcdm_trainingcourseenrollee" parentDisplayName="Training Course Enrollee" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Training Course Enrollee" id="{113abd40-7c7e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_firstname" displayName="First Name" parentSchemaName="govcdm_trainingcourseenrollee" parentDisplayName="Training Course Enrollee" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="26" schemaName="New Applicants" displayName="New Applicants" parentSchemaName="govcdm_trainingcourseenrollee" parentDisplayName="Training Course Enrollee" id="{95175b9f-95f2-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_firstname" displayName="First Name" parentSchemaName="govcdm_trainingcourseenrollee" parentDisplayName="Training Course Enrollee" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="26" schemaName="Training Course Enrollees" displayName="Training Course Enrollees" parentSchemaName="govcdm_trainingcourseenrollee" parentDisplayName="Training Course Enrollee" id="{fbfa2bba-777e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_firstname" displayName="First Name" parentSchemaName="govcdm_trainingcourseenrollee" parentDisplayName="Training Course Enrollee" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Training Course Enrollee" id="{113abd40-7c7e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_firstname" displayName="First Name" parentSchemaName="govcdm_trainingcourseenrollee" parentDisplayName="Training Course Enrollee" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Portal Course Enrollment - Student Info" parentDisplayName="Training Course Enrollee" id="{3f43ccb2-abd1-ee11-9079-000d3a3b9c87}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_homephone" displayName="Home Phone" parentSchemaName="govcdm_trainingcourseenrollee" parentDisplayName="Training Course Enrollee" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="26" schemaName="New Applicants" displayName="New Applicants" parentSchemaName="govcdm_trainingcourseenrollee" parentDisplayName="Training Course Enrollee" id="{95175b9f-95f2-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_homephone" displayName="Home Phone" parentSchemaName="govcdm_trainingcourseenrollee" parentDisplayName="Training Course Enrollee" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="26" schemaName="Training Course Enrollees" displayName="Training Course Enrollees" parentSchemaName="govcdm_trainingcourseenrollee" parentDisplayName="Training Course Enrollee" id="{fbfa2bba-777e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_homephone" displayName="Home Phone" parentSchemaName="govcdm_trainingcourseenrollee" parentDisplayName="Training Course Enrollee" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Training Course Enrollee" id="{113abd40-7c7e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_homephone" displayName="Home Phone" parentSchemaName="govcdm_trainingcourseenrollee" parentDisplayName="Training Course Enrollee" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Portal Course Enrollment - Student Info" parentDisplayName="Training Course Enrollee" id="{3f43ccb2-abd1-ee11-9079-000d3a3b9c87}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_hours" displayName="Hours" parentSchemaName="govcdm_trainingclass" parentDisplayName="Training Class" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="26" schemaName="Training Class Lookup" displayName="Training Class Lookup" parentSchemaName="govcdm_trainingclass" parentDisplayName="Training Class" id="{8d2cada4-47ed-ee11-a1fe-000d3a5d06a6}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_hours" displayName="Hours" parentSchemaName="govcdm_trainingclass" parentDisplayName="Training Class" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Training Class" id="{f41048e3-747e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_identificationnumber" displayName="Identification Number" parentSchemaName="govcdm_trainingcourseenrollee" parentDisplayName="Training Course Enrollee" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Training Course Enrollee" id="{113abd40-7c7e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_identificationnumber" displayName="Identification Number" parentSchemaName="govcdm_trainingcourseenrollee" parentDisplayName="Training Course Enrollee" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Portal Course Enrollment - Student Info" parentDisplayName="Training Course Enrollee" id="{3f43ccb2-abd1-ee11-9079-000d3a3b9c87}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_instructor" displayName="Instructor" parentSchemaName="govcdm_trainingclass" parentDisplayName="Training Class" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="26" schemaName="Training Classes" displayName="Training Classes" parentSchemaName="govcdm_trainingclass" parentDisplayName="Training Class" id="{68f50065-777e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_instructor" displayName="Instructor" parentSchemaName="govcdm_trainingclass" parentDisplayName="Training Class" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Training Class" id="{2dbcfb5a-667e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_instructor" displayName="Instructor" parentSchemaName="govcdm_trainingclass" parentDisplayName="Training Class" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Training Class" id="{f41048e3-747e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_issuerequirements" displayName="Issue Requirements" parentSchemaName="govcdm_trainingcertificate" parentDisplayName="Training Certificate" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Training Certificate" id="{813953a9-757e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_issuingbody" displayName="Issuing Body" parentSchemaName="govcdm_trainingcertificate" parentDisplayName="Training Certificate" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Training Certificate" id="{813953a9-757e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_keyperformanceindicators" displayName="Key Performance Indicators" parentSchemaName="govcdm_trainingobjective" parentDisplayName="Training Objective" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="26" schemaName="Training Objectives" displayName="Training Objectives" parentSchemaName="govcdm_trainingobjective" parentDisplayName="Training Objective" id="{c2f50dd8-777e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_keyperformanceindicators" displayName="Key Performance Indicators" parentSchemaName="govcdm_trainingobjective" parentDisplayName="Training Objective" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Training Objective" id="{0d5abf7c-7c7e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_knowlegelevel" displayName="Knowlege Level" parentSchemaName="govcdm_trainingcourse" parentDisplayName="Training Course" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="26" schemaName="Training Courses" displayName="Training Courses" parentSchemaName="govcdm_trainingcourse" parentDisplayName="Training Course" id="{072975a1-777e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_knowlegelevel" displayName="Knowlege Level" parentSchemaName="govcdm_trainingcourse" parentDisplayName="Training Course" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="26" schemaName="Training Course Lookup" displayName="Training Course Lookup" parentSchemaName="govcdm_trainingcourse" parentDisplayName="Training Course" id="{ed41c396-45ed-ee11-a1fe-000d3a5d06a6}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_knowlegelevel" displayName="Knowlege Level" parentSchemaName="govcdm_trainingcourse" parentDisplayName="Training Course" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Training Course" id="{16cf4e0e-7c7e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_knowlegelevel" displayName="Knowlege Level" parentSchemaName="govcdm_trainingcourse" parentDisplayName="Training Course" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Training Course" id="{bf239800-da7d-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_lastname" displayName="Last Name" parentSchemaName="govcdm_trainingcourseenrollee" parentDisplayName="Training Course Enrollee" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="26" schemaName="New Applicants" displayName="New Applicants" parentSchemaName="govcdm_trainingcourseenrollee" parentDisplayName="Training Course Enrollee" id="{95175b9f-95f2-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_lastname" displayName="Last Name" parentSchemaName="govcdm_trainingcourseenrollee" parentDisplayName="Training Course Enrollee" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="26" schemaName="Training Course Enrollees" displayName="Training Course Enrollees" parentSchemaName="govcdm_trainingcourseenrollee" parentDisplayName="Training Course Enrollee" id="{fbfa2bba-777e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_lastname" displayName="Last Name" parentSchemaName="govcdm_trainingcourseenrollee" parentDisplayName="Training Course Enrollee" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Training Course Enrollee" id="{113abd40-7c7e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_lastname" displayName="Last Name" parentSchemaName="govcdm_trainingcourseenrollee" parentDisplayName="Training Course Enrollee" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Portal Course Enrollment - Student Info" parentDisplayName="Training Course Enrollee" id="{3f43ccb2-abd1-ee11-9079-000d3a3b9c87}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_learningobjectives" displayName="Learning Objectives" parentSchemaName="govcdm_trainingcourse" parentDisplayName="Training Course" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Training Course" id="{bf239800-da7d-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_location" displayName="Location" parentSchemaName="govcdm_trainingclass" parentDisplayName="Training Class" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="26" schemaName="Training Classes" displayName="Training Classes" parentSchemaName="govcdm_trainingclass" parentDisplayName="Training Class" id="{68f50065-777e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_location" displayName="Location" parentSchemaName="govcdm_trainingclass" parentDisplayName="Training Class" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="26" schemaName="Training Class Lookup" displayName="Training Class Lookup" parentSchemaName="govcdm_trainingclass" parentDisplayName="Training Class" id="{8d2cada4-47ed-ee11-a1fe-000d3a5d06a6}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_location" displayName="Location" parentSchemaName="govcdm_trainingclass" parentDisplayName="Training Class" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Training Class" id="{2dbcfb5a-667e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_location" displayName="Location" parentSchemaName="govcdm_trainingclass" parentDisplayName="Training Class" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Training Class" id="{f41048e3-747e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_materialsneeded" displayName="Materials Needed" parentSchemaName="govcdm_trainingcourse" parentDisplayName="Training Course" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Training Course" id="{bf239800-da7d-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_maxcapacity" displayName="Max Capacity" parentSchemaName="govcdm_trainingclass" parentDisplayName="Training Class" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="26" schemaName="Training Classes" displayName="Training Classes" parentSchemaName="govcdm_trainingclass" parentDisplayName="Training Class" id="{68f50065-777e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_maxcapacity" displayName="Max Capacity" parentSchemaName="govcdm_trainingclass" parentDisplayName="Training Class" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="26" schemaName="Training Class Lookup" displayName="Training Class Lookup" parentSchemaName="govcdm_trainingclass" parentDisplayName="Training Class" id="{8d2cada4-47ed-ee11-a1fe-000d3a5d06a6}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_maxcapacity" displayName="Max Capacity" parentSchemaName="govcdm_trainingclass" parentDisplayName="Training Class" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Training Class" id="{2dbcfb5a-667e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_maxcapacity" displayName="Max Capacity" parentSchemaName="govcdm_trainingclass" parentDisplayName="Training Class" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Training Class" id="{f41048e3-747e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_middlename" displayName="Middle Name" parentSchemaName="govcdm_trainingcourseenrollee" parentDisplayName="Training Course Enrollee" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Training Course Enrollee" id="{113abd40-7c7e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_middlename" displayName="Middle Name" parentSchemaName="govcdm_trainingcourseenrollee" parentDisplayName="Training Course Enrollee" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Portal Course Enrollment - Student Info" parentDisplayName="Training Course Enrollee" id="{3f43ccb2-abd1-ee11-9079-000d3a3b9c87}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_mincapacity" displayName="Min Capacity" parentSchemaName="govcdm_trainingclass" parentDisplayName="Training Class" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="26" schemaName="Training Classes" displayName="Training Classes" parentSchemaName="govcdm_trainingclass" parentDisplayName="Training Class" id="{68f50065-777e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_mincapacity" displayName="Min Capacity" parentSchemaName="govcdm_trainingclass" parentDisplayName="Training Class" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Training Class" id="{2dbcfb5a-667e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_mincapacity" displayName="Min Capacity" parentSchemaName="govcdm_trainingclass" parentDisplayName="Training Class" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Training Class" id="{f41048e3-747e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_mobilephone" displayName="Mobile Phone" parentSchemaName="govcdm_trainingcourseenrollee" parentDisplayName="Training Course Enrollee" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="26" schemaName="New Applicants" displayName="New Applicants" parentSchemaName="govcdm_trainingcourseenrollee" parentDisplayName="Training Course Enrollee" id="{95175b9f-95f2-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_mobilephone" displayName="Mobile Phone" parentSchemaName="govcdm_trainingcourseenrollee" parentDisplayName="Training Course Enrollee" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="26" schemaName="Training Course Enrollees" displayName="Training Course Enrollees" parentSchemaName="govcdm_trainingcourseenrollee" parentDisplayName="Training Course Enrollee" id="{fbfa2bba-777e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_mobilephone" displayName="Mobile Phone" parentSchemaName="govcdm_trainingcourseenrollee" parentDisplayName="Training Course Enrollee" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Training Course Enrollee" id="{113abd40-7c7e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_mobilephone" displayName="Mobile Phone" parentSchemaName="govcdm_trainingcourseenrollee" parentDisplayName="Training Course Enrollee" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Portal Course Enrollment - Student Info" parentDisplayName="Training Course Enrollee" id="{3f43ccb2-abd1-ee11-9079-000d3a3b9c87}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_trainingachievement" parentDisplayName="Training Achievement" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="26" schemaName="Training Achievements" displayName="Training Achievements" parentSchemaName="govcdm_trainingachievement" parentDisplayName="Training Achievement" id="{3837e78d-7a7e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_trainingachievement" parentDisplayName="Training Achievement" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Training Achievement" id="{822c0759-7a7e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_trainingachievement" parentDisplayName="Training Achievement" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Training Achievement Quick Create" parentDisplayName="Training Achievement" id="{df21f479-7a7e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_trainingcertificate" parentDisplayName="Training Certificate" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="26" schemaName="Training Certificates" displayName="Training Certificates" parentSchemaName="govcdm_trainingcertificate" parentDisplayName="Training Certificate" id="{fd6108fc-767e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_trainingcertificate" parentDisplayName="Training Certificate" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Training Certificate Quick Create" parentDisplayName="Training Certificate" id="{5012c224-667e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_trainingcertificate" parentDisplayName="Training Certificate" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Training Certificate" id="{813953a9-757e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Class Number" parentSchemaName="govcdm_trainingclass" parentDisplayName="Training Class" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="26" schemaName="Training Classes" displayName="Training Classes" parentSchemaName="govcdm_trainingclass" parentDisplayName="Training Class" id="{68f50065-777e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Class Number" parentSchemaName="govcdm_trainingclass" parentDisplayName="Training Class" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="26" schemaName="Training Class Lookup" displayName="Training Class Lookup" parentSchemaName="govcdm_trainingclass" parentDisplayName="Training Class" id="{8d2cada4-47ed-ee11-a1fe-000d3a5d06a6}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Class Number" parentSchemaName="govcdm_trainingclass" parentDisplayName="Training Class" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Training Class" id="{2dbcfb5a-667e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Class Number" parentSchemaName="govcdm_trainingclass" parentDisplayName="Training Class" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Training Class" id="{f41048e3-747e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_trainingclassattendance" parentDisplayName="Training Class Attendance" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="26" schemaName="Training Class Attendances" displayName="Training Class Attendances" parentSchemaName="govcdm_trainingclassattendance" parentDisplayName="Training Class Attendance" id="{2798227e-777e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_trainingclassattendance" parentDisplayName="Training Class Attendance" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Training Class Attendance Quick Create" parentDisplayName="Training Class Attendance" id="{00a4add3-7b7e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_trainingclassattendance" parentDisplayName="Training Class Attendance" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Training Class Attendance" id="{7edbabae-7b7e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Course Number" parentSchemaName="govcdm_trainingcourse" parentDisplayName="Training Course" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="2" schemaName="govcdm_name" displayName="Course Number" parentSchemaName="govcdm_trainingcourse" parentDisplayName="Training Course" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_trainingcoursecertificate" parentDisplayName="Training Course Certificate" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Training Course Certificate" id="{f428fd6e-f8c9-ee11-9079-000d3a3b9c87}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_trainingcourseenrollee" parentDisplayName="Training Course Enrollee" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="26" schemaName="Training Course Enrollees" displayName="Training Course Enrollees" parentSchemaName="govcdm_trainingcourseenrollee" parentDisplayName="Training Course Enrollee" id="{fbfa2bba-777e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_trainingcourseenrollee" parentDisplayName="Training Course Enrollee" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Training Course Enrollee" id="{113abd40-7c7e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_trainingcourseenrollee" parentDisplayName="Training Course Enrollee" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Training Course Enrollee Quick Create" parentDisplayName="Training Course Enrollee" id="{23556c8e-667e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_trainingcourseenrollee" parentDisplayName="Training Course Enrollee" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Portal Course Enrollment - Student Info" parentDisplayName="Training Course Enrollee" id="{3f43ccb2-abd1-ee11-9079-000d3a3b9c87}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_trainingcourseenrollee" parentDisplayName="Training Course Enrollee" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Portal Course Enrollment - Class Info" parentDisplayName="Training Course Enrollee" id="{9256ae0a-b0d1-ee11-9079-000d3a3b9c87}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_trainingcourserequirement" parentDisplayName="Training Course Requirement" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="26" schemaName="Training Course Requirements" displayName="Training Course Requirements" parentSchemaName="govcdm_trainingcourserequirement" parentDisplayName="Training Course Requirement" id="{0c75dfd8-3adb-ee11-904d-000d3a3b9c87}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_trainingcourserequirement" parentDisplayName="Training Course Requirement" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="26" schemaName="Associated View" displayName="Associated View" parentSchemaName="govcdm_trainingcourserequirement" parentDisplayName="Training Course Requirement" id="{414b39f6-3adb-ee11-904d-000d3a3b9c87}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_trainingcourserequirement" parentDisplayName="Training Course Requirement" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Training Course Requirement" id="{fe637af8-3edb-ee11-904d-000d3a3b9c87}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_traininginstructor" parentDisplayName="Training Instructor" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="26" schemaName="Training Instructors" displayName="Training Instructors" parentSchemaName="govcdm_traininginstructor" parentDisplayName="Training Instructor" id="{b2752572-7b7e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_traininginstructor" parentDisplayName="Training Instructor" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Training Instructor" id="{a7633903-7b7e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_traininginstructor" parentDisplayName="Training Instructor" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Training Instructor Quick Create" parentDisplayName="Training Instructor" id="{ed42b75d-7b7e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_trainingobjective" parentDisplayName="Training Objective" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="26" schemaName="Training Objectives" displayName="Training Objectives" parentSchemaName="govcdm_trainingobjective" parentDisplayName="Training Objective" id="{c2f50dd8-777e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_trainingobjective" parentDisplayName="Training Objective" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Training Objective" id="{0d5abf7c-7c7e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_trainingobjective" parentDisplayName="Training Objective" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Training Objective Quick Create" parentDisplayName="Training Objective" id="{131a1a71-7c7e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_person" displayName="Person" parentSchemaName="govcdm_trainingachievement" parentDisplayName="Training Achievement" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="26" schemaName="Training Achievements" displayName="Training Achievements" parentSchemaName="govcdm_trainingachievement" parentDisplayName="Training Achievement" id="{3837e78d-7a7e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_person" displayName="Person" parentSchemaName="govcdm_trainingachievement" parentDisplayName="Training Achievement" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Training Achievement Quick Create" parentDisplayName="Training Achievement" id="{df21f479-7a7e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_person" displayName="Person" parentSchemaName="govcdm_trainingclassattendance" parentDisplayName="Training Class Attendance" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="26" schemaName="Training Class Attendances" displayName="Training Class Attendances" parentSchemaName="govcdm_trainingclassattendance" parentDisplayName="Training Class Attendance" id="{2798227e-777e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_person" displayName="Person" parentSchemaName="govcdm_trainingclassattendance" parentDisplayName="Training Class Attendance" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Training Class Attendance Quick Create" parentDisplayName="Training Class Attendance" id="{00a4add3-7b7e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_person" displayName="Person" parentSchemaName="govcdm_trainingclassattendance" parentDisplayName="Training Class Attendance" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Training Class Attendance" id="{7edbabae-7b7e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_person" displayName="Person" parentSchemaName="govcdm_trainingcourseenrollee" parentDisplayName="Training Course Enrollee" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Training Course Enrollee" id="{113abd40-7c7e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_person" displayName="Person" parentSchemaName="govcdm_trainingcourseenrollee" parentDisplayName="Training Course Enrollee" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Training Course Enrollee Quick Create" parentDisplayName="Training Course Enrollee" id="{23556c8e-667e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_person" displayName="Person" parentSchemaName="govcdm_trainingcourseenrollee" parentDisplayName="Training Course Enrollee" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Portal Course Enrollment - Student Info" parentDisplayName="Training Course Enrollee" id="{3f43ccb2-abd1-ee11-9079-000d3a3b9c87}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_person" displayName="Person" parentSchemaName="govcdm_trainingcourseenrollee" parentDisplayName="Training Course Enrollee" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Portal Course Enrollment - Class Info" parentDisplayName="Training Course Enrollee" id="{9256ae0a-b0d1-ee11-9079-000d3a3b9c87}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_person" displayName="Person" parentSchemaName="govcdm_traininginstructor" parentDisplayName="Training Instructor" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="26" schemaName="Training Instructors" displayName="Training Instructors" parentSchemaName="govcdm_traininginstructor" parentDisplayName="Training Instructor" id="{b2752572-7b7e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_person" displayName="Person" parentSchemaName="govcdm_traininginstructor" parentDisplayName="Training Instructor" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Training Instructor" id="{a7633903-7b7e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_person" displayName="Person" parentSchemaName="govcdm_traininginstructor" parentDisplayName="Training Instructor" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Training Instructor Quick Create" parentDisplayName="Training Instructor" id="{ed42b75d-7b7e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_prerequisites" displayName="Prerequisites " parentSchemaName="govcdm_trainingcourse" parentDisplayName="Training Course" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Training Course" id="{bf239800-da7d-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_primarytrainingobjective" displayName="Primary Training Objective" parentSchemaName="govcdm_trainingcourse" parentDisplayName="Training Course" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="26" schemaName="Training Courses" displayName="Training Courses" parentSchemaName="govcdm_trainingcourse" parentDisplayName="Training Course" id="{072975a1-777e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_primarytrainingobjective" displayName="Primary Training Objective" parentSchemaName="govcdm_trainingcourse" parentDisplayName="Training Course" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Training Course" id="{16cf4e0e-7c7e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_primarytrainingobjective" displayName="Primary Training Objective" parentSchemaName="govcdm_trainingcourse" parentDisplayName="Training Course" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Training Course" id="{bf239800-da7d-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_renewalrequirements" displayName="Renewal Requirements" parentSchemaName="govcdm_trainingcertificate" parentDisplayName="Training Certificate" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Training Certificate" id="{813953a9-757e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_requirescertificate" displayName="Requires Certificate" parentSchemaName="govcdm_trainingcourserequirement" parentDisplayName="Training Course Requirement" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="26" schemaName="Training Course Requirements" displayName="Training Course Requirements" parentSchemaName="govcdm_trainingcourserequirement" parentDisplayName="Training Course Requirement" id="{0c75dfd8-3adb-ee11-904d-000d3a3b9c87}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_requirescertificate" displayName="Requires Certificate" parentSchemaName="govcdm_trainingcourserequirement" parentDisplayName="Training Course Requirement" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="26" schemaName="Associated View" displayName="Associated View" parentSchemaName="govcdm_trainingcourserequirement" parentDisplayName="Training Course Requirement" id="{414b39f6-3adb-ee11-904d-000d3a3b9c87}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_requirescertificate" displayName="Requires Certificate" parentSchemaName="govcdm_trainingcourserequirement" parentDisplayName="Training Course Requirement" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Training Course Requirement" id="{3b31be54-3adb-ee11-904d-000d3a3b9c87}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_requirescertificate" displayName="Requires Certificate" parentSchemaName="govcdm_trainingcourserequirement" parentDisplayName="Training Course Requirement" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Training Course Requirement" id="{fe637af8-3edb-ee11-904d-000d3a3b9c87}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_requirescourse" displayName="Requires Course" parentSchemaName="govcdm_trainingcourserequirement" parentDisplayName="Training Course Requirement" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="26" schemaName="Training Course Requirements" displayName="Training Course Requirements" parentSchemaName="govcdm_trainingcourserequirement" parentDisplayName="Training Course Requirement" id="{0c75dfd8-3adb-ee11-904d-000d3a3b9c87}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_requirescourse" displayName="Requires Course" parentSchemaName="govcdm_trainingcourserequirement" parentDisplayName="Training Course Requirement" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="26" schemaName="Associated View" displayName="Associated View" parentSchemaName="govcdm_trainingcourserequirement" parentDisplayName="Training Course Requirement" id="{414b39f6-3adb-ee11-904d-000d3a3b9c87}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_requirescourse" displayName="Requires Course" parentSchemaName="govcdm_trainingcourserequirement" parentDisplayName="Training Course Requirement" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Training Course Requirement" id="{3b31be54-3adb-ee11-904d-000d3a3b9c87}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_requirescourse" displayName="Requires Course" parentSchemaName="govcdm_trainingcourserequirement" parentDisplayName="Training Course Requirement" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Training Course Requirement" id="{fe637af8-3edb-ee11-904d-000d3a3b9c87}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_requiresother" displayName="Requires Other" parentSchemaName="govcdm_trainingcourserequirement" parentDisplayName="Training Course Requirement" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="26" schemaName="Training Course Requirements" displayName="Training Course Requirements" parentSchemaName="govcdm_trainingcourserequirement" parentDisplayName="Training Course Requirement" id="{0c75dfd8-3adb-ee11-904d-000d3a3b9c87}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_requiresother" displayName="Requires Other" parentSchemaName="govcdm_trainingcourserequirement" parentDisplayName="Training Course Requirement" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="26" schemaName="Associated View" displayName="Associated View" parentSchemaName="govcdm_trainingcourserequirement" parentDisplayName="Training Course Requirement" id="{414b39f6-3adb-ee11-904d-000d3a3b9c87}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_requiresother" displayName="Requires Other" parentSchemaName="govcdm_trainingcourserequirement" parentDisplayName="Training Course Requirement" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Training Course Requirement" id="{3b31be54-3adb-ee11-904d-000d3a3b9c87}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_requiresother" displayName="Requires Other" parentSchemaName="govcdm_trainingcourserequirement" parentDisplayName="Training Course Requirement" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Training Course Requirement" id="{fe637af8-3edb-ee11-904d-000d3a3b9c87}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_roomnumber" displayName="Room Number" parentSchemaName="govcdm_trainingclass" parentDisplayName="Training Class" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Training Class" id="{f41048e3-747e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_startdate" displayName="Start Date" parentSchemaName="govcdm_trainingclass" parentDisplayName="Training Class" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="26" schemaName="Training Classes" displayName="Training Classes" parentSchemaName="govcdm_trainingclass" parentDisplayName="Training Class" id="{68f50065-777e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_startdate" displayName="Start Date" parentSchemaName="govcdm_trainingclass" parentDisplayName="Training Class" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="26" schemaName="Training Class Lookup" displayName="Training Class Lookup" parentSchemaName="govcdm_trainingclass" parentDisplayName="Training Class" id="{8d2cada4-47ed-ee11-a1fe-000d3a5d06a6}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_startdate" displayName="Start Date" parentSchemaName="govcdm_trainingclass" parentDisplayName="Training Class" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Training Class" id="{2dbcfb5a-667e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_startdate" displayName="Start Date" parentSchemaName="govcdm_trainingclass" parentDisplayName="Training Class" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Training Class" id="{f41048e3-747e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_syllabus" displayName="Syllabus" parentSchemaName="govcdm_trainingcourse" parentDisplayName="Training Course" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Training Course" id="{bf239800-da7d-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_targetcompletiondate" displayName="Target Completion Date" parentSchemaName="govcdm_trainingobjective" parentDisplayName="Training Objective" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="26" schemaName="Training Objectives" displayName="Training Objectives" parentSchemaName="govcdm_trainingobjective" parentDisplayName="Training Objective" id="{c2f50dd8-777e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_targetcompletiondate" displayName="Target Completion Date" parentSchemaName="govcdm_trainingobjective" parentDisplayName="Training Objective" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Training Objective" id="{0d5abf7c-7c7e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_title" displayName="Title" parentSchemaName="govcdm_trainingclass" parentDisplayName="Training Class" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="26" schemaName="Training Classes" displayName="Training Classes" parentSchemaName="govcdm_trainingclass" parentDisplayName="Training Class" id="{68f50065-777e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_title" displayName="Title" parentSchemaName="govcdm_trainingclass" parentDisplayName="Training Class" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="26" schemaName="Training Class Lookup" displayName="Training Class Lookup" parentSchemaName="govcdm_trainingclass" parentDisplayName="Training Class" id="{8d2cada4-47ed-ee11-a1fe-000d3a5d06a6}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_title" displayName="Title" parentSchemaName="govcdm_trainingclass" parentDisplayName="Training Class" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Training Class" id="{2dbcfb5a-667e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_title" displayName="Title" parentSchemaName="govcdm_trainingclass" parentDisplayName="Training Class" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Training Class" id="{f41048e3-747e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_title" displayName="Title" parentSchemaName="govcdm_trainingcourse" parentDisplayName="Training Course" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="2" schemaName="govcdm_title" displayName="Title" parentSchemaName="govcdm_trainingcourse" parentDisplayName="Training Course" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_totalenrolled" displayName="Total Enrolled" parentSchemaName="govcdm_trainingclass" parentDisplayName="Training Class" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="26" schemaName="Training Classes" displayName="Training Classes" parentSchemaName="govcdm_trainingclass" parentDisplayName="Training Class" id="{68f50065-777e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_totalenrolled" displayName="Total Enrolled" parentSchemaName="govcdm_trainingclass" parentDisplayName="Training Class" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="26" schemaName="Training Class Lookup" displayName="Training Class Lookup" parentSchemaName="govcdm_trainingclass" parentDisplayName="Training Class" id="{8d2cada4-47ed-ee11-a1fe-000d3a5d06a6}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_totalenrolled" displayName="Total Enrolled" parentSchemaName="govcdm_trainingclass" parentDisplayName="Training Class" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Training Class" id="{f41048e3-747e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_trainingachievementid" displayName="Training Achievement" parentSchemaName="govcdm_trainingachievement" parentDisplayName="Training Achievement" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="26" schemaName="Training Achievements" displayName="Training Achievements" parentSchemaName="govcdm_trainingachievement" parentDisplayName="Training Achievement" id="{3837e78d-7a7e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_trainingcertificate" displayName="Training Certificate" parentSchemaName="govcdm_trainingachievement" parentDisplayName="Training Achievement" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="26" schemaName="Training Achievements" displayName="Training Achievements" parentSchemaName="govcdm_trainingachievement" parentDisplayName="Training Achievement" id="{3837e78d-7a7e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_trainingcertificate" displayName="Training Certificate" parentSchemaName="govcdm_trainingachievement" parentDisplayName="Training Achievement" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Training Achievement Quick Create" parentDisplayName="Training Achievement" id="{df21f479-7a7e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_trainingcertificate" displayName="Training Certificate" parentSchemaName="govcdm_trainingcoursecertificate" parentDisplayName="Training Course Certificate" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="26" schemaName="Counts Towards" displayName="Counts Towards" parentSchemaName="govcdm_trainingcoursecertificate" parentDisplayName="Training Course Certificate" id="{51a666a2-f9c9-ee11-9079-000d3a3b9c87}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_trainingcertificate" displayName="Training Certificate" parentSchemaName="govcdm_trainingcoursecertificate" parentDisplayName="Training Course Certificate" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Training Course Certificate Quick Create" parentDisplayName="Training Course Certificate" id="{436f5d92-f8c9-ee11-9079-000d3a3b9c87}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_trainingcertificate" displayName="Training Certificate" parentSchemaName="govcdm_trainingcoursecertificate" parentDisplayName="Training Course Certificate" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Training Course Certificate" id="{f428fd6e-f8c9-ee11-9079-000d3a3b9c87}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_trainingcertificateid" displayName="Training Certificate" parentSchemaName="govcdm_trainingcertificate" parentDisplayName="Training Certificate" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="26" schemaName="Training Certificates" displayName="Training Certificates" parentSchemaName="govcdm_trainingcertificate" parentDisplayName="Training Certificate" id="{fd6108fc-767e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_trainingclass" displayName="Training Class" parentSchemaName="govcdm_trainingclassattendance" parentDisplayName="Training Class Attendance" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="26" schemaName="Training Class Attendances" displayName="Training Class Attendances" parentSchemaName="govcdm_trainingclassattendance" parentDisplayName="Training Class Attendance" id="{2798227e-777e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_trainingclass" displayName="Training Class" parentSchemaName="govcdm_trainingclassattendance" parentDisplayName="Training Class Attendance" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Training Class Attendance Quick Create" parentDisplayName="Training Class Attendance" id="{00a4add3-7b7e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_trainingclass" displayName="Training Class" parentSchemaName="govcdm_trainingclassattendance" parentDisplayName="Training Class Attendance" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Training Class Attendance" id="{7edbabae-7b7e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_trainingclass" displayName="Training Class" parentSchemaName="govcdm_trainingcourseenrollee" parentDisplayName="Training Course Enrollee" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="26" schemaName="New Applicants" displayName="New Applicants" parentSchemaName="govcdm_trainingcourseenrollee" parentDisplayName="Training Course Enrollee" id="{95175b9f-95f2-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_trainingclass" displayName="Training Class" parentSchemaName="govcdm_trainingcourseenrollee" parentDisplayName="Training Course Enrollee" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="26" schemaName="Training Course Enrollees" displayName="Training Course Enrollees" parentSchemaName="govcdm_trainingcourseenrollee" parentDisplayName="Training Course Enrollee" id="{fbfa2bba-777e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_trainingclass" displayName="Training Class" parentSchemaName="govcdm_trainingcourseenrollee" parentDisplayName="Training Course Enrollee" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Training Course Enrollee" id="{113abd40-7c7e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_trainingclass" displayName="Training Class" parentSchemaName="govcdm_trainingcourseenrollee" parentDisplayName="Training Course Enrollee" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Portal Course Enrollment - Student Info" parentDisplayName="Training Course Enrollee" id="{3f43ccb2-abd1-ee11-9079-000d3a3b9c87}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_trainingclass" displayName="Training Class" parentSchemaName="govcdm_trainingcourseenrollee" parentDisplayName="Training Course Enrollee" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Portal Course Enrollment - Class Info" parentDisplayName="Training Course Enrollee" id="{9256ae0a-b0d1-ee11-9079-000d3a3b9c87}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_trainingclassattendanceid" displayName="Training Class Attendance" parentSchemaName="govcdm_trainingclassattendance" parentDisplayName="Training Class Attendance" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="26" schemaName="Training Class Attendances" displayName="Training Class Attendances" parentSchemaName="govcdm_trainingclassattendance" parentDisplayName="Training Class Attendance" id="{2798227e-777e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_trainingclassid" displayName="Training Class" parentSchemaName="govcdm_trainingclass" parentDisplayName="Training Class" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="26" schemaName="Training Classes" displayName="Training Classes" parentSchemaName="govcdm_trainingclass" parentDisplayName="Training Class" id="{68f50065-777e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_trainingclassid" displayName="Training Class" parentSchemaName="govcdm_trainingclass" parentDisplayName="Training Class" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="26" schemaName="Training Class Lookup" displayName="Training Class Lookup" parentSchemaName="govcdm_trainingclass" parentDisplayName="Training Class" id="{8d2cada4-47ed-ee11-a1fe-000d3a5d06a6}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_trainingcourse" displayName="Training Course" parentSchemaName="govcdm_trainingcertificate" parentDisplayName="Training Certificate" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Training Certificate" id="{813953a9-757e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_trainingcourse" displayName="Training Course" parentSchemaName="govcdm_trainingclass" parentDisplayName="Training Class" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Training Class" id="{2dbcfb5a-667e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_trainingcourse" displayName="Training Course" parentSchemaName="govcdm_trainingclass" parentDisplayName="Training Class" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Training Class" id="{f41048e3-747e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_trainingcourse" displayName="Training Course" parentSchemaName="govcdm_trainingcoursecertificate" parentDisplayName="Training Course Certificate" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="26" schemaName="Required Courses" displayName="Required Courses" parentSchemaName="govcdm_trainingcoursecertificate" parentDisplayName="Training Course Certificate" id="{a0ff3e02-f9c9-ee11-9079-000d3a3b9c87}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_trainingcourse" displayName="Training Course" parentSchemaName="govcdm_trainingcoursecertificate" parentDisplayName="Training Course Certificate" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Training Course Certificate Quick Create" parentDisplayName="Training Course Certificate" id="{436f5d92-f8c9-ee11-9079-000d3a3b9c87}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_trainingcourse" displayName="Training Course" parentSchemaName="govcdm_trainingcoursecertificate" parentDisplayName="Training Course Certificate" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Training Course Certificate" id="{f428fd6e-f8c9-ee11-9079-000d3a3b9c87}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_trainingcourse" displayName="Training Course" parentSchemaName="govcdm_trainingcourseenrollee" parentDisplayName="Training Course Enrollee" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="59" schemaName="Applicants by Training Course" displayName="Applicants by Training Course" parentSchemaName="govcdm_trainingcourseenrollee" parentDisplayName="Training Course Enrollee" id="{47ddf1f8-95f2-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_trainingcourse" displayName="Training Course" parentSchemaName="govcdm_trainingcourseenrollee" parentDisplayName="Training Course Enrollee" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Training Course Enrollee" id="{113abd40-7c7e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_trainingcourse" displayName="Training Course" parentSchemaName="govcdm_trainingcourseenrollee" parentDisplayName="Training Course Enrollee" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Training Course Enrollee Quick Create" parentDisplayName="Training Course Enrollee" id="{23556c8e-667e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_trainingcourse" displayName="Training Course" parentSchemaName="govcdm_trainingcourseenrollee" parentDisplayName="Training Course Enrollee" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Portal Course Enrollment - Student Info" parentDisplayName="Training Course Enrollee" id="{3f43ccb2-abd1-ee11-9079-000d3a3b9c87}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_trainingcourse" displayName="Training Course" parentSchemaName="govcdm_trainingcourseenrollee" parentDisplayName="Training Course Enrollee" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Portal Course Enrollment - Class Info" parentDisplayName="Training Course Enrollee" id="{9256ae0a-b0d1-ee11-9079-000d3a3b9c87}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_trainingcourse" displayName="Training Course" parentSchemaName="govcdm_trainingcourserequirement" parentDisplayName="Training Course Requirement" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="26" schemaName="Training Course Requirements" displayName="Training Course Requirements" parentSchemaName="govcdm_trainingcourserequirement" parentDisplayName="Training Course Requirement" id="{0c75dfd8-3adb-ee11-904d-000d3a3b9c87}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_trainingcourse" displayName="Training Course" parentSchemaName="govcdm_trainingcourserequirement" parentDisplayName="Training Course Requirement" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Training Course Requirement" id="{3b31be54-3adb-ee11-904d-000d3a3b9c87}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_trainingcourse" displayName="Training Course" parentSchemaName="govcdm_trainingcourserequirement" parentDisplayName="Training Course Requirement" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Training Course Requirement" id="{fe637af8-3edb-ee11-904d-000d3a3b9c87}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_trainingcoursecertificateid" displayName="Training Course Certificate" parentSchemaName="govcdm_trainingcoursecertificate" parentDisplayName="Training Course Certificate" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="26" schemaName="Counts Towards" displayName="Counts Towards" parentSchemaName="govcdm_trainingcoursecertificate" parentDisplayName="Training Course Certificate" id="{51a666a2-f9c9-ee11-9079-000d3a3b9c87}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_trainingcoursecertificateid" displayName="Training Course Certificate" parentSchemaName="govcdm_trainingcoursecertificate" parentDisplayName="Training Course Certificate" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="26" schemaName="Required Courses" displayName="Required Courses" parentSchemaName="govcdm_trainingcoursecertificate" parentDisplayName="Training Course Certificate" id="{a0ff3e02-f9c9-ee11-9079-000d3a3b9c87}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_trainingcourseenrolleeid" displayName="Training Course Enrollee" parentSchemaName="govcdm_trainingcourseenrollee" parentDisplayName="Training Course Enrollee" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="26" schemaName="New Applicants" displayName="New Applicants" parentSchemaName="govcdm_trainingcourseenrollee" parentDisplayName="Training Course Enrollee" id="{95175b9f-95f2-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_trainingcourseenrolleeid" displayName="Training Course Enrollee" parentSchemaName="govcdm_trainingcourseenrollee" parentDisplayName="Training Course Enrollee" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="26" schemaName="Training Course Enrollees" displayName="Training Course Enrollees" parentSchemaName="govcdm_trainingcourseenrollee" parentDisplayName="Training Course Enrollee" id="{fbfa2bba-777e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_trainingcourseid" displayName="Training Course" parentSchemaName="govcdm_trainingcourse" parentDisplayName="Training Course" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="26" schemaName="Training Courses" displayName="Training Courses" parentSchemaName="govcdm_trainingcourse" parentDisplayName="Training Course" id="{072975a1-777e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_trainingcourseid" displayName="Training Course" parentSchemaName="govcdm_trainingcourse" parentDisplayName="Training Course" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="26" schemaName="Quick Find Active Training Courses" displayName="Quick Find Active Training Courses" parentSchemaName="govcdm_trainingcourse" parentDisplayName="Training Course" id="{5664dc68-8005-4c51-9b69-a54751363c87}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_trainingcourseid" displayName="Training Course" parentSchemaName="govcdm_trainingcourse" parentDisplayName="Training Course" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="26" schemaName="Training Course Lookup" displayName="Training Course Lookup" parentSchemaName="govcdm_trainingcourse" parentDisplayName="Training Course" id="{ed41c396-45ed-ee11-a1fe-000d3a5d06a6}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_trainingcourserequirementid" displayName="Training Course Requirement" parentSchemaName="govcdm_trainingcourserequirement" parentDisplayName="Training Course Requirement" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="26" schemaName="Training Course Requirements" displayName="Training Course Requirements" parentSchemaName="govcdm_trainingcourserequirement" parentDisplayName="Training Course Requirement" id="{0c75dfd8-3adb-ee11-904d-000d3a3b9c87}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_trainingcourserequirementid" displayName="Training Course Requirement" parentSchemaName="govcdm_trainingcourserequirement" parentDisplayName="Training Course Requirement" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="26" schemaName="Associated View" displayName="Associated View" parentSchemaName="govcdm_trainingcourserequirement" parentDisplayName="Training Course Requirement" id="{414b39f6-3adb-ee11-904d-000d3a3b9c87}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_traininginstructorid" displayName="Training Instructor" parentSchemaName="govcdm_traininginstructor" parentDisplayName="Training Instructor" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="26" schemaName="Training Instructors" displayName="Training Instructors" parentSchemaName="govcdm_traininginstructor" parentDisplayName="Training Instructor" id="{b2752572-7b7e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_trainingobjectiveid" displayName="Training Objective" parentSchemaName="govcdm_trainingobjective" parentDisplayName="Training Objective" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="26" schemaName="Training Objectives" displayName="Training Objectives" parentSchemaName="govcdm_trainingobjective" parentDisplayName="Training Objective" id="{c2f50dd8-777e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_validfor" displayName="Valid For" parentSchemaName="govcdm_trainingcertificate" parentDisplayName="Training Certificate" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Training Certificate" id="{813953a9-757e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="govcdm_trainingachievement" parentDisplayName="Training Achievement" solution="Active" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Training Achievement" id="{822c0759-7a7e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="govcdm_trainingcertificate" parentDisplayName="Training Certificate" solution="Active" />
+        <Dependent type="60" displayName="Training Certificate Quick Create" parentDisplayName="Training Certificate" id="{5012c224-667e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="govcdm_trainingcertificate" parentDisplayName="Training Certificate" solution="Active" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Training Certificate" id="{813953a9-757e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="govcdm_trainingclass" parentDisplayName="Training Class" solution="Active" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Training Class" id="{f41048e3-747e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="govcdm_trainingclassattendance" parentDisplayName="Training Class Attendance" solution="Active" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Training Class Attendance" id="{7edbabae-7b7e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="govcdm_trainingcourse" parentDisplayName="Training Course" solution="Active" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Training Course" id="{bf239800-da7d-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="govcdm_trainingcoursecertificate" parentDisplayName="Training Course Certificate" solution="Active" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Training Course Certificate" id="{f428fd6e-f8c9-ee11-9079-000d3a3b9c87}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="govcdm_trainingcourseenrollee" parentDisplayName="Training Course Enrollee" solution="Active" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Training Course Enrollee" id="{113abd40-7c7e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="govcdm_trainingcourseenrollee" parentDisplayName="Training Course Enrollee" solution="Active" />
+        <Dependent type="60" displayName="Portal Course Enrollment - Student Info" parentDisplayName="Training Course Enrollee" id="{3f43ccb2-abd1-ee11-9079-000d3a3b9c87}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="govcdm_trainingcourseenrollee" parentDisplayName="Training Course Enrollee" solution="Active" />
+        <Dependent type="60" displayName="Portal Course Enrollment - Class Info" parentDisplayName="Training Course Enrollee" id="{9256ae0a-b0d1-ee11-9079-000d3a3b9c87}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="govcdm_trainingcourserequirement" parentDisplayName="Training Course Requirement" solution="Active" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Training Course Requirement" id="{fe637af8-3edb-ee11-904d-000d3a3b9c87}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="govcdm_traininginstructor" parentDisplayName="Training Instructor" solution="Active" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Training Instructor" id="{a7633903-7b7e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="govcdm_trainingobjective" parentDisplayName="Training Objective" solution="Active" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Training Objective" id="{0d5abf7c-7c7e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="statecode" displayName="Status" parentSchemaName="govcdm_trainingachievement" parentDisplayName="Training Achievement" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="26" schemaName="Training Achievements" displayName="Training Achievements" parentSchemaName="govcdm_trainingachievement" parentDisplayName="Training Achievement" id="{3837e78d-7a7e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="statecode" displayName="Status" parentSchemaName="govcdm_trainingcertificate" parentDisplayName="Training Certificate" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="26" schemaName="Training Certificates" displayName="Training Certificates" parentSchemaName="govcdm_trainingcertificate" parentDisplayName="Training Certificate" id="{fd6108fc-767e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="statecode" displayName="Status" parentSchemaName="govcdm_trainingclass" parentDisplayName="Training Class" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="26" schemaName="Training Classes" displayName="Training Classes" parentSchemaName="govcdm_trainingclass" parentDisplayName="Training Class" id="{68f50065-777e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="statecode" displayName="Status" parentSchemaName="govcdm_trainingclassattendance" parentDisplayName="Training Class Attendance" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="26" schemaName="Training Class Attendances" displayName="Training Class Attendances" parentSchemaName="govcdm_trainingclassattendance" parentDisplayName="Training Class Attendance" id="{2798227e-777e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="statecode" displayName="Status" parentSchemaName="govcdm_trainingcourse" parentDisplayName="Training Course" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="2" schemaName="statecode" displayName="Status" parentSchemaName="govcdm_trainingcourse" parentDisplayName="Training Course" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="statecode" displayName="Status" parentSchemaName="govcdm_trainingcourseenrollee" parentDisplayName="Training Course Enrollee" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="26" schemaName="New Applicants" displayName="New Applicants" parentSchemaName="govcdm_trainingcourseenrollee" parentDisplayName="Training Course Enrollee" id="{95175b9f-95f2-ee11-904b-000d3a8cbc95}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="statecode" displayName="Status" parentSchemaName="govcdm_trainingcourseenrollee" parentDisplayName="Training Course Enrollee" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="26" schemaName="Training Course Enrollees" displayName="Training Course Enrollees" parentSchemaName="govcdm_trainingcourseenrollee" parentDisplayName="Training Course Enrollee" id="{fbfa2bba-777e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="statecode" displayName="Status" parentSchemaName="govcdm_traininginstructor" parentDisplayName="Training Instructor" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="26" schemaName="Training Instructors" displayName="Training Instructors" parentSchemaName="govcdm_traininginstructor" parentDisplayName="Training Instructor" id="{b2752572-7b7e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="statecode" displayName="Status" parentSchemaName="govcdm_trainingobjective" parentDisplayName="Training Objective" solution="govcdm_trainingandcertification (1.0.0.1)" />
+        <Dependent type="26" schemaName="Training Objectives" displayName="Training Objectives" parentSchemaName="govcdm_trainingobjective" parentDisplayName="Training Objective" id="{c2f50dd8-777e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Active Training Certificates" displayName="Active Training Certificates" parentSchemaName="govcdm_trainingcertificate" parentDisplayName="Training Certificate" solution="govcdm_trainingandcertification (1.0.0.1)" id="{ff16f0e8-2c77-4df0-a38c-5fb2e3d8f355}" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Training Course" id="{bf239800-da7d-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Active Training Class Attendances" displayName="Active Training Class Attendances" parentSchemaName="govcdm_trainingclassattendance" parentDisplayName="Training Class Attendance" solution="govcdm_trainingandcertification (1.0.0.1)" id="{43631435-6f5c-4b00-9d18-23629946c91d}" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Training Class" id="{f41048e3-747e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Active Training Classes" displayName="Active Training Classes" parentSchemaName="govcdm_trainingclass" parentDisplayName="Training Class" solution="govcdm_trainingandcertification (1.0.0.1)" id="{20ebd04e-5514-4404-bb13-e06a5cc57f03}" />
+        <Dependent type="60" displayName="Portal Course Enrollment - Student Info" parentDisplayName="Training Course Enrollee" id="{3f43ccb2-abd1-ee11-9079-000d3a3b9c87}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Active Training Classes" displayName="Active Training Classes" parentSchemaName="govcdm_trainingclass" parentDisplayName="Training Class" solution="govcdm_trainingandcertification (1.0.0.1)" id="{20ebd04e-5514-4404-bb13-e06a5cc57f03}" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Training Instructor" id="{a7633903-7b7e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Active Training Classes" displayName="Active Training Classes" parentSchemaName="govcdm_trainingclass" parentDisplayName="Training Class" solution="govcdm_trainingandcertification (1.0.0.1)" id="{20ebd04e-5514-4404-bb13-e06a5cc57f03}" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Training Course" id="{bf239800-da7d-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Active Training Course Certificates" displayName="Active Training Course Certificates" parentSchemaName="govcdm_trainingcoursecertificate" parentDisplayName="Training Course Certificate" solution="govcdm_trainingandcertification (1.0.0.1)" id="{21ca6d7d-05dc-456c-8315-34e42292cb2a}" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Training Certificate" id="{813953a9-757e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Active Training Course Certificates" displayName="Active Training Course Certificates" parentSchemaName="govcdm_trainingcoursecertificate" parentDisplayName="Training Course Certificate" solution="govcdm_trainingandcertification (1.0.0.1)" id="{21ca6d7d-05dc-456c-8315-34e42292cb2a}" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Training Course" id="{bf239800-da7d-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Active Training Course Enrollees" displayName="Active Training Course Enrollees" parentSchemaName="govcdm_trainingcourseenrollee" parentDisplayName="Training Course Enrollee" solution="govcdm_trainingandcertification (1.0.0.1)" id="{f5d44d55-6fbc-4e93-88a0-2eae07b7d463}" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Training Course" id="{bf239800-da7d-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Active Training Course Enrollees" displayName="Active Training Course Enrollees" parentSchemaName="govcdm_trainingcourseenrollee" parentDisplayName="Training Course Enrollee" solution="govcdm_trainingandcertification (1.0.0.1)" id="{f5d44d55-6fbc-4e93-88a0-2eae07b7d463}" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Training Class" id="{f41048e3-747e-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Active Training Course Requirements" displayName="Active Training Course Requirements" parentSchemaName="govcdm_trainingcourserequirement" parentDisplayName="Training Course Requirement" solution="govcdm_trainingandcertification (1.0.0.1)" id="{adad1003-7505-4d3b-8d8a-4c470a4fa4a6}" />
+        <Dependent type="60" displayName="Main" parentDisplayName="Training Course" id="{bf239800-da7d-ee11-8179-6045bd0062b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Inactive Training Classes" displayName="Inactive Training Classes" parentSchemaName="govcdm_trainingclass" parentDisplayName="Training Class" solution="govcdm_trainingandcertification (1.0.0.1)" id="{0e6c3742-01ad-420a-befb-7bcd5da69894}" />
+        <Dependent type="60" displayName="Portal Course Enrollment - Student Info" parentDisplayName="Training Course Enrollee" id="{3f43ccb2-abd1-ee11-9079-000d3a3b9c87}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Quick Find Active Training Achievements" displayName="Quick Find Active Training Achievements" parentSchemaName="govcdm_trainingachievement" parentDisplayName="Training Achievement" solution="govcdm_trainingandcertification (1.0.0.1)" id="{f41a55a1-14fe-48e1-90f0-facca5e477f0}" />
+        <Dependent type="80" schemaName="msgov_TrainingandCertification" displayName="Training and Certification" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Quick Find Active Training Certificates" displayName="Quick Find Active Training Certificates" parentSchemaName="govcdm_trainingcertificate" parentDisplayName="Training Certificate" solution="govcdm_trainingandcertification (1.0.0.1)" id="{150395ed-27e4-4868-a710-90574c605361}" />
+        <Dependent type="80" schemaName="msgov_TrainingandCertification" displayName="Training and Certification" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Quick Find Active Training Class Attendances" displayName="Quick Find Active Training Class Attendances" parentSchemaName="govcdm_trainingclassattendance" parentDisplayName="Training Class Attendance" solution="govcdm_trainingandcertification (1.0.0.1)" id="{8c90c83b-1919-4591-94d0-8560c1a5e713}" />
+        <Dependent type="80" schemaName="msgov_TrainingandCertification" displayName="Training and Certification" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Quick Find Active Training Classes" displayName="Quick Find Active Training Classes" parentSchemaName="govcdm_trainingclass" parentDisplayName="Training Class" solution="govcdm_trainingandcertification (1.0.0.1)" id="{c89ad26d-ac4a-49a7-b164-b9b7e523b5f9}" />
+        <Dependent type="80" schemaName="msgov_TrainingandCertification" displayName="Training and Certification" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Quick Find Active Training Course Enrollees" displayName="Quick Find Active Training Course Enrollees" parentSchemaName="govcdm_trainingcourseenrollee" parentDisplayName="Training Course Enrollee" solution="govcdm_trainingandcertification (1.0.0.1)" id="{2b781b21-4090-405a-a6c5-c68e7bc6275b}" />
+        <Dependent type="80" schemaName="msgov_TrainingandCertification" displayName="Training and Certification" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Quick Find Active Training Courses" displayName="Quick Find Active Training Courses" parentSchemaName="govcdm_trainingcourse" parentDisplayName="Training Course" solution="govcdm_trainingandcertification (1.0.0.1)" id="{5664dc68-8005-4c51-9b69-a54751363c87}" />
+        <Dependent type="26" schemaName="Quick Find Active Training Courses" displayName="Quick Find Active Training Courses" parentSchemaName="govcdm_trainingcourse" parentDisplayName="Training Course" id="{5664dc68-8005-4c51-9b69-a54751363c87}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Quick Find Active Training Instructors" displayName="Quick Find Active Training Instructors" parentSchemaName="govcdm_traininginstructor" parentDisplayName="Training Instructor" solution="govcdm_trainingandcertification (1.0.0.1)" id="{3fa64f1c-9e88-4086-b064-be0c6b2f6bc6}" />
+        <Dependent type="80" schemaName="msgov_TrainingandCertification" displayName="Training and Certification" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Quick Find Active Training Objectives" displayName="Quick Find Active Training Objectives" parentSchemaName="govcdm_trainingobjective" parentDisplayName="Training Objective" solution="govcdm_trainingandcertification (1.0.0.1)" id="{81f59ac9-16bd-44a1-a8ea-a53a79ac0e5e}" />
+        <Dependent type="80" schemaName="msgov_TrainingandCertification" displayName="Training and Certification" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Training Achievement Advanced Find View" displayName="Training Achievement Advanced Find View" parentSchemaName="govcdm_trainingachievement" parentDisplayName="Training Achievement" solution="govcdm_trainingandcertification (1.0.0.1)" id="{ca5b9ce2-df3e-467a-8882-592dc9daefff}" />
+        <Dependent type="80" schemaName="msgov_TrainingandCertification" displayName="Training and Certification" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Training Achievement Associated View" displayName="Training Achievement Associated View" parentSchemaName="govcdm_trainingachievement" parentDisplayName="Training Achievement" solution="govcdm_trainingandcertification (1.0.0.1)" id="{2002629a-9afb-4899-93a9-bac4418001a0}" />
+        <Dependent type="80" schemaName="msgov_TrainingandCertification" displayName="Training and Certification" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Training Achievement Lookup View" displayName="Training Achievement Lookup View" parentSchemaName="govcdm_trainingachievement" parentDisplayName="Training Achievement" solution="govcdm_trainingandcertification (1.0.0.1)" id="{2225d76c-a041-4e3a-bccd-c2aac2d5bbf1}" />
+        <Dependent type="80" schemaName="msgov_TrainingandCertification" displayName="Training and Certification" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Training Certificate Advanced Find View" displayName="Training Certificate Advanced Find View" parentSchemaName="govcdm_trainingcertificate" parentDisplayName="Training Certificate" solution="govcdm_trainingandcertification (1.0.0.1)" id="{a120a94e-c6bc-411a-8a5e-498ee0e4c87c}" />
+        <Dependent type="80" schemaName="msgov_TrainingandCertification" displayName="Training and Certification" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Training Certificate Associated View" displayName="Training Certificate Associated View" parentSchemaName="govcdm_trainingcertificate" parentDisplayName="Training Certificate" solution="govcdm_trainingandcertification (1.0.0.1)" id="{5e33141f-6fda-4310-b0a6-d26a1582c290}" />
+        <Dependent type="80" schemaName="msgov_TrainingandCertification" displayName="Training and Certification" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Training Certificate Lookup View" displayName="Training Certificate Lookup View" parentSchemaName="govcdm_trainingcertificate" parentDisplayName="Training Certificate" solution="govcdm_trainingandcertification (1.0.0.1)" id="{cde7da67-20e1-4fe5-bc02-57a34b51e332}" />
+        <Dependent type="80" schemaName="msgov_TrainingandCertification" displayName="Training and Certification" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Training Class Advanced Find View" displayName="Training Class Advanced Find View" parentSchemaName="govcdm_trainingclass" parentDisplayName="Training Class" solution="govcdm_trainingandcertification (1.0.0.1)" id="{02fe03d5-badb-4867-81d6-1615dba0313c}" />
+        <Dependent type="80" schemaName="msgov_TrainingandCertification" displayName="Training and Certification" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Training Class Associated View" displayName="Training Class Associated View" parentSchemaName="govcdm_trainingclass" parentDisplayName="Training Class" solution="govcdm_trainingandcertification (1.0.0.1)" id="{9d14ae10-5a86-44aa-9c59-4345b720e3f4}" />
+        <Dependent type="80" schemaName="msgov_TrainingandCertification" displayName="Training and Certification" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Training Class Attendance Advanced Find View" displayName="Training Class Attendance Advanced Find View" parentSchemaName="govcdm_trainingclassattendance" parentDisplayName="Training Class Attendance" solution="govcdm_trainingandcertification (1.0.0.1)" id="{fdac965a-4699-413f-91cf-4ae50a3e2e7f}" />
+        <Dependent type="80" schemaName="msgov_TrainingandCertification" displayName="Training and Certification" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Training Class Attendance Associated View" displayName="Training Class Attendance Associated View" parentSchemaName="govcdm_trainingclassattendance" parentDisplayName="Training Class Attendance" solution="govcdm_trainingandcertification (1.0.0.1)" id="{8980ffaf-7e18-4961-9997-6f1f586e0eeb}" />
+        <Dependent type="80" schemaName="msgov_TrainingandCertification" displayName="Training and Certification" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Training Class Attendance Lookup View" displayName="Training Class Attendance Lookup View" parentSchemaName="govcdm_trainingclassattendance" parentDisplayName="Training Class Attendance" solution="govcdm_trainingandcertification (1.0.0.1)" id="{3905c7be-4418-4973-8f41-e4019cd0f19e}" />
+        <Dependent type="80" schemaName="msgov_TrainingandCertification" displayName="Training and Certification" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Training Class Lookup View" displayName="Training Class Lookup View" parentSchemaName="govcdm_trainingclass" parentDisplayName="Training Class" solution="govcdm_trainingandcertification (1.0.0.1)" id="{1bdb96d1-206a-431c-a8a1-618c579b130b}" />
+        <Dependent type="60" displayName="Portal Course Enrollment - Student Info" parentDisplayName="Training Course Enrollee" id="{3f43ccb2-abd1-ee11-9079-000d3a3b9c87}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Training Class Lookup View" displayName="Training Class Lookup View" parentSchemaName="govcdm_trainingclass" parentDisplayName="Training Class" solution="govcdm_trainingandcertification (1.0.0.1)" id="{1bdb96d1-206a-431c-a8a1-618c579b130b}" />
+        <Dependent type="80" schemaName="msgov_TrainingandCertification" displayName="Training and Certification" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Training Course Advanced Find View" displayName="Training Course Advanced Find View" parentSchemaName="govcdm_trainingcourse" parentDisplayName="Training Course" solution="govcdm_trainingandcertification (1.0.0.1)" id="{2c583809-4dd2-4cab-9076-4e7f7657cd49}" />
+        <Dependent type="80" schemaName="msgov_TrainingandCertification" displayName="Training and Certification" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Training Course Associated View" displayName="Training Course Associated View" parentSchemaName="govcdm_trainingcourse" parentDisplayName="Training Course" solution="govcdm_trainingandcertification (1.0.0.1)" id="{823a3863-09c2-4598-9cd0-2cabf409e5f0}" />
+        <Dependent type="80" schemaName="msgov_TrainingandCertification" displayName="Training and Certification" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Training Course Enrollee Advanced Find View" displayName="Training Course Enrollee Advanced Find View" parentSchemaName="govcdm_trainingcourseenrollee" parentDisplayName="Training Course Enrollee" solution="govcdm_trainingandcertification (1.0.0.1)" id="{2d540559-2330-4267-a279-d934f40af02e}" />
+        <Dependent type="80" schemaName="msgov_TrainingandCertification" displayName="Training and Certification" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Training Course Enrollee Associated View" displayName="Training Course Enrollee Associated View" parentSchemaName="govcdm_trainingcourseenrollee" parentDisplayName="Training Course Enrollee" solution="govcdm_trainingandcertification (1.0.0.1)" id="{a5a411c3-f20d-437f-a2be-2989b22792ea}" />
+        <Dependent type="80" schemaName="msgov_TrainingandCertification" displayName="Training and Certification" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Training Course Enrollee Lookup View" displayName="Training Course Enrollee Lookup View" parentSchemaName="govcdm_trainingcourseenrollee" parentDisplayName="Training Course Enrollee" solution="govcdm_trainingandcertification (1.0.0.1)" id="{5e5868c1-35a0-4b60-a232-8f7e6bc7c9b5}" />
+        <Dependent type="80" schemaName="msgov_TrainingandCertification" displayName="Training and Certification" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Training Course Lookup View" displayName="Training Course Lookup View" parentSchemaName="govcdm_trainingcourse" parentDisplayName="Training Course" solution="govcdm_trainingandcertification (1.0.0.1)" id="{693639c8-373f-4c4f-9e52-d50059c12ad8}" />
+        <Dependent type="80" schemaName="msgov_TrainingandCertification" displayName="Training and Certification" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Training Instructor Advanced Find View" displayName="Training Instructor Advanced Find View" parentSchemaName="govcdm_traininginstructor" parentDisplayName="Training Instructor" solution="govcdm_trainingandcertification (1.0.0.1)" id="{bc7811aa-7569-4e04-9d3c-791952511a05}" />
+        <Dependent type="80" schemaName="msgov_TrainingandCertification" displayName="Training and Certification" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Training Instructor Associated View" displayName="Training Instructor Associated View" parentSchemaName="govcdm_traininginstructor" parentDisplayName="Training Instructor" solution="govcdm_trainingandcertification (1.0.0.1)" id="{7a606461-e8fc-4452-9067-84902bfde7dc}" />
+        <Dependent type="80" schemaName="msgov_TrainingandCertification" displayName="Training and Certification" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Training Instructor Lookup View" displayName="Training Instructor Lookup View" parentSchemaName="govcdm_traininginstructor" parentDisplayName="Training Instructor" solution="govcdm_trainingandcertification (1.0.0.1)" id="{bf73ac8b-f014-418f-823e-b8bd68303ad1}" />
+        <Dependent type="80" schemaName="msgov_TrainingandCertification" displayName="Training and Certification" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Training Objective Advanced Find View" displayName="Training Objective Advanced Find View" parentSchemaName="govcdm_trainingobjective" parentDisplayName="Training Objective" solution="govcdm_trainingandcertification (1.0.0.1)" id="{1e8d41a8-60ee-4949-ba02-8a9e2934f8d5}" />
+        <Dependent type="80" schemaName="msgov_TrainingandCertification" displayName="Training and Certification" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Training Objective Associated View" displayName="Training Objective Associated View" parentSchemaName="govcdm_trainingobjective" parentDisplayName="Training Objective" solution="govcdm_trainingandcertification (1.0.0.1)" id="{913e98ac-e63e-4790-9875-f53b395defeb}" />
+        <Dependent type="80" schemaName="msgov_TrainingandCertification" displayName="Training and Certification" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Training Objective Lookup View" displayName="Training Objective Lookup View" parentSchemaName="govcdm_trainingobjective" parentDisplayName="Training Objective" solution="govcdm_trainingandcertification (1.0.0.1)" id="{4c92671c-c360-4783-946a-fa5fd89d4cad}" />
+        <Dependent type="80" schemaName="msgov_TrainingandCertification" displayName="Training and Certification" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="msdyn_/Images/AppModule_Default_Icon.png" displayName="msdyn_/Images/AppModule_Default_Icon.png" solution="AppModuleWebResources (2.5)">
+          <package appName="AppModule Web Resources Package" version="2.5">AppModuleWebResources (2.5)</package>
+        </Required>
+        <Dependent type="80" schemaName="msgov_TrainingandCertification" displayName="Training and Certification" />
+      </MissingDependency>
+    </MissingDependencies>
+  </SolutionManifest>
+</ImportExportXml>

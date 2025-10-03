@@ -40,6 +40,21 @@
       "LogicalName": "msgov_sharedoffice365_65258",
       "ConnectionId": "",
       "ConnectorId": "/providers/Microsoft.PowerApps/apis/shared_office365"
+    },
+    {
+      "LogicalName": "msgov_sharedoffice365_febd0",
+      "ConnectionId": "",
+      "ConnectorId": "/providers/Microsoft.PowerApps/apis/shared_office365"
+    },
+    {
+      "LogicalName": "msgov_sharedconversionservice_f3d53",
+      "ConnectionId": "",
+      "ConnectorId": "/providers/Microsoft.PowerApps/apis/shared_conversionservice"
+    },
+    {
+      "LogicalName": "new_sharedexcelonlinebusiness_23cac",
+      "ConnectionId": "",
+      "ConnectorId": "/providers/Microsoft.PowerApps/apis/shared_excelonlinebusiness"
     }
   ]
 }

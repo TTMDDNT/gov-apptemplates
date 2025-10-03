@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CanvasApp xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>msgov_registrarapp_c646a</Name>
+  <AppVersion>2025-10-02T21:55:04Z</AppVersion>
+  <Status>Ready</Status>
+  <CreatedByClientVersion>3.24032.26.0</CreatedByClientVersion>
+  <MinClientVersion>3.24032.26.0</MinClientVersion>
+  <Tags>{"primaryDeviceWidth":"1366","primaryDeviceHeight":"768","supportsPortrait":"true","supportsLandscape":"true","primaryFormFactor":"Tablet","showStatusBar":"false","publisherVersion":"3.24032.26","minimumRequiredApiVersion":"2.2.0","hasComponent":"false","hasUnlockedComponent":"false","isUnifiedRootApp":"false","offlineLargeFilesSupport":"false","sienaVersion":"20240401T235411Z-3.24032.26.0"}</Tags>
+  <IsCdsUpgraded>0</IsCdsUpgraded>
+  <GalleryItemId xsi:nil="true"></GalleryItemId>
+  <BackgroundColor>RGBA(0,176,240,1)</BackgroundColor>
+  <DisplayName>Registrar App</DisplayName>
+  <Description></Description>
+  <CommitMessage></CommitMessage>
+  <Publisher></Publisher>
+  <AuthorizationReferences>[{"resourceId":"powerbi"}]</AuthorizationReferences>
+  <ConnectionReferences>{"44086cc2-42e8-4107-b862-2f494a82896c":{"id":"/providers/microsoft.powerapps/apis/shared_logicflows","displayName":"Logic flows","iconUri":"https://connectorsiconsfairfax.z5.web.core.usgovcloudapi.net/v1.0.1766/1.0.1766.4330/logicflows/icon.png","dataSources":["ReadExcelFile"],"dependencies":["888eb902-b12a-4b2b-80ab-6b675a5aff76"],"dependents":[],"parameterHints":{"workflowName":{"value":"34b58272-d9f9-4a1b-bd96-7b6a03502914"},"workflowEntityId":{"value":"5b5f68fe-38f1-ee11-904b-000d3a8cbc95"},"workflowDisplayName":{"value":"Read Excel File"},"888eb902-b12a-4b2b-80ab-6b675a5aff76":{"value":"shared_excelonlinebusiness-1"}},"parameterHintsV2":{"workflowName":{"value":"34b58272-d9f9-4a1b-bd96-7b6a03502914"},"workflowEntityId":{"value":"5b5f68fe-38f1-ee11-904b-000d3a8cbc95"},"workflowDisplayName":{"value":"Read Excel File"},"shared_excelonlinebusiness-1":{"value":"888eb902-b12a-4b2b-80ab-6b675a5aff76"}},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{},"apiTier":"Standard","actions":["Run"]},"888eb902-b12a-4b2b-80ab-6b675a5aff76":{"id":"/providers/microsoft.powerapps/apis/shared_excelonlinebusiness","displayName":"Excel Online (Business)","iconUri":"https://connectorsiconsfairfax.z5.web.core.usgovcloudapi.net/v1.0.1768/1.0.1768.4342/excelonlinebusiness/icon.png","dataSources":[],"dependencies":[],"dependents":["44086cc2-42e8-4107-b862-2f494a82896c"],"parameterHints":{},"parameterHintsV2":{},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{},"apiTier":"Standard"},"9e86b883-dcc5-43cc-8c44-2c71b55dfd57":{"id":"/providers/microsoft.powerapps/apis/shared_sharepointonline","displayName":"SharePoint","iconUri":"https://conn-afd-prod-endpoint-bmc9bqahasf3grgk.b01.azurefd.net/releases/v1.0.1732/1.0.1732.4070/sharepointonline/icon.png","dataSources":["Documents"],"dependencies":[],"dependents":[],"parameterHints":{},"parameterHintsV2":{},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{"https://crm569769.sharepoint.com/sites/Registrar":{"dataSources":{"Documents":{"tableName":"3194dfb9-a235-44dc-9a2d-efc080b9f075"}}}},"apiTier":"Standard","actions":["providers/PowerPlatform.Governance/Operations/Read"]}}</ConnectionReferences>
+  <DatabaseReferences>{"default.cds":{"databaseDetails":{"referenceType":"Environmental","environmentName":"default.cds","overrideValues":{"status":"NotSpecified","environmentVariableName":""}},"dataSources":{"Training Courses":{"entitySetName":"govcdm_trainingcourses","logicalName":"govcdm_trainingcourse"},"Training Course Requirements":{"entitySetName":"govcdm_trainingcourserequirements","logicalName":"govcdm_trainingcourserequirement"},"Training Course Enrollees":{"entitySetName":"govcdm_trainingcourseenrollees","logicalName":"govcdm_trainingcourseenrollee"},"Training Classes":{"entitySetName":"govcdm_trainingclasses","logicalName":"govcdm_trainingclass"},"Locations":{"entitySetName":"govcdm_locations","logicalName":"govcdm_location"}}}}</DatabaseReferences>
+  <AppComponents>[]</AppComponents>
+  <AppComponentDependencies>[]</AppComponentDependencies>
+  <CanConsumeAppPass>1</CanConsumeAppPass>
+  <CanvasAppType>0</CanvasAppType>
+  <BypassConsent>0</BypassConsent>
+  <EmbeddedApp xsi:nil="true"></EmbeddedApp>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <CdsDependencies>{"cdsdependencies":[{"componenttype":1,"logicalname":"govcdm_trainingcourse"},{"componenttype":1,"logicalname":"govcdm_trainingcourserequirement"},{"componenttype":1,"logicalname":"govcdm_trainingcourseenrollee"},{"componenttype":1,"logicalname":"govcdm_trainingclass"},{"componenttype":1,"logicalname":"govcdm_location"}]}</CdsDependencies>
+  <IsCustomizable>1</IsCustomizable>
+  <BackgroundImageUri>/CanvasApps/msgov_registrarapp_c646a_BackgroundImageUri</BackgroundImageUri>
+  <DocumentUri>/CanvasApps/msgov_registrarapp_c646a_DocumentUri.msapp</DocumentUri>
+  <AdditionalUris>
+    <AdditionalUri>/CanvasApps/msgov_registrarapp_c646a_AdditionalUris0_identity.json</AdditionalUri>
+  </AdditionalUris>
+</CanvasApp>

@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{0c75dfd8-3adb-ee11-904d-000d3a3b9c87}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="govcdm_name" select="1" icon="1" preview="1">
+        <row name="result" id="govcdm_trainingcourserequirementid">
+          <cell name="govcdm_name" width="100" />
+          <cell name="govcdm_trainingcourse" width="131" />
+          <cell name="govcdm_requirescourse" width="133" />
+          <cell name="govcdm_requirescertificate" width="153" />
+          <cell name="govcdm_requiresother" width="126" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical">
+        <entity name="govcdm_trainingcourserequirement">
+          <attribute name="govcdm_trainingcourserequirementid" />
+          <attribute name="govcdm_trainingcourse" />
+          <attribute name="govcdm_name" />
+          <attribute name="govcdm_requirescourse" />
+          <attribute name="govcdm_requirescertificate" />
+          <attribute name="govcdm_requiresother" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Training Course Requirements" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

@@ -1,0 +1,107 @@
+{
+  "properties": {
+    "connectionReferences": {
+      "shared_office365": {
+        "runtimeSource": "embedded",
+        "connection": {
+          "connectionReferenceLogicalName": "msgov_sharedoffice365_febd0"
+        },
+        "api": {
+          "name": "shared_office365"
+        }
+      },
+      "shared_commondataserviceforapps": {
+        "runtimeSource": "embedded",
+        "connection": {
+          "connectionReferenceLogicalName": "msgov_sharedcommondataserviceforapps_d7f8d"
+        },
+        "api": {
+          "name": "shared_commondataserviceforapps"
+        }
+      }
+    },
+    "definition": {
+      "$schema": "https://schema.management.azure.com/providers/Microsoft.Logic/schemas/2016-06-01/workflowdefinition.json#",
+      "contentVersion": "1.0.0.0",
+      "parameters": {
+        "$connections": {
+          "defaultValue": {},
+          "type": "Object"
+        },
+        "$authentication": {
+          "defaultValue": {},
+          "type": "SecureObject"
+        }
+      },
+      "triggers": {
+        "When_Enrollment_Created": {
+          "metadata": {
+            "operationMetadataId": "d5d77a57-91c5-40ef-bdff-4047fb6c0acd"
+          },
+          "type": "OpenApiConnectionWebhook",
+          "inputs": {
+            "host": {
+              "connectionName": "shared_commondataserviceforapps",
+              "operationId": "SubscribeWebhookTrigger",
+              "apiId": "/providers/Microsoft.PowerApps/apis/shared_commondataserviceforapps"
+            },
+            "parameters": {
+              "subscriptionRequest/message": 1,
+              "subscriptionRequest/entityname": "govcdm_trainingcourseenrollee",
+              "subscriptionRequest/scope": 4
+            },
+            "authentication": "@parameters('$authentication')"
+          }
+        }
+      },
+      "actions": {
+        "Send_Confirmation_Email": {
+          "runAfter": {
+            "Get_Training_Course_Info": [
+              "Succeeded"
+            ]
+          },
+          "metadata": {
+            "operationMetadataId": "89ab93a8-2528-4539-be9d-f516d4285280"
+          },
+          "type": "OpenApiConnection",
+          "inputs": {
+            "host": {
+              "connectionName": "shared_office365",
+              "operationId": "SendEmailV2",
+              "apiId": "/providers/Microsoft.PowerApps/apis/shared_office365"
+            },
+            "parameters": {
+              "emailMessage/To": "admin@CRM569769.onmicrosoft.com",
+              "emailMessage/Subject": "We've Received Your Application",
+              "emailMessage/Body": "<p>Thank you for submitting your application for @{body('Get_Training_Course_Info')?['govcdm_name']}: @{body('Get_Training_Course_Info')?['govcdm_title']} to the Federal Academy. We are thrilled that you have chosen to embark on your academic journey with us. This email confirms that we have successfully received your application and all accompanying documents.<br><br><b><strong>Application Review Process</strong></b><br>Our admissions team is now in the process of carefully reviewing your application. This review is comprehensive, taking into consideration your academic achievements, extracurricular involvements, and any additional materials you have provided. Our goal is to understand your potential for success and how you might contribute to the Federal Academy community.<br><br>Please be assured that every application is given thoughtful consideration. This process ensures that we recognize students who are not only academically capable but also show a strong alignment with our values and vision.</p>",
+              "emailMessage/Importance": "Normal"
+            },
+            "authentication": "@parameters('$authentication')"
+          }
+        },
+        "Get_Training_Course_Info": {
+          "runAfter": {},
+          "metadata": {
+            "operationMetadataId": "24c3deac-273e-472a-a81b-4522fcb8362f"
+          },
+          "type": "OpenApiConnection",
+          "inputs": {
+            "host": {
+              "connectionName": "shared_commondataserviceforapps",
+              "operationId": "GetItem",
+              "apiId": "/providers/Microsoft.PowerApps/apis/shared_commondataserviceforapps"
+            },
+            "parameters": {
+              "entityName": "govcdm_trainingcourses",
+              "recordId": "@triggerBody()?['_govcdm_trainingcourse_value']"
+            },
+            "authentication": "@parameters('$authentication')"
+          }
+        }
+      }
+    },
+    "templateName": ""
+  },
+  "schemaVersion": "1.0.0.0"
+}
