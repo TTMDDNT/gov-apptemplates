@@ -19,8 +19,8 @@
       <field displayname="Received Date Time" name="govcdm_receiveddatetime" type="datetime" customfield="true" />
       <field displayname="Priority" name="govcdm_priority" type="optionsetvalue" customfield="true" />
       <field displayname="Parent Action" name="govcdm_parentaction" type="entityreference" lookupType="govcdm_executiveaction" customfield="true" />
-      <field displayname="Collaboration Space" name="msfed_collaborationspace" type="entityreference" lookupType="govcdm_collaborationspace" customfield="true" />
-      <field displayname="Process and Tasking State" name="msfed_processandtaskingstate" type="string" customfield="true" />
+      <field displayname="Collaboration Space" name="msgov_collaborationspace" type="entityreference" lookupType="govcdm_collaborationspace" customfield="true" />
+      <field displayname="Process and Tasking State" name="msgov_processandtaskingstate" type="string" customfield="true" />
       <field displayname="Source Analysis" name="govcdm_sourceanalysis" type="entityreference" lookupType="govcdm_analysis" customfield="true" />
       <field displayname="Source Impact" name="govcdm_sourceimpact" type="entityreference" lookupType="govcdm_impact" customfield="true" />
       <field displayname="Source Legal Authority" name="govcdm_sourcelegalauthority" type="entityreference" lookupType="govcdm_legalauthority" customfield="true" />
@@ -40,8 +40,8 @@
       <field displayname="Process Step Order" name="govcdm_processsteporder" type="number" customfield="true" />
       <field displayname="Process Step Type" name="govcdm_processsteptype" type="optionsetvalue" customfield="true" />
       <field displayname="Assign To" name="govcdm_assignto" type="optionsetvalue" customfield="true" />
-      <field displayname="Automation Team ID" name="msfed_automationteamid" type="string" customfield="true" />
-      <field displayname="Automation Type" name="msfed_automationtype" type="optionsetvalue" customfield="true" />
+      <field displayname="Automation Team ID" name="msgov_automationteamid" type="string" customfield="true" />
+      <field displayname="Automation Type" name="msgov_automationtype" type="optionsetvalue" customfield="true" />
       <field displayname="Collaboration Space" name="govcdm_collaborationspace" type="entityreference" lookupType="govcdm_collaborationspace" customfield="true" />
       <field displayname="Content Template" name="govcdm_contenttemplate" type="entityreference" lookupType="govcdm_contenttemplate" customfield="true" />
       <field displayname="Data Entry Step" name="govcdm_dataentrystep" type="entityreference" lookupType="govcdm_dataentrystep" customfield="true" />
