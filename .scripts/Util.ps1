@@ -1031,13 +1031,13 @@ function Connect-DataverseEnvironment {
         pac org list | Out-Host
         $envName = Read-Host "Enter Environment Name"
     }
-    else {
-        $config = Get-Config
-        if ($null -ne $config -and $config.$envName) {
-            Write-Host "Using configuration override for environment."
-            $envName = $config.$envName
-        }
-    }
+    # else {
+    #     $config = Get-Config
+    #     if ($null -ne $config -and $config.$envName) {
+    #         Write-Host "Using configuration override for environment."
+    #         $envName = $config.$envName
+    #     }
+    # }
     # Capture output, print it, but do not return it
     $pacOutput = pac org select --environment $envName
     $pacOutput | Out-Host

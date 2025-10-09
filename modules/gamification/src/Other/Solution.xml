@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ImportExportXml version="9.2.25083.183" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" OrganizationVersion="9.2.25083.183" OrganizationSchemaType="Standard" CRMServerServiceabilityVersion="9.2.25084.00181">
+<ImportExportXml version="9.2.25084.181" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" OrganizationVersion="9.2.25084.181" OrganizationSchemaType="Standard" CRMServerServiceabilityVersion="9.2.25091.00170">
   <SolutionManifest>
     <UniqueName>msgov_gamification</UniqueName>
     <LocalizedNames>
@@ -87,7 +87,6 @@
       <RootComponent type="1" schemaName="govcdm_gameuserachievement" behavior="2" />
       <RootComponent type="1" schemaName="govcdm_gameuseractivity" behavior="2" />
       <RootComponent type="62" schemaName="msgov_Gamification" behavior="0" />
-      <RootComponent type="80" schemaName="msgov_Gamification" behavior="0" />
     </RootComponents>
     <MissingDependencies>
       <MissingDependency>
@@ -103,10 +102,6 @@
         <Dependent type="62" schemaName="msgov_Gamification" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="1" schemaName="govcdm_game" displayName="Game" solution="govcdm_gamification (1.0.0.0)" />
-        <Dependent type="80" schemaName="msgov_Gamification" displayName="Gamification" />
-      </MissingDependency>
-      <MissingDependency>
         <Required type="1" schemaName="govcdm_gameachievement" displayName="Game Achievement" solution="govcdm_gamification (1.0.0.0)" />
         <Dependent type="1" schemaName="govcdm_gameachievement" displayName="Game Achievement" />
       </MissingDependency>
@@ -117,10 +112,6 @@
       <MissingDependency>
         <Required type="1" schemaName="govcdm_gameachievement" displayName="Game Achievement" solution="govcdm_gamification (1.0.0.0)" />
         <Dependent type="62" schemaName="msgov_Gamification" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required type="1" schemaName="govcdm_gameachievement" displayName="Game Achievement" solution="govcdm_gamification (1.0.0.0)" />
-        <Dependent type="80" schemaName="msgov_Gamification" displayName="Gamification" />
       </MissingDependency>
       <MissingDependency>
         <Required type="1" schemaName="govcdm_gameactivity" displayName="Game Activity" solution="govcdm_gamification (1.0.0.0)" />
@@ -135,10 +126,6 @@
         <Dependent type="62" schemaName="msgov_Gamification" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="1" schemaName="govcdm_gameactivity" displayName="Game Activity" solution="govcdm_gamification (1.0.0.0)" />
-        <Dependent type="80" schemaName="msgov_Gamification" displayName="Gamification" />
-      </MissingDependency>
-      <MissingDependency>
         <Required type="1" schemaName="govcdm_gameuser" displayName="Game User" solution="govcdm_gamification (1.0.0.0)" />
         <Dependent type="1" schemaName="govcdm_gameuser" displayName="Game User" />
       </MissingDependency>
@@ -149,10 +136,6 @@
       <MissingDependency>
         <Required type="1" schemaName="govcdm_gameuser" displayName="Game User" solution="govcdm_gamification (1.0.0.0)" />
         <Dependent type="62" schemaName="msgov_Gamification" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required type="1" schemaName="govcdm_gameuser" displayName="Game User" solution="govcdm_gamification (1.0.0.0)" />
-        <Dependent type="80" schemaName="msgov_Gamification" displayName="Gamification" />
       </MissingDependency>
       <MissingDependency>
         <Required type="1" schemaName="govcdm_gameuserachievement" displayName="Game User Achievement" solution="govcdm_gamification (1.0.0.0)" />
@@ -167,10 +150,6 @@
         <Dependent type="62" schemaName="msgov_Gamification" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="1" schemaName="govcdm_gameuserachievement" displayName="Game User Achievement" solution="govcdm_gamification (1.0.0.0)" />
-        <Dependent type="80" schemaName="msgov_Gamification" displayName="Gamification" />
-      </MissingDependency>
-      <MissingDependency>
         <Required type="1" schemaName="govcdm_gameuseractivity" displayName="Game User Activity" solution="govcdm_gamification (1.0.0.0)" />
         <Dependent type="1" schemaName="govcdm_gameuseractivity" displayName="Game User Activity" />
       </MissingDependency>
@@ -181,10 +160,6 @@
       <MissingDependency>
         <Required type="1" schemaName="govcdm_gameuseractivity" displayName="Game User Activity" solution="govcdm_gamification (1.0.0.0)" />
         <Dependent type="62" schemaName="msgov_Gamification" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required type="1" schemaName="govcdm_gameuseractivity" displayName="Game User Activity" solution="govcdm_gamification (1.0.0.0)" />
-        <Dependent type="80" schemaName="msgov_Gamification" displayName="Gamification" />
       </MissingDependency>
       <MissingDependency>
         <Required type="2" schemaName="govcdm_description" displayName="Description" parentSchemaName="govcdm_game" parentDisplayName="Game" solution="govcdm_gamification (1.0.0.0)" />
@@ -237,18 +212,6 @@
       <MissingDependency>
         <Required type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="govcdm_gameuseractivity" parentDisplayName="Game User Activity" solution="Active" />
         <Dependent type="60" displayName="Main" parentDisplayName="Game User Activity" id="{be426eac-ccf1-ee11-904b-000d3a8cbc95}" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required type="61" schemaName="msdyn_/Images/AppModule_Default_Icon.png" displayName="msdyn_/Images/AppModule_Default_Icon.png" solution="AppModuleWebResources (2.5)">
-          <package appName="AppModule Web Resources Package" version="2.5">AppModuleWebResources (2.5)</package>
-        </Required>
-        <Dependent type="80" schemaName="msgov_Gamification" displayName="Gamification" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required type="SettingDefinition" displayName="AppChannel" solution="msdyn_AppFrameworkInfraExtensions (1.0.0.15)" id.uniquename="AppChannel">
-          <package appName="PowerAppsAppFramework Package" version="1.0.0.22">PowerAppsAppFramework_Anchor (1.0.0.22)</package>
-        </Required>
-        <Dependent type="AppSetting" displayName="parentappmoduleid.uniquename=msgov_Gamification,settingdefinitionid.uniquename=AppChannel" id.parentappmoduleid.uniquename="msgov_Gamification" id.settingdefinitionid.uniquename="AppChannel" />
       </MissingDependency>
     </MissingDependencies>
   </SolutionManifest>

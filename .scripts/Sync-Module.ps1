@@ -16,10 +16,17 @@ $excludeFolders = "__pycache__", ".scripts"
 $folderNames = Get-ChildItem -Path "$projectRoot\$moduleType" -Directory -Exclude $excludeFolders | Select-Object -ExpandProperty Name
 $module = Select-ItemFromList $folderNames
 
-# select environment: allow the user to type an environment to run
-# Connect-DataverseEnvironment (which lists environments and prompts),
-# or press Enter to auto-select the default environment for the chosen module.
-Connect-DataverseTenant "GOV APPS"
+# Default tenant (press Enter to accept or type a different name)
+$defaultTenant = "GOV APPS"
+$tenantInput = Read-Host "Tenant name [$defaultTenant] (press Enter to accept or type a different name)"
+if ([string]::IsNullOrWhiteSpace($tenantInput)) {
+    $tenantName = $defaultTenant
+}
+else {
+    $tenantName = $tenantInput.Trim()
+}
+Write-Host "Using tenant: $tenantName"
+Connect-DataverseTenant $tenantName
 
 # determine default environment based on moduleType
 if ($moduleType -eq "cross-module") {
@@ -38,13 +45,17 @@ if ([string]::IsNullOrEmpty($defaultEnv)) {
     Connect-DataverseEnvironment
 }
 else {
-    $inputEnv = Read-Host "Enter environment name to select (or press Enter to use default '$defaultEnv')"
-    if ([string]::IsNullOrEmpty($inputEnv)) {
-        pac org select --environment $defaultEnv
+    $envInput = Read-Host "Environment name [$defaultEnv] (press Enter to accept or type a different name)"
+    if ([string]::IsNullOrWhiteSpace($envInput)) {
+        $envName = $defaultEnv
+        Write-Host "Using environment: $envName"
+        pac org select --environment $envName
     }
     else {
+        $envName = $envInput.Trim()
+        Write-Host "Using environment: $envName"
         # use the helper which will list and select (and can also use config overrides)
-        Connect-DataverseEnvironment -envName $inputEnv
+        Connect-DataverseEnvironment -envName $envName
     }
 }
 
