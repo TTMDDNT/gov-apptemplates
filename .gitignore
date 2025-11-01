@@ -12,6 +12,8 @@ target
 .config/*
 !.config/*-template.json
 !.config/README.md
+.temp
+.temp-convert
 
 # User-specific files
 *.rsuser

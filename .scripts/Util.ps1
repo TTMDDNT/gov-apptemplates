@@ -1225,4 +1225,34 @@ function Get-Config {
     return $config
 }
 
+function Get-DeploymentConfig {
+    # Read the main deployment configuration file
+    try {
+        $projectRoot = "$PSScriptRoot\.."
+        $configPath = "$projectRoot\.config\deployments.json"
 
+        $config = Get-Content -Path $configPath -ErrorAction Stop | ConvertFrom-Json
+        return $config
+    }
+    catch {
+        Write-Error "Failed to read or parse the deployment config file at '$configPath': $_"
+        return $null
+    }
+}
+
+function Select-Deployment {
+    # Get the deployment configuration
+    $config = Get-DeploymentConfig
+    if ($null -eq $config) {
+        throw "Unable to load deployment configuration"
+    }
+
+    # Get available deployment names
+    $deploymentNames = $config.Deployments.PSObject.Properties.Name
+
+    Write-Host ""
+    Write-Host "Available Deployments:"
+    $selectedDeployment = Select-ItemFromList $deploymentNames
+
+    return $config.Deployments.$selectedDeployment
+}

@@ -7,48 +7,69 @@
 $projectRoot = "$PSScriptRoot\.."
 . "${projectRoot}\.scripts\Util.ps1"
 
-Write-Host "Warning - This operation will overwrite the unmanaged solution in your environment."
+Write-Host "Warning - This operation will overwrite the unmanaged solution in your environment." -ForegroundColor Yellow
 if ($true -eq (Confirm-Next "Proceed (y/n)?")) {
 
-    # ask which type of module
-    $ipType = Select-ItemFromList "cross-module", "modules"
-    $baseFolder = "$projectRoot\$ipType"
-
-    # ask for which module to push (import)
+    # select deployment configuration once
     Write-Host ""
-    $excludeFolders = "__pycache__", ".scripts"
-    $folderNames = Get-ChildItem -Path "$projectRoot\$ipType" -Directory -Exclude $excludeFolders | Select-Object -ExpandProperty Name
-    $module = Select-ItemFromList $folderNames
+    $deploymentConfig = Select-Deployment
 
-    # Default tenant (can be accepted by pressing Enter or overridden by typing a different name)
-    $defaultTenant = "GOV APPS"
-    $tenantInput = Read-Host "Tenant name [$defaultTenant] (press Enter to accept or type a different name)"
-    if ([string]::IsNullOrWhiteSpace($tenantInput)) {
-        $tenantName = $defaultTenant
-    }
-    else {
-        $tenantName = $tenantInput.Trim()
-    }
-    Write-Host "Using tenant: $tenantName"
-    Connect-DataverseTenant $tenantName
+    # connect to the selected tenant once
+    Write-Host ""
+    Write-Host "Connecting to tenant: $($deploymentConfig.Tenant)"
+    Connect-DataverseTenant -authProfile $deploymentConfig.Tenant
 
-    # Choose default environment based on module, allow user to accept or override
-    if (($module -eq "core") -or ($module -eq "process-and-tasking")) {
-        $defaultEnv = "GOV UTILITY APPS"
-    }
-    else {
-        $defaultEnv = "GOV APPS"   
-    }
+    # main loop for module selection and deployment
+    do {
+        Write-Host ""
+        Write-Host "=== Module Selection ===" -ForegroundColor Cyan
 
-    $envInput = Read-Host "Environment name [$defaultEnv] (press Enter to accept or type a different name)"
-    if ([string]::IsNullOrWhiteSpace($envInput)) {
-        $envName = $defaultEnv
-    }
-    else {
-        $envName = $envInput.Trim()
-    }
+        # ask which type of module
+        $ipTypeOptions = @("cross-module", "modules", "Exit")
+        $ipType = Select-ItemFromList $ipTypeOptions
+        
+        if ($ipType -eq "Exit") {
+            break
+        }
 
-    Write-Host "Using environment: $envName"
-    pac org select --environment $envName
-    Deploy-Solution "$baseFolder\$module" -AutoConfirm -Settings "$tenantName\$envName.json"
+        $baseFolder = "$projectRoot\$ipType"
+
+        # ask for which module to push (import)
+        Write-Host ""
+        $excludeFolders = "__pycache__", ".scripts"
+        $folderNames = Get-ChildItem -Path "$projectRoot\$ipType" -Directory -Exclude $excludeFolders | Select-Object -ExpandProperty Name
+        $moduleOptions = $folderNames + @("Back to module type selection", "Exit")
+        $module = Select-ItemFromList $moduleOptions
+
+        if ($module -eq "Exit") {
+            break
+        } elseif ($module -eq "Back to module type selection") {
+            continue
+        }
+
+        # determine target environment based on ipType
+        $targetEnv = if ($ipType -eq "cross-module") {
+            "GOV UTILITY APPS"
+        } else {
+            "GOV APPS"
+        }
+
+        # connect to the determined environment
+        Write-Host ""
+        Write-Host "Connecting to environment: $targetEnv"
+        Connect-DataverseEnvironment -envName $targetEnv
+
+        # deploy the selected module
+        Write-Host ""
+        Write-Host "Deploying module: $module" -ForegroundColor Green
+        Deploy-Solution "$baseFolder\$module" -AutoConfirm -Settings "$($deploymentConfig.Tenant)\$targetEnv.json"
+        
+        # confirm completion
+        Write-Host ""
+        Write-Host "'$module' complete" -ForegroundColor Cyan
+        
+    } while ($true)
+
+    Write-Host ""
+    Write-Host "Module deployment session completed." -ForegroundColor Green
 }

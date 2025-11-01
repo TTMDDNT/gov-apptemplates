@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{ea7719a7-514b-4828-81d5-0b74466103e1}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="govcdm_name" select="1" icon="1" preview="1">
+        <row name="result" id="govcdm_eventsessionid">
+          <cell name="govcdm_event" width="257" />
+          <cell name="govcdm_parenteventsession" width="181" />
+          <cell name="govcdm_name" width="235" />
+          <cell name="govcdm_sessiontype" width="115" />
+          <cell name="govcdm_startdatetime" width="129" />
+          <cell name="govcdm_enddatetime" width="126" />
+          <cell name="govcdm_room" width="137" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="govcdm_eventsession">
+          <attribute name="govcdm_eventsessionid" />
+          <attribute name="govcdm_name" />
+          <order attribute="govcdm_name" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="govcdm_event" />
+          <attribute name="govcdm_parenteventsession" />
+          <attribute name="govcdm_sessiontype" />
+          <attribute name="govcdm_startdatetime" />
+          <attribute name="govcdm_enddatetime" />
+          <attribute name="govcdm_room" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.1</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Event Sessions" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

@@ -1,0 +1,18 @@
+{
+    "Deployments": {
+        "Development": {
+            "Tenant": "GLOWS DEV",
+            "Environments": {
+                "GOV UTILITY APPS": "GOV UTILITY APPS",
+                "GOV APPS": "GOV APPS"
+            }
+        },
+        "Test": {
+            "Tenant": "GLOWS TEST",
+            "Environments": {
+                "GOV UTILITY APPS": "GOV UTILITY APPS",
+                "GOV APPS": "GOV APPS"
+            }
+        }
+    }
+}

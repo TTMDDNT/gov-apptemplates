@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{b3f26941-2767-49c2-885d-0393925f4e25}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="govcdm_name" select="1" icon="1" preview="1">
+        <row name="result" id="govcdm_eventsponsorid">
+          <cell name="govcdm_name" width="191" />
+          <cell name="govcdm_event" width="259" />
+          <cell name="govcdm_funding" width="100" />
+          <cell name="govcdm_organization" width="161" />
+          <cell name="govcdm_organizationcontact" width="202" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="govcdm_eventsponsor">
+          <attribute name="govcdm_eventsponsorid" />
+          <attribute name="govcdm_name" />
+          <order attribute="govcdm_name" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="govcdm_event" />
+          <attribute name="govcdm_organization" />
+          <attribute name="govcdm_organizationcontact" />
+          <attribute name="govcdm_funding" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.1</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Event Sponsors" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

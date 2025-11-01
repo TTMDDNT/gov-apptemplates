@@ -8,23 +8,91 @@
   <SiteMap IntroducedVersion="7.0.0.0">
     <Area Id="area_037a27c3" ResourceId="SitemapDesigner.NewTitle" DescriptionResourceId="SitemapDesigner.NewTitle" ShowGroups="true" IntroducedVersion="7.0.0.0">
       <Titles>
-        <Title LCID="1033" Title="Area1" />
+        <Title LCID="1033" Title="Event Management" />
       </Titles>
       <Group Id="group_ae07a565" ResourceId="SitemapDesigner.NewGroup" DescriptionResourceId="SitemapDesigner.NewGroup" IntroducedVersion="7.0.0.0" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
         <Titles>
-          <Title LCID="1033" Title="Events and Activities" />
+          <Title LCID="1033" Title="Event Setup" />
         </Titles>
         <SubArea Id="subarea_35e85efe" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="activitypointer" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
         <SubArea Id="subarea_8d941d5f" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="govcdm_event" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
-        <SubArea Id="subarea_86dfb546" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="govcdm_eventattendee" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="subarea_3605416e" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="govcdm_eventsponsor" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Sponsors" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="subarea_e6ab3d3d" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="govcdm_eventtrack" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Tracks" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="subarea_84677b34" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="govcdm_eventsession" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Sessions" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="subarea_ecfb474d" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="govcdm_bookableresourcereservation" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Resource Reservations" />
+          </Titles>
+        </SubArea>
       </Group>
-      <Group Id="group_650c49d7" ResourceId="SitemapDesigner.NewGroup" DescriptionResourceId="SitemapDesigner.NewGroup" IntroducedVersion="7.0.0.0" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+      <Group Id="group_f73938c0" ResourceId="SitemapDesigner.NewGroup" DescriptionResourceId="SitemapDesigner.NewGroup" IntroducedVersion="7.0.0.0" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
         <Titles>
-          <Title LCID="1033" Title="Scheduling" />
+          <Title LCID="1033" Title="Event Execution" />
         </Titles>
-        <SubArea Id="subarea_40f02bc4" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="govcdm_bookableresource" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
-        <SubArea Id="subarea_ecfb474d" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="govcdm_bookableresourcereservation" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
-        <SubArea Id="subarea_5210d481" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="govcdm_bookableresourcepayment" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="subarea_8cac2f32" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="govcdm_eventparticipant" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Event Registrations" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="subarea_ad09e18c" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="govcdm_eventsessionparticipant" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Session Registrations" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="subarea_bf729763" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="govcdm_eventrequest" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Requests" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="subarea_aa694676" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="govcdm_evententry" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Participant Entries" />
+          </Titles>
+        </SubArea>
+      </Group>
+      <Group Id="group_99db997e" ResourceId="SitemapDesigner.NewGroup" DescriptionResourceId="SitemapDesigner.NewGroup" IntroducedVersion="7.0.0.0" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+        <Titles>
+          <Title LCID="1033" Title="Organizations" />
+        </Titles>
+        <SubArea Id="subarea_2043ae53" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="account" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Organizations" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="subarea_42d115ae" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="contact" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Contacts" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="subarea_7cd49bb6" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="systemuser" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Staff" />
+          </Titles>
+        </SubArea>
+      </Group>
+    </Area>
+    <Area Id="area_de250b40" ResourceId="SitemapDesigner.NewTitle" DescriptionResourceId="SitemapDesigner.NewTitle" ShowGroups="true" IntroducedVersion="7.0.0.0">
+      <Titles>
+        <Title LCID="1033" Title="Settings" />
+      </Titles>
+      <Group Id="group_99b2fadc" ResourceId="SitemapDesigner.NewGroup" DescriptionResourceId="SitemapDesigner.NewGroup" IntroducedVersion="7.0.0.0" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+        <Titles>
+          <Title LCID="1033" Title="Admin" />
+        </Titles>
+        <SubArea Id="subarea_a675cf3d" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="govcdm_eventtype" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="subarea_177d3cd2" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="govcdm_bookableresource" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
       </Group>
     </Area>
   </SiteMap>

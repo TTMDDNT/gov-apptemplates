@@ -9,7 +9,11 @@
       <grid name="resultset" jump="govcdm_name" select="1" icon="1" preview="1">
         <row name="result" id="govcdm_eventid">
           <cell name="govcdm_name" width="300" />
-          <cell name="createdon" width="125" />
+          <cell name="govcdm_eventtype" width="104" />
+          <cell name="govcdm_registrationstartdatetime" width="142" />
+          <cell name="govcdm_registrationenddatetime" width="139" />
+          <cell name="ownerid" width="100" />
+          <cell name="govcdm_eventlocation" width="126" />
         </row>
       </grid>
     </layoutxml>
@@ -19,11 +23,15 @@
         <entity name="govcdm_event">
           <attribute name="govcdm_eventid" />
           <attribute name="govcdm_name" />
-          <attribute name="createdon" />
           <order attribute="govcdm_name" descending="false" />
           <filter type="and">
             <condition attribute="statecode" operator="eq" value="0" />
           </filter>
+          <attribute name="govcdm_eventtype" />
+          <attribute name="govcdm_registrationstartdatetime" />
+          <attribute name="govcdm_registrationenddatetime" />
+          <attribute name="ownerid" />
+          <attribute name="govcdm_eventlocation" />
         </entity>
       </fetch>
     </fetchxml>

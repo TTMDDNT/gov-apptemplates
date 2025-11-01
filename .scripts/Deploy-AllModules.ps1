@@ -18,30 +18,49 @@ from `.scripts\Util.ps1` (same helpers used by `Ship-Module.ps1`).
 
 $projectRoot = "$PSScriptRoot\.."
 . "${projectRoot}\.scripts\Util.ps1"
-Write-Host "Connecting to Dataverse tenant and environment..." -ForegroundColor Cyan
-Connect-DataverseTenant
 
-# retrieve the signed-in tenant name for display/use (same as Ship-Module.ps1)
-$tenantName = Get-TenantName
-if ($tenantName) { Write-Host "Selected Tenant: $tenantName" }
-else { Write-Host "Selected Tenant: (unknown)" }
+# select deployment configuration
+Write-Host ""
+$deploymentConfig = Select-Deployment
 
-$envName = Connect-DataverseEnvironment
-Write-Host "Selected Environment: $envName"
+# connect to the selected tenant
+Write-Host ""
+Write-Host "Connecting to tenant: $($deploymentConfig.Tenant)"
+Connect-DataverseTenant -authProfile $deploymentConfig.Tenant
+
+# retrieve the signed-in tenant name for display/use
+$tenantName = $deploymentConfig.Tenant
+Write-Host "Selected Tenant: $tenantName"
 
 # Confirm the user has created the connections and the settings file under .config\<tenant>\<env>.json
-$settingsRel = "$tenantName\$envName.json"
-$settingsPath = Join-Path $projectRoot ".config"
-$settingsPath = Join-Path $settingsPath $settingsRel
+$govUtilityEnv = "GOV UTILITY APPS"
+$govAppsEnv = "GOV APPS"
 
-if (-not (Test-Path $settingsPath)) {
-    $answer = Read-Host "Settings file not found at '$settingsPath'. Have you created the connections and the settings file for the target environment under the .config folder? (Y/N)"
+$settingsFiles = @(
+    "$tenantName\$govUtilityEnv.json",
+    "$tenantName\$govAppsEnv.json"
+)
+
+$missingSettings = @()
+foreach ($settingsRel in $settingsFiles) {
+    $settingsPath = Join-Path $projectRoot ".config"
+    $settingsPath = Join-Path $settingsPath $settingsRel
+    if (-not (Test-Path $settingsPath)) {
+        $missingSettings += $settingsPath
+    }
+}
+
+if ($missingSettings.Count -gt 0) {
+    Write-Host "Settings files not found at:" -ForegroundColor Red
+    $missingSettings | ForEach-Object { Write-Host " - $_" -ForegroundColor Red }
+    $answer = Read-Host "Have you created the connections and the settings files for the target environments under the .config folder? (Y/N)"
     if ($answer -notmatch '^[Yy]') {
-        Write-Host "Aborting: please create the settings file at '$settingsPath' and ensure your Dataverse connections are available before running this script." -ForegroundColor Red
+        Write-Host "Aborting: please create the settings files and ensure your Dataverse connections are available before running this script." -ForegroundColor Red
         return
     }
 } else {
-    $confirm = Read-Host "Found settings file at '$settingsPath'. Proceed with deployments? (Y/N)"
+    Write-Host "Found all required settings files." -ForegroundColor Green
+    $confirm = Read-Host "Proceed with deployments? (Y/N)"
     if ($confirm -notmatch '^[Yy]') {
         Write-Host "Aborted by user." -ForegroundColor Yellow
         return
@@ -93,6 +112,17 @@ function Deploy-FromFolder {
             continue
         }
 
+        # determine target environment based on folder path
+        $targetEnv = if ($folderPath -like "*cross-module*") {
+            "GOV UTILITY APPS"
+        } else {
+            "GOV APPS"
+        }
+
+        # connect to the determined environment
+        Write-Host "Connecting to environment: $targetEnv" -ForegroundColor Yellow
+        Connect-DataverseEnvironment -envName $targetEnv
+
         # Guard against $PSCmdlet being $null (can happen when dot-sourced); default to proceeding
         $shouldProceed = $true
         if ($PSCmdlet) {
@@ -100,8 +130,8 @@ function Deploy-FromFolder {
         }
 
         if ($shouldProceed) {
-            # Pass settings file (tenant\env.json) like Ship-Module.ps1
-            Deploy-Solution $modulePath -Managed -AutoConfirm -Settings "$tenantName\$envName.json"
+            # Pass settings file (tenant\env.json) using the deployment config
+            Deploy-Solution $modulePath -Managed -AutoConfirm -Settings "$($deploymentConfig.Tenant)\$targetEnv.json"
         }
     }
 }

@@ -56,15 +56,26 @@ $importAnswer = Read-Host "Build and import into environment as unmanaged soluti
 
 if ($importAnswer -eq 'y') {
 
-    Connect-DataverseTenant -authProfile "GOV APPS"
+    # select deployment configuration
+    Write-Host ""
+    $deploymentConfig = Select-Deployment
 
-    if ($ipType -eq "cross-module") {
-        $appType = "GOV UTILITY APPS"
-    }
-    elseif ($ipType -eq "modules") {
-        $appType = "GOV APPS"
+    # connect to the selected tenant
+    Write-Host ""
+    Write-Host "Connecting to tenant: $($deploymentConfig.Tenant)"
+    Connect-DataverseTenant -authProfile $deploymentConfig.Tenant
+
+    # determine target environment based on module type
+    $targetEnv = if ($ipType -eq "cross-module") {
+        "GOV UTILITY APPS"
+    } else {
+        "GOV APPS"
     }
 
-    pac org select --environment $appType
+    # connect to the determined environment
+    Write-Host ""
+    Write-Host "Connecting to environment: $targetEnv"
+    Connect-DataverseEnvironment -envName $targetEnv
+
     Deploy-Solution "${solutionPath}" -AutoConfirm
 }

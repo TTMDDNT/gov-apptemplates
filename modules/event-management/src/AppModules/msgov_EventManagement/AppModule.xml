@@ -10,12 +10,23 @@
   <ClientType>4</ClientType>
   <NavigationType>0</NavigationType>
   <AppModuleComponents>
+    <AppModuleComponent type="1" schemaName="account" />
     <AppModuleComponent type="1" schemaName="activitypointer" />
+    <AppModuleComponent type="1" schemaName="contact" />
     <AppModuleComponent type="1" schemaName="govcdm_bookableresource" />
     <AppModuleComponent type="1" schemaName="govcdm_bookableresourcepayment" />
     <AppModuleComponent type="1" schemaName="govcdm_bookableresourcereservation" />
     <AppModuleComponent type="1" schemaName="govcdm_event" />
     <AppModuleComponent type="1" schemaName="govcdm_eventattendee" />
+    <AppModuleComponent type="1" schemaName="govcdm_evententry" />
+    <AppModuleComponent type="1" schemaName="govcdm_eventparticipant" />
+    <AppModuleComponent type="1" schemaName="govcdm_eventrequest" />
+    <AppModuleComponent type="1" schemaName="govcdm_eventsession" />
+    <AppModuleComponent type="1" schemaName="govcdm_eventsessionparticipant" />
+    <AppModuleComponent type="1" schemaName="govcdm_eventsponsor" />
+    <AppModuleComponent type="1" schemaName="govcdm_eventtrack" />
+    <AppModuleComponent type="1" schemaName="govcdm_eventtype" />
+    <AppModuleComponent type="1" schemaName="systemuser" />
     <AppModuleComponent type="62" schemaName="msgov_EventManagement" />
   </AppModuleComponents>
   <AppModuleRoleMaps>
