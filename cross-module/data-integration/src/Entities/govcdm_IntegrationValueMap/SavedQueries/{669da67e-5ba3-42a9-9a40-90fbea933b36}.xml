@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{669da67e-5ba3-42a9-9a40-90fbea933b36}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="govcdm_name" select="1" icon="1" preview="1">
+        <row name="result" id="govcdm_integrationvaluemapid">
+          <cell name="govcdm_name" width="136" />
+          <cell name="govcdm_codelist" width="100" />
+          <cell name="govcdm_sourcesystemkey" width="151" />
+          <cell name="govcdm_sourcelabel" width="115" />
+          <cell name="govcdm_sourcecode" width="112" />
+          <cell name="govcdm_canonicalcodevalue" width="166" />
+          <cell name="govcdm_confidence" width="105" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="govcdm_integrationvaluemap">
+          <attribute name="govcdm_integrationvaluemapid" />
+          <attribute name="govcdm_name" />
+          <order attribute="govcdm_name" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="govcdm_codelist" />
+          <attribute name="govcdm_sourcesystemkey" />
+          <attribute name="govcdm_sourcelabel" />
+          <attribute name="govcdm_sourcecode" />
+          <attribute name="govcdm_canonicalcodevalue" />
+          <attribute name="govcdm_confidence" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Integration Value Maps" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

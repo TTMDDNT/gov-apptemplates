@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{a37b5ba5-cfb9-f011-bbd2-001dd806815d}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab id="F931FFE2-B873-473F-8F95-9502F0AA3F5E" name="tab_1" showlabel="false" labelid="{ed0eab36-20c6-463d-8b13-ee549b962dad}" ordinalvalue="0">
+          <columns>
+            <column width="34%" id="0">
+              <sections>
+                <section id="0C655D4E-C6E3-424E-9AF5-71E72D30D12E" name="tab_1_column_1_section_1" columns="1" showlabel="true" showbar="false" IsUserDefined="0" labelwidth="130" labelid="{ce7d2a35-0d05-4569-af1d-4d0c1a28aaaf}" ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell id="{08f13258-e8e8-49e9-87d3-c03d46e9ed3b}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10001" solutionaction="Added">
+                        <labels>
+                          <label description="Ledger ID" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_name" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="govcdm_name" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{58d0192e-ad5b-495f-83ae-83a233176324}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10002" solutionaction="Added">
+                        <labels>
+                          <label description="Target Table" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_targettable" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="govcdm_targettable" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{9bc281e5-802c-42d5-b670-8d33f594c674}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10003" solutionaction="Added">
+                        <labels>
+                          <label description="Target ID" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_targetid" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="govcdm_targetid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a1521d9a-061b-422b-a22c-1244426cceeb}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10004" solutionaction="Added">
+                        <labels>
+                          <label description="Ledger Aspect" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_ledgeraspect" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="govcdm_ledgeraspect" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{dceaac20-6cf9-4365-9c8a-04fb84d333c8}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10005" solutionaction="Added">
+                        <labels>
+                          <label description="Aspect Key" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_aspectkey" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="govcdm_aspectkey" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b380eb2a-1187-42d8-bc54-f7be09c9ef2f}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10006" solutionaction="Added">
+                        <labels>
+                          <label description="Source System Key" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_sourcesystemkey" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="govcdm_sourcesystemkey" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{de1a4c3b-8f0a-4242-8a10-748d30053162}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10007" solutionaction="Added">
+                        <labels>
+                          <label description="Ledger Status" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_ledgerstatus" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="govcdm_ledgerstatus" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{993cdf7d-bfc1-4a15-873c-404c273aa894}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10008" solutionaction="Added">
+                        <labels>
+                          <label description="Certified Date Time" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_certifieddatetime" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="govcdm_certifieddatetime" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{fa9bb5de-07db-4b0e-8bc2-cbeb80d796c9}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10009" solutionaction="Added">
+                        <labels>
+                          <label description="Certified By" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_certifiedby" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="govcdm_certifiedby" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{6fc84747-2360-4953-8492-751fb11f479f}" locklevel="0" colspan="1" rowspan="4" ordinalvalue="10010" solutionaction="Added">
+                        <labels>
+                          <label description="Notes" languagecode="1033" />
+                        </labels>
+                        <control id="govcdm_notes" classid="{E0DECE4B-6FC8-4A8F-A065-082708572369}" datafieldname="govcdm_notes" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="Quick Create" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>

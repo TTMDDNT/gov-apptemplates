@@ -14,18 +14,10 @@
                 <section showlabel="true" showbar="false" IsUserDefined="0" id="{7e622753-42ab-40a7-b390-00c3ae06cfdc}" ordinalvalue="0" solutionaction="Modified">
                   <rows>
                     <row>
-                      <cell id="{4327be11-ba2e-4761-9921-a6f832545cea}" ordinalvalue="10001" solutionaction="Modified">
-                        <labels>
-                          <label description="Name" languagecode="1033" solutionaction="Added" />
-                        </labels>
-                      </cell>
+                      <cell id="{4327be11-ba2e-4761-9921-a6f832545cea}" ordinalvalue="10001" solutionaction="Modified" />
                     </row>
                     <row>
-                      <cell id="{3d4c3cb5-76a9-4645-a34c-2d30f634e716}" ordinalvalue="10003" solutionaction="Modified">
-                        <labels>
-                          <label description="Owner" languagecode="1033" solutionaction="Added" />
-                        </labels>
-                      </cell>
+                      <cell id="{3d4c3cb5-76a9-4645-a34c-2d30f634e716}" ordinalvalue="10003" solutionaction="Modified" />
                     </row>
                     <row>
                       <cell id="{4110b118-be33-497d-b550-ec42c9b513c5}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10000" solutionaction="Added">

@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{62af9db6-98b8-4f0f-b69f-694a8fe03eb6}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="govcdm_name" select="1" icon="1" preview="1">
+        <row name="result" id="govcdm_integrationcommitpolicyid">
+          <cell name="govcdm_name" width="142" />
+          <cell name="govcdm_targettable" width="110" />
+          <cell name="govcdm_fieldname" width="106" />
+          <cell name="govcdm_authoritativesources" width="163" />
+          <cell name="govcdm_commitmode" width="123" />
+          <cell name="govcdm_autocertify" width="112" />
+          <cell name="govcdm_staleafterdays" width="134" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="govcdm_integrationcommitpolicy">
+          <attribute name="govcdm_integrationcommitpolicyid" />
+          <attribute name="govcdm_name" />
+          <order attribute="govcdm_name" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="govcdm_targettable" />
+          <attribute name="govcdm_fieldname" />
+          <attribute name="govcdm_authoritativesources" />
+          <attribute name="govcdm_commitmode" />
+          <attribute name="govcdm_autocertify" />
+          <attribute name="govcdm_staleafterdays" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Integration Commit Policies" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

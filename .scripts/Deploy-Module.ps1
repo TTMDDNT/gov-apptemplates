@@ -47,10 +47,6 @@ do {
         $module = Select-ItemFromList $folderNames
 
         if ($module -ne "") {
-            # debug: show what we're working with
-            Write-Host "Debug - deploymentConfig.Tenant: '$($deploymentConfig.Tenant)'"
-            Write-Host "Debug - targetEnvKey: '$targetEnvKey'"
-            
             # The Deploy-Solution function expects just the relative path from .config folder
             # It will construct the full path itself using Join-Path $PSScriptRoot '..\.config' $settingsFile
             $settingsRelativePath = "$($deploymentConfig.Tenant)\$targetEnvKey.json"

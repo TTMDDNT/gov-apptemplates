@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{a4f898e7-3a4d-4f0a-95bf-48e9d95d21f0}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="govcdm_name" select="1" icon="1" preview="1">
+        <row name="result" id="govcdm_itsystemid">
+          <cell name="govcdm_name" width="300" />
+          <cell name="govcdm_abbreviation" width="114" />
+          <cell name="govcdm_catalogstatus" width="122" />
+          <cell name="govcdm_visibility" width="100" />
+          <cell name="govcdm_lastreviewdate" width="141" />
+          <cell name="govcdm_nextreviewdate" width="144" />
+          <cell name="govcdm_pointofcontact" width="132" />
+          <cell name="govcdm_securityclassification" width="168" />
+          <cell name="govcdm_criticality" width="100" />
+          <cell name="govcdm_operationalstatus" width="144" />
+          <cell name="govcdm_lifecyclestage" width="128" />
+          <cell name="govcdm_atoauthoritytooperate" width="197" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="govcdm_itsystem">
+          <attribute name="govcdm_itsystemid" />
+          <attribute name="govcdm_name" />
+          <order attribute="govcdm_name" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="govcdm_abbreviation" />
+          <attribute name="govcdm_catalogstatus" />
+          <attribute name="govcdm_visibility" />
+          <attribute name="govcdm_lastreviewdate" />
+          <attribute name="govcdm_nextreviewdate" />
+          <attribute name="govcdm_pointofcontact" />
+          <attribute name="govcdm_securityclassification" />
+          <attribute name="govcdm_criticality" />
+          <attribute name="govcdm_atoauthoritytooperate" />
+          <attribute name="govcdm_operationalstatus" />
+          <attribute name="govcdm_lifecyclestage" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active IT Systems" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

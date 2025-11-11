@@ -2,5 +2,6 @@
 <Entity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name LocalizedName="IT System Component" OriginalName="IT System Component">govcdm_ITSystemComponent</Name>
   <FormXml />
+  <SavedQueries />
   <RibbonDiffXml />
 </Entity>

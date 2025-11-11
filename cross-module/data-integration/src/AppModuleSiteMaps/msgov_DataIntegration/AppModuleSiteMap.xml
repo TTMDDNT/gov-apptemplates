@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppModuleSiteMap xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SiteMapUniqueName>msgov_DataIntegration</SiteMapUniqueName>
+  <EnableCollapsibleGroups>False</EnableCollapsibleGroups>
+  <ShowHome>True</ShowHome>
+  <ShowPinned>True</ShowPinned>
+  <ShowRecents>True</ShowRecents>
+  <SiteMap IntroducedVersion="7.0.0.0">
+    <Area Id="area_1a78f561" ResourceId="SitemapDesigner.NewTitle" DescriptionResourceId="SitemapDesigner.NewTitle" ShowGroups="true" IntroducedVersion="7.0.0.0">
+      <Titles>
+        <Title LCID="1033" Title="Area1" />
+      </Titles>
+      <Group Id="group_093d8b04" ResourceId="SitemapDesigner.NewGroup" DescriptionResourceId="SitemapDesigner.NewGroup" IntroducedVersion="7.0.0.0" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+        <Titles>
+          <Title LCID="1033" Title="Setup" />
+        </Titles>
+        <SubArea Id="subarea_0f21bd6c" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="govcdm_integrationidentifier" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Identifiers" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="subarea_e0068b7c" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="govcdm_integrationvaluemap" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Value Maps" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="subarea_14596931" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="govcdm_integrationcommitpolicy" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Commit Policies" />
+          </Titles>
+        </SubArea>
+      </Group>
+      <Group Id="group_52be502f" ResourceId="SitemapDesigner.NewGroup" DescriptionResourceId="SitemapDesigner.NewGroup" IntroducedVersion="7.0.0.0" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+        <Titles>
+          <Title LCID="1033" Title="Processing" />
+        </Titles>
+        <SubArea Id="subarea_9cdb0b27" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="govcdm_integrationsyncjob" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Sync Jobs" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="subarea_a768aa71" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="govcdm_integrationsyncitem" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Sync Items" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="subarea_713dd2d7" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="govcdm_integrationledger" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Ledgers" />
+          </Titles>
+        </SubArea>
+      </Group>
+    </Area>
+  </SiteMap>
+  <LocalizedNames>
+    <LocalizedName description="Data Integration" languagecode="1033" />
+  </LocalizedNames>
+</AppModuleSiteMap>

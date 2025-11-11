@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{a1cd7433-4c1b-4e4a-b85d-38fd384c3f66}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="govcdm_name" select="1" icon="1" preview="1">
+        <row name="result" id="govcdm_integrationledgerid">
+          <cell name="govcdm_name" width="167" />
+          <cell name="govcdm_targettable" width="110" />
+          <cell name="govcdm_targetid" width="100" />
+          <cell name="govcdm_ledgeraspect" width="123" />
+          <cell name="govcdm_aspectkey" width="106" />
+          <cell name="govcdm_sourcesystemkey" width="151" />
+          <cell name="govcdm_ledgerstatus" width="118" />
+          <cell name="govcdm_certifieddatetime" width="153" />
+          <cell name="govcdm_certifiedby" width="110" />
+          <cell name="govcdm_notes" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="govcdm_integrationledger">
+          <attribute name="govcdm_integrationledgerid" />
+          <attribute name="govcdm_name" />
+          <order attribute="govcdm_name" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="govcdm_targettable" />
+          <attribute name="govcdm_targetid" />
+          <attribute name="govcdm_ledgeraspect" />
+          <attribute name="govcdm_aspectkey" />
+          <attribute name="govcdm_sourcesystemkey" />
+          <attribute name="govcdm_ledgerstatus" />
+          <attribute name="govcdm_certifieddatetime" />
+          <attribute name="govcdm_certifiedby" />
+          <attribute name="govcdm_notes" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Integration Ledgers" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

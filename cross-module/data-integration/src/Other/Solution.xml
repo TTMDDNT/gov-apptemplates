@@ -1,0 +1,887 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImportExportXml version="9.2.25095.169" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" OrganizationVersion="9.2.25095.169" OrganizationSchemaType="Standard" CRMServerServiceabilityVersion="9.2.25095.00169">
+  <SolutionManifest>
+    <UniqueName>msgov_dataintegration</UniqueName>
+    <LocalizedNames>
+      <LocalizedName description="Microsoft Gov - Data Integration" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions />
+    <Version>1.0.0.0</Version>
+    <Managed>2</Managed>
+    <Publisher>
+      <UniqueName>msgovsolutions</UniqueName>
+      <LocalizedNames>
+        <LocalizedName description="Microsoft Government Solutions" languagecode="1033" />
+      </LocalizedNames>
+      <Descriptions>
+        <Description description="msgovsolutions" languagecode="1033" />
+      </Descriptions>
+      <EMailAddress xsi:nil="true"></EMailAddress>
+      <SupportingWebsiteUrl xsi:nil="true"></SupportingWebsiteUrl>
+      <CustomizationPrefix>msgov</CustomizationPrefix>
+      <CustomizationOptionValuePrefix>38751</CustomizationOptionValuePrefix>
+      <Addresses>
+        <Address>
+          <AddressNumber>1</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+        <Address>
+          <AddressNumber>2</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+      </Addresses>
+    </Publisher>
+    <RootComponents>
+      <RootComponent type="1" schemaName="govcdm_integrationcommitpolicy" behavior="2" />
+      <RootComponent type="1" schemaName="govcdm_integrationidentifier" behavior="2" />
+      <RootComponent type="1" schemaName="govcdm_integrationledger" behavior="2" />
+      <RootComponent type="1" schemaName="govcdm_integrationsyncitem" behavior="2" />
+      <RootComponent type="1" schemaName="govcdm_integrationsyncjob" behavior="2" />
+      <RootComponent type="1" schemaName="govcdm_integrationvaluemap" behavior="2" />
+      <RootComponent type="62" schemaName="msgov_DataIntegration" behavior="0" />
+      <RootComponent type="80" schemaName="msgov_DataIntegration" behavior="0" />
+    </RootComponents>
+    <MissingDependencies>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_integrationcommitpolicy" displayName="Integration Commit Policy" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="1" schemaName="govcdm_integrationcommitpolicy" displayName="Integration Commit Policy" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_integrationcommitpolicy" displayName="Integration Commit Policy" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="62" schemaName="msgov_DataIntegration" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_integrationcommitpolicy" displayName="Integration Commit Policy" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="80" schemaName="msgov_DataIntegration" displayName="Data Integration" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_integrationidentifier" displayName="Integration Identifier" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="1" schemaName="govcdm_integrationidentifier" displayName="Integration Identifier" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_integrationidentifier" displayName="Integration Identifier" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="62" schemaName="msgov_DataIntegration" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_integrationidentifier" displayName="Integration Identifier" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="80" schemaName="msgov_DataIntegration" displayName="Data Integration" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_integrationledger" displayName="Integration Ledger" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="1" schemaName="govcdm_integrationledger" displayName="Integration Ledger" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_integrationledger" displayName="Integration Ledger" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="62" schemaName="msgov_DataIntegration" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_integrationledger" displayName="Integration Ledger" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="80" schemaName="msgov_DataIntegration" displayName="Data Integration" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_integrationsyncitem" displayName="Integration Sync Item" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="1" schemaName="govcdm_integrationsyncitem" displayName="Integration Sync Item" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_integrationsyncitem" displayName="Integration Sync Item" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Integration Sync Job" id="{c5f9a580-2f27-4a3d-926e-31ab369dfda7}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_integrationsyncitem" displayName="Integration Sync Item" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="62" schemaName="msgov_DataIntegration" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_integrationsyncitem" displayName="Integration Sync Item" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="80" schemaName="msgov_DataIntegration" displayName="Data Integration" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_integrationsyncjob" displayName="Integration Sync Job" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="1" schemaName="govcdm_integrationsyncjob" displayName="Integration Sync Job" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_integrationsyncjob" displayName="Integration Sync Job" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="62" schemaName="msgov_DataIntegration" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_integrationsyncjob" displayName="Integration Sync Job" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="80" schemaName="msgov_DataIntegration" displayName="Data Integration" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_integrationvaluemap" displayName="Integration Value Map" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="1" schemaName="govcdm_integrationvaluemap" displayName="Integration Value Map" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_integrationvaluemap" displayName="Integration Value Map" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="62" schemaName="msgov_DataIntegration" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="govcdm_integrationvaluemap" displayName="Integration Value Map" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="80" schemaName="msgov_DataIntegration" displayName="Data Integration" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_integrationledger_CertifiedBy_systemuser" displayName="govcdm_integrationledger_CertifiedBy_systemuser" parentSchemaName="systemuser" parentDisplayName="User" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Integration Ledger" id="{a37b5ba5-cfb9-f011-bbd2-001dd806815d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_integrationledger_CertifiedBy_systemuser" displayName="govcdm_integrationledger_CertifiedBy_systemuser" parentSchemaName="systemuser" parentDisplayName="User" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Integration Ledger" id="{bbe71f81-a06c-4469-9551-9ca525c59a4f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_integrationsyncitem_IntegrationSyncJob_govcdm_integrationsyncjob" displayName="govcdm_integrationsyncitem_IntegrationSyncJob_govcdm_integrationsyncjob" parentSchemaName="govcdm_integrationsyncjob" parentDisplayName="Integration Sync Job" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Integration Sync Item" id="{82a9e549-6f12-4d1f-b2d1-33be4fcae9b7}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_integrationsyncitem_IntegrationSyncJob_govcdm_integrationsyncjob" displayName="govcdm_integrationsyncitem_IntegrationSyncJob_govcdm_integrationsyncjob" parentSchemaName="govcdm_integrationsyncjob" parentDisplayName="Integration Sync Job" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Integration Sync Job" id="{c5f9a580-2f27-4a3d-926e-31ab369dfda7}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="govcdm_integrationsyncitem_IntegrationSyncJob_govcdm_integrationsyncjob" displayName="govcdm_integrationsyncitem_IntegrationSyncJob_govcdm_integrationsyncjob" parentSchemaName="govcdm_integrationsyncjob" parentDisplayName="Integration Sync Job" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Integration Sync Item" id="{dbc97bb7-cfb9-f011-bbd2-001dd806815d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_applieddatetime" displayName="Applied Date Time" parentSchemaName="govcdm_integrationsyncitem" parentDisplayName="Integration Sync Item" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="26" schemaName="Active Integration Sync Items" displayName="Active Integration Sync Items" parentSchemaName="govcdm_integrationsyncitem" parentDisplayName="Integration Sync Item" id="{f9cb8145-14dc-4830-81b7-97cefa9799ee}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_applieddatetime" displayName="Applied Date Time" parentSchemaName="govcdm_integrationsyncitem" parentDisplayName="Integration Sync Item" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Integration Sync Item" id="{82a9e549-6f12-4d1f-b2d1-33be4fcae9b7}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_applieddatetime" displayName="Applied Date Time" parentSchemaName="govcdm_integrationsyncitem" parentDisplayName="Integration Sync Item" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Integration Sync Item" id="{dbc97bb7-cfb9-f011-bbd2-001dd806815d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_aspectkey" displayName="Aspect Key" parentSchemaName="govcdm_integrationledger" parentDisplayName="Integration Ledger" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="26" schemaName="Active Integration Ledgers" displayName="Active Integration Ledgers" parentSchemaName="govcdm_integrationledger" parentDisplayName="Integration Ledger" id="{a1cd7433-4c1b-4e4a-b85d-38fd384c3f66}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_aspectkey" displayName="Aspect Key" parentSchemaName="govcdm_integrationledger" parentDisplayName="Integration Ledger" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Integration Ledger" id="{a37b5ba5-cfb9-f011-bbd2-001dd806815d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_aspectkey" displayName="Aspect Key" parentSchemaName="govcdm_integrationledger" parentDisplayName="Integration Ledger" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Integration Ledger" id="{bbe71f81-a06c-4469-9551-9ca525c59a4f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_authoritativesources" displayName="Authoritative Sources" parentSchemaName="govcdm_integrationcommitpolicy" parentDisplayName="Integration Commit Policy" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="26" schemaName="Active Integration Commit Policies" displayName="Active Integration Commit Policies" parentSchemaName="govcdm_integrationcommitpolicy" parentDisplayName="Integration Commit Policy" id="{62af9db6-98b8-4f0f-b69f-694a8fe03eb6}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_authoritativesources" displayName="Authoritative Sources" parentSchemaName="govcdm_integrationcommitpolicy" parentDisplayName="Integration Commit Policy" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Integration Commit Policy" id="{05b610a2-7c75-42bd-a125-2ee105d66d42}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_authoritativesources" displayName="Authoritative Sources" parentSchemaName="govcdm_integrationcommitpolicy" parentDisplayName="Integration Commit Policy" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Integration Commit Policy" id="{31aa2a93-cfb9-f011-bbd2-001dd806815d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_autocertify" displayName="Auto Certify" parentSchemaName="govcdm_integrationcommitpolicy" parentDisplayName="Integration Commit Policy" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="26" schemaName="Active Integration Commit Policies" displayName="Active Integration Commit Policies" parentSchemaName="govcdm_integrationcommitpolicy" parentDisplayName="Integration Commit Policy" id="{62af9db6-98b8-4f0f-b69f-694a8fe03eb6}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_autocertify" displayName="Auto Certify" parentSchemaName="govcdm_integrationcommitpolicy" parentDisplayName="Integration Commit Policy" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Integration Commit Policy" id="{05b610a2-7c75-42bd-a125-2ee105d66d42}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_autocertify" displayName="Auto Certify" parentSchemaName="govcdm_integrationcommitpolicy" parentDisplayName="Integration Commit Policy" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Integration Commit Policy" id="{31aa2a93-cfb9-f011-bbd2-001dd806815d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_canonicalcodevalue" displayName="Canonical Code Value" parentSchemaName="govcdm_integrationvaluemap" parentDisplayName="Integration Value Map" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="26" schemaName="Active Integration Value Maps" displayName="Active Integration Value Maps" parentSchemaName="govcdm_integrationvaluemap" parentDisplayName="Integration Value Map" id="{669da67e-5ba3-42a9-9a40-90fbea933b36}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_canonicalcodevalue" displayName="Canonical Code Value" parentSchemaName="govcdm_integrationvaluemap" parentDisplayName="Integration Value Map" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Integration Value Map" id="{2b34accf-cfb9-f011-bbd2-001dd806815d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_canonicalcodevalue" displayName="Canonical Code Value" parentSchemaName="govcdm_integrationvaluemap" parentDisplayName="Integration Value Map" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Integration Value Map" id="{2fb008ad-208a-464e-a70a-a8606f50ec1f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_certifiedby" displayName="Certified By" parentSchemaName="govcdm_integrationledger" parentDisplayName="Integration Ledger" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="26" schemaName="Active Integration Ledgers" displayName="Active Integration Ledgers" parentSchemaName="govcdm_integrationledger" parentDisplayName="Integration Ledger" id="{a1cd7433-4c1b-4e4a-b85d-38fd384c3f66}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_certifiedby" displayName="Certified By" parentSchemaName="govcdm_integrationledger" parentDisplayName="Integration Ledger" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Integration Ledger" id="{a37b5ba5-cfb9-f011-bbd2-001dd806815d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_certifiedby" displayName="Certified By" parentSchemaName="govcdm_integrationledger" parentDisplayName="Integration Ledger" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Integration Ledger" id="{bbe71f81-a06c-4469-9551-9ca525c59a4f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_certifieddatetime" displayName="Certified Date Time" parentSchemaName="govcdm_integrationledger" parentDisplayName="Integration Ledger" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="26" schemaName="Active Integration Ledgers" displayName="Active Integration Ledgers" parentSchemaName="govcdm_integrationledger" parentDisplayName="Integration Ledger" id="{a1cd7433-4c1b-4e4a-b85d-38fd384c3f66}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_certifieddatetime" displayName="Certified Date Time" parentSchemaName="govcdm_integrationledger" parentDisplayName="Integration Ledger" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Integration Ledger" id="{a37b5ba5-cfb9-f011-bbd2-001dd806815d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_certifieddatetime" displayName="Certified Date Time" parentSchemaName="govcdm_integrationledger" parentDisplayName="Integration Ledger" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Integration Ledger" id="{bbe71f81-a06c-4469-9551-9ca525c59a4f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_codelist" displayName="Code List" parentSchemaName="govcdm_integrationvaluemap" parentDisplayName="Integration Value Map" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="26" schemaName="Active Integration Value Maps" displayName="Active Integration Value Maps" parentSchemaName="govcdm_integrationvaluemap" parentDisplayName="Integration Value Map" id="{669da67e-5ba3-42a9-9a40-90fbea933b36}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_codelist" displayName="Code List" parentSchemaName="govcdm_integrationvaluemap" parentDisplayName="Integration Value Map" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Integration Value Map" id="{2b34accf-cfb9-f011-bbd2-001dd806815d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_codelist" displayName="Code List" parentSchemaName="govcdm_integrationvaluemap" parentDisplayName="Integration Value Map" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Integration Value Map" id="{2fb008ad-208a-464e-a70a-a8606f50ec1f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_commitmode" displayName="Commit Mode" parentSchemaName="govcdm_integrationcommitpolicy" parentDisplayName="Integration Commit Policy" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="26" schemaName="Active Integration Commit Policies" displayName="Active Integration Commit Policies" parentSchemaName="govcdm_integrationcommitpolicy" parentDisplayName="Integration Commit Policy" id="{62af9db6-98b8-4f0f-b69f-694a8fe03eb6}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_commitmode" displayName="Commit Mode" parentSchemaName="govcdm_integrationcommitpolicy" parentDisplayName="Integration Commit Policy" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Integration Commit Policy" id="{05b610a2-7c75-42bd-a125-2ee105d66d42}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_commitmode" displayName="Commit Mode" parentSchemaName="govcdm_integrationcommitpolicy" parentDisplayName="Integration Commit Policy" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Integration Commit Policy" id="{31aa2a93-cfb9-f011-bbd2-001dd806815d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_confidence" displayName="Confidence" parentSchemaName="govcdm_integrationvaluemap" parentDisplayName="Integration Value Map" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="26" schemaName="Active Integration Value Maps" displayName="Active Integration Value Maps" parentSchemaName="govcdm_integrationvaluemap" parentDisplayName="Integration Value Map" id="{669da67e-5ba3-42a9-9a40-90fbea933b36}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_confidence" displayName="Confidence" parentSchemaName="govcdm_integrationvaluemap" parentDisplayName="Integration Value Map" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Integration Value Map" id="{2b34accf-cfb9-f011-bbd2-001dd806815d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_confidence" displayName="Confidence" parentSchemaName="govcdm_integrationvaluemap" parentDisplayName="Integration Value Map" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Integration Value Map" id="{2fb008ad-208a-464e-a70a-a8606f50ec1f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_direction" displayName="Direction" parentSchemaName="govcdm_integrationsyncjob" parentDisplayName="Integration Sync Job" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="26" schemaName="Active Integration Sync Jobs" displayName="Active Integration Sync Jobs" parentSchemaName="govcdm_integrationsyncjob" parentDisplayName="Integration Sync Job" id="{6721f26e-aabd-4e94-960e-f273b8b01e56}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_direction" displayName="Direction" parentSchemaName="govcdm_integrationsyncjob" parentDisplayName="Integration Sync Job" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Integration Sync Job" id="{123689c3-cfb9-f011-bbd2-001dd806815d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_direction" displayName="Direction" parentSchemaName="govcdm_integrationsyncjob" parentDisplayName="Integration Sync Job" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Integration Sync Job" id="{c5f9a580-2f27-4a3d-926e-31ab369dfda7}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_entitytype" displayName="Entity Type" parentSchemaName="govcdm_integrationsyncjob" parentDisplayName="Integration Sync Job" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="26" schemaName="Active Integration Sync Jobs" displayName="Active Integration Sync Jobs" parentSchemaName="govcdm_integrationsyncjob" parentDisplayName="Integration Sync Job" id="{6721f26e-aabd-4e94-960e-f273b8b01e56}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_entitytype" displayName="Entity Type" parentSchemaName="govcdm_integrationsyncjob" parentDisplayName="Integration Sync Job" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Integration Sync Job" id="{123689c3-cfb9-f011-bbd2-001dd806815d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_entitytype" displayName="Entity Type" parentSchemaName="govcdm_integrationsyncjob" parentDisplayName="Integration Sync Job" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Integration Sync Job" id="{c5f9a580-2f27-4a3d-926e-31ab369dfda7}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_externalkey" displayName="External Key" parentSchemaName="govcdm_integrationidentifier" parentDisplayName="Integration Identifier" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="26" schemaName="Active Integration Identifiers" displayName="Active Integration Identifiers" parentSchemaName="govcdm_integrationidentifier" parentDisplayName="Integration Identifier" id="{e2d33694-a524-4c6d-8117-cc7618224238}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_externalkey" displayName="External Key" parentSchemaName="govcdm_integrationidentifier" parentDisplayName="Integration Identifier" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Integration Identifier" id="{1ae05c65-cc1e-4f48-849b-fbad130e9e46}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_externalkey" displayName="External Key" parentSchemaName="govcdm_integrationidentifier" parentDisplayName="Integration Identifier" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Integration Identifier" id="{d69e8da5-b5b9-f011-bbd2-001dd806815d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_fieldname" displayName="Field Name" parentSchemaName="govcdm_integrationcommitpolicy" parentDisplayName="Integration Commit Policy" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="26" schemaName="Active Integration Commit Policies" displayName="Active Integration Commit Policies" parentSchemaName="govcdm_integrationcommitpolicy" parentDisplayName="Integration Commit Policy" id="{62af9db6-98b8-4f0f-b69f-694a8fe03eb6}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_fieldname" displayName="Field Name" parentSchemaName="govcdm_integrationcommitpolicy" parentDisplayName="Integration Commit Policy" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Integration Commit Policy" id="{05b610a2-7c75-42bd-a125-2ee105d66d42}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_fieldname" displayName="Field Name" parentSchemaName="govcdm_integrationcommitpolicy" parentDisplayName="Integration Commit Policy" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Integration Commit Policy" id="{31aa2a93-cfb9-f011-bbd2-001dd806815d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_fieldname" displayName="Field Name" parentSchemaName="govcdm_integrationsyncitem" parentDisplayName="Integration Sync Item" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="26" schemaName="Active Integration Sync Items" displayName="Active Integration Sync Items" parentSchemaName="govcdm_integrationsyncitem" parentDisplayName="Integration Sync Item" id="{f9cb8145-14dc-4830-81b7-97cefa9799ee}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_fieldname" displayName="Field Name" parentSchemaName="govcdm_integrationsyncitem" parentDisplayName="Integration Sync Item" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Integration Sync Item" id="{82a9e549-6f12-4d1f-b2d1-33be4fcae9b7}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_fieldname" displayName="Field Name" parentSchemaName="govcdm_integrationsyncitem" parentDisplayName="Integration Sync Item" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Integration Sync Item" id="{dbc97bb7-cfb9-f011-bbd2-001dd806815d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_firstseendatetime" displayName="First Seen Date Time" parentSchemaName="govcdm_integrationidentifier" parentDisplayName="Integration Identifier" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="26" schemaName="Active Integration Identifiers" displayName="Active Integration Identifiers" parentSchemaName="govcdm_integrationidentifier" parentDisplayName="Integration Identifier" id="{e2d33694-a524-4c6d-8117-cc7618224238}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_firstseendatetime" displayName="First Seen Date Time" parentSchemaName="govcdm_integrationidentifier" parentDisplayName="Integration Identifier" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Integration Identifier" id="{1ae05c65-cc1e-4f48-849b-fbad130e9e46}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_firstseendatetime" displayName="First Seen Date Time" parentSchemaName="govcdm_integrationidentifier" parentDisplayName="Integration Identifier" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Integration Identifier" id="{d69e8da5-b5b9-f011-bbd2-001dd806815d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_integrationcommitpolicyid" displayName="Integration Commit Policy" parentSchemaName="govcdm_integrationcommitpolicy" parentDisplayName="Integration Commit Policy" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="26" schemaName="Active Integration Commit Policies" displayName="Active Integration Commit Policies" parentSchemaName="govcdm_integrationcommitpolicy" parentDisplayName="Integration Commit Policy" id="{62af9db6-98b8-4f0f-b69f-694a8fe03eb6}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_integrationidentifierid" displayName="Integration Identifier" parentSchemaName="govcdm_integrationidentifier" parentDisplayName="Integration Identifier" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="26" schemaName="Active Integration Identifiers" displayName="Active Integration Identifiers" parentSchemaName="govcdm_integrationidentifier" parentDisplayName="Integration Identifier" id="{e2d33694-a524-4c6d-8117-cc7618224238}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_integrationledgerid" displayName="Integration Ledger" parentSchemaName="govcdm_integrationledger" parentDisplayName="Integration Ledger" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="26" schemaName="Active Integration Ledgers" displayName="Active Integration Ledgers" parentSchemaName="govcdm_integrationledger" parentDisplayName="Integration Ledger" id="{a1cd7433-4c1b-4e4a-b85d-38fd384c3f66}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_integrationsyncitemid" displayName="Integration Sync Item" parentSchemaName="govcdm_integrationsyncitem" parentDisplayName="Integration Sync Item" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="26" schemaName="Active Integration Sync Items" displayName="Active Integration Sync Items" parentSchemaName="govcdm_integrationsyncitem" parentDisplayName="Integration Sync Item" id="{f9cb8145-14dc-4830-81b7-97cefa9799ee}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_integrationsyncjob" displayName="Integration Sync Job" parentSchemaName="govcdm_integrationsyncitem" parentDisplayName="Integration Sync Item" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="26" schemaName="Active Integration Sync Items" displayName="Active Integration Sync Items" parentSchemaName="govcdm_integrationsyncitem" parentDisplayName="Integration Sync Item" id="{f9cb8145-14dc-4830-81b7-97cefa9799ee}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_integrationsyncjob" displayName="Integration Sync Job" parentSchemaName="govcdm_integrationsyncitem" parentDisplayName="Integration Sync Item" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Integration Sync Item" id="{82a9e549-6f12-4d1f-b2d1-33be4fcae9b7}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_integrationsyncjob" displayName="Integration Sync Job" parentSchemaName="govcdm_integrationsyncitem" parentDisplayName="Integration Sync Item" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Integration Sync Item" id="{dbc97bb7-cfb9-f011-bbd2-001dd806815d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_integrationsyncjobid" displayName="Integration Sync Job" parentSchemaName="govcdm_integrationsyncjob" parentDisplayName="Integration Sync Job" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="26" schemaName="Active Integration Sync Jobs" displayName="Active Integration Sync Jobs" parentSchemaName="govcdm_integrationsyncjob" parentDisplayName="Integration Sync Job" id="{6721f26e-aabd-4e94-960e-f273b8b01e56}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_integrationvaluemapid" displayName="Integration Value Map" parentSchemaName="govcdm_integrationvaluemap" parentDisplayName="Integration Value Map" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="26" schemaName="Active Integration Value Maps" displayName="Active Integration Value Maps" parentSchemaName="govcdm_integrationvaluemap" parentDisplayName="Integration Value Map" id="{669da67e-5ba3-42a9-9a40-90fbea933b36}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_jobstatus" displayName="Job Status" parentSchemaName="govcdm_integrationsyncjob" parentDisplayName="Integration Sync Job" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="26" schemaName="Active Integration Sync Jobs" displayName="Active Integration Sync Jobs" parentSchemaName="govcdm_integrationsyncjob" parentDisplayName="Integration Sync Job" id="{6721f26e-aabd-4e94-960e-f273b8b01e56}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_jobstatus" displayName="Job Status" parentSchemaName="govcdm_integrationsyncjob" parentDisplayName="Integration Sync Job" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Integration Sync Job" id="{123689c3-cfb9-f011-bbd2-001dd806815d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_jobstatus" displayName="Job Status" parentSchemaName="govcdm_integrationsyncjob" parentDisplayName="Integration Sync Job" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Integration Sync Job" id="{c5f9a580-2f27-4a3d-926e-31ab369dfda7}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_lastseendatetime" displayName="Last Seen Date Time" parentSchemaName="govcdm_integrationidentifier" parentDisplayName="Integration Identifier" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="26" schemaName="Active Integration Identifiers" displayName="Active Integration Identifiers" parentSchemaName="govcdm_integrationidentifier" parentDisplayName="Integration Identifier" id="{e2d33694-a524-4c6d-8117-cc7618224238}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_lastseendatetime" displayName="Last Seen Date Time" parentSchemaName="govcdm_integrationidentifier" parentDisplayName="Integration Identifier" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Integration Identifier" id="{1ae05c65-cc1e-4f48-849b-fbad130e9e46}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_lastseendatetime" displayName="Last Seen Date Time" parentSchemaName="govcdm_integrationidentifier" parentDisplayName="Integration Identifier" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Integration Identifier" id="{d69e8da5-b5b9-f011-bbd2-001dd806815d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_ledgeraspect" displayName="Ledger Aspect" parentSchemaName="govcdm_integrationledger" parentDisplayName="Integration Ledger" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="26" schemaName="Active Integration Ledgers" displayName="Active Integration Ledgers" parentSchemaName="govcdm_integrationledger" parentDisplayName="Integration Ledger" id="{a1cd7433-4c1b-4e4a-b85d-38fd384c3f66}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_ledgeraspect" displayName="Ledger Aspect" parentSchemaName="govcdm_integrationledger" parentDisplayName="Integration Ledger" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Integration Ledger" id="{a37b5ba5-cfb9-f011-bbd2-001dd806815d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_ledgeraspect" displayName="Ledger Aspect" parentSchemaName="govcdm_integrationledger" parentDisplayName="Integration Ledger" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Integration Ledger" id="{bbe71f81-a06c-4469-9551-9ca525c59a4f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_ledgerstatus" displayName="Ledger Status" parentSchemaName="govcdm_integrationledger" parentDisplayName="Integration Ledger" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="26" schemaName="Active Integration Ledgers" displayName="Active Integration Ledgers" parentSchemaName="govcdm_integrationledger" parentDisplayName="Integration Ledger" id="{a1cd7433-4c1b-4e4a-b85d-38fd384c3f66}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_ledgerstatus" displayName="Ledger Status" parentSchemaName="govcdm_integrationledger" parentDisplayName="Integration Ledger" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Integration Ledger" id="{a37b5ba5-cfb9-f011-bbd2-001dd806815d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_ledgerstatus" displayName="Ledger Status" parentSchemaName="govcdm_integrationledger" parentDisplayName="Integration Ledger" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Integration Ledger" id="{bbe71f81-a06c-4469-9551-9ca525c59a4f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Policy ID" parentSchemaName="govcdm_integrationcommitpolicy" parentDisplayName="Integration Commit Policy" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="26" schemaName="Active Integration Commit Policies" displayName="Active Integration Commit Policies" parentSchemaName="govcdm_integrationcommitpolicy" parentDisplayName="Integration Commit Policy" id="{62af9db6-98b8-4f0f-b69f-694a8fe03eb6}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Policy ID" parentSchemaName="govcdm_integrationcommitpolicy" parentDisplayName="Integration Commit Policy" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Integration Commit Policy" id="{05b610a2-7c75-42bd-a125-2ee105d66d42}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Policy ID" parentSchemaName="govcdm_integrationcommitpolicy" parentDisplayName="Integration Commit Policy" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Integration Commit Policy" id="{31aa2a93-cfb9-f011-bbd2-001dd806815d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Identifier ID" parentSchemaName="govcdm_integrationidentifier" parentDisplayName="Integration Identifier" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="26" schemaName="Active Integration Identifiers" displayName="Active Integration Identifiers" parentSchemaName="govcdm_integrationidentifier" parentDisplayName="Integration Identifier" id="{e2d33694-a524-4c6d-8117-cc7618224238}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Identifier ID" parentSchemaName="govcdm_integrationidentifier" parentDisplayName="Integration Identifier" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Integration Identifier" id="{1ae05c65-cc1e-4f48-849b-fbad130e9e46}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Identifier ID" parentSchemaName="govcdm_integrationidentifier" parentDisplayName="Integration Identifier" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Integration Identifier" id="{d69e8da5-b5b9-f011-bbd2-001dd806815d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Ledger ID" parentSchemaName="govcdm_integrationledger" parentDisplayName="Integration Ledger" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="26" schemaName="Active Integration Ledgers" displayName="Active Integration Ledgers" parentSchemaName="govcdm_integrationledger" parentDisplayName="Integration Ledger" id="{a1cd7433-4c1b-4e4a-b85d-38fd384c3f66}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Ledger ID" parentSchemaName="govcdm_integrationledger" parentDisplayName="Integration Ledger" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Integration Ledger" id="{a37b5ba5-cfb9-f011-bbd2-001dd806815d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Ledger ID" parentSchemaName="govcdm_integrationledger" parentDisplayName="Integration Ledger" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Integration Ledger" id="{bbe71f81-a06c-4469-9551-9ca525c59a4f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Item ID" parentSchemaName="govcdm_integrationsyncitem" parentDisplayName="Integration Sync Item" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="26" schemaName="Active Integration Sync Items" displayName="Active Integration Sync Items" parentSchemaName="govcdm_integrationsyncitem" parentDisplayName="Integration Sync Item" id="{f9cb8145-14dc-4830-81b7-97cefa9799ee}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Item ID" parentSchemaName="govcdm_integrationsyncitem" parentDisplayName="Integration Sync Item" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Integration Sync Item" id="{82a9e549-6f12-4d1f-b2d1-33be4fcae9b7}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Item ID" parentSchemaName="govcdm_integrationsyncitem" parentDisplayName="Integration Sync Item" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Integration Sync Item" id="{dbc97bb7-cfb9-f011-bbd2-001dd806815d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Job ID" parentSchemaName="govcdm_integrationsyncjob" parentDisplayName="Integration Sync Job" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="26" schemaName="Active Integration Sync Jobs" displayName="Active Integration Sync Jobs" parentSchemaName="govcdm_integrationsyncjob" parentDisplayName="Integration Sync Job" id="{6721f26e-aabd-4e94-960e-f273b8b01e56}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Job ID" parentSchemaName="govcdm_integrationsyncjob" parentDisplayName="Integration Sync Job" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Integration Sync Job" id="{123689c3-cfb9-f011-bbd2-001dd806815d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Job ID" parentSchemaName="govcdm_integrationsyncjob" parentDisplayName="Integration Sync Job" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Integration Sync Job" id="{c5f9a580-2f27-4a3d-926e-31ab369dfda7}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Map ID" parentSchemaName="govcdm_integrationvaluemap" parentDisplayName="Integration Value Map" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="26" schemaName="Active Integration Value Maps" displayName="Active Integration Value Maps" parentSchemaName="govcdm_integrationvaluemap" parentDisplayName="Integration Value Map" id="{669da67e-5ba3-42a9-9a40-90fbea933b36}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Map ID" parentSchemaName="govcdm_integrationvaluemap" parentDisplayName="Integration Value Map" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Integration Value Map" id="{2b34accf-cfb9-f011-bbd2-001dd806815d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_name" displayName="Map ID" parentSchemaName="govcdm_integrationvaluemap" parentDisplayName="Integration Value Map" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Integration Value Map" id="{2fb008ad-208a-464e-a70a-a8606f50ec1f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_newvalue" displayName="New Value" parentSchemaName="govcdm_integrationsyncitem" parentDisplayName="Integration Sync Item" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="26" schemaName="Active Integration Sync Items" displayName="Active Integration Sync Items" parentSchemaName="govcdm_integrationsyncitem" parentDisplayName="Integration Sync Item" id="{f9cb8145-14dc-4830-81b7-97cefa9799ee}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_newvalue" displayName="New Value" parentSchemaName="govcdm_integrationsyncitem" parentDisplayName="Integration Sync Item" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Integration Sync Item" id="{82a9e549-6f12-4d1f-b2d1-33be4fcae9b7}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_newvalue" displayName="New Value" parentSchemaName="govcdm_integrationsyncitem" parentDisplayName="Integration Sync Item" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Integration Sync Item" id="{dbc97bb7-cfb9-f011-bbd2-001dd806815d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_notes" displayName="Notes" parentSchemaName="govcdm_integrationledger" parentDisplayName="Integration Ledger" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="26" schemaName="Active Integration Ledgers" displayName="Active Integration Ledgers" parentSchemaName="govcdm_integrationledger" parentDisplayName="Integration Ledger" id="{a1cd7433-4c1b-4e4a-b85d-38fd384c3f66}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_notes" displayName="Notes" parentSchemaName="govcdm_integrationledger" parentDisplayName="Integration Ledger" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Integration Ledger" id="{a37b5ba5-cfb9-f011-bbd2-001dd806815d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_notes" displayName="Notes" parentSchemaName="govcdm_integrationledger" parentDisplayName="Integration Ledger" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Integration Ledger" id="{bbe71f81-a06c-4469-9551-9ca525c59a4f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_processmessage" displayName="Process Message" parentSchemaName="govcdm_integrationsyncitem" parentDisplayName="Integration Sync Item" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="26" schemaName="Active Integration Sync Items" displayName="Active Integration Sync Items" parentSchemaName="govcdm_integrationsyncitem" parentDisplayName="Integration Sync Item" id="{f9cb8145-14dc-4830-81b7-97cefa9799ee}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_processmessage" displayName="Process Message" parentSchemaName="govcdm_integrationsyncitem" parentDisplayName="Integration Sync Item" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Integration Sync Item" id="{82a9e549-6f12-4d1f-b2d1-33be4fcae9b7}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_processmessage" displayName="Process Message" parentSchemaName="govcdm_integrationsyncitem" parentDisplayName="Integration Sync Item" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Integration Sync Item" id="{dbc97bb7-cfb9-f011-bbd2-001dd806815d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_sourcecode" displayName="Source Code" parentSchemaName="govcdm_integrationvaluemap" parentDisplayName="Integration Value Map" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="26" schemaName="Active Integration Value Maps" displayName="Active Integration Value Maps" parentSchemaName="govcdm_integrationvaluemap" parentDisplayName="Integration Value Map" id="{669da67e-5ba3-42a9-9a40-90fbea933b36}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_sourcecode" displayName="Source Code" parentSchemaName="govcdm_integrationvaluemap" parentDisplayName="Integration Value Map" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Integration Value Map" id="{2b34accf-cfb9-f011-bbd2-001dd806815d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_sourcecode" displayName="Source Code" parentSchemaName="govcdm_integrationvaluemap" parentDisplayName="Integration Value Map" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Integration Value Map" id="{2fb008ad-208a-464e-a70a-a8606f50ec1f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_sourcelabel" displayName="Source Label" parentSchemaName="govcdm_integrationvaluemap" parentDisplayName="Integration Value Map" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="26" schemaName="Active Integration Value Maps" displayName="Active Integration Value Maps" parentSchemaName="govcdm_integrationvaluemap" parentDisplayName="Integration Value Map" id="{669da67e-5ba3-42a9-9a40-90fbea933b36}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_sourcelabel" displayName="Source Label" parentSchemaName="govcdm_integrationvaluemap" parentDisplayName="Integration Value Map" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Integration Value Map" id="{2b34accf-cfb9-f011-bbd2-001dd806815d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_sourcelabel" displayName="Source Label" parentSchemaName="govcdm_integrationvaluemap" parentDisplayName="Integration Value Map" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Integration Value Map" id="{2fb008ad-208a-464e-a70a-a8606f50ec1f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_sourcesystemkey" displayName="Source System Key" parentSchemaName="govcdm_integrationidentifier" parentDisplayName="Integration Identifier" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="26" schemaName="Active Integration Identifiers" displayName="Active Integration Identifiers" parentSchemaName="govcdm_integrationidentifier" parentDisplayName="Integration Identifier" id="{e2d33694-a524-4c6d-8117-cc7618224238}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_sourcesystemkey" displayName="Source System Key" parentSchemaName="govcdm_integrationidentifier" parentDisplayName="Integration Identifier" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Integration Identifier" id="{1ae05c65-cc1e-4f48-849b-fbad130e9e46}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_sourcesystemkey" displayName="Source System Key" parentSchemaName="govcdm_integrationidentifier" parentDisplayName="Integration Identifier" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Integration Identifier" id="{d69e8da5-b5b9-f011-bbd2-001dd806815d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_sourcesystemkey" displayName="Source System Key" parentSchemaName="govcdm_integrationledger" parentDisplayName="Integration Ledger" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="26" schemaName="Active Integration Ledgers" displayName="Active Integration Ledgers" parentSchemaName="govcdm_integrationledger" parentDisplayName="Integration Ledger" id="{a1cd7433-4c1b-4e4a-b85d-38fd384c3f66}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_sourcesystemkey" displayName="Source System Key" parentSchemaName="govcdm_integrationledger" parentDisplayName="Integration Ledger" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Integration Ledger" id="{a37b5ba5-cfb9-f011-bbd2-001dd806815d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_sourcesystemkey" displayName="Source System Key" parentSchemaName="govcdm_integrationledger" parentDisplayName="Integration Ledger" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Integration Ledger" id="{bbe71f81-a06c-4469-9551-9ca525c59a4f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_sourcesystemkey" displayName="Source System Key" parentSchemaName="govcdm_integrationsyncjob" parentDisplayName="Integration Sync Job" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="26" schemaName="Active Integration Sync Jobs" displayName="Active Integration Sync Jobs" parentSchemaName="govcdm_integrationsyncjob" parentDisplayName="Integration Sync Job" id="{6721f26e-aabd-4e94-960e-f273b8b01e56}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_sourcesystemkey" displayName="Source System Key" parentSchemaName="govcdm_integrationsyncjob" parentDisplayName="Integration Sync Job" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Integration Sync Job" id="{123689c3-cfb9-f011-bbd2-001dd806815d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_sourcesystemkey" displayName="Source System Key" parentSchemaName="govcdm_integrationsyncjob" parentDisplayName="Integration Sync Job" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Integration Sync Job" id="{c5f9a580-2f27-4a3d-926e-31ab369dfda7}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_sourcesystemkey" displayName="Source System Key" parentSchemaName="govcdm_integrationvaluemap" parentDisplayName="Integration Value Map" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="26" schemaName="Active Integration Value Maps" displayName="Active Integration Value Maps" parentSchemaName="govcdm_integrationvaluemap" parentDisplayName="Integration Value Map" id="{669da67e-5ba3-42a9-9a40-90fbea933b36}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_sourcesystemkey" displayName="Source System Key" parentSchemaName="govcdm_integrationvaluemap" parentDisplayName="Integration Value Map" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Integration Value Map" id="{2b34accf-cfb9-f011-bbd2-001dd806815d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_sourcesystemkey" displayName="Source System Key" parentSchemaName="govcdm_integrationvaluemap" parentDisplayName="Integration Value Map" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Integration Value Map" id="{2fb008ad-208a-464e-a70a-a8606f50ec1f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_staleafterdays" displayName="Stale After Days" parentSchemaName="govcdm_integrationcommitpolicy" parentDisplayName="Integration Commit Policy" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="26" schemaName="Active Integration Commit Policies" displayName="Active Integration Commit Policies" parentSchemaName="govcdm_integrationcommitpolicy" parentDisplayName="Integration Commit Policy" id="{62af9db6-98b8-4f0f-b69f-694a8fe03eb6}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_staleafterdays" displayName="Stale After Days" parentSchemaName="govcdm_integrationcommitpolicy" parentDisplayName="Integration Commit Policy" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Integration Commit Policy" id="{05b610a2-7c75-42bd-a125-2ee105d66d42}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_staleafterdays" displayName="Stale After Days" parentSchemaName="govcdm_integrationcommitpolicy" parentDisplayName="Integration Commit Policy" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Integration Commit Policy" id="{31aa2a93-cfb9-f011-bbd2-001dd806815d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_submitteddatetime" displayName="Submitted Date Time" parentSchemaName="govcdm_integrationsyncjob" parentDisplayName="Integration Sync Job" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="26" schemaName="Active Integration Sync Jobs" displayName="Active Integration Sync Jobs" parentSchemaName="govcdm_integrationsyncjob" parentDisplayName="Integration Sync Job" id="{6721f26e-aabd-4e94-960e-f273b8b01e56}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_submitteddatetime" displayName="Submitted Date Time" parentSchemaName="govcdm_integrationsyncjob" parentDisplayName="Integration Sync Job" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Integration Sync Job" id="{123689c3-cfb9-f011-bbd2-001dd806815d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_submitteddatetime" displayName="Submitted Date Time" parentSchemaName="govcdm_integrationsyncjob" parentDisplayName="Integration Sync Job" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Integration Sync Job" id="{c5f9a580-2f27-4a3d-926e-31ab369dfda7}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_targetid" displayName="Target ID" parentSchemaName="govcdm_integrationidentifier" parentDisplayName="Integration Identifier" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="26" schemaName="Active Integration Identifiers" displayName="Active Integration Identifiers" parentSchemaName="govcdm_integrationidentifier" parentDisplayName="Integration Identifier" id="{e2d33694-a524-4c6d-8117-cc7618224238}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_targetid" displayName="Target ID" parentSchemaName="govcdm_integrationidentifier" parentDisplayName="Integration Identifier" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Integration Identifier" id="{1ae05c65-cc1e-4f48-849b-fbad130e9e46}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_targetid" displayName="Target ID" parentSchemaName="govcdm_integrationidentifier" parentDisplayName="Integration Identifier" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Integration Identifier" id="{d69e8da5-b5b9-f011-bbd2-001dd806815d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_targetid" displayName="Target ID" parentSchemaName="govcdm_integrationledger" parentDisplayName="Integration Ledger" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="26" schemaName="Active Integration Ledgers" displayName="Active Integration Ledgers" parentSchemaName="govcdm_integrationledger" parentDisplayName="Integration Ledger" id="{a1cd7433-4c1b-4e4a-b85d-38fd384c3f66}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_targetid" displayName="Target ID" parentSchemaName="govcdm_integrationledger" parentDisplayName="Integration Ledger" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Integration Ledger" id="{a37b5ba5-cfb9-f011-bbd2-001dd806815d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_targetid" displayName="Target ID" parentSchemaName="govcdm_integrationledger" parentDisplayName="Integration Ledger" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Integration Ledger" id="{bbe71f81-a06c-4469-9551-9ca525c59a4f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_targetid" displayName="Target ID" parentSchemaName="govcdm_integrationsyncitem" parentDisplayName="Integration Sync Item" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="26" schemaName="Active Integration Sync Items" displayName="Active Integration Sync Items" parentSchemaName="govcdm_integrationsyncitem" parentDisplayName="Integration Sync Item" id="{f9cb8145-14dc-4830-81b7-97cefa9799ee}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_targetid" displayName="Target ID" parentSchemaName="govcdm_integrationsyncitem" parentDisplayName="Integration Sync Item" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Integration Sync Item" id="{82a9e549-6f12-4d1f-b2d1-33be4fcae9b7}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_targetid" displayName="Target ID" parentSchemaName="govcdm_integrationsyncitem" parentDisplayName="Integration Sync Item" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Integration Sync Item" id="{dbc97bb7-cfb9-f011-bbd2-001dd806815d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_targettable" displayName="Target Table" parentSchemaName="govcdm_integrationcommitpolicy" parentDisplayName="Integration Commit Policy" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="26" schemaName="Active Integration Commit Policies" displayName="Active Integration Commit Policies" parentSchemaName="govcdm_integrationcommitpolicy" parentDisplayName="Integration Commit Policy" id="{62af9db6-98b8-4f0f-b69f-694a8fe03eb6}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_targettable" displayName="Target Table" parentSchemaName="govcdm_integrationcommitpolicy" parentDisplayName="Integration Commit Policy" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Integration Commit Policy" id="{05b610a2-7c75-42bd-a125-2ee105d66d42}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_targettable" displayName="Target Table" parentSchemaName="govcdm_integrationcommitpolicy" parentDisplayName="Integration Commit Policy" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Integration Commit Policy" id="{31aa2a93-cfb9-f011-bbd2-001dd806815d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_targettable" displayName="Target Table" parentSchemaName="govcdm_integrationidentifier" parentDisplayName="Integration Identifier" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="26" schemaName="Active Integration Identifiers" displayName="Active Integration Identifiers" parentSchemaName="govcdm_integrationidentifier" parentDisplayName="Integration Identifier" id="{e2d33694-a524-4c6d-8117-cc7618224238}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_targettable" displayName="Target Table" parentSchemaName="govcdm_integrationidentifier" parentDisplayName="Integration Identifier" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Integration Identifier" id="{1ae05c65-cc1e-4f48-849b-fbad130e9e46}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_targettable" displayName="Target Table" parentSchemaName="govcdm_integrationidentifier" parentDisplayName="Integration Identifier" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Integration Identifier" id="{d69e8da5-b5b9-f011-bbd2-001dd806815d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_targettable" displayName="Target Table" parentSchemaName="govcdm_integrationledger" parentDisplayName="Integration Ledger" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="26" schemaName="Active Integration Ledgers" displayName="Active Integration Ledgers" parentSchemaName="govcdm_integrationledger" parentDisplayName="Integration Ledger" id="{a1cd7433-4c1b-4e4a-b85d-38fd384c3f66}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_targettable" displayName="Target Table" parentSchemaName="govcdm_integrationledger" parentDisplayName="Integration Ledger" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Integration Ledger" id="{a37b5ba5-cfb9-f011-bbd2-001dd806815d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_targettable" displayName="Target Table" parentSchemaName="govcdm_integrationledger" parentDisplayName="Integration Ledger" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Integration Ledger" id="{bbe71f81-a06c-4469-9551-9ca525c59a4f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_targettable" displayName="Target Table" parentSchemaName="govcdm_integrationsyncitem" parentDisplayName="Integration Sync Item" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="26" schemaName="Active Integration Sync Items" displayName="Active Integration Sync Items" parentSchemaName="govcdm_integrationsyncitem" parentDisplayName="Integration Sync Item" id="{f9cb8145-14dc-4830-81b7-97cefa9799ee}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_targettable" displayName="Target Table" parentSchemaName="govcdm_integrationsyncitem" parentDisplayName="Integration Sync Item" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Integration Sync Item" id="{82a9e549-6f12-4d1f-b2d1-33be4fcae9b7}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="govcdm_targettable" displayName="Target Table" parentSchemaName="govcdm_integrationsyncitem" parentDisplayName="Integration Sync Item" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Integration Sync Item" id="{dbc97bb7-cfb9-f011-bbd2-001dd806815d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="govcdm_integrationcommitpolicy" parentDisplayName="Integration Commit Policy" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Integration Commit Policy" id="{05b610a2-7c75-42bd-a125-2ee105d66d42}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="govcdm_integrationidentifier" parentDisplayName="Integration Identifier" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Integration Identifier" id="{1ae05c65-cc1e-4f48-849b-fbad130e9e46}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="govcdm_integrationledger" parentDisplayName="Integration Ledger" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Integration Ledger" id="{bbe71f81-a06c-4469-9551-9ca525c59a4f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="govcdm_integrationsyncitem" parentDisplayName="Integration Sync Item" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Integration Sync Item" id="{82a9e549-6f12-4d1f-b2d1-33be4fcae9b7}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="govcdm_integrationsyncjob" parentDisplayName="Integration Sync Job" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Integration Sync Job" id="{c5f9a580-2f27-4a3d-926e-31ab369dfda7}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="govcdm_integrationvaluemap" parentDisplayName="Integration Value Map" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Integration Value Map" id="{2fb008ad-208a-464e-a70a-a8606f50ec1f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="statecode" displayName="Status" parentSchemaName="govcdm_integrationcommitpolicy" parentDisplayName="Integration Commit Policy" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="26" schemaName="Active Integration Commit Policies" displayName="Active Integration Commit Policies" parentSchemaName="govcdm_integrationcommitpolicy" parentDisplayName="Integration Commit Policy" id="{62af9db6-98b8-4f0f-b69f-694a8fe03eb6}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="statecode" displayName="Status" parentSchemaName="govcdm_integrationidentifier" parentDisplayName="Integration Identifier" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="26" schemaName="Active Integration Identifiers" displayName="Active Integration Identifiers" parentSchemaName="govcdm_integrationidentifier" parentDisplayName="Integration Identifier" id="{e2d33694-a524-4c6d-8117-cc7618224238}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="statecode" displayName="Status" parentSchemaName="govcdm_integrationledger" parentDisplayName="Integration Ledger" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="26" schemaName="Active Integration Ledgers" displayName="Active Integration Ledgers" parentSchemaName="govcdm_integrationledger" parentDisplayName="Integration Ledger" id="{a1cd7433-4c1b-4e4a-b85d-38fd384c3f66}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="statecode" displayName="Status" parentSchemaName="govcdm_integrationsyncitem" parentDisplayName="Integration Sync Item" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="26" schemaName="Active Integration Sync Items" displayName="Active Integration Sync Items" parentSchemaName="govcdm_integrationsyncitem" parentDisplayName="Integration Sync Item" id="{f9cb8145-14dc-4830-81b7-97cefa9799ee}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="statecode" displayName="Status" parentSchemaName="govcdm_integrationsyncjob" parentDisplayName="Integration Sync Job" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="26" schemaName="Active Integration Sync Jobs" displayName="Active Integration Sync Jobs" parentSchemaName="govcdm_integrationsyncjob" parentDisplayName="Integration Sync Job" id="{6721f26e-aabd-4e94-960e-f273b8b01e56}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="statecode" displayName="Status" parentSchemaName="govcdm_integrationvaluemap" parentDisplayName="Integration Value Map" solution="govcdm_dataintegration (1.0.0.0)" />
+        <Dependent type="26" schemaName="Active Integration Value Maps" displayName="Active Integration Value Maps" parentSchemaName="govcdm_integrationvaluemap" parentDisplayName="Integration Value Map" id="{669da67e-5ba3-42a9-9a40-90fbea933b36}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Active Integration Commit Policies" displayName="Active Integration Commit Policies" parentSchemaName="govcdm_integrationcommitpolicy" parentDisplayName="Integration Commit Policy" solution="govcdm_dataintegration (1.0.0.0)" id="{62af9db6-98b8-4f0f-b69f-694a8fe03eb6}" />
+        <Dependent type="26" schemaName="Active Integration Commit Policies" displayName="Active Integration Commit Policies" parentSchemaName="govcdm_integrationcommitpolicy" parentDisplayName="Integration Commit Policy" id="{62af9db6-98b8-4f0f-b69f-694a8fe03eb6}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Active Integration Identifiers" displayName="Active Integration Identifiers" parentSchemaName="govcdm_integrationidentifier" parentDisplayName="Integration Identifier" solution="govcdm_dataintegration (1.0.0.0)" id="{e2d33694-a524-4c6d-8117-cc7618224238}" />
+        <Dependent type="26" schemaName="Active Integration Identifiers" displayName="Active Integration Identifiers" parentSchemaName="govcdm_integrationidentifier" parentDisplayName="Integration Identifier" id="{e2d33694-a524-4c6d-8117-cc7618224238}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Active Integration Ledgers" displayName="Active Integration Ledgers" parentSchemaName="govcdm_integrationledger" parentDisplayName="Integration Ledger" solution="govcdm_dataintegration (1.0.0.0)" id="{a1cd7433-4c1b-4e4a-b85d-38fd384c3f66}" />
+        <Dependent type="26" schemaName="Active Integration Ledgers" displayName="Active Integration Ledgers" parentSchemaName="govcdm_integrationledger" parentDisplayName="Integration Ledger" id="{a1cd7433-4c1b-4e4a-b85d-38fd384c3f66}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Active Integration Sync Items" displayName="Active Integration Sync Items" parentSchemaName="govcdm_integrationsyncitem" parentDisplayName="Integration Sync Item" solution="govcdm_dataintegration (1.0.0.0)" id="{f9cb8145-14dc-4830-81b7-97cefa9799ee}" />
+        <Dependent type="26" schemaName="Active Integration Sync Items" displayName="Active Integration Sync Items" parentSchemaName="govcdm_integrationsyncitem" parentDisplayName="Integration Sync Item" id="{f9cb8145-14dc-4830-81b7-97cefa9799ee}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Active Integration Sync Jobs" displayName="Active Integration Sync Jobs" parentSchemaName="govcdm_integrationsyncjob" parentDisplayName="Integration Sync Job" solution="govcdm_dataintegration (1.0.0.0)" id="{6721f26e-aabd-4e94-960e-f273b8b01e56}" />
+        <Dependent type="26" schemaName="Active Integration Sync Jobs" displayName="Active Integration Sync Jobs" parentSchemaName="govcdm_integrationsyncjob" parentDisplayName="Integration Sync Job" id="{6721f26e-aabd-4e94-960e-f273b8b01e56}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Active Integration Value Maps" displayName="Active Integration Value Maps" parentSchemaName="govcdm_integrationvaluemap" parentDisplayName="Integration Value Map" solution="govcdm_dataintegration (1.0.0.0)" id="{669da67e-5ba3-42a9-9a40-90fbea933b36}" />
+        <Dependent type="26" schemaName="Active Integration Value Maps" displayName="Active Integration Value Maps" parentSchemaName="govcdm_integrationvaluemap" parentDisplayName="Integration Value Map" id="{669da67e-5ba3-42a9-9a40-90fbea933b36}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Information" parentDisplayName="Integration Commit Policy" solution="govcdm_dataintegration (1.0.0.0)" id="{05b610a2-7c75-42bd-a125-2ee105d66d42}" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Integration Commit Policy" id="{05b610a2-7c75-42bd-a125-2ee105d66d42}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Quick Create" parentDisplayName="Integration Sync Job" solution="govcdm_dataintegration (1.0.0.0)" id="{123689c3-cfb9-f011-bbd2-001dd806815d}" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Integration Sync Job" id="{123689c3-cfb9-f011-bbd2-001dd806815d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Information" parentDisplayName="Integration Identifier" solution="govcdm_dataintegration (1.0.0.0)" id="{1ae05c65-cc1e-4f48-849b-fbad130e9e46}" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Integration Identifier" id="{1ae05c65-cc1e-4f48-849b-fbad130e9e46}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Quick Create" parentDisplayName="Integration Value Map" solution="govcdm_dataintegration (1.0.0.0)" id="{2b34accf-cfb9-f011-bbd2-001dd806815d}" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Integration Value Map" id="{2b34accf-cfb9-f011-bbd2-001dd806815d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Information" parentDisplayName="Integration Value Map" solution="govcdm_dataintegration (1.0.0.0)" id="{2fb008ad-208a-464e-a70a-a8606f50ec1f}" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Integration Value Map" id="{2fb008ad-208a-464e-a70a-a8606f50ec1f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Quick Create" parentDisplayName="Integration Commit Policy" solution="govcdm_dataintegration (1.0.0.0)" id="{31aa2a93-cfb9-f011-bbd2-001dd806815d}" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Integration Commit Policy" id="{31aa2a93-cfb9-f011-bbd2-001dd806815d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Information" parentDisplayName="Integration Sync Item" solution="govcdm_dataintegration (1.0.0.0)" id="{82a9e549-6f12-4d1f-b2d1-33be4fcae9b7}" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Integration Sync Item" id="{82a9e549-6f12-4d1f-b2d1-33be4fcae9b7}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Quick Create" parentDisplayName="Integration Ledger" solution="govcdm_dataintegration (1.0.0.0)" id="{a37b5ba5-cfb9-f011-bbd2-001dd806815d}" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Integration Ledger" id="{a37b5ba5-cfb9-f011-bbd2-001dd806815d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Information" parentDisplayName="Integration Ledger" solution="govcdm_dataintegration (1.0.0.0)" id="{bbe71f81-a06c-4469-9551-9ca525c59a4f}" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Integration Ledger" id="{bbe71f81-a06c-4469-9551-9ca525c59a4f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Information" parentDisplayName="Integration Sync Job" solution="govcdm_dataintegration (1.0.0.0)" id="{c5f9a580-2f27-4a3d-926e-31ab369dfda7}" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Integration Sync Job" id="{c5f9a580-2f27-4a3d-926e-31ab369dfda7}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Quick Create" parentDisplayName="Integration Identifier" solution="govcdm_dataintegration (1.0.0.0)" id="{d69e8da5-b5b9-f011-bbd2-001dd806815d}" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Integration Identifier" id="{d69e8da5-b5b9-f011-bbd2-001dd806815d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Quick Create" parentDisplayName="Integration Sync Item" solution="govcdm_dataintegration (1.0.0.0)" id="{dbc97bb7-cfb9-f011-bbd2-001dd806815d}" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Integration Sync Item" id="{dbc97bb7-cfb9-f011-bbd2-001dd806815d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="msdyn_/Images/AppModule_Default_Icon.png" displayName="msdyn_/Images/AppModule_Default_Icon.png" solution="AppModuleWebResources (2.5)">
+          <package appName="AppModule Web Resources Package" version="2.5">AppModuleWebResources (2.5)</package>
+        </Required>
+        <Dependent type="80" schemaName="msgov_DataIntegration" displayName="Data Integration" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="SettingDefinition" displayName="AppChannel" solution="msdyn_AppFrameworkInfraExtensions (1.0.0.15)" id.uniquename="AppChannel">
+          <package appName="PowerAppsAppFramework Package" version="1.0.0.23">PowerAppsAppFramework_Anchor (1.0.0.23)</package>
+        </Required>
+        <Dependent type="AppSetting" displayName="parentappmoduleid.uniquename=msgov_DataIntegration,settingdefinitionid.uniquename=AppChannel" id.parentappmoduleid.uniquename="msgov_DataIntegration" id.settingdefinitionid.uniquename="AppChannel" />
+      </MissingDependency>
+    </MissingDependencies>
+  </SolutionManifest>
+</ImportExportXml>
