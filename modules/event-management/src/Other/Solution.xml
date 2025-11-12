@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ImportExportXml version="9.2.25094.171" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" OrganizationVersion="9.2.25094.171" OrganizationSchemaType="Standard" CRMServerServiceabilityVersion="9.2.25094.00171">
+<ImportExportXml version="9.2.25095.165" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" OrganizationVersion="9.2.25095.165" OrganizationSchemaType="Standard" CRMServerServiceabilityVersion="9.2.25095.00169">
   <SolutionManifest>
     <UniqueName>msgov_eventmanagement</UniqueName>
     <LocalizedNames>
       <LocalizedName description="Microsoft Gov - Event Management" languagecode="1033" />
     </LocalizedNames>
     <Descriptions />
-    <Version>1.1.0.0</Version>
+    <Version>1.2.0.0</Version>
     <Managed>2</Managed>
     <Publisher>
       <UniqueName>msgovsolutions</UniqueName>
@@ -14,12 +14,12 @@
         <LocalizedName description="Microsoft Government Solutions" languagecode="1033" />
       </LocalizedNames>
       <Descriptions>
-        <Description description="Microsoft Government Solutions" languagecode="1033" />
+        <Description description="msgovsolutions" languagecode="1033" />
       </Descriptions>
       <EMailAddress xsi:nil="true"></EMailAddress>
       <SupportingWebsiteUrl xsi:nil="true"></SupportingWebsiteUrl>
       <CustomizationPrefix>msgov</CustomizationPrefix>
-      <CustomizationOptionValuePrefix>18844</CustomizationOptionValuePrefix>
+      <CustomizationOptionValuePrefix>38751</CustomizationOptionValuePrefix>
       <Addresses>
         <Address>
           <AddressNumber>1</AddressNumber>
@@ -99,927 +99,927 @@
     </RootComponents>
     <MissingDependencies>
       <MissingDependency>
-        <Required type="1" schemaName="govcdm_bookableresource" displayName="Bookable Resource" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="1" schemaName="govcdm_bookableresource" displayName="Bookable Resource" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="1" schemaName="govcdm_bookableresource" displayName="Bookable Resource" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="1" schemaName="govcdm_bookableresource" displayName="Bookable Resource" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="1" schemaName="govcdm_bookableresource" displayName="Bookable Resource" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Bookable Resource Quick Create" parentDisplayName="Bookable Resource" id="{e9d05192-b571-ee11-9ae7-6045bd0062b9}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="1" schemaName="govcdm_bookableresource" displayName="Bookable Resource" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="1" schemaName="govcdm_bookableresource" displayName="Bookable Resource" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="62" schemaName="msgov_EventManagement" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="1" schemaName="govcdm_bookableresource" displayName="Bookable Resource" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="1" schemaName="govcdm_bookableresource" displayName="Bookable Resource" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="80" schemaName="msgov_EventManagement" displayName="Event Management" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="1" schemaName="govcdm_bookableresourcepayment" displayName="Bookable Resource Payment" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="1" schemaName="govcdm_bookableresourcepayment" displayName="Bookable Resource Payment" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="1" schemaName="govcdm_bookableresourcepayment" displayName="Bookable Resource Payment" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="1" schemaName="govcdm_bookableresourcepayment" displayName="Bookable Resource Payment" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="1" schemaName="govcdm_bookableresourcepayment" displayName="Bookable Resource Payment" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Information" parentDisplayName="Bookable Resource Reservation" id="{a55f6654-9e7a-440f-b887-7ca8cf2d88e9}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="1" schemaName="govcdm_bookableresourcepayment" displayName="Bookable Resource Payment" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="1" schemaName="govcdm_bookableresourcepayment" displayName="Bookable Resource Payment" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Bookable Resource Payment Quick Create" parentDisplayName="Bookable Resource Payment" id="{d6b1656f-b671-ee11-9ae7-6045bd0062b9}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="1" schemaName="govcdm_bookableresourcepayment" displayName="Bookable Resource Payment" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="1" schemaName="govcdm_bookableresourcepayment" displayName="Bookable Resource Payment" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="80" schemaName="msgov_EventManagement" displayName="Event Management" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="1" schemaName="govcdm_bookableresourcereservation" displayName="Bookable Resource Reservation" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="1" schemaName="govcdm_bookableresourcereservation" displayName="Bookable Resource Reservation" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="1" schemaName="govcdm_bookableresourcereservation" displayName="Bookable Resource Reservation" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="1" schemaName="govcdm_bookableresourcereservation" displayName="Bookable Resource Reservation" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="1" schemaName="govcdm_bookableresourcereservation" displayName="Bookable Resource Reservation" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Bookable Resource Reservation Quick Create" parentDisplayName="Bookable Resource Reservation" id="{7986868a-b671-ee11-9ae7-6045bd0062b9}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="1" schemaName="govcdm_bookableresourcereservation" displayName="Bookable Resource Reservation" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="1" schemaName="govcdm_bookableresourcereservation" displayName="Bookable Resource Reservation" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Information" parentDisplayName="Event" id="{d6c41f48-9ffa-4ff8-bc21-d3e2fd2dc701}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="1" schemaName="govcdm_bookableresourcereservation" displayName="Bookable Resource Reservation" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="1" schemaName="govcdm_bookableresourcereservation" displayName="Bookable Resource Reservation" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Information" parentDisplayName="Bookable Resource" id="{ffa05bca-e4ae-46b9-b957-dbc626987ee5}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="1" schemaName="govcdm_bookableresourcereservation" displayName="Bookable Resource Reservation" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="1" schemaName="govcdm_bookableresourcereservation" displayName="Bookable Resource Reservation" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="62" schemaName="msgov_EventManagement" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="1" schemaName="govcdm_bookableresourcereservation" displayName="Bookable Resource Reservation" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="1" schemaName="govcdm_bookableresourcereservation" displayName="Bookable Resource Reservation" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="80" schemaName="msgov_EventManagement" displayName="Event Management" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="1" schemaName="govcdm_event" displayName="Event" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="1" schemaName="govcdm_event" displayName="Event" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="1" schemaName="govcdm_event" displayName="Event" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="1" schemaName="govcdm_event" displayName="Event" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="1" schemaName="govcdm_event" displayName="Event" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="300" schemaName="msgov_mastercalendar_35d48" displayName="Master Calendar" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="1" schemaName="govcdm_event" displayName="Event" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="1" schemaName="govcdm_event" displayName="Event" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="62" schemaName="msgov_EventManagement" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="1" schemaName="govcdm_event" displayName="Event" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="1" schemaName="govcdm_event" displayName="Event" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="80" schemaName="msgov_EventManagement" displayName="Event Management" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="1" schemaName="govcdm_eventattendee" displayName="Event Attendee" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="1" schemaName="govcdm_eventattendee" displayName="Event Attendee" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="1" schemaName="govcdm_eventattendee" displayName="Event Attendee" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="1" schemaName="govcdm_eventattendee" displayName="Event Attendee" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="1" schemaName="govcdm_eventattendee" displayName="Event Attendee" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Event Attendee Quick Create" parentDisplayName="Event Attendee" id="{55198eae-b771-ee11-9ae7-6045bd0062b9}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="1" schemaName="govcdm_eventattendee" displayName="Event Attendee" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="1" schemaName="govcdm_eventattendee" displayName="Event Attendee" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="80" schemaName="msgov_EventManagement" displayName="Event Management" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="1" schemaName="govcdm_evententry" displayName="Event Entry" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="1" schemaName="govcdm_evententry" displayName="Event Entry" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="1" schemaName="govcdm_evententry" displayName="Event Entry" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="1" schemaName="govcdm_evententry" displayName="Event Entry" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="1" schemaName="govcdm_evententry" displayName="Event Entry" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Information" parentDisplayName="Event" id="{d6c41f48-9ffa-4ff8-bc21-d3e2fd2dc701}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="1" schemaName="govcdm_evententry" displayName="Event Entry" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="1" schemaName="govcdm_evententry" displayName="Event Entry" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="62" schemaName="msgov_EventManagement" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="1" schemaName="govcdm_evententry" displayName="Event Entry" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="1" schemaName="govcdm_evententry" displayName="Event Entry" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="80" schemaName="msgov_EventManagement" displayName="Event Management" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="1" schemaName="govcdm_eventparticipant" displayName="Event Participant" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="1" schemaName="govcdm_eventparticipant" displayName="Event Participant" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="1" schemaName="govcdm_eventparticipant" displayName="Event Participant" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="1" schemaName="govcdm_eventparticipant" displayName="Event Participant" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="1" schemaName="govcdm_eventparticipant" displayName="Event Participant" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Information" parentDisplayName="Event" id="{d6c41f48-9ffa-4ff8-bc21-d3e2fd2dc701}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="1" schemaName="govcdm_eventparticipant" displayName="Event Participant" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="1" schemaName="govcdm_eventparticipant" displayName="Event Participant" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="62" schemaName="msgov_EventManagement" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="1" schemaName="govcdm_eventparticipant" displayName="Event Participant" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="1" schemaName="govcdm_eventparticipant" displayName="Event Participant" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="80" schemaName="msgov_EventManagement" displayName="Event Management" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="1" schemaName="govcdm_eventrequest" displayName="Event Request" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="1" schemaName="govcdm_eventrequest" displayName="Event Request" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="1" schemaName="govcdm_eventrequest" displayName="Event Request" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="1" schemaName="govcdm_eventrequest" displayName="Event Request" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="1" schemaName="govcdm_eventrequest" displayName="Event Request" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Information" parentDisplayName="Event" id="{d6c41f48-9ffa-4ff8-bc21-d3e2fd2dc701}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="1" schemaName="govcdm_eventrequest" displayName="Event Request" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="1" schemaName="govcdm_eventrequest" displayName="Event Request" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="62" schemaName="msgov_EventManagement" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="1" schemaName="govcdm_eventrequest" displayName="Event Request" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="1" schemaName="govcdm_eventrequest" displayName="Event Request" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="80" schemaName="msgov_EventManagement" displayName="Event Management" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="1" schemaName="govcdm_eventsession" displayName="Event Session" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="1" schemaName="govcdm_eventsession" displayName="Event Session" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="1" schemaName="govcdm_eventsession" displayName="Event Session" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="1" schemaName="govcdm_eventsession" displayName="Event Session" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="1" schemaName="govcdm_eventsession" displayName="Event Session" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Information" parentDisplayName="Event" id="{d6c41f48-9ffa-4ff8-bc21-d3e2fd2dc701}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="1" schemaName="govcdm_eventsession" displayName="Event Session" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="1" schemaName="govcdm_eventsession" displayName="Event Session" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="62" schemaName="msgov_EventManagement" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="1" schemaName="govcdm_eventsession" displayName="Event Session" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="1" schemaName="govcdm_eventsession" displayName="Event Session" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="80" schemaName="msgov_EventManagement" displayName="Event Management" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="1" schemaName="govcdm_eventsessionparticipant" displayName="Event Session Participant" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="1" schemaName="govcdm_eventsessionparticipant" displayName="Event Session Participant" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="1" schemaName="govcdm_eventsessionparticipant" displayName="Event Session Participant" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="1" schemaName="govcdm_eventsessionparticipant" displayName="Event Session Participant" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="1" schemaName="govcdm_eventsessionparticipant" displayName="Event Session Participant" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Information" parentDisplayName="Event Session" id="{f1d1119f-bddd-4a47-900a-7e5fd3aa93a0}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="1" schemaName="govcdm_eventsessionparticipant" displayName="Event Session Participant" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="1" schemaName="govcdm_eventsessionparticipant" displayName="Event Session Participant" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="62" schemaName="msgov_EventManagement" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="1" schemaName="govcdm_eventsessionparticipant" displayName="Event Session Participant" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="1" schemaName="govcdm_eventsessionparticipant" displayName="Event Session Participant" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="80" schemaName="msgov_EventManagement" displayName="Event Management" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="1" schemaName="govcdm_eventsponsor" displayName="Event Sponsor" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="1" schemaName="govcdm_eventsponsor" displayName="Event Sponsor" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="1" schemaName="govcdm_eventsponsor" displayName="Event Sponsor" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="1" schemaName="govcdm_eventsponsor" displayName="Event Sponsor" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="1" schemaName="govcdm_eventsponsor" displayName="Event Sponsor" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Information" parentDisplayName="Event" id="{d6c41f48-9ffa-4ff8-bc21-d3e2fd2dc701}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="1" schemaName="govcdm_eventsponsor" displayName="Event Sponsor" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="1" schemaName="govcdm_eventsponsor" displayName="Event Sponsor" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="62" schemaName="msgov_EventManagement" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="1" schemaName="govcdm_eventsponsor" displayName="Event Sponsor" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="1" schemaName="govcdm_eventsponsor" displayName="Event Sponsor" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="80" schemaName="msgov_EventManagement" displayName="Event Management" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="1" schemaName="govcdm_eventtrack" displayName="Event Track" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="1" schemaName="govcdm_eventtrack" displayName="Event Track" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="1" schemaName="govcdm_eventtrack" displayName="Event Track" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="1" schemaName="govcdm_eventtrack" displayName="Event Track" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="1" schemaName="govcdm_eventtrack" displayName="Event Track" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Information" parentDisplayName="Event" id="{d6c41f48-9ffa-4ff8-bc21-d3e2fd2dc701}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="1" schemaName="govcdm_eventtrack" displayName="Event Track" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="1" schemaName="govcdm_eventtrack" displayName="Event Track" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="62" schemaName="msgov_EventManagement" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="1" schemaName="govcdm_eventtrack" displayName="Event Track" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="1" schemaName="govcdm_eventtrack" displayName="Event Track" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="80" schemaName="msgov_EventManagement" displayName="Event Management" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="1" schemaName="govcdm_eventtype" displayName="Event Type" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="1" schemaName="govcdm_eventtype" displayName="Event Type" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="62" schemaName="msgov_EventManagement" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="1" schemaName="govcdm_eventtype" displayName="Event Type" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="1" schemaName="govcdm_eventtype" displayName="Event Type" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="80" schemaName="msgov_EventManagement" displayName="Event Management" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="10" schemaName="govcdm_event_AgendaDocument_govcdm_document" displayName="govcdm_event_AgendaDocument_govcdm_document" parentSchemaName="govcdm_document" parentDisplayName="Document" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="10" schemaName="govcdm_event_AgendaDocument_govcdm_document" displayName="govcdm_event_AgendaDocument_govcdm_document" parentSchemaName="govcdm_document" parentDisplayName="Document" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Information" parentDisplayName="Event" id="{d6c41f48-9ffa-4ff8-bc21-d3e2fd2dc701}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="10" schemaName="govcdm_event_CDANDADocument_govcdm_document" displayName="govcdm_event_CDANDADocument_govcdm_document" parentSchemaName="govcdm_document" parentDisplayName="Document" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="10" schemaName="govcdm_event_CDANDADocument_govcdm_document" displayName="govcdm_event_CDANDADocument_govcdm_document" parentSchemaName="govcdm_document" parentDisplayName="Document" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Information" parentDisplayName="Event" id="{d6c41f48-9ffa-4ff8-bc21-d3e2fd2dc701}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="10" schemaName="govcdm_event_EventLocation_govcdm_location" displayName="govcdm_event_EventLocation_govcdm_location" parentSchemaName="govcdm_location" parentDisplayName="Location" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="10" schemaName="govcdm_event_EventLocation_govcdm_location" displayName="govcdm_event_EventLocation_govcdm_location" parentSchemaName="govcdm_location" parentDisplayName="Location" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Information" parentDisplayName="Event" id="{d6c41f48-9ffa-4ff8-bc21-d3e2fd2dc701}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="10" schemaName="govcdm_event_EventType_govcdm_eventtype" displayName="govcdm_event_EventType_govcdm_eventtype" parentSchemaName="govcdm_eventtype" parentDisplayName="Event Type" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="10" schemaName="govcdm_event_EventType_govcdm_eventtype" displayName="govcdm_event_EventType_govcdm_eventtype" parentSchemaName="govcdm_eventtype" parentDisplayName="Event Type" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Information" parentDisplayName="Event" id="{d6c41f48-9ffa-4ff8-bc21-d3e2fd2dc701}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="10" schemaName="govcdm_event_EventType_govcdm_eventtype" displayName="govcdm_event_EventType_govcdm_eventtype" parentSchemaName="govcdm_eventtype" parentDisplayName="Event Type" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="10" schemaName="govcdm_event_EventType_govcdm_eventtype" displayName="govcdm_event_EventType_govcdm_eventtype" parentSchemaName="govcdm_eventtype" parentDisplayName="Event Type" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Quick Create" parentDisplayName="Event" id="{e5ee9ff9-ddad-f011-bbd2-001dd80888ed}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="10" schemaName="govcdm_event_FAQDocument_govcdm_document" displayName="govcdm_event_FAQDocument_govcdm_document" parentSchemaName="govcdm_document" parentDisplayName="Document" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="10" schemaName="govcdm_event_FAQDocument_govcdm_document" displayName="govcdm_event_FAQDocument_govcdm_document" parentSchemaName="govcdm_document" parentDisplayName="Document" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Information" parentDisplayName="Event" id="{d6c41f48-9ffa-4ff8-bc21-d3e2fd2dc701}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="10" schemaName="govcdm_event_TermsandConditionsDocument_govcdm_document" displayName="govcdm_event_TermsandConditionsDocument_govcdm_document" parentSchemaName="govcdm_document" parentDisplayName="Document" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="10" schemaName="govcdm_event_TermsandConditionsDocument_govcdm_document" displayName="govcdm_event_TermsandConditionsDocument_govcdm_document" parentSchemaName="govcdm_document" parentDisplayName="Document" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Information" parentDisplayName="Event" id="{d6c41f48-9ffa-4ff8-bc21-d3e2fd2dc701}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="10" schemaName="govcdm_event_VolunteerDocument_govcdm_document" displayName="govcdm_event_VolunteerDocument_govcdm_document" parentSchemaName="govcdm_document" parentDisplayName="Document" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="10" schemaName="govcdm_event_VolunteerDocument_govcdm_document" displayName="govcdm_event_VolunteerDocument_govcdm_document" parentSchemaName="govcdm_document" parentDisplayName="Document" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Information" parentDisplayName="Event" id="{d6c41f48-9ffa-4ff8-bc21-d3e2fd2dc701}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="10" schemaName="govcdm_evententry_Event_govcdm_event" displayName="govcdm_evententry_Event_govcdm_event" parentSchemaName="govcdm_event" parentDisplayName="Event" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="10" schemaName="govcdm_evententry_Event_govcdm_event" displayName="govcdm_evententry_Event_govcdm_event" parentSchemaName="govcdm_event" parentDisplayName="Event" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Quick Create" parentDisplayName="Event Entry" id="{466aec33-e0ad-f011-bbd2-001dd80888ed}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="10" schemaName="govcdm_evententry_Event_govcdm_event" displayName="govcdm_evententry_Event_govcdm_event" parentSchemaName="govcdm_event" parentDisplayName="Event" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="10" schemaName="govcdm_evententry_Event_govcdm_event" displayName="govcdm_evententry_Event_govcdm_event" parentSchemaName="govcdm_event" parentDisplayName="Event" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Information" parentDisplayName="Event Entry" id="{742b9085-03a5-4c4b-900f-548d1ff44ee4}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="10" schemaName="govcdm_evententry_Event_govcdm_event" displayName="govcdm_evententry_Event_govcdm_event" parentSchemaName="govcdm_event" parentDisplayName="Event" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="10" schemaName="govcdm_evententry_Event_govcdm_event" displayName="govcdm_evententry_Event_govcdm_event" parentSchemaName="govcdm_event" parentDisplayName="Event" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Information" parentDisplayName="Event" id="{d6c41f48-9ffa-4ff8-bc21-d3e2fd2dc701}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="10" schemaName="govcdm_eventparticipant_Event_govcdm_event" displayName="govcdm_eventparticipant_Event_govcdm_event" parentSchemaName="govcdm_event" parentDisplayName="Event" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="10" schemaName="govcdm_eventparticipant_Event_govcdm_event" displayName="govcdm_eventparticipant_Event_govcdm_event" parentSchemaName="govcdm_event" parentDisplayName="Event" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Quick Create" parentDisplayName="Event Participant" id="{147e43d2-e2ad-f011-bbd2-001dd80888ed}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="10" schemaName="govcdm_eventparticipant_Event_govcdm_event" displayName="govcdm_eventparticipant_Event_govcdm_event" parentSchemaName="govcdm_event" parentDisplayName="Event" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="10" schemaName="govcdm_eventparticipant_Event_govcdm_event" displayName="govcdm_eventparticipant_Event_govcdm_event" parentSchemaName="govcdm_event" parentDisplayName="Event" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Information" parentDisplayName="Event Participant" id="{8144ec30-fd11-493a-bc1f-bbb2a937ffdf}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="10" schemaName="govcdm_eventparticipant_Event_govcdm_event" displayName="govcdm_eventparticipant_Event_govcdm_event" parentSchemaName="govcdm_event" parentDisplayName="Event" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="10" schemaName="govcdm_eventparticipant_Event_govcdm_event" displayName="govcdm_eventparticipant_Event_govcdm_event" parentSchemaName="govcdm_event" parentDisplayName="Event" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Information" parentDisplayName="Event" id="{d6c41f48-9ffa-4ff8-bc21-d3e2fd2dc701}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="10" schemaName="govcdm_eventparticipant_Person_contact" displayName="govcdm_eventparticipant_Person_contact" parentSchemaName="contact" parentDisplayName="Person" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="10" schemaName="govcdm_eventparticipant_Person_contact" displayName="govcdm_eventparticipant_Person_contact" parentSchemaName="contact" parentDisplayName="Person" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Quick Create" parentDisplayName="Event Participant" id="{147e43d2-e2ad-f011-bbd2-001dd80888ed}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="10" schemaName="govcdm_eventparticipant_Person_contact" displayName="govcdm_eventparticipant_Person_contact" parentSchemaName="contact" parentDisplayName="Person" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="10" schemaName="govcdm_eventparticipant_Person_contact" displayName="govcdm_eventparticipant_Person_contact" parentSchemaName="contact" parentDisplayName="Person" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Information" parentDisplayName="Event Participant" id="{8144ec30-fd11-493a-bc1f-bbb2a937ffdf}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="10" schemaName="govcdm_eventrequest_Event_govcdm_event" displayName="govcdm_eventrequest_Event_govcdm_event" parentSchemaName="govcdm_event" parentDisplayName="Event" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="10" schemaName="govcdm_eventrequest_Event_govcdm_event" displayName="govcdm_eventrequest_Event_govcdm_event" parentSchemaName="govcdm_event" parentDisplayName="Event" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Quick Create" parentDisplayName="Event Request" id="{30d092b0-ddad-f011-bbd2-001dd80888ed}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="10" schemaName="govcdm_eventrequest_Event_govcdm_event" displayName="govcdm_eventrequest_Event_govcdm_event" parentSchemaName="govcdm_event" parentDisplayName="Event" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="10" schemaName="govcdm_eventrequest_Event_govcdm_event" displayName="govcdm_eventrequest_Event_govcdm_event" parentSchemaName="govcdm_event" parentDisplayName="Event" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Information" parentDisplayName="Event Request" id="{3e64a373-6f76-4e34-89a0-f5b6b33e79bb}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="10" schemaName="govcdm_eventrequest_Event_govcdm_event" displayName="govcdm_eventrequest_Event_govcdm_event" parentSchemaName="govcdm_event" parentDisplayName="Event" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="10" schemaName="govcdm_eventrequest_Event_govcdm_event" displayName="govcdm_eventrequest_Event_govcdm_event" parentSchemaName="govcdm_event" parentDisplayName="Event" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Information" parentDisplayName="Event" id="{d6c41f48-9ffa-4ff8-bc21-d3e2fd2dc701}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="10" schemaName="govcdm_eventsession_Event_govcdm_event" displayName="govcdm_eventsession_Event_govcdm_event" parentSchemaName="govcdm_event" parentDisplayName="Event" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="10" schemaName="govcdm_eventsession_Event_govcdm_event" displayName="govcdm_eventsession_Event_govcdm_event" parentSchemaName="govcdm_event" parentDisplayName="Event" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Quick Create" parentDisplayName="Event Session" id="{8582cfc2-ddad-f011-bbd2-001dd80888ed}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="10" schemaName="govcdm_eventsession_Event_govcdm_event" displayName="govcdm_eventsession_Event_govcdm_event" parentSchemaName="govcdm_event" parentDisplayName="Event" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="10" schemaName="govcdm_eventsession_Event_govcdm_event" displayName="govcdm_eventsession_Event_govcdm_event" parentSchemaName="govcdm_event" parentDisplayName="Event" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Information" parentDisplayName="Event" id="{d6c41f48-9ffa-4ff8-bc21-d3e2fd2dc701}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="10" schemaName="govcdm_eventsession_Event_govcdm_event" displayName="govcdm_eventsession_Event_govcdm_event" parentSchemaName="govcdm_event" parentDisplayName="Event" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="10" schemaName="govcdm_eventsession_Event_govcdm_event" displayName="govcdm_eventsession_Event_govcdm_event" parentSchemaName="govcdm_event" parentDisplayName="Event" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Information" parentDisplayName="Event Session" id="{f1d1119f-bddd-4a47-900a-7e5fd3aa93a0}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="10" schemaName="govcdm_eventsession_ParentEventSession_govcdm_eventsession" displayName="govcdm_eventsession_ParentEventSession_govcdm_eventsession" parentSchemaName="govcdm_eventsession" parentDisplayName="Event Session" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="10" schemaName="govcdm_eventsession_ParentEventSession_govcdm_eventsession" displayName="govcdm_eventsession_ParentEventSession_govcdm_eventsession" parentSchemaName="govcdm_eventsession" parentDisplayName="Event Session" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Quick Create" parentDisplayName="Event Session" id="{8582cfc2-ddad-f011-bbd2-001dd80888ed}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="10" schemaName="govcdm_eventsession_ParentEventSession_govcdm_eventsession" displayName="govcdm_eventsession_ParentEventSession_govcdm_eventsession" parentSchemaName="govcdm_eventsession" parentDisplayName="Event Session" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="10" schemaName="govcdm_eventsession_ParentEventSession_govcdm_eventsession" displayName="govcdm_eventsession_ParentEventSession_govcdm_eventsession" parentSchemaName="govcdm_eventsession" parentDisplayName="Event Session" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Information" parentDisplayName="Event Session" id="{f1d1119f-bddd-4a47-900a-7e5fd3aa93a0}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="10" schemaName="govcdm_eventsessionparticipant_EventSession_govcdm_eventsession" displayName="govcdm_eventsessionparticipant_EventSession_govcdm_eventsession" parentSchemaName="govcdm_eventsession" parentDisplayName="Event Session" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="10" schemaName="govcdm_eventsessionparticipant_EventSession_govcdm_eventsession" displayName="govcdm_eventsessionparticipant_EventSession_govcdm_eventsession" parentSchemaName="govcdm_eventsession" parentDisplayName="Event Session" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Information" parentDisplayName="Event Session Participant" id="{3450e7b5-39b8-41ad-9eae-8a20e4fd1972}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="10" schemaName="govcdm_eventsessionparticipant_EventSession_govcdm_eventsession" displayName="govcdm_eventsessionparticipant_EventSession_govcdm_eventsession" parentSchemaName="govcdm_eventsession" parentDisplayName="Event Session" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="10" schemaName="govcdm_eventsessionparticipant_EventSession_govcdm_eventsession" displayName="govcdm_eventsessionparticipant_EventSession_govcdm_eventsession" parentSchemaName="govcdm_eventsession" parentDisplayName="Event Session" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Quick Create" parentDisplayName="Event Session Participant" id="{c5c3a0bd-a1ae-f011-bbd2-001dd80888ed}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="10" schemaName="govcdm_eventsessionparticipant_EventSession_govcdm_eventsession" displayName="govcdm_eventsessionparticipant_EventSession_govcdm_eventsession" parentSchemaName="govcdm_eventsession" parentDisplayName="Event Session" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="10" schemaName="govcdm_eventsessionparticipant_EventSession_govcdm_eventsession" displayName="govcdm_eventsessionparticipant_EventSession_govcdm_eventsession" parentSchemaName="govcdm_eventsession" parentDisplayName="Event Session" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Information" parentDisplayName="Event Session" id="{f1d1119f-bddd-4a47-900a-7e5fd3aa93a0}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="10" schemaName="govcdm_eventsessionparticipant_Person_contact" displayName="govcdm_eventsessionparticipant_Person_contact" parentSchemaName="contact" parentDisplayName="Person" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="10" schemaName="govcdm_eventsessionparticipant_Person_contact" displayName="govcdm_eventsessionparticipant_Person_contact" parentSchemaName="contact" parentDisplayName="Person" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Information" parentDisplayName="Event Session Participant" id="{3450e7b5-39b8-41ad-9eae-8a20e4fd1972}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="10" schemaName="govcdm_eventsessionparticipant_Person_contact" displayName="govcdm_eventsessionparticipant_Person_contact" parentSchemaName="contact" parentDisplayName="Person" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="10" schemaName="govcdm_eventsessionparticipant_Person_contact" displayName="govcdm_eventsessionparticipant_Person_contact" parentSchemaName="contact" parentDisplayName="Person" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Quick Create" parentDisplayName="Event Session Participant" id="{c5c3a0bd-a1ae-f011-bbd2-001dd80888ed}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="10" schemaName="govcdm_eventsponsor_Event_govcdm_event" displayName="govcdm_eventsponsor_Event_govcdm_event" parentSchemaName="govcdm_event" parentDisplayName="Event" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="10" schemaName="govcdm_eventsponsor_Event_govcdm_event" displayName="govcdm_eventsponsor_Event_govcdm_event" parentSchemaName="govcdm_event" parentDisplayName="Event" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Quick Create" parentDisplayName="Event Sponsor" id="{8fc7d5d9-ddad-f011-bbd2-001dd80888ed}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="10" schemaName="govcdm_eventsponsor_Event_govcdm_event" displayName="govcdm_eventsponsor_Event_govcdm_event" parentSchemaName="govcdm_event" parentDisplayName="Event" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="10" schemaName="govcdm_eventsponsor_Event_govcdm_event" displayName="govcdm_eventsponsor_Event_govcdm_event" parentSchemaName="govcdm_event" parentDisplayName="Event" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Information" parentDisplayName="Event Sponsor" id="{a4ec9a90-4afe-4aaa-bb6b-c24612814f96}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="10" schemaName="govcdm_eventsponsor_Event_govcdm_event" displayName="govcdm_eventsponsor_Event_govcdm_event" parentSchemaName="govcdm_event" parentDisplayName="Event" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="10" schemaName="govcdm_eventsponsor_Event_govcdm_event" displayName="govcdm_eventsponsor_Event_govcdm_event" parentSchemaName="govcdm_event" parentDisplayName="Event" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Information" parentDisplayName="Event" id="{d6c41f48-9ffa-4ff8-bc21-d3e2fd2dc701}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="10" schemaName="govcdm_eventsponsor_Organization_account" displayName="govcdm_eventsponsor_Organization_account" parentSchemaName="account" parentDisplayName="Account" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="10" schemaName="govcdm_eventsponsor_Organization_account" displayName="govcdm_eventsponsor_Organization_account" parentSchemaName="account" parentDisplayName="Account" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Quick Create" parentDisplayName="Event Sponsor" id="{8fc7d5d9-ddad-f011-bbd2-001dd80888ed}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="10" schemaName="govcdm_eventsponsor_Organization_account" displayName="govcdm_eventsponsor_Organization_account" parentSchemaName="account" parentDisplayName="Account" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="10" schemaName="govcdm_eventsponsor_Organization_account" displayName="govcdm_eventsponsor_Organization_account" parentSchemaName="account" parentDisplayName="Account" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Information" parentDisplayName="Event Sponsor" id="{a4ec9a90-4afe-4aaa-bb6b-c24612814f96}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="10" schemaName="govcdm_eventsponsor_OrganizationContact_contact" displayName="govcdm_eventsponsor_OrganizationContact_contact" parentSchemaName="contact" parentDisplayName="Person" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="10" schemaName="govcdm_eventsponsor_OrganizationContact_contact" displayName="govcdm_eventsponsor_OrganizationContact_contact" parentSchemaName="contact" parentDisplayName="Person" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Quick Create" parentDisplayName="Event Sponsor" id="{8fc7d5d9-ddad-f011-bbd2-001dd80888ed}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="10" schemaName="govcdm_eventsponsor_OrganizationContact_contact" displayName="govcdm_eventsponsor_OrganizationContact_contact" parentSchemaName="contact" parentDisplayName="Person" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="10" schemaName="govcdm_eventsponsor_OrganizationContact_contact" displayName="govcdm_eventsponsor_OrganizationContact_contact" parentSchemaName="contact" parentDisplayName="Person" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Information" parentDisplayName="Event Sponsor" id="{a4ec9a90-4afe-4aaa-bb6b-c24612814f96}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="10" schemaName="govcdm_eventtrack_Event_govcdm_event" displayName="govcdm_eventtrack_Event_govcdm_event" parentSchemaName="govcdm_event" parentDisplayName="Event" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="10" schemaName="govcdm_eventtrack_Event_govcdm_event" displayName="govcdm_eventtrack_Event_govcdm_event" parentSchemaName="govcdm_event" parentDisplayName="Event" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Quick Create" parentDisplayName="Event Track" id="{44e7b6e1-ddad-f011-bbd2-001dd80888ed}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="10" schemaName="govcdm_eventtrack_Event_govcdm_event" displayName="govcdm_eventtrack_Event_govcdm_event" parentSchemaName="govcdm_event" parentDisplayName="Event" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="10" schemaName="govcdm_eventtrack_Event_govcdm_event" displayName="govcdm_eventtrack_Event_govcdm_event" parentSchemaName="govcdm_event" parentDisplayName="Event" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Information" parentDisplayName="Event Track" id="{b4d1c427-6d67-42f1-a4ce-90d40f7a64b9}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="10" schemaName="govcdm_eventtrack_Event_govcdm_event" displayName="govcdm_eventtrack_Event_govcdm_event" parentSchemaName="govcdm_event" parentDisplayName="Event" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="10" schemaName="govcdm_eventtrack_Event_govcdm_event" displayName="govcdm_eventtrack_Event_govcdm_event" parentSchemaName="govcdm_event" parentDisplayName="Event" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Information" parentDisplayName="Event" id="{d6c41f48-9ffa-4ff8-bc21-d3e2fd2dc701}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="10" schemaName="govcdm_govcdm_bookableresourcepayment_BookableRe" displayName="govcdm_govcdm_bookableresourcepayment_BookableRe" parentSchemaName="govcdm_bookableresourcereservation" parentDisplayName="Bookable Resource Reservation" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="10" schemaName="govcdm_govcdm_bookableresourcepayment_BookableRe" displayName="govcdm_govcdm_bookableresourcepayment_BookableRe" parentSchemaName="govcdm_bookableresourcereservation" parentDisplayName="Bookable Resource Reservation" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Information" parentDisplayName="Bookable Resource Reservation" id="{a55f6654-9e7a-440f-b887-7ca8cf2d88e9}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="10" schemaName="govcdm_govcdm_bookableresourcepayment_BookableRe" displayName="govcdm_govcdm_bookableresourcepayment_BookableRe" parentSchemaName="govcdm_bookableresourcereservation" parentDisplayName="Bookable Resource Reservation" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="10" schemaName="govcdm_govcdm_bookableresourcepayment_BookableRe" displayName="govcdm_govcdm_bookableresourcepayment_BookableRe" parentSchemaName="govcdm_bookableresourcereservation" parentDisplayName="Bookable Resource Reservation" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Bookable Resource Payment Quick Create" parentDisplayName="Bookable Resource Payment" id="{d6b1656f-b671-ee11-9ae7-6045bd0062b9}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="10" schemaName="govcdm_govcdm_bookableresourcereservation_Bookab" displayName="govcdm_govcdm_bookableresourcereservation_Bookab" parentSchemaName="govcdm_bookableresource" parentDisplayName="Bookable Resource" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="10" schemaName="govcdm_govcdm_bookableresourcereservation_Bookab" displayName="govcdm_govcdm_bookableresourcereservation_Bookab" parentSchemaName="govcdm_bookableresource" parentDisplayName="Bookable Resource" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Bookable Resource Reservation Quick Create" parentDisplayName="Bookable Resource Reservation" id="{7986868a-b671-ee11-9ae7-6045bd0062b9}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="10" schemaName="govcdm_govcdm_bookableresourcereservation_Bookab" displayName="govcdm_govcdm_bookableresourcereservation_Bookab" parentSchemaName="govcdm_bookableresource" parentDisplayName="Bookable Resource" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="10" schemaName="govcdm_govcdm_bookableresourcereservation_Bookab" displayName="govcdm_govcdm_bookableresourcereservation_Bookab" parentSchemaName="govcdm_bookableresource" parentDisplayName="Bookable Resource" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Information" parentDisplayName="Bookable Resource Reservation" id="{a55f6654-9e7a-440f-b887-7ca8cf2d88e9}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="10" schemaName="govcdm_govcdm_bookableresourcereservation_Bookab" displayName="govcdm_govcdm_bookableresourcereservation_Bookab" parentSchemaName="govcdm_bookableresource" parentDisplayName="Bookable Resource" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="10" schemaName="govcdm_govcdm_bookableresourcereservation_Bookab" displayName="govcdm_govcdm_bookableresourcereservation_Bookab" parentSchemaName="govcdm_bookableresource" parentDisplayName="Bookable Resource" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Information" parentDisplayName="Bookable Resource" id="{ffa05bca-e4ae-46b9-b957-dbc626987ee5}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="10" schemaName="govcdm_govcdm_bookableresourcereservation_Event_" displayName="govcdm_govcdm_bookableresourcereservation_Event_" parentSchemaName="govcdm_event" parentDisplayName="Event" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="10" schemaName="govcdm_govcdm_bookableresourcereservation_Event_" displayName="govcdm_govcdm_bookableresourcereservation_Event_" parentSchemaName="govcdm_event" parentDisplayName="Event" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Bookable Resource Reservation Quick Create" parentDisplayName="Bookable Resource Reservation" id="{7986868a-b671-ee11-9ae7-6045bd0062b9}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="10" schemaName="govcdm_govcdm_bookableresourcereservation_Event_" displayName="govcdm_govcdm_bookableresourcereservation_Event_" parentSchemaName="govcdm_event" parentDisplayName="Event" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="10" schemaName="govcdm_govcdm_bookableresourcereservation_Event_" displayName="govcdm_govcdm_bookableresourcereservation_Event_" parentSchemaName="govcdm_event" parentDisplayName="Event" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Information" parentDisplayName="Bookable Resource Reservation" id="{a55f6654-9e7a-440f-b887-7ca8cf2d88e9}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="10" schemaName="govcdm_govcdm_bookableresourcereservation_Event_" displayName="govcdm_govcdm_bookableresourcereservation_Event_" parentSchemaName="govcdm_event" parentDisplayName="Event" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="10" schemaName="govcdm_govcdm_bookableresourcereservation_Event_" displayName="govcdm_govcdm_bookableresourcereservation_Event_" parentSchemaName="govcdm_event" parentDisplayName="Event" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Information" parentDisplayName="Event" id="{d6c41f48-9ffa-4ff8-bc21-d3e2fd2dc701}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="10" schemaName="govcdm_govcdm_eventattendee_Event_govcdm_event" displayName="govcdm_govcdm_eventattendee_Event_govcdm_event" parentSchemaName="govcdm_event" parentDisplayName="Event" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="10" schemaName="govcdm_govcdm_eventattendee_Event_govcdm_event" displayName="govcdm_govcdm_eventattendee_Event_govcdm_event" parentSchemaName="govcdm_event" parentDisplayName="Event" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Event Attendee Quick Create" parentDisplayName="Event Attendee" id="{55198eae-b771-ee11-9ae7-6045bd0062b9}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="10" schemaName="govcdm_govcdm_eventattendee_Person_contact" displayName="govcdm_govcdm_eventattendee_Person_contact" parentSchemaName="contact" parentDisplayName="Person" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="10" schemaName="govcdm_govcdm_eventattendee_Person_contact" displayName="govcdm_govcdm_eventattendee_Person_contact" parentSchemaName="contact" parentDisplayName="Person" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Event Attendee Quick Create" parentDisplayName="Event Attendee" id="{55198eae-b771-ee11-9ae7-6045bd0062b9}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="10" schemaName="govcdm_govcdm_eventattendee_Person_contact" displayName="govcdm_govcdm_eventattendee_Person_contact" parentSchemaName="contact" parentDisplayName="Person" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="10" schemaName="govcdm_govcdm_eventattendee_Person_contact" displayName="govcdm_govcdm_eventattendee_Person_contact" parentSchemaName="contact" parentDisplayName="Person" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Information" parentDisplayName="Event Attendee" id="{bdc44309-c5ea-4f1d-9885-7a9195f5a1b5}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="createdon" displayName="Created On" parentSchemaName="govcdm_bookableresourcepayment" parentDisplayName="Bookable Resource Payment" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="2" schemaName="createdon" displayName="Created On" parentSchemaName="govcdm_bookableresourcepayment" parentDisplayName="Bookable Resource Payment" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="26" schemaName="Active Bookable Resource Payments" displayName="Active Bookable Resource Payments" parentSchemaName="govcdm_bookableresourcepayment" parentDisplayName="Bookable Resource Payment" id="{69f02639-5e18-46dc-895a-8a1ad5541d7b}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="createdon" displayName="Created On" parentSchemaName="govcdm_bookableresourcereservation" parentDisplayName="Bookable Resource Reservation" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="2" schemaName="createdon" displayName="Created On" parentSchemaName="govcdm_bookableresourcereservation" parentDisplayName="Bookable Resource Reservation" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="26" schemaName="Active Bookable Resource Reservations" displayName="Active Bookable Resource Reservations" parentSchemaName="govcdm_bookableresourcereservation" parentDisplayName="Bookable Resource Reservation" id="{504752fc-ed36-422c-9454-557a6a6cef70}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="createdon" displayName="Created On" parentSchemaName="govcdm_eventattendee" parentDisplayName="Event Attendee" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="2" schemaName="createdon" displayName="Created On" parentSchemaName="govcdm_eventattendee" parentDisplayName="Event Attendee" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="26" schemaName="Active Event Attendees" displayName="Active Event Attendees" parentSchemaName="govcdm_eventattendee" parentDisplayName="Event Attendee" id="{dfc7342e-ddc0-4730-a4f2-a5270ca1eca7}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="govcdm_agendadocument" displayName="Agenda Document" parentSchemaName="govcdm_event" parentDisplayName="Event" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="2" schemaName="govcdm_agendadocument" displayName="Agenda Document" parentSchemaName="govcdm_event" parentDisplayName="Event" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Information" parentDisplayName="Event" id="{d6c41f48-9ffa-4ff8-bc21-d3e2fd2dc701}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="govcdm_bookableresource" displayName="Bookable Resource" parentSchemaName="govcdm_bookableresourcereservation" parentDisplayName="Bookable Resource Reservation" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="2" schemaName="govcdm_bookableresource" displayName="Bookable Resource" parentSchemaName="govcdm_bookableresourcereservation" parentDisplayName="Bookable Resource Reservation" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Bookable Resource Reservation Quick Create" parentDisplayName="Bookable Resource Reservation" id="{7986868a-b671-ee11-9ae7-6045bd0062b9}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="govcdm_bookableresource" displayName="Bookable Resource" parentSchemaName="govcdm_bookableresourcereservation" parentDisplayName="Bookable Resource Reservation" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="2" schemaName="govcdm_bookableresource" displayName="Bookable Resource" parentSchemaName="govcdm_bookableresourcereservation" parentDisplayName="Bookable Resource Reservation" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Information" parentDisplayName="Bookable Resource Reservation" id="{a55f6654-9e7a-440f-b887-7ca8cf2d88e9}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="govcdm_bookableresourcepaymentid" displayName="Bookable Resource Payment" parentSchemaName="govcdm_bookableresourcepayment" parentDisplayName="Bookable Resource Payment" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="2" schemaName="govcdm_bookableresourcepaymentid" displayName="Bookable Resource Payment" parentSchemaName="govcdm_bookableresourcepayment" parentDisplayName="Bookable Resource Payment" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="26" schemaName="Active Bookable Resource Payments" displayName="Active Bookable Resource Payments" parentSchemaName="govcdm_bookableresourcepayment" parentDisplayName="Bookable Resource Payment" id="{69f02639-5e18-46dc-895a-8a1ad5541d7b}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="govcdm_bookableresourcereservation" displayName="Bookable Resource Reservation" parentSchemaName="govcdm_bookableresourcepayment" parentDisplayName="Bookable Resource Payment" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="2" schemaName="govcdm_bookableresourcereservation" displayName="Bookable Resource Reservation" parentSchemaName="govcdm_bookableresourcepayment" parentDisplayName="Bookable Resource Payment" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Bookable Resource Payment Quick Create" parentDisplayName="Bookable Resource Payment" id="{d6b1656f-b671-ee11-9ae7-6045bd0062b9}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="govcdm_bookableresourcereservationid" displayName="Bookable Resource Reservation" parentSchemaName="govcdm_bookableresourcereservation" parentDisplayName="Bookable Resource Reservation" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="2" schemaName="govcdm_bookableresourcereservationid" displayName="Bookable Resource Reservation" parentSchemaName="govcdm_bookableresourcereservation" parentDisplayName="Bookable Resource Reservation" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="26" schemaName="Active Bookable Resource Reservations" displayName="Active Bookable Resource Reservations" parentSchemaName="govcdm_bookableresourcereservation" parentDisplayName="Bookable Resource Reservation" id="{504752fc-ed36-422c-9454-557a6a6cef70}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="govcdm_cdandadocument" displayName="CDA/NDA Document" parentSchemaName="govcdm_event" parentDisplayName="Event" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="2" schemaName="govcdm_cdandadocument" displayName="CDA/NDA Document" parentSchemaName="govcdm_event" parentDisplayName="Event" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Information" parentDisplayName="Event" id="{d6c41f48-9ffa-4ff8-bc21-d3e2fd2dc701}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="govcdm_commitmentstatus" displayName="Commitment Status" parentSchemaName="govcdm_event" parentDisplayName="Event" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="2" schemaName="govcdm_commitmentstatus" displayName="Commitment Status" parentSchemaName="govcdm_event" parentDisplayName="Event" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Information" parentDisplayName="Event" id="{d6c41f48-9ffa-4ff8-bc21-d3e2fd2dc701}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="govcdm_description" displayName="Description" parentSchemaName="govcdm_event" parentDisplayName="Event" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="2" schemaName="govcdm_description" displayName="Description" parentSchemaName="govcdm_event" parentDisplayName="Event" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Information" parentDisplayName="Event" id="{d6c41f48-9ffa-4ff8-bc21-d3e2fd2dc701}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="govcdm_description" displayName="Description" parentSchemaName="govcdm_event" parentDisplayName="Event" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="2" schemaName="govcdm_description" displayName="Description" parentSchemaName="govcdm_event" parentDisplayName="Event" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Quick Create" parentDisplayName="Event" id="{e5ee9ff9-ddad-f011-bbd2-001dd80888ed}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="govcdm_description" displayName="Description" parentSchemaName="govcdm_eventsession" parentDisplayName="Event Session" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="2" schemaName="govcdm_description" displayName="Description" parentSchemaName="govcdm_eventsession" parentDisplayName="Event Session" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Quick Create" parentDisplayName="Event Session" id="{8582cfc2-ddad-f011-bbd2-001dd80888ed}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="govcdm_description" displayName="Description" parentSchemaName="govcdm_eventsession" parentDisplayName="Event Session" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="2" schemaName="govcdm_description" displayName="Description" parentSchemaName="govcdm_eventsession" parentDisplayName="Event Session" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Information" parentDisplayName="Event Session" id="{f1d1119f-bddd-4a47-900a-7e5fd3aa93a0}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="govcdm_documentsrequired" displayName="Documents Required" parentSchemaName="govcdm_event" parentDisplayName="Event" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="2" schemaName="govcdm_documentsrequired" displayName="Documents Required" parentSchemaName="govcdm_event" parentDisplayName="Event" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Information" parentDisplayName="Event" id="{d6c41f48-9ffa-4ff8-bc21-d3e2fd2dc701}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="govcdm_enddatetime" displayName="End Date Time" parentSchemaName="govcdm_event" parentDisplayName="Event" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="2" schemaName="govcdm_enddatetime" displayName="End Date Time" parentSchemaName="govcdm_event" parentDisplayName="Event" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Information" parentDisplayName="Event" id="{d6c41f48-9ffa-4ff8-bc21-d3e2fd2dc701}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="govcdm_enddatetime" displayName="End Date Time" parentSchemaName="govcdm_event" parentDisplayName="Event" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="2" schemaName="govcdm_enddatetime" displayName="End Date Time" parentSchemaName="govcdm_event" parentDisplayName="Event" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Quick Create" parentDisplayName="Event" id="{e5ee9ff9-ddad-f011-bbd2-001dd80888ed}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="govcdm_enddatetime" displayName="End Date Time" parentSchemaName="govcdm_eventsession" parentDisplayName="Event Session" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="2" schemaName="govcdm_enddatetime" displayName="End Date Time" parentSchemaName="govcdm_eventsession" parentDisplayName="Event Session" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="26" schemaName="Active Event Sessions" displayName="Active Event Sessions" parentSchemaName="govcdm_eventsession" parentDisplayName="Event Session" id="{ea7719a7-514b-4828-81d5-0b74466103e1}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="govcdm_enddatetime" displayName="End Date Time" parentSchemaName="govcdm_eventsession" parentDisplayName="Event Session" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="2" schemaName="govcdm_enddatetime" displayName="End Date Time" parentSchemaName="govcdm_eventsession" parentDisplayName="Event Session" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Quick Create" parentDisplayName="Event Session" id="{8582cfc2-ddad-f011-bbd2-001dd80888ed}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="govcdm_enddatetime" displayName="End Date Time" parentSchemaName="govcdm_eventsession" parentDisplayName="Event Session" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="2" schemaName="govcdm_enddatetime" displayName="End Date Time" parentSchemaName="govcdm_eventsession" parentDisplayName="Event Session" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Information" parentDisplayName="Event Session" id="{f1d1119f-bddd-4a47-900a-7e5fd3aa93a0}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="govcdm_event" displayName="Event" parentSchemaName="govcdm_bookableresourcereservation" parentDisplayName="Bookable Resource Reservation" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="2" schemaName="govcdm_event" displayName="Event" parentSchemaName="govcdm_bookableresourcereservation" parentDisplayName="Bookable Resource Reservation" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Bookable Resource Reservation Quick Create" parentDisplayName="Bookable Resource Reservation" id="{7986868a-b671-ee11-9ae7-6045bd0062b9}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="govcdm_event" displayName="Event" parentSchemaName="govcdm_bookableresourcereservation" parentDisplayName="Bookable Resource Reservation" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="2" schemaName="govcdm_event" displayName="Event" parentSchemaName="govcdm_bookableresourcereservation" parentDisplayName="Bookable Resource Reservation" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Information" parentDisplayName="Bookable Resource Reservation" id="{a55f6654-9e7a-440f-b887-7ca8cf2d88e9}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="govcdm_event" displayName="Event" parentSchemaName="govcdm_eventattendee" parentDisplayName="Event Attendee" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="2" schemaName="govcdm_event" displayName="Event" parentSchemaName="govcdm_eventattendee" parentDisplayName="Event Attendee" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Event Attendee Quick Create" parentDisplayName="Event Attendee" id="{55198eae-b771-ee11-9ae7-6045bd0062b9}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="govcdm_event" displayName="Event" parentSchemaName="govcdm_evententry" parentDisplayName="Event Entry" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="2" schemaName="govcdm_event" displayName="Event" parentSchemaName="govcdm_evententry" parentDisplayName="Event Entry" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="26" schemaName="Active Event Entries" displayName="Active Event Entries" parentSchemaName="govcdm_evententry" parentDisplayName="Event Entry" id="{6d18f288-3e6d-4358-b308-44628cc219a6}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="govcdm_event" displayName="Event" parentSchemaName="govcdm_evententry" parentDisplayName="Event Entry" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="2" schemaName="govcdm_event" displayName="Event" parentSchemaName="govcdm_evententry" parentDisplayName="Event Entry" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Quick Create" parentDisplayName="Event Entry" id="{466aec33-e0ad-f011-bbd2-001dd80888ed}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="govcdm_event" displayName="Event" parentSchemaName="govcdm_evententry" parentDisplayName="Event Entry" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="2" schemaName="govcdm_event" displayName="Event" parentSchemaName="govcdm_evententry" parentDisplayName="Event Entry" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Information" parentDisplayName="Event Entry" id="{742b9085-03a5-4c4b-900f-548d1ff44ee4}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="govcdm_event" displayName="Event" parentSchemaName="govcdm_eventparticipant" parentDisplayName="Event Participant" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="2" schemaName="govcdm_event" displayName="Event" parentSchemaName="govcdm_eventparticipant" parentDisplayName="Event Participant" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="26" schemaName="Active Event Participants" displayName="Active Event Participants" parentSchemaName="govcdm_eventparticipant" parentDisplayName="Event Participant" id="{f7c0c565-d07b-4f17-993c-5a2f65b25a87}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="govcdm_event" displayName="Event" parentSchemaName="govcdm_eventparticipant" parentDisplayName="Event Participant" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="2" schemaName="govcdm_event" displayName="Event" parentSchemaName="govcdm_eventparticipant" parentDisplayName="Event Participant" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Quick Create" parentDisplayName="Event Participant" id="{147e43d2-e2ad-f011-bbd2-001dd80888ed}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="govcdm_event" displayName="Event" parentSchemaName="govcdm_eventparticipant" parentDisplayName="Event Participant" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="2" schemaName="govcdm_event" displayName="Event" parentSchemaName="govcdm_eventparticipant" parentDisplayName="Event Participant" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Information" parentDisplayName="Event Participant" id="{8144ec30-fd11-493a-bc1f-bbb2a937ffdf}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="govcdm_event" displayName="Event" parentSchemaName="govcdm_eventrequest" parentDisplayName="Event Request" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="2" schemaName="govcdm_event" displayName="Event" parentSchemaName="govcdm_eventrequest" parentDisplayName="Event Request" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Quick Create" parentDisplayName="Event Request" id="{30d092b0-ddad-f011-bbd2-001dd80888ed}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="govcdm_event" displayName="Event" parentSchemaName="govcdm_eventrequest" parentDisplayName="Event Request" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="2" schemaName="govcdm_event" displayName="Event" parentSchemaName="govcdm_eventrequest" parentDisplayName="Event Request" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Information" parentDisplayName="Event Request" id="{3e64a373-6f76-4e34-89a0-f5b6b33e79bb}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="govcdm_event" displayName="Event" parentSchemaName="govcdm_eventsession" parentDisplayName="Event Session" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="2" schemaName="govcdm_event" displayName="Event" parentSchemaName="govcdm_eventsession" parentDisplayName="Event Session" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="26" schemaName="Active Event Sessions" displayName="Active Event Sessions" parentSchemaName="govcdm_eventsession" parentDisplayName="Event Session" id="{ea7719a7-514b-4828-81d5-0b74466103e1}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="govcdm_event" displayName="Event" parentSchemaName="govcdm_eventsession" parentDisplayName="Event Session" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="2" schemaName="govcdm_event" displayName="Event" parentSchemaName="govcdm_eventsession" parentDisplayName="Event Session" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Quick Create" parentDisplayName="Event Session" id="{8582cfc2-ddad-f011-bbd2-001dd80888ed}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="govcdm_event" displayName="Event" parentSchemaName="govcdm_eventsession" parentDisplayName="Event Session" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="2" schemaName="govcdm_event" displayName="Event" parentSchemaName="govcdm_eventsession" parentDisplayName="Event Session" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Information" parentDisplayName="Event Session" id="{f1d1119f-bddd-4a47-900a-7e5fd3aa93a0}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="govcdm_event" displayName="Event" parentSchemaName="govcdm_eventsponsor" parentDisplayName="Event Sponsor" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="2" schemaName="govcdm_event" displayName="Event" parentSchemaName="govcdm_eventsponsor" parentDisplayName="Event Sponsor" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="26" schemaName="Active Event Sponsors" displayName="Active Event Sponsors" parentSchemaName="govcdm_eventsponsor" parentDisplayName="Event Sponsor" id="{b3f26941-2767-49c2-885d-0393925f4e25}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="govcdm_event" displayName="Event" parentSchemaName="govcdm_eventsponsor" parentDisplayName="Event Sponsor" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="2" schemaName="govcdm_event" displayName="Event" parentSchemaName="govcdm_eventsponsor" parentDisplayName="Event Sponsor" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Quick Create" parentDisplayName="Event Sponsor" id="{8fc7d5d9-ddad-f011-bbd2-001dd80888ed}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="govcdm_event" displayName="Event" parentSchemaName="govcdm_eventsponsor" parentDisplayName="Event Sponsor" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="2" schemaName="govcdm_event" displayName="Event" parentSchemaName="govcdm_eventsponsor" parentDisplayName="Event Sponsor" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Information" parentDisplayName="Event Sponsor" id="{a4ec9a90-4afe-4aaa-bb6b-c24612814f96}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="govcdm_event" displayName="Event" parentSchemaName="govcdm_eventtrack" parentDisplayName="Event Track" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="2" schemaName="govcdm_event" displayName="Event" parentSchemaName="govcdm_eventtrack" parentDisplayName="Event Track" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="26" schemaName="Active Event Tracks" displayName="Active Event Tracks" parentSchemaName="govcdm_eventtrack" parentDisplayName="Event Track" id="{53abbe5d-a7b6-410f-b251-18d6648ad1cf}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="govcdm_event" displayName="Event" parentSchemaName="govcdm_eventtrack" parentDisplayName="Event Track" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="2" schemaName="govcdm_event" displayName="Event" parentSchemaName="govcdm_eventtrack" parentDisplayName="Event Track" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Quick Create" parentDisplayName="Event Track" id="{44e7b6e1-ddad-f011-bbd2-001dd80888ed}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="govcdm_event" displayName="Event" parentSchemaName="govcdm_eventtrack" parentDisplayName="Event Track" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="2" schemaName="govcdm_event" displayName="Event" parentSchemaName="govcdm_eventtrack" parentDisplayName="Event Track" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Information" parentDisplayName="Event Track" id="{b4d1c427-6d67-42f1-a4ce-90d40f7a64b9}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="govcdm_eventattendeeid" displayName="Event Attendee" parentSchemaName="govcdm_eventattendee" parentDisplayName="Event Attendee" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="2" schemaName="govcdm_eventattendeeid" displayName="Event Attendee" parentSchemaName="govcdm_eventattendee" parentDisplayName="Event Attendee" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="26" schemaName="Active Event Attendees" displayName="Active Event Attendees" parentSchemaName="govcdm_eventattendee" parentDisplayName="Event Attendee" id="{dfc7342e-ddc0-4730-a4f2-a5270ca1eca7}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="govcdm_eventcategory" displayName="Event Category" parentSchemaName="govcdm_event" parentDisplayName="Event" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="2" schemaName="govcdm_eventcategory" displayName="Event Category" parentSchemaName="govcdm_event" parentDisplayName="Event" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Information" parentDisplayName="Event" id="{d6c41f48-9ffa-4ff8-bc21-d3e2fd2dc701}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="govcdm_eventcategory" displayName="Event Category" parentSchemaName="govcdm_event" parentDisplayName="Event" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="2" schemaName="govcdm_eventcategory" displayName="Event Category" parentSchemaName="govcdm_event" parentDisplayName="Event" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Quick Create" parentDisplayName="Event" id="{e5ee9ff9-ddad-f011-bbd2-001dd80888ed}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="govcdm_evententryid" displayName="Event Entry" parentSchemaName="govcdm_evententry" parentDisplayName="Event Entry" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="2" schemaName="govcdm_evententryid" displayName="Event Entry" parentSchemaName="govcdm_evententry" parentDisplayName="Event Entry" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="26" schemaName="Active Event Entries" displayName="Active Event Entries" parentSchemaName="govcdm_evententry" parentDisplayName="Event Entry" id="{6d18f288-3e6d-4358-b308-44628cc219a6}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="govcdm_eventid" displayName="Event" parentSchemaName="govcdm_event" parentDisplayName="Event" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="2" schemaName="govcdm_eventid" displayName="Event" parentSchemaName="govcdm_event" parentDisplayName="Event" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="26" schemaName="Active Events" displayName="Active Events" parentSchemaName="govcdm_event" parentDisplayName="Event" id="{ffe727b8-b391-49e4-887c-e19d0f52c541}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="govcdm_eventlocation" displayName="Event Location" parentSchemaName="govcdm_event" parentDisplayName="Event" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="2" schemaName="govcdm_eventlocation" displayName="Event Location" parentSchemaName="govcdm_event" parentDisplayName="Event" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="26" schemaName="Active Events" displayName="Active Events" parentSchemaName="govcdm_event" parentDisplayName="Event" id="{ffe727b8-b391-49e4-887c-e19d0f52c541}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="govcdm_eventlocation" displayName="Event Location" parentSchemaName="govcdm_event" parentDisplayName="Event" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="2" schemaName="govcdm_eventlocation" displayName="Event Location" parentSchemaName="govcdm_event" parentDisplayName="Event" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Information" parentDisplayName="Event" id="{d6c41f48-9ffa-4ff8-bc21-d3e2fd2dc701}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="govcdm_eventparticipantid" displayName="Event Participant" parentSchemaName="govcdm_eventparticipant" parentDisplayName="Event Participant" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="2" schemaName="govcdm_eventparticipantid" displayName="Event Participant" parentSchemaName="govcdm_eventparticipant" parentDisplayName="Event Participant" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="26" schemaName="Active Event Participants" displayName="Active Event Participants" parentSchemaName="govcdm_eventparticipant" parentDisplayName="Event Participant" id="{f7c0c565-d07b-4f17-993c-5a2f65b25a87}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="govcdm_eventsession" displayName="Event Session" parentSchemaName="govcdm_eventsessionparticipant" parentDisplayName="Event Session Participant" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="2" schemaName="govcdm_eventsession" displayName="Event Session" parentSchemaName="govcdm_eventsessionparticipant" parentDisplayName="Event Session Participant" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="26" schemaName="Active Event Session Participants" displayName="Active Event Session Participants" parentSchemaName="govcdm_eventsessionparticipant" parentDisplayName="Event Session Participant" id="{9d4c3734-80c3-4b2e-849e-7b31f73314a3}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="govcdm_eventsession" displayName="Event Session" parentSchemaName="govcdm_eventsessionparticipant" parentDisplayName="Event Session Participant" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="2" schemaName="govcdm_eventsession" displayName="Event Session" parentSchemaName="govcdm_eventsessionparticipant" parentDisplayName="Event Session Participant" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Information" parentDisplayName="Event Session Participant" id="{3450e7b5-39b8-41ad-9eae-8a20e4fd1972}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="govcdm_eventsession" displayName="Event Session" parentSchemaName="govcdm_eventsessionparticipant" parentDisplayName="Event Session Participant" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="2" schemaName="govcdm_eventsession" displayName="Event Session" parentSchemaName="govcdm_eventsessionparticipant" parentDisplayName="Event Session Participant" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Quick Create" parentDisplayName="Event Session Participant" id="{c5c3a0bd-a1ae-f011-bbd2-001dd80888ed}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="govcdm_eventsessionid" displayName="Event Session" parentSchemaName="govcdm_eventsession" parentDisplayName="Event Session" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="2" schemaName="govcdm_eventsessionid" displayName="Event Session" parentSchemaName="govcdm_eventsession" parentDisplayName="Event Session" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="26" schemaName="Active Event Sessions" displayName="Active Event Sessions" parentSchemaName="govcdm_eventsession" parentDisplayName="Event Session" id="{ea7719a7-514b-4828-81d5-0b74466103e1}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="govcdm_eventsessionparticipantid" displayName="Event Session Participant" parentSchemaName="govcdm_eventsessionparticipant" parentDisplayName="Event Session Participant" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="2" schemaName="govcdm_eventsessionparticipantid" displayName="Event Session Participant" parentSchemaName="govcdm_eventsessionparticipant" parentDisplayName="Event Session Participant" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="26" schemaName="Active Event Session Participants" displayName="Active Event Session Participants" parentSchemaName="govcdm_eventsessionparticipant" parentDisplayName="Event Session Participant" id="{9d4c3734-80c3-4b2e-849e-7b31f73314a3}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="govcdm_eventsponsorid" displayName="Event Sponsor" parentSchemaName="govcdm_eventsponsor" parentDisplayName="Event Sponsor" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="2" schemaName="govcdm_eventsponsorid" displayName="Event Sponsor" parentSchemaName="govcdm_eventsponsor" parentDisplayName="Event Sponsor" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="26" schemaName="Active Event Sponsors" displayName="Active Event Sponsors" parentSchemaName="govcdm_eventsponsor" parentDisplayName="Event Sponsor" id="{b3f26941-2767-49c2-885d-0393925f4e25}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="govcdm_eventtrackid" displayName="Event Track" parentSchemaName="govcdm_eventtrack" parentDisplayName="Event Track" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="2" schemaName="govcdm_eventtrackid" displayName="Event Track" parentSchemaName="govcdm_eventtrack" parentDisplayName="Event Track" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="26" schemaName="Active Event Tracks" displayName="Active Event Tracks" parentSchemaName="govcdm_eventtrack" parentDisplayName="Event Track" id="{53abbe5d-a7b6-410f-b251-18d6648ad1cf}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="govcdm_eventtype" displayName="Event Type" parentSchemaName="govcdm_event" parentDisplayName="Event" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="2" schemaName="govcdm_eventtype" displayName="Event Type" parentSchemaName="govcdm_event" parentDisplayName="Event" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="26" schemaName="Active Events" displayName="Active Events" parentSchemaName="govcdm_event" parentDisplayName="Event" id="{ffe727b8-b391-49e4-887c-e19d0f52c541}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="govcdm_eventtype" displayName="Event Type" parentSchemaName="govcdm_event" parentDisplayName="Event" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="2" schemaName="govcdm_eventtype" displayName="Event Type" parentSchemaName="govcdm_event" parentDisplayName="Event" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Information" parentDisplayName="Event" id="{d6c41f48-9ffa-4ff8-bc21-d3e2fd2dc701}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="govcdm_eventtype" displayName="Event Type" parentSchemaName="govcdm_event" parentDisplayName="Event" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="2" schemaName="govcdm_eventtype" displayName="Event Type" parentSchemaName="govcdm_event" parentDisplayName="Event" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Quick Create" parentDisplayName="Event" id="{e5ee9ff9-ddad-f011-bbd2-001dd80888ed}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="govcdm_faqdocument" displayName="FAQ Document" parentSchemaName="govcdm_event" parentDisplayName="Event" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="2" schemaName="govcdm_faqdocument" displayName="FAQ Document" parentSchemaName="govcdm_event" parentDisplayName="Event" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Information" parentDisplayName="Event" id="{d6c41f48-9ffa-4ff8-bc21-d3e2fd2dc701}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="govcdm_funding" displayName="Funding" parentSchemaName="govcdm_eventsponsor" parentDisplayName="Event Sponsor" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="2" schemaName="govcdm_funding" displayName="Funding" parentSchemaName="govcdm_eventsponsor" parentDisplayName="Event Sponsor" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="26" schemaName="Active Event Sponsors" displayName="Active Event Sponsors" parentSchemaName="govcdm_eventsponsor" parentDisplayName="Event Sponsor" id="{b3f26941-2767-49c2-885d-0393925f4e25}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="govcdm_funding" displayName="Funding" parentSchemaName="govcdm_eventsponsor" parentDisplayName="Event Sponsor" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="2" schemaName="govcdm_funding" displayName="Funding" parentSchemaName="govcdm_eventsponsor" parentDisplayName="Event Sponsor" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Quick Create" parentDisplayName="Event Sponsor" id="{8fc7d5d9-ddad-f011-bbd2-001dd80888ed}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="govcdm_funding" displayName="Funding" parentSchemaName="govcdm_eventsponsor" parentDisplayName="Event Sponsor" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="2" schemaName="govcdm_funding" displayName="Funding" parentSchemaName="govcdm_eventsponsor" parentDisplayName="Event Sponsor" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Information" parentDisplayName="Event Sponsor" id="{a4ec9a90-4afe-4aaa-bb6b-c24612814f96}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_bookableresource" parentDisplayName="Bookable Resource" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_bookableresource" parentDisplayName="Bookable Resource" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Bookable Resource Quick Create" parentDisplayName="Bookable Resource" id="{e9d05192-b571-ee11-9ae7-6045bd0062b9}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_bookableresource" parentDisplayName="Bookable Resource" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_bookableresource" parentDisplayName="Bookable Resource" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Information" parentDisplayName="Bookable Resource" id="{ffa05bca-e4ae-46b9-b957-dbc626987ee5}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_bookableresourcepayment" parentDisplayName="Bookable Resource Payment" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_bookableresourcepayment" parentDisplayName="Bookable Resource Payment" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="26" schemaName="Active Bookable Resource Payments" displayName="Active Bookable Resource Payments" parentSchemaName="govcdm_bookableresourcepayment" parentDisplayName="Bookable Resource Payment" id="{69f02639-5e18-46dc-895a-8a1ad5541d7b}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_bookableresourcereservation" parentDisplayName="Bookable Resource Reservation" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_bookableresourcereservation" parentDisplayName="Bookable Resource Reservation" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="26" schemaName="Active Bookable Resource Reservations" displayName="Active Bookable Resource Reservations" parentSchemaName="govcdm_bookableresourcereservation" parentDisplayName="Bookable Resource Reservation" id="{504752fc-ed36-422c-9454-557a6a6cef70}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_bookableresourcereservation" parentDisplayName="Bookable Resource Reservation" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_bookableresourcereservation" parentDisplayName="Bookable Resource Reservation" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Information" parentDisplayName="Bookable Resource Reservation" id="{a55f6654-9e7a-440f-b887-7ca8cf2d88e9}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_event" parentDisplayName="Event" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_event" parentDisplayName="Event" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="26" schemaName="Active Events" displayName="Active Events" parentSchemaName="govcdm_event" parentDisplayName="Event" id="{ffe727b8-b391-49e4-887c-e19d0f52c541}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_event" parentDisplayName="Event" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_event" parentDisplayName="Event" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Information" parentDisplayName="Event" id="{d6c41f48-9ffa-4ff8-bc21-d3e2fd2dc701}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_event" parentDisplayName="Event" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_event" parentDisplayName="Event" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Quick Create" parentDisplayName="Event" id="{e5ee9ff9-ddad-f011-bbd2-001dd80888ed}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_eventattendee" parentDisplayName="Event Attendee" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_eventattendee" parentDisplayName="Event Attendee" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="26" schemaName="Active Event Attendees" displayName="Active Event Attendees" parentSchemaName="govcdm_eventattendee" parentDisplayName="Event Attendee" id="{dfc7342e-ddc0-4730-a4f2-a5270ca1eca7}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_eventattendee" parentDisplayName="Event Attendee" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_eventattendee" parentDisplayName="Event Attendee" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Information" parentDisplayName="Event Attendee" id="{bdc44309-c5ea-4f1d-9885-7a9195f5a1b5}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_evententry" parentDisplayName="Event Entry" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_evententry" parentDisplayName="Event Entry" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="26" schemaName="Active Event Entries" displayName="Active Event Entries" parentSchemaName="govcdm_evententry" parentDisplayName="Event Entry" id="{6d18f288-3e6d-4358-b308-44628cc219a6}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_evententry" parentDisplayName="Event Entry" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_evententry" parentDisplayName="Event Entry" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Quick Create" parentDisplayName="Event Entry" id="{466aec33-e0ad-f011-bbd2-001dd80888ed}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_evententry" parentDisplayName="Event Entry" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_evententry" parentDisplayName="Event Entry" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Information" parentDisplayName="Event Entry" id="{742b9085-03a5-4c4b-900f-548d1ff44ee4}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_eventparticipant" parentDisplayName="Event Participant" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_eventparticipant" parentDisplayName="Event Participant" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="26" schemaName="Active Event Participants" displayName="Active Event Participants" parentSchemaName="govcdm_eventparticipant" parentDisplayName="Event Participant" id="{f7c0c565-d07b-4f17-993c-5a2f65b25a87}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_eventparticipant" parentDisplayName="Event Participant" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_eventparticipant" parentDisplayName="Event Participant" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Quick Create" parentDisplayName="Event Participant" id="{147e43d2-e2ad-f011-bbd2-001dd80888ed}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_eventparticipant" parentDisplayName="Event Participant" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_eventparticipant" parentDisplayName="Event Participant" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Information" parentDisplayName="Event Participant" id="{8144ec30-fd11-493a-bc1f-bbb2a937ffdf}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_eventrequest" parentDisplayName="Event Request" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_eventrequest" parentDisplayName="Event Request" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Quick Create" parentDisplayName="Event Request" id="{30d092b0-ddad-f011-bbd2-001dd80888ed}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_eventrequest" parentDisplayName="Event Request" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_eventrequest" parentDisplayName="Event Request" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Information" parentDisplayName="Event Request" id="{3e64a373-6f76-4e34-89a0-f5b6b33e79bb}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_eventsession" parentDisplayName="Event Session" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_eventsession" parentDisplayName="Event Session" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="26" schemaName="Active Event Sessions" displayName="Active Event Sessions" parentSchemaName="govcdm_eventsession" parentDisplayName="Event Session" id="{ea7719a7-514b-4828-81d5-0b74466103e1}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_eventsession" parentDisplayName="Event Session" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_eventsession" parentDisplayName="Event Session" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Quick Create" parentDisplayName="Event Session" id="{8582cfc2-ddad-f011-bbd2-001dd80888ed}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_eventsession" parentDisplayName="Event Session" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_eventsession" parentDisplayName="Event Session" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Information" parentDisplayName="Event Session" id="{f1d1119f-bddd-4a47-900a-7e5fd3aa93a0}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_eventsessionparticipant" parentDisplayName="Event Session Participant" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_eventsessionparticipant" parentDisplayName="Event Session Participant" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="26" schemaName="Active Event Session Participants" displayName="Active Event Session Participants" parentSchemaName="govcdm_eventsessionparticipant" parentDisplayName="Event Session Participant" id="{9d4c3734-80c3-4b2e-849e-7b31f73314a3}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_eventsessionparticipant" parentDisplayName="Event Session Participant" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_eventsessionparticipant" parentDisplayName="Event Session Participant" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Information" parentDisplayName="Event Session Participant" id="{3450e7b5-39b8-41ad-9eae-8a20e4fd1972}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_eventsessionparticipant" parentDisplayName="Event Session Participant" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_eventsessionparticipant" parentDisplayName="Event Session Participant" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Quick Create" parentDisplayName="Event Session Participant" id="{c5c3a0bd-a1ae-f011-bbd2-001dd80888ed}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_eventsponsor" parentDisplayName="Event Sponsor" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_eventsponsor" parentDisplayName="Event Sponsor" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="26" schemaName="Active Event Sponsors" displayName="Active Event Sponsors" parentSchemaName="govcdm_eventsponsor" parentDisplayName="Event Sponsor" id="{b3f26941-2767-49c2-885d-0393925f4e25}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_eventsponsor" parentDisplayName="Event Sponsor" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_eventsponsor" parentDisplayName="Event Sponsor" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Quick Create" parentDisplayName="Event Sponsor" id="{8fc7d5d9-ddad-f011-bbd2-001dd80888ed}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_eventsponsor" parentDisplayName="Event Sponsor" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_eventsponsor" parentDisplayName="Event Sponsor" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Information" parentDisplayName="Event Sponsor" id="{a4ec9a90-4afe-4aaa-bb6b-c24612814f96}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_eventtrack" parentDisplayName="Event Track" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_eventtrack" parentDisplayName="Event Track" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="26" schemaName="Active Event Tracks" displayName="Active Event Tracks" parentSchemaName="govcdm_eventtrack" parentDisplayName="Event Track" id="{53abbe5d-a7b6-410f-b251-18d6648ad1cf}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_eventtrack" parentDisplayName="Event Track" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_eventtrack" parentDisplayName="Event Track" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Quick Create" parentDisplayName="Event Track" id="{44e7b6e1-ddad-f011-bbd2-001dd80888ed}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_eventtrack" parentDisplayName="Event Track" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_eventtrack" parentDisplayName="Event Track" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Information" parentDisplayName="Event Track" id="{b4d1c427-6d67-42f1-a4ce-90d40f7a64b9}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="govcdm_organization" displayName="Organization" parentSchemaName="govcdm_eventsponsor" parentDisplayName="Event Sponsor" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="2" schemaName="govcdm_organization" displayName="Organization" parentSchemaName="govcdm_eventsponsor" parentDisplayName="Event Sponsor" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="26" schemaName="Active Event Sponsors" displayName="Active Event Sponsors" parentSchemaName="govcdm_eventsponsor" parentDisplayName="Event Sponsor" id="{b3f26941-2767-49c2-885d-0393925f4e25}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="govcdm_organization" displayName="Organization" parentSchemaName="govcdm_eventsponsor" parentDisplayName="Event Sponsor" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="2" schemaName="govcdm_organization" displayName="Organization" parentSchemaName="govcdm_eventsponsor" parentDisplayName="Event Sponsor" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Quick Create" parentDisplayName="Event Sponsor" id="{8fc7d5d9-ddad-f011-bbd2-001dd80888ed}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="govcdm_organization" displayName="Organization" parentSchemaName="govcdm_eventsponsor" parentDisplayName="Event Sponsor" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="2" schemaName="govcdm_organization" displayName="Organization" parentSchemaName="govcdm_eventsponsor" parentDisplayName="Event Sponsor" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Information" parentDisplayName="Event Sponsor" id="{a4ec9a90-4afe-4aaa-bb6b-c24612814f96}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="govcdm_organizationcontact" displayName="Organization Contact" parentSchemaName="govcdm_eventsponsor" parentDisplayName="Event Sponsor" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="2" schemaName="govcdm_organizationcontact" displayName="Organization Contact" parentSchemaName="govcdm_eventsponsor" parentDisplayName="Event Sponsor" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="26" schemaName="Active Event Sponsors" displayName="Active Event Sponsors" parentSchemaName="govcdm_eventsponsor" parentDisplayName="Event Sponsor" id="{b3f26941-2767-49c2-885d-0393925f4e25}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="govcdm_organizationcontact" displayName="Organization Contact" parentSchemaName="govcdm_eventsponsor" parentDisplayName="Event Sponsor" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="2" schemaName="govcdm_organizationcontact" displayName="Organization Contact" parentSchemaName="govcdm_eventsponsor" parentDisplayName="Event Sponsor" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Quick Create" parentDisplayName="Event Sponsor" id="{8fc7d5d9-ddad-f011-bbd2-001dd80888ed}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="govcdm_organizationcontact" displayName="Organization Contact" parentSchemaName="govcdm_eventsponsor" parentDisplayName="Event Sponsor" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="2" schemaName="govcdm_organizationcontact" displayName="Organization Contact" parentSchemaName="govcdm_eventsponsor" parentDisplayName="Event Sponsor" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Information" parentDisplayName="Event Sponsor" id="{a4ec9a90-4afe-4aaa-bb6b-c24612814f96}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="govcdm_parenteventsession" displayName="Parent Event Session" parentSchemaName="govcdm_eventsession" parentDisplayName="Event Session" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="2" schemaName="govcdm_parenteventsession" displayName="Parent Event Session" parentSchemaName="govcdm_eventsession" parentDisplayName="Event Session" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="26" schemaName="Active Event Sessions" displayName="Active Event Sessions" parentSchemaName="govcdm_eventsession" parentDisplayName="Event Session" id="{ea7719a7-514b-4828-81d5-0b74466103e1}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="govcdm_parenteventsession" displayName="Parent Event Session" parentSchemaName="govcdm_eventsession" parentDisplayName="Event Session" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="2" schemaName="govcdm_parenteventsession" displayName="Parent Event Session" parentSchemaName="govcdm_eventsession" parentDisplayName="Event Session" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Quick Create" parentDisplayName="Event Session" id="{8582cfc2-ddad-f011-bbd2-001dd80888ed}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="govcdm_parenteventsession" displayName="Parent Event Session" parentSchemaName="govcdm_eventsession" parentDisplayName="Event Session" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="2" schemaName="govcdm_parenteventsession" displayName="Parent Event Session" parentSchemaName="govcdm_eventsession" parentDisplayName="Event Session" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Information" parentDisplayName="Event Session" id="{f1d1119f-bddd-4a47-900a-7e5fd3aa93a0}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="govcdm_person" displayName="Person" parentSchemaName="govcdm_eventattendee" parentDisplayName="Event Attendee" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="2" schemaName="govcdm_person" displayName="Person" parentSchemaName="govcdm_eventattendee" parentDisplayName="Event Attendee" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Event Attendee Quick Create" parentDisplayName="Event Attendee" id="{55198eae-b771-ee11-9ae7-6045bd0062b9}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="govcdm_person" displayName="Person" parentSchemaName="govcdm_eventattendee" parentDisplayName="Event Attendee" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="2" schemaName="govcdm_person" displayName="Person" parentSchemaName="govcdm_eventattendee" parentDisplayName="Event Attendee" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Information" parentDisplayName="Event Attendee" id="{bdc44309-c5ea-4f1d-9885-7a9195f5a1b5}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="govcdm_person" displayName="Person" parentSchemaName="govcdm_eventparticipant" parentDisplayName="Event Participant" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="2" schemaName="govcdm_person" displayName="Person" parentSchemaName="govcdm_eventparticipant" parentDisplayName="Event Participant" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="26" schemaName="Active Event Participants" displayName="Active Event Participants" parentSchemaName="govcdm_eventparticipant" parentDisplayName="Event Participant" id="{f7c0c565-d07b-4f17-993c-5a2f65b25a87}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="govcdm_person" displayName="Person" parentSchemaName="govcdm_eventparticipant" parentDisplayName="Event Participant" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="2" schemaName="govcdm_person" displayName="Person" parentSchemaName="govcdm_eventparticipant" parentDisplayName="Event Participant" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Quick Create" parentDisplayName="Event Participant" id="{147e43d2-e2ad-f011-bbd2-001dd80888ed}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="govcdm_person" displayName="Person" parentSchemaName="govcdm_eventparticipant" parentDisplayName="Event Participant" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="2" schemaName="govcdm_person" displayName="Person" parentSchemaName="govcdm_eventparticipant" parentDisplayName="Event Participant" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Information" parentDisplayName="Event Participant" id="{8144ec30-fd11-493a-bc1f-bbb2a937ffdf}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="govcdm_person" displayName="Person" parentSchemaName="govcdm_eventsessionparticipant" parentDisplayName="Event Session Participant" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="2" schemaName="govcdm_person" displayName="Person" parentSchemaName="govcdm_eventsessionparticipant" parentDisplayName="Event Session Participant" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="26" schemaName="Active Event Session Participants" displayName="Active Event Session Participants" parentSchemaName="govcdm_eventsessionparticipant" parentDisplayName="Event Session Participant" id="{9d4c3734-80c3-4b2e-849e-7b31f73314a3}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="govcdm_person" displayName="Person" parentSchemaName="govcdm_eventsessionparticipant" parentDisplayName="Event Session Participant" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="2" schemaName="govcdm_person" displayName="Person" parentSchemaName="govcdm_eventsessionparticipant" parentDisplayName="Event Session Participant" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Information" parentDisplayName="Event Session Participant" id="{3450e7b5-39b8-41ad-9eae-8a20e4fd1972}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="govcdm_person" displayName="Person" parentSchemaName="govcdm_eventsessionparticipant" parentDisplayName="Event Session Participant" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="2" schemaName="govcdm_person" displayName="Person" parentSchemaName="govcdm_eventsessionparticipant" parentDisplayName="Event Session Participant" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Quick Create" parentDisplayName="Event Session Participant" id="{c5c3a0bd-a1ae-f011-bbd2-001dd80888ed}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="govcdm_registrationenddatetime" displayName="Registration End" parentSchemaName="govcdm_event" parentDisplayName="Event" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="2" schemaName="govcdm_registrationenddatetime" displayName="Registration End" parentSchemaName="govcdm_event" parentDisplayName="Event" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="2" schemaName="govcdm_registrationenddatetime" displayName="Registration End" parentSchemaName="govcdm_event" parentDisplayName="Event" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="govcdm_registrationstartdatetime" displayName="Registration Start" parentSchemaName="govcdm_event" parentDisplayName="Event" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="2" schemaName="govcdm_registrationstartdatetime" displayName="Registration Start" parentSchemaName="govcdm_event" parentDisplayName="Event" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="2" schemaName="govcdm_registrationstartdatetime" displayName="Registration Start" parentSchemaName="govcdm_event" parentDisplayName="Event" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="govcdm_room" displayName="Room" parentSchemaName="govcdm_eventsession" parentDisplayName="Event Session" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="2" schemaName="govcdm_room" displayName="Room" parentSchemaName="govcdm_eventsession" parentDisplayName="Event Session" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="26" schemaName="Active Event Sessions" displayName="Active Event Sessions" parentSchemaName="govcdm_eventsession" parentDisplayName="Event Session" id="{ea7719a7-514b-4828-81d5-0b74466103e1}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="govcdm_room" displayName="Room" parentSchemaName="govcdm_eventsession" parentDisplayName="Event Session" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="2" schemaName="govcdm_room" displayName="Room" parentSchemaName="govcdm_eventsession" parentDisplayName="Event Session" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Quick Create" parentDisplayName="Event Session" id="{8582cfc2-ddad-f011-bbd2-001dd80888ed}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="govcdm_room" displayName="Room" parentSchemaName="govcdm_eventsession" parentDisplayName="Event Session" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="2" schemaName="govcdm_room" displayName="Room" parentSchemaName="govcdm_eventsession" parentDisplayName="Event Session" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Information" parentDisplayName="Event Session" id="{f1d1119f-bddd-4a47-900a-7e5fd3aa93a0}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="govcdm_sessiontype" displayName="Session Type" parentSchemaName="govcdm_eventsession" parentDisplayName="Event Session" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="2" schemaName="govcdm_sessiontype" displayName="Session Type" parentSchemaName="govcdm_eventsession" parentDisplayName="Event Session" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="26" schemaName="Active Event Sessions" displayName="Active Event Sessions" parentSchemaName="govcdm_eventsession" parentDisplayName="Event Session" id="{ea7719a7-514b-4828-81d5-0b74466103e1}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="govcdm_sessiontype" displayName="Session Type" parentSchemaName="govcdm_eventsession" parentDisplayName="Event Session" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="2" schemaName="govcdm_sessiontype" displayName="Session Type" parentSchemaName="govcdm_eventsession" parentDisplayName="Event Session" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Quick Create" parentDisplayName="Event Session" id="{8582cfc2-ddad-f011-bbd2-001dd80888ed}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="govcdm_sessiontype" displayName="Session Type" parentSchemaName="govcdm_eventsession" parentDisplayName="Event Session" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="2" schemaName="govcdm_sessiontype" displayName="Session Type" parentSchemaName="govcdm_eventsession" parentDisplayName="Event Session" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Information" parentDisplayName="Event Session" id="{f1d1119f-bddd-4a47-900a-7e5fd3aa93a0}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="govcdm_startdatetime" displayName="Start Date Time" parentSchemaName="govcdm_event" parentDisplayName="Event" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="2" schemaName="govcdm_startdatetime" displayName="Start Date Time" parentSchemaName="govcdm_event" parentDisplayName="Event" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Information" parentDisplayName="Event" id="{d6c41f48-9ffa-4ff8-bc21-d3e2fd2dc701}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="govcdm_startdatetime" displayName="Start Date Time" parentSchemaName="govcdm_event" parentDisplayName="Event" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="2" schemaName="govcdm_startdatetime" displayName="Start Date Time" parentSchemaName="govcdm_event" parentDisplayName="Event" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Quick Create" parentDisplayName="Event" id="{e5ee9ff9-ddad-f011-bbd2-001dd80888ed}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="govcdm_startdatetime" displayName="Start Date Time" parentSchemaName="govcdm_eventsession" parentDisplayName="Event Session" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="2" schemaName="govcdm_startdatetime" displayName="Start Date Time" parentSchemaName="govcdm_eventsession" parentDisplayName="Event Session" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="26" schemaName="Active Event Sessions" displayName="Active Event Sessions" parentSchemaName="govcdm_eventsession" parentDisplayName="Event Session" id="{ea7719a7-514b-4828-81d5-0b74466103e1}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="govcdm_startdatetime" displayName="Start Date Time" parentSchemaName="govcdm_eventsession" parentDisplayName="Event Session" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="2" schemaName="govcdm_startdatetime" displayName="Start Date Time" parentSchemaName="govcdm_eventsession" parentDisplayName="Event Session" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Quick Create" parentDisplayName="Event Session" id="{8582cfc2-ddad-f011-bbd2-001dd80888ed}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="govcdm_startdatetime" displayName="Start Date Time" parentSchemaName="govcdm_eventsession" parentDisplayName="Event Session" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="2" schemaName="govcdm_startdatetime" displayName="Start Date Time" parentSchemaName="govcdm_eventsession" parentDisplayName="Event Session" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Information" parentDisplayName="Event Session" id="{f1d1119f-bddd-4a47-900a-7e5fd3aa93a0}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="govcdm_termsandconditionsdocument" displayName="Terms and Conditions Document" parentSchemaName="govcdm_event" parentDisplayName="Event" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="2" schemaName="govcdm_termsandconditionsdocument" displayName="Terms and Conditions Document" parentSchemaName="govcdm_event" parentDisplayName="Event" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Information" parentDisplayName="Event" id="{d6c41f48-9ffa-4ff8-bc21-d3e2fd2dc701}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="govcdm_totalfundingavailable" displayName="Total Funding Available" parentSchemaName="govcdm_event" parentDisplayName="Event" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="2" schemaName="govcdm_totalfundingavailable" displayName="Total Funding Available" parentSchemaName="govcdm_event" parentDisplayName="Event" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Information" parentDisplayName="Event" id="{d6c41f48-9ffa-4ff8-bc21-d3e2fd2dc701}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="govcdm_totalfundingremaining" displayName="Total Funding Remaining" parentSchemaName="govcdm_event" parentDisplayName="Event" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="2" schemaName="govcdm_totalfundingremaining" displayName="Total Funding Remaining" parentSchemaName="govcdm_event" parentDisplayName="Event" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Information" parentDisplayName="Event" id="{d6c41f48-9ffa-4ff8-bc21-d3e2fd2dc701}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="govcdm_totalfundingused" displayName="Total Funding Used" parentSchemaName="govcdm_event" parentDisplayName="Event" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="2" schemaName="govcdm_totalfundingused" displayName="Total Funding Used" parentSchemaName="govcdm_event" parentDisplayName="Event" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Information" parentDisplayName="Event" id="{d6c41f48-9ffa-4ff8-bc21-d3e2fd2dc701}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="govcdm_totalplannedregistration" displayName="Total Planned Registration" parentSchemaName="govcdm_event" parentDisplayName="Event" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="2" schemaName="govcdm_totalplannedregistration" displayName="Total Planned Registration" parentSchemaName="govcdm_event" parentDisplayName="Event" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Information" parentDisplayName="Event" id="{d6c41f48-9ffa-4ff8-bc21-d3e2fd2dc701}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="govcdm_totalregisteredparticipants" displayName="Total Registered Participants" parentSchemaName="govcdm_event" parentDisplayName="Event" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="2" schemaName="govcdm_totalregisteredparticipants" displayName="Total Registered Participants" parentSchemaName="govcdm_event" parentDisplayName="Event" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Information" parentDisplayName="Event" id="{d6c41f48-9ffa-4ff8-bc21-d3e2fd2dc701}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="govcdm_volunteerdocument" displayName="Volunteer Document" parentSchemaName="govcdm_event" parentDisplayName="Event" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="2" schemaName="govcdm_volunteerdocument" displayName="Volunteer Document" parentSchemaName="govcdm_event" parentDisplayName="Event" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="60" displayName="Information" parentDisplayName="Event" id="{d6c41f48-9ffa-4ff8-bc21-d3e2fd2dc701}" />
       </MissingDependency>
       <MissingDependency>
@@ -1071,163 +1071,163 @@
         <Dependent type="60" displayName="Information" parentDisplayName="Event Track" id="{b4d1c427-6d67-42f1-a4ce-90d40f7a64b9}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="statecode" displayName="Status" parentSchemaName="govcdm_bookableresourcepayment" parentDisplayName="Bookable Resource Payment" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="2" schemaName="statecode" displayName="Status" parentSchemaName="govcdm_bookableresourcepayment" parentDisplayName="Bookable Resource Payment" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="26" schemaName="Active Bookable Resource Payments" displayName="Active Bookable Resource Payments" parentSchemaName="govcdm_bookableresourcepayment" parentDisplayName="Bookable Resource Payment" id="{69f02639-5e18-46dc-895a-8a1ad5541d7b}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="statecode" displayName="Status" parentSchemaName="govcdm_bookableresourcereservation" parentDisplayName="Bookable Resource Reservation" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="2" schemaName="statecode" displayName="Status" parentSchemaName="govcdm_bookableresourcereservation" parentDisplayName="Bookable Resource Reservation" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="26" schemaName="Active Bookable Resource Reservations" displayName="Active Bookable Resource Reservations" parentSchemaName="govcdm_bookableresourcereservation" parentDisplayName="Bookable Resource Reservation" id="{504752fc-ed36-422c-9454-557a6a6cef70}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="statecode" displayName="Status" parentSchemaName="govcdm_event" parentDisplayName="Event" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="2" schemaName="statecode" displayName="Status" parentSchemaName="govcdm_event" parentDisplayName="Event" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="26" schemaName="Active Events" displayName="Active Events" parentSchemaName="govcdm_event" parentDisplayName="Event" id="{ffe727b8-b391-49e4-887c-e19d0f52c541}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="statecode" displayName="Status" parentSchemaName="govcdm_eventattendee" parentDisplayName="Event Attendee" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="2" schemaName="statecode" displayName="Status" parentSchemaName="govcdm_eventattendee" parentDisplayName="Event Attendee" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="26" schemaName="Active Event Attendees" displayName="Active Event Attendees" parentSchemaName="govcdm_eventattendee" parentDisplayName="Event Attendee" id="{dfc7342e-ddc0-4730-a4f2-a5270ca1eca7}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="statecode" displayName="Status" parentSchemaName="govcdm_evententry" parentDisplayName="Event Entry" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="2" schemaName="statecode" displayName="Status" parentSchemaName="govcdm_evententry" parentDisplayName="Event Entry" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="26" schemaName="Active Event Entries" displayName="Active Event Entries" parentSchemaName="govcdm_evententry" parentDisplayName="Event Entry" id="{6d18f288-3e6d-4358-b308-44628cc219a6}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="statecode" displayName="Status" parentSchemaName="govcdm_eventparticipant" parentDisplayName="Event Participant" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="2" schemaName="statecode" displayName="Status" parentSchemaName="govcdm_eventparticipant" parentDisplayName="Event Participant" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="26" schemaName="Active Event Participants" displayName="Active Event Participants" parentSchemaName="govcdm_eventparticipant" parentDisplayName="Event Participant" id="{f7c0c565-d07b-4f17-993c-5a2f65b25a87}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="statecode" displayName="Status" parentSchemaName="govcdm_eventsession" parentDisplayName="Event Session" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="2" schemaName="statecode" displayName="Status" parentSchemaName="govcdm_eventsession" parentDisplayName="Event Session" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="26" schemaName="Active Event Sessions" displayName="Active Event Sessions" parentSchemaName="govcdm_eventsession" parentDisplayName="Event Session" id="{ea7719a7-514b-4828-81d5-0b74466103e1}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="statecode" displayName="Status" parentSchemaName="govcdm_eventsessionparticipant" parentDisplayName="Event Session Participant" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="2" schemaName="statecode" displayName="Status" parentSchemaName="govcdm_eventsessionparticipant" parentDisplayName="Event Session Participant" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="26" schemaName="Active Event Session Participants" displayName="Active Event Session Participants" parentSchemaName="govcdm_eventsessionparticipant" parentDisplayName="Event Session Participant" id="{9d4c3734-80c3-4b2e-849e-7b31f73314a3}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="statecode" displayName="Status" parentSchemaName="govcdm_eventsponsor" parentDisplayName="Event Sponsor" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="2" schemaName="statecode" displayName="Status" parentSchemaName="govcdm_eventsponsor" parentDisplayName="Event Sponsor" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="26" schemaName="Active Event Sponsors" displayName="Active Event Sponsors" parentSchemaName="govcdm_eventsponsor" parentDisplayName="Event Sponsor" id="{b3f26941-2767-49c2-885d-0393925f4e25}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="statecode" displayName="Status" parentSchemaName="govcdm_eventtrack" parentDisplayName="Event Track" solution="govcdm_eventmanagement (1.0.0.3)" />
+        <Required type="2" schemaName="statecode" displayName="Status" parentSchemaName="govcdm_eventtrack" parentDisplayName="Event Track" solution="govcdm_eventmanagement (1.1.0.0)" />
         <Dependent type="26" schemaName="Active Event Tracks" displayName="Active Event Tracks" parentSchemaName="govcdm_eventtrack" parentDisplayName="Event Track" id="{53abbe5d-a7b6-410f-b251-18d6648ad1cf}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="26" schemaName="Active Bookable Resource Payments" displayName="Active Bookable Resource Payments" parentSchemaName="govcdm_bookableresourcepayment" parentDisplayName="Bookable Resource Payment" solution="govcdm_eventmanagement (1.0.0.3)" id="{69f02639-5e18-46dc-895a-8a1ad5541d7b}" />
+        <Required type="26" schemaName="Active Bookable Resource Payments" displayName="Active Bookable Resource Payments" parentSchemaName="govcdm_bookableresourcepayment" parentDisplayName="Bookable Resource Payment" solution="govcdm_eventmanagement (1.1.0.0)" id="{69f02639-5e18-46dc-895a-8a1ad5541d7b}" />
         <Dependent type="26" schemaName="Active Bookable Resource Payments" displayName="Active Bookable Resource Payments" parentSchemaName="govcdm_bookableresourcepayment" parentDisplayName="Bookable Resource Payment" id="{69f02639-5e18-46dc-895a-8a1ad5541d7b}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="26" schemaName="Active Bookable Resource Reservations" displayName="Active Bookable Resource Reservations" parentSchemaName="govcdm_bookableresourcereservation" parentDisplayName="Bookable Resource Reservation" solution="govcdm_eventmanagement (1.0.0.3)" id="{504752fc-ed36-422c-9454-557a6a6cef70}" />
+        <Required type="26" schemaName="Active Bookable Resource Reservations" displayName="Active Bookable Resource Reservations" parentSchemaName="govcdm_bookableresourcereservation" parentDisplayName="Bookable Resource Reservation" solution="govcdm_eventmanagement (1.1.0.0)" id="{504752fc-ed36-422c-9454-557a6a6cef70}" />
         <Dependent type="26" schemaName="Active Bookable Resource Reservations" displayName="Active Bookable Resource Reservations" parentSchemaName="govcdm_bookableresourcereservation" parentDisplayName="Bookable Resource Reservation" id="{504752fc-ed36-422c-9454-557a6a6cef70}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="26" schemaName="Active Event Attendees" displayName="Active Event Attendees" parentSchemaName="govcdm_eventattendee" parentDisplayName="Event Attendee" solution="govcdm_eventmanagement (1.0.0.3)" id="{dfc7342e-ddc0-4730-a4f2-a5270ca1eca7}" />
+        <Required type="26" schemaName="Active Event Attendees" displayName="Active Event Attendees" parentSchemaName="govcdm_eventattendee" parentDisplayName="Event Attendee" solution="govcdm_eventmanagement (1.1.0.0)" id="{dfc7342e-ddc0-4730-a4f2-a5270ca1eca7}" />
         <Dependent type="26" schemaName="Active Event Attendees" displayName="Active Event Attendees" parentSchemaName="govcdm_eventattendee" parentDisplayName="Event Attendee" id="{dfc7342e-ddc0-4730-a4f2-a5270ca1eca7}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="26" schemaName="Active Event Entries" displayName="Active Event Entries" parentSchemaName="govcdm_evententry" parentDisplayName="Event Entry" solution="govcdm_eventmanagement (1.0.0.3)" id="{6d18f288-3e6d-4358-b308-44628cc219a6}" />
+        <Required type="26" schemaName="Active Event Entries" displayName="Active Event Entries" parentSchemaName="govcdm_evententry" parentDisplayName="Event Entry" solution="govcdm_eventmanagement (1.1.0.0)" id="{6d18f288-3e6d-4358-b308-44628cc219a6}" />
         <Dependent type="26" schemaName="Active Event Entries" displayName="Active Event Entries" parentSchemaName="govcdm_evententry" parentDisplayName="Event Entry" id="{6d18f288-3e6d-4358-b308-44628cc219a6}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="26" schemaName="Active Event Participants" displayName="Active Event Participants" parentSchemaName="govcdm_eventparticipant" parentDisplayName="Event Participant" solution="govcdm_eventmanagement (1.0.0.3)" id="{f7c0c565-d07b-4f17-993c-5a2f65b25a87}" />
+        <Required type="26" schemaName="Active Event Participants" displayName="Active Event Participants" parentSchemaName="govcdm_eventparticipant" parentDisplayName="Event Participant" solution="govcdm_eventmanagement (1.1.0.0)" id="{f7c0c565-d07b-4f17-993c-5a2f65b25a87}" />
         <Dependent type="26" schemaName="Active Event Participants" displayName="Active Event Participants" parentSchemaName="govcdm_eventparticipant" parentDisplayName="Event Participant" id="{f7c0c565-d07b-4f17-993c-5a2f65b25a87}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="26" schemaName="Active Event Requests" displayName="Active Event Requests" parentSchemaName="govcdm_eventrequest" parentDisplayName="Event Request" solution="govcdm_eventmanagement (1.0.0.3)" id="{a4810ea5-16d1-4aa1-8cfa-c4ed596c5755}" />
+        <Required type="26" schemaName="Active Event Requests" displayName="Active Event Requests" parentSchemaName="govcdm_eventrequest" parentDisplayName="Event Request" solution="govcdm_eventmanagement (1.1.0.0)" id="{a4810ea5-16d1-4aa1-8cfa-c4ed596c5755}" />
         <Dependent type="60" displayName="Information" parentDisplayName="Event" id="{d6c41f48-9ffa-4ff8-bc21-d3e2fd2dc701}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="26" schemaName="Active Event Session Participants" displayName="Active Event Session Participants" parentSchemaName="govcdm_eventsessionparticipant" parentDisplayName="Event Session Participant" solution="govcdm_eventmanagement (1.0.0.3)" id="{9d4c3734-80c3-4b2e-849e-7b31f73314a3}" />
+        <Required type="26" schemaName="Active Event Session Participants" displayName="Active Event Session Participants" parentSchemaName="govcdm_eventsessionparticipant" parentDisplayName="Event Session Participant" solution="govcdm_eventmanagement (1.1.0.0)" id="{9d4c3734-80c3-4b2e-849e-7b31f73314a3}" />
         <Dependent type="26" schemaName="Active Event Session Participants" displayName="Active Event Session Participants" parentSchemaName="govcdm_eventsessionparticipant" parentDisplayName="Event Session Participant" id="{9d4c3734-80c3-4b2e-849e-7b31f73314a3}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="26" schemaName="Active Event Sessions" displayName="Active Event Sessions" parentSchemaName="govcdm_eventsession" parentDisplayName="Event Session" solution="govcdm_eventmanagement (1.0.0.3)" id="{ea7719a7-514b-4828-81d5-0b74466103e1}" />
+        <Required type="26" schemaName="Active Event Sessions" displayName="Active Event Sessions" parentSchemaName="govcdm_eventsession" parentDisplayName="Event Session" solution="govcdm_eventmanagement (1.1.0.0)" id="{ea7719a7-514b-4828-81d5-0b74466103e1}" />
         <Dependent type="26" schemaName="Active Event Sessions" displayName="Active Event Sessions" parentSchemaName="govcdm_eventsession" parentDisplayName="Event Session" id="{ea7719a7-514b-4828-81d5-0b74466103e1}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="26" schemaName="Active Event Sponsors" displayName="Active Event Sponsors" parentSchemaName="govcdm_eventsponsor" parentDisplayName="Event Sponsor" solution="govcdm_eventmanagement (1.0.0.3)" id="{b3f26941-2767-49c2-885d-0393925f4e25}" />
+        <Required type="26" schemaName="Active Event Sponsors" displayName="Active Event Sponsors" parentSchemaName="govcdm_eventsponsor" parentDisplayName="Event Sponsor" solution="govcdm_eventmanagement (1.1.0.0)" id="{b3f26941-2767-49c2-885d-0393925f4e25}" />
         <Dependent type="26" schemaName="Active Event Sponsors" displayName="Active Event Sponsors" parentSchemaName="govcdm_eventsponsor" parentDisplayName="Event Sponsor" id="{b3f26941-2767-49c2-885d-0393925f4e25}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="26" schemaName="Active Event Tracks" displayName="Active Event Tracks" parentSchemaName="govcdm_eventtrack" parentDisplayName="Event Track" solution="govcdm_eventmanagement (1.0.0.3)" id="{53abbe5d-a7b6-410f-b251-18d6648ad1cf}" />
+        <Required type="26" schemaName="Active Event Tracks" displayName="Active Event Tracks" parentSchemaName="govcdm_eventtrack" parentDisplayName="Event Track" solution="govcdm_eventmanagement (1.1.0.0)" id="{53abbe5d-a7b6-410f-b251-18d6648ad1cf}" />
         <Dependent type="26" schemaName="Active Event Tracks" displayName="Active Event Tracks" parentSchemaName="govcdm_eventtrack" parentDisplayName="Event Track" id="{53abbe5d-a7b6-410f-b251-18d6648ad1cf}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="26" schemaName="Active Events" displayName="Active Events" parentSchemaName="govcdm_event" parentDisplayName="Event" solution="govcdm_eventmanagement (1.0.0.3)" id="{ffe727b8-b391-49e4-887c-e19d0f52c541}" />
+        <Required type="26" schemaName="Active Events" displayName="Active Events" parentSchemaName="govcdm_event" parentDisplayName="Event" solution="govcdm_eventmanagement (1.1.0.0)" id="{ffe727b8-b391-49e4-887c-e19d0f52c541}" />
         <Dependent type="26" schemaName="Active Events" displayName="Active Events" parentSchemaName="govcdm_event" parentDisplayName="Event" id="{ffe727b8-b391-49e4-887c-e19d0f52c541}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="60" displayName="Quick Create" parentDisplayName="Event Participant" solution="govcdm_eventmanagement (1.0.0.3)" id="{147e43d2-e2ad-f011-bbd2-001dd80888ed}" />
+        <Required type="60" displayName="Quick Create" parentDisplayName="Event Participant" solution="govcdm_eventmanagement (1.1.0.0)" id="{147e43d2-e2ad-f011-bbd2-001dd80888ed}" />
         <Dependent type="60" displayName="Quick Create" parentDisplayName="Event Participant" id="{147e43d2-e2ad-f011-bbd2-001dd80888ed}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="60" displayName="Quick Create" parentDisplayName="Event Request" solution="govcdm_eventmanagement (1.0.0.3)" id="{30d092b0-ddad-f011-bbd2-001dd80888ed}" />
+        <Required type="60" displayName="Quick Create" parentDisplayName="Event Request" solution="govcdm_eventmanagement (1.1.0.0)" id="{30d092b0-ddad-f011-bbd2-001dd80888ed}" />
         <Dependent type="60" displayName="Quick Create" parentDisplayName="Event Request" id="{30d092b0-ddad-f011-bbd2-001dd80888ed}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="60" displayName="Information" parentDisplayName="Event Session Participant" solution="govcdm_eventmanagement (1.0.0.3)" id="{3450e7b5-39b8-41ad-9eae-8a20e4fd1972}" />
+        <Required type="60" displayName="Information" parentDisplayName="Event Session Participant" solution="govcdm_eventmanagement (1.1.0.0)" id="{3450e7b5-39b8-41ad-9eae-8a20e4fd1972}" />
         <Dependent type="60" displayName="Information" parentDisplayName="Event Session Participant" id="{3450e7b5-39b8-41ad-9eae-8a20e4fd1972}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="60" displayName="Information" parentDisplayName="Event Request" solution="govcdm_eventmanagement (1.0.0.3)" id="{3e64a373-6f76-4e34-89a0-f5b6b33e79bb}" />
+        <Required type="60" displayName="Information" parentDisplayName="Event Request" solution="govcdm_eventmanagement (1.1.0.0)" id="{3e64a373-6f76-4e34-89a0-f5b6b33e79bb}" />
         <Dependent type="60" displayName="Information" parentDisplayName="Event Request" id="{3e64a373-6f76-4e34-89a0-f5b6b33e79bb}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="60" displayName="Quick Create" parentDisplayName="Event Track" solution="govcdm_eventmanagement (1.0.0.3)" id="{44e7b6e1-ddad-f011-bbd2-001dd80888ed}" />
+        <Required type="60" displayName="Quick Create" parentDisplayName="Event Track" solution="govcdm_eventmanagement (1.1.0.0)" id="{44e7b6e1-ddad-f011-bbd2-001dd80888ed}" />
         <Dependent type="60" displayName="Quick Create" parentDisplayName="Event Track" id="{44e7b6e1-ddad-f011-bbd2-001dd80888ed}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="60" displayName="Quick Create" parentDisplayName="Event Entry" solution="govcdm_eventmanagement (1.0.0.3)" id="{466aec33-e0ad-f011-bbd2-001dd80888ed}" />
+        <Required type="60" displayName="Quick Create" parentDisplayName="Event Entry" solution="govcdm_eventmanagement (1.1.0.0)" id="{466aec33-e0ad-f011-bbd2-001dd80888ed}" />
         <Dependent type="60" displayName="Quick Create" parentDisplayName="Event Entry" id="{466aec33-e0ad-f011-bbd2-001dd80888ed}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="60" displayName="Information" parentDisplayName="Event Entry" solution="govcdm_eventmanagement (1.0.0.3)" id="{742b9085-03a5-4c4b-900f-548d1ff44ee4}" />
+        <Required type="60" displayName="Information" parentDisplayName="Event Entry" solution="govcdm_eventmanagement (1.1.0.0)" id="{742b9085-03a5-4c4b-900f-548d1ff44ee4}" />
         <Dependent type="60" displayName="Information" parentDisplayName="Event Entry" id="{742b9085-03a5-4c4b-900f-548d1ff44ee4}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="60" displayName="Information" parentDisplayName="Event Participant" solution="govcdm_eventmanagement (1.0.0.3)" id="{8144ec30-fd11-493a-bc1f-bbb2a937ffdf}" />
+        <Required type="60" displayName="Information" parentDisplayName="Event Participant" solution="govcdm_eventmanagement (1.1.0.0)" id="{8144ec30-fd11-493a-bc1f-bbb2a937ffdf}" />
         <Dependent type="60" displayName="Information" parentDisplayName="Event Participant" id="{8144ec30-fd11-493a-bc1f-bbb2a937ffdf}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="60" displayName="Quick Create" parentDisplayName="Event Session" solution="govcdm_eventmanagement (1.0.0.3)" id="{8582cfc2-ddad-f011-bbd2-001dd80888ed}" />
+        <Required type="60" displayName="Quick Create" parentDisplayName="Event Session" solution="govcdm_eventmanagement (1.1.0.0)" id="{8582cfc2-ddad-f011-bbd2-001dd80888ed}" />
         <Dependent type="60" displayName="Quick Create" parentDisplayName="Event Session" id="{8582cfc2-ddad-f011-bbd2-001dd80888ed}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="60" displayName="Quick Create" parentDisplayName="Event Sponsor" solution="govcdm_eventmanagement (1.0.0.3)" id="{8fc7d5d9-ddad-f011-bbd2-001dd80888ed}" />
+        <Required type="60" displayName="Quick Create" parentDisplayName="Event Sponsor" solution="govcdm_eventmanagement (1.1.0.0)" id="{8fc7d5d9-ddad-f011-bbd2-001dd80888ed}" />
         <Dependent type="60" displayName="Quick Create" parentDisplayName="Event Sponsor" id="{8fc7d5d9-ddad-f011-bbd2-001dd80888ed}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="60" displayName="Information" parentDisplayName="Event Sponsor" solution="govcdm_eventmanagement (1.0.0.3)" id="{a4ec9a90-4afe-4aaa-bb6b-c24612814f96}" />
+        <Required type="60" displayName="Information" parentDisplayName="Event Sponsor" solution="govcdm_eventmanagement (1.1.0.0)" id="{a4ec9a90-4afe-4aaa-bb6b-c24612814f96}" />
         <Dependent type="60" displayName="Information" parentDisplayName="Event Sponsor" id="{a4ec9a90-4afe-4aaa-bb6b-c24612814f96}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="60" displayName="Information" parentDisplayName="Bookable Resource Reservation" solution="govcdm_eventmanagement (1.0.0.3)" id="{a55f6654-9e7a-440f-b887-7ca8cf2d88e9}" />
+        <Required type="60" displayName="Information" parentDisplayName="Bookable Resource Reservation" solution="govcdm_eventmanagement (1.1.0.0)" id="{a55f6654-9e7a-440f-b887-7ca8cf2d88e9}" />
         <Dependent type="60" displayName="Information" parentDisplayName="Bookable Resource Reservation" id="{a55f6654-9e7a-440f-b887-7ca8cf2d88e9}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="60" displayName="Information" parentDisplayName="Event Track" solution="govcdm_eventmanagement (1.0.0.3)" id="{b4d1c427-6d67-42f1-a4ce-90d40f7a64b9}" />
+        <Required type="60" displayName="Information" parentDisplayName="Event Track" solution="govcdm_eventmanagement (1.1.0.0)" id="{b4d1c427-6d67-42f1-a4ce-90d40f7a64b9}" />
         <Dependent type="60" displayName="Information" parentDisplayName="Event Track" id="{b4d1c427-6d67-42f1-a4ce-90d40f7a64b9}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="60" displayName="Information" parentDisplayName="Event Attendee" solution="govcdm_eventmanagement (1.0.0.3)" id="{bdc44309-c5ea-4f1d-9885-7a9195f5a1b5}" />
+        <Required type="60" displayName="Information" parentDisplayName="Event Attendee" solution="govcdm_eventmanagement (1.1.0.0)" id="{bdc44309-c5ea-4f1d-9885-7a9195f5a1b5}" />
         <Dependent type="60" displayName="Information" parentDisplayName="Event Attendee" id="{bdc44309-c5ea-4f1d-9885-7a9195f5a1b5}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="60" displayName="Quick Create" parentDisplayName="Event Session Participant" solution="govcdm_eventmanagement (1.0.0.3)" id="{c5c3a0bd-a1ae-f011-bbd2-001dd80888ed}" />
+        <Required type="60" displayName="Quick Create" parentDisplayName="Event Session Participant" solution="govcdm_eventmanagement (1.1.0.0)" id="{c5c3a0bd-a1ae-f011-bbd2-001dd80888ed}" />
         <Dependent type="60" displayName="Quick Create" parentDisplayName="Event Session Participant" id="{c5c3a0bd-a1ae-f011-bbd2-001dd80888ed}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="60" displayName="Information" parentDisplayName="Event" solution="govcdm_eventmanagement (1.0.0.3)" id="{d6c41f48-9ffa-4ff8-bc21-d3e2fd2dc701}" />
+        <Required type="60" displayName="Information" parentDisplayName="Event" solution="govcdm_eventmanagement (1.1.0.0)" id="{d6c41f48-9ffa-4ff8-bc21-d3e2fd2dc701}" />
         <Dependent type="60" displayName="Information" parentDisplayName="Event" id="{d6c41f48-9ffa-4ff8-bc21-d3e2fd2dc701}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="60" displayName="Quick Create" parentDisplayName="Event" solution="govcdm_eventmanagement (1.0.0.3)" id="{e5ee9ff9-ddad-f011-bbd2-001dd80888ed}" />
+        <Required type="60" displayName="Quick Create" parentDisplayName="Event" solution="govcdm_eventmanagement (1.1.0.0)" id="{e5ee9ff9-ddad-f011-bbd2-001dd80888ed}" />
         <Dependent type="60" displayName="Quick Create" parentDisplayName="Event" id="{e5ee9ff9-ddad-f011-bbd2-001dd80888ed}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="60" displayName="Information" parentDisplayName="Event Session" solution="govcdm_eventmanagement (1.0.0.3)" id="{f1d1119f-bddd-4a47-900a-7e5fd3aa93a0}" />
+        <Required type="60" displayName="Information" parentDisplayName="Event Session" solution="govcdm_eventmanagement (1.1.0.0)" id="{f1d1119f-bddd-4a47-900a-7e5fd3aa93a0}" />
         <Dependent type="60" displayName="Information" parentDisplayName="Event Session" id="{f1d1119f-bddd-4a47-900a-7e5fd3aa93a0}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="60" displayName="Information" parentDisplayName="Bookable Resource" solution="govcdm_eventmanagement (1.0.0.3)" id="{ffa05bca-e4ae-46b9-b957-dbc626987ee5}" />
+        <Required type="60" displayName="Information" parentDisplayName="Bookable Resource" solution="govcdm_eventmanagement (1.1.0.0)" id="{ffa05bca-e4ae-46b9-b957-dbc626987ee5}" />
         <Dependent type="60" displayName="Information" parentDisplayName="Bookable Resource" id="{ffa05bca-e4ae-46b9-b957-dbc626987ee5}" />
       </MissingDependency>
       <MissingDependency>
