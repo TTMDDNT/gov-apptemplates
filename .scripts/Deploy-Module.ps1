@@ -20,33 +20,43 @@ Connect-DataverseTenant -authProfile $deploymentConfig.Tenant
 do {
     # ask which type of ip
     Write-Host ""
-    $ipType = Select-ItemFromList "cross-module", "modules"
+    $ipType = Select-ItemFromList "cross-module", "modules", "portals"
     
     if ($ipType -ne "") {
         $baseFolder = "$projectRoot\$ipType"
 
-        # determine target environment based on ipType
-        if ($ipType -eq "cross-module") {
-            $targetEnvKey = "GOV APPS"
-            $targetEnv = $deploymentConfig.Environments."GOV APPS"
-            Write-Host "Cross-module solutions will be deployed to: $targetEnv"
-        } else {
-            $targetEnvKey = "GOV ENTERPRISE APPS"
-            $targetEnv = $deploymentConfig.Environments."GOV ENTERPRISE APPS"
-            Write-Host "Module solutions will be deployed to: $targetEnv"
-        }
-
-        Write-Host ""
-        Write-Host "Connecting to environment: $targetEnv"
-        Connect-DataverseEnvironment -envName $targetEnv
-
-        # ask for which module to deploy
+        # ask for which module to deploy first (needed for portal environment determination)
         Write-Host ""
         $excludeFolders = "__pycache__", ".scripts"
         $folderNames = Get-ChildItem -Path "$projectRoot\$ipType" -Directory -Exclude $excludeFolders | Select-Object -ExpandProperty Name
         $module = Select-ItemFromList $folderNames
 
         if ($module -ne "") {
+            # determine target environment based on ipType and module name
+            if ($ipType -eq "cross-module") {
+                $targetEnvKey = "GOV APPS"
+                $targetEnv = $deploymentConfig.Environments."GOV APPS"
+                Write-Host "Cross-module solutions will be deployed to: $targetEnv"
+            } elseif ($ipType -eq "portals") {
+                if ($module -eq "core" -or $module -like "*core*") {
+                    $targetEnvKey = "GOV PORTALS"
+                    $targetEnv = $deploymentConfig.Environments."GOV PORTALS"
+                    Write-Host "Core portal solution will be deployed as managed to: $targetEnv"
+                } else {
+                    Write-Host "Portal solution '$module' is not deployed to downstream environments yet." -ForegroundColor Yellow
+                    Write-Host "Skipping deployment for this portal solution." -ForegroundColor Yellow
+                    continue
+                }
+            } else {
+                $targetEnvKey = "GOV ENTERPRISE APPS"
+                $targetEnv = $deploymentConfig.Environments."GOV ENTERPRISE APPS"
+                Write-Host "Module solutions will be deployed to: $targetEnv"
+            }
+
+            Write-Host ""
+            Write-Host "Connecting to environment: $targetEnv"
+            Connect-DataverseEnvironment -envName $targetEnv
+
             # The Deploy-Solution function expects just the relative path from .config folder
             # It will construct the full path itself using Join-Path $PSScriptRoot '..\.config' $settingsFile
             $settingsRelativePath = "$($deploymentConfig.Tenant)\$targetEnvKey.json"

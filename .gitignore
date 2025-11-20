@@ -15,6 +15,7 @@ target
 .temp
 .temp-convert
 .vscode
+.scripts/sample-data
 
 # User-specific files
 *.rsuser

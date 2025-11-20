@@ -16,7 +16,7 @@ function Get-NewFileNameLocal($originalName, $newVersion) {
     return $originalName
 }
 
-$ipTypes = @('cross-module','modules')
+$ipTypes = @('cross-module','modules','portals')
 $excludeFolders = '__pycache__', '.scripts'
 
 foreach ($ipType in $ipTypes) {

@@ -11,7 +11,7 @@
 
 param(
     [Parameter(Mandatory=$false)]
-    [ValidateSet('cross-module','modules')]
+    [ValidateSet('cross-module','modules','portals')]
     [string]$IpType,
 
     [Parameter(Mandatory=$false)]
@@ -48,7 +48,7 @@ function Copy-SolutionArtifact($sourceArtifact, $newVersion) {
 
 # ask which type of ip (if not provided as parameter)
 if (-not $IpType) {
-    $IpType = Select-ItemFromList "cross-module", "modules"
+    $IpType = Select-ItemFromList "cross-module", "modules", "portals"
 }
 $baseFolder = "$projectRoot\$IpType"
 

@@ -26,33 +26,36 @@ Write-Host ""
 Write-Host "Connecting to environment: $targetEnv"
 Connect-DataverseEnvironment -envName $targetEnv
 
-# ask which type of ip once at the beginning
-Write-Host ""
-$ipType = Select-ItemFromList "cross-module", "modules"
-$baseFolder = "$projectRoot\$ipType"
-
 # Start the loop
 do {
-    # ask for which module to ship
+    # ask which type of module to ship
     Write-Host ""
-    $excludeFolders = "__pycache__", ".scripts"
-    $folderNames = Get-ChildItem -Path "$projectRoot\$ipType" -Directory -Exclude $excludeFolders | Select-Object -ExpandProperty Name
-    $module = Select-ItemFromList $folderNames
+    $ipType = Select-ItemFromList "cross-module", "modules", "portals"
+    
+    if ($ipType -ne "") {
+        $baseFolder = "$projectRoot\$ipType"
+        
+        # ask for which module to ship within the selected type
+        Write-Host ""
+        $excludeFolders = "__pycache__", ".scripts"
+        $folderNames = Get-ChildItem -Path "$projectRoot\$ipType" -Directory -Exclude $excludeFolders | Select-Object -ExpandProperty Name
+        $module = Select-ItemFromList $folderNames
 
-    if ($module -ne "") {
-        # debug: show what we're working with
-        Write-Host "Debug - deploymentConfig.Tenant: '$($deploymentConfig.Tenant)'"
-        Write-Host "Debug - selectedEnvKey: '$selectedEnvKey'"
-        
-        # The Deploy-Solution function expects just the relative path from .config folder
-        # It will construct the full path itself using Join-Path $PSScriptRoot '..\.config' $settingsFile
-        $settingsRelativePath = "$($deploymentConfig.Tenant)\$selectedEnvKey.json"
-        Write-Host "Using settings relative path: $settingsRelativePath"
-        
-        # deploy the solution with the relative settings path
-        Deploy-Solution "$baseFolder\$module" -Managed -AutoConfirm -Settings $settingsRelativePath
+        if ($module -ne "") {
+            # debug: show what we're working with
+            # Write-Host "Debug - deploymentConfig.Tenant: '$($deploymentConfig.Tenant)'"
+            # Write-Host "Debug - selectedEnvKey: '$selectedEnvKey'"
+            
+            # The Deploy-Solution function expects just the relative path from .config folder
+            # It will construct the full path itself using Join-Path $PSScriptRoot '..\.config' $settingsFile
+            $settingsRelativePath = "$($deploymentConfig.Tenant)\$selectedEnvKey.json"
+            Write-Host "Using settings relative path: $settingsRelativePath"
+            
+            # deploy the solution with the relative settings path
+            Deploy-Solution "$baseFolder\$module" -Managed -AutoConfirm -Settings $settingsRelativePath
+        }
     }
-} while ($module -ne "") # Continue looping until the input is an empty string
+} while ($ipType -ne "" -and $module -ne "") # Continue looping until either selection is empty
 
 Write-Host "Operation complete."
 

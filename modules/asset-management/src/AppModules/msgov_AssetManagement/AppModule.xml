@@ -26,4 +26,10 @@
   <LocalizedNames>
     <LocalizedName description="Asset Management" languagecode="1033" />
   </LocalizedNames>
+  <appsettings>
+    <appsetting settingdefinitionid.uniquename="appcopilotenabled">
+      <iscustomizable>1</iscustomizable>
+      <value>2</value>
+    </appsetting>
+  </appsettings>
 </AppModule>

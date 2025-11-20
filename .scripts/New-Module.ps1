@@ -3,7 +3,7 @@ $projectRoot = "$PSScriptRoot\.."
 . "${projectRoot}\.scripts\Util.ps1"
 
 # ask which type of ip
-$ipType = Select-ItemFromList "cross-module", "modules"
+$ipType = Select-ItemFromList "cross-module", "modules", "portals"
 
 $friendlyName = Read-Host "Enter module name (spaces allowed)"
 
@@ -26,6 +26,7 @@ $tokens = $tokens | ForEach-Object { if ($_.Length -gt 1) { $_.Substring(0,1).To
 $projectCasedHyphenName = ($tokens -join '-')
 
 $prefix = "msgov"
+$publisherPrefix = $prefix
 
 $solutionUniqueName = $friendlyName -replace '[^a-zA-Z0-9\-]', ''   # keep only letters, numbers, dashes
 $solutionUniqueName = $solutionUniqueName.ToLower().Replace("-", "_")
@@ -38,11 +39,13 @@ $pacFriendlyPrefix = "MS-Gov"
 
 # $solutionUniqueName = "${prefix}_${solutionUniqueName}"
 $solutionPath = Join-Path -Path "$PSScriptRoot\.." -ChildPath "$ipType\$pacFriendlyName"
-$publisherPrefix = $prefix
 
 pac solution init --publisher-name $publisherSchemaName --publisher-prefix $publisherPrefix -o $solutionPath
 
-Rename-Item $solutionPath $solutionFolderName
+# Only rename if the folder names are different
+if ($pacFriendlyName -ne $solutionFolderName) {
+    Rename-Item $solutionPath $solutionFolderName
+}
 $solutionPath = Join-Path -Path "$PSScriptRoot\.." -ChildPath "$ipType\$solutionFolderName"
 
 Update-SolutionName $solutionPath/src/Other/Solution.xml "$friendlyPrefix - $friendlyName"
@@ -66,10 +69,16 @@ if ($importAnswer -eq 'y') {
     Connect-DataverseTenant -authProfile $deploymentConfig.Tenant
 
     # determine target environment based on module type
-    $targetEnv = if ($ipType -eq "cross-module") {
-        "GOV UTILITY APPS"
-    } else {
-        "GOV APPS"
+    $targetEnv = switch ($ipType) {
+        "cross-module" { "GOV UTILITY APPS" }
+        "portals" { 
+            if ($solutionFolderName -eq "core" -or $friendlyName.ToLower() -like "*core*") {
+                "GOV CORE PORTAL"
+            } else {
+                "GOV PORTALS"
+            }
+        }
+        default { "GOV APPS" }
     }
 
     # connect to the determined environment

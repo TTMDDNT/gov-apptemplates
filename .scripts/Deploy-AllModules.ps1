@@ -35,10 +35,14 @@ Write-Host "Selected Tenant: $tenantName"
 # Confirm the user has created the connections and the settings file under .config\<tenant>\<env>.json
 $govUtilityEnv = "GOV UTILITY APPS"
 $govAppsEnv = "GOV APPS"
+$govPortalsEnv = "GOV PORTALS"
+$govCorePortalEnv = "GOV CORE PORTAL"
 
 $settingsFiles = @(
     "$tenantName\$govUtilityEnv.json",
-    "$tenantName\$govAppsEnv.json"
+    "$tenantName\$govAppsEnv.json",
+    "$tenantName\$govPortalsEnv.json",
+    "$tenantName\$govCorePortalEnv.json"
 )
 
 $missingSettings = @()
@@ -115,6 +119,12 @@ function Deploy-FromFolder {
         # determine target environment based on folder path
         $targetEnv = if ($folderPath -like "*cross-module*") {
             "GOV UTILITY APPS"
+        } elseif ($folderPath -like "*portals*") {
+            if ($module -eq "core" -or $module -like "*core*") {
+                "GOV CORE PORTAL"
+            } else {
+                "GOV PORTALS"
+            }
         } else {
             "GOV APPS"
         }
@@ -144,5 +154,10 @@ Deploy-FromFolder -folderPath $crossFolder -orderedFirst $orderedFirst
 # Then: deploy modules folder (no special ordering beyond alphabetical)
 $modulesFolder = Join-Path $projectRoot 'modules'
 Deploy-FromFolder -folderPath $modulesFolder
+
+# Finally: deploy portals folder (ensure core is first)
+$portalsFolder = Join-Path $projectRoot 'portals'
+$orderedFirstPortals = @('core')
+Deploy-FromFolder -folderPath $portalsFolder -orderedFirst $orderedFirstPortals
 
 Write-Host "All deployments processed." -ForegroundColor Green

@@ -1,6 +1,8 @@
 
+$projectRoot = "$PSScriptRoot\.."
+. "${projectRoot}\.scripts\Util.ps1"
 
-$ipType = Select-ItemFromList "cross-module", "modules"
+$ipType = Select-ItemFromList "cross-module", "modules", "portals"
 $baseFolder = "$projectRoot\$ipType"
 
 Write-Host ""
