@@ -267,7 +267,6 @@
             <Handler functionName="AppCommon.Contact.Instance.form_onload" libraryName="AppCommon/Contact/Contact_main_system_library.js" handlerUniqueId="4ea24ebd-795d-434e-af94-6812c3867b54" enabled="true" />
           </InternalHandlers>
           <Handlers>
-            <Handler functionName="openActionItemPane" libraryName="msgov_processandtasking" handlerUniqueId="{7beade1c-0e7b-4019-bf16-e22c18547695}" enabled="true" parameters="" passExecutionContext="true" />
             <Handler functionName="openActionItemsPane" libraryName="msgov_processandtasking" handlerUniqueId="{3420db56-5157-48f0-a76d-60186c08cd55}" enabled="true" parameters="" passExecutionContext="true" />
             <Handler functionName="openDocumentsPane" libraryName="msgov_processandtasking" handlerUniqueId="{61baef74-dd21-4c74-b983-d38a4b0dd989}" enabled="true" parameters="" passExecutionContext="true" />
             <Handler functionName="openAssistantPane" libraryName="msgov_processandtasking" handlerUniqueId="{6d02169e-def3-4b01-9df0-4273d7bdb993}" enabled="true" parameters="" passExecutionContext="true" />

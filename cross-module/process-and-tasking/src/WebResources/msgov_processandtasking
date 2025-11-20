@@ -34,6 +34,14 @@ function openPane(context, isSelected, title, customPageName, icon, width = 400,
 		let entityName = formContext.data.entity.getEntityName();
 		entityName += "s";
 		let recordId = formContext.data.entity.getId().replace(/[\{\}]/g, '');
+		
+		// Check if this is a new record form
+		const isNewRecord = !recordId || recordId === "00000000-0000-0000-0000-000000000000" || 
+						   formContext.ui.getFormType() === 1; // FormType.Create = 1
+		
+		// Set pane width based on whether it's a new record
+		const paneWidth = isNewRecord ? 50 : width; // Minimized width for new records
+		const paneIsSelected = isNewRecord ? false : isSelected; // Not selected (minimized) for new records
 
 		Xrm.App.sidePanes.createPane({
 			title,
@@ -41,8 +49,8 @@ function openPane(context, isSelected, title, customPageName, icon, width = 400,
 			paneId: title,
 			hideHeader,
 			canClose: true,
-			width,
-			isSelected
+			width: paneWidth,
+			isSelected: paneIsSelected
 		}).then((pane) => {
 			setTimeout(
 				pane.navigate({
@@ -181,4 +189,3 @@ function openCustomPageAsDialog(context, title, customPageName, widthPercent = 6
         console.error("Dialog failed to open:", error);
     });
 }
-

@@ -10,7 +10,6 @@
   <ClientType>4</ClientType>
   <NavigationType>0</NavigationType>
   <AppModuleComponents>
-    <AppModuleComponent type="1" schemaName="govcdm_actionassignment" />
     <AppModuleComponent type="1" schemaName="govcdm_expenseitemcategory" />
     <AppModuleComponent type="1" schemaName="govcdm_expensereport" />
     <AppModuleComponent type="1" schemaName="govcdm_expensereportlineitem" />
@@ -39,19 +38,12 @@
     <LocalizedName description="Time, Travel, and Expenses" languagecode="1033" />
   </LocalizedNames>
   <appelements>
-    <appelement uniquename="msgov_msgov_TimeTravelandExpenses_canvasappid_msgov_actionassignmentpage_3215d">
+    <appelement uniquename="msgov_msgov_TimeTravelandExpenses_canvasappid_msgov_actionitemspage_c082a">
       <canvasappid>
-        <name>msgov_actionassignmentpage_3215d</name>
+        <name>msgov_actionitemspage_c082a</name>
       </canvasappid>
       <iscustomizable>1</iscustomizable>
-      <name>msgov_msgov_TimeTravelandExpenses_canvasappid_msgov_actionassignmentpage_3215d</name>
-    </appelement>
-    <appelement uniquename="msgov_msgov_TimeTravelandExpenses_canvasappid_msgov_actionitempage_94fbe">
-      <canvasappid>
-        <name>msgov_actionitempage_94fbe</name>
-      </canvasappid>
-      <iscustomizable>1</iscustomizable>
-      <name>msgov_msgov_TimeTravelandExpenses_canvasappid_msgov_actionitempage_94fbe</name>
+      <name>msgov_msgov_TimeTravelandExpenses_canvasappid_msgov_actionitemspage_c082a</name>
     </appelement>
   </appelements>
   <appsettings>

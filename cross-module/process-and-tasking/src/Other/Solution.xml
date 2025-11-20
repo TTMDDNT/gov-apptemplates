@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ImportExportXml version="9.2.25083.183" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" OrganizationVersion="9.2.25083.183" OrganizationSchemaType="Standard" CRMServerServiceabilityVersion="9.2.25083.00183">
+<ImportExportXml version="9.2.25095.169" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" OrganizationVersion="9.2.25095.169" OrganizationSchemaType="Standard" CRMServerServiceabilityVersion="9.2.25102.00174">
   <SolutionManifest>
     <UniqueName>msgov_processandtasking</UniqueName>
     <LocalizedNames>
       <LocalizedName description="Microsoft Gov - Process and Tasking" languagecode="1033" />
     </LocalizedNames>
     <Descriptions />
-    <Version>1.1.0.0</Version>
+    <Version>1.1.1.0</Version>
     <Managed>2</Managed>
     <Publisher>
       <UniqueName>msgovsolutions</UniqueName>
@@ -14,12 +14,12 @@
         <LocalizedName description="Microsoft Government Solutions" languagecode="1033" />
       </LocalizedNames>
       <Descriptions>
-        <Description description="Microsoft Government Solutions" languagecode="1033" />
+        <Description description="msgovsolutions" languagecode="1033" />
       </Descriptions>
       <EMailAddress xsi:nil="true"></EMailAddress>
       <SupportingWebsiteUrl xsi:nil="true"></SupportingWebsiteUrl>
       <CustomizationPrefix>msgov</CustomizationPrefix>
-      <CustomizationOptionValuePrefix>18844</CustomizationOptionValuePrefix>
+      <CustomizationOptionValuePrefix>38751</CustomizationOptionValuePrefix>
       <Addresses>
         <Address>
           <AddressNumber>1</AddressNumber>
@@ -333,35 +333,35 @@
         <Dependent type="80" schemaName="msgov_ProcessandTasking" displayName="Process and Tasking" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="1" schemaName="govcdm_contenttemplate" displayName="Content Template" solution="govcdm_core (1.0.2.2)" />
+        <Required type="1" schemaName="govcdm_contenttemplate" displayName="Content Template" solution="govcdm_core (1.1.0.0)" />
         <Dependent type="1" schemaName="govcdm_contenttemplate" displayName="Content Template" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="1" schemaName="govcdm_contenttemplate" displayName="Content Template" solution="govcdm_core (1.0.2.2)" />
+        <Required type="1" schemaName="govcdm_contenttemplate" displayName="Content Template" solution="govcdm_core (1.1.0.0)" />
         <Dependent type="29" displayName="MSF - Template - Letter of Recommendation" id="{2e4b4316-d87d-ef11-a671-001dd80278ec}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="1" schemaName="govcdm_contenttemplate" displayName="Content Template" solution="govcdm_core (1.0.2.2)" />
+        <Required type="1" schemaName="govcdm_contenttemplate" displayName="Content Template" solution="govcdm_core (1.1.0.0)" />
         <Dependent type="300" schemaName="msgov_actionassignmentpage_3215d" displayName="Action Assignment Page" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="1" schemaName="govcdm_contenttemplate" displayName="Content Template" solution="govcdm_core (1.0.2.2)" />
+        <Required type="1" schemaName="govcdm_contenttemplate" displayName="Content Template" solution="govcdm_core (1.1.0.0)" />
         <Dependent type="300" schemaName="msgov_actionitempage_94fbe" displayName="Action Item Page" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="1" schemaName="govcdm_contenttemplate" displayName="Content Template" solution="govcdm_core (1.0.2.2)" />
+        <Required type="1" schemaName="govcdm_contenttemplate" displayName="Content Template" solution="govcdm_core (1.1.0.0)" />
         <Dependent type="300" schemaName="msgov_actionitemspage_c082a" displayName="Action Items Page" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="1" schemaName="govcdm_contenttemplate" displayName="Content Template" solution="govcdm_core (1.0.2.2)" />
+        <Required type="1" schemaName="govcdm_contenttemplate" displayName="Content Template" solution="govcdm_core (1.1.0.0)" />
         <Dependent type="300" schemaName="msgov_documentspage_2bdae" displayName="Documents Page" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="1" schemaName="govcdm_contenttemplate" displayName="Content Template" solution="govcdm_core (1.0.2.2)" />
+        <Required type="1" schemaName="govcdm_contenttemplate" displayName="Content Template" solution="govcdm_core (1.1.0.0)" />
         <Dependent type="62" schemaName="msgov_ProcessandTasking" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="1" schemaName="govcdm_contenttemplate" displayName="Content Template" solution="govcdm_core (1.0.2.2)" />
+        <Required type="1" schemaName="govcdm_contenttemplate" displayName="Content Template" solution="govcdm_core (1.1.0.0)" />
         <Dependent type="80" schemaName="msgov_ProcessandTasking" displayName="Process and Tasking" />
       </MissingDependency>
       <MissingDependency>
@@ -449,67 +449,67 @@
         <Dependent type="80" schemaName="msgov_ProcessandTasking" displayName="Process and Tasking" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="1" schemaName="govcdm_discussionitem" displayName="Discussion Item" solution="govcdm_core (1.0.2.2)" />
+        <Required type="1" schemaName="govcdm_discussionitem" displayName="Discussion Item" solution="govcdm_core (1.1.0.0)" />
         <Dependent type="29" displayName="MSF - PAT - Send For Approval" id="{69bcc30b-1d8c-ef11-ac21-001dd808e57d}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="1" schemaName="govcdm_discussionitem" displayName="Discussion Item" solution="govcdm_core (1.0.2.2)" />
+        <Required type="1" schemaName="govcdm_discussionitem" displayName="Discussion Item" solution="govcdm_core (1.1.0.0)" />
         <Dependent type="300" schemaName="msgov_actionassignmentpage_3215d" displayName="Action Assignment Page" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="1" schemaName="govcdm_discussionitem" displayName="Discussion Item" solution="govcdm_core (1.0.2.2)" />
+        <Required type="1" schemaName="govcdm_discussionitem" displayName="Discussion Item" solution="govcdm_core (1.1.0.0)" />
         <Dependent type="300" schemaName="msgov_actionitempage_94fbe" displayName="Action Item Page" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="1" schemaName="govcdm_discussionitem" displayName="Discussion Item" solution="govcdm_core (1.0.2.2)" />
+        <Required type="1" schemaName="govcdm_discussionitem" displayName="Discussion Item" solution="govcdm_core (1.1.0.0)" />
         <Dependent type="300" schemaName="msgov_actionitemspage_c082a" displayName="Action Items Page" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="1" schemaName="govcdm_discussionitem" displayName="Discussion Item" solution="govcdm_core (1.0.2.2)" />
+        <Required type="1" schemaName="govcdm_discussionitem" displayName="Discussion Item" solution="govcdm_core (1.1.0.0)" />
         <Dependent type="300" schemaName="msgov_documentspage_2bdae" displayName="Documents Page" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="1" schemaName="govcdm_discussionitem" displayName="Discussion Item" solution="govcdm_core (1.0.2.2)" />
+        <Required type="1" schemaName="govcdm_discussionitem" displayName="Discussion Item" solution="govcdm_core (1.1.0.0)" />
         <Dependent type="60" displayName="Information" parentDisplayName="Action Assignment" id="{6ebf4fb0-26a2-4285-b342-255b791ecb0e}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="1" schemaName="govcdm_document" displayName="Document" solution="govcdm_core (1.0.2.2)" />
+        <Required type="1" schemaName="govcdm_document" displayName="Document" solution="govcdm_core (1.1.0.0)" />
         <Dependent type="1" schemaName="govcdm_document" displayName="Document" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="1" schemaName="govcdm_document" displayName="Document" solution="govcdm_core (1.0.2.2)" />
+        <Required type="1" schemaName="govcdm_document" displayName="Document" solution="govcdm_core (1.1.0.0)" />
         <Dependent type="29" displayName="MSF - Template - Letter of Recommendation" id="{2e4b4316-d87d-ef11-a671-001dd80278ec}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="1" schemaName="govcdm_document" displayName="Document" solution="govcdm_core (1.0.2.2)" />
+        <Required type="1" schemaName="govcdm_document" displayName="Document" solution="govcdm_core (1.1.0.0)" />
         <Dependent type="300" schemaName="msgov_actionassignmentpage_3215d" displayName="Action Assignment Page" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="1" schemaName="govcdm_document" displayName="Document" solution="govcdm_core (1.0.2.2)" />
+        <Required type="1" schemaName="govcdm_document" displayName="Document" solution="govcdm_core (1.1.0.0)" />
         <Dependent type="300" schemaName="msgov_actionitempage_94fbe" displayName="Action Item Page" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="1" schemaName="govcdm_document" displayName="Document" solution="govcdm_core (1.0.2.2)" />
+        <Required type="1" schemaName="govcdm_document" displayName="Document" solution="govcdm_core (1.1.0.0)" />
         <Dependent type="300" schemaName="msgov_actionitemspage_c082a" displayName="Action Items Page" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="1" schemaName="govcdm_document" displayName="Document" solution="govcdm_core (1.0.2.2)" />
+        <Required type="1" schemaName="govcdm_document" displayName="Document" solution="govcdm_core (1.1.0.0)" />
         <Dependent type="300" schemaName="msgov_documentspage_2bdae" displayName="Documents Page" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="1" schemaName="govcdm_document" displayName="Document" solution="govcdm_core (1.0.2.2)" />
+        <Required type="1" schemaName="govcdm_document" displayName="Document" solution="govcdm_core (1.1.0.0)" />
         <Dependent type="60" displayName="Information - Process and Tasking" parentDisplayName="Document" id="{18ea70fb-a53c-f011-8c4d-001dd806574b}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="1" schemaName="govcdm_document" displayName="Document" solution="govcdm_core (1.0.2.2)" />
+        <Required type="1" schemaName="govcdm_document" displayName="Document" solution="govcdm_core (1.1.0.0)" />
         <Dependent type="60" displayName="Quick Create - Process and Tasking" parentDisplayName="Document" id="{6176dd9d-a53c-f011-8c4d-001dd8087307}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="1" schemaName="govcdm_document" displayName="Document" solution="govcdm_core (1.0.2.2)" />
+        <Required type="1" schemaName="govcdm_document" displayName="Document" solution="govcdm_core (1.1.0.0)" />
         <Dependent type="62" schemaName="msgov_ProcessandTasking" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="1" schemaName="govcdm_document" displayName="Document" solution="govcdm_core (1.0.2.2)" />
+        <Required type="1" schemaName="govcdm_document" displayName="Document" solution="govcdm_core (1.1.0.0)" />
         <Dependent type="80" schemaName="msgov_ProcessandTasking" displayName="Process and Tasking" />
       </MissingDependency>
       <MissingDependency>
@@ -689,7 +689,7 @@
         <Dependent type="60" displayName="Quick Create - Process and Tasking" parentDisplayName="Document" id="{6176dd9d-a53c-f011-8c4d-001dd8087307}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="10" schemaName="govcdm_document_ContentTemplate_govcdm_contenttemplate" displayName="govcdm_document_ContentTemplate_govcdm_contenttemplate" parentSchemaName="govcdm_contenttemplate" parentDisplayName="Content Template" solution="govcdm_core (1.0.2.2)" />
+        <Required type="10" schemaName="govcdm_document_ContentTemplate_govcdm_contenttemplate" displayName="govcdm_document_ContentTemplate_govcdm_contenttemplate" parentSchemaName="govcdm_contenttemplate" parentDisplayName="Content Template" solution="govcdm_core (1.1.0.0)" />
         <Dependent type="60" displayName="Information - Process and Tasking" parentDisplayName="Document" id="{18ea70fb-a53c-f011-8c4d-001dd806574b}" />
       </MissingDependency>
       <MissingDependency>
@@ -853,7 +853,7 @@
         <Dependent type="26" schemaName="Active Data Entry Responses" displayName="Active Data Entry Responses" parentSchemaName="govcdm_dataentryresponse" parentDisplayName="Data Entry Response" id="{f699b089-9da4-4ad4-be5a-9e39a02794f0}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="createdon" displayName="Created On" parentSchemaName="govcdm_document" parentDisplayName="Document" solution="govcdm_core (1.0.2.2)" />
+        <Required type="2" schemaName="createdon" displayName="Created On" parentSchemaName="govcdm_document" parentDisplayName="Document" solution="govcdm_core (1.1.0.0)" />
         <Dependent type="26" schemaName="Active Documents" displayName="Active Documents" parentSchemaName="govcdm_document" parentDisplayName="Document" id="{27e74b7a-19c6-4c64-828d-44803ccf1ff9}" />
       </MissingDependency>
       <MissingDependency>
@@ -997,7 +997,7 @@
         <Dependent type="60" displayName="Information" parentDisplayName="Data Entry Step" id="{54409641-bd23-4d32-9d4e-162ecade25c8}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="govcdm_approvalstatus" displayName="Approval Status" parentSchemaName="govcdm_document" parentDisplayName="Document" solution="govcdm_core (1.0.2.2)" />
+        <Required type="2" schemaName="govcdm_approvalstatus" displayName="Approval Status" parentSchemaName="govcdm_document" parentDisplayName="Document" solution="govcdm_core (1.1.0.0)" />
         <Dependent type="60" displayName="Information - Process and Tasking" parentDisplayName="Document" id="{18ea70fb-a53c-f011-8c4d-001dd806574b}" />
       </MissingDependency>
       <MissingDependency>
@@ -1065,7 +1065,7 @@
         <Dependent type="60" displayName="Information" parentDisplayName="Action Item" id="{2bd541df-436c-4fcc-a018-1a2c5b13399d}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="govcdm_contenttemplate" displayName="Content Template" parentSchemaName="govcdm_document" parentDisplayName="Document" solution="govcdm_core (1.0.2.2)" />
+        <Required type="2" schemaName="govcdm_contenttemplate" displayName="Content Template" parentSchemaName="govcdm_document" parentDisplayName="Document" solution="govcdm_core (1.1.0.0)" />
         <Dependent type="60" displayName="Information - Process and Tasking" parentDisplayName="Document" id="{18ea70fb-a53c-f011-8c4d-001dd806574b}" />
       </MissingDependency>
       <MissingDependency>
@@ -1085,7 +1085,7 @@
         <Dependent type="60" displayName="Information" parentDisplayName="Process Step Tool" id="{ee2a22f5-28b8-40f8-9b2d-2b9df0a9dc6b}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="govcdm_contenttemplateid" displayName="Content Template" parentSchemaName="govcdm_contenttemplate" parentDisplayName="Content Template" solution="govcdm_core (1.0.2.2)" />
+        <Required type="2" schemaName="govcdm_contenttemplateid" displayName="Content Template" parentSchemaName="govcdm_contenttemplate" parentDisplayName="Content Template" solution="govcdm_core (1.1.0.0)" />
         <Dependent type="26" schemaName="Active Content Templates" displayName="Active Content Templates" parentSchemaName="govcdm_contenttemplate" parentDisplayName="Content Template" id="{be6be45c-f8c5-4200-9687-317130459d6a}" />
       </MissingDependency>
       <MissingDependency>
@@ -1213,15 +1213,15 @@
         <Dependent type="60" displayName="Information" parentDisplayName="Data Entry Step" id="{54409641-bd23-4d32-9d4e-162ecade25c8}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="govcdm_description" displayName="Description" parentSchemaName="govcdm_document" parentDisplayName="Document" solution="govcdm_core (1.0.2.2)" />
+        <Required type="2" schemaName="govcdm_description" displayName="Description" parentSchemaName="govcdm_document" parentDisplayName="Document" solution="govcdm_core (1.1.0.0)" />
         <Dependent type="26" schemaName="Active Documents" displayName="Active Documents" parentSchemaName="govcdm_document" parentDisplayName="Document" id="{27e74b7a-19c6-4c64-828d-44803ccf1ff9}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="govcdm_description" displayName="Description" parentSchemaName="govcdm_document" parentDisplayName="Document" solution="govcdm_core (1.0.2.2)" />
+        <Required type="2" schemaName="govcdm_description" displayName="Description" parentSchemaName="govcdm_document" parentDisplayName="Document" solution="govcdm_core (1.1.0.0)" />
         <Dependent type="60" displayName="Information - Process and Tasking" parentDisplayName="Document" id="{18ea70fb-a53c-f011-8c4d-001dd806574b}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="govcdm_description" displayName="Description" parentSchemaName="govcdm_document" parentDisplayName="Document" solution="govcdm_core (1.0.2.2)" />
+        <Required type="2" schemaName="govcdm_description" displayName="Description" parentSchemaName="govcdm_document" parentDisplayName="Document" solution="govcdm_core (1.1.0.0)" />
         <Dependent type="60" displayName="Quick Create - Process and Tasking" parentDisplayName="Document" id="{6176dd9d-a53c-f011-8c4d-001dd8087307}" />
       </MissingDependency>
       <MissingDependency>
@@ -1281,19 +1281,19 @@
         <Dependent type="60" displayName="Information" parentDisplayName="Action Item" id="{2bd541df-436c-4fcc-a018-1a2c5b13399d}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="govcdm_documentid" displayName="Document" parentSchemaName="govcdm_document" parentDisplayName="Document" solution="govcdm_core (1.0.2.2)" />
+        <Required type="2" schemaName="govcdm_documentid" displayName="Document" parentSchemaName="govcdm_document" parentDisplayName="Document" solution="govcdm_core (1.1.0.0)" />
         <Dependent type="26" schemaName="Active Documents" displayName="Active Documents" parentSchemaName="govcdm_document" parentDisplayName="Document" id="{27e74b7a-19c6-4c64-828d-44803ccf1ff9}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="govcdm_documenturl" displayName="Document URL" parentSchemaName="govcdm_document" parentDisplayName="Document" solution="govcdm_core (1.0.2.2)" />
+        <Required type="2" schemaName="govcdm_documenturl" displayName="Document URL" parentSchemaName="govcdm_document" parentDisplayName="Document" solution="govcdm_core (1.1.0.0)" />
         <Dependent type="26" schemaName="Active Documents" displayName="Active Documents" parentSchemaName="govcdm_document" parentDisplayName="Document" id="{27e74b7a-19c6-4c64-828d-44803ccf1ff9}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="govcdm_documenturl" displayName="Document URL" parentSchemaName="govcdm_document" parentDisplayName="Document" solution="govcdm_core (1.0.2.2)" />
+        <Required type="2" schemaName="govcdm_documenturl" displayName="Document URL" parentSchemaName="govcdm_document" parentDisplayName="Document" solution="govcdm_core (1.1.0.0)" />
         <Dependent type="60" displayName="Information - Process and Tasking" parentDisplayName="Document" id="{18ea70fb-a53c-f011-8c4d-001dd806574b}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="govcdm_documenturl" displayName="Document URL" parentSchemaName="govcdm_document" parentDisplayName="Document" solution="govcdm_core (1.0.2.2)" />
+        <Required type="2" schemaName="govcdm_documenturl" displayName="Document URL" parentSchemaName="govcdm_document" parentDisplayName="Document" solution="govcdm_core (1.1.0.0)" />
         <Dependent type="60" displayName="Quick Create - Process and Tasking" parentDisplayName="Document" id="{6176dd9d-a53c-f011-8c4d-001dd8087307}" />
       </MissingDependency>
       <MissingDependency>
@@ -1397,15 +1397,15 @@
         <Dependent type="60" displayName="Information" parentDisplayName="Action Item" id="{2bd541df-436c-4fcc-a018-1a2c5b13399d}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="govcdm_keywords" displayName="Keywords" parentSchemaName="govcdm_document" parentDisplayName="Document" solution="govcdm_core (1.0.2.2)" />
+        <Required type="2" schemaName="govcdm_keywords" displayName="Keywords" parentSchemaName="govcdm_document" parentDisplayName="Document" solution="govcdm_core (1.1.0.0)" />
         <Dependent type="26" schemaName="Active Documents" displayName="Active Documents" parentSchemaName="govcdm_document" parentDisplayName="Document" id="{27e74b7a-19c6-4c64-828d-44803ccf1ff9}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="govcdm_keywords" displayName="Keywords" parentSchemaName="govcdm_document" parentDisplayName="Document" solution="govcdm_core (1.0.2.2)" />
+        <Required type="2" schemaName="govcdm_keywords" displayName="Keywords" parentSchemaName="govcdm_document" parentDisplayName="Document" solution="govcdm_core (1.1.0.0)" />
         <Dependent type="60" displayName="Information - Process and Tasking" parentDisplayName="Document" id="{18ea70fb-a53c-f011-8c4d-001dd806574b}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="govcdm_keywords" displayName="Keywords" parentSchemaName="govcdm_document" parentDisplayName="Document" solution="govcdm_core (1.0.2.2)" />
+        <Required type="2" schemaName="govcdm_keywords" displayName="Keywords" parentSchemaName="govcdm_document" parentDisplayName="Document" solution="govcdm_core (1.1.0.0)" />
         <Dependent type="60" displayName="Quick Create - Process and Tasking" parentDisplayName="Document" id="{6176dd9d-a53c-f011-8c4d-001dd8087307}" />
       </MissingDependency>
       <MissingDependency>
@@ -1433,11 +1433,11 @@
         <Dependent type="60" displayName="Information" parentDisplayName="Collaboration Space" id="{5888f75f-8865-494c-ae37-898226695198}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_contenttemplate" parentDisplayName="Content Template" solution="govcdm_core (1.0.2.2)" />
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_contenttemplate" parentDisplayName="Content Template" solution="govcdm_core (1.1.0.0)" />
         <Dependent type="26" schemaName="Active Content Templates" displayName="Active Content Templates" parentSchemaName="govcdm_contenttemplate" parentDisplayName="Content Template" id="{be6be45c-f8c5-4200-9687-317130459d6a}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_contenttemplate" parentDisplayName="Content Template" solution="govcdm_core (1.0.2.2)" />
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_contenttemplate" parentDisplayName="Content Template" solution="govcdm_core (1.1.0.0)" />
         <Dependent type="60" displayName="Information" parentDisplayName="Content Template" id="{00547baf-3117-48a0-a6fd-62002d78b318}" />
       </MissingDependency>
       <MissingDependency>
@@ -1469,15 +1469,15 @@
         <Dependent type="60" displayName="Information" parentDisplayName="Data Form" id="{54a3e317-0400-4bd8-8ea3-46b5ac10e319}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_document" parentDisplayName="Document" solution="govcdm_core (1.0.2.2)" />
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_document" parentDisplayName="Document" solution="govcdm_core (1.1.0.0)" />
         <Dependent type="26" schemaName="Active Documents" displayName="Active Documents" parentSchemaName="govcdm_document" parentDisplayName="Document" id="{27e74b7a-19c6-4c64-828d-44803ccf1ff9}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_document" parentDisplayName="Document" solution="govcdm_core (1.0.2.2)" />
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_document" parentDisplayName="Document" solution="govcdm_core (1.1.0.0)" />
         <Dependent type="60" displayName="Information - Process and Tasking" parentDisplayName="Document" id="{18ea70fb-a53c-f011-8c4d-001dd806574b}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_document" parentDisplayName="Document" solution="govcdm_core (1.0.2.2)" />
+        <Required type="2" schemaName="govcdm_name" displayName="Name" parentSchemaName="govcdm_document" parentDisplayName="Document" solution="govcdm_core (1.1.0.0)" />
         <Dependent type="60" displayName="Quick Create - Process and Tasking" parentDisplayName="Document" id="{6176dd9d-a53c-f011-8c4d-001dd8087307}" />
       </MissingDependency>
       <MissingDependency>
@@ -1977,7 +1977,7 @@
         <Dependent type="60" displayName="Information" parentDisplayName="Collaboration Space" id="{5888f75f-8865-494c-ae37-898226695198}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="govcdm_virtualrecordid" displayName="Virtual Record ID" parentSchemaName="govcdm_document" parentDisplayName="Document" solution="govcdm_core (1.0.2.2)" />
+        <Required type="2" schemaName="govcdm_virtualrecordid" displayName="Virtual Record ID" parentSchemaName="govcdm_document" parentDisplayName="Document" solution="govcdm_core (1.1.0.0)" />
         <Dependent type="60" displayName="Information - Process and Tasking" parentDisplayName="Document" id="{18ea70fb-a53c-f011-8c4d-001dd806574b}" />
       </MissingDependency>
       <MissingDependency>
@@ -1989,7 +1989,7 @@
         <Dependent type="60" displayName="Information" parentDisplayName="Collaboration Space" id="{5888f75f-8865-494c-ae37-898226695198}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="govcdm_virtualrecordtype" displayName="Virtual Record Type" parentSchemaName="govcdm_document" parentDisplayName="Document" solution="govcdm_core (1.0.2.2)" />
+        <Required type="2" schemaName="govcdm_virtualrecordtype" displayName="Virtual Record Type" parentSchemaName="govcdm_document" parentDisplayName="Document" solution="govcdm_core (1.1.0.0)" />
         <Dependent type="60" displayName="Information - Process and Tasking" parentDisplayName="Document" id="{18ea70fb-a53c-f011-8c4d-001dd806574b}" />
       </MissingDependency>
       <MissingDependency>
@@ -2209,7 +2209,7 @@
         <Dependent type="26" schemaName="Active Collaboration Spaces" displayName="Active Collaboration Spaces" parentSchemaName="govcdm_collaborationspace" parentDisplayName="Collaboration Space" id="{925d4c43-704f-412b-8cfd-88c54ae77649}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="statecode" displayName="Status" parentSchemaName="govcdm_contenttemplate" parentDisplayName="Content Template" solution="govcdm_core (1.0.2.2)" />
+        <Required type="2" schemaName="statecode" displayName="Status" parentSchemaName="govcdm_contenttemplate" parentDisplayName="Content Template" solution="govcdm_core (1.1.0.0)" />
         <Dependent type="26" schemaName="Active Content Templates" displayName="Active Content Templates" parentSchemaName="govcdm_contenttemplate" parentDisplayName="Content Template" id="{be6be45c-f8c5-4200-9687-317130459d6a}" />
       </MissingDependency>
       <MissingDependency>
@@ -2221,7 +2221,7 @@
         <Dependent type="26" schemaName="Active Data Entry Steps" displayName="Active Data Entry Steps" parentSchemaName="govcdm_dataentrystep" parentDisplayName="Data Entry Step" id="{51d45993-bfe8-42ee-90f3-77c6df41f83f}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="statecode" displayName="Status" parentSchemaName="govcdm_document" parentDisplayName="Document" solution="govcdm_core (1.0.2.2)" />
+        <Required type="2" schemaName="statecode" displayName="Status" parentSchemaName="govcdm_document" parentDisplayName="Document" solution="govcdm_core (1.1.0.0)" />
         <Dependent type="26" schemaName="Active Documents" displayName="Active Documents" parentSchemaName="govcdm_document" parentDisplayName="Document" id="{27e74b7a-19c6-4c64-828d-44803ccf1ff9}" />
       </MissingDependency>
       <MissingDependency>
@@ -2305,7 +2305,7 @@
         <Dependent type="26" schemaName="Active Collaboration Spaces" displayName="Active Collaboration Spaces" parentSchemaName="govcdm_collaborationspace" parentDisplayName="Collaboration Space" id="{925d4c43-704f-412b-8cfd-88c54ae77649}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="26" schemaName="Active Content Templates" displayName="Active Content Templates" parentSchemaName="govcdm_contenttemplate" parentDisplayName="Content Template" solution="govcdm_core (1.0.2.2)" id="{be6be45c-f8c5-4200-9687-317130459d6a}" />
+        <Required type="26" schemaName="Active Content Templates" displayName="Active Content Templates" parentSchemaName="govcdm_contenttemplate" parentDisplayName="Content Template" solution="govcdm_core (1.1.0.0)" id="{be6be45c-f8c5-4200-9687-317130459d6a}" />
         <Dependent type="26" schemaName="Active Content Templates" displayName="Active Content Templates" parentSchemaName="govcdm_contenttemplate" parentDisplayName="Content Template" id="{be6be45c-f8c5-4200-9687-317130459d6a}" />
       </MissingDependency>
       <MissingDependency>
@@ -2317,11 +2317,11 @@
         <Dependent type="26" schemaName="Active Data Entry Steps" displayName="Active Data Entry Steps" parentSchemaName="govcdm_dataentrystep" parentDisplayName="Data Entry Step" id="{51d45993-bfe8-42ee-90f3-77c6df41f83f}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="26" schemaName="Active Discussion Items" displayName="Active Discussion Items" parentSchemaName="govcdm_discussionitem" parentDisplayName="Discussion Item" solution="govcdm_core (1.0.2.2)" id="{b1dbd3e7-bfbc-4337-bea5-f141bac621c3}" />
+        <Required type="26" schemaName="Active Discussion Items" displayName="Active Discussion Items" parentSchemaName="govcdm_discussionitem" parentDisplayName="Discussion Item" solution="govcdm_core (1.1.0.0)" id="{b1dbd3e7-bfbc-4337-bea5-f141bac621c3}" />
         <Dependent type="60" displayName="Information" parentDisplayName="Action Assignment" id="{6ebf4fb0-26a2-4285-b342-255b791ecb0e}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="26" schemaName="Active Documents" displayName="Active Documents" parentSchemaName="govcdm_document" parentDisplayName="Document" solution="govcdm_core (1.0.2.2)" id="{27e74b7a-19c6-4c64-828d-44803ccf1ff9}" />
+        <Required type="26" schemaName="Active Documents" displayName="Active Documents" parentSchemaName="govcdm_document" parentDisplayName="Document" solution="govcdm_core (1.1.0.0)" id="{27e74b7a-19c6-4c64-828d-44803ccf1ff9}" />
         <Dependent type="26" schemaName="Active Documents" displayName="Active Documents" parentSchemaName="govcdm_document" parentDisplayName="Document" id="{27e74b7a-19c6-4c64-828d-44803ccf1ff9}" />
       </MissingDependency>
       <MissingDependency>
@@ -2389,7 +2389,7 @@
         <Dependent type="80" schemaName="msgov_ProcessandTasking" displayName="Process and Tasking" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="60" displayName="Information" parentDisplayName="Content Template" solution="govcdm_core (1.0.2.2)" id="{00547baf-3117-48a0-a6fd-62002d78b318}" />
+        <Required type="60" displayName="Information" parentDisplayName="Content Template" solution="govcdm_core (1.1.0.0)" id="{00547baf-3117-48a0-a6fd-62002d78b318}" />
         <Dependent type="60" displayName="Information" parentDisplayName="Content Template" id="{00547baf-3117-48a0-a6fd-62002d78b318}" />
       </MissingDependency>
       <MissingDependency>
@@ -2494,7 +2494,7 @@
       </MissingDependency>
       <MissingDependency>
         <Required type="SettingDefinition" displayName="AppChannel" solution="msdyn_AppFrameworkInfraExtensions (1.0.0.15)" id.uniquename="AppChannel">
-          <package appName="PowerAppsAppFramework Package" version="1.0.0.22">PowerAppsAppFramework_Anchor (1.0.0.22)</package>
+          <package appName="PowerAppsAppFramework Package" version="1.0.0.23">PowerAppsAppFramework_Anchor (1.0.0.23)</package>
         </Required>
         <Dependent type="AppSetting" displayName="parentappmoduleid.uniquename=msgov_ActionTracker,settingdefinitionid.uniquename=AppChannel" id.parentappmoduleid.uniquename="msgov_ActionTracker" id.settingdefinitionid.uniquename="AppChannel" />
       </MissingDependency>

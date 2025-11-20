@@ -533,7 +533,7 @@
         </rows>
       </header>
       <footer id="{06e645a8-f4e2-4479-b12b-d2a2de694b90}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left" solutionaction="Added">
-        <rows></rows>
+        <rows />
       </footer>
       <DisplayConditions Order="0" FallbackForm="true" solutionaction="Added">
         <Everyone />
@@ -942,7 +942,7 @@
       <events solutionaction="Added">
         <event name="onload" application="false" active="false">
           <Handlers>
-            <Handler functionName="openActionItemPane" libraryName="msgov_processandtasking" handlerUniqueId="{4c258299-0bc7-46c0-950a-a789455611e9}" enabled="true" parameters="" passExecutionContext="true" ordinalvalue="0" />
+            <Handler functionName="openActionItemsPane" libraryName="msgov_processandtasking" handlerUniqueId="{4c258299-0bc7-46c0-950a-a789455611e9}" enabled="true" parameters="" passExecutionContext="true" ordinalvalue="0" />
             <Handler functionName="registerClosePanes" libraryName="msgov_processandtasking" handlerUniqueId="{c890be87-de1e-4400-91b9-d4d3f3bad2a2}" enabled="true" parameters="" passExecutionContext="true" ordinalvalue="1" />
           </Handlers>
         </event>
