@@ -12,11 +12,13 @@
   <AppModuleComponents>
     <AppModuleComponent type="1" schemaName="account" />
     <AppModuleComponent type="1" schemaName="contact" />
+    <AppModuleComponent type="1" schemaName="govcdm_actionassignment" />
     <AppModuleComponent type="1" schemaName="govcdm_asset" />
     <AppModuleComponent type="1" schemaName="govcdm_assetcategory" />
     <AppModuleComponent type="1" schemaName="govcdm_assetowner" />
     <AppModuleComponent type="1" schemaName="govcdm_assetservicerecord" />
     <AppModuleComponent type="1" schemaName="govcdm_product" />
+    <AppModuleComponent type="60" id="{12d05061-1ec7-f011-bbd2-001dd8307280}" />
     <AppModuleComponent type="62" schemaName="msgov_AssetManagement" />
   </AppModuleComponents>
   <AppModuleRoleMaps>

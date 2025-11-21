@@ -3,5 +3,6 @@
   <Name LocalizedName="Asset" OriginalName="Asset">govcdm_Asset</Name>
   <FormXml />
   <SavedQueries />
+  <Visualizations />
   <RibbonDiffXml />
 </Entity>
