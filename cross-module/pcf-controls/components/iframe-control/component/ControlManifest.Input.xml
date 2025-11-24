@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest>
+  <control namespace="MSGov" constructor="IFrameControl" version="1.5.0" display-name-key="IFrameControl_Display_Key" description-key="IFrameControl_Desc_Key" control-type="standard">
+    <property name="target" display-name-key="Target" description-key="URL of IFrame Target" of-type="SingleLine.Text" usage="bound" required="true" default-value="https://example.com/" />
+    <resources>
+      <code path="index.ts" order="1" />
+      <css path="css/IFrameControl.css" order="2" />
+      <resx path="strings/IFrameControl.1033.resx" version="1.4.0"/>
+    </resources>
+  </control>
+</manifest>
+
+
+
