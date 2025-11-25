@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ImportExportXml version="9.2.25095.169" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" OrganizationVersion="9.2.25095.169" OrganizationSchemaType="Standard" CRMServerServiceabilityVersion="9.2.25102.00174">
+<ImportExportXml version="9.2.25102.174" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" OrganizationVersion="9.2.25102.174" OrganizationSchemaType="Standard" CRMServerServiceabilityVersion="9.2.25102.00174">
   <SolutionManifest>
     <UniqueName>msgov_processandtasking</UniqueName>
     <LocalizedNames>
       <LocalizedName description="Microsoft Gov - Process and Tasking" languagecode="1033" />
     </LocalizedNames>
     <Descriptions />
-    <Version>1.1.1.0</Version>
+    <Version>1.1.2.0</Version>
     <Managed>2</Managed>
     <Publisher>
       <UniqueName>msgovsolutions</UniqueName>
@@ -14,12 +14,12 @@
         <LocalizedName description="Microsoft Government Solutions" languagecode="1033" />
       </LocalizedNames>
       <Descriptions>
-        <Description description="msgovsolutions" languagecode="1033" />
+        <Description description="Microsoft Government Solutions" languagecode="1033" />
       </Descriptions>
       <EMailAddress xsi:nil="true"></EMailAddress>
       <SupportingWebsiteUrl xsi:nil="true"></SupportingWebsiteUrl>
       <CustomizationPrefix>msgov</CustomizationPrefix>
-      <CustomizationOptionValuePrefix>38751</CustomizationOptionValuePrefix>
+      <CustomizationOptionValuePrefix>18844</CustomizationOptionValuePrefix>
       <Addresses>
         <Address>
           <AddressNumber>1</AddressNumber>
@@ -2473,19 +2473,19 @@
         <Dependent type="80" schemaName="msgov_ProcessandTasking" displayName="Process and Tasking" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="66" schemaName="msfed_MicrosoftPCF.IFrameControl" displayName="msfed_MicrosoftPCF.IFrameControl" solution="msfed_pcfiframe (1.0.0.1)" />
+        <Required type="66" schemaName="msgov_MSGov.IFrameControl" displayName="msgov_MSGov.IFrameControl" solution="msgov_pcfcontrols (1.0.0.0)" />
         <Dependent type="300" schemaName="msgov_actionitemspage_c082a" displayName="Action Items Page" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="66" schemaName="msfed_MicrosoftPCF.IFrameControl" displayName="msfed_MicrosoftPCF.IFrameControl" solution="msfed_pcfiframe (1.0.0.1)" />
+        <Required type="66" schemaName="msgov_MSGov.IFrameControl" displayName="msgov_MSGov.IFrameControl" solution="msgov_pcfcontrols (1.0.0.0)" />
         <Dependent type="300" schemaName="msgov_assistantpage_7e2a6" displayName="Assistant Page" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="66" schemaName="msfed_MicrosoftPCF.IFrameControl" displayName="msfed_MicrosoftPCF.IFrameControl" solution="msfed_pcfiframe (1.0.0.1)" />
+        <Required type="66" schemaName="msgov_MSGov.IFrameControl" displayName="msgov_MSGov.IFrameControl" solution="msgov_pcfcontrols (1.0.0.0)" />
         <Dependent type="300" schemaName="msgov_dataforms_77fdb" displayName="Data Forms" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="66" schemaName="msfed_MicrosoftPCF.IFrameControl" displayName="msfed_MicrosoftPCF.IFrameControl" solution="msfed_pcfiframe (1.0.0.1)" />
+        <Required type="66" schemaName="msgov_MSGov.IFrameControl" displayName="msgov_MSGov.IFrameControl" solution="msgov_pcfcontrols (1.0.0.0)" />
         <Dependent type="300" schemaName="msgov_documentspage_2bdae" displayName="Documents Page" />
       </MissingDependency>
       <MissingDependency>

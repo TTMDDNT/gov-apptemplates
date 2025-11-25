@@ -25,6 +25,6 @@
   <IntroducedVersion>1.0</IntroducedVersion>
   <CdsDependencies>{"cdsdependencies":[{"componenttype":1,"logicalname":"contact"},{"componenttype":1,"logicalname":"govcdm_actionassignment"}]}</CdsDependencies>
   <IsCustomizable>1</IsCustomizable>
-  <BackgroundImageUri>/CanvasApps/msgov_processandtaskingdefaultcommandlibrary_41295_BackgroundImageUri</BackgroundImageUri>
-  <DocumentUri>/CanvasApps/msgov_processandtaskingdefaultcommandlibrary_25029_DocumentUri.msapp</DocumentUri>
+  <BackgroundImageUri>/CanvasApps/msgov_processandtaskingdefaultcommandlibrary_63946_BackgroundImageUri</BackgroundImageUri>
+  <DocumentUri>/CanvasApps/msgov_processandtaskingdefaultcommandlibrary_11113_DocumentUri.msapp</DocumentUri>
 </CanvasApp>
