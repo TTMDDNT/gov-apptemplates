@@ -123,7 +123,7 @@
                                 {% endfor %}
                             </ul>
                         {% else %}
-                            <a href="{{ link.url | escape }}"><span>{{ link.name | escape }}</span></a>
+                            <a class="usa-nav__link" href="{{ link.url | escape }}"><span>{{ link.name | escape }}</span></a>
                         {% endif %}
                     </li>
                 {% endfor %}

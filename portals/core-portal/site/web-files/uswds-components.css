@@ -894,15 +894,40 @@
   border-top: none;
 }
 
-.usa-nav__primary--mobile .usa-nav__link {
-  color: var(--uswds-color-base-darkest);
-  display: block;
-  padding: var(--uswds-spacing-2);
-  text-decoration: none;
+/* Mobile navigation overrides - very specific to beat portalbasictheme.css */
+nav.usa-nav.site-nav ul.usa-nav__primary--mobile li.usa-nav__primary-item a.usa-nav__link {
+  color: #000 !important;
+  text-decoration: none !important;
+  padding: var(--uswds-spacing-2) !important;
+  display: block !important;
+  font-weight: 500 !important;
+  font-size: 1rem !important;
+  font-family: var(--uswds-font-family-sans) !important;
+  border-bottom: 3px solid transparent !important;
+  border-left: none !important;
+  border-right: none !important;
+  border-top: none !important;
+  transition: border-bottom-color 0.2s ease !important;
 }
 
-.usa-nav__primary--mobile .usa-nav__link:hover {
-  background-color: var(--uswds-color-base-lightest);
+nav.usa-nav.site-nav ul.usa-nav__primary--mobile li.usa-nav__primary-item a.usa-nav__link:hover,
+nav.usa-nav.site-nav ul.usa-nav__primary--mobile li.usa-nav__primary-item a.usa-nav__link:hover span {
+  color: #005ea2 !important;
+  text-decoration: none !important;
+  background-color: transparent !important;
+  border-bottom-color: #005ea2 !important;
+}
+
+nav.usa-nav.site-nav ul.usa-nav__primary--mobile li.usa-nav__primary-item a.usa-nav__link:visited {
+  color: #000 !important;
+  text-decoration: none !important;
+}
+
+nav.usa-nav.site-nav ul.usa-nav__primary--mobile li.usa-nav__primary-item a.usa-nav__link:focus {
+  color: #000 !important;
+  text-decoration: none !important;
+  outline: 2px solid var(--uswds-color-accent-cool) !important;
+  outline-offset: 2px !important;
 }
 
 .usa-nav__submenu {

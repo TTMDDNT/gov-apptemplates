@@ -115,10 +115,6 @@ a:hover {
   color: var(--uswds-color-primary-dark);
 }
 
-a:visited {
-  color: var(--uswds-color-secondary-dark);
-}
-
 button {
   font-family: var(--uswds-font-family-sans);
 }
