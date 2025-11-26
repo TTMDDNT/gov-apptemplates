@@ -66,6 +66,23 @@
                 </em>
             </div>
         </div>
+        
+        <!-- Desktop Secondary Navigation (shows on desktop, hidden on mobile) -->
+        <div class="usa-nav__secondary usa-nav__secondary--desktop">
+            {% assign search_enabled = settings['Search/Enabled'] | boolean | default:true %}
+            {% if search_enabled %}
+                <form class="site-search usa-search usa-search--small" action="{{ sitemarkers['Search'].url | escape }}" method="get">
+                    <div role="search">
+                        <label class="usa-sr-only" for="search-field-desktop">{{ snippets["Header/Search/ToolTip"] | default:resx["Search_DefaultText"] | escape }}</label>
+                        <input class="usa-input" id="search-field-desktop" type="search" name="query" placeholder="{{ snippets["Header/Search/ToolTip"] | default:resx["Search_DefaultText"] | escape }}">
+                        <button class="usa-button" type="submit">
+                            <span class="usa-search__submit-icon" aria-hidden="true">🔍</span>
+                        </button>
+                    </div>
+                </form>
+            {% endif %}
+        </div>
+        
         <div class="grid-col-auto">
             <button type="button" class="usa-menu-btn">Menu</button>
         </div>
@@ -126,14 +143,14 @@
             {% endif %}
         </ul>
         
-        <!-- Secondary Navigation -->
-        <div class="usa-nav__secondary">
+        <!-- Secondary Navigation (Mobile) -->
+        <div class="usa-nav__secondary usa-nav__secondary--mobile">
             {% assign search_enabled = settings['Search/Enabled'] | boolean | default:true %}
             {% if search_enabled %}
                 <form class="site-search usa-search usa-search--small" action="{{ sitemarkers['Search'].url | escape }}" method="get">
                     <div role="search">
-                        <label class="usa-sr-only" for="search-field-small">{{ snippets["Header/Search/ToolTip"] | default:resx["Search_DefaultText"] | escape }}</label>
-                        <input class="usa-input" id="search-field-small" type="search" name="query" placeholder="{{ snippets["Header/Search/ToolTip"] | default:resx["Search_DefaultText"] | escape }}">
+                        <label class="usa-sr-only" for="search-field-mobile">{{ snippets["Header/Search/ToolTip"] | default:resx["Search_DefaultText"] | escape }}</label>
+                        <input class="usa-input" id="search-field-mobile" type="search" name="query" placeholder="{{ snippets["Header/Search/ToolTip"] | default:resx["Search_DefaultText"] | escape }}">
                         <button class="usa-button" type="submit">
                             <span class="usa-search__submit-icon" aria-hidden="true">🔍</span>
                         </button>
