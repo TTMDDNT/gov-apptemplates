@@ -17,9 +17,11 @@
                         A sample website for government agencies
                     </p>
                 </div>
-                <button type="button" class="usa-accordion__button usa-banner__button" aria-expanded="false" aria-controls="gov-banner">
-                    <span class="usa-banner__button-text">Here's how you know</span>
-                </button>
+                <div class="grid-col-auto">
+                    <button type="button" class="usa-accordion__button usa-banner__button" aria-expanded="false" aria-controls="gov-banner">
+                        <span class="usa-banner__button-text">Here's how you know</span>
+                    </button>
+                </div>
             </div>
         </header>
         <!-- Expandable Details -->
@@ -54,14 +56,19 @@
 <!-- Site Logo and Name -->
 <header class="usa-header usa-header--extended site-header site-header--dark" role="banner">
     <div class="usa-navbar site-header__navbar">
-        <div class="usa-logo site-logo" id="logo">
-            <em class="usa-logo__text site-logo__text">
-                <a href="{% if homeurl%}/{{ homeurl }}{% else %}/{% endif %}" title="Home">
-                    {% editable snippets 'Site/Title' default: website.name %}
-                </a>
-            </em>
+        <div class="grid-col-auto">
+            <div class="usa-logo site-logo" id="logo">
+                <em class="usa-logo__text site-logo__text">
+                    <a href="{% if homeurl%}/{{ homeurl }}{% else %}/{% endif %}" title="Home">
+                        <img class="usa-logo__img site-logo__img" src="/Logo-sm-64.png" alt="">
+                        {% editable snippets 'Site name' default: website.name %}
+                    </a>
+                </em>
+            </div>
         </div>
-        <button type="button" class="usa-menu-btn">Menu</button>
+        <div class="grid-col-auto">
+            <button type="button" class="usa-menu-btn">Menu</button>
+        </div>
     </div>
 </header>
 

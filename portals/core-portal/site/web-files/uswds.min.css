@@ -421,16 +421,16 @@ input, textarea, select {
   margin-left: auto;
   margin-right: auto;
   max-width: 64rem;
-  padding-left: var(--uswds-spacing-2);
-  padding-right: var(--uswds-spacing-2);
+  /* padding-left: var(--uswds-spacing-2);
+  padding-right: var(--uswds-spacing-2); */
 }
 
 .container {
   margin-left: auto;
   margin-right: auto;
   max-width: 64rem;
-  padding-left: var(--uswds-spacing-2);
-  padding-right: var(--uswds-spacing-2);
+  /* padding-left: var(--uswds-spacing-2);
+  padding-right: var(--uswds-spacing-2); */
 }
 
 /* Utility Classes */
@@ -452,8 +452,8 @@ input, textarea, select {
   margin-left: auto;
   margin-right: auto;
   max-width: 64rem;
-  padding-left: var(--uswds-spacing-2);
-  padding-right: var(--uswds-spacing-2);
+  /* padding-left: var(--uswds-spacing-2);
+  padding-right: var(--uswds-spacing-2); */
 }
 
 .grid-row {
@@ -465,22 +465,22 @@ input, textarea, select {
 
 .grid-col {
   flex: 1 1 0%;
-  padding-left: var(--uswds-spacing-2);
-  padding-right: var(--uswds-spacing-2);
+  /* padding-left: var(--uswds-spacing-2);
+  padding-right: var(--uswds-spacing-2); */
 }
 
 .grid-col-auto {
   flex: 0 0 auto;
   width: auto;
-  padding-left: var(--uswds-spacing-2);
-  padding-right: var(--uswds-spacing-2);
+  /* padding-left: var(--uswds-spacing-2);
+  padding-right: var(--uswds-spacing-2); */
 }
 
 .grid-col-fill {
   flex: 1 1 0%;
   min-width: 1px;
-  padding-left: var(--uswds-spacing-2);
-  padding-right: var(--uswds-spacing-2);
+  /* padding-left: var(--uswds-spacing-2);
+  padding-right: var(--uswds-spacing-2); */
 }
 
 .grid-gap-lg {
@@ -548,15 +548,15 @@ input, textarea, select {
   .tablet\:grid-col-6 {
     flex: 0 0 auto;
     width: 50%;
-    padding-left: var(--uswds-spacing-2);
-    padding-right: var(--uswds-spacing-2);
+    /* padding-left: var(--uswds-spacing-2);
+    padding-right: var(--uswds-spacing-2); */
   }
   
   .tablet\:grid-col-auto {
     flex: 0 0 auto;
     width: auto;
-    padding-left: var(--uswds-spacing-2);
-    padding-right: var(--uswds-spacing-2);
+    /* padding-left: var(--uswds-spacing-2);
+    padding-right: var(--uswds-spacing-2); */
   }
   
   .tablet\:display-none {
