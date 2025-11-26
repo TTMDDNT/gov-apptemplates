@@ -607,18 +607,69 @@
   align-items: center;
 }
 
-/* Desktop Navigation */
-@media (min-width: 64rem) {
-  .usa-nav__primary--mobile {
-    display: none;
+/* Force mobile navigation below 64rem - high specificity to override everything */
+@media (max-width: 63.99rem) {
+  nav.usa-nav.site-nav .usa-nav__primary--desktop,
+  .usa-nav .usa-nav__primary--desktop,
+  ul.usa-nav__primary--desktop {
+    display: none !important;
+    visibility: hidden !important;
   }
   
-  .usa-nav__primary--desktop {
-    display: flex;
+  nav.usa-nav.site-nav .usa-nav__primary--mobile,
+  .usa-nav .usa-nav__primary--mobile,
+  ul.usa-nav__primary--mobile {
+    display: block !important;
+    visibility: visible !important;
+  }
+  
+  nav.usa-nav.site-nav .usa-nav__secondary--desktop,
+  .usa-nav .usa-nav__secondary--desktop,
+  .usa-nav__secondary--desktop {
+    display: none !important;
+    visibility: hidden !important;
+  }
+  
+  nav.usa-nav.site-nav .usa-nav__secondary--mobile,
+  .usa-nav .usa-nav__secondary--mobile,
+  .usa-nav__secondary--mobile {
+    display: block !important;
+    visibility: visible !important;
+  }
+}
+
+/* Force desktop navigation at 64rem and above - high specificity to override everything */
+@media (min-width: 64rem) {
+  nav.usa-nav.site-nav .usa-nav__primary--mobile,
+  .usa-nav .usa-nav__primary--mobile,
+  ul.usa-nav__primary--mobile {
+    display: none !important;
+    visibility: hidden !important;
+  }
+  
+  nav.usa-nav.site-nav .usa-nav__primary--desktop,
+  .usa-nav .usa-nav__primary--desktop,
+  ul.usa-nav__primary--desktop {
+    display: flex !important;
+    visibility: visible !important;
     list-style: none;
     margin: 0;
     padding: 0;
     align-items: center;
+  }
+  
+  nav.usa-nav.site-nav .usa-nav__secondary--mobile,
+  .usa-nav .usa-nav__secondary--mobile,
+  .usa-nav__secondary--mobile {
+    display: none !important;
+    visibility: hidden !important;
+  }
+  
+  nav.usa-nav.site-nav .usa-nav__secondary--desktop,
+  .usa-nav .usa-nav__secondary--desktop,
+  .usa-nav__secondary--desktop {
+    display: flex !important;
+    visibility: visible !important;
   }
 }
 
@@ -774,15 +825,26 @@
   }
 }
 
+/* Mobile navigation - show by default, hide on desktop */
 .usa-nav__primary--mobile {
   display: block;
 }
 
+/* Desktop navigation - hide by default, show on desktop */
 .usa-nav__primary--desktop {
   display: none;
   list-style: none;
   margin: 0;
   padding: 0;
+}
+
+/* Secondary navigation responsive behavior */
+.usa-nav__secondary--mobile {
+  display: block;
+}
+
+.usa-nav__secondary--desktop {
+  display: none;
 }
 
 .usa-nav__primary--desktop .usa-nav__primary-item {
