@@ -1,0 +1,117 @@
+<!-- USWDS Government Page Template -->
+<main id="mainContent" class="usa-main wrapper-body" role="main">
+  <div class="usa-container container">
+    
+    <!-- Breadcrumb Navigation -->
+    <nav class="usa-breadcrumb" aria-label="Breadcrumbs">
+      <ol class="usa-breadcrumb__list">
+        <li class="usa-breadcrumb__list-item">
+          <a href="/" class="usa-breadcrumb__link">Home</a>
+        </li>
+        <li class="usa-breadcrumb__list-item usa-current" aria-current="page">
+          <span>{{ page.adx_name | default: "Current Page" }}</span>
+        </li>
+      </ol>
+    </nav>
+
+    <div class="grid-row grid-gap">
+      
+      <!-- Main Content Area -->
+      <div class="grid-col-12 tablet:grid-col-8">
+        
+        <!-- Page Header -->
+        <div class="usa-prose">
+          <h1>{{ page.adx_name | default: "Page Title" }}</h1>
+          
+          {% if page.adx_summary %}
+          <p class="usa-intro">{{ page.adx_summary }}</p>
+          {% endif %}
+        </div>
+        
+        <!-- Main Page Content -->
+        <div class="page-copy usa-prose">
+          {% editable page 'adx_copy' type: 'html', liquid: true %}
+        </div>
+        
+        <!-- Sample USWDS Components (for demonstration) -->
+        <div class="usa-prose">
+          
+          <!-- Alert Example -->
+          <div class="usa-alert usa-alert--info">
+            <div class="usa-alert__body">
+              <h4 class="usa-alert__heading">Informational status</h4>
+              <p class="usa-alert__text">This is a sample USWDS alert component. You can customize these for your needs.</p>
+            </div>
+          </div>
+          
+          <!-- Process List Example -->
+          <h3>How to use this portal</h3>
+          <ol class="usa-process-list">
+            <li class="usa-process-list__item">
+              <h4 class="usa-process-list__heading">Create an account</h4>
+              <p>Register for a new account to access portal services.</p>
+            </li>
+            <li class="usa-process-list__item">
+              <h4 class="usa-process-list__heading">Complete your profile</h4>
+              <p>Provide necessary information to personalize your experience.</p>
+            </li>
+            <li class="usa-process-list__item">
+              <h4 class="usa-process-list__heading">Access services</h4>
+              <p>Browse available government services and resources.</p>
+            </li>
+          </ol>
+          
+          <!-- Card Example -->
+          <div class="usa-card">
+            <div class="usa-card__container">
+              <div class="usa-card__header">
+                <h3 class="usa-card__heading">Featured Service</h3>
+              </div>
+              <div class="usa-card__body">
+                <p>This is an example of a USWDS card component that you can use to highlight important information or services.</p>
+                <a href="#" class="usa-button usa-button--outline">Learn More</a>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+        
+      </div>
+      
+      <!-- Sidebar -->
+      <div class="grid-col-12 tablet:grid-col-4">
+        
+        <!-- Quick Links Card -->
+        <div class="usa-card">
+          <div class="usa-card__container">
+            <div class="usa-card__header">
+              <h3 class="usa-card__heading">Quick Links</h3>
+            </div>
+            <div class="usa-card__body">
+              <ul class="usa-list usa-list--unstyled">
+                <li><a href="#">Forms and Applications</a></li>
+                <li><a href="#">Contact Information</a></li>
+                <li><a href="#">Help and Support</a></li>
+                <li><a href="#">Accessibility Statement</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Contact Information -->
+        <div class="usa-summary-box">
+          <div class="usa-summary-box__body">
+            <h3 class="usa-summary-box__heading">Need Help?</h3>
+            <div class="usa-summary-box__text">
+              <p>Contact our support team for assistance:</p>
+              <p><strong>Phone:</strong> (555) 123-4567<br>
+                 <strong>Email:</strong> support@agency.gov</p>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+      
+    </div>
+  </div>
+</main>
