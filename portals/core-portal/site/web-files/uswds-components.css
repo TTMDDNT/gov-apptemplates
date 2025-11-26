@@ -589,7 +589,12 @@
 
 /* USWDS Navigation Extensions */
 .usa-nav.site-nav {
-  background-color: var(--uswds-color-primary);
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+}
+
+.usa-nav__inner {
+  padding: 0;
 }
 
 .site-nav__inner {
@@ -597,6 +602,51 @@
   margin: 0 auto;
   padding-left: var(--uswds-spacing-2);
   padding-right: var(--uswds-spacing-2);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Desktop Navigation */
+@media (min-width: 64rem) {
+  .usa-nav__primary--mobile {
+    display: none;
+  }
+  
+  .usa-nav__primary--desktop {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+  }
+}
+
+.usa-nav__primary--desktop .usa-nav__primary-item {
+  margin: 0;
+}
+
+.usa-nav__primary--desktop .usa-nav__link {
+  color: #000;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  display: block;
+  font-weight: 500;
+  font-size: 1rem;
+  border-bottom: 3px solid transparent;
+  transition: border-bottom-color 0.2s ease;
+}
+
+.usa-nav__primary--desktop .usa-nav__link:hover {
+  color: #005ea2;
+  text-decoration: none !important;
+  background-color: transparent;
+  border-bottom-color: #005ea2;
+}
+
+.usa-nav__primary--desktop .usa-nav__link:focus {
+  outline: 2px solid var(--uswds-color-accent-cool);
+  outline-offset: 2px;
 }
 
 /* Responsive Secondary Navigation */
@@ -690,6 +740,38 @@
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
   border-left: 0;
+}
+
+/* Desktop Secondary Navigation Items */
+@media (min-width: 64rem) {
+  .usa-nav__secondary--mobile .usa-nav__secondary-item {
+    display: none;
+  }
+  
+  .site-nav__inner .usa-nav__secondary--mobile {
+    display: flex;
+    align-items: center;
+    gap: var(--uswds-spacing-2);
+  }
+  
+  .site-nav__inner .usa-nav__secondary--mobile .usa-nav__secondary-item {
+    display: block;
+  }
+  
+  .site-nav__inner .usa-nav__secondary--mobile .usa-nav__link {
+    color: var(--uswds-color-primary);
+    text-decoration: none;
+    padding: var(--uswds-spacing-1) var(--uswds-spacing-2);
+    font-weight: 500;
+    border-bottom: 3px solid transparent;
+    transition: border-bottom-color 0.2s ease;
+  }
+  
+  .site-nav__inner .usa-nav__secondary--mobile .usa-nav__link:hover {
+    color: var(--uswds-color-primary);
+    text-decoration: none;
+    border-bottom-color: var(--uswds-color-primary-darker);
+  }
 }
 
 .usa-nav__primary--mobile {
