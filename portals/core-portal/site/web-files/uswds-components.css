@@ -664,6 +664,34 @@
   background-color: var(--uswds-color-primary-darker);
 }
 
+/* Mobile Search Form Styling */
+.usa-nav__secondary--mobile .site-search {
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--uswds-spacing-2);
+}
+
+.usa-nav__secondary--mobile .site-search [role="search"] {
+  display: flex;
+  align-items: center;
+  gap: 0;
+  width: 100%;
+}
+
+.usa-nav__secondary--mobile .usa-input {
+  flex: 1;
+  margin: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.usa-nav__secondary--mobile .usa-button {
+  margin: 0;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-left: 0;
+}
+
 .usa-nav__primary--mobile {
   display: block;
 }
