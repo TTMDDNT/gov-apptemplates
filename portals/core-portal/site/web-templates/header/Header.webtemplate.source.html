@@ -81,6 +81,28 @@
                     </div>
                 </form>
             {% endif %}
+            
+            {% assign profile_enabled = settings['Profile/Enabled'] | boolean | default: true %}
+            {% if profile_enabled %}
+                {% if user %}
+                    <div class="usa-nav__secondary-item">
+                        <a class="usa-nav__link" href="{{ sitemarkers['Profile'].url | escape }}" title="{{ user.fullname | escape | default: resx['Default_Profile_name'] }}">
+                            {{ user.fullname | escape | default: resx['Default_Profile_name'] }}
+                        </a>
+                    </div>
+                    <div class="usa-nav__secondary-item">
+                        <a class="usa-nav__link" href="{% if homeurl%}/{{ homeurl }}{% endif %}{{ website.sign_out_url_substitution }}" title="{{ snippets["links/logout"] | default:resx["Sign_Out"] | escape }}">
+                            {{ snippets["links/logout"] | default:resx["Sign_Out"] | escape }}
+                        </a>
+                    </div>
+                {% else %}
+                    <div class="usa-nav__secondary-item">
+                        <a class="usa-nav__link" href="{% if homeurl%}/{{ homeurl }}{% endif %}{{ website.sign_in_url_substitution }}">
+                            {{ snippets["links/login"] | default:resx["Sign_In"] | escape }}
+                        </a>
+                    </div>
+                {% endif %}
+            {% endif %}
         </div>
         
         <div class="grid-col-auto">

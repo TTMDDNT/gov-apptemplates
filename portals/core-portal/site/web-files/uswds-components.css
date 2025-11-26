@@ -930,6 +930,55 @@ nav.usa-nav.site-nav ul.usa-nav__primary--mobile li.usa-nav__primary-item a.usa-
   outline-offset: 2px !important;
 }
 
+/* Secondary navigation styling for both desktop and mobile */
+.usa-nav__secondary--desktop .usa-nav__secondary-item .usa-nav__link {
+  color: white;
+  text-decoration: none;
+  padding: 0.75rem 1.25rem;
+  display: inline-block;
+  font-weight: 700;
+  font-size: 0.875rem;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 2px solid white;
+  border-radius: 0.25rem;
+  transition: all 0.2s ease;
+  margin-left: 0.5rem;
+}
+
+.usa-nav__secondary--desktop .usa-nav__secondary-item .usa-nav__link:hover {
+  color: var(--uswds-color-primary-darker);
+  text-decoration: none !important;
+  background-color: white;
+  border-color: white;
+}
+
+/* Mobile secondary navigation styling */
+nav.usa-nav.site-nav .usa-nav__secondary--mobile .usa-nav__secondary-item a.usa-nav__link {
+  color: white !important;
+  text-decoration: none !important;
+  padding: 0.75rem 1.25rem !important;
+  display: block !important;
+  width: 100% !important;
+  text-align: center !important;
+  font-weight: 700 !important;
+  font-size: 0.875rem !important;
+  font-family: var(--uswds-font-family-sans) !important;
+  background-color: var(--uswds-color-primary) !important;
+  border: 2px solid var(--uswds-color-primary) !important;
+  border-radius: 0.25rem !important;
+  transition: all 0.2s ease !important;
+  margin: 0.5rem 0 !important;
+  box-sizing: border-box !important;
+}
+
+nav.usa-nav.site-nav .usa-nav__secondary--mobile .usa-nav__secondary-item a.usa-nav__link:hover,
+nav.usa-nav.site-nav .usa-nav__secondary--mobile .usa-nav__secondary-item a.usa-nav__link:hover span {
+  color: white !important;
+  text-decoration: none !important;
+  background-color: var(--uswds-color-primary-dark) !important;
+  border-color: var(--uswds-color-primary-dark) !important;
+}
+
 .usa-nav__submenu {
   background-color: var(--uswds-color-base-lightest);
   padding-left: var(--uswds-spacing-2);
