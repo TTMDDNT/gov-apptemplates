@@ -16,6 +16,7 @@ target
 .temp-convert
 .vscode
 .scripts/sample-data
+portals/uswds-reference/*
 
 # User-specific files
 *.rsuser

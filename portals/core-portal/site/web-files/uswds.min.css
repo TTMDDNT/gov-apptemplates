@@ -105,12 +105,42 @@ p {
   margin-bottom: var(--uswds-spacing-2);
 }
 
+/* Links and Interactive Elements */
+a {
+  color: var(--uswds-color-primary);
+  text-decoration: underline;
+}
+
+a:hover {
+  color: var(--uswds-color-primary-dark);
+}
+
+a:visited {
+  color: var(--uswds-color-secondary-dark);
+}
+
+button {
+  font-family: var(--uswds-font-family-sans);
+}
+
+/* Form Elements */
+input, textarea, select {
+  font-family: var(--uswds-font-family-sans);
+}
+
+/* Focus States */
+*:focus {
+  outline: 0.25rem solid var(--uswds-color-accent-warm-light);
+  outline-offset: 0.25rem;
+}
+
 /* USWDS Buttons */
 .usa-button {
+  -webkit-appearance: none;
   appearance: none;
   background-color: var(--uswds-color-primary);
   border: 0;
-  border-radius: 0;
+  border-radius: 0.25rem;
   color: white;
   cursor: pointer;
   display: inline-block;
@@ -119,10 +149,12 @@ p {
   font-weight: 700;
   line-height: 1;
   margin-right: var(--uswds-spacing-1);
-  padding: var(--uswds-spacing-2) var(--uswds-spacing-205);
+  padding: var(--uswds-spacing-105) var(--uswds-spacing-2);
   text-align: center;
   text-decoration: none;
   width: auto;
+  min-height: 2.5rem;
+  vertical-align: top;
 }
 
 .usa-button:hover {
@@ -150,11 +182,15 @@ p {
 /* USWDS Header */
 .usa-header {
   border-bottom: 1px solid var(--uswds-color-base-light);
+  position: relative;
 }
 
 .usa-navbar {
   background-color: var(--uswds-color-primary-darker);
   padding: var(--uswds-spacing-2) 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .usa-logo {
@@ -173,9 +209,35 @@ p {
   color: var(--uswds-color-base-lightest);
 }
 
+.usa-menu-btn {
+  background-color: var(--uswds-color-primary);
+  border: 2px solid var(--uswds-color-primary);
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  font-family: var(--uswds-font-family-sans);
+  font-size: 0.875rem;
+  font-weight: 700;
+  padding: var(--uswds-spacing-1) var(--uswds-spacing-105);
+  text-align: center;
+  text-decoration: none;
+}
+
+.usa-menu-btn:hover {
+  background-color: var(--uswds-color-primary-dark);
+  border-color: var(--uswds-color-primary-dark);
+  color: white;
+}
+
 /* USWDS Navigation */
 .usa-nav {
   background-color: var(--uswds-color-primary);
+}
+
+.usa-nav__inner {
+  display: flex;
+  flex-direction: column;
+  padding: var(--uswds-spacing-2) 0;
 }
 
 .usa-nav__primary {
@@ -185,7 +247,7 @@ p {
 }
 
 .usa-nav__primary-item {
-  display: inline-block;
+  display: block;
 }
 
 .usa-nav__link {
@@ -199,6 +261,147 @@ p {
 .usa-nav__link:hover {
   background-color: var(--uswds-color-primary-dark);
   color: white;
+}
+
+.usa-nav__submenu {
+  background-color: var(--uswds-color-primary-dark);
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.usa-nav__submenu[hidden] {
+  display: none;
+}
+
+.usa-nav__submenu-item a {
+  color: white;
+  display: block;
+  padding: var(--uswds-spacing-105) var(--uswds-spacing-4);
+  text-decoration: none;
+}
+
+.usa-nav__submenu-item a:hover {
+  background-color: var(--uswds-color-primary-darker);
+}
+
+/* Accordion Base Styles */
+.usa-accordion {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.usa-accordion__button {
+  background-color: transparent;
+  border: 0;
+  color: inherit;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  text-decoration: underline;
+  width: auto;
+}
+
+.usa-accordion__button:hover,
+.usa-accordion__button:focus {
+  text-decoration: none;
+}
+
+.usa-accordion__content {
+  display: block;
+  overflow: visible;
+}
+
+.usa-accordion__content[hidden] {
+  display: none;
+}
+
+/* Banner Specific Styles */
+.usa-banner {
+  background-color: var(--uswds-color-base-darkest);
+  color: white;
+  font-size: 0.75rem;
+  min-height: 1.5rem;
+}
+
+.usa-banner * {
+  border: none;
+}
+
+.usa-banner__inner {
+  align-items: center;
+  display: flex;
+  max-width: 80rem;
+  margin: 0 auto;
+  min-height: 1.5rem;
+  padding: var(--uswds-spacing-05) var(--uswds-spacing-1);
+}
+
+.usa-banner__header {
+  color: white;
+  font-weight: 400;
+  min-height: 1.5rem;
+  position: relative;
+  border-bottom: none;
+}
+
+.usa-banner__header-flag {
+  height: 1rem;
+  margin-right: var(--uswds-spacing-1);
+  width: auto;
+}
+
+.usa-banner__header-text {
+  color: white;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  margin: 0;
+}
+
+.usa-banner__header-action {
+  color: white;
+  font-size: 0.75rem;
+  line-height: 1rem;  
+  margin: 0;
+}
+
+.usa-banner__button-text {
+  color: white;
+  font-size: 0.75rem;
+  text-decoration: underline;
+}
+
+/* Banner responsive text display - keep button visible on desktop */
+@media (max-width: 479px) {
+  .usa-banner__header-action {
+    display: none;
+  }
+}
+
+.usa-banner__content {
+  background-color: var(--uswds-color-base-darkest);
+  color: white;
+  padding: var(--uswds-spacing-4) var(--uswds-spacing-1);
+  max-width: 80rem;
+  margin: 0 auto;
+}
+
+@media (min-width: 64em) {
+  .usa-nav__inner {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .usa-nav__primary--desktop .usa-nav__primary-item {
+    display: inline-block;
+  }
 }
 
 /* USWDS Footer */
@@ -220,6 +423,28 @@ p {
   max-width: 64rem;
   padding-left: var(--uswds-spacing-2);
   padding-right: var(--uswds-spacing-2);
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 64rem;
+  padding-left: var(--uswds-spacing-2);
+  padding-right: var(--uswds-spacing-2);
+}
+
+/* Utility Classes */
+.visually-hidden,
+.usa-sr-only {
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
 }
 
 /* Grid System */
@@ -244,7 +469,105 @@ p {
   padding-right: var(--uswds-spacing-2);
 }
 
+.grid-col-auto {
+  flex: 0 0 auto;
+  width: auto;
+  padding-left: var(--uswds-spacing-2);
+  padding-right: var(--uswds-spacing-2);
+}
+
+.grid-col-fill {
+  flex: 1 1 0%;
+  min-width: 1px;
+  padding-left: var(--uswds-spacing-2);
+  padding-right: var(--uswds-spacing-2);
+}
+
+.grid-gap-lg {
+  margin-left: -1rem;
+  margin-right: -1rem;
+}
+
+.grid-gap-lg > * {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+/* Ensure banner guidance sections display on all screen sizes */
+.usa-banner__guidance {
+  flex: 1 1 100%;
+  min-width: 0;
+}
+
+@media (min-width: 48em) {
+  .tablet\:grid-col-6 {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+}
+
+/* Media Block Components */
+.usa-media-block {
+  display: flex;
+  align-items: flex-start;
+}
+
+.usa-media-block__img {
+  flex-shrink: 0;
+  margin-right: var(--uswds-spacing-2);
+}
+
+.usa-media-block__body {
+  flex: 1;
+}
+
+.usa-banner__guidance p {
+  margin: 0;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  color: white;
+}
+
+.usa-banner__guidance strong {
+  font-weight: 700;
+  color: white;
+}
+
 /* Responsive Utilities */
+@media (max-width: 47.99em) {
+  .mobile\:display-none {
+    display: none;
+  }
+  
+  .mobile\:display-block {
+    display: block;
+  }
+}
+
+@media (min-width: 48em) {
+  .tablet\:grid-col-6 {
+    flex: 0 0 auto;
+    width: 50%;
+    padding-left: var(--uswds-spacing-2);
+    padding-right: var(--uswds-spacing-2);
+  }
+  
+  .tablet\:grid-col-auto {
+    flex: 0 0 auto;
+    width: auto;
+    padding-left: var(--uswds-spacing-2);
+    padding-right: var(--uswds-spacing-2);
+  }
+  
+  .tablet\:display-none {
+    display: none;
+  }
+  
+  .tablet\:display-block {
+    display: block;
+  }
+}
+
 @media (max-width: 63.99em) {
   .tablet-lg\:display-none {
     display: none;
@@ -255,4 +578,9 @@ p {
   .desktop\:display-block {
     display: block;
   }
+  
+  .desktop\:display-none {
+    display: none;
+  }
 }
+
