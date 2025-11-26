@@ -1,0 +1,582 @@
+/* USWDS 3.8.0 Core Styles */
+/* This file contains the core USWDS CSS framework */
+/* Download the latest version from https://github.com/uswds/uswds/releases */
+
+/* For now, this is a placeholder - you'll need to download the actual USWDS CSS */
+/* You can get it from: https://cdn.jsdelivr.net/npm/uswds@3.8.0/dist/css/uswds.min.css */
+
+/* Basic USWDS Variables and Base Styles */
+:root {
+  /* USWDS Color System */
+  --uswds-color-base-lightest: #f9f9f9;
+  --uswds-color-base-lighter: #f1f1f1;
+  --uswds-color-base-light: #d6d7d9;
+  --uswds-color-base: #71767a;
+  --uswds-color-base-dark: #565c65;
+  --uswds-color-base-darker: #3d4551;
+  --uswds-color-base-darkest: #1b1b1b;
+  
+  /* Primary Colors */
+  --uswds-color-primary-lighter: #d9e8f6;
+  --uswds-color-primary-light: #73b3e7;
+  --uswds-color-primary: #005ea2;
+  --uswds-color-primary-vivid: #0050d8;
+  --uswds-color-primary-dark: #1a4480;
+  --uswds-color-primary-darker: #162e51;
+  
+  /* Secondary Colors */
+  --uswds-color-secondary-lighter: #f3e1e4;
+  --uswds-color-secondary-light: #f2938c;
+  --uswds-color-secondary: #d83933;
+  --uswds-color-secondary-vivid: #e41d3d;
+  --uswds-color-secondary-dark: #b51d2c;
+  --uswds-color-secondary-darker: #8b0a1a;
+  
+  /* Accent Colors */
+  --uswds-color-accent-warm-lighter: #f2e4d4;
+  --uswds-color-accent-warm-light: #ffbc78;
+  --uswds-color-accent-warm: #fa9441;
+  --uswds-color-accent-warm-dark: #c05600;
+  --uswds-color-accent-warm-darker: #775540;
+  
+  --uswds-color-accent-cool-lighter: #e1f3f8;
+  --uswds-color-accent-cool-light: #97d4ea;
+  --uswds-color-accent-cool: #00bde3;
+  --uswds-color-accent-cool-dark: #28a0cb;
+  --uswds-color-accent-cool-darker: #07648d;
+  
+  /* Typography */
+  --uswds-font-family-sans: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --uswds-font-family-serif: "Merriweather", Georgia, Cambria, "Times New Roman", Times, serif;
+  --uswds-font-family-mono: "Roboto Mono", "Bitstream Vera Sans Mono", "Liberation Mono", Consolas, Monaco, "Courier New", monospace;
+  
+  /* Spacing Units (based on 8px grid) */
+  --uswds-spacing-05: 0.25rem;  /* 4px */
+  --uswds-spacing-1: 0.5rem;    /* 8px */
+  --uswds-spacing-105: 0.75rem; /* 12px */
+  --uswds-spacing-2: 1rem;      /* 16px */
+  --uswds-spacing-205: 1.25rem; /* 20px */
+  --uswds-spacing-3: 1.5rem;    /* 24px */
+  --uswds-spacing-4: 2rem;      /* 32px */
+  --uswds-spacing-5: 2.5rem;    /* 40px */
+  --uswds-spacing-6: 3rem;      /* 48px */
+  --uswds-spacing-7: 3.5rem;    /* 56px */
+  --uswds-spacing-8: 4rem;      /* 64px */
+  --uswds-spacing-9: 4.5rem;    /* 72px */
+  --uswds-spacing-10: 5rem;     /* 80px */
+}
+
+/* Basic USWDS Reset */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: var(--uswds-font-family-sans);
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--uswds-color-base-lightest);
+  color: var(--uswds-color-base-darkest);
+}
+
+/* USWDS Typography */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--uswds-font-family-sans);
+  font-weight: 700;
+  line-height: 1.2;
+  margin-top: 0;
+  margin-bottom: var(--uswds-spacing-2);
+}
+
+h1 { font-size: 2.5rem; }
+h2 { font-size: 2rem; }
+h3 { font-size: 1.75rem; }
+h4 { font-size: 1.5rem; }
+h5 { font-size: 1.25rem; }
+h6 { font-size: 1rem; }
+
+p {
+  margin-top: 0;
+  margin-bottom: var(--uswds-spacing-2);
+}
+
+/* Links and Interactive Elements */
+a {
+  color: var(--uswds-color-primary);
+  text-decoration: underline;
+}
+
+a:hover {
+  color: var(--uswds-color-primary-dark);
+}
+
+button {
+  font-family: var(--uswds-font-family-sans);
+}
+
+/* Form Elements */
+input, textarea, select {
+  font-family: var(--uswds-font-family-sans);
+}
+
+/* Focus States */
+*:focus {
+  outline: 0.25rem solid var(--uswds-color-accent-warm-light);
+  outline-offset: 0.25rem;
+}
+
+/* USWDS Buttons */
+.usa-button {
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: var(--uswds-color-primary);
+  border: 0;
+  border-radius: 0.25rem;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  font-family: var(--uswds-font-family-sans);
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1;
+  margin-right: var(--uswds-spacing-1);
+  padding: var(--uswds-spacing-105) var(--uswds-spacing-2);
+  text-align: center;
+  text-decoration: none;
+  width: auto;
+  min-height: 2.5rem;
+  vertical-align: top;
+}
+
+.usa-button:hover {
+  background-color: var(--uswds-color-primary-dark);
+  color: white;
+  text-decoration: none;
+}
+
+.usa-button:active {
+  background-color: var(--uswds-color-primary-darker);
+}
+
+.usa-button--outline {
+  background-color: transparent;
+  border: 2px solid var(--uswds-color-primary);
+  color: var(--uswds-color-primary);
+}
+
+.usa-button--outline:hover {
+  background-color: var(--uswds-color-primary);
+  border-color: var(--uswds-color-primary);
+  color: white;
+}
+
+/* USWDS Header */
+.usa-header {
+  border-bottom: 1px solid var(--uswds-color-base-light);
+  position: relative;
+}
+
+.usa-navbar {
+  background-color: var(--uswds-color-primary-darker);
+  padding: var(--uswds-spacing-2) 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.usa-logo {
+  line-height: 1;
+  margin: 0;
+}
+
+.usa-logo__text {
+  color: white;
+  font-size: 1.25rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.usa-logo__text:hover {
+  color: var(--uswds-color-base-lightest);
+}
+
+.usa-menu-btn {
+  background-color: var(--uswds-color-primary);
+  border: 2px solid var(--uswds-color-primary);
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  font-family: var(--uswds-font-family-sans);
+  font-size: 0.875rem;
+  font-weight: 700;
+  padding: var(--uswds-spacing-1) var(--uswds-spacing-105);
+  text-align: center;
+  text-decoration: none;
+}
+
+.usa-menu-btn:hover {
+  background-color: var(--uswds-color-primary-dark);
+  border-color: var(--uswds-color-primary-dark);
+  color: white;
+}
+
+/* USWDS Navigation */
+.usa-nav {
+  background-color: var(--uswds-color-primary);
+}
+
+.usa-nav__inner {
+  display: flex;
+  flex-direction: column;
+  padding: var(--uswds-spacing-2) 0;
+}
+
+.usa-nav__primary {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.usa-nav__primary-item {
+  display: block;
+}
+
+.usa-nav__link {
+  color: white;
+  display: block;
+  font-weight: 700;
+  padding: var(--uswds-spacing-2) var(--uswds-spacing-205);
+  text-decoration: none;
+}
+
+.usa-nav__link:hover {
+  background-color: var(--uswds-color-primary-dark);
+  color: white;
+}
+
+.usa-nav__submenu {
+  background-color: var(--uswds-color-primary-dark);
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.usa-nav__submenu[hidden] {
+  display: none;
+}
+
+.usa-nav__submenu-item a {
+  color: white;
+  display: block;
+  padding: var(--uswds-spacing-105) var(--uswds-spacing-4);
+  text-decoration: none;
+}
+
+.usa-nav__submenu-item a:hover {
+  background-color: var(--uswds-color-primary-darker);
+}
+
+/* Accordion Base Styles */
+.usa-accordion {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.usa-accordion__button {
+  background-color: transparent;
+  border: 0;
+  color: inherit;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  text-decoration: underline;
+  width: auto;
+}
+
+.usa-accordion__button:hover,
+.usa-accordion__button:focus {
+  text-decoration: none;
+}
+
+.usa-accordion__content {
+  display: block;
+  overflow: visible;
+}
+
+.usa-accordion__content[hidden] {
+  display: none;
+}
+
+/* Banner Specific Styles */
+.usa-banner {
+  background-color: var(--uswds-color-base-darkest);
+  color: white;
+  font-size: 0.75rem;
+  min-height: 1.5rem;
+}
+
+.usa-banner * {
+  border: none;
+}
+
+.usa-banner__inner {
+  align-items: center;
+  display: flex;
+  max-width: 80rem;
+  margin: 0 auto;
+  min-height: 1.5rem;
+  padding: var(--uswds-spacing-05) var(--uswds-spacing-1);
+}
+
+.usa-banner__header {
+  color: white;
+  font-weight: 400;
+  min-height: 1.5rem;
+  position: relative;
+  border-bottom: none;
+}
+
+.usa-banner__header-flag {
+  height: 1rem;
+  margin-right: var(--uswds-spacing-1);
+  width: auto;
+}
+
+.usa-banner__header-text {
+  color: white;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  margin: 0;
+}
+
+.usa-banner__header-action {
+  color: white;
+  font-size: 0.75rem;
+  line-height: 1rem;  
+  margin: 0;
+}
+
+.usa-banner__button-text {
+  color: white;
+  font-size: 0.75rem;
+  text-decoration: underline;
+}
+
+/* Banner responsive text display - keep button visible on desktop */
+@media (max-width: 479px) {
+  .usa-banner__header-action {
+    display: none;
+  }
+}
+
+.usa-banner__content {
+  background-color: var(--uswds-color-base-darkest);
+  color: white;
+  padding: var(--uswds-spacing-4) var(--uswds-spacing-1);
+  max-width: 80rem;
+  margin: 0 auto;
+}
+
+@media (min-width: 64em) {
+  .usa-nav__inner {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .usa-nav__primary--desktop .usa-nav__primary-item {
+    display: inline-block;
+  }
+}
+
+/* USWDS Footer */
+.usa-footer {
+  background-color: var(--uswds-color-base-darker);
+  color: white;
+  padding: var(--uswds-spacing-5) 0;
+}
+
+.usa-footer__secondary-section {
+  background-color: var(--uswds-color-base-darkest);
+  padding: var(--uswds-spacing-3) 0;
+}
+
+/* Container */
+.usa-container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 64rem;
+  /* padding-left: var(--uswds-spacing-2);
+  padding-right: var(--uswds-spacing-2); */
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 64rem;
+  /* padding-left: var(--uswds-spacing-2);
+  padding-right: var(--uswds-spacing-2); */
+}
+
+/* Utility Classes */
+.visually-hidden,
+.usa-sr-only {
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+/* Grid System */
+.grid-container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 64rem;
+  /* padding-left: var(--uswds-spacing-2);
+  padding-right: var(--uswds-spacing-2); */
+}
+
+.grid-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: calc(var(--uswds-spacing-2) * -1);
+  margin-right: calc(var(--uswds-spacing-2) * -1);
+}
+
+.grid-col {
+  flex: 1 1 0%;
+  /* padding-left: var(--uswds-spacing-2);
+  padding-right: var(--uswds-spacing-2); */
+}
+
+.grid-col-auto {
+  flex: 0 0 auto;
+  width: auto;
+  /* padding-left: var(--uswds-spacing-2);
+  padding-right: var(--uswds-spacing-2); */
+}
+
+.grid-col-fill {
+  flex: 1 1 0%;
+  min-width: 1px;
+  /* padding-left: var(--uswds-spacing-2);
+  padding-right: var(--uswds-spacing-2); */
+}
+
+.grid-gap-lg {
+  margin-left: -1rem;
+  margin-right: -1rem;
+}
+
+.grid-gap-lg > * {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+/* Ensure banner guidance sections display on all screen sizes */
+.usa-banner__guidance {
+  flex: 1 1 100%;
+  min-width: 0;
+}
+
+@media (min-width: 48em) {
+  .tablet\:grid-col-6 {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+}
+
+/* Media Block Components */
+.usa-media-block {
+  display: flex;
+  align-items: flex-start;
+}
+
+.usa-media-block__img {
+  flex-shrink: 0;
+  margin-right: var(--uswds-spacing-2);
+}
+
+.usa-media-block__body {
+  flex: 1;
+}
+
+.usa-banner__guidance p {
+  margin: 0;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  color: white;
+}
+
+.usa-banner__guidance strong {
+  font-weight: 700;
+  color: white;
+}
+
+/* Responsive Utilities */
+@media (max-width: 47.99em) {
+  .mobile\:display-none {
+    display: none;
+  }
+  
+  .mobile\:display-block {
+    display: block;
+  }
+}
+
+@media (min-width: 48em) {
+  .tablet\:grid-col-6 {
+    flex: 0 0 auto;
+    width: 50%;
+    /* padding-left: var(--uswds-spacing-2);
+    padding-right: var(--uswds-spacing-2); */
+  }
+  
+  .tablet\:grid-col-auto {
+    flex: 0 0 auto;
+    width: auto;
+    /* padding-left: var(--uswds-spacing-2);
+    padding-right: var(--uswds-spacing-2); */
+  }
+  
+  .tablet\:display-none {
+    display: none;
+  }
+  
+  .tablet\:display-block {
+    display: block;
+  }
+}
+
+@media (max-width: 63.99em) {
+  .tablet-lg\:display-none {
+    display: none;
+  }
+}
+
+@media (min-width: 64em) {
+  .desktop\:display-block {
+    display: block;
+  }
+  
+  .desktop\:display-none {
+    display: none;
+  }
+}
+

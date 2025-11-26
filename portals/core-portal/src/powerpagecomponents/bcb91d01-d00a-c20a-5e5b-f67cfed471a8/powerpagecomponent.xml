@@ -1,11 +1,11 @@
-<powerpagecomponent powerpagecomponentid="7cb91d01-d006-c206-5e57-f67cfed471a4">
+<powerpagecomponent powerpagecomponentid="bcb91d01-d00a-c20a-5e5b-f67cfed471a8">
   <content>{
-  "display_name": "Site name",
+  "display_name": "links/login",
   "type": 756150000,
-  "value": "Sample Agency"
+  "value": "Sign In"
 }</content>
   <iscustomizable>1</iscustomizable>
-  <name>Site name</name>
+  <name>links/login</name>
   <powerpagecomponenttype>7</powerpagecomponenttype>
   <powerpagesiteid>
     <powerpagesiteid>add6fceb-252c-456e-bead-89dbed3b19c5</powerpagesiteid>

@@ -1,11 +1,11 @@
-<powerpagecomponent powerpagecomponentid="7cb91d01-d006-c206-5e57-f67cfed471a4">
+<powerpagecomponent powerpagecomponentid="9cb91d01-d008-c208-5e59-f67cfed471a6">
   <content>{
-  "display_name": "Site name",
+  "display_name": "Search/Title",
   "type": 756150000,
-  "value": "Sample Agency"
+  "value": "Discover Government Services"
 }</content>
   <iscustomizable>1</iscustomizable>
-  <name>Site name</name>
+  <name>Search/Title</name>
   <powerpagecomponenttype>7</powerpagecomponenttype>
   <powerpagesiteid>
     <powerpagesiteid>add6fceb-252c-456e-bead-89dbed3b19c5</powerpagesiteid>
