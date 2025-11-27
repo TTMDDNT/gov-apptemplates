@@ -1,16 +1,70 @@
-<footer role="contentinfo" class="footer">
-  <div class="footer-bottom d-print-none">
-    <div class="container">
-      <div class="row">
-          <div class="col-lg-9 col-md-9 col-sm-9 text-start">
-              {% editable snippets 'Footer' type: 'html' %}
-          </div>
-        <div id="accessibilityLinkContainer" class="col-lg-3 col-md-3 col-sm-3 text-end"></div>
+<!-- Bottom Part -->
+<div class="usa-identifier site-identifier">
 
+  <!-- Agency Identifier and Contact Info -->
+  <section class="usa-identifier__section usa-identifier__section--masthead" aria-label="Agency identifier">
+    <div class="grid-container">
+      <div class="grid-row">
+        <!-- Left Side: Agency Identifier -->
+        <div class="grid-col-12 desktop:grid-col-6">
+          <div class="usa-identifier__agency-info display-flex flex-align-center">
+            <a href="{% if homeurl%}/{{ homeurl }}{% else %}/{% endif %}" class="usa-identifier__logo">
+              <img class="usa-identifier__logo-img" src="/Logo-sm-64.png" alt="{{ website.name | default: 'Agency' }} Logo" role="img" width="48" height="48">
+            </a>
+            <div class="usa-identifier__identity">
+              <span class="usa-identifier__identity-domain">{{ website.primary_domain_name | default: 'agency.gov' }}</span>
+              <span class="usa-identifier__identity-disclaimer">An official website of the U.S. Government</span>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Right Side: Contact Information -->
+        <div class="grid-col-12 desktop:grid-col-6">
+          <div class="footer-contact-section">
+            <h3>Contact Us</h3>
+            <div class="footer-contact-grid">
+              <div class="footer-contact-col">
+                <div><strong>Phone:</strong> (555) 123-4567</div>
+                <div><strong>Email:</strong> <a href="mailto:info@agency.gov">info@agency.gov</a></div>
+              </div>
+              <div class="footer-contact-col">
+                <div><strong>Address:</strong> 123 Government St, Washington, DC 20001</div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-</footer>
+  </section>
+  
+  <nav class="usa-identifier__section usa-identifier__section--required-links" aria-label="Important links">
+    <div class="usa-identifier__container">
+      <ul class="usa-identifier__required-links-list">
+        {% assign footer_links = weblinks["Footer Links"] | default: weblinks["Default"] %}
+        {% if footer_links %}
+          {% for link in footer_links.weblinks %}
+            <li class="usa-identifier__required-links-item">
+              <a href="{{ link.url | escape }}" class="usa-identifier__required-link">{{ link.name | escape }}</a>
+            </li>
+          {% endfor %}
+        {% endif %}
+        <!-- Always show these required links -->
+        <li class="usa-identifier__required-links-item">
+          <a href="/privacy" class="usa-identifier__required-link">Privacy Policy</a>
+        </li>
+        <li class="usa-identifier__required-links-item">
+          <a href="/accessibility" class="usa-identifier__required-link">Accessibility</a>
+        </li>
+        <li class="usa-identifier__required-links-item">
+          <a href="/terms" class="usa-identifier__required-link">Terms of Use</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+</div>
+
+<div id="accessibilityLinkContainer" style="display: none;"></div>
 
 <script type="text/javascript">
   window.onload = function() {
