@@ -3,6 +3,39 @@
  * Supplementary styles for common government portal patterns
  */
 
+/* Public Sans Font Family Configuration */
+:root {
+  --uswds-font-family-sans: "Public Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+/* Override any default fonts with Public Sans */
+body, 
+html,
+.usa-banner,
+.usa-banner__header-text,
+.usa-header,
+.usa-nav,
+.usa-nav__primary-item,
+.usa-nav__link,
+.usa-identifier,
+.usa-identifier__identity-domain,
+.usa-identifier__identity-disclaimer,
+.usa-identifier__required-link,
+.footer-contact-section,
+.footer-contact-section h3,
+.footer-contact-section div,
+.footer-contact-section strong,
+.footer-contact-section a,
+.usa-search,
+.usa-search__input,
+.usa-search__submit-text,
+input[type="search"],
+button,
+.site-logo-text,
+.site-logo-tagline {
+  font-family: var(--uswds-font-family-sans) !important;
+}
+
 /* USWDS Alert Components */
 .usa-alert {
   background-color: var(--uswds-color-base-lightest);

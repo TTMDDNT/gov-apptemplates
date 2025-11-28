@@ -3,6 +3,39 @@
  * Supplementary styles for common government portal patterns
  */
 
+/* Public Sans Font Family Configuration */
+:root {
+  --uswds-font-family-sans: "Public Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+/* Override any default fonts with Public Sans */
+body, 
+html,
+.usa-banner,
+.usa-banner__header-text,
+.usa-header,
+.usa-nav,
+.usa-nav__primary-item,
+.usa-nav__link,
+.usa-identifier,
+.usa-identifier__identity-domain,
+.usa-identifier__identity-disclaimer,
+.usa-identifier__required-link,
+.footer-contact-section,
+.footer-contact-section h3,
+.footer-contact-section div,
+.footer-contact-section strong,
+.footer-contact-section a,
+.usa-search,
+.usa-search__input,
+.usa-search__submit-text,
+input[type="search"],
+button,
+.site-logo-text,
+.site-logo-tagline {
+  font-family: var(--uswds-font-family-sans) !important;
+}
+
 /* USWDS Alert Components */
 .usa-alert {
   background-color: var(--uswds-color-base-lightest);
@@ -1087,5 +1120,314 @@ nav.usa-nav.site-nav .usa-nav__secondary--mobile .usa-nav__secondary-item a.usa-
   
   .usa-nav__close {
     display: none;
+  }
+}
+
+/* USWDS Footer Styling */
+.usa-footer.site-footer {
+  background-color: var(--uswds-color-base-lightest);
+  border-top: 1px solid var(--uswds-color-base-light);
+}
+
+.usa-footer__secondary-section {
+  padding: var(--uswds-spacing-5) 0;
+}
+
+.footer-content {
+  margin-bottom: var(--uswds-spacing-4);
+}
+
+.footer-content h2 {
+  color: var(--uswds-color-base-darkest);
+  font-size: 1.75rem;
+  font-weight: 700;
+  margin-bottom: var(--uswds-spacing-3);
+}
+
+.footer-content p {
+  color: var(--uswds-color-base-dark);
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: var(--uswds-spacing-4);
+}
+
+.footer-contact-links {
+  margin-top: var(--uswds-spacing-4);
+}
+
+.footer-contact-links .usa-media-block {
+  margin-bottom: var(--uswds-spacing-4);
+}
+
+.footer-contact-links .usa-media-block__img {
+  width: 3rem;
+  height: 3rem;
+  margin-right: var(--uswds-spacing-2);
+  flex-shrink: 0;
+}
+
+.footer-contact-links .usa-media-block__body h3 {
+  color: var(--uswds-color-base-darkest);
+  font-size: 1.125rem;
+  font-weight: 700;
+  margin-bottom: var(--uswds-spacing-1);
+}
+
+.footer-contact-links .usa-media-block__body p {
+  color: var(--uswds-color-base-dark);
+  font-size: 0.875rem;
+  margin-bottom: 0;
+}
+
+.footer-contact-links .usa-media-block__body a {
+  color: var(--uswds-color-primary);
+  text-decoration: underline;
+}
+
+.footer-contact-links .usa-media-block__body a:hover {
+  color: var(--uswds-color-primary-dark);
+  text-decoration: none;
+}
+
+/* USA Identifier Styling */
+.usa-identifier.site-identifier {
+  background-color: var(--uswds-color-base-darkest);
+  color: white;
+}
+
+.usa-identifier__section--masthead {
+  background-color: var(--uswds-color-base-darkest);
+  padding: var(--uswds-spacing-3) 0;
+}
+
+.usa-identifier__container {
+  max-width: 80rem;
+  margin: 0 auto;
+  padding: 0 var(--uswds-spacing-2);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.usa-identifier__logos {
+  display: flex;
+  align-items: center;
+}
+
+.usa-identifier__logo-img {
+  width: 48px;
+  height: 48px;
+}
+
+.usa-identifier__identity {
+  flex: 1;
+  margin-left: var(--uswds-spacing-2);
+}
+
+.usa-identifier__identity-domain {
+  color: white;
+  font-size: 1.125rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+.usa-identifier__identity-disclaimer {
+  color: var(--uswds-color-base-lighter);
+  font-size: 0.875rem;
+  margin: 0;
+}
+
+.usa-identifier__identity-disclaimer a {
+  color: white;
+  text-decoration: underline;
+}
+
+.usa-identifier__identity-disclaimer a:hover {
+  text-decoration: none;
+}
+
+.usa-identifier__section--required-links {
+  background-color: var(--uswds-color-base-darker);
+  padding: var(--uswds-spacing-2) 0;
+}
+
+.usa-identifier__required-links-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--uswds-spacing-3);
+}
+
+.usa-identifier__required-link {
+  color: var(--uswds-color-base-lighter);
+  font-size: 0.875rem;
+  text-decoration: underline;
+}
+
+.usa-identifier__required-link:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.usa-identifier__section--usagov {
+  background-color: var(--uswds-color-base-darker);
+  padding: var(--uswds-spacing-2) 0;
+  border-top: 1px solid var(--uswds-color-base-dark);
+}
+
+.usa-identifier__usagov-description {
+  color: var(--uswds-color-base-lighter);
+  font-size: 0.875rem;
+  display: inline;
+  margin-right: var(--uswds-spacing-1);
+}
+
+.usa-identifier__section--usagov .usa-link {
+  color: white;
+  font-size: 0.875rem;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.usa-identifier__section--usagov .usa-link:hover {
+  text-decoration: none;
+}
+
+/* Footer layout fixes */
+.usa-identifier__section--masthead .grid-container {
+  max-width: 80rem;
+  margin: 0 auto;
+  padding: 0 var(--uswds-spacing-2);
+}
+
+.usa-identifier__section--masthead .grid-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: calc(var(--uswds-spacing-2) * -1);
+  margin-right: calc(var(--uswds-spacing-2) * -1);
+}
+
+.usa-identifier__section--masthead .grid-col-12 {
+  flex: 1 1 100%;
+  padding-left: var(--uswds-spacing-2);
+  padding-right: var(--uswds-spacing-2);
+}
+
+@media (min-width: 64rem) {
+  .usa-identifier__section--masthead .desktop\:grid-col-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+.footer-contact-section h3 {
+  color: white;
+  font-size: 0.9375rem;
+  margin-bottom: var(--uswds-spacing-05);
+  margin-top: 0;
+}
+
+.footer-contact-grid {
+  display: flex;
+  gap: var(--uswds-spacing-2);
+}
+
+.footer-contact-col {
+  flex: 1;
+}
+
+.footer-contact-section p {
+  color: var(--uswds-color-base-lighter);
+  margin-bottom: var(--uswds-spacing-05);
+  font-size: 0.8125rem;
+  line-height: 1.3;
+}
+
+.footer-contact-section strong {
+  color: white;
+  display: inline;
+  margin-right: 0.25rem;
+}
+
+/* Fix agency logo and text alignment */
+.usa-identifier__agency-info {
+  display: flex !important;
+  align-items: center !important;
+  flex-direction: row !important;
+}
+
+.usa-identifier__logo {
+  display: inline-block !important;
+  margin-right: var(--uswds-spacing-2) !important;
+  flex-shrink: 0;
+}
+
+.usa-identifier__logo-img {
+  display: block !important;
+  vertical-align: middle !important;
+}
+
+.usa-identifier__identity {
+  display: inline-block !important;
+  margin-left: 0 !important;
+  margin-top: 0 !important;
+}
+
+.usa-identifier__identity-domain {
+  display: inline !important;
+  color: white !important;
+  font-weight: bold !important;
+  margin-right: var(--uswds-spacing-1) !important;
+  margin-bottom: 0 !important;
+}
+
+.usa-identifier__identity-disclaimer {
+  display: inline !important;
+  color: var(--uswds-color-base-lighter) !important;
+  font-size: 0.875rem !important;
+  margin-bottom: 0 !important;
+}
+
+.footer-contact-section div {
+  color: var(--uswds-color-base-lighter);
+  margin-bottom: var(--uswds-spacing-05);
+  font-size: 0.8125rem;
+  line-height: 1.3;
+}
+
+.footer-contact-section a {
+  color: white;
+  text-decoration: underline;
+}
+
+.footer-contact-section a:hover {
+  text-decoration: none;
+}
+
+/* Stack on smaller screens */
+@media (max-width: 47.99rem) {
+  .footer-contact-grid {
+    flex-direction: column;
+    gap: var(--uswds-spacing-1);
+  }
+}
+
+/* Responsive adjustments */
+@media (max-width: 47.99rem) {
+  .usa-identifier__container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .usa-identifier__identity {
+    margin-left: 0;
+    margin-top: var(--uswds-spacing-2);
+  }
+  
+  .usa-identifier__required-links-list {
+    flex-direction: column;
+    gap: var(--uswds-spacing-2);
   }
 }
