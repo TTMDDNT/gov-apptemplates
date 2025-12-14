@@ -117,7 +117,9 @@ function Deploy-FromFolder {
         }
 
         # determine target environment based on folder path
-        $targetEnv = if ($folderPath -like "*cross-module*") {
+        $targetEnv = if ($folderPath -like "*agents*") {
+            "GOV APPS"
+        } elseif ($folderPath -like "*cross-module*") {
             "GOV UTILITY APPS"
         } elseif ($folderPath -like "*portals*") {
             if ($module -eq "core" -or $module -like "*core*") {
@@ -150,6 +152,10 @@ function Deploy-FromFolder {
 $crossFolder = Join-Path $projectRoot 'cross-module'
 $orderedFirst = @('core', 'process-and-tasking')
 Deploy-FromFolder -folderPath $crossFolder -orderedFirst $orderedFirst
+
+# Then: deploy agents folder (no special ordering beyond alphabetical)
+$agentsFolder = Join-Path $projectRoot 'agents'
+Deploy-FromFolder -folderPath $agentsFolder
 
 # Then: deploy modules folder (no special ordering beyond alphabetical)
 $modulesFolder = Join-Path $projectRoot 'modules'

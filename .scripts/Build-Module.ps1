@@ -6,7 +6,7 @@ $projectRoot = "$PSScriptRoot\.."
 . "${projectRoot}\.scripts\Util.ps1"
 
 # ask which type of ip
-$ipType = Select-ItemFromList "cross-module", "federal", "portals"
+$ipType = Select-ItemFromList "agents", "cross-module", "federal", "portals"
 $baseFolder = "$projectRoot\$ipType"
 
 # ask for which module to build

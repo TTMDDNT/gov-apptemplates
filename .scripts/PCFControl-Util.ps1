@@ -72,7 +72,7 @@ function Get-PCFControls {
         
         # Look in other solutions that might have PCF components
         $searchPaths = @(
-            "cross-module", "modules", "federal", "portals"
+            "agents", "cross-module", "modules", "federal", "portals"
         )
         foreach ($searchPath in $searchPaths) {
             $basePath = Join-Path $ProjectRoot $searchPath

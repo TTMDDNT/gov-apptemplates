@@ -13,7 +13,7 @@ Connect-DataverseEnvironment
 
 # ask which type of ip
 Write-Host ""
-$ipType = Select-ItemFromList "cross-module", "modules"
+$ipType = Select-ItemFromList "agents", "cross-module", "modules"
 
 # ask for which module to sync
 Write-Host ""

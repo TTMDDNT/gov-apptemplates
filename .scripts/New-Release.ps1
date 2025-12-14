@@ -48,7 +48,7 @@ function Copy-SolutionArtifact($sourceArtifact, $newVersion) {
 
 # ask which type of ip (if not provided as parameter)
 if (-not $IpType) {
-    $IpType = Select-ItemFromList "cross-module", "modules", "portals"
+    $IpType = Select-ItemFromList "agents", "cross-module", "modules", "portals"
 }
 $baseFolder = "$projectRoot\$IpType"
 

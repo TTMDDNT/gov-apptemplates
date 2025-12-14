@@ -20,7 +20,7 @@ Connect-DataverseTenant -authProfile $deploymentConfig.Tenant
 do {
     # ask which type of ip
     Write-Host ""
-    $ipType = Select-ItemFromList "cross-module", "modules", "portals"
+    $ipType = Select-ItemFromList "agents", "cross-module", "modules", "portals"
     
     if ($ipType -ne "") {
         $baseFolder = "$projectRoot\$ipType"
@@ -33,7 +33,11 @@ do {
 
         if ($module -ne "") {
             # determine target environment based on ipType and module name
-            if ($ipType -eq "cross-module") {
+            if ($ipType -eq "agents") {
+                $targetEnvKey = "GOV ENTERPRISE APPS"
+                $targetEnv = $deploymentConfig.Environments."GOV ENTERPRISE APPS"
+                Write-Host "Agent solutions will be deployed to: $targetEnv"
+            } elseif ($ipType -eq "cross-module") {
                 $targetEnvKey = "GOV APPS"
                 $targetEnv = $deploymentConfig.Environments."GOV APPS"
                 Write-Host "Cross-module solutions will be deployed to: $targetEnv"

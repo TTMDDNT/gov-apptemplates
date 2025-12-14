@@ -3,7 +3,7 @@ $projectRoot = "$PSScriptRoot\.."
 . "${projectRoot}\.scripts\Util.ps1"
 
 # ask which type of ip
-$ipType = Select-ItemFromList "cross-module", "modules", "portals"
+$ipType = Select-ItemFromList "agents", "cross-module", "modules", "portals"
 
 $friendlyName = Read-Host "Enter module name (spaces allowed)"
 
@@ -70,6 +70,7 @@ if ($importAnswer -eq 'y') {
 
     # determine target environment based on module type
     $targetEnv = switch ($ipType) {
+        "agents" { "GOV APPS" }
         "cross-module" { "GOV UTILITY APPS" }
         "portals" { 
             if ($solutionFolderName -eq "core" -or $friendlyName.ToLower() -like "*core*") {

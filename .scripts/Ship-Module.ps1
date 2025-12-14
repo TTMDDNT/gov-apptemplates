@@ -30,7 +30,7 @@ Connect-DataverseEnvironment -envName $targetEnv
 do {
     # ask which type of module to ship
     Write-Host ""
-    $ipType = Select-ItemFromList "cross-module", "modules", "portals"
+    $ipType = Select-ItemFromList "agents", "cross-module", "modules", "portals"
     
     if ($ipType -ne "") {
         $baseFolder = "$projectRoot\$ipType"

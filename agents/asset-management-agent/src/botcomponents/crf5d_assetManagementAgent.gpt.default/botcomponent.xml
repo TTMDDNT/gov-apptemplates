@@ -1,0 +1,11 @@
+<botcomponent schemaname="crf5d_assetManagementAgent.gpt.default">
+  <componenttype>15</componenttype>
+  <description>This agent helps government agencies to manage physical assets such as computer equipment, office supplies, and other personal property items.</description>
+  <iscustomizable>0</iscustomizable>
+  <name>Asset Management Agent</name>
+  <parentbotid>
+    <schemaname>crf5d_assetManagementAgent</schemaname>
+  </parentbotid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</botcomponent>

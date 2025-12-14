@@ -47,7 +47,7 @@ while ($true) {
 
     # ask which type of ip
     Write-Host ""
-    $ipType = Select-ItemFromList "cross-module", "modules", "exit"
+    $ipType = Select-ItemFromList "agents", "cross-module", "modules", "exit"
     if ($ipType -eq 'exit') { break }
 
     # ask for which module

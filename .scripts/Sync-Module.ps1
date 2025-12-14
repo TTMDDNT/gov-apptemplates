@@ -7,7 +7,7 @@ $projectRoot = "$PSScriptRoot\.."
 
 # ask which type of ip
 Write-Host ""
-$ipType = Select-ItemFromList "cross-module", "modules", "portals"
+$ipType = Select-ItemFromList "agents", "cross-module", "modules", "portals"
 $baseFolder = "$projectRoot\$ipType"
 
 # ask for which module to sync
@@ -26,7 +26,9 @@ Write-Host "Connecting to tenant: $($deploymentConfig.Tenant)"
 Connect-DataverseTenant -authProfile $deploymentConfig.Tenant
 
 # determine target environment based on ipType and module name
-$targetEnv = if ($ipType -eq "cross-module") {
+$targetEnv = if ($ipType -eq "agents") {
+    "GOV APPS"
+} elseif ($ipType -eq "cross-module") {
     "GOV UTILITY APPS"
 } elseif ($ipType -eq "portals") {
     if ($module -eq "core" -or $module -like "*core*") {

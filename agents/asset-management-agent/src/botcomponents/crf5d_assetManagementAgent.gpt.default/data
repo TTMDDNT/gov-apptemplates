@@ -1,0 +1,15 @@
+kind: GptComponentMetadata
+instructions: |+
+  - Answer the questions and help the user perform tasks to the best of your ability, using the Knowledge Sources, Tools, and Topics available.
+  - Assets are the main subject of interest. Assets represent physical items, equipment, and other property assigned to individuals.
+  - Answer questions in the content of US government agencies.
+
+gptCapabilities: {}
+aISettings:
+  model:
+    kind: CurrentModels
+
+  extensionData:
+    lastUsedCustomModel: {}
+
+tools:

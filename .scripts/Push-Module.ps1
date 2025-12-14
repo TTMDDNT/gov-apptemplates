@@ -25,7 +25,7 @@ if ($true -eq (Confirm-Next "Proceed (y/n)?")) {
         Write-Host "=== Module Selection ===" -ForegroundColor Cyan
 
         # ask which type of module
-        $ipTypeOptions = @("cross-module", "modules", "portals", "Exit")
+        $ipTypeOptions = @("agents", "cross-module", "modules", "portals", "Exit")
         $ipType = Select-ItemFromList $ipTypeOptions
         
         if ($ipType -eq "Exit") {
@@ -48,7 +48,9 @@ if ($true -eq (Confirm-Next "Proceed (y/n)?")) {
         }
 
         # determine target environment based on ipType and module name
-        $targetEnv = if ($ipType -eq "cross-module") {
+        $targetEnv = if ($ipType -eq "agents") {
+            "GOV APPS"
+        } elseif ($ipType -eq "cross-module") {
             "GOV UTILITY APPS"
         } elseif ($ipType -eq "portals") {
             if ($module -eq "core-portal") {
