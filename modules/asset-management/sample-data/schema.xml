@@ -1,0 +1,74 @@
+<entities >
+  <entity name="account" displayname="Account" etc="1" primaryidfield="accountid" primarynamefield="name" disableplugins="false">
+    <fields>
+      <field displayname="Account" name="accountid" type="guid" primaryKey="true" />
+      <field displayname="Account Name" name="name" type="string" />
+      <field displayname="Main Phone" name="telephone1" type="string" />
+      <field displayname="Website" name="websiteurl" type="string" />
+      <field displayname="Email" name="emailaddress1" type="string" />
+      <field displayname="Description" name="description" type="string" />
+    </fields>
+  </entity>
+  <entity name="govcdm_asset" displayname="Asset" etc="10654" primaryidfield="govcdm_assetid" primarynamefield="govcdm_name" disableplugins="false">
+    <fields>
+      <field displayname="Acquired Date Time" name="govcdm_acquireddatetime" type="datetime" customfield="true" />
+      <field displayname="Asset" name="govcdm_assetid" type="guid" primaryKey="true" />
+      <field displayname="Asset Category" name="govcdm_assetcategory" type="entityreference" lookupType="govcdm_assetcategory" customfield="true" />
+      <field displayname="Asset Number" name="govcdm_assetnumber" type="string" customfield="true" />
+      <field displayname="Asset Status" name="govcdm_assetstatus" type="optionsetvalue" customfield="true" />
+      <field displayname="Unit Cost" name="govcdm_unitcost" type="money" customfield="true" />
+      <field displayname="Service Tag" name="govcdm_servicetag" type="string" customfield="true" />
+      <field displayname="Serial Number" name="govcdm_serialnumber" type="string" customfield="true" />
+      <field displayname="RF Tag" name="govcdm_rftag" type="string" customfield="true" />
+      <field displayname="Current Owner" name="govcdm_currentowner" type="entityreference" lookupType="govcdm_assetowner" customfield="true" />
+      <field displayname="Description" name="govcdm_description" type="string" customfield="true" />
+      <field displayname="Last Inventory Date" name="govcdm_lastinventorydate" type="datetime" customfield="true" />
+      <field displayname="Location" name="govcdm_location" type="entityreference" lookupType="govcdm_location" customfield="true" />
+      <field displayname="Location Note" name="govcdm_locationnote" type="string" customfield="true" />
+      <field displayname="Name" name="govcdm_name" type="string" customfield="true" />
+      <field displayname="Notes" name="govcdm_notes" type="string" customfield="true" />
+      <field displayname="Organization Unit" name="govcdm_organizationunit" type="entityreference" lookupType="govcdm_organizationunit" customfield="true" />
+      <field displayname="Parent Asset" name="govcdm_parentasset" type="entityreference" lookupType="govcdm_asset" customfield="true" />
+      <field displayname="Purchased Date" name="govcdm_purchaseddate" type="datetime" customfield="true" />
+      <field displayname="Quantity" name="govcdm_quantity" type="float" customfield="true" />
+      <field displayname="Related Product" name="govcdm_relatedproduct" type="entityreference" lookupType="govcdm_product" customfield="true" />
+      <field displayname="Unit Cost (Base)" name="govcdm_unitcost_base" type="money" customfield="true" />
+    </fields>
+  </entity>
+  <entity name="govcdm_assetcategory" displayname="Asset Category" etc="10655" primaryidfield="govcdm_assetcategoryid" primarynamefield="govcdm_name" disableplugins="false">
+    <fields>
+      <field displayname="Asset Category" name="govcdm_assetcategoryid" type="guid" primaryKey="true" />
+      <field displayname="Name" name="govcdm_name" type="string" customfield="true" />
+      <field displayname="Parent Asset Category" name="govcdm_parentassetcategory" type="entityreference" lookupType="govcdm_assetcategory" customfield="true" />
+    </fields>
+  </entity>
+  <entity name="govcdm_assetservicerecord" displayname="Asset Service Record" etc="10657" primaryidfield="govcdm_assetservicerecordid" primarynamefield="govcdm_name" disableplugins="false">
+    <fields>
+      <field displayname="Actual Return Date Time" name="govcdm_actualreturndatetime" type="datetime" customfield="true" />
+      <field displayname="Asset" name="govcdm_asset" type="entityreference" lookupType="govcdm_asset" customfield="true" />
+      <field displayname="Asset Service Record" name="govcdm_assetservicerecordid" type="guid" primaryKey="true" />
+      <field displayname="Expected Return Date Time" name="govcdm_expectedreturndatetime" type="datetime" customfield="true" />
+      <field displayname="Name" name="govcdm_name" type="string" customfield="true" />
+      <field displayname="Service End Date Time" name="govcdm_serviceenddatetime" type="datetime" customfield="true" />
+      <field displayname="Service Location" name="govcdm_servicelocation" type="entityreference" lookupType="govcdm_location" customfield="true" />
+      <field displayname="Service Notes" name="govcdm_servicenotes" type="string" customfield="true" />
+      <field displayname="Service Request Date Time" name="govcdm_servicerequestdatetime" type="datetime" customfield="true" />
+      <field displayname="Service Request Description" name="govcdm_servicerequestdescription" type="string" customfield="true" />
+      <field displayname="Service Start Date Time" name="govcdm_servicestartdatetime" type="datetime" customfield="true" />
+    </fields>
+  </entity>
+  <entity name="govcdm_product" displayname="Product" etc="10508" primaryidfield="govcdm_productid" primarynamefield="govcdm_name" disableplugins="false">
+    <fields>
+      <field displayname="Description" name="govcdm_description" type="string" customfield="true" />
+      <field displayname="Manufacturer" name="govcdm_manufacturer" type="entityreference" lookupType="account" customfield="true" />
+      <field displayname="Parent Product" name="govcdm_parentproduct" type="entityreference" lookupType="govcdm_product" customfield="true" />
+      <field displayname="Name" name="govcdm_name" type="string" customfield="true" />
+      <field displayname="Product" name="govcdm_productid" type="guid" primaryKey="true" />
+      <field displayname="Product Number" name="govcdm_productnumber" type="string" customfield="true" />
+      <field displayname="Unit of Issue" name="govcdm_unitofissue" type="optionsetvalue" customfield="true" />
+      <field displayname="Unit Price" name="govcdm_unitprice" type="money" customfield="true" />
+      <field displayname="Unit Price (Base)" name="govcdm_unitprice_base" type="money" customfield="true" />
+      <field displayname="URL" name="govcdm_url" type="string" customfield="true" />
+    </fields>
+  </entity>
+</entities>
