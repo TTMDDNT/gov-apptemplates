@@ -1,0 +1,52 @@
+<entities >
+  <entity name="govcdm_itsystem" displayname="IT System" etc="10738" primaryidfield="govcdm_itsystemid" primarynamefield="govcdm_name" disableplugins="false">
+    <fields>
+      <field displayname="URL" name="govcdm_url" type="string" customfield="true" />
+      <field displayname="Visibility" name="govcdm_visibility" type="optionsetvalue" customfield="true" />
+      <field displayname="Security Classification" name="govcdm_securityclassification" type="optionsetvalue" customfield="true" />
+      <field displayname="Public API Endpoint" name="govcdm_publicapiendpoint" type="string" customfield="true" />
+      <field displayname="Primary Technology" name="govcdm_primarytechnology" type="entityreference" lookupType="govcdm_ittechnology" customfield="true" />
+      <field displayname="Point of Contact" name="govcdm_pointofcontact" type="entityreference" lookupType="contact" customfield="true" />
+      <field displayname="Primary IT Hosting Model" name="govcdm_primaryithostingmodel" type="optionsetvalue" customfield="true" />
+      <field displayname="Operational Status" name="govcdm_operationalstatus" type="optionsetvalue" customfield="true" />
+      <field displayname="Next Review Date" name="govcdm_nextreviewdate" type="datetime" customfield="true" />
+      <field displayname="Name" name="govcdm_name" type="string" customfield="true" />
+      <field displayname="Lifecycle Stage" name="govcdm_lifecyclestage" type="optionsetvalue" customfield="true" />
+      <field displayname="Last Review Date" name="govcdm_lastreviewdate" type="datetime" customfield="true" />
+      <field displayname="IT System" name="govcdm_itsystemid" type="guid" primaryKey="true" />
+      <field displayname="IT Datacenter" name="govcdm_itdatacenter" type="entityreference" lookupType="govcdm_itdatacenter" customfield="true" />
+      <field displayname="Is Public API Available?" name="govcdm_ispublicapiavailable" type="optionsetvalue" customfield="true" />
+      <field displayname="Information Security Officer" name="govcdm_informationsecurityofficer" type="entityreference" lookupType="contact" customfield="true" />
+      <field displayname="Description" name="govcdm_description" type="string" customfield="true" />
+      <field displayname="Dependencies Summary" name="govcdm_dependenciessummary" type="string" customfield="true" />
+      <field displayname="Criticality" name="govcdm_criticality" type="optionsetvalue" customfield="true" />
+      <field displayname="Catalog Status" name="govcdm_catalogstatus" type="optionsetvalue" customfield="true" />
+      <field displayname="ATO (Authority to Operate)" name="govcdm_atoauthoritytooperate" type="entityreference" lookupType="govcdm_itsystemaccreditation" customfield="true" />
+      <field displayname="Abbreviation" name="govcdm_abbreviation" type="string" customfield="true" />
+    </fields>
+  </entity>
+  <entity name="govcdm_itsystemcomponenttype" displayname="IT System Component Type" etc="10877" primaryidfield="govcdm_itsystemcomponenttypeid" primarynamefield="govcdm_name" disableplugins="false">
+    <fields>
+      <field displayname="IT System Component Type" name="govcdm_itsystemcomponenttypeid" type="guid" primaryKey="true" />
+      <field displayname="Name" name="govcdm_name" type="string" customfield="true" />
+    </fields>
+  </entity>
+  <entity name="govcdm_ittechnology" displayname="IT Technology" etc="10881" primaryidfield="govcdm_ittechnologyid" primarynamefield="govcdm_name" disableplugins="false">
+    <fields>
+      <field displayname="Description" name="govcdm_description" type="string" customfield="true" />
+      <field displayname="IT Technology" name="govcdm_ittechnologyid" type="guid" primaryKey="true" />
+      <field displayname="IT Technology Type" name="govcdm_ittechnologytype" type="entityreference" lookupType="govcdm_ittechnologytype" customfield="true" />
+      <field displayname="Vendor" name="govcdm_vendor" type="entityreference" lookupType="account" customfield="true" />
+      <field displayname="Name" name="govcdm_name" type="string" customfield="true" />
+    </fields>
+  </entity>
+  <entity name="govcdm_ittechnologytype" displayname="IT Technology Type" etc="10887" primaryidfield="govcdm_ittechnologytypeid" primarynamefield="govcdm_name" disableplugins="false">
+    <fields>
+      <field displayname="Description" name="govcdm_description" type="string" customfield="true" />
+      <field displayname="IT Technology Category" name="govcdm_ittechnologycategory" type="optionsetvalue" customfield="true" />
+      <field displayname="IT Technology Type" name="govcdm_ittechnologytypeid" type="guid" primaryKey="true" />
+      <field displayname="Name" name="govcdm_name" type="string" customfield="true" />
+      <field displayname="Parent IT Technology Type" name="govcdm_parentittechnologytype" type="entityreference" lookupType="govcdm_ittechnologytype" customfield="true" />
+    </fields>
+  </entity>
+</entities>
