@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ImportExportXml version="9.2.25083.183" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" OrganizationVersion="9.2.25083.183" OrganizationSchemaType="Standard" CRMServerServiceabilityVersion="9.2.25084.00181">
+<ImportExportXml version="9.2.25104.170" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" OrganizationVersion="9.2.25104.170" OrganizationSchemaType="Standard" CRMServerServiceabilityVersion="9.2.25111.00174">
   <SolutionManifest>
     <UniqueName>msgov_projecttracking</UniqueName>
     <LocalizedNames>
       <LocalizedName description="Microsoft Gov - Project Tracking" languagecode="1033" />
     </LocalizedNames>
     <Descriptions />
-    <Version>1.1.0.0</Version>
+    <Version>1.1.1.0</Version>
     <Managed>2</Managed>
     <Publisher>
       <UniqueName>msgovsolutions</UniqueName>
@@ -14,12 +14,12 @@
         <LocalizedName description="Microsoft Government Solutions" languagecode="1033" />
       </LocalizedNames>
       <Descriptions>
-        <Description description="Microsoft Government Solutions" languagecode="1033" />
+        <Description description="msgovsolutions" languagecode="1033" />
       </Descriptions>
       <EMailAddress xsi:nil="true"></EMailAddress>
       <SupportingWebsiteUrl xsi:nil="true"></SupportingWebsiteUrl>
       <CustomizationPrefix>msgov</CustomizationPrefix>
-      <CustomizationOptionValuePrefix>18844</CustomizationOptionValuePrefix>
+      <CustomizationOptionValuePrefix>38751</CustomizationOptionValuePrefix>
       <Addresses>
         <Address>
           <AddressNumber>1</AddressNumber>
@@ -90,7 +90,6 @@
       <RootComponent type="1" schemaName="govcdm_projectrole" behavior="2" />
       <RootComponent type="1" schemaName="govcdm_projectworkitem" behavior="2" />
       <RootComponent type="1" schemaName="govcdm_projectworkitemtype" behavior="2" />
-      <RootComponent type="29" id="{4e71fc26-ef74-ee11-9ae7-6045bd0062b9}" behavior="0" />
       <RootComponent type="300" schemaName="msgov_jobboard_eed01" behavior="0" />
       <RootComponent type="300" schemaName="msgov_projectrequestapp_10067" behavior="0" />
       <RootComponent type="60" id="{b36e4776-e674-ee11-9ae7-6045bd0062b9}" behavior="0" />
@@ -103,196 +102,40 @@
         <Dependent type="1" schemaName="govcdm_project" displayName="Project" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="1" schemaName="govcdm_project" displayName="Project" solution="govcdm_projecttracking (1.0.0.2)" />
-        <Dependent type="26" schemaName="Current Projects" displayName="Current Projects" parentSchemaName="govcdm_project" parentDisplayName="Project" id="{aa4dfd93-e274-ee11-9ae7-6045bd0062b9}" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required type="1" schemaName="govcdm_project" displayName="Project" solution="govcdm_projecttracking (1.0.0.2)" />
-        <Dependent type="300" schemaName="msgov_jobboard_eed01" displayName="Job Board" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required type="1" schemaName="govcdm_project" displayName="Project" solution="govcdm_projecttracking (1.0.0.2)" />
-        <Dependent type="60" displayName="Quick Create" parentDisplayName="Project" id="{0e0adf6f-e274-ee11-9ae7-6045bd0062b9}" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required type="1" schemaName="govcdm_project" displayName="Project" solution="govcdm_projecttracking (1.0.0.2)" />
-        <Dependent type="60" displayName="Main" parentDisplayName="Project Request" id="{d0a9dc3f-e074-ee11-9ae7-6045bd0062b9}" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required type="1" schemaName="govcdm_project" displayName="Project" solution="govcdm_projecttracking (1.0.0.2)" />
-        <Dependent type="60" displayName="Main" parentDisplayName="Project" id="{fe9074c2-e074-ee11-9ae7-6045bd0062b9}" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required type="1" schemaName="govcdm_project" displayName="Project" solution="govcdm_projecttracking (1.0.0.2)" />
-        <Dependent type="62" schemaName="msgov_ProjectTracking" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required type="1" schemaName="govcdm_project" displayName="Project" solution="govcdm_projecttracking (1.0.0.2)" />
-        <Dependent type="80" schemaName="msgov_ProjectTracking" displayName="Project Tracking" />
-      </MissingDependency>
-      <MissingDependency>
         <Required type="1" schemaName="govcdm_projectbacklog" displayName="Project Backlog" solution="govcdm_projecttracking (1.0.0.2)" />
         <Dependent type="1" schemaName="govcdm_projectbacklog" displayName="Project Backlog" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required type="1" schemaName="govcdm_projectbacklog" displayName="Project Backlog" solution="govcdm_projecttracking (1.0.0.2)" />
-        <Dependent type="60" displayName="Main" parentDisplayName="Project" id="{fe9074c2-e074-ee11-9ae7-6045bd0062b9}" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required type="1" schemaName="govcdm_projectbacklog" displayName="Project Backlog" solution="govcdm_projecttracking (1.0.0.2)" />
-        <Dependent type="62" schemaName="msgov_ProjectTracking" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required type="1" schemaName="govcdm_projectbacklog" displayName="Project Backlog" solution="govcdm_projecttracking (1.0.0.2)" />
-        <Dependent type="80" schemaName="msgov_ProjectTracking" displayName="Project Tracking" />
       </MissingDependency>
       <MissingDependency>
         <Required type="1" schemaName="govcdm_projectchangerequest" displayName="Project Change Request" solution="govcdm_projecttracking (1.0.0.2)" />
         <Dependent type="1" schemaName="govcdm_projectchangerequest" displayName="Project Change Request" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="1" schemaName="govcdm_projectchangerequest" displayName="Project Change Request" solution="govcdm_projecttracking (1.0.0.2)" />
-        <Dependent type="60" displayName="Main" parentDisplayName="Project" id="{fe9074c2-e074-ee11-9ae7-6045bd0062b9}" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required type="1" schemaName="govcdm_projectchangerequest" displayName="Project Change Request" solution="govcdm_projecttracking (1.0.0.2)" />
-        <Dependent type="62" schemaName="msgov_ProjectTracking" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required type="1" schemaName="govcdm_projectchangerequest" displayName="Project Change Request" solution="govcdm_projecttracking (1.0.0.2)" />
-        <Dependent type="80" schemaName="msgov_ProjectTracking" displayName="Project Tracking" />
-      </MissingDependency>
-      <MissingDependency>
         <Required type="1" schemaName="govcdm_projectiteration" displayName="Project Iteration" solution="govcdm_projecttracking (1.0.0.2)" />
         <Dependent type="1" schemaName="govcdm_projectiteration" displayName="Project Iteration" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required type="1" schemaName="govcdm_projectiteration" displayName="Project Iteration" solution="govcdm_projecttracking (1.0.0.2)" />
-        <Dependent type="60" displayName="Main" parentDisplayName="Project" id="{fe9074c2-e074-ee11-9ae7-6045bd0062b9}" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required type="1" schemaName="govcdm_projectiteration" displayName="Project Iteration" solution="govcdm_projecttracking (1.0.0.2)" />
-        <Dependent type="62" schemaName="msgov_ProjectTracking" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required type="1" schemaName="govcdm_projectiteration" displayName="Project Iteration" solution="govcdm_projecttracking (1.0.0.2)" />
-        <Dependent type="80" schemaName="msgov_ProjectTracking" displayName="Project Tracking" />
       </MissingDependency>
       <MissingDependency>
         <Required type="1" schemaName="govcdm_projectmilestone" displayName="Project Milestone" solution="govcdm_projecttracking (1.0.0.2)" />
         <Dependent type="1" schemaName="govcdm_projectmilestone" displayName="Project Milestone" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="1" schemaName="govcdm_projectmilestone" displayName="Project Milestone" solution="govcdm_projecttracking (1.0.0.2)" />
-        <Dependent type="60" displayName="Main" parentDisplayName="Project" id="{fe9074c2-e074-ee11-9ae7-6045bd0062b9}" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required type="1" schemaName="govcdm_projectmilestone" displayName="Project Milestone" solution="govcdm_projecttracking (1.0.0.2)" />
-        <Dependent type="62" schemaName="msgov_ProjectTracking" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required type="1" schemaName="govcdm_projectmilestone" displayName="Project Milestone" solution="govcdm_projecttracking (1.0.0.2)" />
-        <Dependent type="80" schemaName="msgov_ProjectTracking" displayName="Project Tracking" />
-      </MissingDependency>
-      <MissingDependency>
         <Required type="1" schemaName="govcdm_projectrequest" displayName="Project Request" solution="govcdm_projecttracking (1.0.0.2)" />
         <Dependent type="1" schemaName="govcdm_projectrequest" displayName="Project Request" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required type="1" schemaName="govcdm_projectrequest" displayName="Project Request" solution="govcdm_projecttracking (1.0.0.2)" />
-        <Dependent type="26" schemaName="Current Project Requests" displayName="Current Project Requests" parentSchemaName="govcdm_projectrequest" parentDisplayName="Project Request" id="{8e98f07a-e374-ee11-9ae7-6045bd0062b9}" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required type="1" schemaName="govcdm_projectrequest" displayName="Project Request" solution="govcdm_projecttracking (1.0.0.2)" />
-        <Dependent type="29" displayName="New Project Request" id="{4e71fc26-ef74-ee11-9ae7-6045bd0062b9}" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required type="1" schemaName="govcdm_projectrequest" displayName="Project Request" solution="govcdm_projecttracking (1.0.0.2)" />
-        <Dependent type="300" schemaName="msgov_projectrequestapp_10067" displayName="Project Request App" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required type="1" schemaName="govcdm_projectrequest" displayName="Project Request" solution="govcdm_projecttracking (1.0.0.2)" />
-        <Dependent type="59" schemaName="By Approval Status" displayName="By Approval Status" parentSchemaName="govcdm_projectrequest" parentDisplayName="Project Request" id="{b948c63d-e674-ee11-9ae7-6045bd0062b9}" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required type="1" schemaName="govcdm_projectrequest" displayName="Project Request" solution="govcdm_projecttracking (1.0.0.2)" />
-        <Dependent type="60" displayName="Project Requests" id="{b36e4776-e674-ee11-9ae7-6045bd0062b9}" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required type="1" schemaName="govcdm_projectrequest" displayName="Project Request" solution="govcdm_projecttracking (1.0.0.2)" />
-        <Dependent type="60" displayName="Main" parentDisplayName="Project Request" id="{d0a9dc3f-e074-ee11-9ae7-6045bd0062b9}" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required type="1" schemaName="govcdm_projectrequest" displayName="Project Request" solution="govcdm_projecttracking (1.0.0.2)" />
-        <Dependent type="62" schemaName="msgov_ProjectTracking" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required type="1" schemaName="govcdm_projectrequest" displayName="Project Request" solution="govcdm_projecttracking (1.0.0.2)" />
-        <Dependent type="80" schemaName="msgov_ProjectTracking" displayName="Project Tracking" />
       </MissingDependency>
       <MissingDependency>
         <Required type="1" schemaName="govcdm_projectresource" displayName="Project Resource" solution="govcdm_projecttracking (1.0.0.2)" />
         <Dependent type="1" schemaName="govcdm_projectresource" displayName="Project Resource" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="1" schemaName="govcdm_projectresource" displayName="Project Resource" solution="govcdm_projecttracking (1.0.0.2)" />
-        <Dependent type="300" schemaName="msgov_jobboard_eed01" displayName="Job Board" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required type="1" schemaName="govcdm_projectresource" displayName="Project Resource" solution="govcdm_projecttracking (1.0.0.2)" />
-        <Dependent type="60" displayName="Main" parentDisplayName="Project" id="{fe9074c2-e074-ee11-9ae7-6045bd0062b9}" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required type="1" schemaName="govcdm_projectresource" displayName="Project Resource" solution="govcdm_projecttracking (1.0.0.2)" />
-        <Dependent type="62" schemaName="msgov_ProjectTracking" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required type="1" schemaName="govcdm_projectresource" displayName="Project Resource" solution="govcdm_projecttracking (1.0.0.2)" />
-        <Dependent type="80" schemaName="msgov_ProjectTracking" displayName="Project Tracking" />
-      </MissingDependency>
-      <MissingDependency>
         <Required type="1" schemaName="govcdm_projectrole" displayName="Project Role" solution="govcdm_projecttracking (1.0.0.2)" />
         <Dependent type="1" schemaName="govcdm_projectrole" displayName="Project Role" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required type="1" schemaName="govcdm_projectrole" displayName="Project Role" solution="govcdm_projecttracking (1.0.0.2)" />
-        <Dependent type="62" schemaName="msgov_ProjectTracking" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required type="1" schemaName="govcdm_projectrole" displayName="Project Role" solution="govcdm_projecttracking (1.0.0.2)" />
-        <Dependent type="80" schemaName="msgov_ProjectTracking" displayName="Project Tracking" />
       </MissingDependency>
       <MissingDependency>
         <Required type="1" schemaName="govcdm_projectworkitem" displayName="Project Work Item" solution="govcdm_projecttracking (1.0.0.2)" />
         <Dependent type="1" schemaName="govcdm_projectworkitem" displayName="Project Work Item" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="1" schemaName="govcdm_projectworkitem" displayName="Project Work Item" solution="govcdm_projecttracking (1.0.0.2)" />
-        <Dependent type="300" schemaName="msgov_jobboard_eed01" displayName="Job Board" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required type="1" schemaName="govcdm_projectworkitem" displayName="Project Work Item" solution="govcdm_projecttracking (1.0.0.2)" />
-        <Dependent type="60" displayName="Main" parentDisplayName="Project" id="{fe9074c2-e074-ee11-9ae7-6045bd0062b9}" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required type="1" schemaName="govcdm_projectworkitem" displayName="Project Work Item" solution="govcdm_projecttracking (1.0.0.2)" />
-        <Dependent type="62" schemaName="msgov_ProjectTracking" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required type="1" schemaName="govcdm_projectworkitem" displayName="Project Work Item" solution="govcdm_projecttracking (1.0.0.2)" />
-        <Dependent type="80" schemaName="msgov_ProjectTracking" displayName="Project Tracking" />
-      </MissingDependency>
-      <MissingDependency>
         <Required type="1" schemaName="govcdm_projectworkitemtype" displayName="Project Work Item Type" solution="govcdm_projecttracking (1.0.0.2)" />
         <Dependent type="1" schemaName="govcdm_projectworkitemtype" displayName="Project Work Item Type" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required type="1" schemaName="govcdm_projectworkitemtype" displayName="Project Work Item Type" solution="govcdm_projecttracking (1.0.0.2)" />
-        <Dependent type="62" schemaName="msgov_ProjectTracking" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required type="1" schemaName="govcdm_projectworkitemtype" displayName="Project Work Item Type" solution="govcdm_projecttracking (1.0.0.2)" />
-        <Dependent type="80" schemaName="msgov_ProjectTracking" displayName="Project Tracking" />
       </MissingDependency>
       <MissingDependency>
         <Required type="10" schemaName="govcdm_govcdm_project_ParentProject_govcdm_proje" displayName="govcdm_govcdm_project_ParentProject_govcdm_proje" parentSchemaName="govcdm_project" parentDisplayName="Project" solution="govcdm_projecttracking (1.0.0.2)" />
